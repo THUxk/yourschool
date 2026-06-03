@@ -944,7 +944,6 @@ function showReviewForm(courseId, courseName) {
         const rating = parseInt(ratingInput.value);
         const comment = form.querySelector('#review-comment').value.trim();
         const score = form.querySelector('#review-score').value.trim();
-        const semester = form.querySelector('#review-semester').value.trim();
 
         if (!finalCourseId) {
             errEl.textContent = '请搜索并选择课程';
