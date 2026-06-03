@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1151,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：平时作业与课堂表现+三次实验+期中期末考试\n\n授课质量与给分：烂，倚老卖老，不调分\n\n点评人：未央某土木爱好者\n\n上课学期：2023秋",
+            "created_at": "2024/07/24 02:53",
+            "modified_at": "2024/07/24 02:53",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

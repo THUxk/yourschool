@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2322,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：期中1+期中2+期末+quiz+作业\n\n授课质量与给分：\n电子电路与系统基础=电路原理+0.9*（数字电路+模拟电路）+信号与系统的一部分知识\n上4学分电电的学生水平普遍较高，（好像是专门为因材施教学生开的课程）ppt清晰但ppt上的例题远低于真正考试题目，考试要求很快的解题速度（不然写不完），要求学生自己去看英文教材，个人认为老师教的还好，但三次考试只要有一次考试发挥失常会体验到绩点直接二点多的奇迹，建议有较强的自学能力的同学选4学分电电，似乎不调分，考试难度比glgg低一点，但给分比glgg差\n\n点评人：无43\n\n上课学期：2025春",
+            "created_at": "2025/06/28 10:58",
+            "modified_at": "2025/06/28 10:58",
+            "score": "3.x",
+            "moderator_remark": null
+        },
+        {
+            "id": 1306,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业+quiz 20%； 期中1 20%； 期中2 20%； 期末 40% \n\n授课质量与给分：\n课程相比glgg简单不少，mljj讲授很清晰；一些课上有quiz，似乎主要用于查考勤；作业略多，但能强化概念；考试比较基础，且内容基本可被作业题及往年题覆盖，但似乎不调分。\n\n上课学期：2024S",
+            "created_at": "2024/09/09 08:26",
+            "modified_at": "2024/09/09 08:26",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

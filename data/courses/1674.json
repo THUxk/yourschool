@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 489,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "学的是剑术，考试就是小组打套路，有一部分要自己发挥。老师人特别好，上课普及很多传统武术知识，含金量堪比文素课。老师每周还会开放小课帮同学练习，很有针对性。总体难度不太大，有困难老师也会帮忙解决，推荐！",
+            "created_at": "2024/07/21 15:54",
+            "modified_at": "2024/07/21 15:54",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

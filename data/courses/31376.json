@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1255,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期末结题+平时表现\n\n授课质量与给分：老师对课程非常用心，课程内容形式多样、丰富有趣。考核为分小组选题、做出一个有关仿生学的小项目，本以为很难，但老师对同学的指导非常到位，给了我们很大帮助。最后给分应该还不错，我们的项目还挺水的也有4.0\n\n上课学期：23-24春",
+            "created_at": "2024/07/30 14:48",
+            "modified_at": "2024/07/30 14:48",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

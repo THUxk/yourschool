@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2904,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业60%+签到5%+期末考试35%\n\n授课质量与给分：英文ppt+中文授课，内容难度适中，老师讲课比较风趣；上课随机点名回答问题，每周的作业基本可在20分钟内完成，不过助教判作业较严，建议提交前检查一下；期末对于计算机无关专业学生可能有一定难度，但稍做准备基本问题不大。作为通识课任务量略多，好在给分标准透明\n\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/01/30 22:20",
+            "modified_at": "2026/01/30 22:20",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1947,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：助教傻逼无需多言\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/02/21 16:15",
+            "modified_at": "2025/02/21 16:15",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 1925,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业60%（9次作业+1次随堂考）+期末考试35%+上课打卡5%\n\n授课质量与给分：讲课就是念PPT，真不如自己看上传到网络学堂的教材和PPT，不过确实能学到很多东西。老师上课会随机全场点名回答问题，一堂课大概3-4次。不过作业比较简单，考试的话认真做作业就行，基本上都是类似的题。不摆烂的话给分不至于太差，因为作业基本可以满分，期末考试考个85分以上就行。\n\n点评人：anonymous\n\n上课学期：2024秋 大一上",
+            "created_at": "2025/02/20 00:44",
+            "modified_at": "2025/02/20 00:44",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1671,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：\n非常不推荐新生选，有大量👻系🍵园的人选，卷的要命，而且老登学过das后过来等压真的是拼尽全力无法战胜\n点评人：\n\n上课学期：",
+            "created_at": "2025/01/24 20:58",
+            "modified_at": "2025/01/24 20:58",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1549,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：作业+期末考\n点评人：十二楼的月亮\n上课学期：大一上\n一个通识课能让我这么难受，我已经不推荐了，我不是计系的，感觉不好水，几个计系的朋友也觉得不好水，作为通识课属实有点让人难受了。我感觉讲的课很催眠，教室里还经常能挨上几个狂得没边的计系的人（不是地图炮哈，那几个的确是计系的）上课叽叽喳喳，上课体验极差。作业和考试纯英文，讲课用中文，PPT用英文。",
+            "created_at": "2024/12/23 15:35",
+            "modified_at": "2024/12/23 15:35",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

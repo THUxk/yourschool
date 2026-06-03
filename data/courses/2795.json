@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1348,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：PF\n\n授课质量与给分：8节课分别8个教授讲，最后写个2000字以上论文，包含这节课你最感兴趣的一个生物学问题，你自己感兴趣的（可以在课程内容外）的未有解答的问题设计实验，以及给这门课的建议。一个学分两个学时\n\n点评人：\n\n上课学期：秋季",
+            "created_at": "2024/11/23 22:28",
+            "modified_at": "2024/11/23 22:28",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 87,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "分8个模块，介绍模块中的主要研究对象、基本概念、主要应用，同时简要介绍最新研究进展，最终大作业要求谈论对学科的了解、对课程的建议并设计一个生物学有关实验。",
+            "created_at": "2024/07/21 12:23",
+            "modified_at": "2024/07/21 12:23",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

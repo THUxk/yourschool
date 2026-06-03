@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 6,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "贾老师的课程幽默风趣，开始时会有仅供签到的答题。课程编程作业略难，但没有大作业。",
+            "created_at": "2024/07/21 10:46",
+            "modified_at": "2024/07/21 10:46",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

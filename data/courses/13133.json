@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 531,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师雨课堂直播，讲课中规中矩，很清楚讲得很好。考试是统考选择题，会调分。",
+            "created_at": "2024/07/21 16:17",
+            "modified_at": "2024/07/21 16:17",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 125,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师上课时会做许多有趣的实验，作业量不大，考试前要多刷习题，期中和期末同样重要，如果不重视期中很影响最后的成绩",
+            "created_at": "2024/07/21 12:53",
+            "modified_at": "2024/07/21 12:53",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

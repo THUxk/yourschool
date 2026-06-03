@@ -1,0 +1,217 @@
+{
+    "count": 14,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2488,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "一定要报习题课，平时也做做附加题（考试可能考），考了一点习题课讲的内容，期末证明管它对不对证出来再说🙈",
+            "created_at": "2025/09/23 23:22",
+            "modified_at": "2025/09/23 23:22",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2383,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：\n垃圾老师考试比别的班难，给分比别的班低，一坨答辩💩。给分方式更是逆天，反正我是没见过不报习题课拿3.6的，这样给分不如把这门课改成离散数学习题课，反正不报习题课就给你低分\n点评人：\n\n上课学期：",
+            "created_at": "2025/07/02 15:08",
+            "modified_at": "2025/07/02 15:08",
+            "score": "3.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2379,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "授课质量与给分：给分依托，避雷。\n\n点评人：匿\n\n上课学期：2025春",
+            "created_at": "2025/07/01 21:16",
+            "modified_at": "2025/07/01 21:16",
+            "score": "3.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2333,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "授课质量与给分：个人感觉老师讲课比较好，有设计有节奏，好好学应该能比隔壁cy班学到更多知识（）据身边统计学，给分比较抽象，本人似乎是靠习题课拿到的4.0。\n再次强调：一定一定一定要报习题课或者应用技术报告！！\n\n上课学期：2025春",
+            "created_at": "2025/06/28 13:24",
+            "modified_at": "2025/06/28 13:24",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2331,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "基本与上一条所说一致，只补充两点：\n1. 建议习题课还是认真听下，今年的色数多项式，树，群论都有一题与习题课上提到的技巧和定理证明思路强相关。\n2. 考场上可能会心态崩溃，但建议怎么也多写点内容，不会也写一些想法，再加上报习题课 / 做技术报告 / 出题加分的话，分数有一定保障。",
+            "created_at": "2025/06/28 13:09",
+            "modified_at": "2025/06/28 13:09",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2320,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：方案比较多，最后取按分数最高的方案，作业+期末（+习题课/应用技术报告）\n授课质量与给分：课程本身很难，所以上课跟不上很正常，应该与老师无关，个人认为讲课质量还不错。上课不会考勤，但会时不时点名或点人回答问题，说是不影响最终成绩。\n平时作业基本上会给满，编程作业比cy班的难，但截止前几天会给提示，用的也都是课上讲的算法，所以问题不大。\n有出题加分作业，会加1-5分，只在第一节课提了，后面似乎没提过，要主动联系助教去交，图论技术应用报告也没说怎么交，要自己去问助教。\n期末考试巨难，要特别注意教材上的一些证明。本来以为去年已经够难了，今年更是逆天，考完之后感觉复习了一个星期几乎没啥用。\n习题课据说建议报，我虽然没报但交了图论技术应用报告。期末考试有几道题伪证不清楚怎么给的分，所以也不知道是期末的原因还是因为交了报告，最后以不可思议的方式得了A。\n建议：可以选，习题课和应用报告最好选一个做，期末巨难，最好是要熟悉书上每一个证明。\n\n\n点评人：\n\n上课学期：2024-2025春",
+            "created_at": "2025/06/28 10:21",
+            "modified_at": "2025/06/28 10:21",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2302,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\n前面说了\n授课质量与给分：\n一般，卷度极大。如果选最好卷习题课，在做了习题课的基础上期末体感要有60分才有4.0。所有课堂统一优秀率，建议选cy或者软院的，至少更轻松\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 22:28",
+            "modified_at": "2025/06/27 22:28",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 2288,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：如果不报习题课，普通学生几乎无法得到比较好的绩点，非常傻逼的课，非常无语的评价方式\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 21:20",
+            "modified_at": "2025/06/27 21:20",
+            "score": "B-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2284,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：40%作业(书面作业 + 编程作业) + 60考试 (或者 20% 考试 + 40% 习题课)\n\n授课质量与给分：\n1. 上课基本是念ppt, ppt上的习题几乎没有, 只有定理和算法的一个应用讲解, 只听课很难很难学懂, 部分是因为内容本身就很难;\n2. 书面作业较少, 但是难度并不低, 都是书上的习题;\n3. 有三次编程作业, 难度较大, 涉及课上讲解的算法, 最高难度涉及数据结构知识, 一次可能要做半天;\n4. 考试难度非常大, 几乎全是证明题, 会涉及到较多书上的非核心内容, 需要有对书本的较好掌握, 同时要培养证明能力. 当然, 由于全是证明题, 时间其实比较充裕, 可以慢慢伪证.\n5. 习题课非常重要, 一定要报名参加, 至于最后是否在课上讲解没那么重要. 习题课给分严格比考试好.\n6. 优秀率为30%左右, 按排名给分, 给分好坏算中等;\n7. 总体说, 课很难, 要求很高, 缺乏有效指导.\n\n点评人：loser\n\n上课学期：25春",
+            "created_at": "2025/06/27 21:08",
+            "modified_at": "2025/06/27 21:08",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2273,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：作业、期末考试\n\n授课质量与给分：讲课还算有一点生动但是不够清晰，经常不很容易理解；考试有点难，给分太差\n\n点评人：Arch酱\n\n上课学期：25春",
+            "created_at": "2025/06/27 19:49",
+            "modified_at": "2025/06/27 19:49",
+            "score": "3.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2269,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：难评 给分差 不知道为什么这么低\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 19:28",
+            "modified_at": "2025/06/27 19:28",
+            "score": "B",
+            "moderator_remark": null
+        },
+        {
+            "id": 2266,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：垃圾无需多言，平时作业几乎满分能给到这个绩点也是无敌了\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 19:21",
+            "modified_at": "2025/06/27 19:21",
+            "score": "C+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2242,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：+1，一边说着态度为贵，能力次之，一边出巨恶心的考试题然后批发低绩点，无敌了，对于普通学生来说认真学一个学期考试任然全都不会然后吃低绩点真的难受\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 18:06",
+            "modified_at": "2025/06/27 18:06",
+            "score": "B",
+            "moderator_remark": null
+        },
+        {
+            "id": 2212,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：md，认真学一个学期最后吃3.0\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 17:16",
+            "modified_at": "2025/06/27 17:16",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

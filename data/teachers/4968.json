@@ -1,0 +1,20 @@
+{
+    "tid": "4968",
+    "name": "Ann M.Morrison",
+    "related_courses": [
+        {
+            "id": 18360,
+            "code": "18377",
+            "name": "媒介管理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18358,
+            "code": "18375",
+            "name": "高级英语新闻采写",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

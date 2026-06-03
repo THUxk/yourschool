@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3041,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业+考试+视频\n\n授课质量与给分：真心不赖！感觉是那种“只要用心听用心准备就能拿高分”的好课，外教语速适中，讲的东西非常多但也很有意思，推荐\n\n点评人：蟫\n\n上课学期：",
+            "created_at": "2026/02/16 15:50",
+            "modified_at": "2026/02/16 15:50",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2656,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中期末开卷+视频录制+四次作业\n\n授课质量与给分：授课质量相当好，刚过了期中，考试因为开卷不难，但是需要认真复习，本质硬课\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/12/18 14:57",
+            "modified_at": "2025/12/18 14:57",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1343,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：三次小测+录视频pre\n\n授课质量与给分：\n很有人格魅力的老师\n认真听讲可以学到很多东西\n小测开卷，所有知识都在讲义上\n上课学期：春季",
+            "created_at": "2024/11/10 20:03",
+            "modified_at": "2024/11/10 20:03",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

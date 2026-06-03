@@ -1,0 +1,20 @@
+{
+    "tid": "4244",
+    "name": "Jonas F.Puck",
+    "related_courses": [
+        {
+            "id": 24725,
+            "code": "24882",
+            "name": "营销原理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13783,
+            "code": "13791",
+            "name": "营销管理",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

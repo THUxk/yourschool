@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 979,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "课程很轻松也很有意思，老师教的很细，很适合0基础。大作业是小组合作3D打印，做什么内容都可以。",
+            "created_at": "2024/07/21 18:36",
+            "modified_at": "2024/07/21 18:36",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 562,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "课上不止教建模软件，还经常带学生参观李兆基实验室，可以借用一下里面的资源。平时作业量不大，考核方式是做小组项目，可以组队来选这节课。",
+            "created_at": "2024/07/21 16:31",
+            "modified_at": "2024/07/21 16:31",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

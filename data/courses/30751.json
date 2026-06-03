@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1649,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：participation/attendance+pre+期末大作业（creative writing）40%\n授课质量与给分：文本难度不很高，主要是古希腊的文本与其现代改编，看得出来老师脑子里很有东西，但是传达效率一般，很依赖于师生互动。\n但老师人特别好，给分也很给力，要绩点的无脑冲，想读点东西的也可以考虑。\n\n点评人：R\n\n上课学期：24秋",
+            "created_at": "2025/01/24 19:09",
+            "modified_at": "2025/01/24 19:09",
+            "score": "4.0",
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 707,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "会结合时事讲解孙子兵法的内容，还挺有趣的，考勤要求比较严，期末开卷考试的内容基本不变，要到往年卷子完全没问题，再加一个1000到2000的小论文，写一写感想，感觉已经是这个课组里比较轻松的课了",
+            "created_at": "2024/07/21 17:19",
+            "modified_at": "2024/07/21 17:19",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

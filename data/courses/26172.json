@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3108,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n平时作业＋个人pre＋小组pre＋课堂参与\n授课质量与给分：\n讲课有意思，可以锻炼听说\n相对中国老师任务少、压力小：个人pre持续4周，中途无任何作业、上课随便水；周常作业录制几分钟视频(注意脱稿）；小组pre物色好佬直接躺\n批发3.6，想开摆躺3.6直接来\n要争4.0就要让老师有印象，上课全程回答问题、保持高参与度，可能相对其他选课更难\n点评人：\nohno\n上课学期：\n2025秋",
+            "created_at": "2026/02/26 20:42",
+            "modified_at": "2026/02/26 20:42",
+            "score": "B＋",
+            "moderator_remark": null
+        }
+    ]
+}

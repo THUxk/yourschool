@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2615,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考试 + 几次作业\n\n授课质量与给分：口音比较严重，但瑕不掩瑜。对于希望快速入门量子信息，或者搞量子信息的同学，这门课是一门非常好的入门课，它把量子基础、量子信息（纠缠理论、QKD、贝尔不等式等等）、量子计算、纠错，还有物理实现都以一种“概述性”的方式讲解了。我本人不是茶园，但由于之前是搞这个方向的（之前只有马雄峰老师《量子信息简明教程》自学的基础，同时那个学期还上着物理系的《量子力学(1)》），所以没有感到有多困难，听了这门课后反而感到豁然开朗。\n\n段老师本身也比较有耐心。\n对物理要求并不高，并不需要提前学量子力学，但懂一点狄拉克右矢记号还是会有帮助。所有需要用到的物理都会在课上讲。\n\n点评人：非茶园大二本科生\n\n上课学期：春",
+            "created_at": "2025/12/13 13:02",
+            "modified_at": "2025/12/13 13:02",
+            "score": "",
+            "moderator_remark": null
+        },
+        {
+            "id": 1312,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：考勤 5 + 作业 30 + 期中 30 + 期末 35\n\n授课质量与给分：课程难度比较大，但讲课水平一般，体验不好。助教在对待查卷这种事情的时候极为傲慢。要不是培养方案里这门课必修，谁会选这课啊。\n\n上课学期：2024 春",
+            "created_at": "2024/09/17 15:23",
+            "modified_at": "2024/09/17 15:23",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1252,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\n\n授课质量与给分：安徽口音极重，难以听懂\n\n点评人：\n\n上课学期：",
+            "created_at": "2024/07/30 13:47",
+            "modified_at": "2024/07/30 13:47",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1216,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "第一次碰到中国人讲中文我听不懂的",
+            "created_at": "2024/07/24 17:11",
+            "modified_at": "2024/07/24 17:11",
+            "score": "W",
+            "moderator_remark": null
+        },
+        {
+            "id": 1116,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：作业30，期中30，期末35，平时5\n\n授课质量与给分：质量极差，（如果不是物竞爷）上课内容是基本听不懂的，教授英语水平是堪忧的，课件是祖传的、不知道用什么东西做的、杂乱无章的、全是typo的，作业是每周一次又臭又长的，考试是难到爆炸的（期中平均分高达62分），助教人是傲慢的，学这门课的收获是极少的。要不是茶园计方向必修谁上你这B课啊。\n\n点评人：茶园二字班本科\n\n上课学期：24年春季",
+            "created_at": "2024/07/23 17:22",
+            "modified_at": "2024/07/23 17:22",
+            "score": "3.0",
+            "moderator_remark": null
+        }
+    ]
+}

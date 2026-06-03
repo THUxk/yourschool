@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1100,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n课程大作业   40%\n课程小作业1 5%\n课程小作业2 15%\n课程小作业3 15%\n课程小作业4 15%\n课堂参与       10%\n\n授课质量与给分：\n讲课很到位，作业很友好，对各个院系喜欢交通的同学都会有帮助\n\n上课学期：秋季学期",
+            "created_at": "2024/07/23 15:50",
+            "modified_at": "2024/07/23 15:50",
+            "score": "A+",
+            "moderator_remark": null
+        }
+    ]
+}

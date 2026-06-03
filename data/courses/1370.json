@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1196,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：专项给分：10’正手发球 + 10‘高远球 + 30‘对打\n授课质量与给分：\n老师授课非常认真细致，缺课也只需要选其他时段补课即可\n对打30分只要打满3次课保底18分，发球和高远球一般分数也不会太低，想过还是比较容易的\n点评人：\n上课学期：24春",
+            "created_at": "2024/07/24 12:52",
+            "modified_at": "2024/07/24 12:52",
+            "score": "C",
+            "moderator_remark": null
+        }
+    ]
+}

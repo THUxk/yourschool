@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 73,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "英文微积分，可以作为认证外文课，内容较为深入，不纠结于具体技巧而注重体系的严谨性；根据历年情况选课人数一般较少，可以与老师充分交流",
+            "created_at": "2024/07/21 12:13",
+            "modified_at": "2024/07/21 12:13",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

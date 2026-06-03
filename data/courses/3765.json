@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2441,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：已给\n\n授课质量与给分：谢谢你生物化学✋🏻😭🤚🏻\n\n点评人：&\n\n上课学期：2025春",
+            "created_at": "2025/07/10 12:45",
+            "modified_at": "2025/07/10 12:45",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2435,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：\n\n授课质量与给分：\n个人觉得教学水平一般，当然也可能是本人英文不够好整个学期听下来不知道在讲什么，重点个人觉得不够突出，而且似乎极大弱化了化学结构性的东西（本人不知道这是不是正确的）建议和生院云盘里的一份笔记配合使用，那份笔记很详尽，多过两遍能明白大概的重点，等到期末看或许会来不及（）\n不过好像没啥意义，因为生化就这两位老师应该\n点评人：\n\n上课学期：25春",
+            "created_at": "2025/07/08 13:42",
+            "modified_at": "2025/07/08 13:42",
+            "score": "3.3",
+            "moderator_remark": null
+        },
+        {
+            "id": 2425,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：同其他点评\n\n授课质量与给分：emmm…怎么说呢，就像另一个点评里说的那样，给分两极分化严重，在下不才，正是不太好的那一极😅\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/07/08 00:48",
+            "modified_at": "2025/07/08 00:48",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 134,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "李珍老师和刘栋老师分别50%，刘栋老师作业10%，期末40%，李珍老师作业+quiz（2次，提前通知）+test（1次，不提前通知）共20%，期末30%\n给分两极分化较大，一定要小心",
+            "created_at": "2024/07/21 12:57",
+            "modified_at": "2024/07/21 12:57",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

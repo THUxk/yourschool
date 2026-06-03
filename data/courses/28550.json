@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3230,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n\n授课质量与给分：很好的一位老师，会讲很多有意思的东西，至于难度嘛，看你怎么看待，如果觉得太难了可以去看一下有机H1的习题（doge），心情会好受很多。。。\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/04/26 23:42",
+            "modified_at": "2026/04/26 23:42",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1236,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "老师很喜欢化学，讲课很有激情，任务量巨大，作业巨难，只适合大佬进阶",
+            "created_at": "2024/07/26 00:46",
+            "modified_at": "2024/07/26 00:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 938,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "作业会比其他有机老师多，会有一定挑战性。但是整体课程架构非常好，能学到许多逼一样的东西，非常推荐选罗老师的有机课！",
+            "created_at": "2024/07/21 18:25",
+            "modified_at": "2024/07/21 18:25",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

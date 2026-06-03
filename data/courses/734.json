@@ -1,0 +1,97 @@
+{
+    "count": 6,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 691,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师放了四级课电影和纪录片，后面讲课本的内容，老师讲课很好，内容很充实，成绩是百分之三十的观后感和百分之七十开卷考试，强推！",
+            "created_at": "2024/07/21 17:14",
+            "modified_at": "2024/07/21 17:14",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 448,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：小班讨论+慕课讨论+期末考试\n\n授课质量与给分：\n有两个小班讨论课，在课堂的讨论区也要发布一些讨论，发表的讨论要满一定次数。小班讨论课是由助教和组长一起给分，最后期末考试占比较大。",
+            "created_at": "2024/07/21 15:29",
+            "modified_at": "2024/07/21 15:29",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 395,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "平时任务很少，去年一个学期就留了一次任务（可能受线上教学影响）：课上花两节课时间看了一部教育片，然后写一个1500字的观后感上交。平时无签到无点名，而且老师讲的很有意思，给分也还不错。",
+            "created_at": "2024/07/21 14:47",
+            "modified_at": "2024/07/21 14:47",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 262,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "刘书林老师任务量不大，有两次小组讨论和期末开卷考试，考试题不难，准备好PPT和教材就好。",
+            "created_at": "2024/07/21 13:47",
+            "modified_at": "2024/07/21 13:47",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 146,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "刘老师是一位老教授，讲课比较有意思；平时没作业，但会布置慕课任务；期末需要完成线上考试；有小班讨论；期末给定确定的题目现场写论文；给分还不错。",
+            "created_at": "2024/07/21 13:05",
+            "modified_at": "2024/07/21 13:05",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 44,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：慕课+期末随堂考试\n\n特点：课程的任务量相对少，上课不点名，而且考试较为简单，为开卷考试，给分不错。",
+            "created_at": "2024/07/21 11:06",
+            "modified_at": "2024/07/21 11:06",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

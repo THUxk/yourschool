@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 602,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "可以自由摸鱼！想听课也非常OK，会有很多京剧视频很有意思。任务量小完全没压力",
+            "created_at": "2024/07/21 16:46",
+            "modified_at": "2024/07/21 16:46",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

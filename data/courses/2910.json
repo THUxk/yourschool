@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 150,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "李强老师的大学化学A给分偏低些，且任务量比较大，上课有趣程度适中，考试难度也算适中。算分时有10分的课堂互动分与10分的两个小论文，而且小论文要求的格式较严格，需要自己选题，难拿高分。互动分需要一直与老师保持一定程度的互动，对有些同学来说不是问题，但对想水一水的同学来说这10分emm撒由那拉。",
+            "created_at": "2024/07/21 13:07",
+            "modified_at": "2024/07/21 13:07",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

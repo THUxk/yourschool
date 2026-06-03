@@ -1,0 +1,20 @@
+{
+    "tid": "4730",
+    "name": "Beth Benedict",
+    "related_courses": [
+        {
+            "id": 17813,
+            "code": "17830",
+            "name": "英语口语(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16935,
+            "code": "16952",
+            "name": "大学英语读写译(3)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

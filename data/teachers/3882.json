@@ -1,0 +1,20 @@
+{
+    "tid": "3882",
+    "name": "Elizabeth Shafer",
+    "related_courses": [
+        {
+            "id": 11969,
+            "code": "11970",
+            "name": "学术英语听说（3）－讨论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11732,
+            "code": "11733",
+            "name": "学术英语听说（1）- 转述",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

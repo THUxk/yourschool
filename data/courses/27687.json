@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 523,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "超级水课爽课只上八周 老师很好上课还会给小礼物 超级放松的课",
+            "created_at": "2024/07/21 16:14",
+            "modified_at": "2024/07/21 16:14",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

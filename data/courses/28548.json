@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2183,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师上课比较无聊，自学为主，考试难度中等",
+            "created_at": "2025/06/13 22:48",
+            "modified_at": "2025/06/13 22:48",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 592,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "不签到，最好的评价！然后考题有很多作业题啥的，不难",
+            "created_at": "2024/07/21 16:43",
+            "modified_at": "2024/07/21 16:43",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

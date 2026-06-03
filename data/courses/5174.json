@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1183,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：期中作文（15）+期末口语（15）+期末考试（50）\n\n授课质量与给分：老师讲课挺好的，ppt都有中文比较易懂。但是没有什么作业和任务量，需要自己平时多积累才能取得比较好的成绩。期末口语感觉很难...笔试题目都是平时课上练习的原题，需要背平时课上练习的生僻单词。给分不算好，有3.3及以下的给分。\n\n点评人：\n\n上课学期：",
+            "created_at": "2024/07/24 11:34",
+            "modified_at": "2024/07/24 11:34",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1005,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "外教老师，比较温柔，任务量不大，上课会点人回答问题，不过回答错误没影响。老师课后不会布置任务，想提高日语水平的话课后需要花时间自我提高。",
+            "created_at": "2024/07/21 18:44",
+            "modified_at": "2024/07/21 18:44",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

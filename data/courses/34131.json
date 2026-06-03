@@ -1,0 +1,112 @@
+{
+    "count": 7,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2987,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业20+期中40+期末40\n\n授课质量与给分：讲课很好，个人甚至推荐用这门课替代推荐正常线性代数，讲的都是本质，毫无奇技淫巧。给分较好。\n美中不足就是习题课意义不大\n\n点评人：G\n\n上课学期：25-26 fall",
+            "created_at": "2026/02/02 13:34",
+            "modified_at": "2026/02/02 13:34",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2083,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n作业+期中期末闭卷考试\n授课质量与给分：\n期中前讲得容易且慢，期中后变得困难且快（过不了多久已经把线代忘完了）；给分还可以\n上课学期：\n2024秋",
+            "created_at": "2025/05/17 19:03",
+            "modified_at": "2025/05/17 19:03",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2081,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业20%，期中期末各40%\n授课质量与给分：\n李思老师讲课很幽默，使用自编讲义。考试难度不大。\n点评人：\n\n上课学期：24秋",
+            "created_at": "2025/05/17 16:40",
+            "modified_at": "2025/05/17 16:40",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2080,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业+期中期末（比例忘了）\n\n授课质量与给分：讲的速度适中，期中前比较简单，基本没难度，期中后略微上强度，但稍微预习也跟得上。期中考试出的很水，轻松90+，期末计算量爆表，但好在期中满分，所以最后到4.0了（不过主要是针对物理系的线性代数\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/05/17 13:16",
+            "modified_at": "2025/05/17 13:16",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2079,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：作业20 期中期末各40\n\n授课质量与给分：💩，很努力的学也听不懂，不知道在讲什么，期末考了一坨，直接绩点自由了。某个助教改作业及其严格，动辄给70，80-的分数。\n\n点评人：\n\n上课学期：2024秋",
+            "created_at": "2025/05/17 12:28",
+            "modified_at": "2025/05/17 12:28",
+            "score": "2.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 1607,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "woc，李思带线性代数了？\n这老师之前教了一届数学系的ODE，再之前是求真的老师\n老师自己很强，主要是做数学物理方面的，之前ODE的时候会讲不少物理方面的东西，考试也很简单，主要是原题，给分不错，本人期中82期末也能拿4.0\n不过线代的话不太清楚",
+            "created_at": "2025/01/08 15:51",
+            "modified_at": "2025/01/08 15:51",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1599,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业20% 期中期末各40%\n\n授课质量与给分：使用自编的讲义，授课时使用幻灯片。老师讲的很好，而且人很幽默，非常有趣。可以在B站搜索“量子鬼道”听一听。给分情况目前不清楚。\n\n点评人：人\n\n上课学期：24-25秋",
+            "created_at": "2025/01/05 08:57",
+            "modified_at": "2025/01/05 08:57",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

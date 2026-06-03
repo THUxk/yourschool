@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1281,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：25小班讨论+15随堂测验+60小论文\n\n授课质量：质量很一般，上课只知道对着PPT念念念，没有任何推陈出新、给人以启发的内容；和崔建莲一样喜欢一些形式上好看的东西，比如说上课主动回答她的问题有加分。整体体验极差，论文本身也无聊，也没心情去卷上课回答问题，最后的A-大概率是靠小班讨论表现极佳得到的。\n\n点评人：匿了\n\n上课学期：24春",
+            "created_at": "2024/08/02 14:21",
+            "modified_at": "2024/08/02 14:21",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 481,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "陈明凡老师毛概、习概讲课风格很好，会结合当前国际社会的大事件进行讲解，任务量也很少。无考试有大作业，大作业为论文。\n已知大前年毛概和前年习概（今年无数据）的论文主题都是“中国目前面临的主要挑战是什么？如何应对？”给分较好。",
+            "created_at": "2024/07/21 15:48",
+            "modified_at": "2024/07/21 15:48",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

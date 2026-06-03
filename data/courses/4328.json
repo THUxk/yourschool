@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1168,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n作业+期中+期末\n授课质量与给分：\n张卫华是一个快乐的老伙计（这一句抄的前人评价我觉得很贴切哈哈），感觉他的每一根眉毛都在笑。他每开一个新单元会先拿一节课讲大的物理图像，讲课尚可，需要自己多复习不然会忘。作业是只要写了题号就满分，相当于送20分。考试是自己出题，但是比较简单，重视基本概念，由于平均分要调到B（大学物理B都这样）再加上他的题区分度不大，给分显得没那么好。人还是很nice的。\n点评人：\nted\n上课学期：\n2023春",
+            "created_at": "2024/07/24 08:38",
+            "modified_at": "2024/07/24 08:38",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 194,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "讲课非常清晰透彻，能抓住重点，同时给分也比较厚道，考试选填计算解答。",
+            "created_at": "2024/07/21 13:26",
+            "modified_at": "2024/07/21 13:26",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 126,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "张卫华老师人挺好的，也会耐心地解答问题，但上课有时会比较跳跃，不太容易懂，有的推导过程还是得自己看书。上课没有实验，一般就是纯讲授为主，有时会有点枯燥。最后给分正常。",
+            "created_at": "2024/07/21 12:54",
+            "modified_at": "2024/07/21 12:54",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

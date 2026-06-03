@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3169,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\nPPT制作\n授课质量与给分：\n随便做的PPT拿4.0，较简单\n授课极具催眠性，上课一片尴尬，大水课，先干啥都行，无考勤\n如果想稍微学一些东西的建议别来，想拿绩点的随便报\n\n上课学期：\n25秋",
+            "created_at": "2026/03/04 23:19",
+            "modified_at": "2026/03/04 23:19",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

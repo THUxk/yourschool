@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1558,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业20%期中30%期末50%\n\n授课质量与给分：老师喜欢讲数学史。\n\n点评人：我想，她一定是懂数学的\n\n上课学期：2024秋",
+            "created_at": "2024/12/24 22:18",
+            "modified_at": "2024/12/24 22:18",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

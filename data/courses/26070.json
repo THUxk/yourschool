@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1025,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "教授方式生动有趣，唯一的问题是课时太长，因为是北大的老师，一下午的大课，容易犯困，不是水课，对社会学感兴趣的同学一定要去听一听，考核方式很有老师的风格，对课程内容和整体社会学的认识都会有很客观的考察，em有点类似于写沟，但是不要被吓到，老师的课真的很生动有趣！！",
+            "created_at": "2024/07/21 18:50",
+            "modified_at": "2024/07/21 18:50",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

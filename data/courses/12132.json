@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1214,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：大作业＋期中期末考试\n\n授课质量与给分：上课氛围不错，给分还行\n\n点评人：二字班\n\n上课学期：2024春",
+            "created_at": "2024/07/24 16:43",
+            "modified_at": "2024/07/24 16:43",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

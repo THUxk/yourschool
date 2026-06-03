@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2332,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业30%+正课签到7.5%+习题课（签到，或网络学堂提交60%题目）7.5%+期末55%\n\n授课质量与给分：课堂质量一般般，但老师提供的材料非常丰富。期末考试前明确说会有很多作业题和习题课题目的改编，事实上的确如此（甚至有很多原题），想拿高分好好复习即可。总体而言老师非常善良，推荐选。\n\n上课学期：2025春",
+            "created_at": "2025/06/28 13:15",
+            "modified_at": "2025/06/28 13:15",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2286,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：绝世大好课，超级善良的老师\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/06/27 21:16",
+            "modified_at": "2025/06/27 21:16",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1521,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：期末考试，题目与平时例题出入不大，认真复习即可\n授课质量与给分：手写板书，但速度也很快，不过知识点框架十分清晰，在复习的时候很有帮助；习题课题目质量也不错，但取决于助教讲课水平；每周作业会有在线答疑和视频讲解，讲的非常清楚。\n点评人：Eric\n上课学期：24春",
+            "created_at": "2024/12/12 11:58",
+            "modified_at": "2024/12/12 11:58",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

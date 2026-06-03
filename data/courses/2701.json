@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1956,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\n期中期末+作业+随堂quiz\n授课质量与给分：\n1 不喜欢老师的上课方式，接收信息效率很低。\n点评人：\n\n上课学期：2024-2025春",
+            "created_at": "2025/02/25 12:15",
+            "modified_at": "2025/02/25 12:15",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2517,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：☔️\n\n授课质量与给分：1说实话，一般般，我感觉不好。\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/11/12 11:08",
+            "modified_at": "2025/11/12 11:08",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 578,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "比较轻松，老师会讲一些冷笑话，有PPT，也会在考前强调重点，比较推荐",
+            "created_at": "2024/07/21 16:36",
+            "modified_at": "2024/07/21 16:36",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 577,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "比较轻松，老师会讲一些冷笑话，有PPT，也会在考前强调重点，比较推荐",
+            "created_at": "2024/07/21 16:36",
+            "modified_at": "2024/07/21 16:36",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 576,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "贼好，彭卿老师永远的神，考试题是他出的，上课也轻松",
+            "created_at": "2024/07/21 16:35",
+            "modified_at": "2024/07/21 16:35",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "tid": "4219",
+    "name": "EMERY CLIFTON ROBERT",
+    "related_courses": [
+        {
+            "id": 14337,
+            "code": "14345",
+            "name": "高级统计学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14736,
+            "code": "14744",
+            "name": "心理统计学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13653,
+            "code": "13661",
+            "name": "发展心理学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

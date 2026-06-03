@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 540,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课难度适中，小课签到会要求相对严格一点，老师讲的非常认真，考试难度适中，推荐。",
+            "created_at": "2024/07/21 16:20",
+            "modified_at": "2024/07/21 16:20",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2947,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期末开卷考试。考察内容大部分都是老师PPT上的内容，最后一道题是开放题，感觉只要写的认真就没啥问题。\n\n授课质量与给分：梁教授的授课质量没得说，幽默风趣、鼓励式教学，每节课哪怕听得不认真都会有很多收获，可以很好地起到机器人启蒙作用。不太清楚给分机制，理论上是按照期末考试成绩，且新生研讨课一般给分友好。\n\n点评人：Nicole\n\n上课学期：2025-2026秋季学期",
+            "created_at": "2026/01/31 14:50",
+            "modified_at": "2026/01/31 14:50",
+            "score": "A 4.0",
+            "moderator_remark": null
+        }
+    ]
+}

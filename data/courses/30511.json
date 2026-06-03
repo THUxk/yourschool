@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2876,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：一次小组pre和一篇期末潜能报告。任务量小且轻松\n\n\n授课质量与给分：上课的内容是和心理学相关的若干方面 eg亲情/友情/爱情/自我，认真听能够收获一些知识，不认真听其实也不太管。给分还是很不错的\n\n点评人：无纸化\n\n上课学期：2025-2026 秋",
+            "created_at": "2026/01/30 21:23",
+            "modified_at": "2026/01/30 21:23",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1561,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：\n极好",
+            "created_at": "2024/12/25 01:05",
+            "modified_at": "2024/12/25 01:05",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 525,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "在我心里，这大概是在园子里紧张高压生活中极其宝贵的可以完全放松上的课了",
+            "created_at": "2024/07/21 16:15",
+            "modified_at": "2024/07/21 16:15",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

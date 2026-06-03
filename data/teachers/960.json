@@ -1,0 +1,20 @@
+{
+    "tid": "960",
+    "name": "ZHANG LEI",
+    "related_courses": [
+        {
+            "id": 25137,
+            "code": "25297",
+            "name": "流行病学概览",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1236,
+            "code": "1235",
+            "name": "生物统计学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

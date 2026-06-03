@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2839,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：2篇随堂作业+2篇课后作业，择较优的3次得到总评。字数只需几百字，无考勤，作业可补交（也可选择写2500字论文作为唯一打分依据）\n\n授课质量与给分：上课以讲解名剧和赏析片段为主，内容讲解清晰丰富，基本不要求互动，给分好\n\n上课学期：25秋",
+            "created_at": "2026/01/30 20:11",
+            "modified_at": "2026/01/30 20:11",
+            "score": "4.0",
+            "moderator_remark": null
+        }
+    ]
+}

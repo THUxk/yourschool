@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2140,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：每节课都有作业\n\n授课质量与给分：几乎不讲课。让同学读课件。不建议",
+            "created_at": "2025/05/22 15:29",
+            "modified_at": "2025/05/22 15:29",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

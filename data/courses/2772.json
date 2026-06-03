@@ -1,0 +1,157 @@
+{
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3263,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业+期中+期末\n\n授课质量与给分：请输入文本。推荐指数只有5分是因为上限是5分\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/05/21 20:43",
+            "modified_at": "2026/05/21 20:43",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2397,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "艾神的伟大无需多言，另外推荐搭配食用岳姓助教的习题课，便于构建抽象思维",
+            "created_at": "2025/07/04 21:54",
+            "modified_at": "2025/07/04 21:54",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2168,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业20%+期中考试30%+期末考试50%\n授课质量与给分：\n艾神伟大无需多言，手写板书，讲课很细致，就是可能进度稍微有点慢。期中期末调分力度大，无脑冲，选艾神的课不需要理由\n点评人：\n\n上课学期：2024秋",
+            "created_at": "2025/06/06 09:22",
+            "modified_at": "2025/06/06 09:22",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1781,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业+期中+期末\n\n授课质量与给分：\n1. 授课质量较高，板书授课，但是进度较慢，爱好拓扑学；\n2. 平时作业难度较低，习题课难度中等，习题课无出席要求；\n3. 期中难度中等偏低，期末难度较高，期末小寄；\n4. 还是提醒未来选课的同学艾神的讲课进度真的是一个雷点，不过这门课基本也就是给物理系开的，也不构成什么大问题了；\n5. 给分非常好，在23年期末不调分的情况下给了60%的4.0，但据说拿A+有一定难度。\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/01/25 21:28",
+            "modified_at": "2025/01/25 21:28",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1757,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：SSS\n\n点评人：\n\n上课学期：\n选艾神的课不需要理由",
+            "created_at": "2025/01/25 16:57",
+            "modified_at": "2025/01/25 16:57",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1739,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "艾神，无需多言！\n清韵烛光当之无愧的获奖者，高分力压群雄。\n考核方式：期中期末和作业\n题目比较难，卷面分不太好看，但最后给分非常好，讲课水平极高，板书非常认真，老师认真负责，人也很善良，虽然是必修课，也是一种福气🥰",
+            "created_at": "2025/01/25 12:45",
+            "modified_at": "2025/01/25 12:45",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1130,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲课板书超级清晰，认真听课肯定能跟上；考试有一定难度，但认真写作业和习题课讲义就没太大问题，最后能给到接近50%的4.0",
+            "created_at": "2024/07/23 21:23",
+            "modified_at": "2024/07/23 21:23",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 557,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲课很有意思，很清楚，可能会涉及一些拓扑学等高等东西的内容，对已经对微积分有一点基础的并且对数学感兴趣的同学来说感觉很棒 还穿插一些intuition以及笑话，很有意思 \n另外不签到，老师甚至给了去年课程视频让觉得讲课进度慢的同学听",
+            "created_at": "2024/07/21 16:29",
+            "modified_at": "2024/07/21 16:29",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 556,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师上课超级认真，会有很详细的板书，可以将复杂的内容讲得很清晰，还会穿插一些有意思的小故事！考试难度对我来说比较大，但会调分。作业较少，负担不重。",
+            "created_at": "2024/07/21 16:28",
+            "modified_at": "2024/07/21 16:28",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 32,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "艾颖华老师谦虚谨慎、和蔼可亲。艾神的课程浅显易懂，几乎不需要预习，上课认真听讲即可。上课方式是写板书，板书非常详尽，约等于完整版讲义。考试就是不折不扣的作业难度，因为很多往年的考试题都直接变成了今年的作业题。考试前会发往年的真题。考试难度适中，给分较好。值得一提的是如果期中考试不理想，艾神可能会在期末考前给你期中成绩所占权重的机会，用期末考试的分数替代。\n老师自编讲义（老师会提供电子版）",
+            "created_at": "2024/07/21 11:00",
+            "modified_at": "2024/07/21 11:00",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

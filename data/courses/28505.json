@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 437,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中读剧笔记+期末一篇小论文\n\n授课质量与给分：\n主要对比较著名的京剧及昆剧剧目进行赏析，课堂上会观看很多戏剧表演片段，同时加以对剧本台词的赏析。老师人非常有趣，会由剧目引发许多恋爱婚姻相关的思考，非常适合对戏剧感兴趣的同学。",
+            "created_at": "2024/07/21 15:23",
+            "modified_at": "2024/07/21 15:23",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

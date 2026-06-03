@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2232,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：发言+pre+期中论文+期末论文\n\n授课质量与给分：课如其名，每周一次早八的早祷告，轮流做pre讲一节圣经的内容和思想，可惜大多时候听不进去，老师对课堂发言要求极高，每节课都有冗长的讨论环节，一学期至少要10次以上（原话）\n若有基督教背景，或许能更投入些，给分也难说好（如果没法投入很大量的时间完成文章的话）\n点评人：R\n\n上课学期：25春",
+            "created_at": "2025/06/27 17:56",
+            "modified_at": "2025/06/27 17:56",
+            "score": "B+",
+            "moderator_remark": null
+        }
+    ]
+}

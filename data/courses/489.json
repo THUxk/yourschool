@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 389,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：平时作业、课堂展示、期末测试\n\n授课质量与给分：\n课程强调读写结合，阅读材料和写作任务均包括多种体裁的文章，以阅读技巧为导向，并在此基础上完成写作练习和任务杨老师人好、认真负责、幽默风趣。课程有助于大学英语衔接，内容相对通俗易懂，但也能使同学有所提升。",
+            "created_at": "2024/07/21 14:45",
+            "modified_at": "2024/07/21 14:45",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 384,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：论文、课堂展示、平时作业\n\n授课质量与给分：\n课堂内容形式丰富，讲课基本全英文，课堂上会先对课本上的论文进行分析，然后依次讲述学术论文的各部分要点。作业考核包括词句整理、背诵词汇表以听写、新闻播报、论文写作与答辩展示。老师用心，注重培养学生的自学能力与语言运用能力，会给每位学生面批论文，课程收获大。按照老师要求学习及完成作业，能收获不错的成绩；要更好成绩需要写好论文，花较多时间与精力。给分较好。",
+            "created_at": "2024/07/21 14:42",
+            "modified_at": "2024/07/21 14:42",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 95,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "杨老师认真负责，有效帮助大学英语衔接，幽默风趣，人好，课也比较好选，内容相对通俗易懂，但也能使同学有所提升",
+            "created_at": "2024/07/21 12:27",
+            "modified_at": "2024/07/21 12:27",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 183,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "依赖于ppt进行授课，讲课难度适中，作业较为基础，不会调分。",
+            "created_at": "2024/07/21 13:23",
+            "modified_at": "2024/07/21 13:23",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

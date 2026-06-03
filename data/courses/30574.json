@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 941,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "张老师的有机很棒，很推荐（如果抢的上）",
+            "created_at": "2024/07/21 18:26",
+            "modified_at": "2024/07/21 18:26",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2073,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业20+期中20+期末60，大部分题目都有提示，去掉提示难度极大，加上就还好\n授课质量与给分：\n艾神伟大无需多言，讲义自编，上课写好几面黑板，捞人力度巨大，只是进度稍慢（毕竟想讲的内容太多了），需要课下辅助学习\n上课学期：\n2024-2025秋",
+            "created_at": "2025/05/16 21:18",
+            "modified_at": "2025/05/16 21:18",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1758,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业20%+期中20%+期末60%\n授课质量与给分：\n艾神自不必说，人非常好，自编讲义，上课全板书、有回放，讲得非常好非常细致，逻辑很清晰，课程内容也很有意思但较硬，考前有较多证明要背，但认真学+背的话问题不大\n这届助教态度较差\n给分听说很好，艾神包捞的\n上课学期：\n2024-2025秋",
+            "created_at": "2025/01/25 16:57",
+            "modified_at": "2025/01/25 16:57",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 995,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "离散数学，课程内容很干货，老师人非常好，虽然这门课比较难但是只要做好笔记背好笔记，考试基本没问题",
+            "created_at": "2024/07/21 18:41",
+            "modified_at": "2024/07/21 18:41",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

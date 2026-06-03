@@ -1,0 +1,27 @@
+{
+    "tid": "5300",
+    "name": "Fong Yee Walker",
+    "related_courses": [
+        {
+            "id": 20887,
+            "code": "20912",
+            "name": "英语听力(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25798,
+            "code": "25959",
+            "name": "口语提高",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20187,
+            "code": "20211",
+            "name": "英语听说(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

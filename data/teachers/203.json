@@ -1,0 +1,20 @@
+{
+    "tid": "203",
+    "name": "Christopher S. Yoo",
+    "related_courses": [
+        {
+            "id": 26643,
+            "code": "26805",
+            "name": "网络规制法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 227,
+            "code": "226",
+            "name": "网络规制法",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

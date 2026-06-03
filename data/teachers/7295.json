@@ -1,0 +1,20 @@
+{
+    "tid": "7295",
+    "name": "Safakath Karuthedath",
+    "related_courses": [
+        {
+            "id": 34602,
+            "code": "34764",
+            "name": "材料的光学特性",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33578,
+            "code": "33740",
+            "name": "有机半导体的光物理性质",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

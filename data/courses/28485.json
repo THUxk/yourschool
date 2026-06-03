@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 859,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "大致介绍心理学的学科框架，在生活中的作用，就业情况等，挺水，但老师很好，爱了爱了，作业就是几次上限1000字的小作文",
+            "created_at": "2024/07/21 18:04",
+            "modified_at": "2024/07/21 18:04",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 858,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "简单介绍心理学的学科框架，就业等问题，比较水，平时作业就是几个上限1000字的小作文，老师我很爱",
+            "created_at": "2024/07/21 18:04",
+            "modified_at": "2024/07/21 18:04",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 857,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "大大大水课，任务少给分好，",
+            "created_at": "2024/07/21 18:04",
+            "modified_at": "2024/07/21 18:04",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 856,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "1、这是心理学的招生课（或劝退课），你会初步接触了解心理学的一些内容、研究怎么进行和毕业出路。还有心理学研究的demo体验：阅读一篇文献并写报告（仅1次）。\n2、老师风趣幽默，课程内容轻松通俗，不是知识点传授。作业一学期才5次（含期末论文）。\n3、因此，你可以轻轻松松在课堂听一个学期的心理学八卦，也可以因此入坑心理学。",
+            "created_at": "2024/07/21 18:04",
+            "modified_at": "2024/07/21 18:04",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

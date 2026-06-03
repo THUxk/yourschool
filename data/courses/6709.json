@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 488,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "扇子需要自备，不过上课可以玩扇子还挺有意思的。期末考核是几个人一组跳出完整的一套动作就可以，给分很好，老师人也很好，推荐。",
+            "created_at": "2024/07/21 15:54",
+            "modified_at": "2024/07/21 15:54",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

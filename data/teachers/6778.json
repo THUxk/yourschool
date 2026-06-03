@@ -1,0 +1,20 @@
+{
+    "tid": "6778",
+    "name": "VINCENT PITT PECORA",
+    "related_courses": [
+        {
+            "id": 32531,
+            "code": "32693",
+            "name": "早期现代英国文学：马洛、莎士比亚、弥尔顿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30114,
+            "code": "30276",
+            "name": "小说、历史与现代性",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 600,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "罗老师很好，课程很有帮助",
+            "created_at": "2024/07/21 16:46",
+            "modified_at": "2024/07/21 16:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 599,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "介绍一些社会学的基础概念，并用它们分析一些教育方面的阶级流动之类问题。任务量小给分好，想水的话可以选，但不太适合认真学东西，并且老师时常会有逆天发言，让人觉得莫名其妙。",
+            "created_at": "2024/07/21 16:45",
+            "modified_at": "2024/07/21 16:45",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

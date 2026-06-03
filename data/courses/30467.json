@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 585,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "对于一个1学分的课来说任务量超大。要经常做ppt，还有一些前天奇奇怪怪的任务。适合那些想锻炼自己表达能力和团队协作能力的人。",
+            "created_at": "2024/07/21 16:38",
+            "modified_at": "2024/07/21 16:38",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 584,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "有机会见到钱易老师！课程是环境专业的必修课，但也有很多其他专业同学作为通识课去选（比如答主），上课很有趣，学期任务是分组研究一个专业，是前八周的课程，压力很小，学期中会有一次小组pre（大家轮着来），给分特别好！中期跟老师一起讨论会请吃饭！结课展示有小礼物！超级喜欢的课！",
+            "created_at": "2024/07/21 16:38",
+            "modified_at": "2024/07/21 16:38",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

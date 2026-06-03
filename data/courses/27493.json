@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2253,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：考试\n\n授课质量与给分：给分坑人，通识给2.6你是认真的吗？",
+            "created_at": "2025/06/27 18:33",
+            "modified_at": "2025/06/27 18:33",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3081,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：专项+一般测试\n\n授课质量与给分：老师人很热情很温柔，上课日常蹦床+跳水，每个人的动作都会耐心指导和鼓励。老师还会现场演示无水花入水和技术动作。不过跳水还是需要胆量的，恐高的怕摔水疼的慎选。\n\n点评人：lll\n\n上课学期：2023-24春",
+            "created_at": "2026/02/25 15:55",
+            "modified_at": "2026/02/25 15:55",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

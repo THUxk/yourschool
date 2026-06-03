@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1606,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：考试 作业 pre\n\n授课质量与给分：都是一坨 快跑\n\n点评人：\n匿名\n上课学期：24秋",
+            "created_at": "2025/01/07 17:09",
+            "modified_at": "2025/01/07 17:09",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

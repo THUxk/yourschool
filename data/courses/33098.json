@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1300,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业20期中30期末50\n授课质量与给分：\n建议移步瞿燕辉老师班\n点评人：\n\n上课学期：2024年春",
+            "created_at": "2024/08/29 20:37",
+            "modified_at": "2024/08/29 20:37",
+            "score": "",
+            "moderator_remark": null
+        },
+        {
+            "id": 1081,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业+期中+期末\n授课质量与给分：\n老师非常有激情，很喜欢笑。\n课程后期会讲一部分微分几何内容，很有自己的见解。\n课程讲义用的是张友金老师的，上课讲的内容很多是对讲义的补充，讲义上很细致的部分可能会讲的比较快。\n给分很好，作业基本上全员满分，期中期末按比例给分，可能会捞人。\n点评人：\n\n上课学期：2024春",
+            "created_at": "2024/07/23 15:09",
+            "modified_at": "2024/07/23 15:09",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

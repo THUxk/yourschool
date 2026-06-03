@@ -1,0 +1,307 @@
+{
+    "count": 20,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3219,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：平时作业30，大作业20，期末50\n\n授课质量与给分：讲课依托答辩，第一课时扯东扯西，第三课时又赶进度讲的飞快，不管是上课还是在课程群里经常会发表一些神人发言。天天装作一副好为人师的样子实则自命清高的很，有问题问他的时候爱答不理动不动就说问ai去。期末程设题目较难且所有班都没调分，但是本人认真提交了大作业结果大作业喜提30多，找助教交流后改成60多分，本来期末考的不错硬是被这个大作业背刺了，能避雷就避雷吧，不如rj一根\n\n点评人：无语之人\n\n上课学期：25秋",
+            "created_at": "2026/04/06 14:02",
+            "modified_at": "2026/04/06 14:02",
+            "score": "2.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 3182,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：期末考试（50），平时作业+大作业（50）\n\n授课质量与给分：老师非常喜欢金庸，爱讲一些老故事。上课内容密度低，需要自己投入时间，期末考试一分不捞，期末每题分值大，因而比较难高分。\n\n点评人：\n\n上课学期：25秋",
+            "created_at": "2026/03/09 22:02",
+            "modified_at": "2026/03/09 22:02",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 3166,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：oj + 大作业 + 考试\n\n授课质量与给分：很好的老师，很认真负责。不过本学期期末考试题目挺难的。\n\n点评人：ccwss\n\n上课学期：2025秋",
+            "created_at": "2026/03/04 20:49",
+            "modified_at": "2026/03/04 20:49",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2970,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：平时作业30% + 大作业20% + 期末考试50%\n\n授课质量与给分：苯人为编程小白，感觉授课质量一般。3课时的课，第一课时讲得很慢，不直奔主题，第三课时又有点赶。总体而言知识密度低，不如自学效率高。程设这门课可能就不太好教。给分差，这次期末很难的情况下依然不怎么调分。\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/02/01 17:04",
+            "modified_at": "2026/02/01 17:04",
+            "score": "D+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2893,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：今年考特别难还不调分，没话说了\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/30 21:57",
+            "modified_at": "2026/01/30 21:57",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2889,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：作业+大作业+考试40%\n\n授课质量与给分：授课质量很一般，3课时的课，第一节课从形而上的角度讲一堆有的没的，后面又讲的特别特别快且抽象。导致本人到后面严重跟不上进度。作业难，一写能写一天。助教态度难评。。。\n忠告：1如果有机会一定要选rj老师。\n           2 一定要检查自己的大作业提交是否满足格式。本人因为这个小问题大作业直接被助教扣了10分，还找不回来。。。。。。。\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/30 21:53",
+            "modified_at": "2026/01/30 21:53",
+            "score": "C-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2744,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：OJ作业(0.3)+大作业(0.2)+期末考试(0.5)\n\n授课质量与给分：可能是程序设计要求较高，对于小白来说需要一定的时间来理解。老师的授课质量可以，PPT的内容进行了精心打磨，但授课节奏较为神秘，第一节课前二十分钟可能会讲一些无用的内容，且老师的说教风让人不是很能接受。期末不会调分，给分一般。\n\n点评人：上学的三叶\n\n上课学期：2025秋",
+            "created_at": "2026/01/26 10:16",
+            "modified_at": "2026/01/26 10:16",
+            "score": "B",
+            "moderator_remark": null
+        },
+        {
+            "id": 2698,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：oj+课堂+大作业+期末\n授课质量与给分：\n还可以，老师挺喜欢武侠的，说出的话是有一定哲理和启发性的，总体感觉还可以\n点评人：曾皙\n上课学期：25年秋",
+            "created_at": "2026/01/06 17:48",
+            "modified_at": "2026/01/06 17:48",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1944,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：期末一点也没调分，给了不少1.几，2.几对绩点，能避雷就避雷吧\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/02/20 17:29",
+            "modified_at": "2025/02/20 17:29",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1943,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：老师一副好为人师的样子，讲各种道理，但真的去问他问题却不耐烦解答了。因为他的态度，助教也很猖狂不爱理人。体验很差\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/02/20 17:29",
+            "modified_at": "2025/02/20 17:29",
+            "score": "",
+            "moderator_remark": null
+        },
+        {
+            "id": 1879,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：OJ 30，雨课堂题10，大作业20（2人组队，15周截止），期末开卷40\n\n授课质量与给分：“什么时候才能思想上大学啊？现在是学籍上大学了” 赠予5星好评，分5期付\n讲课依托，考试因为是统考所以没什么好说的，分也是调不了一点\n\n点评人：\n\n上课学期：2024-2025秋",
+            "created_at": "2025/02/13 18:23",
+            "modified_at": "2025/02/13 18:23",
+            "score": "3.3",
+            "moderator_remark": null
+        },
+        {
+            "id": 1776,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：雨课堂习题+oj作业+大作业\n\n授课质量与给分：\n1. 授课质量中等，从做题角度来看不如中学信息竞赛教材；\n2.雨课堂作业质量糟糕，前几次作业坑到极致，后几次稍好；\n3.oj作业相对其他老师略难，质量尚可；\n4.考试不难，容易ak，但是如果被卡，容易寄，期末考试可以通过小教员考试替代；\n5.大作业质量较低，缺乏引导，框架非常不完备，且文档描述不清晰；\n6.总体给分尚可，平时作业基本能够拿满，大作业稍微努力就不会扣分，期末85/100便能够4.0，反之即使其他拿满，期末50-60/100也会拿3.0。\n\n点评人：无名尸\n\n上课学期：24 Fall",
+            "created_at": "2025/01/25 21:09",
+            "modified_at": "2025/01/25 21:09",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1754,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\n期末考试OJ测评\n授课质量与给分：\n授课质量很一般，课堂信息密度低，大部分知识对自学的要求高。从课堂上难以学到实际的知识。日常作业欠缺反馈，导致学生的学习情况与教学进度不匹配。但考试的调分力度不错。\n点评人：\n上课学期：24-25秋",
+            "created_at": "2025/01/25 16:50",
+            "modified_at": "2025/01/25 16:50",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1715,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：雨课堂10 大作业20 OJ作业30 期末40\n\n授课质量与给分：考试授课喜欢讲故事，用自己的一套想法去解释一些编程思想，好处是可能会对小白友好一些（？）坏处是课堂干货密度低，以至于我很多课没去上👉👈\n雨课堂题目很多坑，幸好占比不大\nOJ难度正常，能看到所有测试点的评判而不是之前说的一半，而且可以多次提交，所以可以疯狂debug拿满30（当然不要抄袭，会检查）\n不过说到大作业我就要开喷了，大作业要求里面说支持键盘或文件输入，确实可以理解为两个功能都要有，但ddl前一天再解释这个歧义是不是有些抽象了？就这样倒也还没事，一天肝一下很快就行了。但好巧不巧老师又在群里阴阳一句“什么时候才能思想上大学啊？现在是学籍上大学了”，真的是服了，在小学中学都没见过说教味这么重的老师，课上也是这样，我们只是小登又不是小学生，这种东西适可而止，反感这种说教的慎选就是了😅\n\n点评人：追忆的北风\n\n上课学期：24秋",
+            "created_at": "2025/01/25 00:40",
+            "modified_at": "2025/01/25 00:40",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1667,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：感觉是👻系大一最好那4.0的课了，雨课堂多跟同学对对答案，oj基本上都可以满分(有查重所以最好不要全抄)，考试难度远低于作业，拿高分不难\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/01/24 20:52",
+            "modified_at": "2025/01/24 20:52",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1618,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "勘误：大作业20%，期末40%，约有10%人可通过小教员考试期末自动满分，大作业给分好，调分力度较大\n点评人：T大loser",
+            "created_at": "2025/01/19 12:00",
+            "modified_at": "2025/01/19 12:00",
+            "score": "97.8",
+            "moderator_remark": null
+        },
+        {
+            "id": 1518,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n平时作业包括雨课堂（**题目较坑，谨慎作答**）+在线OJ（每周4题）\n+实验题（3-4次，类似手攒2048）+组队大作业（游戏）\n期末上机考试（可带自己电脑，全程录屏，**考验编程速度**）\n授课质量与给分：\n会有雨课堂直播，课堂质量一般，有很多从自己的视角出发对编程的理解，其中一些想法本人也较为收益；课程后期会上升一些难度，对编程小白并不是很友好。课程总体任务量大，在总评上期末考试占比较低，平时作业也需要认真完成；但相比软院的课收获和体会也会更多，就算先前没学过编程也会有很大收获。\n点评人：Eric\n上课学期：23秋季学期",
+            "created_at": "2024/12/12 11:48",
+            "modified_at": "2024/12/12 11:48",
+            "score": "B+",
+            "moderator_remark": null
+        },
+        {
+            "id": 1507,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：**10%雨课堂作业+30%平时 OJ+30%大作业+30%期末**（小教员考试Top20左右可免考期末）雨课堂作业**较坑**，建议对答案或验证后再提交\n\n授课质量与给分：上课进度可能较快（也是程设课程的一个局限吧），讲解有趣，比较注重**思想**的培养，总体授课质量还是不错的，讲解较详细，据说比隔壁兴老师好上不少\n给分：不知道，但据学长说**给分很好**，4.0很多，大作业是一个Human Resource Machine的简化实现，提高要求为关卡编辑器，图形界面等，**有查重**，借鉴他人代码需说明\n\n点评人：T大loser\n\n上课学期：大一上",
+            "created_at": "2024/12/10 12:37",
+            "modified_at": "2024/12/10 12:37",
+            "score": "小教员考试满分",
+            "moderator_remark": null
+        },
+        {
+            "id": 1233,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：讲课很搞笑，动作丰富\n\n授课质量与给分：建议自学\n\n点评人：\n\n上课学期：2016年秋",
+            "created_at": "2024/07/25 23:41",
+            "modified_at": "2024/07/25 23:41",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 512,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "对于零基础还是有难度的，尤其是大作业。不过讲课内容很有意思，期末考试只占30分，相对友好",
+            "created_at": "2024/07/21 16:10",
+            "modified_at": "2024/07/21 16:10",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1245,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中、期末文献汇报。\n\n授课质量：任选课，课程信息量大，但讲解较浅、要求较低，作业选做，收获大小看个人投入。可以当科普课上，也可以多跟老师讨论细节。\n\n给分：个人及身边同学都很好，暂未听说有给分差的案例。",
+            "created_at": "2024/07/26 17:25",
+            "modified_at": "2024/07/26 17:25",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 996,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师人超级好！",
+            "created_at": "2024/07/21 18:41",
+            "modified_at": "2024/07/21 18:41",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

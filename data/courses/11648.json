@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 520,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "是科普中医药的入门级课程，简明易懂，和日常生活联系紧密，非常有趣，还可以体验针灸、参观药厂、和名医专家交流等等。期末论文。给分好。",
+            "created_at": "2024/07/21 16:13",
+            "modified_at": "2024/07/21 16:13",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

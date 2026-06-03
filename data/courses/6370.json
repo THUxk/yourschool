@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3345,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：考勤+作业+期中期末\n\n授课质量与给分：3\n\n动态码签到，讲的很无聊，上课0个人在听，自学就行，看课件也不如看书。不定期有习题课，自愿去，不记考勤。作业不多，考试统考，全是选择题。\n\n点评人：zhzh\n\n上课学期：2025-2026春",
+            "created_at": "2026/05/25 16:31",
+            "modified_at": "2026/05/25 16:31",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

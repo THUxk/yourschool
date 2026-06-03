@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2812,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：创意软件\n\n授课质量与给分：基本自学\n\n点评人：奶龙\n\n上课学期：25秋\n\n做了半学期的程序居然只有A+难道不应该是SSR吗？",
+            "created_at": "2026/01/30 19:14",
+            "modified_at": "2026/01/30 19:14",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2622,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：选择制作一个网站/智能体/游戏 类型任选（只要你喜欢就行！！根据你的兴趣制作就行！我之前就是做了一个网文相关的网站）\n\n授课质量与给分：授课比较水，但是会认真的教你（只要你不会就问就可）。老师和助教都很亲切认真，只要你有不懂，可以随时问。给分特别好，基本上好像都是4.0，而且会给高分，给我一个98，有一个朋友随便做的，也能拿到90+\n\n点评人：匿名\n\n上课学期：2025秋季",
+            "created_at": "2025/12/13 21:36",
+            "modified_at": "2025/12/13 21:36",
+            "score": "98（4.0）",
+            "moderator_remark": null
+        },
+        {
+            "id": 2591,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：选择制作一个网站 类型任选 \n\n授课质量与给分：好 非常好\n\n点评人：水木书院 李义鑫 \n\n上课学期：2025秋季",
+            "created_at": "2025/12/12 15:42",
+            "modified_at": "2025/12/12 15:42",
+            "score": "95",
+            "moderator_remark": null
+        }
+    ]
+}

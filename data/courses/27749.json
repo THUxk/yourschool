@@ -1,0 +1,187 @@
+{
+    "count": 12,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3212,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "人美心善朱老师，闭眼冲！\n代际主题好像看起来没什么意思但是话题特别的广泛，想学习一些人文社会科学可选，想写与自己兴趣爱好相关的也可选。给分也非常不错！",
+            "created_at": "2026/03/29 01:00",
+            "modified_at": "2026/03/29 01:00",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 3088,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：拟稿15%+初稿20%+终稿35%+课堂报告15%+平时讨论和课堂作业15%\n\n授课质量与给分：老师人非常好，本人从未获得过负面或批评的态度，会用建议和鼓励的语气在面批和稿件的注释中指出问题。平时任务量感觉不算多，不交稿的时候一般只有阅读材料并在网络学堂上回答思考问题（没有字数要求，并且如果错过了期末会有补交机会）。对于三稿的写作，虽然课上着重讲了访谈法的运用，也有一部分同学使用了，但本人没做访谈，纯粹靠数据的整理与分析同样得到了不错的分数（所以i人不用担心）。代际主题相对可选的方向较多，如果初稿质量高的话终稿是不需要再花费太多功夫的，稍作修改即可。课堂报告因为时间较短，准备压力会小一些\n平时课上活动也很丰富，包括民主协商会、辩论会、学术沙龙（甚至有茶歇）等，推荐\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/02/25 18:54",
+            "modified_at": "2026/02/25 18:54",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 3084,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n网络学堂讨论+课堂参与+初稿+拟稿+终稿+6分钟的个人pre\n授课质量与给分：4.0\n较好，讲课比较有意思，但是会随机提问和小组讨论。平时任务就是阅读一两篇文章并完成网络学堂上的讨论。但后期有一些活动（辩论赛和脱稿pre等）需要花费较多时间。本人课堂参与较少，pre也一般，但是文章写得还行，因此给分不错。\n\n点评人：匿名\n\n上课学期：2025年秋",
+            "created_at": "2026/02/25 16:37",
+            "modified_at": "2026/02/25 16:37",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 3029,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：拟稿15%初稿20%终稿35%课堂报告15%平时讨论和课堂作业15%\n\n授课质量与给分：授课质量好，讲的清楚有趣！但是有一点不足，本人在初稿中有一部分和拟稿一样的内容，在拟稿的时候老师没要求修改但是在初稿中老师却认为这段文字有一些段内逻辑问题（注意是段内逻辑所以与上下文无关，单纯是这段文字的问题）要求修改，可能影响了本人初稿分数，对此略有一些不满。给分正常\n\n点评人：浮沫汐\n\n上课学期：2025-2026秋",
+            "created_at": "2026/02/09 08:44",
+            "modified_at": "2026/02/09 08:44",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 2909,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：写沟应该都一样\n\n授课质量与给分：挺好的，不过老师似乎较喜欢访谈比较多的文章，这部分可能时间花费较多，大家见仁见智，给分不错。初稿20h左右，终稿10h左右，仅供参考。\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/30 22:42",
+            "modified_at": "2026/01/30 22:42",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2733,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：事情多，讲一堆无人在意的社会伪科学，避雷\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/16 14:44",
+            "modified_at": "2026/01/16 14:44",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2729,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：网络学堂讨论+综述+初稿+终稿+展示汇报\n\n授课质量与给分：老师人很亲切和善；课下任务量正常（除写作外主要是阅读自编读本上的文献，每节课至多一篇）；课堂设计了很多有趣的活动（角色扮演、辩论等）；授课内容对于培养学术写作规范和演讲展示技巧、了解社会科学研究基本方法和理论等很有帮助。注意：“代际”主题的写作很可能需要访谈，会占据比较多的课下时间。\n\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/01/14 23:00",
+            "modified_at": "2026/01/14 23:00",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2431,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：拟稿15初稿20终稿35课堂展示15出勤15\n\n授课质量与给分：老师人很好，很温柔很有耐心，面批的时候会很细节地和你一起梳理思路发现问题，虽然答主三稿都是在ddl前一晚狂肝赶出来的写得不忍直视，但老师也没有给过负面的评价或者批评的态度。\n上课氛围很轻松，有挺多小组讨论但基本没有严格意义上的小组作业，只是上课大家一起聊聊分享观点。课下任务量也小，除了所有课都有的三稿加展示基本就是一些读书任务和简单的应用当堂知识填表格。学期中有一个辩论or家庭简史分享，可能需要的准备略多，其他基本都是半小时内就能搞定。\n终稿可能属于收的比较早的一批，答主的舍友都是18周交但答主是16周交，因此在期末考试周不得不为赶终稿通宵，大家一定不要像答主一样拖延。\n\n上课学期：25春",
+            "created_at": "2025/07/08 01:41",
+            "modified_at": "2025/07/08 01:41",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1095,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：任务量不算太大，讲的东西都有用，老师人超好超美，冲！\n\n点评人：\n\n上课学期：",
+            "created_at": "2024/07/23 15:44",
+            "modified_at": "2024/07/23 15:44",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 855,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师人美心善给分好，上课比较有趣，也比较有深度，课程除了写沟要求的论文基本没有课后任务。",
+            "created_at": "2024/07/21 18:04",
+            "modified_at": "2024/07/21 18:04",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 854,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "三个阶段 \n第一阶段是入门，在第六周（由于国庆没上课）交3000字拟稿（文献综述）\n第二阶段是提升，在第十一周交5000+字初稿（字数有上限，不鼓励内卷），包括一个辩论赛（不影响分数）\n第三阶段是总结，要交终稿并做pre（目前未知）\n阅读量还行",
+            "created_at": "2024/07/21 18:04",
+            "modified_at": "2024/07/21 18:04",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 258,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "朱老师上课风格比较有趣，会给人自信心，任务量相对比较少，但难免会有吃3.6的情况发生。强调：不要对写作与沟通课程的任务量和压力有任何不切实际的想法！请务必准备好充足的时间应对短文和长文！",
+            "created_at": "2024/07/21 13:45",
+            "modified_at": "2024/07/21 13:45",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

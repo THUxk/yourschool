@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3353,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "我是大二上的，Cindy老师人非常好，然后教学质量也很高，确实让我对冰壶这项运动产生了兴趣，然后给分也是相当好，伟大无需多言",
+            "created_at": "2026/05/26 17:32",
+            "modified_at": "2026/05/26 17:32",
+            "score": "未出",
+            "moderator_remark": null
+        }
+    ]
+}

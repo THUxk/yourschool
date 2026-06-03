@@ -1,0 +1,20 @@
+{
+    "tid": "6737",
+    "name": "XIONG QIHUA",
+    "related_courses": [
+        {
+            "id": 31642,
+            "code": "31804",
+            "name": "能源物理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29846,
+            "code": "30008",
+            "name": "基础物理学(2)",
+            "avg": 5.0,
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "tid": "5955",
+    "name": "Susan",
+    "related_courses": [
+        {
+            "id": 24123,
+            "code": "24268",
+            "name": "英语高级听力",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

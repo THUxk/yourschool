@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3149,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n10%期中+40%平时+50%期末\n授课质量与给分：\n屎中屎，只会读PPT，还喜欢在进度落后的时候瞎扯。表面上慈眉善目的，实际上很严格，而且有点过了头，考完期中一百四五十人的班级他说捞完也只有十个人达到他的A等地标准。dz因为这一门课绩点从正数变成倒数，总之远不如yds。\n点评人：拿了2.6\n\n上课学期：2025秋",
+            "created_at": "2026/03/02 15:13",
+            "modified_at": "2026/03/02 15:13",
+            "score": "C+",
+            "moderator_remark": null
+        }
+    ]
+}

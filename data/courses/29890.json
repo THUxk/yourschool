@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 621,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "小组作业共同完成剧本的开场写作，老师特别好，课程十分有趣且能学到很多东西，任务量稍大但是真的是好课！冲！",
+            "created_at": "2024/07/21 16:51",
+            "modified_at": "2024/07/21 16:51",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 620,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "内容是从一句话构思开始，到合作写电影前十五分钟剧本，学期末有读本展示。作业量似乎比一般的2分通识课大，每节课结束都要写东西，写完老师会逐一给反馈也会让同学们互相点评，要花时间，不过有兴趣应该还好。基本不能缺勤，老师每个人都认识，并且缺勤会跟不上。期末作业是剧本成稿和一些其他设计比如海报等等，有一个读本展示有观众比较有成就感。总之有兴趣很推荐来。",
+            "created_at": "2024/07/21 16:51",
+            "modified_at": "2024/07/21 16:51",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

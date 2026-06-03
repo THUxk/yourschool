@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2382,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：讲课纯💩，只会念PPT。作业也💩，刚学Java一天就要独立写APP。还好最后一年开课不会残害后面的同学了\n\n点评人：\n\n上课学期：2025夏季学期",
+            "created_at": "2025/07/02 08:21",
+            "modified_at": "2025/07/02 08:21",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

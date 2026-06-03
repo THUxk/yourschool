@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2885,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：两次小测（15%+25%）+期末大作业（35%）+小组pre（15%）+出勤10%\n\n授课质量与给分：\n很优质 课程设计很合理 看得出课程组有自己的思路 孙老师上课很幽默 听三节一点不累 只要文献阅读的工作做到位，不论是小测还是pre都不会有很大的问题。期末的大作业也有不同的梯度 可以选择写综述拿extracredit，也可以选择写评论求稳。\n给分情况尚不清楚 个人因为致力于向这方向发展得分不坏。作为至善的八选七 可能有很多本专业炸鱼。\n\n点评人：R\n\n上课学期：25秋",
+            "created_at": "2026/01/30 21:38",
+            "modified_at": "2026/01/30 21:38",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 623,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "会讲述很多国际关系领域的经典理论，老师很幽默，上课非常有意思，也很理解大家的课业压力。小测内容很简单，好好听课都可以拿到满分~",
+            "created_at": "2024/07/21 16:52",
+            "modified_at": "2024/07/21 16:52",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 458,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考勤+两篇论文+期末小组报告+期末论文\n\n授课质量与给分：\n国关课程以讲授分析国际关系的基础理论为主，非常成体系，老师本人风趣幽默，上课的时候非常有意思。考核方式包括日常考勤、学期间两篇1500字的论文，期末小组报告以及最后的3000字期末论文。老师给分蛮好的，只要平时对理论的学习到位，认真阅读要求阅读的文献，这些考核都绝对没有问题~",
+            "created_at": "2024/07/21 15:38",
+            "modified_at": "2024/07/21 15:38",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

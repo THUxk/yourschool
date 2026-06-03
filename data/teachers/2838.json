@@ -1,0 +1,27 @@
+{
+    "tid": "2838",
+    "name": "Christopher Thomas",
+    "related_courses": [
+        {
+            "id": 9365,
+            "code": "9364",
+            "name": "全球化企业的管理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9385,
+            "code": "9384",
+            "name": "信息技术和互联网行业战略",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5622,
+            "code": "5621",
+            "name": "全球技术战略",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

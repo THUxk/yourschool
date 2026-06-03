@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1537,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：期中作文+期末作文+作业\n\n授课质量与给分：授课质量不错，给分很烂\n\n点评人：匿了\n\n上课学期：2024秋\n\n如果想学怎么写东西，可以旁听。但是非常不建议选课。平时作业无反馈，要求非常不明确，期中作业会拖到十三周改出来（而且看得出来，老师没读完）。似乎不限制外国学生选课，我有理由怀疑部分同学是英语母语者。",
+            "created_at": "2024/12/18 12:07",
+            "modified_at": "2024/12/18 12:07",
+            "score": "期中作业B",
+            "moderator_remark": null
+        }
+    ]
+}

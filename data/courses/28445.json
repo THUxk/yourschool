@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2501,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时作业+考勤+期末论文\n\n授课质量与给分：老师讲课水平很高，内容很丰富，适合对历史感兴趣、想认真研究的同学，应该会很有收获。给分不错，只要能理解老师上课的核心思想并使用，作业和论文也不是难事。\n\n点评人：\n\n上课学期：2023-2024春季学期",
+            "created_at": "2025/10/18 23:09",
+            "modified_at": "2025/10/18 23:09",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1228,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考勤+平常作业+期末大作业\n\n授课质量与给分：属于偏硬的通识课，老师认真负责，讲课内容丰富，每堂课有作业，给分不错，期末大作业只要平常听听就不太困难，总的来说有收获。\n\n点评人：\n\n上课学期：2023-2024春",
+            "created_at": "2024/07/25 18:01",
+            "modified_at": "2024/07/25 18:01",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

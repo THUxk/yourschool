@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2398,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：统考\n\n授课质量与给分：老师讲得很好，是那种很系统很细致的讲解知识点的，如果跟下来的话能学到真东西。就算是不完全跟下来，只要把握课程的大致节奏，练点题，那个高分还是很容易的。就是不知道为啥选的人那么少🥲不过人少也好，每次去都是独占几个桌子😋松弛感拉满\n老师给分也不错其实，一学期顺下来也拿了4.0\n点评人：sls微积分单推人🥰\n上课学期：",
+            "created_at": "2025/07/05 01:20",
+            "modified_at": "2025/07/05 01:20",
+            "score": "4.0A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2191,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：我最喜欢的一门课老师人特别好\n\n点评人：史灵生的拥护者\n\n上课学期：25春",
+            "created_at": "2025/06/17 19:23",
+            "modified_at": "2025/06/17 19:23",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

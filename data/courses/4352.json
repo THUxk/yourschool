@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1258,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：\n老师非常非常非常好，鼓励式教育，上课氛围好；\n学的内容本身技术难度不大，只要好好练都没问题，且不累；\n给分很好；\n\n上课学期：24春",
+            "created_at": "2024/07/30 15:27",
+            "modified_at": "2024/07/30 15:27",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

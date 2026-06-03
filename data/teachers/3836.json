@@ -1,0 +1,20 @@
+{
+    "tid": "3836",
+    "name": "CHIRIBELLA GIULIO",
+    "related_courses": [
+        {
+            "id": 12535,
+            "code": "12538",
+            "name": "量子信息",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11545,
+            "code": "11546",
+            "name": "高等量子信息学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

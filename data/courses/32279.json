@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3122,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时+期中+期末\n\n授课质量与给分：讲的很好，很专业，风格比较有趣幽默。两次考试之前会安排复习课，很有用。给分不错。\n\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/02/28 14:40",
+            "modified_at": "2026/02/28 14:40",
+            "score": "A–",
+            "moderator_remark": null
+        },
+        {
+            "id": 3015,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时+期中+期末\n\n授课质量与给分：老师讲课生动有趣，对知识的讲解很清楚，对答疑很耐心，人也很nice。这学期上课体验很好！给分似乎不错，好像化原的老师基本都会调分（？\n\n点评人：\n\n上课学期：25-26秋",
+            "created_at": "2026/02/07 09:16",
+            "modified_at": "2026/02/07 09:16",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1782,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n平时+期中+期末\n\n授课质量与给分：\n老师讲课很好，有趣清晰，好听不困，个人感觉节奏略快但可接受；给分特别好。总之特别推荐！\n\n上课学期：\n2024秋季学期",
+            "created_at": "2025/01/25 21:29",
+            "modified_at": "2025/01/25 21:29",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1663,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时+期中+期末\n\n授课质量与给分：老师人非常好。期中均分很低期末会调分。本人期中在均分以下，老师找我谈话告诉我不要觉得自己考得很差并且还教怎么复习。期末突击了一下最后4.0，难以置信。老师人真的非常非常好，在期末之后还发消息给我，情绪价值给满。大一请务必冲一下林老师！！\n\n点评人：\n\n上课学期：大一上",
+            "created_at": "2025/01/24 20:48",
+            "modified_at": "2025/01/24 20:48",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

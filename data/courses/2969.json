@@ -1,0 +1,112 @@
+{
+    "count": 7,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3180,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期末考试，平时作业\n\n授课质量与给分：老师讲课扎实风格幽默。上课开着弹幕，随时可以提问，课堂非常自由。作业用markdown在oj上完成。考前带同学串讲复习，平常上课的ppt制作极其精良，复习优先级高于课本，出题点也都在课上讲过。个人认为给分好。\n\n上课学期：25秋",
+            "created_at": "2026/03/09 21:54",
+            "modified_at": "2026/03/09 21:54",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2887,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业+考试\n\n授课质量与给分：老师讲课比较有激情，上课和同学通过弹幕互动还是比较有意思的。这学期作业用markdown在平台上写，作业写起来比较爽但是很耗时间。自我感觉考试考的爆炸烂，但是还是有捞的\n\n点评人：无纸化\n\n上课学期：2025-2026秋",
+            "created_at": "2026/01/30 21:46",
+            "modified_at": "2026/01/30 21:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1875,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n- 作业30（分雨课堂客观题和网络学堂主观题两部分，交Markdown得分乘105%，晚交一天扣5%，折合入总评）\n- 期末闭卷70\n\n授课质量与给分：\n- 作业打Markdown的形式做起来很有意思，任务量适中\n- 讲课比较有激情；离散1的内容本身挺无聊的，还是会听困\n- 期末应该是往上调分了，感觉我期末考得相当烂但还是捞了个B+\n\n点评人：Arch酱\n\n上课学期：24秋",
+            "created_at": "2025/02/13 18:03",
+            "modified_at": "2025/02/13 18:03",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 1778,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：30%作业+70%期末考试\n\n授课质量与给分：\n1. 授课质量中等，老师有激情，但内容属实枯燥无聊；\n2. 平时作业难度中等，细节较多，助教批改非常严格，建议与同学对答案，单兵作战如楼主会比较危险；\n3. 期末考试非常难且题量巨大，与样题完全不符，建议参考CST-Craker上的24Fall题目，由于平均分较低，一般根据比例赋分；\n4. 有加分作业两项，自动推理课题（至多2分）与出题（至多3分）；\n5. 楼主期末75，加分作业全做，平时作业一般，最后得分A-，由此推断给分尚可。\n\n点评人：无名尸\n\n上课学期：24 Fall",
+            "created_at": "2025/01/25 21:14",
+            "modified_at": "2025/01/25 21:14",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1716,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业30 期末70\n\n授课质量与给分：授课一般般，老师很有热情但是有些内容讲不明白，效率一般。老师人很好，乐意回答问题，每节课前也会把上周收集的问题整合起来解答，不过有时并没有回答到点子上（像是没有理解同学真正的疑惑点）。作业用Markdown有5%加分，而且会有冗余分，所以容易拿满；期末我愿将其比喻为数学高考19题大杂烩，不过调分力度大，应该还是按照比例来给等第。\n\n点评人：追忆的北风\n\n上课学期：24秋",
+            "created_at": "2025/01/25 00:49",
+            "modified_at": "2025/01/25 00:49",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1619,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：30%作业+70%期末\n\n授课质量与给分：马老师人很好，授课有趣，ppt很详细，也会插播一些数学家小故事。离散数学不难，但知识点较琐碎，需要作业及时落实以及期末完整过一遍ppt 刷几套往年题\n\n作业较简单，markdown机打可有5%加分；除作业外还有小课题、期末考命题等活动，每个活动有1至3分的加分；期末考试老师只会给一套包浆样题，正式考试难度不高，但题量较大（某届计金全班很少有人做完），可以在清华大学计算机系课程攻略里面做往年题（23有完整版）感受题量\n\n会有调分且力度较大，我作业漏洞百出迟交2次，期末基础题错穿，参加了两个活动，没想到竟然有A+（\n\n点评人：T大loser",
+            "created_at": "2025/01/19 12:20",
+            "modified_at": "2025/01/19 12:20",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 1520,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：期末考试，和软院统考，**题量很大且不调分**\n授课质量与给分：\n上课**速度很快**，会讲一些有趣的数学家的小故事；离散课程内容知识点很零散，需要课下**认真复习**，期末考试不会像ppt上题目一样简单\n点评人：Eric\n上课学期：23秋",
+            "created_at": "2024/12/12 11:56",
+            "modified_at": "2024/12/12 11:56",
+            "score": "B+",
+            "moderator_remark": null
+        }
+    ]
+}

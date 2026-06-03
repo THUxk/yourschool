@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2423,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：只是\n\n授课质量与给分：想给\n\n点评人：马老师\n\n上课学期：好评",
+            "created_at": "2025/07/07 21:18",
+            "modified_at": "2025/07/07 21:18",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 117,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师真的讲的很好，详略得当，非常能抓重点，给分也很不错！课前有时候会放一些花的照片活跃气氛hh是很和蔼可亲的人呢！推荐！",
+            "created_at": "2024/07/21 12:48",
+            "modified_at": "2024/07/21 12:48",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

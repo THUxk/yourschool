@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 630,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "课程主要是过了一遍基本的一些逻辑学知识，三段论，数理逻辑，图灵机，哥德尔不完备定理这些知识，从直觉逻辑开始会有点难度，但由于不需要完全掌握，所以其实还好。作业量很小，3次作业，期末论文+pre，平时可以参加研讨会（GEB读书分享会）来加分。老师人很好，给分很棒，课不算硬。",
+            "created_at": "2024/07/21 16:54",
+            "modified_at": "2024/07/21 16:54",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

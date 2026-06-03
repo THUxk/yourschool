@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2187,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时分+期中考试+期末考试\n\n授课质量与给分：讲课有趣，给分好，不挂人。期中考试后还会跟学生约时间讨论卷面和错题。老师和助教都非常认真负责，对学生也很和蔼。\n\n点评人：\n\n上课学期：2022年秋季学期",
+            "created_at": "2025/06/17 17:45",
+            "modified_at": "2025/06/17 17:45",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

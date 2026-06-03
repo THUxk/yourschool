@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2623,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n工图统考\n授课质量与给分：A\n老师人很好，讲课通俗易懂，人很幽默，课后你去问问题会认真回答，还有面谈环节（）非常认真负责的老师！\n\n上课学期：25年春",
+            "created_at": "2025/12/13 22:35",
+            "modified_at": "2025/12/13 22:35",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 2015,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "授课质量与给分：讲课又臭又长，只会念PPT，特别无聊，还喜欢点人。专题作业一点忙也帮不上，问他问题他就讲些有的没的，真正考试能用上的很少很少\n听说作业也比其他小班多\n上课学期：2025春",
+            "created_at": "2025/04/28 16:07",
+            "modified_at": "2025/04/28 16:07",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

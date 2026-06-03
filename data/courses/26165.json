@@ -1,0 +1,187 @@
+{
+    "count": 12,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3223,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：不清楚\n\n授课质量与给分：不知道为什么评分这么高的，任务量奇大如果认真完成一周需要6h+（老师上课自己说的），一周读一篇小字20页英语论文还有各种pre之类，个人感觉对于一个两学分的课完全没必要。而且老师上课随机点人起来回答问题对i人极不友好，不想太卷或者偏i的话慎选\n点评人：\n\n上课学期：25秋",
+            "created_at": "2026/04/06 14:36",
+            "modified_at": "2026/04/06 14:36",
+            "score": "W",
+            "moderator_remark": null
+        },
+        {
+            "id": 2243,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：一次课前News report（5%）+读书笔记（5%）+quiz（10%，多次quiz中取最高两次成绩）+论文（IM20%+RD20%+abstract10%+final20%）+论文pre（10%）\n授课质量与给分：老师人很好，修改论文十分认真，会一句一句地阅读你的文章并给出修改建议\n点评人：佚名\n上课学期：2025春",
+            "created_at": "2025/06/27 18:07",
+            "modified_at": "2025/06/27 18:07",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2186,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "Fly bitch!!!式的教学，第一节课先劝退一波，然后直接开始大跃进。人好，教的东西多这些我不否认，但是只能说她教她的，根本不从学生角度考虑。期末说怎么你写这文章写了跟白学了一样……",
+            "created_at": "2025/06/15 21:54",
+            "modified_at": "2025/06/15 21:54",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1635,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师特别好，很负责任，论文会逐字逐句批改，学生问问题回答很及时，可以学到很多东西。很有幽默感，上课氛围轻松愉快。反正猛猛冲吧，绝对值！",
+            "created_at": "2025/01/24 17:59",
+            "modified_at": "2025/01/24 17:59",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 888,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "论文周可能会很难熬，上课气氛很好",
+            "created_at": "2024/07/21 18:12",
+            "modified_at": "2024/07/21 18:12",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 887,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师挺好，主要讲《英语研究论文读写教程》这本书，课程难度适中",
+            "created_at": "2024/07/21 18:12",
+            "modified_at": "2024/07/21 18:12",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 886,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师论文写作讲得很好，学了以后对写论文帮助很大，老师上课点名回答问题频率很高，也很幽默，刚开始一节课可能不适应，到后来处熟了就会感到老师人超好！",
+            "created_at": "2024/07/21 18:12",
+            "modified_at": "2024/07/21 18:12",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 885,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "杨老师讲的内容很实用，跟着她学到了不少论文写作的知识。可能一上来会觉得有点压力大，但是处久了会发现老师超级幽默，写完了论文整个学期会轻松很多",
+            "created_at": "2024/07/21 18:12",
+            "modified_at": "2024/07/21 18:12",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 402,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：论文+课堂展示（新闻）+平时作业（reading notes）\n授课质量与给分：\n论文内容较多；论文是两人合作，可以组队，老师人很nice。",
+            "created_at": "2024/07/21 14:53",
+            "modified_at": "2024/07/21 14:53",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 383,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：论文、课堂展示、平时作业\n\n授课质量与给分：\n课堂内容形式丰富，讲课基本全英文，课堂上会先对课本上的论文进行分析，然后依次讲述学术论文的各部分要点。作业考核包括词句整理、背诵词汇表以听写、新闻播报、论文写作与答辩展示。老师用心，注重培养学生的自学能力与语言运用能力，会给每位学生面批论文，课程收获大。按照老师要求学习及完成作业，能收获不错的成绩；要更好成绩需要写好论文，花较多时间与精力。给分较好。",
+            "created_at": "2024/07/21 14:39",
+            "modified_at": "2024/07/21 14:39",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 271,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "杨老师课程安排层次，要求严格，平时会分享一些课程外的知识，作业正常，给分不错，但选课难度较大。",
+            "created_at": "2024/07/21 13:52",
+            "modified_at": "2024/07/21 13:52",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 220,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师人很好，有点冷幽默，任务量稍大但能学到很多，给分好，冲！",
+            "created_at": "2024/07/21 13:34",
+            "modified_at": "2024/07/21 13:34",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

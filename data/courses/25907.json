@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3017,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "给分挺严的",
+            "created_at": "2026/02/07 12:17",
+            "modified_at": "2026/02/07 12:17",
+            "score": "",
+            "moderator_remark": null
+        }
+    ]
+}

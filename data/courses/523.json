@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1543,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：小组分2/5+个人分3/5\n\n授课质量与给分：讲得好但给分烂，老师自己说平均分在40-43左右。优点是操房冬暖夏凉，建议大三选。\n\n点评人：\n\n上课学期：24秋",
+            "created_at": "2024/12/21 21:03",
+            "modified_at": "2024/12/21 21:03",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 485,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "周老师很美很有气质，专业能力也很强，不过对同学要求也比较严格，没有基础的话需要自己课下多练习。期末考核会有队形变换等等的要求，所以如果自己在的小组组长给力的话分会高一点。\n跟形体课不太一样,比较累整节课在拉伸动作还要彩排舞蹈表演。\n要压腿拉筋平板支撑，可能会比较辛苦。\n可能需要抱队友大腿。",
+            "created_at": "2024/07/21 15:52",
+            "modified_at": "2024/07/21 15:52",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

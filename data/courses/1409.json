@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 467,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "课程任务量较少，授课难度评价不一，考试难度较为简单，给分很好，徐爷爷广受同学们喜爱，很多人评价老师讲的课“趴着听也是享受”。",
+            "created_at": "2024/07/21 15:42",
+            "modified_at": "2024/07/21 15:42",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

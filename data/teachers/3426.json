@@ -1,0 +1,20 @@
+{
+    "tid": "3426",
+    "name": "HONG YANG",
+    "related_courses": [
+        {
+            "id": 9596,
+            "code": "9595",
+            "name": "雷达水文气象学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8918,
+            "code": "8917",
+            "name": "现代遥感水文学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

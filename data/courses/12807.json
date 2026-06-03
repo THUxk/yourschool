@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1514,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考试\n\n授课质量与给分：质量极佳，比课本细，给分很好，平时作业有错题也能拿A，我是邵珠峰的狗！！！\n\n点评人：土木老哥\n\n上课学期：大一上",
+            "created_at": "2024/12/11 22:18",
+            "modified_at": "2024/12/11 22:18",
+            "score": "期中97",
+            "moderator_remark": null
+        }
+    ]
+}

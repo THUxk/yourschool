@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 105,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：\n作业实验各10%，期中30%，期末50%\n授课质量与给分：\n山鹰老师其实讲的很有意思，人也nice；原题刷的好，分数不会低（无考勤）。",
+            "created_at": "2024/07/21 12:37",
+            "modified_at": "2024/07/21 12:37",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

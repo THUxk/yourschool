@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3104,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：散手专项（主要考查动作）+体测\n\n授课质量与给分：主要学习拳+腿+摔，老师很热情认真，散打学着还是蛮有用的，专项给分比较一般\n\n点评人：lll\n\n上课学期：2023春",
+            "created_at": "2026/02/26 15:38",
+            "modified_at": "2026/02/26 15:38",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

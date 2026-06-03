@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 940,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师挺好，但是授课难度比较大，适合有基础or天赋高的选手",
+            "created_at": "2024/07/21 18:26",
+            "modified_at": "2024/07/21 18:26",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 939,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师挺好，但是授课难度比较大，适合有基础or天赋高的选手",
+            "created_at": "2024/07/21 18:26",
+            "modified_at": "2024/07/21 18:26",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

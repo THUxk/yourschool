@@ -1,0 +1,20 @@
+{
+    "tid": "6867",
+    "name": "HUNG LING YAN",
+    "related_courses": [
+        {
+            "id": 31611,
+            "code": "31773",
+            "name": "物理-2",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30554,
+            "code": "30716",
+            "name": "物理-1",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

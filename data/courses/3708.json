@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2489,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：小作业+两个大作业，详情不明\n\n授课质量与给分：\n在清华上到的第一门史课\n上课该讲的不讲，不该讲的讲一堆，上课讲的、ppt里的、大作业框架里的和大作业实际要用的是四个东西，大作业时间紧任务重，还有一堆东西需要自己fly bitch，最后给分也莫名其妙\n赌石的小登们还是润去上工工的吧\n\n点评人：硒代矽酸锡\n\n上课学期：2024-2025夏",
+            "created_at": "2025/09/24 09:30",
+            "modified_at": "2025/09/24 09:30",
+            "score": "3.6",
+            "moderator_remark": null
+        }
+    ]
+}

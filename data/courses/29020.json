@@ -1,0 +1,127 @@
+{
+    "count": 8,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3202,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "钟老师千古",
+            "created_at": "2026/03/24 11:51",
+            "modified_at": "2026/03/24 11:51",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 3200,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "钟老师千古\n\n上课学期：25秋",
+            "created_at": "2026/03/22 19:24",
+            "modified_at": "2026/03/22 19:24",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 3161,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "水，考核方式为两首自作诗词，给分不确定性较大。",
+            "created_at": "2026/03/04 15:58",
+            "modified_at": "2026/03/04 15:58",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2621,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：结课交两首诗\n\n授课质量与给分：授课质量一般，主要看你对课程是否感兴趣。最后用心写了两首诗交上去，选取了自认为很有意思的题材，还细细调整了格律，不明白为什么最后是3.6\n\n点评人：\n\n上课学期：25春",
+            "created_at": "2025/12/13 17:18",
+            "modified_at": "2025/12/13 17:18",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1075,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "如果只想刷通识课学分，整个学期要花的时间不超过两小时，ai写诗直接完事，给分也好\n如果想好好学，老师课讲的也挺好的\n总之非常推荐\n\n\n上课学期：\n秋",
+            "created_at": "2024/07/23 15:00",
+            "modified_at": "2024/07/23 15:00",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1011,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "不用签到 期末写一首诗一首词作为作业 课程任务量很轻",
+            "created_at": "2024/07/21 18:46",
+            "modified_at": "2024/07/21 18:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1010,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师授课很敬业，每节课在讲台上讲解诗词，期末大作业很友好，自己写两首诗，课程不记签到",
+            "created_at": "2024/07/21 18:46",
+            "modified_at": "2024/07/21 18:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1009,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "每节课老师在讲台上讲解诗词，一共11周课加一周讨论课，三小节",
+            "created_at": "2024/07/21 18:46",
+            "modified_at": "2024/07/21 18:46",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

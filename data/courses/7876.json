@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1789,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：\n1. 不客气地说，经管的通识体系就是纯纯的史。\n2. 同时非常悲痛地指出，西方文明课组的其他课都很难，西方文明是理解难度相对较低，比较通识属性的，因此选修这门课似乎是无可奈何。\n3. 经管有一些理科生，计金更是都是理科生，学这些课都很吃力，希望未来可以有所改变。\n4. 回到正题，授课非常糟糕，几乎没有人听课，课程有论文，还有闭卷期末考试，属实无语。我等确实没有人文素养，就是来垫优秀率的。\n以上\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/01/25 22:11",
+            "modified_at": "2025/01/25 22:11",
+            "score": "B+",
+            "moderator_remark": null
+        },
+        {
+            "id": 1108,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n两次论文\n授课质量与给分：\n老师比较水，可以翘课摆烂但是论文得好好卷。\n点评人：\n匿名\n上课学期：\n2022秋",
+            "created_at": "2024/07/23 15:59",
+            "modified_at": "2024/07/23 15:59",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 768,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "写论文很累的",
+            "created_at": "2024/07/21 17:42",
+            "modified_at": "2024/07/21 17:42",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3289,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "据说批发4.0，没请其他人来讲课的每节课都要考勤，三篇小论文\n可以当水课，认真听也有收获",
+            "created_at": "2026/05/22 15:53",
+            "modified_at": "2026/05/22 15:53",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1060,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：3次小作业\n\n授课质量与给分：极好，不考勤，作业基本都有90以上，均分93左右就有A+\n\n点评人：alice\n\n上课学期：大三下",
+            "created_at": "2024/07/23 13:44",
+            "modified_at": "2024/07/23 13:44",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 774,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "三次1000字的感想作业，没有论文要求那么严格。",
+            "created_at": "2024/07/21 17:43",
+            "modified_at": "2024/07/21 17:43",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 773,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "大致内容如课程名，康老师喜欢在ppt上放自己去各个教堂，艺术馆的照片。讲课生动有趣，选到即4.0",
+            "created_at": "2024/07/21 17:43",
+            "modified_at": "2024/07/21 17:43",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 439,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：三次不限字数（无下限）的小论文，最后取平均值；课堂签到，如果全勤期末成绩有加分\n\n授课质量与给分：\n康啸老师是中国音乐学院音乐学系教授，音乐学博士，主要研究方向是瓦格纳歌剧，在西方音乐史的教授上权威性比较强，讲课氛围很轻松，每节课都有多媒体辅助音乐欣赏环节。讲课内容更多是西方音乐常识科普，不需要乐理基础，不会抽人回答问题。考核方式是三次不限字数的小作文，基本上态度认真，有真情实感，老师都会给很不错的分数。最后的成绩是三次小论文的平均分，如果课堂签到全勤还会有2、3分的加分。",
+            "created_at": "2024/07/21 15:23",
+            "modified_at": "2024/07/21 15:23",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

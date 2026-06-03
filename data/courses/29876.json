@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1902,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n\n授课质量与给分：这门课就是纯坐牢，水学分可以来，对机器人感兴趣的建议别来\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/02/18 07:57",
+            "modified_at": "2025/02/18 07:57",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "tid": "4132",
+    "name": "DONOVAN WILLIAM ROSS GOODCHILD",
+    "related_courses": [
+        {
+            "id": 27710,
+            "code": "27872",
+            "name": "微积分A(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30273,
+            "code": "30435",
+            "name": "李群和李代数",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30695,
+            "code": "30857",
+            "name": "理论力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31399,
+            "code": "31561",
+            "name": "微积分A(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32804,
+            "code": "32966",
+            "name": "代数几何专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13143,
+            "code": "13149",
+            "name": "微积分(2)(英)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

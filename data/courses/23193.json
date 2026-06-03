@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3162,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师不错，挺有意思，偶尔有些严厉\n25秋",
+            "created_at": "2026/03/04 16:00",
+            "modified_at": "2026/03/04 16:00",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

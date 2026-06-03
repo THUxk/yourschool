@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2359,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "屠凯老师的法学绪论是法学院的入门型课程。上课比较简易，使用《法学绪论》（法律出版社，清华大学法学教材大系本）作为教材，考前会划重点，给分较好。\n\n点评人：涩谷的猫头鹰",
+            "created_at": "2025/06/30 10:10",
+            "modified_at": "2025/06/30 10:10",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

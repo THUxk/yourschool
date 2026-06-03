@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2874,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时20+小组pre20+期末论文开卷考试二选一60\n\n授课质量与给分：授课很好，好几次想摸鱼老师讲着讲着就抬起了头开始听老师讲课（）我的pre一坨甚至还被老师当面指出了好几个错误，但由于本人课下找老师和助教聊过几次并且期末论文单开了一个选题（经过老师的同意了）成绩也还不错\n\n上课学期：25-26秋",
+            "created_at": "2026/01/30 21:21",
+            "modified_at": "2026/01/30 21:21",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 634,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "经常随机抽人做题写姓名学号上交来考勤，其他还行",
+            "created_at": "2024/07/21 16:56",
+            "modified_at": "2024/07/21 16:56",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 296,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "任务量较少，课程的给分情况、课堂有趣程度同学们都评价不一。有小组展示，期末考核方式为论文考试二选一，同学们投票决定。",
+            "created_at": "2024/07/21 14:03",
+            "modified_at": "2024/07/21 14:03",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 101,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n大作业50%，小组展示20%，剩下的有两次现场答题\n授课质量与给分：\n授课内容全面，科学社会主义、政治经济学、马克思主义哲学都有涉及，并且会介绍现代西马学者的最新思想，解释部分现实问题（但是没有某些老师那么冲塔），总的来说很有收获。相对其他老师，王老师讲马原内容比较全面；而且一般不会耗费宝贵的一志愿。",
+            "created_at": "2024/07/21 12:34",
+            "modified_at": "2024/07/21 12:34",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 12,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师人很好，讲课十分生动，知识量较大，也有很多拓展延伸。每个小组需要进行一次小组展示，老师会细心地为展示提供建议。每学期会随机选取大约4-5节课进行课后随堂测试，主要是关于当堂课讲的内容。期末形式由本班同学投票决定：考试和写一篇与课程内容相关的论文二选一。",
+            "created_at": "2024/07/21 10:49",
+            "modified_at": "2024/07/21 10:49",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

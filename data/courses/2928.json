@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1064,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：期中+期末作业\n\n授课质量与给分：老师水平很高，只是上课有点太形而上学了，和考试基本正交。但黎波老师人真的很好。\n\n点评人：\n\n上课学期：2023秋季",
+            "created_at": "2024/07/23 14:05",
+            "modified_at": "2024/07/23 14:05",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

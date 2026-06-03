@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 10,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师讲的好，人非常和善，考试自主命题，期中期末给分比例会根据考试情况进行调动。",
+            "created_at": "2024/07/21 10:48",
+            "modified_at": "2024/07/21 10:48",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "count": 8,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3090,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：如果你喜欢文学，一定要来。讲的好。如果你想水课，也可以来。无作业无考评，期末小论文，三道题自己选，很简单。\n点评人\n\n上课学期：",
+            "created_at": "2026/02/25 19:26",
+            "modified_at": "2026/02/25 19:26",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2831,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "从不签到，但老师会吓唬我们说要点名。。本人就这么被忽悠着去了一学期。。期末考试才知道原来这课这么多人报(ﾟ⊿ﾟ)ﾂ\n老师讲的很多，但是和期末关系不大，那个小论文看过一本书就行，上课压力特别小，就是课时长，总之很好啦",
+            "created_at": "2026/01/30 19:57",
+            "modified_at": "2026/01/30 19:57",
+            "score": "4",
+            "moderator_remark": null
+        },
+        {
+            "id": 2353,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "从不签到，没有作业，期末一篇小论文，然后给我3.3。。。。死的不明不白，不推荐",
+            "created_at": "2025/06/29 15:17",
+            "modified_at": "2025/06/29 15:17",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1126,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师应该已经不开课啦，要退休啦，好课！在此怀念",
+            "created_at": "2024/07/23 19:59",
+            "modified_at": "2024/07/23 19:59",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 772,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "不签到不签到从不签到！老师上课态度和质量都很好，期末考试是随堂写作文（老师给三个作文题目自己选，题目非常友好）表达清楚观点即可",
+            "created_at": "2024/07/21 17:42",
+            "modified_at": "2024/07/21 17:42",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 771,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "从来没有点名过！而且老师上课态度特别好，也比较有意思，期末考试是随堂写作文（从老师给的三个题目里选一）不限定字数，表达清楚个人观点即可",
+            "created_at": "2024/07/21 17:42",
+            "modified_at": "2024/07/21 17:42",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 770,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "感觉像讲座类型，老师上课很很很用心，上课体验不错，可以认真听课也能自主安排时间。",
+            "created_at": "2024/07/21 17:42",
+            "modified_at": "2024/07/21 17:42",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 769,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师上课就侃侃而谈文学作品，喜欢文学的会觉得是一种享受，当然当水课上也可以，完全不签到，唯一考核是老师最后一节课给三个问题，自选一个写小论文，闭卷，根据这个给分",
+            "created_at": "2024/07/21 17:42",
+            "modified_at": "2024/07/21 17:42",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

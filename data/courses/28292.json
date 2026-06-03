@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2846,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：四次课堂小测 课堂平均（10%） 期中口语 （15%） 期末口语 （10%） 期末笔试 （40%） \n\n授课质量与给分：非常好，大胆冲。进度比较合理，上课很有趣。期末要好好复习啊，会得到满意的成绩\n\n点评人：\n\n上课学期：25秋",
+            "created_at": "2026/01/30 20:31",
+            "modified_at": "2026/01/30 20:31",
+            "score": "3.6",
+            "moderator_remark": null
+        }
+    ]
+}

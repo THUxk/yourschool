@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 538,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师能力很强，上课很认真第一节课就会记住所有人，缺任何一个人都会发现，没有无故缺勤的，老师对所有人的进度都很了解，会因材施教。",
+            "created_at": "2024/07/21 16:19",
+            "modified_at": "2024/07/21 16:19",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 764,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师按时间顺序讲解从古代到现代的西方艺术作品，基本不需要互动，当做水课上的话不影响，认真听也会收获艺术理论知识。考核是两幅绘画作品（不以绘画水平为评判标准，开心创作即可！）和一篇小论文（自选一个感兴趣的艺术家或流派为主题）。真的很爱张敢老师！",
+            "created_at": "2024/07/21 17:41",
+            "modified_at": "2024/07/21 17:41",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

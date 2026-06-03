@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 445,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n慕课+小班讨论+实践报告+期末考试\n授课质量与给分：\n线下大课、小班讨论、慕课相结合，小班讨论课有个人汇报环节。需要交一篇实践报告（类似课程总结），期末考试有三道论述题和一篇长作文（主题二选一）。给分不错。",
+            "created_at": "2024/07/21 15:28",
+            "modified_at": "2024/07/21 15:28",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 398,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "老师讲课较一般，给分也较一般。",
+            "created_at": "2024/07/21 14:48",
+            "modified_at": "2024/07/21 14:48",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 149,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "平常任务包括慕课,分组选一本喜欢看的书并做多人pre，在大班课上展示，评分方式为观众评分、助教评分与组内互评（划水的同学注意了，大佬带完你可以把你推向深渊，老实点QWQ）；会有课堂小测，难度不大（可能是用来签到的）；期末考试开卷，类似高考作文的出题方式，1500字作文。老师讲课氛围一般。",
+            "created_at": "2024/07/21 13:07",
+            "modified_at": "2024/07/21 13:07",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 83,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "较为硬核的思修课程，要求同学分组读书并进行较长的报告，要求学生进行慕课学习，且每节课有类似签到机制，但对应地对教材的考核相对宽松，推荐喜欢阅读的同学选修该课程。",
+            "created_at": "2024/07/21 12:19",
+            "modified_at": "2024/07/21 12:19",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 37,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：慕课+展示+期末随堂考试\n特点：任务量较少，课堂轻松，老师人比较有趣，会在课堂上分享一些自己的大学生活，之前期末考试曾经考过一次看视频写小作文。",
+            "created_at": "2024/07/21 11:04",
+            "modified_at": "2024/07/21 11:04",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "count": 7,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2999,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "非常棒的课，经常下了课还能看见未央的同学沉迷高微线代，甚至好像没意识到下课了。老师略微灌一点鸡汤，讲讲他的价值观什么的。总之与其说是水课不如说是听老师讲讲人生",
+            "created_at": "2026/02/02 23:34",
+            "modified_at": "2026/02/02 23:34",
+            "score": "P",
+            "moderator_remark": null
+        },
+        {
+            "id": 2076,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：pre\n\n授课质量与给分：赞 非常棒的一门课 理论知识非常扎实 人文气息也很浓厚\n\n点评人：咻咻咻\n\n上课学期：25春",
+            "created_at": "2025/05/16 22:17",
+            "modified_at": "2025/05/16 22:17",
+            "score": "P",
+            "moderator_remark": null
+        },
+        {
+            "id": 2052,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：非常棒，科学课组通识课TOP级别\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/05/11 21:16",
+            "modified_at": "2025/05/11 21:16",
+            "score": "P",
+            "moderator_remark": null
+        },
+        {
+            "id": 2002,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "**考核方式(自带pf)**：小组pre\n**授课质量与给分**：\n从选课人数就能知道是个好课，内容想听的话肯定会有收获，不想听也可以干别的，课堂氛围好，老师人也很好。（不过貌似只能新生选课）\n点评人（匿）\n**上课学期**：24秋",
+            "created_at": "2025/03/28 16:09",
+            "modified_at": "2025/03/28 16:09",
+            "score": "P",
+            "moderator_remark": null
+        },
+        {
+            "id": 1499,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：非常好PF课，任务量小，就一个小组pre，非常推荐\n\n点评人：\n\n上课学期：",
+            "created_at": "2024/12/09 23:15",
+            "modified_at": "2024/12/09 23:15",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1440,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n没有作业。没有考勤。只有结课时的一个 15min 小组 pre。\n授课质量与给分：\n老师的确在认真讲课，如果想听还是可以收获东西的。并且老师很幽默，你可以听到人生观分享和实验室奇谈。\n点评人：Cucumber\n上课学期：2024 秋",
+            "created_at": "2024/12/07 15:34",
+            "modified_at": "2024/12/07 15:34",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 669,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲一些氧化物知识，和最后的展示没关系，pf课",
+            "created_at": "2024/07/21 17:08",
+            "modified_at": "2024/07/21 17:08",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

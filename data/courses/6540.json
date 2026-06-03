@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 753,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师特别和蔼可亲，讲得很不错，可能稍微讲话有点小小的毛病但是习惯了完全不care，作业量挺少的，中间只有一个小测还有期末",
+            "created_at": "2024/07/21 17:32",
+            "modified_at": "2024/07/21 17:32",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

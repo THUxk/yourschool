@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2119,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期末考试\n\n授课质量与给分：授课质量特别好！对学生也很好（会请班里每个同学吃饭），强烈建议\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/05/22 14:50",
+            "modified_at": "2025/05/22 14:50",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

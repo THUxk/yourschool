@@ -1,0 +1,20 @@
+{
+    "tid": "6402",
+    "name": "DAVID CHARLES JOSEPH",
+    "related_courses": [
+        {
+            "id": 28075,
+            "code": "28237",
+            "name": "医学科学写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27450,
+            "code": "27612",
+            "name": "文献分析与批判性思维培养",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

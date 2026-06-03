@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1428,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：一次手抄史记的作业，期中开卷考，期末大论文+视频拍摄\n\n授课质量与给分：老师人很好，上课挺有趣的，给分是级别制，上课真的能学到看历史的新视角\n\n点评人：\n\n上课学期：",
+            "created_at": "2024/12/07 00:45",
+            "modified_at": "2024/12/07 00:45",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

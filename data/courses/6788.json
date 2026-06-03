@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1354,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业20%(有bonus)+期中40%+期末40%\n\n授课质量与给分：PPT做的很好，涵盖了所有要掌握的内容，重点知识讲解很清晰。讲课质量稍差，主要在念PPT，课程节奏也有些奇怪。因此本人就去过一次上课，主要看PPT自学，能学明白。期中期末题目总分超过考试满分，因此有一定容错。\n\n点评人：匿名\n\n上课学期：24春",
+            "created_at": "2024/11/26 20:15",
+            "modified_at": "2024/11/26 20:15",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1251,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：20hw+40mid+40final\n\n授课质量：课讲的很烂，PPT做的倒是不错，但你要是不听课就想看懂PPT是绝无可能的。前两节课速通数理逻辑，半期前着重讲图灵机及其相关，半期后主要讲复杂度。前10讲的重点内容还可以靠MIT Sipsor的网课自学，后面的内容几乎没有别的课会讲，因此得到血泪教训：不要翘课。大家都说给分很好，但我看来好像也没有捞的那么狠？当然可能是我自己期末考得太差了。\n\n点评人：匿了\n\n上课学期：24春",
+            "created_at": "2024/07/29 15:20",
+            "modified_at": "2024/07/29 15:20",
+            "score": "3.0",
+            "moderator_remark": null
+        }
+    ]
+}

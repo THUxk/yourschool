@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 981,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "一门拉丁语入门课程，初学者友好\n教材是lingua latina, 每节课讲一篇课文\n一学期大概只会学十几篇课文，掌握一些拉丁文基本语法和少量单词 \n只有一场期末考试。允许带书和电子设备。考题有两道：第一， 将一段文字从拉丁文翻译成英文 ；第二，将几个英文句子翻译成拉丁文（bonus question）",
+            "created_at": "2024/07/21 18:37",
+            "modified_at": "2024/07/21 18:37",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

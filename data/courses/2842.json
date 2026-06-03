@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2937,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：考勤+小作业+期末pre\n\n授课质量与给分：两位老师合上，wdl老师讲的很通识，没有生物学基础也能轻松弄懂，zhq老师讲的过于硬核了，接受起来有一定难度，总体而言还是能够学到东西的\n\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/01/31 11:54",
+            "modified_at": "2026/01/31 11:54",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

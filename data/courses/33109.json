@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 640,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "参考教材主要为Biology(12th edition)，老师的PPT准备的很认真，教学较为通俗（最好学过高中生物）.期中考试开卷占25%，期末考试闭卷占40%，随堂测验占5%，其余为作业和考勤",
+            "created_at": "2024/07/21 16:58",
+            "modified_at": "2024/07/21 16:58",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

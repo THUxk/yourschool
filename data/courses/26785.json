@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1889,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：并没有给出明确的给分规则\n\n授课质量与给分：授课很用心。老师春秋都是游戏与文化主题，讨论重点较侧重于文化。\n是认识各种游戏玩家的好机会。不过写文章的时候比较忌讳以纯玩家的视角观察甚至是无脑夸游戏，相比来说学理性的分析应该更得老师心意。\n\n点评人：zetcola\n\n上课学期：24秋",
+            "created_at": "2025/02/16 00:47",
+            "modified_at": "2025/02/16 00:47",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1831,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "没什么好说的，给分稍严以外，伟大无需多言",
+            "created_at": "2025/01/28 23:52",
+            "modified_at": "2025/01/28 23:52",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 1217,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "主题：游戏（24春为“游戏与文化”）\n\n考核方式：课堂参与度+初稿+pre+终稿\n\n老师讲课幽默风趣、循循善诱，人也很随和，一学期下来个人感觉收获颇多。本课被许多学长评为“硬课”，不过个人认为写沟本身毕竟就是一门逃不掉的硬课，无论你选修的主题为何，终究免不了与初稿终稿什么的搏斗一番。但如果对你游戏感兴趣且有深入某个主题或话题研究的冲动的话，这门课至少能让你痛并快乐着。\n\n点评人：三字班\n\n上课学期：2024春",
+            "created_at": "2024/07/24 20:29",
+            "modified_at": "2024/07/24 20:29",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 819,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "上课体验超棒～会认识一群爱玩游戏的同道中人ww老师对选题的要求也不严格，可以搞自己喜欢的",
+            "created_at": "2024/07/21 17:57",
+            "modified_at": "2024/07/21 17:57",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

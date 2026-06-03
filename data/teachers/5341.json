@@ -1,0 +1,20 @@
+{
+    "tid": "5341",
+    "name": "Charles Dick",
+    "related_courses": [
+        {
+            "id": 22289,
+            "code": "22405",
+            "name": "英语（第一外国语）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20366,
+            "code": "20390",
+            "name": "商务英语听说(1)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

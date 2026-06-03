@@ -1,0 +1,412 @@
+{
+    "count": 27,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3314,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：小论文 > 期中、期末\n\n授课质量与给分：2\n\n当时我听得还是非常认真的，但是课评说的“不写小论文就倒扣”也是真的。我期中考砸了才七十多，期末一般，觉得自己完蛋了，于是写了好几篇小论文交上去，并且成功被阮东抽中，能够和他battle。最后期末考完了都还很担心这件事情，一直在和老师联系，最后获得了3.6。同寝室的考得比我高的都3.3，还听说有人考试一般也不咋写小论文，阮东竟然给2.3，差不多整个大学就废了。",
+            "created_at": "2026/05/23 22:29",
+            "modified_at": "2026/05/23 22:29",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 3312,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：考试\n\n授课质量与给分：授课❌讲物理学史故事✔一定要写小论文（虽然写了也会4，但4得不惨）\n\n点评人：j\n\n上课学期：25秋",
+            "created_at": "2026/05/23 20:19",
+            "modified_at": "2026/05/23 20:19",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 3265,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：作业+期中期末+平时\n\n授课质量与给分：讲课难以评价，作业是英文的课本习题，思考题倒比较有意思。老师一直强调要像费曼一样思考，但个人感觉用力过猛。建议多写点小论文发给老师。\n\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/05/21 20:56",
+            "modified_at": "2026/05/21 20:56",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 3013,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：粪，上了晦气本科4年\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/02/06 20:33",
+            "modified_at": "2026/02/06 20:33",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2460,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：sb\n\n授课质量与给分：差\n\n点评人：yzy\n\n上课学期：",
+            "created_at": "2025/09/04 18:41",
+            "modified_at": "2025/09/04 18:41",
+            "score": "3.3",
+            "moderator_remark": null
+        },
+        {
+            "id": 2138,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:14",
+            "modified_at": "2025/05/22 15:14",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2137,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:14",
+            "modified_at": "2025/05/22 15:14",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2136,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:14",
+            "modified_at": "2025/05/22 15:14",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2135,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:14",
+            "modified_at": "2025/05/22 15:14",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2134,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2133,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2132,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2131,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2130,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "仅次于费曼二的史课，粪中粪",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2129,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "想跪舔曾谨言师弟——阮东大仙的强烈推荐",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2128,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "想跪舔曾谨言师弟——阮东大仙的强烈推荐",
+            "created_at": "2025/05/22 15:13",
+            "modified_at": "2025/05/22 15:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2127,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "想学民科与张祥前论道的强烈推荐",
+            "created_at": "2025/05/22 15:12",
+            "modified_at": "2025/05/22 15:12",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2126,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "想写小论文跪舔阮东尸体的强烈推荐",
+            "created_at": "2025/05/22 15:11",
+            "modified_at": "2025/05/22 15:11",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2125,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：不想吃翔的建议去上蒋硕的基原实一\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/05/22 15:01",
+            "modified_at": "2025/05/22 15:01",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2124,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：仅次与费曼二的史课，想吃翔的强烈建议\n\n点评人：\n\n上课学期：",
+            "created_at": "2025/05/22 14:59",
+            "modified_at": "2025/05/22 14:59",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2123,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "阮东上课，自己什么也不会，翻着个包浆PPT，估计自己讲的是什么也不知道，整天挎着副B脸，对着台下无辜同学发问？如果你是费曼你会怎么想。阮东你算个什么东西？研究群论的专家是吧。阮东和助教全是尸体，发消息也从来不回，题目也是瞎出，改卷子也是瞎批。我家教随便带的竞赛的小孩讲的都比他明白。给分也是史上无敌，说说给他写小论文是另外加分，最后变成不写小论文就倒扣分是吧。每次作业都满分，各次考试也比平均分高十几分，最后拿个3.3。阮东自己在竞赛招生时候和各地高中教练勾结有多腐败先按下不表，自己上课讲个预赛难度的题目能把自己绕进去，实在是高，这就是全国竞委会中的大人物，物理学大尸。上了给你晦气一整年。",
+            "created_at": "2025/05/22 14:55",
+            "modified_at": "2025/05/22 14:55",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2122,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "阮东上课，自己什么也不会，翻着个包浆PPT，估计自己讲的是什么也不知道，整天挎着副B脸，对着台下无辜同学发问？如果你是费曼你会怎么想。阮东你算个什么东西？研究群论的专家是吧。阮东和助教全是尸体，发消息也从来不回，题目也是瞎出，改卷子也是瞎批。我家教随便带的竞赛的小孩讲的都比他明白。给分也是史上无敌，说说给他写小论文是另外加分，最后变成不写小论文就倒扣分是吧。每次作业都满分，各次考试也比平均分高十几分，最后拿个3.3。阮东自己在竞赛招生时候和各地高中教练勾结有多腐败先按下不表，自己上课讲个预赛难度的题目能把自己绕进去，实在是高，这就是全国竞委会中的大人物，物理学大尸。上了给你晦气一辈子。",
+            "created_at": "2025/05/22 14:55",
+            "modified_at": "2025/05/22 14:55",
+            "score": "3.3",
+            "moderator_remark": null
+        },
+        {
+            "id": 2121,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：史\n\n点评\n\n上课学期：",
+            "created_at": "2025/05/22 14:55",
+            "modified_at": "2025/05/22 14:55",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2120,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "阮东上课，自己什么也不会，翻着个包浆PPT，估计自己讲的是什么也不知道，整天挎着副B脸，对着台下无辜同学发问？如果你是费曼你会怎么想。阮东你算个什么东西？研究群论的专家是吧。阮东和助教全是尸体，发消息也从来不回，题目也是瞎出，改卷子也是瞎批。我家教随便带的竞赛的小孩讲的都比他明白。给分也是史上无敌，说说给他写小论文是另外加分，最后变成不写小论文就倒扣分是吧。每次作业都满分，各次考试也比平均分高十几分，最后拿个3.3。阮东自己在竞赛招生时候和各地高中教练勾结有多腐败先按下不表，自己上课讲个预赛难度的题目能把自己绕进去，实在是高，这就是全国竞委会中的大人物，物理学大尸。上了给你晦气一学期。",
+            "created_at": "2025/05/22 14:53",
+            "modified_at": "2025/05/22 14:53",
+            "score": "3.3",
+            "moderator_remark": null
+        },
+        {
+            "id": 2118,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：期末期中考试\n\n授课质量与给分：上课简直一坨，就算是竞赛生也不知道他在讲啥，评分也是瞎给的，无异于随机给分，期中分数在平均线上5分左右最后评分也就给了3.3，你要重视绩点建议别碰费曼一\n\n点评人：无\n\n上课学期：",
+            "created_at": "2025/05/22 14:47",
+            "modified_at": "2025/05/22 14:47",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1684,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：考试\n\n授课质量与给分：授课质量较高，给分不好\n\n上课学期：2024秋\n\n想听这个课又想要的保重你的绩点的，记住你可以选基物课来旁听费物课😅",
+            "created_at": "2025/01/24 22:06",
+            "modified_at": "2025/01/24 22:06",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 26,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "“费曼物理学”系列共有三门课程，是“基础物理学”系列的平行课，要求同学们分别在大一的两个学期和大二的第一个学期学习。费曼物理学也是普通物理课程，但会在常规的普通物理知识的基础上融入一些物理思想，例如对物理原理和理论体系的理解和对物理学本身的深刻分析（人们乐于称之为“玄学”），也可能涉及超出普通物理范围的知识甚至部分物理前沿知识。作业和考试都是较有难度的题目。如果没有学过竞赛或者大物千万千万不要选，即使能勉强跟上，但无法get到这门课的精华。",
+            "created_at": "2024/07/21 10:57",
+            "modified_at": "2024/07/21 10:57",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

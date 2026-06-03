@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3007,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：傻逼东西不调分，期中一个半小时考二十几道题还几乎题题计算，期末考的再好也没用照样吃3.0\n\n点评人：\n\n上课学期：25秋",
+            "created_at": "2026/02/04 11:05",
+            "modified_at": "2026/02/04 11:05",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2843,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业10，两次小测10（实际上只有一次，而且是以作业的形式布置），出题5，期中35，期末40，小论文加0-3分，大物竞赛加分\n\n授课质量与给分：老师上课很认真（虽然我听不懂），考试真的简单，会考很多很基础的东西（比如说画课本上的图，课本和作业的原题，一些重要公式和原理的推导），个人感觉给分很好，我期中70多分最后还能拿4.0，但是一定要认真听课，他上课说要考和重要的东西是真的会考，如果完全不听课只靠自己看课本和做题库大概率会寄\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/30 20:21",
+            "modified_at": "2026/01/30 20:21",
+            "score": "a-",
+            "moderator_remark": null
+        }
+    ]
+}

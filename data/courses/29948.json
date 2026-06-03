@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 476,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "路子达老师毛概、习概任务量较多（期中论文&期末论文&小组展示），趣味性不足。给分较好。\n“挺水，pre 也没啥意思，不过好好写期中和期末论文能吃个 A”",
+            "created_at": "2024/07/21 15:46",
+            "modified_at": "2024/07/21 15:46",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

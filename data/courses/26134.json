@@ -1,0 +1,127 @@
+{
+    "count": 8,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 788,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "作业超多，但老师讲的超好，并且深入成体系",
+            "created_at": "2024/07/21 17:49",
+            "modified_at": "2024/07/21 17:49",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 787,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "板书授课，使用亲自编写的教材，开始两三节课人满为患，后期教室空一半，可以适应不同节奏。",
+            "created_at": "2024/07/21 17:49",
+            "modified_at": "2024/07/21 17:49",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 786,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "就是按照课本讲，自己看课本其实也能学懂，不用来上课也行。梁老师上课不用PPT，全是板书，人比较幽默，讲的速度很适中，容易跟上思路，但有时候会很困（可能是那个三教2302的问题？窗户打不开）",
+            "created_at": "2024/07/21 17:49",
+            "modified_at": "2024/07/21 17:49",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 785,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "超级好的老师，讲课全手写版书、思路清晰；就是作业有些多，不过利于掌握知识；上课体验好，老师时不时会讲笑话，不过有时很冷（老师还会讲德语qwq）",
+            "created_at": "2024/07/21 17:46",
+            "modified_at": "2024/07/21 17:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 784,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "作为教材编者以及以线性代数为研究方向的学者，梁老师对于线性代数有着非常独到的理解，授课水平绝对没得说。板书特公正，作业也极多。如果能把作业好好做一下，应该说会对线性代数有非常透彻的理解",
+            "created_at": "2024/07/21 17:46",
+            "modified_at": "2024/07/21 17:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 783,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲解线性代数入门，就是作者讲，讲解深入浅出，理解独到",
+            "created_at": "2024/07/21 17:46",
+            "modified_at": "2024/07/21 17:46",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 306,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲解细致，考试之前会留出课堂时间来复习，教学经验十分丰富，整体体验不错。",
+            "created_at": "2024/07/21 14:06",
+            "modified_at": "2024/07/21 14:06",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 243,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "梁鑫老师讲课认真（还有点小幽默），板书工整全面，对定理都会做严谨推导，无PPT，但作业量较大。",
+            "created_at": "2024/07/21 13:41",
+            "modified_at": "2024/07/21 13:41",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

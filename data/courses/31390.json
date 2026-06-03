@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 969,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "会讲解有关爱情和性的内容，是一个难得的可以和大家交流这些话题的平台。一个老师一位助教，任务量很小，只有一个pre和一个小作文。上课体验感觉超好，收获很多",
+            "created_at": "2024/07/21 18:33",
+            "modified_at": "2024/07/21 18:33",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

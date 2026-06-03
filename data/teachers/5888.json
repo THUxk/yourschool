@@ -1,0 +1,20 @@
+{
+    "tid": "5888",
+    "name": "Michael Pettis",
+    "related_courses": [
+        {
+            "id": 23956,
+            "code": "24095",
+            "name": "公司资本结构",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23735,
+            "code": "23866",
+            "name": "新型金融市场",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

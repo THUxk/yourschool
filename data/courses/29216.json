@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 31,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "物理系的线性代数仅讲授一个学期，由于时间限制，老师会选讲教材的部分内容。由于进度较快，所以同学们遇到疑问时一定要及时解决，否则可能会导致听不懂下面的内容。期中考试之后讲的内容较为抽象，难度会上升，要做好心理准备。",
+            "created_at": "2024/07/21 11:00",
+            "modified_at": "2024/07/21 11:00",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

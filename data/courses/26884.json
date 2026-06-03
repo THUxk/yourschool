@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3147,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：上课考勤+小组作业+个人发展报告\n\n授课质量与给分：老师挺好的，上课很有意思，讲的很多东西与大学生活相关，也能学到一些理论知识\n\n点评人：\n\n上课学期：2025-秋",
+            "created_at": "2026/03/02 01:02",
+            "modified_at": "2026/03/02 01:02",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2049,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n上课+个人作业+团体作业\n授课质量与给分：\n其实认真听还是能学到很多心理学知识的，课堂氛围也不错\n任务量也不大，想水也可以水\n上课学期：24-25春",
+            "created_at": "2025/05/09 19:33",
+            "modified_at": "2025/05/09 19:33",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 524,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "很好，作为水课可以很水，认真听其实还蛮有收获",
+            "created_at": "2024/07/21 16:15",
+            "modified_at": "2024/07/21 16:15",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "tid": "3275",
+    "name": "Craig A. Hart",
+    "related_courses": [
+        {
+            "id": 8009,
+            "code": "8008",
+            "name": "法律辩论与谈判",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8010,
+            "code": "8009",
+            "name": "普通法精要（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8008,
+            "code": "8007",
+            "name": "法律英语",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1043,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "每次签到就能拿四十分，自带pf，六次小作业每次一千字很简单，缺学分直接上。",
+            "created_at": "2024/07/21 18:56",
+            "modified_at": "2024/07/21 18:56",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1042,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "自带pf，每节课签到，作业是六次一千字论文，很简单，直接冲。",
+            "created_at": "2024/07/21 18:56",
+            "modified_at": "2024/07/21 18:56",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

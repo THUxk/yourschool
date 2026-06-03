@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 217,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲授有关企业管理相关知识，课程难度不大，老师风趣幽默，作业每周一次，比较容易完成，还有机会通过模拟软件模拟企业经营。考试基本上都是课件内容，一般闭卷考试，需要背很多东西，给分较好。",
+            "created_at": "2024/07/21 13:33",
+            "modified_at": "2024/07/21 13:33",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

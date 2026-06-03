@@ -1,0 +1,20 @@
+{
+    "tid": "1218",
+    "name": "ZHANG JINGREN",
+    "related_courses": [
+        {
+            "id": 3424,
+            "code": "3423",
+            "name": "医学微生物学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1601,
+            "code": "1600",
+            "name": "高级微生物学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

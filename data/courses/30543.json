@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3266,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：考勤+讨论课+作业\n\n授课质量与给分：助教掌握给分大权。平时的作业要读一些材料并回答思考题，个人感觉收获很大，能从历史的角度了解现代科学研究范式为何如此，但如果对科学史不感兴趣会非常坐牢。知识略显庞杂且晦涩，我的助教表示“你们就当故事会听听得了，一个学期怎么可能学明白。”（笑。拿了4.0但付出了不少时间。\n\n\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/05/21 21:00",
+            "modified_at": "2026/05/21 21:00",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 616,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "科学史；四个助教；不用听课，好好完成作业、好好参与讨论就可以，助教小姐姐真的人美心善给分好！",
+            "created_at": "2024/07/21 16:50",
+            "modified_at": "2024/07/21 16:50",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

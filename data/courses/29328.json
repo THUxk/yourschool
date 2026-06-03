@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1769,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：课堂（5）+期中（20）+平时作业（30）+期末（25）+大作业（20）+新生C竞赛（额外1-5分）\n\n授课质量与给分：讲课近乎念PPT，提前看PPT是听懂课（尤其是多学的Java语言）的必要条件；但是考试只考C，即统考，题目与洛谷是有区别的，没有针对性考算法，主要是课上讲的文件和指针操作；大作业写出来给分较高，但是任务量的确大，期末考完也可能歇不下来；课程主要亮点还是4.0率高一点和多学一门Java\n\n点评人：\n\n上课学期：2024秋",
+            "created_at": "2025/01/25 19:13",
+            "modified_at": "2025/01/25 19:13",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 513,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "教授C和java课程内容，每周2学分课时教学，每周至少上机一次，每周会有若干编程题作业，会有一次大作业（一般为数独，会用到C与java知识），会要求参加一次编程竞赛（题目有难度）个人觉得教学进度过快，需要课后大量时间学习掌握，适合有较高编程基础同学，但能学习两种编程语言，收获满满",
+            "created_at": "2024/07/21 16:11",
+            "modified_at": "2024/07/21 16:11",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

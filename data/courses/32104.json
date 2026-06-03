@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1357,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业+最后一节课考试\n\n授课质量与给分：姚班校友，澳洲某大学教授乔有明老师上课。讲课内容是图同构算法，主要围绕一篇经典论文讲解。讲得很好，作业和考试都不算难。和前后端一起在小学期开课，那几周压力可能比较大一点。给分感觉很好，周围都是4.0，不少A+。\n\n点评人：\n\n上课学期：",
+            "created_at": "2024/11/26 20:40",
+            "modified_at": "2024/11/26 20:40",
+            "score": "A+",
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2724,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：20%作业+30%期中+50%期末\n\n授课质量与给分：明确说了平时可以不去上课，实际授课质量堪忧，总在黑板上写写画画比较催眠。授课内容很数学，会对各种性质和定义给出很严格的数学推导，数理基础不好的人（比如我）会很痛苦。作业每次十道题，难度中等，考试难度与作业相近，共十道题每题十分\n\n点评人：长期素食\n\n上课学期：2025年秋",
+            "created_at": "2026/01/14 13:30",
+            "modified_at": "2026/01/14 13:30",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 2547,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "讲课还行，但是另一个平行班是wljj的\n更推荐wljj",
+            "created_at": "2025/12/10 19:54",
+            "modified_at": "2025/12/10 19:54",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

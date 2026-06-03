@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2619,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业+大作业+期末\n\n授课质量与给分：授课质量不错，讲解循序渐入，不过本人学的不是很好\n点评人：\n\n上课学期：25春",
+            "created_at": "2025/12/13 17:13",
+            "modified_at": "2025/12/13 17:13",
+            "score": "B+",
+            "moderator_remark": null
+        }
+    ]
+}

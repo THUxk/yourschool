@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3080,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：游泳专项测试（可选仰蛙自）+其他体育测试\n\n授课质量与给分：老师人很好很温柔，身材保持真好，技术也非常棒，不愧是前国泳队长，对于我这种菜鸟很有耐心地指导。提高班默认会蛙泳，学习自由泳和仰泳。因为疫情所以批发4.0\n\n点评人：lll\n\n上课学期：2022秋",
+            "created_at": "2026/02/25 15:51",
+            "modified_at": "2026/02/25 15:51",
+            "score": "4.0",
+            "moderator_remark": null
+        }
+    ]
+}

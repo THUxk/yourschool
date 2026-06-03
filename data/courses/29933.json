@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1174,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业+期末\n授课质量与给分：\n这门课其实是曹晋和梁鑫一人上半学期。曹晋老师的观点很高，纯板书，不苟言笑，但是没有讲义。梁鑫老师正好相反，总是笑呵呵的，但是板书字太小了，感觉也没有曹晋讲得引人入胜。我总感觉最后期末考得超纲，比如他让你算Jordan分解（课上好像没讲过怎么算，只证明了存在唯一）还有个非线性函数的题，给分还好，应该是调了。\n点评人：\nted\n上课学期：\n2023春",
+            "created_at": "2024/07/24 08:55",
+            "modified_at": "2024/07/24 08:55",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

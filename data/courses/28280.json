@@ -1,0 +1,97 @@
+{
+    "count": 6,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3172,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考勤+不计分的pre+期末\n\n授课质量与给分：事少给分好，虽然上课会随机点人回答问题，但这个似乎没什么用，答不上来也没事，评分主要看考勤和期末考试，考勤方式是下课前每个人发张纸，老师把一个问题投在屏幕上，大家在纸上写回答，能用AI，所以感觉这个问题的答案不是很重要，关键就是看你来没来。期末考试开卷，八个问题选五个，基本上都是课件上有的，有课件在手回答起来就很容易。所以只要能保证每节课去上课+期末考试前打印好课件，基本没有任何问题。\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/03/05 16:17",
+            "modified_at": "2026/03/05 16:17",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2791,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考勤+期末+pre\n\n授课质量与给分：事少给分好，期末开卷有一半是课件原题。推荐选课\n\n上课学期：25秋",
+            "created_at": "2026/01/30 18:27",
+            "modified_at": "2026/01/30 18:27",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2769,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n考勤+期末+课上小组pre（不计分）\n授课质量与给分：\n**事少给分好，强烈推荐。**\n上课中规中矩，会点人问问题，会记录被点到的同学（但不知道有什么用，我没被问过）。还有几次课会下课前让大家写一个300字小作文。除此之外任务量巨少（比之前少了很多），只有一个课上小组讨论+pre，而且不计分。\n感觉给分主要还是看考试，开卷，8个问题选5个回答，都是课上讲过的，根据PPT和笔记能答上来很多。\n\n点评人：zydbf\n\n上课学期：25秋",
+            "created_at": "2026/01/30 17:38",
+            "modified_at": "2026/01/30 17:38",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1334,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：小测；读书笔记（初稿、终稿）；pre；同组互评\n\n授课质量：不错\n\n给分：很好\n\n上课学期：2023-2024秋",
+            "created_at": "2024/11/07 15:27",
+            "modified_at": "2024/11/07 15:27",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 298,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "任务量较少，给分较好。考试和读书报告二选一，还有一次辩论。课程比较中规中矩。",
+            "created_at": "2024/07/21 14:03",
+            "modified_at": "2024/07/21 14:03",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 17,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师人很好，讲课比较有意思，课堂上会有互动，会和同学一起探讨问题。主要任务是读书笔记，以及一次小组课堂展示，展示的内容与读书笔记内容相关。不考勤但有课堂小测，答案都在课件里。期末开卷考试。",
+            "created_at": "2024/07/21 10:52",
+            "modified_at": "2024/07/21 10:52",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "tid": "5659",
+    "name": "Gerard Clark",
+    "related_courses": [
+        {
+            "id": 22052,
+            "code": "22157",
+            "name": "美国宪法专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22051,
+            "code": "22156",
+            "name": "法律职业伦理",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

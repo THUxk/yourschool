@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1322,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：期末➕项目\n\n授课质量与给分：质量高 给分低 难度超高 究极硬课 英语不好/智商不高不建议选课\n\n点评人：\n\n上课学期：秋季",
+            "created_at": "2024/10/17 10:37",
+            "modified_at": "2024/10/17 10:37",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2020,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "对0基础非常不友好，但对有一点点基础的比较推荐（自学能力比较强的同学也很推荐）。老师上课很无聊，但不签到，可以直接翘。不推荐跟着PPT或者老师学，感觉边做作业边学知识点会比较舒服（不会了就问AI）。作业用AI多跑一跑基本就没问题了（作业可以多次提交直到全对为止，所以代码可以慢慢调整）。大作业比较耗时，但如果不做额外加分要求就不太难（额外加分也加不了几个分）。考前快速过一遍PPT，然后多刷往年题，基本就能80往上",
+            "created_at": "2025/04/28 16:37",
+            "modified_at": "2025/04/28 16:37",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1624,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "授课质量与给分：怎么说呢，能看出来老师是很想讲明白这门课的，但是韩文tao的授课就是只讲给会程设的人听的，会的人听了白听，不会的人听了也不懂，不懂就做不了作业，做不了作业就得去b站听黑马程序员，所以0基础小白选了这门课就是选了一门自学网课。\n抛开讲课质量不谈，这门课还是有点好的地方的。给分方面，小作业和大作业分别占30％和50％，本人小作业全满（AI助我!!），大作业50分拿了48.5，只要考试别太拉夸，卷一卷大作业，还是比较容易拿到A的。上课，上机课考勤都很最终成绩无关，可以随便翘课。舍友高中学过信竞，上课都不去，大小作业轻松解决，快给他爽亖了。\n\n点评人：4字班の\n\n上课学期：2024年秋",
+            "created_at": "2025/01/22 12:01",
+            "modified_at": "2025/01/22 12:01",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1542,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：平时30，大作业50，期末（纸考）20\n\n授课质量与给分：只去上过三四次，老师很有激情，但讲的不很细致对自学能力要求极高\n\n点评人：某四字班\n\n点评人：\n\n上课学期：秋季",
+            "created_at": "2024/12/21 12:27",
+            "modified_at": "2024/12/21 12:27",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1532,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：平时的小作业中有很难的题（对我来说），大作业也比较麻烦。但是可以提交很多次取最高成绩。\n\n授课质量与给分：对零基础小白比较不友好，讲得原理太深了，实例讲得不够清楚。\n需要课下自学。\n点评人：匿名\n\n上课学期：大一上",
+            "created_at": "2024/12/17 12:27",
+            "modified_at": "2024/12/17 12:27",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1526,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：平时30，大作业50，期末（纸考）20\n\n授课质量与给分：只去上过三四次，老师很有激情，但讲的不很细致。给分应该较好，平时题和大作业都拿满，期末水一水应该就有4.0\n\n点评人：某四字班\n\n上课学期：24秋",
+            "created_at": "2024/12/13 13:13",
+            "modified_at": "2024/12/13 13:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1524,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：小作业+大作业+大作业报告+课堂测试\n\n授课质量与给分：蚌埠住了\n讲的比较接近计算机原理\n基本不怎么讲算法\n讲课方式对零基础学程设极其不友好，比较考验自学能力\n课下肯花时间自学可能会有收获\n小作业比较抽象，课下需要花大量时间\n比较硬的课\n上课教室技科楼3417上出PTSD了\n\n能选别的老师不要选牢韩\n\n点评人：某为先四字班小登\n\n上课学期：24秋",
+            "created_at": "2024/12/13 10:29",
+            "modified_at": "2024/12/13 10:29",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1349,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：大作业+考试，考试有手就行，大作业当时不该卷那么久的，稍微做做就能4了\n\n授课质量与给分：一般；A\n\n点评人：杨哲文\n\n上课学期：2023秋",
+            "created_at": "2024/11/25 15:15",
+            "modified_at": "2024/11/25 15:15",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1347,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：\n平时作业，期末笔试，大作业\n授课质量与给分：\n个人认为并没有讲的很好，尤其指针，需要一点自主学习能力\n点评人：\n\n上课学期：",
+            "created_at": "2024/11/21 23:19",
+            "modified_at": "2024/11/21 23:19",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1128,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲课还算清楚，助教很好；给分不错，认真完成作业很容易4.0",
+            "created_at": "2024/07/23 21:19",
+            "modified_at": "2024/07/23 21:19",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 510,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "第五节课开始进入面向对象编程，大作业是wordle，提高要求实现TUI GUI等",
+            "created_at": "2024/07/21 16:10",
+            "modified_at": "2024/07/21 16:10",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

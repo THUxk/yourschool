@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2814,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中40+期末50+平时10\n\n授课质量与给分：5\n老师上课很有意思，会做很多演示实验，两个班一个班统考一个班自己出题，老师自己的题比较注重基础概念，不会很难，参加大学生物理竞赛会有不同程度的加分，加分以后期末的压力会比较小\n\n点评人：\n\n上课学期：25年秋",
+            "created_at": "2026/01/30 19:29",
+            "modified_at": "2026/01/30 19:29",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2781,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：10%平时+40%期中+50%期末\n\n授课质量与给分：\n听说以前是自己出题并且出得不简单，但这学期是闭卷统考；只要考试及格就把平时分给满；参加大学生物理竞赛有加分。\n会布置一些预习内容，不过整体上讲得还是很清楚且有意思的。上课会有亿些雨课堂答题，虽然它们似乎对考勤并没有什么贡献。\n\n点评人：硒代矽酸锡\n\n上课学期：2025-2026秋",
+            "created_at": "2026/01/30 18:09",
+            "modified_at": "2026/01/30 18:09",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1169,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业+期中+期末\n授课质量与给分：\n碗哥上课比较有意思也很有激情，会讲故事、做实验，会有雨课堂死亡十秒速答（准备收题！）考试题是自己出，比较看中计算能力。秋季会组织参加大学生物理竞赛，加分力度很大。\n点评人：\nted\n上课学期：\n2023秋",
+            "created_at": "2024/07/24 08:43",
+            "modified_at": "2024/07/24 08:43",
+            "score": "A+",
+            "moderator_remark": null
+        }
+    ]
+}

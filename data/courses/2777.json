@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3099,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业20%（交了没写完都有，只要交就是满分）+期中10%/30%+期末70%/50%（老师取高计算）\n\n授课质量与给分：\n友金讲课质量很高，但有时会跳步，步骤很漂亮，不过要求课前预习或课后复习巩固；期末有时会考期中原题，还可能考一些上课讲过的数分2、3的内容，需要认真听课；偶尔查人，但是传纸条写学号的方式，可以请同学代签；数分1会捞人，但仍需好好学习，避免数分2挂科\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/02/26 10:33",
+            "modified_at": "2026/02/26 10:33",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 2453,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "神！",
+            "created_at": "2025/08/06 20:01",
+            "modified_at": "2025/08/06 20:01",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1730,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业20%+期中10%～30%+期末50%～70%（按照能使总评成绩最高的比例计算）\n\n授课质量与给分：上课高效且氛围轻松，但会拓展一些数分3的知识。考试总体难度较简单，但需要将往年题和拓展的知识做熟。给分很好。\n\n点评人：\n\n上课学期：2024-2025秋季学期",
+            "created_at": "2025/01/25 10:10",
+            "modified_at": "2025/01/25 10:10",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1302,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n平时+期中+期末\n授课质量与给分：\n质量很高，给分也很好\n点评人：\n\n上课学期：2023-2024秋",
+            "created_at": "2024/09/02 20:35",
+            "modified_at": "2024/09/02 20:35",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 408,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n平时作业+期中+期末\n授课质量与给分：\n友金讲课并不呆板，听几节课后就感觉很舒服，正常情况下纯板书教学也容易跟进度，评价很高；老师人很好，一定要多和他交流。上课，写作业，有时间自己找题或者找助教，任务量不多，学习任务很纯粹",
+            "created_at": "2024/07/21 14:59",
+            "modified_at": "2024/07/21 14:59",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

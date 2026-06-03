@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 456,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：4-5次小作业+两篇读书报告+一篇期末论文+期中期末半开卷考试+两次课堂展示pre\n\n授课质量与给分：\n以理论为主，围绕经济学在生活中的应用培养经济学的思维方式。相比于经济学原理，这门课对数学要求不高，老师授课深入浅出，是很可冲的一门课。期中考试可以带一张A4大抄，期末可带两张大抄，大抄在考后要上交算分。这门课作业量比较大，繁琐但难度不大。给分非常好！推荐！",
+            "created_at": "2024/07/21 15:37",
+            "modified_at": "2024/07/21 15:37",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "count": 6,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2545,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：出勤（可选）+作业+期中+期末\n\n神课，伟大无需多言",
+            "created_at": "2025/12/10 19:49",
+            "modified_at": "2025/12/10 19:49",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1540,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：目前最好的老师和体验最好的课堂；体感很不错，期中90左右，期末应该没上90，最后有A\n\n点评人：9\n\n上课学期：",
+            "created_at": "2024/12/19 18:06",
+            "modified_at": "2024/12/19 18:06",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1092,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考勤（5%，可移到期末）+作业（20%，13次）+期中（30%）+期末（45%）\n\n授课质量与给分：统辅人的第一门统辅课，也是**个人认为**wljj讲得最好的一门课（~~没有说其他课讲得不好~~）。由于很多院系的培养方案都包括概统/概随/概率论中的一门，这门课可能对一小部分人来说是在复习，导致这门课对一些初学者来说可能不是很友好，容易被他们炸鱼而怒吃B+。不过wljj的给分应该还算是不错的，据传通常能给到50%的优秀率，笔者当时也是第一次接触概率论，期中尚可期末爆炸也被捞到4.0了。\n\n| 难度     | | 任务量     | | 给分     |\n|--------------|--------------|--------------|--------------|--------------|\n|⭐⭐⭐||⭐⭐⭐⭐||⭐⭐⭐⭐|\n\n点评人：l\n\n上课学期：2022秋",
+            "created_at": "2024/07/23 15:43",
+            "modified_at": "2024/07/23 15:43",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 519,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "婉璐姐姐授课质量很好，对学生非常关心，会在群里一一答疑，考试说明也很详细，课件质量很好并且有课堂回放",
+            "created_at": "2024/07/21 16:13",
+            "modified_at": "2024/07/21 16:13",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 518,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "概率论（不包含随机过程部分）邓老师非常认真，讲课很好很有逻辑，给分超好，回会调分",
+            "created_at": "2024/07/21 16:12",
+            "modified_at": "2024/07/21 16:12",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 517,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师上课讲的超级详细，质量非常好，是上过体验最好的数理课之一，考试给分也不错，应该是会调分",
+            "created_at": "2024/07/21 16:12",
+            "modified_at": "2024/07/21 16:12",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

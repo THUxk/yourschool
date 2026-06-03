@@ -1,0 +1,157 @@
+{
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2627,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\n\n授课质量与给分：讲课很快，讲的还可以，讲的证明非常多，适合喜欢数学的同学，但是不讲二次型，期末被狠狠背刺了，后面概统微积分用到的时候也还得自学，总体不推荐\n\n点评人：\n\n上课学期：24秋",
+            "created_at": "2025/12/13 22:59",
+            "modified_at": "2025/12/13 22:59",
+            "score": "3.3",
+            "moderator_remark": null
+        },
+        {
+            "id": 1977,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：20+20+60/20+80取高\n\n授课质量与给分：讲课好，但今年被二次型背刺\n\n点评人：THU 渣\n\n上课学期：2024秋",
+            "created_at": "2025/03/06 22:31",
+            "modified_at": "2025/03/06 22:31",
+            "score": "B+",
+            "moderator_remark": null
+        },
+        {
+            "id": 1961,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：加油！每节课跟上节奏，积极找老师讨论，很有收获。何老师人也很好，虽然我经常和别人蛐蛐他的毒舌和抽象。\n点评人：\n菜也\n上课学期：24年秋",
+            "created_at": "2025/02/25 20:31",
+            "modified_at": "2025/02/25 20:31",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1915,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时+期中+期末\n\n授课质量与给分：授课质量没得说！绝佳老师！上课没有ppt，全程板书。不用教材，每节课下课会发他自己写的讲义，可以说是自成一派的线性代数，学的时候有点痛苦，复习的时候就能发现是真的学到东西了。老师很有意思hhh课间经常找人聊天。给分采用赋分制（按成绩比例给分），给的超级好！\n\n点评人：花时醉（浅匿一下）\n\n上课学期：2024秋",
+            "created_at": "2025/02/19 09:13",
+            "modified_at": "2025/02/19 09:13",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1898,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n期中 期末 作业\n\n授课质量与给分：\n都很好 很喜欢\n点评人：匿名\n\n上课学期：2024秋",
+            "created_at": "2025/02/17 00:47",
+            "modified_at": "2025/02/17 00:47",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1764,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业，期中考试，期末考试\n\n授课质量与给分：授课质量极高，给分比较严格\n\n上课学期：2024秋\n\n这学期的课侧重矩阵分析，很有挑战性",
+            "created_at": "2025/01/25 17:05",
+            "modified_at": "2025/01/25 17:05",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 1733,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：\n有些难，但个人认为给分很好",
+            "created_at": "2025/01/25 10:37",
+            "modified_at": "2025/01/25 10:37",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1675,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：平时成绩（20%）+期中考试（20%）+期末考试（60%）\n授课质量与给分：不用课件与PPT，手写板书，会发讲义，基本上按照《线性代数入门》的思路讲；水平很高，讲得很清晰透彻但是也比较难，跟得上的话能学到很多东西但是有跟不上的风险，慎重；作业要到理科楼交纸质版，很多也比较难，以至于考试题我看着都眉清目秀的（）；人很幽默，上课爆了不少典；绩点按照排名给；给我们说二次型不考结果考了（悲）\n点评人：硒代矽酸锡\n上课学期：2024-2025秋",
+            "created_at": "2025/01/24 21:31",
+            "modified_at": "2025/01/24 21:31",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1313,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "阶级分化严重，大地方来的底子好就能顺利地跟上，小地方来的只学了高考数学的可能很多都听不懂。我顶多也是自学过数竞，拿了省三的，却依然是听的一团乱麻。老师是有实力的，但是他很多小概念都不讲清楚的，默认你知道这个概念。反正我数学实力一般，节节课坐飞机，靠自己看他的讲义才看得懂的。",
+            "created_at": "2024/09/22 21:27",
+            "modified_at": "2024/09/22 21:27",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 779,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "老师手写讲义，按照讲义上课，思路会与其他的课本不同，但是逻辑清晰，讲的很清楚，比较容易接受（但是确实感觉难度比其他老师稍高，作业量正常）",
+            "created_at": "2024/07/21 17:44",
+            "modified_at": "2024/07/21 17:44",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

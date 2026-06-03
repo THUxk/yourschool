@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1572,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：A+\n一如既往的水课，狠狠卷就完事！\n点评人：杨哲文\n\n上课学期：",
+            "created_at": "2024/12/27 22:11",
+            "modified_at": "2024/12/27 22:11",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

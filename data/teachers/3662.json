@@ -1,0 +1,20 @@
+{
+    "tid": "3662",
+    "name": "HOWITT ARNOLD MARTIN",
+    "related_courses": [
+        {
+            "id": 28286,
+            "code": "28448",
+            "name": "公共危机灾难领导力",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10383,
+            "code": "10384",
+            "name": "危机/灾难领导力",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

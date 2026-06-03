@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1056,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n一次pre+课堂发言加分（鼓励内卷）\n授课质量与给分：\n主要讲述芯片制作流程+各种传感器类别。鼓励上课发言，每次发言有记录最后会加分。对e人友好，i人慎选。\n点评人：匿了",
+            "created_at": "2024/07/23 01:45",
+            "modified_at": "2024/07/23 01:45",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

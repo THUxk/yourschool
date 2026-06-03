@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 651,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师很认真，讲语法很清楚",
+            "created_at": "2024/07/21 17:02",
+            "modified_at": "2024/07/21 17:02",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

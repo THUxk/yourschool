@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 673,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "生化是生医药专业同学的必修课 也是生物的基础课程 全英课程虽然有一定难度 但是老师讲解很清楚 课前也会给预习PPT 平时还会有test和quiz 虽然有点push但都能对考试有促进作用！老师超超超超好！",
+            "created_at": "2024/07/21 17:09",
+            "modified_at": "2024/07/21 17:09",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

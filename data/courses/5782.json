@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3226,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：\n出勤24%，互动24%，期末pre52%\n授课质量与给分：\n讲授的内容不太适合新生（尽管是新生研讨课），讲得很深并且对基础知识的铺垫不太到位，ppt切换得特别快（也可能是我比较菜）。老师表达能力和ppt制作水平略差。不过想要对相关内容有深入了解、对自己的能力有信心并且愿意在课下投入时间的同学可以take a try。\n点评人：\nundefined\n上课学期：",
+            "created_at": "2026/04/15 20:59",
+            "modified_at": "2026/04/15 20:59",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

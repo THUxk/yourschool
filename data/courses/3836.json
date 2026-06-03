@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2935,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：40%考勤+60%期末论文\n\n授课质量与给分：老师是故宫博物院的研究院，对故宫学有很深入的了解，讲课非常有趣，不是ppt reader那种\n\n点评人：\n\n上课学期：2025秋",
+            "created_at": "2026/01/31 11:51",
+            "modified_at": "2026/01/31 11:51",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2850,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：考勤+论文\n\n授课质量与给分：给分超级无敌好，想要认真听的话也能学到很多\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/30 20:36",
+            "modified_at": "2026/01/30 20:36",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1734,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n雨课堂签到+期末论文。\n授课质量与给分：\n神中神，从不点名，给分极好。\n点评人：\nted\n上课学期：\n24秋",
+            "created_at": "2025/01/25 10:44",
+            "modified_at": "2025/01/25 10:44",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 423,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：1篇大论文\n\n授课质量与给分：\n老师课堂上会讲和故宫相关的历史故事以及故宫的文物概况。最后论文只要和故宫有关系都可以，不限字数。总体来说老师讲课有趣，给分好，任务极少。",
+            "created_at": "2024/07/21 15:16",
+            "modified_at": "2024/07/21 15:16",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

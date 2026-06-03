@@ -1,0 +1,20 @@
+{
+    "tid": "5655",
+    "name": "Thomas Berner",
+    "related_courses": [
+        {
+            "id": 22279,
+            "code": "22395",
+            "name": "英语特稿写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22039,
+            "code": "22133",
+            "name": "专业阶梯英语(5)-公共关系与广告",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

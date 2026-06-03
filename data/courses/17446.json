@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1308,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业期中期末\n\n授课质量与给分：坚哥数分三延续一如既往的授课风格，但是期末考的内容和讲课内容是出入最大的一次！如果选这课建议期末狂刷裴礼文特殊积分的计算，熟练掌握各种奇怪的积分计算技巧。",
+            "created_at": "2024/09/10 19:46",
+            "modified_at": "2024/09/10 19:46",
+            "score": "反正不太高",
+            "moderator_remark": null
+        }
+    ]
+}

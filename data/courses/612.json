@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2798,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期末集体跳课上教的舞，两个班的同学互评➕老师评分，作为前去互评的同学之一，我掌握的消息是每个评委打分没有低于92的\n\n授课质量与给分：非常棒啊啊啊！！！完全面向零基础！！！老师人很nice，完全不严格，大家一起跳舞氛围也很好，交了很多好朋友，会教很多舞种，但都是了解为主的，教的动作也比较简单！冲冲冲！\n\n点评人：八千风月兮\n\n上课学期：25年秋季",
+            "created_at": "2026/01/30 18:50",
+            "modified_at": "2026/01/30 18:50",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2316,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：\n很轻松有趣，给分极好。",
+            "created_at": "2025/06/28 08:02",
+            "modified_at": "2025/06/28 08:02",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1173,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "期末集体舞蹈，其实比较好混的，平时上课到了考前复习复习应该就能拿4.0，整体也比较有意思",
+            "created_at": "2024/07/24 08:54",
+            "modified_at": "2024/07/24 08:54",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 435,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：期末舞蹈抽查（难度不大，课堂上认真跟做记住动作就没有问题）\n\n授课质量与给分：\n会教授不同舞种的舞蹈，以民族舞为主。老师人非常有耐心，零基础同学也完全不用担心。在教舞蹈动作以外还会介绍许多舞蹈相关的背景知识及当地的风土人情。",
+            "created_at": "2024/07/21 15:22",
+            "modified_at": "2024/07/21 15:22",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

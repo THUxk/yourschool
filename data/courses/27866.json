@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3069,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：4次作业15%+读书报告10%+每周小课15%+期中考试20%+期末考试40%\n\n授课质量与给分：好！！！老师讲得清晰通透，考试也不难，大课不考勤，小课考勤但有点小水，每周都要写memo，但其实不难写，任务量不大，推荐推荐！\n\n点评人：查理\n\n上课学期：25～26秋",
+            "created_at": "2026/02/25 11:03",
+            "modified_at": "2026/02/25 11:03",
+            "score": "A/4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2709,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中、期末、4次平时作业、每周memo（具体比例忘了）\n\n授课质量与给分：无考勤，倒数第二节课约来了1/2人，最后一节课恰逢新年晚会不知道去了多少（dz没去嘻嘻）；\n上课质量尚可，老师水平较高，只开经原1，无经原2；\n优先信管辅、经辅选课，但是经金、计金 etc. 也能选；\n**作业奇少**，每次约2 ~ 3h即可完成并理解；\nppt基本覆盖考点，会课前1 ~ 2week发ppt，可不听课；\n考试较为简单，看完ppt或者书，有一点自己的理解就容易拿高分；\n~有不少留学生帮忙垫背~\n\n点评人：S. W. \n\n上课学期：25fall",
+            "created_at": "2026/01/11 11:24",
+            "modified_at": "2026/01/11 11:24",
+            "score": "估A以上，期中100",
+            "moderator_remark": null
+        },
+        {
+            "id": 1761,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n期中考试，期末考试（均为闭卷）\n授课质量与给分：\n李老师讲课很好，内容丰富，很幽默，无论是辅修经济学还是经管学院主修都可以来选。考试比钟笑寒的题要简单，推荐。\n小课很有意思，也能学到很多有意思的知识。\n但本届助教态度不是很好，不能积极解决学生的问题。希望下一届能有所好转。\n点评人：\n上课学期：24-25秋",
+            "created_at": "2025/01/25 17:01",
+            "modified_at": "2025/01/25 17:01",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 609,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考卷简单（比zxh好），上课有趣",
+            "created_at": "2024/07/21 16:48",
+            "modified_at": "2024/07/21 16:48",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 608,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "李老师比钟老师水，如果是辅修的朋友们千万选李老师的课\n\n大课没有签到，但是有记考勤的小课\n\n课本ppt全部都有英文版，国际生朋友们其实不需要去上课，因为上了也听不懂（老师全程用中文讲）",
+            "created_at": "2024/07/21 16:48",
+            "modified_at": "2024/07/21 16:48",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

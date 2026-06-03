@@ -1,0 +1,97 @@
+{
+    "count": 6,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2980,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "课程基础，同学就不基础（大雾）\n\n考核方式：平时+大作业+期末\n\n授课质量与给分：\n老师讲的很不错，稍严厉；助教特别负责。助教为大作业写了超详细的文档与框架。本学期的大作业是制作一个飞机大战的游戏。\n\n点评人：Loratadine_OD\n\n上课学期：大一上",
+            "created_at": "2026/02/02 01:19",
+            "modified_at": "2026/02/02 01:19",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 1678,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：20%小作业+20%大作业+60%期末\n授课质量与给分：相比软院另一位老师刘玉身开的平行课，讲得应该是更基础务实，小作业难一点，大作业简单一点，给分正常吧\n点评人：硒代矽酸锡\n上课学期：2024-2025秋",
+            "created_at": "2025/01/24 21:44",
+            "modified_at": "2025/01/24 21:44",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1623,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：oj期中期末\n\n授课质量与给分：王老师教得确实好，已经尽力了，助教也非常负责，是我太菜。。。。。\n\n点评人：S\n\n上课学期：大一上",
+            "created_at": "2025/01/21 11:09",
+            "modified_at": "2025/01/21 11:09",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1622,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：20%平时作业（oj题目），20%大作业（俄罗斯方块），60%期末考试（上机考，3h5道题）\n\n授课质量与给分：王老师讲的非常好，他讲的是程序设计的底层思维，这是很多编程课程所缺少的东西。而且课程难度相比以往减少了很多，原来在考纲内的一些内容都没有讲到，还专门拿了两个小节来仔细讲了讲大作业。平时作业在oj截止提交前都会有助教在上机课中进行讲评，所以很好拿满。最后期末考据说有调分（?），反正我考得一般，最后还被捞到了A-\n\n上课学期：2024-2025-1",
+            "created_at": "2025/01/21 10:30",
+            "modified_at": "2025/01/21 10:30",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1466,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：平时作业+大作业+期末考试\n\n授课质量与给分：4.5\n\n点评人：礼堂顶针\n\n上课学期：秋季学期\n4.5分是本人4和助教5的平均值.助教上机课太C了，甚至手把手讲解大作业。",
+            "created_at": "2024/12/08 18:18",
+            "modified_at": "2024/12/08 18:18",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1465,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n作业，考试\n授课质量与给分：\nwjl你太帅了[敲头]，就是我太菜了，刚开始听不懂，助教很好\n点评人：\n\n上课学期：",
+            "created_at": "2024/12/08 18:14",
+            "modified_at": "2024/12/08 18:14",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

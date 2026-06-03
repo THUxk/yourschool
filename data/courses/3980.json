@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2048,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：搜集几个G的资料（80%）+签到（20%）\n\n授课质量与给分：老师年纪大了，特别能聊，晚上的课关灯上课，info上排两节课能拖到第三节下课；有些观点比较抽象\n但好处是总体上没啥任务量，还是比较容易水的通识课",
+            "created_at": "2025/05/09 19:26",
+            "modified_at": "2025/05/09 19:26",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

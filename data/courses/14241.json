@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2437,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：小课题设计+平时作业\n\n授课质量与给分：理论课和实验课相结合，涵盖了生物和材料两方面的基础知识，课下鼓励同学们自主思考，期末有生物材料器件设计，在设计过程中提供了很多和老师交流的机会。总体来讲，内容丰富，老师平易近人，给分还可以。\n\n上课学期：2025春",
+            "created_at": "2025/07/10 12:34",
+            "modified_at": "2025/07/10 12:34",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

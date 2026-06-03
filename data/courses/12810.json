@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3347,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：80成绩+20作业\n\n授课质量与给分：\n一般\n点评人：\n匿\n上课学期：26春",
+            "created_at": "2026/05/25 20:37",
+            "modified_at": "2026/05/25 20:37",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2095,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：\n出勤+上课回答问题+作业+小组展示\n授课质量与给分：\n水，没啥意思，非常无聊，感觉浪费了社科的一学分\n点评人：h\n上课学期：24秋",
+            "created_at": "2025/05/18 16:56",
+            "modified_at": "2025/05/18 16:56",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

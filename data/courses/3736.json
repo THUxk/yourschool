@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2569,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "（2025春）寒假猛摸，上课猛睡，有一项大作业迟交一天，最后3.6，还算轻松叭\n（2025春）上的fwz习概，感觉老师蛮幽默的，讲课水平应该算是华子思政老师的前列。最后A-，给分还行。\n（2025春）习概毛概都选的冯老师，平时10分，小作业30，大作业60。习概拿了A，毛概3.6，很大可能在于毛概缺勤了一次，缺勤一次总评要扣掉2分，当时早八睡过了。文章都很好写，但平时就是不想开始，导致期末周的时候一天干一篇，说实话我毛概写的比习概认真很多，感觉给分也挺玄学的。",
+            "created_at": "2025/12/12 02:08",
+            "modified_at": "2025/12/12 02:08",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1272,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：全部是写作，课程十问+大作业+课程总结。签到占一小部分，会随机选取同学回答问题。\n\n授课质量：很不错，讲课方法很有趣，课程设计也很巧妙。只有前8周上课，最后一节课给我留下了很深刻的印象，讲的话题和想要告诉我们的东西都很现代，能够启发我们对于当前的思考。所有作业都是写作，非常对我胃口。写作是需要你静心思考去完成的项目，而不像讨论或者考试一样浮躁无聊。\n\n点评人：匿了\n\n上课学期：24春",
+            "created_at": "2024/08/01 10:37",
+            "modified_at": "2024/08/01 10:37",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 206,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "自己组队pre+论文，给分不错。",
+            "created_at": "2024/07/21 13:30",
+            "modified_at": "2024/07/21 13:30",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

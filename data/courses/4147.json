@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1210,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "（24春）不能选考核方式，只有上篮。其余都好",
+            "created_at": "2024/07/24 16:30",
+            "modified_at": "2024/07/24 16:30",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

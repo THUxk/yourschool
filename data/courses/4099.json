@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 369,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "2学分专业选修，主要内容为先秦到宋代中国古代文学批评理论。学习任务：期末⼀篇论文+闭卷考试（名词解释与简答题）。学习建议：推荐参考张少康《中国文学理论批评史教程》与《中国文学理论批评史资料选注》，在理论之外补充阅读文献原典，期末考试内容不会超出老师上课所讲的PPT，认真背诵即可。",
+            "created_at": "2024/07/21 14:30",
+            "modified_at": "2024/07/21 14:30",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 359,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "（2021春）课程任务量：一次pre（讲自己的期末论文），一篇论文。注意论文是结课前就要写完提交的。老师教学风格：老师上课会讲很多文学理论的东西，挺有意思的，如果对古代文论不了解但感兴趣的同学可以听一听，上课深入浅出。会在pre结束后现场给比较中肯和详细的论文评价。给分很好。感悟：对文论不了解也不用害怕，来上课就行了。上完课你就无所不知了（不是）。有问题也可以问老师，老师很nice的。",
+            "created_at": "2024/07/21 14:27",
+            "modified_at": "2024/07/21 14:27",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

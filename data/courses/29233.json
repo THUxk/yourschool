@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1287,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：观后感+期末\n\n授课质量与给分：\n讲课好！好！好！\n任务量少！少！少！\n给分高！高！高！\n建议无脑冲！冲！冲！\n点评人：\n\n上课学期：2023秋",
+            "created_at": "2024/08/08 12:07",
+            "modified_at": "2024/08/08 12:07",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

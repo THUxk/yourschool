@@ -1,0 +1,20 @@
+{
+    "tid": "5651",
+    "name": "Philip Cha",
+    "related_courses": [
+        {
+            "id": 22062,
+            "code": "22168",
+            "name": "技术论文写作与表达",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22020,
+            "code": "22111",
+            "name": "结构动力学专题",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

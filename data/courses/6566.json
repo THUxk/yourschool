@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1019,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "这堂课是主要给生物、医学、化工、环境的学生开的化学基础课，课程压力不大，考试比较基础。寇老师讲课以ppt为主，有时也会来两个自己科研生涯中的小故事，偶尔催眠，但是一般都挺好的。",
+            "created_at": "2024/07/21 18:49",
+            "modified_at": "2024/07/21 18:49",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 757,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "原则上按照课本走，但实际上课堂上的内容非常丰富，跟着老师的PPT节奏走会有很大的收获，而且只要平时努力，考试根本不成问题",
+            "created_at": "2024/07/21 17:33",
+            "modified_at": "2024/07/21 17:33",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 756,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "按照课本顺序，不过不太需要课本，跟上老师上课的PPT节奏即可",
+            "created_at": "2024/07/21 17:33",
+            "modified_at": "2024/07/21 17:33",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 755,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师课讲得很好～考试三次，略多，但是给分很好（期中平均在90左右）",
+            "created_at": "2024/07/21 17:33",
+            "modified_at": "2024/07/21 17:33",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

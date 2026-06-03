@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1053,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n期中期末考试\n授课质量与给分：\n不会向下调分，成绩占比大\n上课学期：春季学期\n\n每隔几周交一次作业，把作业全搞懂考试基本没问题。钟老师没有很多符号化表述，上课会讲一些难一点的定理，但是考试不会考。",
+            "created_at": "2024/07/21 22:46",
+            "modified_at": "2024/07/21 22:46",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

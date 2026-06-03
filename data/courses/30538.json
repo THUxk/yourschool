@@ -1,0 +1,67 @@
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1426,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n作业➕考试➕考勤\n授课质量与给分：\n猫小姐讲的非常清楚细致，人也特别nice，考试前甚至会加课给大家复习知识点（线上自愿参加）。学术素养和人文素养都超级棒，上课也是正经中夹杂着冷幽默，不会很无聊。每年的课都是很多同学来旁听教室坐不下的程度。今年小介为了避免此事，特意选了小教室，想让大家知难而退，但是还是很多人涌入去听课…\n点评人：\n7\n上课学期：2023秋",
+            "created_at": "2024/12/06 23:51",
+            "modified_at": "2024/12/06 23:51",
+            "score": "",
+            "moderator_remark": null
+        },
+        {
+            "id": 1153,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n考试+作业+小测\n授课质量与给分：\n猫小姐讲的非常好，至少我一个文科生听起来并不费劲。是体验最好的一门数学课。老师偶尔会来几句骚话活跃气氛。考试计算量不大，老师比起计算其实更关注你对概统中概念的理解，比如置信区间的解释就是一个很典型的例子。\n点评人：\n\n上课学期：",
+            "created_at": "2024/07/24 03:52",
+            "modified_at": "2024/07/24 03:52",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 1107,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n考试，作业\n授课质量与给分：\n讲得很细致\n点评人：\n\n上课学期：\n2023秋",
+            "created_at": "2024/07/23 15:58",
+            "modified_at": "2024/07/23 15:58",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1063,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：期中+期末+作业\n\n授课质量与给分：授课质量不错，但老师素质一般\n\n\n上课学期：2023秋季",
+            "created_at": "2024/07/23 14:00",
+            "modified_at": "2024/07/23 14:00",
+            "score": "A+",
+            "moderator_remark": null
+        }
+    ]
+}

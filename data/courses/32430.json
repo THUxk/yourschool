@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2060,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "一款真的会给A+",
+            "created_at": "2025/05/16 14:34",
+            "modified_at": "2025/05/16 14:34",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

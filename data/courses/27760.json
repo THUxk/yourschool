@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 410,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：拟稿15%/初稿20%/终稿35%/期末pre15%/平时15%\n\n授课质量与给分：大毕业的政治经济学方面的老师，讲课中规中矩，老师会推荐一些书目但是基本以她老师和她老师的师承为主，在刚开课的时候还会推荐一些公众号，平常看看也挺有意思，还可以从里面找选题。老师人很好，有问题建议多找她沟通，不知道怎么写一定要问，问得越具体越清晰得到的指导和帮助就越多。",
+            "created_at": "2024/07/21 15:00",
+            "modified_at": "2024/07/21 15:00",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

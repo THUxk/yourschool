@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3079,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中+期末\n\n授课质量与给分：章爷爷真是清华学子的财富，上课细致板书，深入浅出，认真听讲肯定能学会。作业量适中，纸质作业。给分也不错\n\n点评人：lll\n\n上课学期：2021秋",
+            "created_at": "2026/02/25 15:45",
+            "modified_at": "2026/02/25 15:45",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

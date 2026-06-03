@@ -1,0 +1,82 @@
+{
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3322,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "讲课还行，考试纯恶心人，考得难得离谱然后再大力调分的意义是什么？\n\nTips：这课上课题目正确率高有额外加分，优秀作业没有额外加分",
+            "created_at": "2026/05/24 19:19",
+            "modified_at": "2026/05/24 19:19",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 3311,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：平时+纯期末\n\n授课质量与给分：笃实的友友，你们一定一定一定一定一定一定要在大一学离散甚至运筹学。这门课给分算义母级别了，期末考差不要害怕，不及格都能有3.6\n\n点评人：S\n\n上课学期：大二上",
+            "created_at": "2026/05/23 19:33",
+            "modified_at": "2026/05/23 19:33",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 2922,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：无期中，期末70%+作业30%\n\n授课质量与给分：\n\n点评人：紫轮喵\n\n上课学期：2025秋季\n\n还行吧，lsx人不错，很有耐心说话也很柔和，但是感觉会高估部分（比如我）大一年级学生的认知水平，导致进度过快和强行跃迁，尤其在紫荆书院五字班造成了比较惨烈的后果。软院离散考试本身也很难。不建议大一学，不建议大一学，，，",
+            "created_at": "2026/01/30 23:54",
+            "modified_at": "2026/01/30 23:54",
+            "score": "3.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2827,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：作业30＋期末70\n\n授课质量与给分：软院离散就是这德行，真没办法，东西多的要死还考的难，依托答辩。老师人还是很好的，只不过讲得也是一般。\n\n点评人：\n\n上课学期：",
+            "created_at": "2026/01/30 19:50",
+            "modified_at": "2026/01/30 19:50",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2784,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：30%平时+70%期末+课堂答题加分\n\n授课质量与给分：\n说实话感觉讲得一般，基本就是无情的念ppt机器，一些难懂的点也顶多是多念几遍ppt，然后就fly bitch了。很多东西她好像并不清楚应该怎么讲。期末闭卷，题量极大。不过隔壁hf似乎也没有好到哪里去。\n另外，上课答题有雨课堂红包，但是沟槽的雨课堂满2元才能提现还要扣2%的手续费（恼）\n\n点评人：硒代矽酸锡\n\n上课学期：2025-2026秋",
+            "created_at": "2026/01/30 18:10",
+            "modified_at": "2026/01/30 18:10",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

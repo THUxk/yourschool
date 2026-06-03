@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1184,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业 + 小论文 + 期末考试\n\n授课质量与给分：作业很难，但好好写作业考试大概率没问题；老师讲课极好，近年来还有整理的讲义，哪怕不上课靠讲义自学也很方便了\n\n点评人：\n\n上课学期：23秋",
+            "created_at": "2024/07/24 11:49",
+            "modified_at": "2024/07/24 11:49",
+            "score": "A",
+            "moderator_remark": null
+        }
+    ]
+}

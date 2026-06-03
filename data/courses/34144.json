@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3198,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业10%+期中40%+期末50%，考试是统考，不查考勤，发现PPT里的错误可以加分\n\n授课质量与给分：老师人很好但是上课水平一般，助教水平也不太行，（可能因为是新教这门课吧，应该是第二年）课下需要多花些工夫自学巩固。给分挺好\n\n点评人：\n\n上课学期：2025秋季学期",
+            "created_at": "2026/03/21 09:46",
+            "modified_at": "2026/03/21 09:46",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2112,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：作业10期中40期末50+加分pre\n\n授课质量与给分：其实这是女老师（笑） 统考 考试不难也不简单 指出PPT错误一处一分，期末可以做一个极其简单的讲元素pre加分 有雨课堂所以课想去就去想听就听，不考勤 老师人好给分也好但上课其实一般 课程安排很轻松\n\n点评人：P\n\n上课学期：2024秋",
+            "created_at": "2025/05/19 20:44",
+            "modified_at": "2025/05/19 20:44",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 1732,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "考核方式：期中期末+作业，没有考勤\n\n授课质量与给分：老师讲的很认真，还会和同学探讨，但是杨老师是第一次教化学原理这门课，给分很不好，怀疑根本没有调分，其他班级有一大半都是4.0。且期中分数和其他班级能差10分。\n\n点评人：匿名\n\n上课学期：2024秋季学期",
+            "created_at": "2025/01/25 10:15",
+            "modified_at": "2025/01/25 10:15",
+            "score": "3.3",
+            "moderator_remark": null
+        }
+    ]
+}

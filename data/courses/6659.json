@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2895,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：实验报告+期中期末作业\n\n授课质量与给分：讲课非常详细实用（感觉其实挺适合医学生预习）作业给分也很好，不管上课摸鱼\n\n点评人：\n\n上课学期：大一秋",
+            "created_at": "2026/01/30 22:00",
+            "modified_at": "2026/01/30 22:00",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2366,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：课上选择题与课后作业5%×11=55%+实验报告10%×2=20%+两次汇报25%\n\n授课质量与给分：老师教的是比较基础的医学知识，非常适合入门，我高中没学过生物也能轻松听懂；但如果是生物医学知识比较丰富、想进一步提高的同学，这些知识可能不太能“吃得饱”。\n任务量基本为0，课后作业老师支持用AI，只需要保证没有事实错误就可以。课堂上的选择题都是刚讲过的知识点，雨课堂上翻翻前面的PPT就有。\n两次pre的时间较紧，一个礼拜的时间准备，并且排在期中期末周；但是和小组同学分配好任务也不算太难。\n\n点评人：\n\n上课学期：2025春",
+            "created_at": "2025/06/30 11:42",
+            "modified_at": "2025/06/30 11:42",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

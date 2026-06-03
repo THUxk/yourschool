@@ -1,0 +1,20 @@
+{
+    "tid": "3580",
+    "name": "WALDER ANDREW GEORGE",
+    "related_courses": [
+        {
+            "id": 30354,
+            "code": "30516",
+            "name": "比较视角下的中国崛起",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9816,
+            "code": "9815",
+            "name": "中国崛起的比较分析",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

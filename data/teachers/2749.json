@@ -1,0 +1,41 @@
+{
+    "tid": "2749",
+    "name": "LUONG THEONE THUY-NHI",
+    "related_courses": [
+        {
+            "id": 7308,
+            "code": "7307",
+            "name": "普通法精要（3）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11470,
+            "code": "11471",
+            "name": "法律英文写作 I",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25912,
+            "code": "26074",
+            "name": "法律英文写作 II",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27384,
+            "code": "27546",
+            "name": "辩护技巧",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5297,
+            "code": "5296",
+            "name": "普通法精要（1）",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

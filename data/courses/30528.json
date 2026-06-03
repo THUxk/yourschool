@@ -1,0 +1,127 @@
+{
+    "count": 8,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2155,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：期中期末考+作业\n\n授课质量与给分：5\n\n点评人：\n\n上课学期：2024秋\n\n最喜欢的数学老师，没有之一，真的很温柔，惠慧我爱你。我不允许这么多人黑你。",
+            "created_at": "2025/06/02 22:51",
+            "modified_at": "2025/06/02 22:51",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2087,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：\n\n授课质量与给分：\n\n点评人：\n\n上课学期：\n石中石中石，大一上沾上她算是完了",
+            "created_at": "2025/05/17 21:18",
+            "modified_at": "2025/05/17 21:18",
+            "score": "",
+            "moderator_remark": null
+        },
+        {
+            "id": 1596,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：\n比线代强\n点评人：\n\n上课学期：",
+            "created_at": "2025/01/05 00:50",
+            "modified_at": "2025/01/05 00:50",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1583,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "不知道期末全考原题有何意义。",
+            "created_at": "2025/01/02 13:39",
+            "modified_at": "2025/01/02 13:39",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1544,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：期末+期中+平时\n\n授课质量与给分：讲得烂，给分超级烂，期中考试平均分60\n\n点评人：\n\n上课学期：24秋",
+            "created_at": "2024/12/21 21:05",
+            "modified_at": "2024/12/21 21:05",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1480,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "考核方式：期中30%+期末50%+平时作业20%\n\n质量与给分：基本照着书本讲，前面函数性质讲得还清楚，开始不定积分后疯狂赶进度，没法跟。好处是🈚️考勤，可以自学\n\n点评人：筱雨\n\n上课学期：",
+            "created_at": "2024/12/09 14:10",
+            "modified_at": "2024/12/09 14:10",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1375,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式：闭卷考试难度史\n授课质量与给分：\n傻ac 抄教材 给分不好\n点评人：\n受害者\n上课学期：秋季",
+            "created_at": "2024/12/05 22:05",
+            "modified_at": "2024/12/05 22:05",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1373,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业20+期中30+期末50\n\n授课质量与给分：讲的比较仔细，但是有时候顾不上学生感受，有点赶进度\n\n点评人：\n\n上课学期：大一",
+            "created_at": "2024/12/05 21:52",
+            "modified_at": "2024/12/05 21:52",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

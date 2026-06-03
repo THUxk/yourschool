@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1660,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：考试\n\n授课质量与给分：授课比较枯燥, 讲课还算详细但可能会有细小的知识点遗漏, 如果同学不提问老师可能会忘记讲, 不知到别的老师怎么样; 人还是挺好的, 给分几乎不会小于3.6; 考试不知道是不是统考, 会稍有一些超纲的词汇(极少数会影响做题). \n\n点评人：\n\n上课学期：2024-2025秋",
+            "created_at": "2025/01/24 20:19",
+            "modified_at": "2025/01/24 20:19",
+            "score": "A+",
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1553,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：一次检索报告+一次习题练习+期末小组pre\n\n授课质量与给分：老师人超好，上课氛围轻松活跃，还会不定期发小礼物\n\n上课学期：2024秋",
+            "created_at": "2024/12/24 15:18",
+            "modified_at": "2024/12/24 15:18",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

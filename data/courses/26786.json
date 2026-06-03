@@ -1,0 +1,142 @@
+{
+    "count": 9,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2914,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "非常推荐~\n\n考核方式：\n拟稿+初稿+终稿+平时作业（含课上小组讨论，开题pre，结题pre）\n\n授课质量与给分：\n老师人特别好，上课会分享很多有价值和有意思的内容，能学到很多真东西；课堂氛围非常活跃。\n前50%是4.0，后50%是3.6，正常情况下不会打更低的分。\n\n上课学期：2025秋",
+            "created_at": "2026/01/30 22:57",
+            "modified_at": "2026/01/30 22:57",
+            "score": "4.0",
+            "moderator_remark": null
+        },
+        {
+            "id": 2658,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：三次稿+平时分\n\n授课质量与给分：夯\n\n点评人：gs\n\n上课学期：2025秋",
+            "created_at": "2025/12/18 19:26",
+            "modified_at": "2025/12/18 19:26",
+            "score": "A",
+            "moderator_remark": null
+        },
+        {
+            "id": 2303,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：老师在开课的几个主题上深耕多年，非常了解；上课内容很丰富，比较有意思，会有几次小组讨论之类的环节，以及对稿子的反馈也很详细；除了三篇稿和展示外几乎没有小作业，交稿时间5/13/18也是最迟的一批；本人选的健康主题也是内容非常宽广、可以谈的东西非常多（虽然最后我的选题给自己挖了个火坑qwq）\n\n点评人：硒代矽酸锡\n\n上课学期：2024-2025春",
+            "created_at": "2025/06/27 22:34",
+            "modified_at": "2025/06/27 22:34",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1756,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n\n授课质量与给分：SSS\n\n点评人：匿名\n\n上课学期：\n老师水平极高，给分好，我没有4.0纯个人原因",
+            "created_at": "2025/01/25 16:55",
+            "modified_at": "2025/01/25 16:55",
+            "score": "3.6",
+            "moderator_remark": null
+        },
+        {
+            "id": 1534,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：老师人很好，跟学生交心；讲得很有意思，把写论文讲得很清楚。\n\n点评人：匿名\n\n上课学期：",
+            "created_at": "2024/12/17 12:28",
+            "modified_at": "2024/12/17 12:28",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1533,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "授课质量与给分：老师人很好，跟学生交心；讲得很有意思，把写论文讲得很清楚。\n\n点评人：匿名\n\n上课学期：",
+            "created_at": "2024/12/17 12:28",
+            "modified_at": "2024/12/17 12:28",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1114,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师人很好，会细致地帮你检查论文。很值得选的写沟。\n上课学期：2023春",
+            "created_at": "2024/07/23 16:14",
+            "modified_at": "2024/07/23 16:14",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 840,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师人很好，很负责，每个人的开题报告都会认真地点评，给分也很好。上课时准备的素材很丰富，但是讲课时思维比较跳跃。总体还是很推荐。",
+            "created_at": "2024/07/21 18:01",
+            "modified_at": "2024/07/21 18:01",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 839,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师人很好，内容比较硬核，难度比较高，会比较陌生，可以挑战",
+            "created_at": "2024/07/21 18:01",
+            "modified_at": "2024/07/21 18:01",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

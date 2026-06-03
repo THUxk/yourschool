@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 635,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "会讨论不同的女性文学，去理解女性力量的觉醒\n上课体验很好，老师很乐意与同学交流和给反馈\n推展的文章也非常有趣",
+            "created_at": "2024/07/21 16:56",
+            "modified_at": "2024/07/21 16:56",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

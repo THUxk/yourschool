@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1240,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：作业和考试\n\n授课质量：自从学校换了新教材，大家自己就能轻松自学，听不听课也无所谓了，教材每章都写的特别特别特别清楚。或许是正因为此，这课的上课方式就是把教材抄到黑板上读一遍。。。所以我不知道该怎么评价授课质量。\n\n给分：给分还是非常不错的。作业极多，每周20余道题目（每节课10题，一周2节课）。考试基本都是无聊的计算题，计算大赛，计算别出错就很容易得90+。",
+            "created_at": "2024/07/26 03:05",
+            "modified_at": "2024/07/26 03:05",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 778,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "第一次上课点完名后就没再点过了，老师不用PPT，全是板书，思路很清晰，有耐心感觉学生们回应很少会停下来问是否有问题。但老师讲课速度比较快，任务量稍微有点大。",
+            "created_at": "2024/07/21 17:44",
+            "modified_at": "2024/07/21 17:44",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 240,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "曹晋老师上课讲课很清楚，答疑耐心，给分还可以。",
+            "created_at": "2024/07/21 13:41",
+            "modified_at": "2024/07/21 13:41",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

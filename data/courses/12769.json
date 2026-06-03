@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 25,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 3,
+            "comment": "6次小作业、3次大作业，都是使用matlab进行图像处理的实验，部分作业难度较大。期末考试可以带一张A4纸，主要是ppt加上理解。\n课程由冯建江老师讲授，老师的ppt做的不错，易于理解。上课的演示实验代码都会发给同学，更加便于理解和编程作业。作业不需要过度地自由拓展，满足要求即可。",
+            "created_at": "2024/07/21 10:56",
+            "modified_at": "2024/07/21 10:56",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

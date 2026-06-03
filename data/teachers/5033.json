@@ -1,0 +1,20 @@
+{
+    "tid": "5033",
+    "name": "Philip Jun Yi LIN",
+    "related_courses": [
+        {
+            "id": 25727,
+            "code": "25888",
+            "name": "价值投资",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18755,
+            "code": "18772",
+            "name": "风险投资",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 141,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "后八周上课，其中有一次讲座，两次课堂上看视频，其他时间老师讲课，老师讲课很有水平，讲课内容分专题（例如中国工业化社会主义制度），上课会随机提问。考核包括三次随机随堂测验，测验内容是写一篇与当堂授课内容有关的小论文，难度不大，主要是为了查出勤，一次10分。期末写一篇以近期时事热点为主题的小论文，1000-3000字，要求自己的观点至少占1/3，占50分。建议期末论文认真写，一定不要翘课。",
+            "created_at": "2024/07/21 13:00",
+            "modified_at": "2024/07/21 13:00",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 46,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "老师上课有些自己的见解，认真听讲会有所收获，并且老师会邀请其他的老师负责部分讲授，课程任务量相对较小，课程给分情况一般，课程考核内容为论文形式，并且会有一定量的小作业计分。",
+            "created_at": "2024/07/21 11:07",
+            "modified_at": "2024/07/21 11:07",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

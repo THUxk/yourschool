@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 314,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "讲课很细致，方便理解。作业量适中。",
+            "created_at": "2024/07/21 14:10",
+            "modified_at": "2024/07/21 14:10",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

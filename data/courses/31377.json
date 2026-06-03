@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1038,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "会请很多创业大佬来分享，老师自己也准备了很多干货，有想法就来做，支持非常多",
+            "created_at": "2024/07/21 18:55",
+            "modified_at": "2024/07/21 18:55",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

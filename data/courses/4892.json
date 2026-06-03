@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 139,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 2,
+            "comment": "硬课。上课讲的内容比较广泛，有时讲讲写作规范，有时听听力，和邻桌用英文讨论……也不知道自己学了啥系列。每周作业比较固定，一般是听写，有时是写小论文，期末一次pre，班内互评。每两周一次小测，测试作业内容。没有期中考，期末考难度较大。",
+            "created_at": "2024/07/21 12:59",
+            "modified_at": "2024/07/21 12:59",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

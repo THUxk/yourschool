@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1427,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 1,
+            "comment": "考核方式一次小组pre+小组论文+一次作业\n\n授课质量与给分：这老师似乎很喜欢计算法学，上课内容个人不感兴趣。作业量太大了，有几节课检查进度，压力拉满，最后造出来的也就是学术垃圾。\n\n点评人：匿\n\n上课学期：23秋",
+            "created_at": "2024/12/07 00:26",
+            "modified_at": "2024/12/07 00:26",
+            "score": "A-",
+            "moderator_remark": null
+        }
+    ]
+}

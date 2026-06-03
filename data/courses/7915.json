@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 173,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "空航天导论分为1、2两部分，航导1比较偏重于理论方面，整体课程以讲座课形式为主，辅以一次的外出参观。课程由三个老师进行讲述，会对于航天、航空等部分进行比较浅显而完整的讲述。每节课后可能会布置一些小作业，小作业的内容一般是上网搜查一些资料、听完讲座的感受等等。结课需要写一篇大论文，大论文题目比较结合生活实际，比较容易写。",
+            "created_at": "2024/07/21 13:17",
+            "modified_at": "2024/07/21 13:17",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

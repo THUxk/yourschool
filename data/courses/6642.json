@@ -1,0 +1,37 @@
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 3152,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "考核方式：\n作业+实验+期中+期末；\n\n授课质量与给分：\n胥老师讲得还可以，PPT里有大量不知道从哪截下来的公式、图片，整体风格很割裂，看着不舒服；还想吐槽一下，这课用着建环专业的传热学书，里面很多习惯和表达都和本专业不相符；\n\n期中中位数，期末空了半道大题，平时分拿满，最后A-\n点评人：\n\n上课学期：\n25-26学年秋季",
+            "created_at": "2026/03/03 15:41",
+            "modified_at": "2026/03/03 15:41",
+            "score": "A-",
+            "moderator_remark": null
+        },
+        {
+            "id": 1082,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "能动系核心课程之一，重要性不言而喻\n考核除了作业和实验外，只有期末考试，范围为整个学期的知识点，闭卷\n不过可以选大作业，期末占比少10%\n这个课胥老师和姜培学院士合开，讲的挺好，但是ppt有点久远了，而且内容很多，需要自己提炼出核心内容\n考试的话简答题50分，相当注重对于基础知识的理解，计算题和作业类似，也基本上是基础内容，计算量较大",
+            "created_at": "2024/07/23 15:11",
+            "modified_at": "2024/07/23 15:11",
+            "score": "",
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "tid": "4446",
+    "name": "Aron Simon Marcos",
+    "related_courses": [
+        {
+            "id": 15146,
+            "code": "15154",
+            "name": "西班牙语(第二外国语)(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15142,
+            "code": "15150",
+            "name": "西班牙语(第二外国语)(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

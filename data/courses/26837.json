@@ -1,0 +1,22 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 218,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 4,
+            "comment": "由张涛老师、赵明国老师和石宗英老师合开。张老师主要讲解课程概论，赵老师主要讲解机器人控制（包括机器人动力学等），石老师主要讲解机器人感知。这门硬核的机器人课程容量较大，对机器人感兴趣的同学可以考虑，相信认真学完这门课程一定收获满满。",
+            "created_at": "2024/07/21 13:33",
+            "modified_at": "2024/07/21 13:33",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

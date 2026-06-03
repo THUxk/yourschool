@@ -1,0 +1,20 @@
+{
+    "tid": "6180",
+    "name": "LUO KAI HONG",
+    "related_courses": [
+        {
+            "id": 32695,
+            "code": "32857",
+            "name": "燃烧研究前沿及方法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25915,
+            "code": "26077",
+            "name": "科技英语写作与表达",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

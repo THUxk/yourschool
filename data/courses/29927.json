@@ -1,0 +1,52 @@
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 2436,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n\n授课质量与给分：\n杨晶老师水平不必多言，微积分2个人觉得也比1简单不少，期中甚至考了满分\n期中左右会有个有奖小作文，应该可以靠这个捞一下绩点，不过本人没写\n点评人：\n\n上课学期：",
+            "created_at": "2025/07/08 13:47",
+            "modified_at": "2025/07/08 13:47",
+            "score": "A+",
+            "moderator_remark": null
+        },
+        {
+            "id": 2085,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n平时题目对2/3给满平时分，期中期末\n授课质量与给分：\n神，无需多言\n讲的浅显易懂，课堂极有意思，人风趣幽默，会通过很多现实问题引入数学模型，ppt也很详细\n点评人：m3\n\n上课学期：24-25夏",
+            "created_at": "2025/05/17 20:27",
+            "modified_at": "2025/05/17 20:27",
+            "score": null,
+            "moderator_remark": null
+        },
+        {
+            "id": 1088,
+            "reactions": {
+                "approves": 0,
+                "disapproves": 0
+            },
+            "is_mine": false,
+            "semester": "",
+            "rating": 5,
+            "comment": "考核方式：\n有雨课堂扫码考勤+练习\n授课质量与给分：老师非常认真，说是全校最好的数学课也不为过，神中神！\n点评人：\n\n上课学期：",
+            "created_at": "2024/07/23 15:31",
+            "modified_at": "2024/07/23 15:31",
+            "score": null,
+            "moderator_remark": null
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tid": "664",
+    "name": "DAVID MICHAEL CHRISTOPHER",
+    "related_courses": [
+        {
+            "id": 3115,
+            "code": "3114",
+            "name": "专业英语阅读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3116,
+            "code": "3115",
+            "name": "数值传热学（英）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9630,
+            "code": "9629",
+            "name": "科技英语阅读与写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32501,
+            "code": "32663",
+            "name": "自主研究探索课程(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 836,
+            "code": "835",
+            "name": "计算传热学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}
