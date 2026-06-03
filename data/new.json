@@ -1,0 +1,22 @@
+[
+  {
+    "id": 3401,
+    "reactions": {
+      "approves": 0,
+      "disapproves": 0
+    },
+    "is_mine": false,
+    "semester": "",
+    "course": {
+      "id": 0,
+      "name": "test_course",
+      "teacher": "test_teacher"
+    },
+    "rating": 5,
+    "comment": "考核方式：abcdef\n\n授课质量与给分：ghijk\n\n点评人：wwwwwwwwww\n\n上课学期：2026春",
+    "created_at": "2026/05/31 16:55",
+    "modified_at": "2026/05/31 16:55",
+    "score": null,
+    "moderator_remark": null
+  }
+]

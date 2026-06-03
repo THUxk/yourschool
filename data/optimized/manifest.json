@@ -1,0 +1,48 @@
+{
+  "v": 3,
+  "total_courses": 34773,
+  "total_reviews": 3372,
+  "chunk_size": 6955,
+  "chunks": [
+    "courses_0.json",
+    "courses_1.json",
+    "courses_2.json",
+    "courses_3.json",
+    "courses_4.json"
+  ],
+  "years": [
+    "2016",
+    "2018",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "review_files": {
+    "2016": "reviews_2016.json",
+    "2018": "reviews_2018.json",
+    "2020": "reviews_2020.json",
+    "2021": "reviews_2021.json",
+    "2022": "reviews_2022.json",
+    "2023": "reviews_2023.json",
+    "2024": "reviews_2024.json",
+    "2025": "reviews_2025.json",
+    "2026": "reviews_2026.json"
+  },
+  "detail_chunks": [
+    "detail_chunks_0.json",
+    "detail_chunks_1.json",
+    "detail_chunks_2.json",
+    "detail_chunks_3.json",
+    "detail_chunks_4.json",
+    "detail_chunks_5.json",
+    "detail_chunks_6.json",
+    "detail_chunks_7.json",
+    "detail_chunks_8.json",
+    "detail_chunks_9.json"
+  ],
+  "detail_mod": 10
+}
