@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2865,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：雨课堂考勤10+作业10+小论文10+期中20+期末50\n\n授课质量与给分：授课用PPT，虽然讲的有时候比较催眠但PPT质量确实还是蛮高的；本学期期中简单期末较难，给分有可能是调了（？）\n\n点评人：匿名\n\n上课学期：25-26秋",
-            "created_at": "2026/01/30 20:57",
-            "modified_at": "2026/01/30 20:57",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 575,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "ppt reader 但是他的ppt内容真的特别全，所以也没什么不好的，期中考试把ppt背一遍基本就能拿不错的分数，每周的回家作业也不多，如果只做必做题基本一小时就能做完，平时分给的比较多",
-            "created_at": "2024/07/21 16:35",
-            "modified_at": "2024/07/21 16:35",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2865,
+      "rating": 5,
+      "comment": "考核方式：雨课堂考勤10+作业10+小论文10+期中20+期末50\n\n授课质量与给分：授课用PPT，虽然讲的有时候比较催眠但PPT质量确实还是蛮高的；本学期期中简单期末较难，给分有可能是调了（？）\n\n点评人：匿名\n\n上课学期：25-26秋",
+      "created_at": "2026/01/30 20:57",
+      "score": "4.0"
+    },
+    {
+      "id": 575,
+      "rating": 3,
+      "comment": "ppt reader 但是他的ppt内容真的特别全，所以也没什么不好的，期中考试把ppt背一遍基本就能拿不错的分数，每周的回家作业也不多，如果只做必做题基本一小时就能做完，平时分给的比较多",
+      "created_at": "2024/07/21 16:35",
+      "score": null
+    }
+  ]
 }

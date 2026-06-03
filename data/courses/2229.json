@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1791,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：外业，Pre，图，报告，视频，以及一些其他成果\n\n授课质量与给分：\n在我们的测量区域好像并没有看到过老师，感觉不是很能指望赵老师能帮助你什么）\n最后Pre一定要展示视频，不然整组分数都会很低！\n给分似乎只关注小组互评，但是循环打分听说就会变成组内随机给分）\n如果你没有先学过测量学，你还要增加测量学的考试，在测量实习之后。\n真的很累，或许因为效率低下，最后Pre前熬通宵\n\n点评人：\n\n上课学期：夏季学期",
-            "created_at": "2025/01/25 22:14",
-            "modified_at": "2025/01/25 22:14",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 1775,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：外业，Pre，图，报告\n\n授课质量与给分：zhrsb，无需多言\n给分玄学\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/25 20:54",
-            "modified_at": "2025/01/25 20:54",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1774,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：外业，Pre，图，报告\n\n授课质量与给分：zhrsb，无需多言\n给分玄学\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/25 20:54",
-            "modified_at": "2025/01/25 20:54",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1791,
+      "rating": 1,
+      "comment": "考核方式：外业，Pre，图，报告，视频，以及一些其他成果\n\n授课质量与给分：\n在我们的测量区域好像并没有看到过老师，感觉不是很能指望赵老师能帮助你什么）\n最后Pre一定要展示视频，不然整组分数都会很低！\n给分似乎只关注小组互评，但是循环打分听说就会变成组内随机给分）\n如果你没有先学过测量学，你还要增加测量学的考试，在测量实习之后。\n真的很累，或许因为效率低下，最后Pre前熬通宵\n\n点评人：\n\n上课学期：夏季学期",
+      "created_at": "2025/01/25 22:14",
+      "score": "A-"
+    },
+    {
+      "id": 1775,
+      "rating": 1,
+      "comment": "考核方式：外业，Pre，图，报告\n\n授课质量与给分：zhrsb，无需多言\n给分玄学\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/25 20:54",
+      "score": null
+    },
+    {
+      "id": 1774,
+      "rating": 1,
+      "comment": "考核方式：外业，Pre，图，报告\n\n授课质量与给分：zhrsb，无需多言\n给分玄学\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/25 20:54",
+      "score": null
+    }
+  ]
 }

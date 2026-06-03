@@ -1,97 +1,49 @@
 {
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3291,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：40%小作业，60%大作业\n\n授课质量与给分：录播课，给分很好\n\n点评人：\n\n上课学期：26春",
-            "created_at": "2026/05/22 17:34",
-            "modified_at": "2026/05/22 17:34",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3287,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "不用去上课，作业AI全部可以做\n人均4.0，伟大",
-            "created_at": "2026/05/22 15:50",
-            "modified_at": "2026/05/22 15:50",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2605,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：小作业40+大作业60\n\n授课质量与给分：授课质量难评，雍老师可能身体不太好，所以上课都是放的录屏。但是不查考勤，可以不用上线下课。授课内容比较枯燥无聊，与当前时代脱节，小作业有些题目也很无聊，但大作业比较简单，可以选择写技术文档或者开发游戏或者程序（根据自己水平和时间安排）。给分应该批发4.0，只要按质按量完成大小作业即可。\n\n点评人：Patriarch\n\n上课学期：25春",
-            "created_at": "2025/12/12 22:46",
-            "modified_at": "2025/12/12 22:46",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 2307,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：40%小作业+60%大作业\n\n授课质量与给分：不考试，上课放录播，录播念ppt，ppt抄他自己的书，书写得非常详细，完全可以一节课不上纯自学而且老师也明确表示允许；小作业只要正常完成要求就是满分，总评批发4.0；虽然无聊但是至少该讲清楚的都讲清楚了，只有上了真正的勾史程设课程才能体会到这一点的可贵\n\n点评人：硒代矽酸锡\n\n上课学期：2024-2025春",
-            "created_at": "2025/06/27 22:43",
-            "modified_at": "2025/06/27 22:43",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 1083,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "讲课最烂 but给分最好的课\n很可能一学期混下来啥都没学会但是能拿4.0\n2024年了还在教MFC也是没谁了\n不过看在批发4.0的份上也不算太差",
-            "created_at": "2024/07/23 15:11",
-            "modified_at": "2024/07/23 15:11",
-            "score": "A+",
-            "moderator_remark": null
-        },
-        {
-            "id": 636,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "上课是录课，但作业量给分都很好",
-            "created_at": "2024/07/21 16:57",
-            "modified_at": "2024/07/21 16:57",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3291,
+      "rating": 5,
+      "comment": "考核方式：40%小作业，60%大作业\n\n授课质量与给分：录播课，给分很好\n\n点评人：\n\n上课学期：26春",
+      "created_at": "2026/05/22 17:34",
+      "score": null
+    },
+    {
+      "id": 3287,
+      "rating": 5,
+      "comment": "不用去上课，作业AI全部可以做\n人均4.0，伟大",
+      "created_at": "2026/05/22 15:50",
+      "score": null
+    },
+    {
+      "id": 2605,
+      "rating": 3,
+      "comment": "考核方式：小作业40+大作业60\n\n授课质量与给分：授课质量难评，雍老师可能身体不太好，所以上课都是放的录屏。但是不查考勤，可以不用上线下课。授课内容比较枯燥无聊，与当前时代脱节，小作业有些题目也很无聊，但大作业比较简单，可以选择写技术文档或者开发游戏或者程序（根据自己水平和时间安排）。给分应该批发4.0，只要按质按量完成大小作业即可。\n\n点评人：Patriarch\n\n上课学期：25春",
+      "created_at": "2025/12/12 22:46",
+      "score": "A-"
+    },
+    {
+      "id": 2307,
+      "rating": 4,
+      "comment": "考核方式：40%小作业+60%大作业\n\n授课质量与给分：不考试，上课放录播，录播念ppt，ppt抄他自己的书，书写得非常详细，完全可以一节课不上纯自学而且老师也明确表示允许；小作业只要正常完成要求就是满分，总评批发4.0；虽然无聊但是至少该讲清楚的都讲清楚了，只有上了真正的勾史程设课程才能体会到这一点的可贵\n\n点评人：硒代矽酸锡\n\n上课学期：2024-2025春",
+      "created_at": "2025/06/27 22:43",
+      "score": "A-"
+    },
+    {
+      "id": 1083,
+      "rating": 3,
+      "comment": "讲课最烂 but给分最好的课\n很可能一学期混下来啥都没学会但是能拿4.0\n2024年了还在教MFC也是没谁了\n不过看在批发4.0的份上也不算太差",
+      "created_at": "2024/07/23 15:11",
+      "score": "A+"
+    },
+    {
+      "id": 636,
+      "rating": 3,
+      "comment": "上课是录课，但作业量给分都很好",
+      "created_at": "2024/07/21 16:57",
+      "score": null
+    }
+  ]
 }

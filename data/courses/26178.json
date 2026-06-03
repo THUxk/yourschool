@@ -1,82 +1,42 @@
 {
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2663,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "期中之前基本每周都有录音作业（期中周无），期中之后就是个人和小组的pre，总体来说任务比较小，期末还可以看电影，胡阳老师人很好，给分也很好！",
-            "created_at": "2025/12/21 23:07",
-            "modified_at": "2025/12/21 23:07",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 903,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "有taskABCD 每周都会有录音作业 每个人都要做非常学术的pre还有小组的pre 个人的tedtalk非常严格 不好的话会有拷打环节（",
-            "created_at": "2024/07/21 18:17",
-            "modified_at": "2024/07/21 18:17",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 902,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "大家轮流演讲，笔记作业；看新闻热点并复述；听听力做题；团队作业（辩论、脱口秀、访谈等形式）",
-            "created_at": "2024/07/21 18:17",
-            "modified_at": "2024/07/21 18:17",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 374,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n课下录音、列短语作业、个人pre、小组pre\n授课质量与给分：\n老师平时上课时比较严格，个人pre要求偏学术。总体来说任务量较大，但认真学下来会在听说方面有较大进步。老师给分很好，助教给分一般",
-            "created_at": "2024/07/21 14:34",
-            "modified_at": "2024/07/21 14:34",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 224,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "非常低能的课程，任务重、老师脾气不好，给分也不太行。",
-            "created_at": "2024/07/21 13:35",
-            "modified_at": "2024/07/21 13:35",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2663,
+      "rating": 5,
+      "comment": "期中之前基本每周都有录音作业（期中周无），期中之后就是个人和小组的pre，总体来说任务比较小，期末还可以看电影，胡阳老师人很好，给分也很好！",
+      "created_at": "2025/12/21 23:07",
+      "score": "A"
+    },
+    {
+      "id": 903,
+      "rating": 3,
+      "comment": "有taskABCD 每周都会有录音作业 每个人都要做非常学术的pre还有小组的pre 个人的tedtalk非常严格 不好的话会有拷打环节（",
+      "created_at": "2024/07/21 18:17",
+      "score": null
+    },
+    {
+      "id": 902,
+      "rating": 3,
+      "comment": "大家轮流演讲，笔记作业；看新闻热点并复述；听听力做题；团队作业（辩论、脱口秀、访谈等形式）",
+      "created_at": "2024/07/21 18:17",
+      "score": null
+    },
+    {
+      "id": 374,
+      "rating": 4,
+      "comment": "考核方式：\n课下录音、列短语作业、个人pre、小组pre\n授课质量与给分：\n老师平时上课时比较严格，个人pre要求偏学术。总体来说任务量较大，但认真学下来会在听说方面有较大进步。老师给分很好，助教给分一般",
+      "created_at": "2024/07/21 14:34",
+      "score": null
+    },
+    {
+      "id": 224,
+      "rating": 1,
+      "comment": "非常低能的课程，任务重、老师脾气不好，给分也不太行。",
+      "created_at": "2024/07/21 13:35",
+      "score": null
+    }
+  ]
 }

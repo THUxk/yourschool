@@ -1,67 +1,35 @@
 {
-    "count": 4,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2973,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：10考勤+30课上发言+60pre，课上多发言能一定程度上增加4.0概率。",
-            "created_at": "2026/02/01 19:08",
-            "modified_at": "2026/02/01 19:08",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2852,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "授课质量与给分：\n补充：并非全4.0，我拿了3.6，不过确实水了半个学期我也认了，不过pre之前说全员4.0是啥意思……\n\n上课学期：25秋",
-            "created_at": "2026/01/30 20:41",
-            "modified_at": "2026/01/30 20:41",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2521,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n结课pre\n\n授课质量与给分：\n据老师说是全部4.0。讲的还可以，认真听应该能学到不少东西，不过我都水过去了。\n\n点评人：麦\n上课学期：25年秋",
-            "created_at": "2025/11/13 08:39",
-            "modified_at": "2025/11/13 08:39",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1505,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：上课讨论+一个小组or个人pre，和上课内容有关即可\n\n授课质量与给分：授课质量不错，给分据说不低，还是推荐感兴趣的去了解一下（偏化学/MEMS方向）\n\n点评人：T大loser\n\n上课学期：大一上",
-            "created_at": "2024/12/10 12:22",
-            "modified_at": "2024/12/10 12:22",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2973,
+      "rating": 4,
+      "comment": "考核方式：10考勤+30课上发言+60pre，课上多发言能一定程度上增加4.0概率。",
+      "created_at": "2026/02/01 19:08",
+      "score": null
+    },
+    {
+      "id": 2852,
+      "rating": 3,
+      "comment": "授课质量与给分：\n补充：并非全4.0，我拿了3.6，不过确实水了半个学期我也认了，不过pre之前说全员4.0是啥意思……\n\n上课学期：25秋",
+      "created_at": "2026/01/30 20:41",
+      "score": null
+    },
+    {
+      "id": 2521,
+      "rating": 4,
+      "comment": "考核方式：\n结课pre\n\n授课质量与给分：\n据老师说是全部4.0。讲的还可以，认真听应该能学到不少东西，不过我都水过去了。\n\n点评人：麦\n上课学期：25年秋",
+      "created_at": "2025/11/13 08:39",
+      "score": null
+    },
+    {
+      "id": 1505,
+      "rating": 4,
+      "comment": "考核方式：上课讨论+一个小组or个人pre，和上课内容有关即可\n\n授课质量与给分：授课质量不错，给分据说不低，还是推荐感兴趣的去了解一下（偏化学/MEMS方向）\n\n点评人：T大loser\n\n上课学期：大一上",
+      "created_at": "2024/12/10 12:22",
+      "score": null
+    }
+  ]
 }

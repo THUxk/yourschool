@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 245,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "王浩然老师讲课风格比较平淡，语速适中。老师人很好，对学生很负责，很通融，给分不错。",
-            "created_at": "2024/07/21 13:42",
-            "modified_at": "2024/07/21 13:42",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 245,
+      "rating": 5,
+      "comment": "王浩然老师讲课风格比较平淡，语速适中。老师人很好，对学生很负责，很通融，给分不错。",
+      "created_at": "2024/07/21 13:42",
+      "score": null
+    }
+  ]
 }

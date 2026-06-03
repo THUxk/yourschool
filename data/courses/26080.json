@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2977,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课表里有一门3学时 全周 有习题课（分排） 记签到 有期末考核 且1学分的通识课",
-            "created_at": "2026/02/02 01:09",
-            "modified_at": "2026/02/02 01:09",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2977,
+      "rating": 5,
+      "comment": "课表里有一门3学时 全周 有习题课（分排） 记签到 有期末考核 且1学分的通识课",
+      "created_at": "2026/02/02 01:09",
+      "score": null
+    }
+  ]
 }

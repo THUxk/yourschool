@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1574,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：A+\n大作业我的任务量恐怕是他人的5倍😋\n\n点评人：\n杨哲文\n\n上课学期：",
-            "created_at": "2024/12/27 22:14",
-            "modified_at": "2024/12/27 22:14",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1574,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：A+\n大作业我的任务量恐怕是他人的5倍😋\n\n点评人：\n杨哲文\n\n上课学期：",
+      "created_at": "2024/12/27 22:14",
+      "score": null
+    }
+  ]
 }

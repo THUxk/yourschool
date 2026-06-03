@@ -1,82 +1,42 @@
 {
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1934,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时作业和期末论文\n\n授课质量与给分：授课内容丰富，但是对英语听力有一定要求（不算很高），课堂很有趣，同桌交流比较多\n\n上课学期：2024秋",
-            "created_at": "2025/02/20 15:21",
-            "modified_at": "2025/02/20 15:21",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1722,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：平时作业30，期末论文50，参与分20\n\n授课质量与给分：\n给分很好，基本付出了就会有回报。讲课挺好的，就是英式英语对听力要求有点高\n平时别缺勤，参与分基本就是满的\n主要看期末的论文，只要完成期末论文的时候多刷刷脸，私下发邮件问，或者在最后两节课上主动问老师，留个好印象，然后按老师给草稿的评语修改终稿，可以拿个不错的分数\n\n点评人：青猫\n\n上课学期：2024秋",
-            "created_at": "2025/01/25 01:38",
-            "modified_at": "2025/01/25 01:38",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1034,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "Adam 人很好，会在第一节课介绍清楚他的雷点和喜好，后面的课只要别踩他的雷就行。建议多多回答问题，只要让他记得你，并且觉得你是个好学的人，你就能拿4.0。唯一缺点：英式英语不是很好懂，英语听力不好的别选，会听不懂他在讲什么（）",
-            "created_at": "2024/07/21 18:54",
-            "modified_at": "2024/07/21 18:54",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 386,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时作业、1000字左右的Final Essay\n\n授课质量与给分：\n需要独立完成符合学术写作规范的一般性学术文章，课程难度中等。老师人好。给分不错。",
-            "created_at": "2024/07/21 14:43",
-            "modified_at": "2024/07/21 14:43",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 268,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "英国老师，全英授课，给分不错，但需要课下多和老师沟通，任务量中等，主要围绕期末论文。",
-            "created_at": "2024/07/21 13:51",
-            "modified_at": "2024/07/21 13:51",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1934,
+      "rating": 5,
+      "comment": "考核方式：平时作业和期末论文\n\n授课质量与给分：授课内容丰富，但是对英语听力有一定要求（不算很高），课堂很有趣，同桌交流比较多\n\n上课学期：2024秋",
+      "created_at": "2025/02/20 15:21",
+      "score": "4.0"
+    },
+    {
+      "id": 1722,
+      "rating": 4,
+      "comment": "考核方式：平时作业30，期末论文50，参与分20\n\n授课质量与给分：\n给分很好，基本付出了就会有回报。讲课挺好的，就是英式英语对听力要求有点高\n平时别缺勤，参与分基本就是满的\n主要看期末的论文，只要完成期末论文的时候多刷刷脸，私下发邮件问，或者在最后两节课上主动问老师，留个好印象，然后按老师给草稿的评语修改终稿，可以拿个不错的分数\n\n点评人：青猫\n\n上课学期：2024秋",
+      "created_at": "2025/01/25 01:38",
+      "score": "4.0"
+    },
+    {
+      "id": 1034,
+      "rating": 5,
+      "comment": "Adam 人很好，会在第一节课介绍清楚他的雷点和喜好，后面的课只要别踩他的雷就行。建议多多回答问题，只要让他记得你，并且觉得你是个好学的人，你就能拿4.0。唯一缺点：英式英语不是很好懂，英语听力不好的别选，会听不懂他在讲什么（）",
+      "created_at": "2024/07/21 18:54",
+      "score": null
+    },
+    {
+      "id": 386,
+      "rating": 5,
+      "comment": "考核方式：平时作业、1000字左右的Final Essay\n\n授课质量与给分：\n需要独立完成符合学术写作规范的一般性学术文章，课程难度中等。老师人好。给分不错。",
+      "created_at": "2024/07/21 14:43",
+      "score": null
+    },
+    {
+      "id": 268,
+      "rating": 4,
+      "comment": "英国老师，全英授课，给分不错，但需要课下多和老师沟通，任务量中等，主要围绕期末论文。",
+      "created_at": "2024/07/21 13:51",
+      "score": null
+    }
+  ]
 }

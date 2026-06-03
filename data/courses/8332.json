@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 145,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "老师讲课声音较小，会引用其他哲学内容，拓展了不少东西；期末可以选题做，中间有加分项目（辩论，pre），没有大作业，非常轻松，需要完成慕课的相关作业（不需要最后线上考试）；给分正常。",
-            "created_at": "2024/07/21 13:05",
-            "modified_at": "2024/07/21 13:05",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 145,
+      "rating": 4,
+      "comment": "老师讲课声音较小，会引用其他哲学内容，拓展了不少东西；期末可以选题做，中间有加分项目（辩论，pre），没有大作业，非常轻松，需要完成慕课的相关作业（不需要最后线上考试）；给分正常。",
+      "created_at": "2024/07/21 13:05",
+      "score": null
+    }
+  ]
 }

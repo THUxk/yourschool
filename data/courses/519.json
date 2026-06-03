@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 494,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师人很nice！上课节奏比较快，考试是正手对攻40板+班级内比赛，不是很推荐没有基础的同学选。有基础容易拿高分，零基础有点吃亏，因为专项分有一部分是根据比赛的成绩排名来给的。",
-            "created_at": "2024/07/21 15:56",
-            "modified_at": "2024/07/21 15:56",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 494,
+      "rating": 5,
+      "comment": "老师人很nice！上课节奏比较快，考试是正手对攻40板+班级内比赛，不是很推荐没有基础的同学选。有基础容易拿高分，零基础有点吃亏，因为专项分有一部分是根据比赛的成绩排名来给的。",
+      "created_at": "2024/07/21 15:56",
+      "score": null
+    }
+  ]
 }

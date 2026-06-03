@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1419,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期末考试加实验加作业，占比忘了\n\n授课质量与给分：授课质量没得说，最适合机械系宝宝体质的控制课，主要是涉及底层知识比较适当。给分因为还没考试所以不知道。\n\n点评人：和《数字电子技术基础B》同一个\n\n上课学期：大三上",
-            "created_at": "2024/12/06 21:13",
-            "modified_at": "2024/12/06 21:13",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1419,
+      "rating": 5,
+      "comment": "考核方式：期末考试加实验加作业，占比忘了\n\n授课质量与给分：授课质量没得说，最适合机械系宝宝体质的控制课，主要是涉及底层知识比较适当。给分因为还没考试所以不知道。\n\n点评人：和《数字电子技术基础B》同一个\n\n上课学期：大三上",
+      "created_at": "2024/12/06 21:13",
+      "score": null
+    }
+  ]
 }

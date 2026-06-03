@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 565,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程内容有趣且丰富，不仅有老师授课、还有企业参访、嘉宾讲座等。课程最大特色是课赛结合，最后的小组project还会拿去参加比赛。这门课任务量比较大，但是能学到东西，还是很推荐的",
-            "created_at": "2024/07/21 16:32",
-            "modified_at": "2024/07/21 16:32",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 565,
+      "rating": 5,
+      "comment": "课程内容有趣且丰富，不仅有老师授课、还有企业参访、嘉宾讲座等。课程最大特色是课赛结合，最后的小组project还会拿去参加比赛。这门课任务量比较大，但是能学到东西，还是很推荐的",
+      "created_at": "2024/07/21 16:32",
+      "score": null
+    }
+  ]
 }

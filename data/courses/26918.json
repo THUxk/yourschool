@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 196,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "上课内容侧重于书中较难理解的部分，可能需要自学一些内容，考试形式全部为选择题，成绩完全由考试分数决定，基本不会调分。",
-            "created_at": "2024/07/21 13:27",
-            "modified_at": "2024/07/21 13:27",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 196,
+      "rating": 4,
+      "comment": "上课内容侧重于书中较难理解的部分，可能需要自学一些内容，考试形式全部为选择题，成绩完全由考试分数决定，基本不会调分。",
+      "created_at": "2024/07/21 13:27",
+      "score": null
+    }
+  ]
 }

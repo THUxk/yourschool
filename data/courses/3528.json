@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1220,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "绝绝子，上课=蚂蚁搬家",
-            "created_at": "2024/07/25 00:41",
-            "modified_at": "2024/07/25 00:41",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1220,
+      "rating": 1,
+      "comment": "绝绝子，上课=蚂蚁搬家",
+      "created_at": "2024/07/25 00:41",
+      "score": null
+    }
+  ]
 }

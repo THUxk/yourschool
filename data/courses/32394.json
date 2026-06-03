@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1041,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师非常好！选课人数适中，主要是日新的同学，不点名，但会有pre最后一个考试。",
-            "created_at": "2024/07/21 18:56",
-            "modified_at": "2024/07/21 18:56",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1041,
+      "rating": 5,
+      "comment": "老师非常好！选课人数适中，主要是日新的同学，不点名，但会有pre最后一个考试。",
+      "created_at": "2024/07/21 18:56",
+      "score": null
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 281,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "李震老师的工热课上起来感觉中规中矩，上课时基本上是对着ppt讲比较实在的知识。不过在课堂中也会和同学聊天，比如问问同学：“你说说你对我上课有什么意见”。他还会经常讲一些其他事情，比如他上学时候老师的趣事和一些工程热力学相关的研究与工程进展。总之，李震老师的课感觉不错。",
-            "created_at": "2024/07/21 13:58",
-            "modified_at": "2024/07/21 13:58",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 281,
+      "rating": 4,
+      "comment": "李震老师的工热课上起来感觉中规中矩，上课时基本上是对着ppt讲比较实在的知识。不过在课堂中也会和同学聊天，比如问问同学：“你说说你对我上课有什么意见”。他还会经常讲一些其他事情，比如他上学时候老师的趣事和一些工程热力学相关的研究与工程进展。总之，李震老师的课感觉不错。",
+      "created_at": "2024/07/21 13:58",
+      "score": null
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2737,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期末随堂（easy 作业同等难度）\n\n授课质量与给分：ppt内容出自nielsen的教材第1，2，4，5章。有线性代数和量子基础的会比较舒服（最开始也会奖这些）\n\n点评人：\n\n上课学期：2025秋",
-            "created_at": "2026/01/21 21:35",
-            "modified_at": "2026/01/21 21:35",
-            "score": "4.0",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2737,
+      "rating": 5,
+      "comment": "考核方式：期末随堂（easy 作业同等难度）\n\n授课质量与给分：ppt内容出自nielsen的教材第1，2，4，5章。有线性代数和量子基础的会比较舒服（最开始也会奖这些）\n\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/01/21 21:35",
+      "score": "4.0"
+    }
+  ]
 }

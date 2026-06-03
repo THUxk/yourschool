@@ -1,142 +1,70 @@
 {
-    "count": 9,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3342,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：pre，考试\n\n授课质量与给分：伟大，无需多言\n\n点评人：\n\n上课学期：25-26秋",
-            "created_at": "2026/05/25 15:10",
-            "modified_at": "2026/05/25 15:10",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 3341,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "神中神的老师，很和蔼，上课也不怎么讲东西，讲讲故事，英语平和易懂，很会鼓励学生，我一直认真学习和隔壁天天打王者的哥们都4.0，但是这个老师退休了，所以我一定要告诉你们然后难受下一届",
-            "created_at": "2026/05/25 13:34",
-            "modified_at": "2026/05/25 13:34",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 3111,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：pre，小作文，期中期末考试\n\n授课质量与给分：上课轻松，作业少，给分非常好\n\n点评人：\n\n上课学期：25-26秋",
-            "created_at": "2026/02/26 22:43",
-            "modified_at": "2026/02/26 22:43",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 3089,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n授课质量与给分：4\n人挺好的，但给分一般，我们系无人高分，可能看小组表现吧\n\n点评人：\n\n上课学期：25秋",
-            "created_at": "2026/02/25 19:22",
-            "modified_at": "2026/02/25 19:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2965,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：不重要了，老师已经退休了，感谢4.0\n\n点评人：\n\n上课学期：大一上",
-            "created_at": "2026/02/01 00:20",
-            "modified_at": "2026/02/01 00:20",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2807,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时雨课堂小测若干、期中、期末（疑似赛博开卷）\n授课质量与给分：平时会有许多弹性任务，给分好\n老师爱讲故事，人很好",
-            "created_at": "2026/01/30 18:59",
-            "modified_at": "2026/01/30 18:59",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1826,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：给分好，会捞，任务量中等\n\n点评人：\n\n上课学期：大一",
-            "created_at": "2025/01/27 12:08",
-            "modified_at": "2025/01/27 12:08",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 892,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "没有期中考试，课程中间会有一次pre。有时会有小测（选词填空之类），2023秋没有论文，但有两篇300words的小作文，一篇是AI，一篇是my dream in tsinghua。会要求词汇过关，期末开卷，可以带电子设备，可以查词，不怕你用gpt（因为gpt写的分可能还没自己写的高），上课应该有40%中文，会讲她以前的故事，据她所说不为难我们，人均4.0",
-            "created_at": "2024/07/21 18:14",
-            "modified_at": "2024/07/21 18:14",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 228,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "小组作业且不能自选分组和组长，有一定踩雷风险。",
-            "created_at": "2024/07/21 13:37",
-            "modified_at": "2024/07/21 13:37",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 9,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3342,
+      "rating": 5,
+      "comment": "考核方式：pre，考试\n\n授课质量与给分：伟大，无需多言\n\n点评人：\n\n上课学期：25-26秋",
+      "created_at": "2026/05/25 15:10",
+      "score": "A"
+    },
+    {
+      "id": 3341,
+      "rating": 5,
+      "comment": "神中神的老师，很和蔼，上课也不怎么讲东西，讲讲故事，英语平和易懂，很会鼓励学生，我一直认真学习和隔壁天天打王者的哥们都4.0，但是这个老师退休了，所以我一定要告诉你们然后难受下一届",
+      "created_at": "2026/05/25 13:34",
+      "score": "4.0"
+    },
+    {
+      "id": 3111,
+      "rating": 5,
+      "comment": "考核方式：pre，小作文，期中期末考试\n\n授课质量与给分：上课轻松，作业少，给分非常好\n\n点评人：\n\n上课学期：25-26秋",
+      "created_at": "2026/02/26 22:43",
+      "score": "4.0"
+    },
+    {
+      "id": 3089,
+      "rating": 4,
+      "comment": "考核方式：\n授课质量与给分：4\n人挺好的，但给分一般，我们系无人高分，可能看小组表现吧\n\n点评人：\n\n上课学期：25秋",
+      "created_at": "2026/02/25 19:22",
+      "score": null
+    },
+    {
+      "id": 2965,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：不重要了，老师已经退休了，感谢4.0\n\n点评人：\n\n上课学期：大一上",
+      "created_at": "2026/02/01 00:20",
+      "score": "A"
+    },
+    {
+      "id": 2807,
+      "rating": 5,
+      "comment": "考核方式：平时雨课堂小测若干、期中、期末（疑似赛博开卷）\n授课质量与给分：平时会有许多弹性任务，给分好\n老师爱讲故事，人很好",
+      "created_at": "2026/01/30 18:59",
+      "score": "A"
+    },
+    {
+      "id": 1826,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：给分好，会捞，任务量中等\n\n点评人：\n\n上课学期：大一",
+      "created_at": "2025/01/27 12:08",
+      "score": null
+    },
+    {
+      "id": 892,
+      "rating": 5,
+      "comment": "没有期中考试，课程中间会有一次pre。有时会有小测（选词填空之类），2023秋没有论文，但有两篇300words的小作文，一篇是AI，一篇是my dream in tsinghua。会要求词汇过关，期末开卷，可以带电子设备，可以查词，不怕你用gpt（因为gpt写的分可能还没自己写的高），上课应该有40%中文，会讲她以前的故事，据她所说不为难我们，人均4.0",
+      "created_at": "2024/07/21 18:14",
+      "score": null
+    },
+    {
+      "id": 228,
+      "rating": 3,
+      "comment": "小组作业且不能自选分组和组长，有一定踩雷风险。",
+      "created_at": "2024/07/21 13:37",
+      "score": null
+    }
+  ]
 }

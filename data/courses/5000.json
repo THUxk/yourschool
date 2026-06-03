@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1335,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期末闭卷考试，试题灵活度较高，需要对所学知识有较为深刻的把握。\n\n授课质量：非常高，但个人风格较强。若喜欢四平八稳的风格，或许会失望。\n\n给分：很好。\n\n上课学期：2023-2024春",
-            "created_at": "2024/11/07 15:29",
-            "modified_at": "2024/11/07 15:29",
-            "score": "A+",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1335,
+      "rating": 5,
+      "comment": "考核方式：期末闭卷考试，试题灵活度较高，需要对所学知识有较为深刻的把握。\n\n授课质量：非常高，但个人风格较强。若喜欢四平八稳的风格，或许会失望。\n\n给分：很好。\n\n上课学期：2023-2024春",
+      "created_at": "2024/11/07 15:29",
+      "score": "A+"
+    }
+  ]
 }

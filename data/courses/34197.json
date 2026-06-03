@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2707,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中期末考试。\n\n授课质量与给分：上课质量极高，老师有激情，有准备。是真的能教会你。老师的考试难度不大，不在于计算，而在于基础概念的理解，和上课课堂内容联系紧密。\n\n点评人：\n\n上课学期：2025秋",
-            "created_at": "2026/01/10 21:20",
-            "modified_at": "2026/01/10 21:20",
-            "score": "4.0（应该是）",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2707,
+      "rating": 5,
+      "comment": "考核方式：期中期末考试。\n\n授课质量与给分：上课质量极高，老师有激情，有准备。是真的能教会你。老师的考试难度不大，不在于计算，而在于基础概念的理解，和上课课堂内容联系紧密。\n\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/01/10 21:20",
+      "score": "4.0（应该是）"
+    }
+  ]
 }

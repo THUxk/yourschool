@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1787,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：作业，期末\n\n授课质量与给分：讲课真的很烂，会调分，给分正常\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/25 21:58",
-            "modified_at": "2025/01/25 21:58",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1785,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "只求不挂科可以选，因为真的会捞（当然期末考个十几二十分还是有难度）\n想要4.0的话建议选另一位，松神讲得有点难而且A率比较低",
-            "created_at": "2025/01/25 21:53",
-            "modified_at": "2025/01/25 21:53",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1013,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "老师上课速度非常快，而且作业没有答案，建议课前要预习",
-            "created_at": "2024/07/21 18:47",
-            "modified_at": "2024/07/21 18:47",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1787,
+      "rating": 3,
+      "comment": "考核方式：作业，期末\n\n授课质量与给分：讲课真的很烂，会调分，给分正常\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/25 21:58",
+      "score": null
+    },
+    {
+      "id": 1785,
+      "rating": 3,
+      "comment": "只求不挂科可以选，因为真的会捞（当然期末考个十几二十分还是有难度）\n想要4.0的话建议选另一位，松神讲得有点难而且A率比较低",
+      "created_at": "2025/01/25 21:53",
+      "score": null
+    },
+    {
+      "id": 1013,
+      "rating": 3,
+      "comment": "老师上课速度非常快，而且作业没有答案，建议课前要预习",
+      "created_at": "2024/07/21 18:47",
+      "score": null
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1033,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "每节课的主要内容就是讲解文章，一节课一篇。讲的很有耐心，人也超好（就是形象有点油腻）主要考核方式是两篇英语文章，期中期末各一篇。会有一两次小测和期末考试，不过都比较水",
-            "created_at": "2024/07/21 18:53",
-            "modified_at": "2024/07/21 18:53",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1033,
+      "rating": 5,
+      "comment": "每节课的主要内容就是讲解文章，一节课一篇。讲的很有耐心，人也超好（就是形象有点油腻）主要考核方式是两篇英语文章，期中期末各一篇。会有一两次小测和期末考试，不过都比较水",
+      "created_at": "2024/07/21 18:53",
+      "score": null
+    }
+  ]
 }

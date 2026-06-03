@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1790,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n一周两次作业+两个实验报告+期中期末考试\n授课质量与给分：\n讲课老师实际是张明，讲的比较简单，考试题也简单，大部分出自讲义和参考书\n点评人：\n上课学期：2024秋",
-            "created_at": "2025/01/25 22:13",
-            "modified_at": "2025/01/25 22:13",
-            "score": "A+",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1790,
+      "rating": 5,
+      "comment": "考核方式：\n一周两次作业+两个实验报告+期中期末考试\n授课质量与给分：\n讲课老师实际是张明，讲的比较简单，考试题也简单，大部分出自讲义和参考书\n点评人：\n上课学期：2024秋",
+      "created_at": "2025/01/25 22:13",
+      "score": "A+"
+    }
+  ]
 }

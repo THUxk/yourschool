@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2176,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：作业25%期中25%期末50%\n\n授课质量与给分：这老师真牛逼，说简单就真简单，说重点就真考，平时上课别看ppt多，重点关注全都标注出来了，考试是真的easy，期中期末都一堆人提前半小时以上交卷\n而且把机理讲的很清晰，对同学的问题回答的很细致，只要你问他就会答（当然光听不问就会有讲太快之嫌）。宝藏老师\n\n点评人：四字班\n\n上课学期：24-25春",
-            "created_at": "2025/06/08 12:11",
-            "modified_at": "2025/06/08 12:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2143,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中期末平时作业\n\n授课质量与给分：老师讲的很好很清晰，人也好，不断强调重点。作业是书上课后题，考试题很简单，力推。\n\n上课学期：2025春",
-            "created_at": "2025/05/23 10:45",
-            "modified_at": "2025/05/23 10:45",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2176,
+      "rating": 5,
+      "comment": "考核方式：作业25%期中25%期末50%\n\n授课质量与给分：这老师真牛逼，说简单就真简单，说重点就真考，平时上课别看ppt多，重点关注全都标注出来了，考试是真的easy，期中期末都一堆人提前半小时以上交卷\n而且把机理讲的很清晰，对同学的问题回答的很细致，只要你问他就会答（当然光听不问就会有讲太快之嫌）。宝藏老师\n\n点评人：四字班\n\n上课学期：24-25春",
+      "created_at": "2025/06/08 12:11",
+      "score": null
+    },
+    {
+      "id": 2143,
+      "rating": 5,
+      "comment": "考核方式：期中期末平时作业\n\n授课质量与给分：老师讲的很好很清晰，人也好，不断强调重点。作业是书上课后题，考试题很简单，力推。\n\n上课学期：2025春",
+      "created_at": "2025/05/23 10:45",
+      "score": null
+    }
+  ]
 }

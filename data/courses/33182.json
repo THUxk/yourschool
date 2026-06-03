@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2016,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "授课质量与给分：老师上课很有趣，讲解通俗易懂，知识点讲的非常清楚。上课纯享受，两节课的时间很快就过去了，一点都不无聊\n老师还是推理社的指导教师，上课还有私货环节哈哈\n上课学期：2025春",
-            "created_at": "2025/04/28 16:11",
-            "modified_at": "2025/04/28 16:11",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2016,
+      "rating": 5,
+      "comment": "授课质量与给分：老师上课很有趣，讲解通俗易懂，知识点讲的非常清楚。上课纯享受，两节课的时间很快就过去了，一点都不无聊\n老师还是推理社的指导教师，上课还有私货环节哈哈\n上课学期：2025春",
+      "created_at": "2025/04/28 16:11",
+      "score": null
+    }
+  ]
 }

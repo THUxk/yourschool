@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2983,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：主要是结课的pre\n\n授课质量与给分：\n上课的动手环节比较多，会发传感器+模型，还有代码实操环节。但是助教的讲解很详细，零基础也能上手。总之来说还是很好玩的，能够开阔眼界。\n\n\n点评人：\n\n上课学期：25秋",
-            "created_at": "2026/02/02 11:38",
-            "modified_at": "2026/02/02 11:38",
-            "score": "4.0",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2983,
+      "rating": 5,
+      "comment": "考核方式：主要是结课的pre\n\n授课质量与给分：\n上课的动手环节比较多，会发传感器+模型，还有代码实操环节。但是助教的讲解很详细，零基础也能上手。总之来说还是很好玩的，能够开阔眼界。\n\n\n点评人：\n\n上课学期：25秋",
+      "created_at": "2026/02/02 11:38",
+      "score": "4.0"
+    }
+  ]
 }

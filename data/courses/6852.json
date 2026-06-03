@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1381,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n作业+期中+期末\n授课质量与给分：\n质量非常高，讲的很好，课堂非常有意思而且给分也不错，考试和给分会根据大家的水平来调整，也会结合很多物理和拓扑方面的内容",
-            "created_at": "2024/12/06 10:29",
-            "modified_at": "2024/12/06 10:29",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1381,
+      "rating": 5,
+      "comment": "考核方式：\n作业+期中+期末\n授课质量与给分：\n质量非常高，讲的很好，课堂非常有意思而且给分也不错，考试和给分会根据大家的水平来调整，也会结合很多物理和拓扑方面的内容",
+      "created_at": "2024/12/06 10:29",
+      "score": "A"
+    }
+  ]
 }

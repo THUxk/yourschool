@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3040,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期末pre\n\n授课质量与给分：批发好成绩的水课！适合养老和摸鱼。平时没有任何作业，期末是pre或者考试，这学期是每个人20分钟左右pre，内容与课程相关即可。老师会教如何检索相关论文，还会教一些跟课程无关的小知识。唯一的缺点是在周六上。\n\n总结：课水、任务量小、给分好。\n\n点评人：Shaber\n\n上课学期：2025-2026秋",
-            "created_at": "2026/02/15 16:09",
-            "modified_at": "2026/02/15 16:09",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3040,
+      "rating": 5,
+      "comment": "考核方式：期末pre\n\n授课质量与给分：批发好成绩的水课！适合养老和摸鱼。平时没有任何作业，期末是pre或者考试，这学期是每个人20分钟左右pre，内容与课程相关即可。老师会教如何检索相关论文，还会教一些跟课程无关的小知识。唯一的缺点是在周六上。\n\n总结：课水、任务量小、给分好。\n\n点评人：Shaber\n\n上课学期：2025-2026秋",
+      "created_at": "2026/02/15 16:09",
+      "score": "A"
+    }
+  ]
 }

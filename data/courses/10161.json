@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1263,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "温柔妈妈，你和她说你觉得没画好会鼓励你，分太好了，好得让人愧疚。\n不喜欢你画很黑的背景，一款与考前可以无缝衔接的点评系统。",
-            "created_at": "2024/07/30 16:44",
-            "modified_at": "2024/07/30 16:44",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1263,
+      "rating": 5,
+      "comment": "温柔妈妈，你和她说你觉得没画好会鼓励你，分太好了，好得让人愧疚。\n不喜欢你画很黑的背景，一款与考前可以无缝衔接的点评系统。",
+      "created_at": "2024/07/30 16:44",
+      "score": null
+    }
+  ]
 }

@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1690,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：感觉给分好。牟老师很好，我个人觉得课程内容（机械制图）很有趣，尽量也有很多人认为学习这种上百年前的技术没什么用。\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/24 22:24",
-            "modified_at": "2025/01/24 22:24",
-            "score": "",
-            "moderator_remark": null
-        },
-        {
-            "id": 588,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程设置有趣，趣味任务多。老师耐心解答问题",
-            "created_at": "2024/07/21 16:39",
-            "modified_at": "2024/07/21 16:39",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1690,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：感觉给分好。牟老师很好，我个人觉得课程内容（机械制图）很有趣，尽量也有很多人认为学习这种上百年前的技术没什么用。\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/24 22:24",
+      "score": ""
+    },
+    {
+      "id": 588,
+      "rating": 5,
+      "comment": "课程设置有趣，趣味任务多。老师耐心解答问题",
+      "created_at": "2024/07/21 16:39",
+      "score": null
+    }
+  ]
 }

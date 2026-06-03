@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2509,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师讲的还行，就是有点慢。老师有点奇葩，我保研面试的时候就这个老师在里面，居然睡着了。有一次上课老师孩子生病没来，也不通知我们，我们白去一趟。",
-            "created_at": "2025/10/28 15:46",
-            "modified_at": "2025/10/28 15:46",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2509,
+      "rating": 5,
+      "comment": "老师讲的还行，就是有点慢。老师有点奇葩，我保研面试的时候就这个老师在里面，居然睡着了。有一次上课老师孩子生病没来，也不通知我们，我们白去一趟。",
+      "created_at": "2025/10/28 15:46",
+      "score": null
+    }
+  ]
 }

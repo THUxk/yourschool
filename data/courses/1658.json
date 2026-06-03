@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1243,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "有无期中由投票决定，作业不多，期末不难，会给公式可以直接套用",
-            "created_at": "2024/07/26 11:54",
-            "modified_at": "2024/07/26 11:54",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 160,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "陈晨老师的大化B大家的评价多为适中，有一个同学说老师人很好期末有讲过的原题。",
-            "created_at": "2024/07/21 13:11",
-            "modified_at": "2024/07/21 13:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 54,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程难度一般，任务量较少，考试难度一般，课堂趣味性高，总体给分情况好。考试与作业占比接近对半开。老师人很nice，作业量很少。课上全是干货，会补充一些相对前沿的知识，需要认真听课，不能放松警惕。作业必须在每周上课当天交，超过下午六点则当此作业记零分。有随堂测试当签到使用，期中为半开卷，允许带一张A4纸，期末闭卷，都要写对课程的建议和意见，占分不低。",
-            "created_at": "2024/07/21 11:09",
-            "modified_at": "2024/07/21 11:09",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1243,
+      "rating": 5,
+      "comment": "有无期中由投票决定，作业不多，期末不难，会给公式可以直接套用",
+      "created_at": "2024/07/26 11:54",
+      "score": null
+    },
+    {
+      "id": 160,
+      "rating": 4,
+      "comment": "陈晨老师的大化B大家的评价多为适中，有一个同学说老师人很好期末有讲过的原题。",
+      "created_at": "2024/07/21 13:11",
+      "score": null
+    },
+    {
+      "id": 54,
+      "rating": 5,
+      "comment": "课程难度一般，任务量较少，考试难度一般，课堂趣味性高，总体给分情况好。考试与作业占比接近对半开。老师人很nice，作业量很少。课上全是干货，会补充一些相对前沿的知识，需要认真听课，不能放松警惕。作业必须在每周上课当天交，超过下午六点则当此作业记零分。有随堂测试当签到使用，期中为半开卷，允许带一张A4纸，期末闭卷，都要写对课程的建议和意见，占分不低。",
+      "created_at": "2024/07/21 11:09",
+      "score": null
+    }
+  ]
 }

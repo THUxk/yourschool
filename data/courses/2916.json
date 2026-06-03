@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 579,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "ppt做的很好，讲的很通俗，都能听懂。但是通俗易懂，就意味着没讲深的…",
-            "created_at": "2024/07/21 16:36",
-            "modified_at": "2024/07/21 16:36",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 66,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "王老师课程管理相对自由，对于学生的学习给予很大的自主安排空间，课堂讨论氛围热烈。",
-            "created_at": "2024/07/21 12:00",
-            "modified_at": "2024/07/21 12:00",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 579,
+      "rating": 4,
+      "comment": "ppt做的很好，讲的很通俗，都能听懂。但是通俗易懂，就意味着没讲深的…",
+      "created_at": "2024/07/21 16:36",
+      "score": null
+    },
+    {
+      "id": 66,
+      "rating": 4,
+      "comment": "王老师课程管理相对自由，对于学生的学习给予很大的自主安排空间，课堂讨论氛围热烈。",
+      "created_at": "2024/07/21 12:00",
+      "score": null
+    }
+  ]
 }

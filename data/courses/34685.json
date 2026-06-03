@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3103,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n小组共同完成采访任务并分享；提交一篇读书报告\n授课质量与给分：\n会让你得到很多政策背后的故事和一些直接的建议，也有自由畅谈阶段和院长交流任何问题，强烈安利\n点评人：\n\n上课学期：2025秋",
-            "created_at": "2026/02/26 11:01",
-            "modified_at": "2026/02/26 11:01",
-            "score": "P",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3103,
+      "rating": 5,
+      "comment": "考核方式：\n小组共同完成采访任务并分享；提交一篇读书报告\n授课质量与给分：\n会让你得到很多政策背后的故事和一些直接的建议，也有自由畅谈阶段和院长交流任何问题，强烈安利\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/02/26 11:01",
+      "score": "P"
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2686,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：考试\n\n授课质量与给分：1\n\n点评人：convergence\n\n上课学期：秋季\n讲的很烂，三个老师各讲各的，考试也是梦到哪出到哪，完全没有任何规律。把学生当狗使。",
-            "created_at": "2026/01/04 21:32",
-            "modified_at": "2026/01/04 21:32",
-            "score": "A+",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2686,
+      "rating": 1,
+      "comment": "考核方式：考试\n\n授课质量与给分：1\n\n点评人：convergence\n\n上课学期：秋季\n讲的很烂，三个老师各讲各的，考试也是梦到哪出到哪，完全没有任何规律。把学生当狗使。",
+      "created_at": "2026/01/04 21:32",
+      "score": "A+"
+    }
+  ]
 }

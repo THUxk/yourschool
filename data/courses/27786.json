@@ -1,382 +1,182 @@
 {
-    "count": 25,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3399,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：神秘听力小文本和配音演话剧，课后朗读神秘文本\n\n授课质量与给分：神，无需多言\n\n点评人：ano2\n\n上课学期：2025-2026春",
-            "created_at": "2026/05/30 18:00",
-            "modified_at": "2026/05/30 18:00",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2921,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：\n我来证明3.6的存在性，洪老师人很好，但别摆😭😭😭\n点评人：\nnone\n上课学期：25秋",
-            "created_at": "2026/01/30 23:47",
-            "modified_at": "2026/01/30 23:47",
-            "score": "3.6",
-            "moderator_remark": null
-        },
-        {
-            "id": 2671,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n开学演讲，期中配音，期末表演，平时每周朗读一篇文章\n授课质量与给分：\n豪\n点评人：\n果冻映画演员\n上课学期：2025秋\n神中神中神，课程和平时作业轻松，考核形式新颖，而且小组一起排练表演真的很有意思，能够交到几个不错的朋友（这在其他课真的很难的啊）。目前不知道我的给分如何，估计也不会怎么差（但是说白了就算给零分我也依然认为洪娜老师的课是唯一真神）。总之无脑选就完事了，唯一需要考虑的是选不选的上",
-            "created_at": "2025/12/25 21:37",
-            "modified_at": "2025/12/25 21:37",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2590,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "无需多言",
-            "created_at": "2025/12/12 15:39",
-            "modified_at": "2025/12/12 15:39",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2482,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中配音＋期末话剧\n\n授课质量与给分：无脑选就行了\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/09/19 08:57",
-            "modified_at": "2025/09/19 08:57",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2415,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：神中神！无须多言！\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/07/06 21:56",
-            "modified_at": "2025/07/06 21:56",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2330,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：同上\n\n授课质量与给分：唯一真神，本人基础在班里中等略偏上，各项任务正常完成，期中期末我们组都没卷（时长刚刚过线），最后竟然A+，伟大无需多言\n\n上课学期：2025春",
-            "created_at": "2025/06/28 13:09",
-            "modified_at": "2025/06/28 13:09",
-            "score": "A+",
-            "moderator_remark": null
-        },
-        {
-            "id": 2262,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：英语演讲，期中配音，期末表演，听力考试\n\n授课质量与给分：神中神\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/06/27 19:07",
-            "modified_at": "2025/06/27 19:07",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2255,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：演讲+小组配音+听力小测一次+平时口语听力作业+小组表演。以上任务不摆即可拿A(本人亲测)。至今没见过差评\n\n授课质量与给分：5\n\n点评人：匿名\n\n上课学期：2025春",
-            "created_at": "2025/06/27 18:37",
-            "modified_at": "2025/06/27 18:37",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2241,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：伟大，无需多言。期中英语配音，期末英文戏剧。\n\n点评人：\n\n上课学期：25春",
-            "created_at": "2025/06/27 18:05",
-            "modified_at": "2025/06/27 18:05",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2239,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：伟大无需多言\n\n点评：匿名\n\n上课学期：",
-            "created_at": "2025/06/27 18:00",
-            "modified_at": "2025/06/27 18:00",
-            "score": "A+",
-            "moderator_remark": null
-        },
-        {
-            "id": 2163,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：听力作业（基本不查）＋口语作业＋听力quiz（10%）＋期中小组配音＋期末小组表演\n\n授课质量与给分：上课内容实用丰富，给分也好，无脑冲就行\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/06/04 23:56",
-            "modified_at": "2025/06/04 23:56",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1922,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：个人讲演，小组配音，小组演剧，平时作业每周录音3min\n\n授课质量与给分：\n4.0点击即送，别翘课就行\n点评人：\n\n上课学期：",
-            "created_at": "2025/02/19 22:38",
-            "modified_at": "2025/02/19 22:38",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1919,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "好像真没见到拿4.0以下的",
-            "created_at": "2025/02/19 15:37",
-            "modified_at": "2025/02/19 15:37",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1815,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：非常好，批发4.0，别太水，有一点准备就行\n\n点评人：曾辉辉\n\n上课学期：大一上",
-            "created_at": "2025/01/26 12:34",
-            "modified_at": "2025/01/26 12:34",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1812,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：小组配音，小型演讲，期末小组演一个剧本\n\n授课质量与给分：任务量不大，水一学期也能4.0\n\n点评人：曾会会\n\n上课学期：2024秋",
-            "created_at": "2025/01/26 12:28",
-            "modified_at": "2025/01/26 12:28",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1811,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "选上就是4.0",
-            "created_at": "2025/01/26 10:49",
-            "modified_at": "2025/01/26 10:49",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1639,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：演讲，配音，话剧\n\n授课质量与给分：很好\n\n点评人：\n\n上课学期：2024年秋季学期\n \n给分超级好",
-            "created_at": "2025/01/24 18:11",
-            "modified_at": "2025/01/24 18:11",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 922,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "上课就是听力，会有一次演讲，一次期中考配音和一次期末考角色扮演，只要几次重点考试认真给分就超级好",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 921,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师温柔，任务量不大，考核方式是配音和英语剧，很欢快",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 920,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "洪娜老师上课主要是听新闻和BBC，也会有需要搭档进行口语练习的时候，成绩主要是平时作业，课堂表现，比较重要的是学期前的一次演讲，期中配音和期末role play，课堂氛围超好",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 919,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课平平无奇，但老师给分超超超好，只要不摆甚至都不会是a-，直接a",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 918,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师超级温柔，给分超高，课上有提问不过不会也没关系，老师也不会责怪，一般有一个演讲，期中配音，期末话剧，老师人真的超级好，就算完成的很一般老师也会努力的找优点夸你",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 917,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师人很好，会超认真的听大家的口语作业并给反馈！！任务量不大，第四周一个一两分钟小演讲，期中配音期末role play都是小组作业，给分也非常好！",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 916,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "期中是配音，期末是小组一起演英语剧，任务量很少，老师很好，强推",
-            "created_at": "2024/07/21 18:21",
-            "modified_at": "2024/07/21 18:21",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 25,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3399,
+      "rating": 5,
+      "comment": "考核方式：神秘听力小文本和配音演话剧，课后朗读神秘文本\n\n授课质量与给分：神，无需多言\n\n点评人：ano2\n\n上课学期：2025-2026春",
+      "created_at": "2026/05/30 18:00",
+      "score": null
+    },
+    {
+      "id": 2921,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：\n我来证明3.6的存在性，洪老师人很好，但别摆😭😭😭\n点评人：\nnone\n上课学期：25秋",
+      "created_at": "2026/01/30 23:47",
+      "score": "3.6"
+    },
+    {
+      "id": 2671,
+      "rating": 5,
+      "comment": "考核方式：\n开学演讲，期中配音，期末表演，平时每周朗读一篇文章\n授课质量与给分：\n豪\n点评人：\n果冻映画演员\n上课学期：2025秋\n神中神中神，课程和平时作业轻松，考核形式新颖，而且小组一起排练表演真的很有意思，能够交到几个不错的朋友（这在其他课真的很难的啊）。目前不知道我的给分如何，估计也不会怎么差（但是说白了就算给零分我也依然认为洪娜老师的课是唯一真神）。总之无脑选就完事了，唯一需要考虑的是选不选的上",
+      "created_at": "2025/12/25 21:37",
+      "score": null
+    },
+    {
+      "id": 2590,
+      "rating": 5,
+      "comment": "无需多言",
+      "created_at": "2025/12/12 15:39",
+      "score": "A"
+    },
+    {
+      "id": 2482,
+      "rating": 5,
+      "comment": "考核方式：期中配音＋期末话剧\n\n授课质量与给分：无脑选就行了\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/09/19 08:57",
+      "score": "4.0"
+    },
+    {
+      "id": 2415,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：神中神！无须多言！\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/07/06 21:56",
+      "score": "A"
+    },
+    {
+      "id": 2330,
+      "rating": 5,
+      "comment": "考核方式：同上\n\n授课质量与给分：唯一真神，本人基础在班里中等略偏上，各项任务正常完成，期中期末我们组都没卷（时长刚刚过线），最后竟然A+，伟大无需多言\n\n上课学期：2025春",
+      "created_at": "2025/06/28 13:09",
+      "score": "A+"
+    },
+    {
+      "id": 2262,
+      "rating": 5,
+      "comment": "考核方式：英语演讲，期中配音，期末表演，听力考试\n\n授课质量与给分：神中神\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/06/27 19:07",
+      "score": "4.0"
+    },
+    {
+      "id": 2255,
+      "rating": 5,
+      "comment": "考核方式：演讲+小组配音+听力小测一次+平时口语听力作业+小组表演。以上任务不摆即可拿A(本人亲测)。至今没见过差评\n\n授课质量与给分：5\n\n点评人：匿名\n\n上课学期：2025春",
+      "created_at": "2025/06/27 18:37",
+      "score": "A"
+    },
+    {
+      "id": 2241,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：伟大，无需多言。期中英语配音，期末英文戏剧。\n\n点评人：\n\n上课学期：25春",
+      "created_at": "2025/06/27 18:05",
+      "score": "4.0"
+    },
+    {
+      "id": 2239,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：伟大无需多言\n\n点评：匿名\n\n上课学期：",
+      "created_at": "2025/06/27 18:00",
+      "score": "A+"
+    },
+    {
+      "id": 2163,
+      "rating": 5,
+      "comment": "考核方式：听力作业（基本不查）＋口语作业＋听力quiz（10%）＋期中小组配音＋期末小组表演\n\n授课质量与给分：上课内容实用丰富，给分也好，无脑冲就行\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/06/04 23:56",
+      "score": null
+    },
+    {
+      "id": 1922,
+      "rating": 5,
+      "comment": "考核方式：个人讲演，小组配音，小组演剧，平时作业每周录音3min\n\n授课质量与给分：\n4.0点击即送，别翘课就行\n点评人：\n\n上课学期：",
+      "created_at": "2025/02/19 22:38",
+      "score": "4.0"
+    },
+    {
+      "id": 1919,
+      "rating": 5,
+      "comment": "好像真没见到拿4.0以下的",
+      "created_at": "2025/02/19 15:37",
+      "score": "4.0"
+    },
+    {
+      "id": 1815,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：非常好，批发4.0，别太水，有一点准备就行\n\n点评人：曾辉辉\n\n上课学期：大一上",
+      "created_at": "2025/01/26 12:34",
+      "score": "A"
+    },
+    {
+      "id": 1812,
+      "rating": 5,
+      "comment": "考核方式：小组配音，小型演讲，期末小组演一个剧本\n\n授课质量与给分：任务量不大，水一学期也能4.0\n\n点评人：曾会会\n\n上课学期：2024秋",
+      "created_at": "2025/01/26 12:28",
+      "score": "4.0"
+    },
+    {
+      "id": 1811,
+      "rating": 5,
+      "comment": "选上就是4.0",
+      "created_at": "2025/01/26 10:49",
+      "score": null
+    },
+    {
+      "id": 1639,
+      "rating": 5,
+      "comment": "考核方式：演讲，配音，话剧\n\n授课质量与给分：很好\n\n点评人：\n\n上课学期：2024年秋季学期\n \n给分超级好",
+      "created_at": "2025/01/24 18:11",
+      "score": "A-"
+    },
+    {
+      "id": 922,
+      "rating": 5,
+      "comment": "上课就是听力，会有一次演讲，一次期中考配音和一次期末考角色扮演，只要几次重点考试认真给分就超级好",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    },
+    {
+      "id": 921,
+      "rating": 5,
+      "comment": "老师温柔，任务量不大，考核方式是配音和英语剧，很欢快",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    },
+    {
+      "id": 920,
+      "rating": 5,
+      "comment": "洪娜老师上课主要是听新闻和BBC，也会有需要搭档进行口语练习的时候，成绩主要是平时作业，课堂表现，比较重要的是学期前的一次演讲，期中配音和期末role play，课堂氛围超好",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    },
+    {
+      "id": 919,
+      "rating": 5,
+      "comment": "课平平无奇，但老师给分超超超好，只要不摆甚至都不会是a-，直接a",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    },
+    {
+      "id": 918,
+      "rating": 5,
+      "comment": "老师超级温柔，给分超高，课上有提问不过不会也没关系，老师也不会责怪，一般有一个演讲，期中配音，期末话剧，老师人真的超级好，就算完成的很一般老师也会努力的找优点夸你",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    },
+    {
+      "id": 917,
+      "rating": 5,
+      "comment": "老师人很好，会超认真的听大家的口语作业并给反馈！！任务量不大，第四周一个一两分钟小演讲，期中配音期末role play都是小组作业，给分也非常好！",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    },
+    {
+      "id": 916,
+      "rating": 5,
+      "comment": "期中是配音，期末是小组一起演英语剧，任务量很少，老师很好，强推",
+      "created_at": "2024/07/21 18:21",
+      "score": null
+    }
+  ]
 }

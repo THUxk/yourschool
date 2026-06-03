@@ -1,112 +1,56 @@
 {
-    "count": 7,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3397,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：同上\n\n授课质量与给分：无法用语言表扬的超级好老师！\n\n点评人：41\n\n上课学期：",
-            "created_at": "2026/05/30 15:57",
-            "modified_at": "2026/05/30 15:57",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 3145,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：课堂+小组合作写一篇paper。六个人一组，每个人写一部分（大概600-800词）。在写自己的部分之前要做一个简短的pre，然后要负责审阅其他人写的部分，最后在期末出一个video abstract。\n\n授课质量与给分：神中神，特别好的老师，会给同学发糖和巧克力吃。会认真地给写过的部分提非常有用的意见。\n认真写过了给分应该是不错的（我那部分就写了五百多词（）\n\n点评人：M42\n\n上课学期：2025-2026秋",
-            "created_at": "2026/03/02 00:46",
-            "modified_at": "2026/03/02 00:46",
-            "score": "A- 4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2716,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：\n上颜老师的课是一种享受，如果你想摆烂，她上课并不会太管（偶尔有开火车和blind call，但无论你说什么她都不会批评你，循循善诱，甚至还会想法设法夸你几句），并且作业量极少，据我所知比大多数英语读写B的老师还少（有次甚至知道我们要期中了直接免作业），让我顺利活过了这个写沟和读写双修的学期；如果你想认真学习，她的课在词汇上提升不大，但在论文写作方面含金量还是很高的，整学期贯穿着一篇小组论文作业，六个人每人负责一个部分，任务量并不大（一学期600-1000词），可以认真打磨，而且有roundtable workshop、office hour和助教反馈多种方式让让你的论文水平有显著的提升（如果你肯干），写的好、peer review有水平的同学还会发小奖励（我拿了一本托福词汇qwq）。总之如果抢的上无脑冲就好！\n点评人：\nUndefined\n上课学期：2025-2026年秋",
-            "created_at": "2026/01/13 14:06",
-            "modified_at": "2026/01/13 14:06",
-            "score": "应该A或A+",
-            "moderator_remark": null
-        },
-        {
-            "id": 2169,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n参与20%+Peer Review 20%+小组讨论展示20%+写作40%\n其中写作是要求五人小组共同完成一篇Research Article，自己完成的部分占30%，小组同学完成的整篇文章整体占10%\n授课质量与给分：\n任务量少，上课能学到很多干货。老师人美心善，过圣诞节之类的时候还会给大家发糖果巧克力，每次的最佳Writer和Reviewer还会有书籍之类的奖励。给分好，认真完成任务就能得到高分。\n点评人：Somebody\n上课学期：2024秋",
-            "created_at": "2025/06/06 09:31",
-            "modified_at": "2025/06/06 09:31",
-            "score": "A+",
-            "moderator_remark": null
-        },
-        {
-            "id": 1830,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：课堂+作业+video abstract\n这门课的作业是小组合作写一篇英文research article，每人负责一个部分，其他人进行同行评议，每个人写的部分，同行评议和终稿都在考核里占一部分分数。video abstract就是以video的形式做个文章摘要。\n授课质量与给分：写文章的工作量分到每个组员头上并不大，老师人很好，还会安排下午茶时间，面对面帮大家解决作业中的问题。给分应该还不错，本人拿了4.0。\n建议无脑选。\n上课学期：2024年秋",
-            "created_at": "2025/01/28 10:48",
-            "modified_at": "2025/01/28 10:48",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 884,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "讲解学术英语论文写作的用词、结构等方面，老师人很好，会发放一些小礼物",
-            "created_at": "2024/07/21 18:11",
-            "modified_at": "2024/07/21 18:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 222,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "工作量少，老师非常nice。",
-            "created_at": "2024/07/21 13:34",
-            "modified_at": "2024/07/21 13:34",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 7,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3397,
+      "rating": 5,
+      "comment": "考核方式：同上\n\n授课质量与给分：无法用语言表扬的超级好老师！\n\n点评人：41\n\n上课学期：",
+      "created_at": "2026/05/30 15:57",
+      "score": "4.0"
+    },
+    {
+      "id": 3145,
+      "rating": 5,
+      "comment": "考核方式：课堂+小组合作写一篇paper。六个人一组，每个人写一部分（大概600-800词）。在写自己的部分之前要做一个简短的pre，然后要负责审阅其他人写的部分，最后在期末出一个video abstract。\n\n授课质量与给分：神中神，特别好的老师，会给同学发糖和巧克力吃。会认真地给写过的部分提非常有用的意见。\n认真写过了给分应该是不错的（我那部分就写了五百多词（）\n\n点评人：M42\n\n上课学期：2025-2026秋",
+      "created_at": "2026/03/02 00:46",
+      "score": "A- 4.0"
+    },
+    {
+      "id": 2716,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：\n上颜老师的课是一种享受，如果你想摆烂，她上课并不会太管（偶尔有开火车和blind call，但无论你说什么她都不会批评你，循循善诱，甚至还会想法设法夸你几句），并且作业量极少，据我所知比大多数英语读写B的老师还少（有次甚至知道我们要期中了直接免作业），让我顺利活过了这个写沟和读写双修的学期；如果你想认真学习，她的课在词汇上提升不大，但在论文写作方面含金量还是很高的，整学期贯穿着一篇小组论文作业，六个人每人负责一个部分，任务量并不大（一学期600-1000词），可以认真打磨，而且有roundtable workshop、office hour和助教反馈多种方式让让你的论文水平有显著的提升（如果你肯干），写的好、peer review有水平的同学还会发小奖励（我拿了一本托福词汇qwq）。总之如果抢的上无脑冲就好！\n点评人：\nUndefined\n上课学期：2025-2026年秋",
+      "created_at": "2026/01/13 14:06",
+      "score": "应该A或A+"
+    },
+    {
+      "id": 2169,
+      "rating": 5,
+      "comment": "考核方式：\n参与20%+Peer Review 20%+小组讨论展示20%+写作40%\n其中写作是要求五人小组共同完成一篇Research Article，自己完成的部分占30%，小组同学完成的整篇文章整体占10%\n授课质量与给分：\n任务量少，上课能学到很多干货。老师人美心善，过圣诞节之类的时候还会给大家发糖果巧克力，每次的最佳Writer和Reviewer还会有书籍之类的奖励。给分好，认真完成任务就能得到高分。\n点评人：Somebody\n上课学期：2024秋",
+      "created_at": "2025/06/06 09:31",
+      "score": "A+"
+    },
+    {
+      "id": 1830,
+      "rating": 5,
+      "comment": "考核方式：课堂+作业+video abstract\n这门课的作业是小组合作写一篇英文research article，每人负责一个部分，其他人进行同行评议，每个人写的部分，同行评议和终稿都在考核里占一部分分数。video abstract就是以video的形式做个文章摘要。\n授课质量与给分：写文章的工作量分到每个组员头上并不大，老师人很好，还会安排下午茶时间，面对面帮大家解决作业中的问题。给分应该还不错，本人拿了4.0。\n建议无脑选。\n上课学期：2024年秋",
+      "created_at": "2025/01/28 10:48",
+      "score": null
+    },
+    {
+      "id": 884,
+      "rating": 5,
+      "comment": "讲解学术英语论文写作的用词、结构等方面，老师人很好，会发放一些小礼物",
+      "created_at": "2024/07/21 18:11",
+      "score": null
+    },
+    {
+      "id": 222,
+      "rating": 5,
+      "comment": "工作量少，老师非常nice。",
+      "created_at": "2024/07/21 13:34",
+      "score": null
+    }
+  ]
 }

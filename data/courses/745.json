@@ -1,172 +1,84 @@
 {
-    "count": 11,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3377,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3376,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3375,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3374,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3373,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3372,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3371,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3370,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "！！！",
-            "created_at": "2026/05/28 16:33",
-            "modified_at": "2026/05/28 16:33",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3076,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 2,
-            "comment": "考核方式：\n小组展示+小组期末论文+上课回答问题，不明确\n授课质量与给分：\n上课就是老头子吹牛，基本别指望有什么营养，个人觉得评分标准也不明确\n点评人：\n\n上课学期：",
-            "created_at": "2026/02/25 12:55",
-            "modified_at": "2026/02/25 12:55",
-            "score": "3.6",
-            "moderator_remark": null
-        },
-        {
-            "id": 3042,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：平时+小组展示+小组合作写大论文\n\n授课质量与给分：回答问题有加分，授课适合对哲学感兴趣的同学，最后给分好像比较看小组展示这个部分，鄙人侥幸分到一个很好的组长。\n\n点评人：蟫\n\n上课学期：",
-            "created_at": "2026/02/16 15:55",
-            "modified_at": "2026/02/16 15:55",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 297,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "任务量中等，考核内容有期末随堂考试和小组报告。讲课偏哲学，不太好理解，推荐配合哲学专著阅读。",
-            "created_at": "2024/07/21 14:03",
-            "modified_at": "2024/07/21 14:03",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 11,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3377,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3376,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3375,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3374,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3373,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3372,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3371,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3370,
+      "rating": 5,
+      "comment": "！！！",
+      "created_at": "2026/05/28 16:33",
+      "score": null
+    },
+    {
+      "id": 3076,
+      "rating": 2,
+      "comment": "考核方式：\n小组展示+小组期末论文+上课回答问题，不明确\n授课质量与给分：\n上课就是老头子吹牛，基本别指望有什么营养，个人觉得评分标准也不明确\n点评人：\n\n上课学期：",
+      "created_at": "2026/02/25 12:55",
+      "score": "3.6"
+    },
+    {
+      "id": 3042,
+      "rating": 4,
+      "comment": "考核方式：平时+小组展示+小组合作写大论文\n\n授课质量与给分：回答问题有加分，授课适合对哲学感兴趣的同学，最后给分好像比较看小组展示这个部分，鄙人侥幸分到一个很好的组长。\n\n点评人：蟫\n\n上课学期：",
+      "created_at": "2026/02/16 15:55",
+      "score": "A"
+    },
+    {
+      "id": 297,
+      "rating": 4,
+      "comment": "任务量中等，考核内容有期末随堂考试和小组报告。讲课偏哲学，不太好理解，推荐配合哲学专著阅读。",
+      "created_at": "2024/07/21 14:03",
+      "score": null
+    }
+  ]
 }

@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1396,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：论文\n\n授课质量与给分：超好\n\n点评人：xyh\n\n上课学期：",
-            "created_at": "2024/12/06 17:52",
-            "modified_at": "2024/12/06 17:52",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1393,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n三篇文章\n授课质量与给分：\n授课内容很有意思，老师在课上会普及关于清代以及一些古典文化的小常识。优雅又有趣的老师哪里找啊啊啊啊\n点评人：\n\n上课学期：",
-            "created_at": "2024/12/06 17:34",
-            "modified_at": "2024/12/06 17:34",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1396,
+      "rating": 5,
+      "comment": "考核方式：论文\n\n授课质量与给分：超好\n\n点评人：xyh\n\n上课学期：",
+      "created_at": "2024/12/06 17:52",
+      "score": null
+    },
+    {
+      "id": 1393,
+      "rating": 5,
+      "comment": "考核方式：\n三篇文章\n授课质量与给分：\n授课内容很有意思，老师在课上会普及关于清代以及一些古典文化的小常识。优雅又有趣的老师哪里找啊啊啊啊\n点评人：\n\n上课学期：",
+      "created_at": "2024/12/06 17:34",
+      "score": null
+    }
+  ]
 }

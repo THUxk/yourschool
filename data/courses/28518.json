@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2337,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n30%三篇学后感 + 10%期中小测 + 20%平时分 + 40%视频演讲\n授课质量与给分：\n好课，老师和助教都很好，任务量轻松。如果对少数族裔话题感兴趣可冲\n点评人：\n\n上课学期：25春",
-            "created_at": "2025/06/28 18:01",
-            "modified_at": "2025/06/28 18:01",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2164,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时作业 + 录视频\n\n授课质量与给分：课讲的挺好，任务少，给分好，关键是老师人也很好，认为是英语课组里最值得选的课\n\n点评人：\n\n上课学期：25春",
-            "created_at": "2025/06/05 09:11",
-            "modified_at": "2025/06/05 09:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1344,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：pre\n\n授课质量与给分：\n老师人挺好\n在英语课里任务量不算大\n上课学期：秋季",
-            "created_at": "2024/11/10 20:05",
-            "modified_at": "2024/11/10 20:05",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2337,
+      "rating": 5,
+      "comment": "考核方式：\n30%三篇学后感 + 10%期中小测 + 20%平时分 + 40%视频演讲\n授课质量与给分：\n好课，老师和助教都很好，任务量轻松。如果对少数族裔话题感兴趣可冲\n点评人：\n\n上课学期：25春",
+      "created_at": "2025/06/28 18:01",
+      "score": "A"
+    },
+    {
+      "id": 2164,
+      "rating": 5,
+      "comment": "考核方式：平时作业 + 录视频\n\n授课质量与给分：课讲的挺好，任务少，给分好，关键是老师人也很好，认为是英语课组里最值得选的课\n\n点评人：\n\n上课学期：25春",
+      "created_at": "2025/06/05 09:11",
+      "score": null
+    },
+    {
+      "id": 1344,
+      "rating": 4,
+      "comment": "考核方式：pre\n\n授课质量与给分：\n老师人挺好\n在英语课里任务量不算大\n上课学期：秋季",
+      "created_at": "2024/11/10 20:05",
+      "score": "A-"
+    }
+  ]
 }

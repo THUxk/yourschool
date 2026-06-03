@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 542,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师人特别好，教学尽心尽力，有问题会特别用心辅导。但是对于零基础同学跟上课程有点压力，总体难度不大但时间紧张",
-            "created_at": "2024/07/21 16:21",
-            "modified_at": "2024/07/21 16:21",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 542,
+      "rating": 5,
+      "comment": "老师人特别好，教学尽心尽力，有问题会特别用心辅导。但是对于零基础同学跟上课程有点压力，总体难度不大但时间紧张",
+      "created_at": "2024/07/21 16:21",
+      "score": null
+    }
+  ]
 }

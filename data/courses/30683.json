@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3163,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：3次作业45% + 出席5% + 期中作业（思维导图以及其他）20% + 期末作业（手把手教）30%\n\n授课质量与给分：中文授课，课件全英文。老师很有意思，讲得很好。\n\n点评人：H\n\n上课学期：25秋",
-            "created_at": "2026/03/04 16:04",
-            "modified_at": "2026/03/04 16:04",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3163,
+      "rating": 5,
+      "comment": "考核方式：3次作业45% + 出席5% + 期中作业（思维导图以及其他）20% + 期末作业（手把手教）30%\n\n授课质量与给分：中文授课，课件全英文。老师很有意思，讲得很好。\n\n点评人：H\n\n上课学期：25秋",
+      "created_at": "2026/03/04 16:04",
+      "score": null
+    }
+  ]
 }

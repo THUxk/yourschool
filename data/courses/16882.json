@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1377,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：考试\n\n授课质量与给分：老师讲得超好！思路清晰逻辑严谨表达切中肯綮，而且老师特别可爱，都来选！\n\n上课学期：2024秋",
-            "created_at": "2024/12/06 08:37",
-            "modified_at": "2024/12/06 08:37",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1377,
+      "rating": 5,
+      "comment": "考核方式：考试\n\n授课质量与给分：老师讲得超好！思路清晰逻辑严谨表达切中肯綮，而且老师特别可爱，都来选！\n\n上课学期：2024秋",
+      "created_at": "2024/12/06 08:37",
+      "score": null
+    }
+  ]
 }

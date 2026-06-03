@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1098,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n考试\n授课质量与给分：\n最后悔的一件事情就是翘了一个学期的博弈论课，心里只有后悔\n上课学期：2024春",
-            "created_at": "2024/07/23 15:48",
-            "modified_at": "2024/07/23 15:48",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1098,
+      "rating": 4,
+      "comment": "考核方式：\n考试\n授课质量与给分：\n最后悔的一件事情就是翘了一个学期的博弈论课，心里只有后悔\n上课学期：2024春",
+      "created_at": "2024/07/23 15:48",
+      "score": null
+    }
+  ]
 }

@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 526,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程从大学生心理情感出发，从多个情感维度分析，教会你如何开发自己的内心。",
-            "created_at": "2024/07/21 16:15",
-            "modified_at": "2024/07/21 16:15",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 430,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：一个小组pre+个人论文\n\n授课质量与给分：\n是前八周课程，会围绕认识自我、情绪管理、人际关系和亲密关系等进行讲解。老师助教人都非常好，上课也很有收获。给分很好。",
-            "created_at": "2024/07/21 15:19",
-            "modified_at": "2024/07/21 15:19",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 526,
+      "rating": 5,
+      "comment": "课程从大学生心理情感出发，从多个情感维度分析，教会你如何开发自己的内心。",
+      "created_at": "2024/07/21 16:15",
+      "score": null
+    },
+    {
+      "id": 430,
+      "rating": 5,
+      "comment": "考核方式：一个小组pre+个人论文\n\n授课质量与给分：\n是前八周课程，会围绕认识自我、情绪管理、人际关系和亲密关系等进行讲解。老师助教人都非常好，上课也很有收获。给分很好。",
+      "created_at": "2024/07/21 15:19",
+      "score": null
+    }
+  ]
 }

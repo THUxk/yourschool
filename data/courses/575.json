@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2765,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：翻译*2+讨论*2+考试+发帖+读书笔记\n\n授课质量与给分：都可以说不错，但是要不要花三节课学还是个人考虑吧\n\n点评人：导向蓟\n\n上课学期：2025秋",
-            "created_at": "2026/01/30 17:28",
-            "modified_at": "2026/01/30 17:28",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2765,
+      "rating": 3,
+      "comment": "考核方式：翻译*2+讨论*2+考试+发帖+读书笔记\n\n授课质量与给分：都可以说不错，但是要不要花三节课学还是个人考虑吧\n\n点评人：导向蓟\n\n上课学期：2025秋",
+      "created_at": "2026/01/30 17:28",
+      "score": "A-"
+    }
+  ]
 }

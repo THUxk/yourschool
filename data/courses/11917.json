@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1265,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "讲书法史的老师很有意思，讲得很好，很有个性。上课需要做笔记，因为ppt和笔记都不会直接给你。\n设计史老师会整理笔记。\n开卷考，准备好资料一般没什么问题。",
-            "created_at": "2024/07/30 16:50",
-            "modified_at": "2024/07/30 16:50",
-            "score": "4.0",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1265,
+      "rating": 5,
+      "comment": "讲书法史的老师很有意思，讲得很好，很有个性。上课需要做笔记，因为ppt和笔记都不会直接给你。\n设计史老师会整理笔记。\n开卷考，准备好资料一般没什么问题。",
+      "created_at": "2024/07/30 16:50",
+      "score": "4.0"
+    }
+  ]
 }

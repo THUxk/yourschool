@@ -1,82 +1,42 @@
 {
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1620,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：A。这课几乎承包了我一个学期仅有的娱乐方式！顺便保持下对英文的接触。于是感觉基本无任务量。🤗\n\n点评人：\n杨哲文\n上课学期：24春",
-            "created_at": "2025/01/20 20:39",
-            "modified_at": "2025/01/20 20:39",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1517,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n当堂小测*2很简单\n小组配音/表演/pre任务\n授课质量与给分：\n会带着一起看电影，讨论问题，老师人超好\n点评人：Eric\n上课学期：24春",
-            "created_at": "2024/12/12 11:38",
-            "modified_at": "2024/12/12 11:38",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 1256,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：平时课堂分+作业+小测（两次很简单）+配音+pre+seminar+表演\n\n授课质量与给分：做英文剧和电影欣赏，上课质量真心一般，想真学到“影视欣赏”方法的别来，课上要发言（英语），事情非常多而杂，后半学期全是小组任务，一定要找好课搭子\n\n点评人：\n\n上课学期：2024春季学期",
-            "created_at": "2024/07/30 15:15",
-            "modified_at": "2024/07/30 15:15",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1247,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：作业（英文影评）+ 期中 role play + 期末 分析鉴赏一部电影\n\n授课质量：上课体验很棒，经典英文电影群览，电影主题覆盖各种题材，完全可以当非英语课上。（真要学英语，谁在学校里上课呀×\n\n给分：个人较好，无其他样本。",
-            "created_at": "2024/07/26 17:35",
-            "modified_at": "2024/07/26 17:35",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1035,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "有一半课上时间是看电影 都是一些经典的好电影很有趣 有配音任务和表演任务 任务量还可以 老师人很好",
-            "created_at": "2024/07/21 18:54",
-            "modified_at": "2024/07/21 18:54",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1620,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：A。这课几乎承包了我一个学期仅有的娱乐方式！顺便保持下对英文的接触。于是感觉基本无任务量。🤗\n\n点评人：\n杨哲文\n上课学期：24春",
+      "created_at": "2025/01/20 20:39",
+      "score": null
+    },
+    {
+      "id": 1517,
+      "rating": 5,
+      "comment": "考核方式：\n当堂小测*2很简单\n小组配音/表演/pre任务\n授课质量与给分：\n会带着一起看电影，讨论问题，老师人超好\n点评人：Eric\n上课学期：24春",
+      "created_at": "2024/12/12 11:38",
+      "score": "A-"
+    },
+    {
+      "id": 1256,
+      "rating": 3,
+      "comment": "考核方式：平时课堂分+作业+小测（两次很简单）+配音+pre+seminar+表演\n\n授课质量与给分：做英文剧和电影欣赏，上课质量真心一般，想真学到“影视欣赏”方法的别来，课上要发言（英语），事情非常多而杂，后半学期全是小组任务，一定要找好课搭子\n\n点评人：\n\n上课学期：2024春季学期",
+      "created_at": "2024/07/30 15:15",
+      "score": "A"
+    },
+    {
+      "id": 1247,
+      "rating": 5,
+      "comment": "考核方式：作业（英文影评）+ 期中 role play + 期末 分析鉴赏一部电影\n\n授课质量：上课体验很棒，经典英文电影群览，电影主题覆盖各种题材，完全可以当非英语课上。（真要学英语，谁在学校里上课呀×\n\n给分：个人较好，无其他样本。",
+      "created_at": "2024/07/26 17:35",
+      "score": "A"
+    },
+    {
+      "id": 1035,
+      "rating": 5,
+      "comment": "有一半课上时间是看电影 都是一些经典的好电影很有趣 有配音任务和表演任务 任务量还可以 老师人很好",
+      "created_at": "2024/07/21 18:54",
+      "score": null
+    }
+  ]
 }

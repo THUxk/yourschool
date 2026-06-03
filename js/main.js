@@ -7,21 +7,22 @@
  *
  * 加载策略:
  *   首页:      manifest + views_summary + reviews_latest  (~365 KB)
- *   课程详情:  manifest + 1 detail_chunk                   (~250 KB)
+ *   课程详情:  sqid → data/courses/{sqid}.json + tid → data/teachers/{tid}.json
+ *              兼容旧版: manifest + detail_chunk
  *   课程列表:  manifest + views_summary + course_index + 5 course chunks (~5.6 MB)
- *   搜索:      同课程列表
+ *   搜索:      with_comment_index.json（仅有点评）或 full_index.json（全部课程）
+ *              → 结果链接到 course.html?sqid=X&tid=Y
  *   统计:      manifest + views_summary                   (~43 KB)
  * ================================================================ */
 
-// Worker API 地址（部署后替换为实际地址）
-const WORKER_HOST = '';
-const API_BASE = `${WORKER_HOST}/api`;
-const DATA_BASE = `${API_BASE}/data`;
+// API 地址（部署后替换为实际地址）
+const API_BASE = `http://api.yourschool.cc.cd`;
 
 // Pages 本地 JSON 路径
 const STATIC_BASE = 'data/optimized/';
+const RAW_BASE = 'data/';
 
-const CACHE_PREFIX = 'thu_v3_';
+const CACHE_PREFIX = 'thu_v4_';
 const CACHE_TTL = 30 * 60 * 1000;
 
 // ========== Global State ==========
@@ -31,6 +32,7 @@ let viewsSummary = {};     // {cid: {c, a, r}}
 let latestReviews = [];    // 首页用
 let coursesAll = [];       // 所有课程 (lazy, for courses/search page)
 let courseIdxLoaded = false;
+let searchIndexCache = null;  // 缓存搜索用的 with_comment_index 或 full_index
 
 // Page state
 let indexState = { page: 1, size: 10 };
@@ -202,7 +204,7 @@ function renderIndex() {
         const courseName = teacher ? `${name}（${teacher}）` : name;
         const card = document.createElement('div');
         card.className = 'review-card';
-        card.innerHTML = `<a href="course.html?id=${item.course.id}" class="review-course-link">${courseName}</a>
+        card.innerHTML = `<a href="course.html?sqid=${item.course.id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
             <div class="review-rating-text">推荐指数：${item.rating}</div>
             <div class="review-comment">${item.comment || '无点评内容'}</div>
             <div class="review-meta"><span>#${item.id}</span><span>${item.modified_at || ''}</span></div>`;
@@ -216,35 +218,62 @@ function renderIndex() {
 }
 
 // ==================== COURSES PAGE ====================
-async function loadCourseIndex() {
-    if (courseIdxLoaded) return;
-    const ciRaw = await loadStatic('course_index', 'course_index.json');
-    courseIdx = ciRaw || {};
-    courseIdxLoaded = true;
-}
+// 数据源：与搜索页一致——仅有点评时用 with_comment_index.json，否则用 full_index.json
+// 仅加载当前模式对应的索引文件，不再客户端过滤 count
+let fullIndexLoaded = false;
+let coursesReviewOnly = false;   // 当前加载的是否为仅有点评的索引
 
-async function loadAllCourses() {
-    if (coursesAll.length > 0) return;
-    const cached = getCache('courses_all');
-    if (cached) { coursesAll = cached; return; }
-    await loadCourseIndex();
-    const proms = manifest.chunks.map(fn => fetch(STATIC_BASE + fn).then(r => r.json()));
-    const chunks = await Promise.all(proms);
-    coursesAll = chunks.flat();
-    setCache('courses_all', coursesAll);
+async function loadAllCourses(onlyReviewed) {
+    // 如果已加载且模式匹配，直接复用
+    if (coursesAll.length > 0 && coursesReviewOnly === onlyReviewed) return;
+
+    const cacheKey = onlyReviewed ? 'courses_all_comment' : 'courses_all_v4';
+    const cached = getCache(cacheKey);
+    if (cached) {
+        coursesAll = cached;
+        coursesReviewOnly = onlyReviewed;
+        fullIndexLoaded = true;
+        return;
+    }
+
+    const filename = onlyReviewed ? 'with_comment_index.json' : 'full_index.json';
+    try {
+        const res = await fetch(RAW_BASE + filename);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        const arr = [];
+        for (const [key, info] of Object.entries(data.courses || {})) {
+            if (!info || typeof info !== 'object') continue;
+            arr.push({
+                kcm: info.kcm || '',
+                jsm: info.jsm || '',
+                kkdw: info.kkdw || '',
+                count: info.count || 0,
+                avg: info.avg || 0,
+                sqid: info.sqid,
+                tid: info.tid
+            });
+        }
+        coursesAll = arr;
+        coursesReviewOnly = onlyReviewed;
+        fullIndexLoaded = true;
+        setCache(cacheKey, coursesAll);
+    } catch (e) {
+        console.error('[loadAllCourses] Error loading ' + filename + ':', e);
+        coursesAll = [];
+        coursesReviewOnly = onlyReviewed;
+        fullIndexLoaded = true;
+    }
 }
 
 function getDeptStats() {
     const stats = {};
-    Object.entries(courseIdx).forEach(([cid, c]) => {
-        const d = c[0];
+    for (const c of coursesAll) {
+        const d = c.kkdw || '未知院系';
         if (!stats[d]) stats[d] = { count: 0, reviewed: 0 };
         stats[d].count++;
-    });
-    Object.keys(viewsSummary).forEach(cid => {
-        const c = courseIdx[cid];
-        if (c && stats[c[0]]) stats[c[0]].reviewed++;
-    });
+        if (c.count > 0) stats[d].reviewed++;
+    }
     return stats;
 }
 
@@ -271,31 +300,40 @@ function toggleFilterGroup(el) {
 }
 
 async function initCoursesPage() {
-    await loadAllCourses();
-    // views_summary needed for review counts
-    if (!Object.keys(viewsSummary).length) {
-        viewsSummary = await loadStatic('views_summary', 'views_summary.json');
-    }
+    const onlyReviewed = $('filter-has-reviews')?.checked || false;
+    await loadAllCourses(onlyReviewed);
     populateDeptFilter();
     filteredCourses = [...coursesAll];
     renderCourseList();
 }
 
 async function applyFilters() {
-    await loadAllCourses();
-    if (!Object.keys(viewsSummary).length) {
-        viewsSummary = await loadStatic('views_summary', 'views_summary.json');
+    const onlyReviewed = $('filter-has-reviews')?.checked || false;
+
+    // 仅有点评开关状态变化 → 清空缓存以切换索引文件
+    const modeChanged = (onlyReviewed !== coursesReviewOnly);
+    if (modeChanged) {
+        coursesAll = [];
     }
-    let result = [...coursesAll];
-    const onlyReviewed = $('filter-has-reviews')?.checked;
-    if (onlyReviewed) {
-        const revIds = new Set(Object.keys(viewsSummary));
-        result = result.filter(c => revIds.has(String(c.id)));
+    await loadAllCourses(onlyReviewed);
+
+    // 模式变化时需重建院系列表，但先保存已选中的院系
+    let savedDepts = [];
+    if (modeChanged) {
+        savedDepts = Array.from(document.querySelectorAll('.dept-check:checked')).map(cb => cb.value);
+        populateDeptFilter();
+        // 恢复之前选中的院系
+        document.querySelectorAll('.dept-check').forEach(cb => {
+            if (savedDepts.includes(cb.value)) cb.checked = true;
+        });
     }
+
+    // 读取当前选中的院系进行筛选
     const checkedDepts = Array.from(document.querySelectorAll('.dept-check:checked')).map(cb => cb.value);
+    let result = [...coursesAll];
     if (checkedDepts.length > 0) {
         const s = new Set(checkedDepts);
-        result = result.filter(c => s.has(c.department));
+        result = result.filter(c => s.has(c.kkdw));
     }
     filteredCourses = result;
     courseState.page = 1;
@@ -315,11 +353,10 @@ function renderCourseList() {
     const frag = document.createDocumentFragment();
 
     paged.forEach(c => {
-        const vs = viewsSummary[String(c.id)];
-        const count = vs ? vs.c : 0;
+        const count = c.count || 0;
         const div = document.createElement('div');
         div.className = 'course-list-item';
-        div.innerHTML = `<div class="course-info"><h3><a href="course.html?id=${c.id}">${c.name}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.teacher}）</span></a></h3><div class="course-dept-name">${c.department}</div></div><div class="course-review-status">${count === 0 ? '暂无点评' : count + '条点评'}</div>`;
+        div.innerHTML = `<div class="course-info"><h3><a href="course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">${c.kcm}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.jsm}）</span></a></h3><div class="course-dept-name">${c.kkdw}</div></div><div class="course-review-status">${count === 0 ? '暂无点评' : count + '条点评'}</div>`;
         frag.appendChild(div);
     });
 
@@ -330,17 +367,194 @@ function renderCourseList() {
 }
 
 // ==================== COURSE DETAIL ====================
-// v3: course details in 10 merged chunks (1 HTTP request per page, ~250KB)
+// 新架构：通过 sqid 加载 data/courses/{sqid}.json，通过 tid 加载 data/teachers/{tid}.json
 let currentCourseDetail = null;
 
 async function initCourseDetail() {
     const params = new URLSearchParams(location.search);
-    const cid = params.get('id');
-    if (!cid) { qs('.container').innerHTML = '<div class="empty-tip">缺少课程ID参数</div>'; return; }
+    const sqid = params.get('sqid');
+    const tid = params.get('tid');
+    const oldId = params.get('id');  // 兼容旧版 ?id= 链接
 
-    const detailMod = manifest.detail_mod || 10;
+    if (!sqid && !oldId) { qs('.container').innerHTML = '<div class="empty-tip">缺少课程参数</div>'; return; }
+
+    // 如果有 sqid，使用新路径；否则尝试用旧 id 从 detail_chunks 加载（兼容旧版）
+    if (!sqid && oldId) {
+        // 回退到旧版逻辑：从 detail_chunks 加载
+        await initCourseDetailLegacy(oldId);
+        return;
+    }
+
+    let courseData = null;
+    let teacherData = null;
+    let courseName = '', teacherName = '', deptName = '';
+
+    // 1. 加载课程数据
+    try {
+        const cacheKey = 'course_' + sqid;
+        let cached = getCache(cacheKey);
+        if (!cached) {
+            const res = await fetch(RAW_BASE + 'courses/' + sqid + '.json');
+            if (!res.ok) throw new Error('not found');
+            cached = await res.json();
+            setCache(cacheKey, cached);
+        }
+        courseData = cached;
+    } catch (e) {
+        console.error(`[initCourseDetail] Error loading course ${sqid}:`, e);
+    }
+
+    // 2. 加载教师数据
+    if (tid) {
+        try {
+            const cacheKey = 'teacher_' + tid;
+            let cached = getCache(cacheKey);
+            if (!cached) {
+                const res = await fetch(RAW_BASE + 'teachers/' + tid + '.json');
+                if (res.ok) {
+                    cached = await res.json();
+                    setCache(cacheKey, cached);
+                }
+            }
+            teacherData = cached || null;
+        } catch (e) {
+            console.error(`[initCourseDetail] Error loading teacher ${tid}:`, e);
+        }
+    }
+
+    // 3. 从课程数据中提取基本信息
+    const reviews = (courseData && courseData.results) ? courseData.results : [];
+    const reviewCount = (courseData && courseData.count) ? courseData.count : reviews.length;
+
+    // 优先从 URL 参数获取课程名/教师/院系（由搜索页/课程页/首页传入）
+    courseName = params.get('name') || '';
+    teacherName = params.get('teacher') || '';
+    deptName = params.get('dept') || '';
+
+    // 从教师数据中补充信息
+    if (teacherData) {
+        if (!teacherName) teacherName = teacherData.name || '';
+    }
+    // 兜底
+    if (!courseName) courseName = '未知课程';
+    if (!teacherName) teacherName = '未知教师';
+
+    // 院系回填：URL 无 dept 参数时，从 with_comment_index.json 按 sqid 查找
+    if (!deptName) {
+        try {
+            const res = await fetch(RAW_BASE + 'with_comment_index.json');
+            if (res.ok) {
+                const ciRaw = await res.json();
+                if (ciRaw && ciRaw.courses) {
+                    for (const info of Object.values(ciRaw.courses)) {
+                        if (info && String(info.sqid) === String(sqid)) {
+                            deptName = info.kkdw || '';
+                            break;
+                        }
+                    }
+                }
+            }
+        } catch (e) { /* 静默失败 */ }
+    }
+
+    // 计算平均分
+    let avgRating = 0;
+    if (reviews.length > 0) {
+        const total = reviews.reduce((sum, r) => sum + (r.rating || 0), 0);
+        avgRating = (total / reviews.length).toFixed(1);
+    }
+
+    // 构建 currentCourseDetail（保持与旧版渲染函数兼容的格式）
+    currentCourseDetail = {
+        course: [deptName, teacherName, courseName],  // 兼容旧格式 [dept, teacher, name]
+        course_name: courseName,
+        course_teacher: teacherName,
+        course_dept: deptName,
+        reviews: reviews,
+        review_count: reviewCount,
+        avg_rating: avgRating,
+        sqid: sqid,
+        tid: tid,
+        teacher_data: teacherData
+    };
+
+    const dept = deptName, teacher = teacherName, name = courseName;
+
+    // Page title
+    const titleEl = $('detail-page-title');
+    if (titleEl) titleEl.textContent = `${name}（${teacher}）`;
+
+    // Info card
+    const nameEl = $('cd-name'), teacherEl = $('cd-teacher'), deptEl = $('cd-dept'), ratingEl = $('cd-rating');
+    if (nameEl) nameEl.textContent = name;
+    if (teacherEl) teacherEl.textContent = teacher;
+    // 从教师数据获取院系（通过 tid 对应的 related_courses 或其他字段）
+    if (deptEl) {
+        if (dept) {
+            deptEl.textContent = dept;
+        } else if (teacherData && teacherData.related_courses && teacherData.related_courses.length > 0) {
+            // 无法直接获取院系，从课程名推测为空
+            deptEl.textContent = '（未知院系）';
+        } else {
+            deptEl.textContent = '（未知院系）';
+        }
+    }
+    if (ratingEl) {
+        ratingEl.textContent = reviewCount ? `${avgRating}（${reviewCount}人评价）` : '暂无评价';
+    }
+
+    const reviewTitleEl = $('review-count-title');
+    if (reviewTitleEl) reviewTitleEl.textContent = `点评（${reviewCount}条）`;
+
+    // Teacher's other courses（从 teacherData 加载）
+    const tcs = (teacherData && teacherData.related_courses) ? teacherData.related_courses : [];
+    const tcCard = $('teacher-courses-card'), tcList = $('teacher-courses-list'), tcTitle = $('teacher-courses-title');
+    if (tcCard && tcList && tcTitle) {
+        if (tcs.length > 0) {
+            tcCard.style.display = 'block';
+            tcTitle.textContent = `${teacher}的其他课`;
+            const frag = document.createDocumentFragment();
+            tcs.slice(0, 15).forEach(tc => {
+                const li = document.createElement('li');
+                // 使用 sqid 链接到课程详情；tid 使用当前教师的 tid
+                const tcTid = tid || '';
+                li.innerHTML = `<a href="course.html?sqid=${tc.id}&tid=${tcTid}&name=${encodeURIComponent(tc.name)}&teacher=${encodeURIComponent(teacher)}">${tc.name}</a>${tc.count > 0 ? `<span class="teacher-course-score">（${parseFloat(tc.avg).toFixed(1)}，${tc.count}人）</span>` : ''}`;
+                frag.appendChild(li);
+            });
+            tcList.innerHTML = ''; tcList.appendChild(frag);
+        } else {
+            // 无教师文件或无 related_courses
+            tcCard.style.display = 'block';
+            tcTitle.textContent = teacherData ? `${teacher}的其他课` : `${teacher}的其他课`;
+            tcList.innerHTML = '<li style="color:#999;font-size:13px;">暂无点评</li>';
+        }
+    }
+
+    // Semester select
+    const semesters = [...new Set((reviews || []).map(r => extractSemester(r.comment)))].filter(Boolean);
+    const semSel = $('semester-select');
+    if (semSel) {
+        const cv = semSel.value;
+        semSel.innerHTML = '<option value="">全部</option>';
+        semesters.sort().forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; semSel.appendChild(o); });
+        if (semesters.includes(cv)) semSel.value = cv;
+    }
+
+    renderCourseDetailReviews();
+}
+
+// 旧版兼容：通过 id 从 detail_chunks 加载（用于 courses.html 等旧链接）
+async function initCourseDetailLegacy(cid) {
+    if (!manifest || !manifest.detail_chunks) {
+        // manifest 未加载则先加载
+        try {
+            const res = await fetch(STATIC_BASE + 'manifest.json');
+            manifest = await res.json();
+        } catch (e) { console.error('Manifest load error', e); }
+    }
+    const detailMod = (manifest && manifest.detail_mod) || 10;
     const chunkIdx = parseInt(cid) % detailMod;
-    const chunkFile = (manifest.detail_chunks && manifest.detail_chunks[chunkIdx]) || `detail_chunks_${chunkIdx}.json`;
+    const chunkFile = (manifest && manifest.detail_chunks && manifest.detail_chunks[chunkIdx]) || `detail_chunks_${chunkIdx}.json`;
 
     const cacheKey = 'detail_chunk_' + chunkIdx;
     let chunk = getCache(cacheKey);
@@ -351,14 +565,12 @@ async function initCourseDetail() {
             chunk = await res.json();
             setCache(cacheKey, chunk);
         } catch (e) {
-            console.error(`[loadStatic] Error loading detail chunk ${chunkFile}:`, e);
             chunk = {};
         }
     }
 
     let detail = chunk[cid];
     if (!detail) {
-        // Fallback: 课程无点评 → 从 course_index 构建基本信息
         if (!courseIdxLoaded) {
             const ciRaw = await loadStatic('course_index', 'course_index.json');
             courseIdx = ciRaw || {};
@@ -369,24 +581,16 @@ async function initCourseDetail() {
             qs('.container').innerHTML = '<div class="empty-tip">未找到该课程</div>';
             return;
         }
-        detail = {
-            course: courseEntry,
-            reviews: [],
-            teacher_courses: [],
-            review_count: 0,
-            avg_rating: 0,
-        };
+        detail = { course: courseEntry, reviews: [], teacher_courses: [], review_count: 0, avg_rating: 0 };
     }
 
     currentCourseDetail = detail;
     const c = detail.course;
     const dept = c[0], teacher = c[1], name = c[2];
 
-    // Page title
     const titleEl = $('detail-page-title');
     if (titleEl) titleEl.textContent = `${name}（${teacher}）`;
 
-    // Info card
     const nameEl = $('cd-name'), teacherEl = $('cd-teacher'), deptEl = $('cd-dept'), ratingEl = $('cd-rating');
     if (nameEl) nameEl.textContent = name;
     if (teacherEl) teacherEl.textContent = teacher;
@@ -399,7 +603,6 @@ async function initCourseDetail() {
     const reviewTitleEl = $('review-count-title');
     if (reviewTitleEl) reviewTitleEl.textContent = `点评（${detail.review_count}条）`;
 
-    // Teacher's other courses (already included in detail file!)
     const tcs = detail.teacher_courses || [];
     const tcCard = $('teacher-courses-card'), tcList = $('teacher-courses-list'), tcTitle = $('teacher-courses-title');
     if (tcCard && tcList && tcTitle) {
@@ -416,7 +619,6 @@ async function initCourseDetail() {
         } else { tcCard.style.display = 'none'; }
     }
 
-    // Semester select
     const semesters = [...new Set((detail.reviews || []).map(r => extractSemester(r.comment)))].filter(Boolean);
     const semSel = $('semester-select');
     if (semSel) {
@@ -477,8 +679,10 @@ function toggleTrend() {
     if (!currentCourseDetail) return;
     const modal = document.getElementById('trend-modal');
     const titleEl = document.getElementById('trend-title');
-    const c = currentCourseDetail.course;
-    titleEl.textContent = `${c[2]}（${c[1]}）的点评趋势`;
+    // 兼容新旧数据格式
+    const name = currentCourseDetail.course_name || (currentCourseDetail.course && currentCourseDetail.course[2]) || '';
+    const teacher = currentCourseDetail.course_teacher || (currentCourseDetail.course && currentCourseDetail.course[1]) || '';
+    titleEl.textContent = `${name}（${teacher}）的点评趋势`;
     modal.classList.add('show');
     // Delay to ensure DOM is visible before measuring
     requestAnimationFrame(() => {
@@ -677,42 +881,91 @@ function drawEmptyChart(canvas) {
 }
 
 // ==================== SEARCH PAGE ====================
+// 搜索使用 data/with_comment_index.json（勾选仅有点评）或 data/full_index.json（全部课程）
 let searchResults = [];
+
+// 加载搜索索引（带缓存）
+async function loadSearchIndex(onlyReviewed) {
+    const cacheKey = onlyReviewed ? 'search_idx_comment' : 'search_idx_full';
+    const cached = getCache(cacheKey);
+    if (cached && cached.courses && Object.keys(cached.courses).length > 0) {
+        searchIndexCache = cached;
+        return;
+    }
+    const filename = onlyReviewed ? 'with_comment_index.json' : 'full_index.json';
+    try {
+        const res = await fetch(RAW_BASE + filename);
+        if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
+        searchIndexCache = await res.json();
+        setCache(cacheKey, searchIndexCache);
+    } catch (e) {
+        console.error(`[loadSearchIndex] Error loading ${filename}:`, e);
+        searchIndexCache = { courses: {} };
+    }
+}
 
 async function initSearchPage() {
     const params = new URLSearchParams(location.search);
     const kw = params.get('keyword') || '';
     $('search-keyword-input').value = kw;
-    await loadAllCourses();
-    if (!Object.keys(viewsSummary).length) {
-        viewsSummary = await loadStatic('views_summary', 'views_summary.json');
-    }
+    const onlyReviewed = $('search-only-reviewed')?.checked;
+    await loadSearchIndex(onlyReviewed);
     doSearchInternal(kw);
 }
 
 function doSearch() { doSearchInternal($('search-keyword-input').value.trim()); }
 
 function doSearchFromCheckbox() {
-    doSearchInternal($('search-keyword-input').value.trim());
+    const onlyReviewed = $('search-only-reviewed')?.checked;
+    // 切换索引源：清除缓存以强制重新加载对应索引
+    searchIndexCache = null;
+    loadSearchIndex(onlyReviewed).then(() => {
+        doSearchInternal($('search-keyword-input').value.trim());
+    });
+}
+
+// 括号标准化：全角（）→ 半角()，确保用户输入与数据格式一致
+function normalizeParens(s) {
+    return s.replace(/\uff08/g, '(').replace(/\uff09/g, ')');
 }
 
 function doSearchInternal(keyword) {
+    if (!searchIndexCache || !searchIndexCache.courses) {
+        searchResults = [];
+        searchState.page = 1;
+        renderSearchList();
+        return;
+    }
     const onlyReviewed = $('search-only-reviewed')?.checked;
-    const revIds = new Set(Object.keys(viewsSummary));
+    const lower = normalizeParens(keyword || '').toLowerCase();
+    const courses = searchIndexCache.courses;
+    const results = [];
 
-    let results;
-    if (!keyword && !onlyReviewed) {
-        results = [...coursesAll];
-    } else {
-        const lower = (keyword || '').toLowerCase();
-        results = coursesAll.filter(c => {
-            if (keyword && !(c.name?.toLowerCase().includes(lower) || c.teacher?.toLowerCase().includes(lower) || c.department?.toLowerCase().includes(lower))) return false;
-            if (onlyReviewed && !revIds.has(String(c.id))) return false;
-            return true;
+    for (const [key, info] of Object.entries(courses)) {
+        if (!info || typeof info !== 'object') continue;
+
+        if (keyword) {
+            const normKey = normalizeParens(key).toLowerCase();
+            if (!(normKey.includes(lower))) {
+                continue;
+            }
+        }
+        // onlyReviewed 已由选择的不同索引文件保证，但为防止 full_index 中 count=0 的记录，再过滤一次
+        if (onlyReviewed && (info.count || 0) === 0) continue;
+
+        results.push({
+            kcm: info.kcm,
+            jsm: info.jsm,
+            kkdw: info.kkdw,
+            count: info.count || 0,
+            avg: info.avg || 0,
+            sqid: info.sqid,    // 课程详情文件 ID（data/courses/{sqid}.json）
+            tid: info.tid       // 教师文件 ID（data/teachers/{tid}.json）
         });
     }
 
-    results.sort((a, b) => (viewsSummary[String(b.id)]?.c || 0) - (viewsSummary[String(a.id)]?.c || 0));
+    // 按点评数降序排列
+    results.sort((a, b) => b.count - a.count);
     searchResults = results;
     searchState.page = 1;
     renderSearchList();
@@ -730,12 +983,18 @@ function renderSearchList() {
     const frag = document.createDocumentFragment();
 
     paged.forEach(c => {
-        const vs = viewsSummary[String(c.id)];
-        const avg = vs ? vs.a : '-';
-        const count = vs ? vs.c : 0;
+        const avg = c.count > 0 ? parseFloat(c.avg).toFixed(1) : '-';
+        const count = c.count || 0;
         const div = document.createElement('div');
         div.className = 'search-result-item';
-        div.innerHTML = `<div class="search-result-info"><h3><a href="course.html?id=${c.id}">${c.name}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.teacher}）</span></a></h3><div class="search-result-dept">${c.department}</div></div><div class="search-result-score"><div class="search-score-num">${avg}</div><div class="search-score-count">${count}人评价</div></div>`;
+        div.innerHTML = `<div class="search-result-info">
+            <h3><a href="course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">${c.kcm}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.jsm}）</span></a></h3>
+            <div class="search-result-dept">${c.kkdw}</div>
+        </div>
+        <div class="search-result-score">
+            <div class="search-score-num">${avg}</div>
+            <div class="search-score-count">${count}人评价</div>
+        </div>`;
         frag.appendChild(div);
     });
 
@@ -747,33 +1006,129 @@ function renderSearchList() {
 
 // ==================== STATISTICS PAGE ====================
 async function initStatPage() {
-    if (!Object.keys(viewsSummary).length) {
-        viewsSummary = await loadStatic('views_summary', 'views_summary.json');
+    // 从 full_index.json 统计数据（无需 views_summary.json）
+    if (!fullIndexLoaded) {
+        try {
+            const res = await fetch(RAW_BASE + 'full_index.json');
+            if (res.ok) {
+                const data = await res.json();
+                let totalReview = 0, totalCourse = 0, reviewedCount = 0;
+                for (const info of Object.values(data.courses || {})) {
+                    if (!info || typeof info !== 'object') continue;
+                    totalCourse++;
+                    if (info.count > 0) reviewedCount++;
+                    totalReview += (info.count || 0);
+                }
+                const a = $('stat-review-total'), b = $('stat-course-total'), c = $('stat-course-reviewed');
+                if (a) a.textContent = totalReview;
+                if (b) b.textContent = totalCourse;
+                if (c) c.textContent = reviewedCount;
+                return;
+            }
+        } catch (e) { console.error('[initStatPage] Error:', e); }
     }
-    const totalReview = manifest ? manifest.total_reviews : 0;
-    const totalCourse = manifest ? manifest.total_courses : 0;
-    const reviewedCount = Object.keys(viewsSummary).length;
-
+    // fallback: 用已加载的 coursesAll 统计
+    let totalReview = 0, totalCourse = coursesAll.length, reviewedCount = 0;
+    for (const c of coursesAll) {
+        if (c.count > 0) reviewedCount++;
+        totalReview += (c.count || 0);
+    }
     const a = $('stat-review-total'), b = $('stat-course-total'), c = $('stat-course-reviewed');
     if (a) a.textContent = totalReview;
-    if (b) b.textContent = totalCourse;
+    if (b) b.textContent = totalCourse || (manifest ? manifest.total_courses : 0);
     if (c) c.textContent = reviewedCount;
 }
 
 // ==================== 新点评提交 ====================
+function getFormattedTime(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // 月份从0开始，需+1并补零
+  const day = String(date.getDate()).padStart(2, '0');
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
 
-async function submitReview(courseId, rating, comment, score, semester) {
-    //next commit
+  return `${year}/${month}/${day} ${hours}:${minutes}`;
 }
 
-// 课程搜索（从 course_index 中搜索）
+// UTF-8 安全的 Base64 编码（服务端 atob 后直接得合法 JSON，含中文也不乱码）
+function utf8ToBase64(str) {
+    const bytes = new TextEncoder().encode(str);
+    let binary = '';
+    for (let i = 0; i < bytes.length; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary);
+}
+
+async function submitReview(courseId, rating, comment, score) {
+    try {
+        // 提交点评
+        content = {
+                id: courseId,
+                rating: rating,
+                comment: comment,
+                created_at: getFormattedTime(),
+                score: score || null,
+            };
+        const res = await fetch(`${API_BASE}/comment`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                content: utf8ToBase64(JSON.stringify(content)),
+                encoding: "base64"
+            })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || '提交失败');
+        return { success: true, data };
+    } catch (e) {
+        const msg = e.message;
+        // 网络错误时给出友好提示
+        if (msg === 'Failed to fetch') {
+            return { success: false, error: '后端服务暂时不可用，请稍后重试' };
+        }
+        return { success: false, error: msg };
+    }
+}
+
+// 课程搜索列表（用于写点评时选择课程，从 with_comment_index.json 加载）
+let courseSearchList = [];
+
+// 加载课程搜索列表
+async function loadCourseSearchList() {
+    if (courseSearchList.length > 0) return;
+    const cached = getCache('course_search_list');
+    if (cached) { courseSearchList = cached; return; }
+    try {
+        const res = await fetch(RAW_BASE + 'with_comment_index.json');
+        if (!res.ok) throw new Error('not found');
+        const data = await res.json();
+        const arr = [];
+        for (const info of Object.values(data.courses || {})) {
+            if (!info || typeof info !== 'object') continue;
+            arr.push({
+                sqid: info.sqid,
+                name: info.kcm || '',
+                teacher: info.jsm || '',
+                dept: info.kkdw || ''
+            });
+        }
+        courseSearchList = arr;
+        setCache('course_search_list', courseSearchList);
+    } catch (e) {
+        console.error('[loadCourseSearchList] Error:', e);
+        courseSearchList = [];
+    }
+}
+
+// 课程搜索（从 courseSearchList 中搜索）
 function searchCoursesFromIndex(query) {
     if (!query || query.length < 1) return [];
     const lower = query.toLowerCase();
     const results = [];
-    for (const [cid, c] of Object.entries(courseIdx)) {
-        if (c[2].toLowerCase().includes(lower) || c[1].toLowerCase().includes(lower)) {
-            results.push({ id: parseInt(cid), dept: c[0], teacher: c[1], name: c[2] });
+    for (const c of courseSearchList) {
+        if (c.name.toLowerCase().includes(lower) || c.teacher.toLowerCase().includes(lower)) {
+            results.push(c);
         }
         if (results.length >= 20) break;
     }
@@ -820,13 +1175,15 @@ function showReviewForm(courseId, courseName) {
         </div>
         <div class="review-form-body" style="padding:20px 28px 28px;overflow:auto;flex:1;">
             ${courseSearchHtml}
-            <div style="margin-bottom:16px;">
-                <label style="display:block;margin-bottom:6px;font-weight:500;">推荐指数 <span style="color:#ff4d4f;">*</span></label>
-                <div id="rating-stars" style="display:flex;gap:8px;font-size:28px;cursor:pointer;">
-                    ${[1,2,3,4,5].map(i => `<span data-rating="${i}" style="color:#e8e8e8;transition:color 0.2s;">★</span>`).join('')}
-                </div>
-                <input type="hidden" id="review-rating-value" value="0">
-            </div>
+                <textarea id="review-comment" placeholder="请分享你对这门课的评价..." style="width:100%;min-height:160px;padding:10px 14px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;resize:vertical;line-height:1.7;font-family:inherit;box-sizing:border-box;">
+考核方式：
+
+授课质量与给分：
+
+点评人：
+
+上课学期：
+                </textarea>
             <div style="margin-bottom:16px;">
                 <label style="display:block;margin-bottom:6px;font-weight:500;">详细点评 <span style="color:#ff4d4f;">*</span></label>
                 <textarea id="review-comment" placeholder="请分享你对这门课的评价..." style="width:100%;min-height:160px;padding:10px 14px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;resize:vertical;line-height:1.7;font-family:inherit;box-sizing:border-box;"></textarea>
@@ -840,10 +1197,6 @@ function showReviewForm(courseId, courseName) {
                 <div style="flex:1;">
                     <label style="display:block;margin-bottom:6px;font-weight:500;">成绩（可选）</label>
                     <input id="review-score" placeholder="分数或等级，中期退课填W" style="width:100%;padding:8px 12px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;font-family:inherit;box-sizing:border-box;">
-                </div>
-                <div style="flex:1;">
-                    <label style="display:block;margin-bottom:6px;font-weight:500;">上课学期（可选）</label>
-                    <input id="review-semester" placeholder="" style="width:100%;padding:8px 12px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;font-family:inherit;box-sizing:border-box;">
                 </div>
             </div>
             <div style="display:flex;gap:12px;justify-content:flex-end;margin-top:8px;">
@@ -882,7 +1235,7 @@ function showReviewForm(courseId, courseName) {
                         div.innerHTML = `<span style="font-weight:500;">${r.name}</span><span style="color:#8a4abf;margin-left:4px;">（${r.teacher}）</span><span style="color:#999;margin-left:8px;">${r.dept}</span>`;
                         div.onmousedown = (e) => {
                             e.preventDefault();
-                            hiddenId.value = r.id;
+                            hiddenId.value = r.sqid;
                             searchInput.value = `${r.name}（${r.teacher}）`;
                             selectedDiv.textContent = `${r.name}（${r.teacher}）- ${r.dept}`;
                             selectedDiv.style.display = 'block';
@@ -930,7 +1283,6 @@ function showReviewForm(courseId, courseName) {
         const rating = parseInt(ratingInput.value);
         const comment = form.querySelector('#review-comment').value.trim();
         const score = form.querySelector('#review-score').value.trim();
-        const semester = form.querySelector('#review-semester').value.trim();
 
         if (!finalCourseId) {
             errEl.textContent = '请搜索并选择课程';
@@ -951,7 +1303,7 @@ function showReviewForm(courseId, courseName) {
         this.textContent = '提交中...';
         this.disabled = true;
 
-        const result = await submitReview(finalCourseId, rating, comment, score, semester);
+        const result = await submitReview(finalCourseId, rating, comment, score);
         if (result.success) {
             overlay.remove();
             alert('点评提交成功！');
@@ -974,12 +1326,8 @@ function bindReviewButtons() {
         btn1.href = 'javascript:void(0)';
         btn1.onclick = async (e) => {
             e.preventDefault();
-            // 首页：需要先加载 course_index
-            if (!courseIdxLoaded) {
-                const ciRaw = await loadStatic('course_index', 'course_index.json');
-                courseIdx = ciRaw || {};
-                courseIdxLoaded = true;
-            }
+            // 首页：加载课程搜索列表（with_comment_index.json）
+            await loadCourseSearchList();
             showReviewForm(null, '');
         };
     }
@@ -987,9 +1335,12 @@ function bindReviewButtons() {
         btn2.href = 'javascript:void(0)';
         btn2.onclick = (e) => {
             e.preventDefault();
-            const c = currentCourseDetail.course;
-            const cid = new URLSearchParams(location.search).get('id');
-            showReviewForm(parseInt(cid), `${c[2]}（${c[1]}）`);
+            const cd = currentCourseDetail;
+            // 兼容新旧数据格式
+            const name = cd.course_name || (cd.course && cd.course[2]) || '';
+            const teacher = cd.course_teacher || (cd.course && cd.course[1]) || '';
+            const cid = cd.sqid || new URLSearchParams(location.search).get('id') || '';
+            showReviewForm(parseInt(cid), `${name}（${teacher}）`);
         };
     }
 }

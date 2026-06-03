@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2476,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n课上要做题，有小班讨论，还有口述史，甚至还有假期作业。。。\n授课质量与给分：\n给分烂。。\n假期作业助教打分莫名其妙，小班讨论感觉也压分了，而且课上题目的评分标准也不明确\n\n上课学期：24-25春",
-            "created_at": "2025/09/16 20:34",
-            "modified_at": "2025/09/16 20:34",
-            "score": "B+",
-            "moderator_remark": null
-        },
-        {
-            "id": 478,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "何建宇老师毛概、习概讲课风格幽默。任务量比较少，给分还不错。无考试，有论文和小组展示。",
-            "created_at": "2024/07/21 15:47",
-            "modified_at": "2024/07/21 15:47",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 208,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "一次小班讨论+论文，给分好像不错。",
-            "created_at": "2024/07/21 13:30",
-            "modified_at": "2024/07/21 13:30",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2476,
+      "rating": 1,
+      "comment": "考核方式：\n课上要做题，有小班讨论，还有口述史，甚至还有假期作业。。。\n授课质量与给分：\n给分烂。。\n假期作业助教打分莫名其妙，小班讨论感觉也压分了，而且课上题目的评分标准也不明确\n\n上课学期：24-25春",
+      "created_at": "2025/09/16 20:34",
+      "score": "B+"
+    },
+    {
+      "id": 478,
+      "rating": 5,
+      "comment": "何建宇老师毛概、习概讲课风格幽默。任务量比较少，给分还不错。无考试，有论文和小组展示。",
+      "created_at": "2024/07/21 15:47",
+      "score": null
+    },
+    {
+      "id": 208,
+      "rating": 4,
+      "comment": "一次小班讨论+论文，给分好像不错。",
+      "created_at": "2024/07/21 13:30",
+      "score": null
+    }
+  ]
 }

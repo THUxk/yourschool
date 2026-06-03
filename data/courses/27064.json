@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2059,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "人好，给分客观公正，不push学生。\n你们不要再说王老师的课是水课了.jpg",
-            "created_at": "2025/05/16 14:33",
-            "modified_at": "2025/05/16 14:33",
-            "score": "",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2059,
+      "rating": 5,
+      "comment": "人好，给分客观公正，不push学生。\n你们不要再说王老师的课是水课了.jpg",
+      "created_at": "2025/05/16 14:33",
+      "score": ""
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2614,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期末+几次作业（删掉一次最低分）\n\n授课质量与给分：老师讲的很清楚，非常有耐心；作业还可以，两周留一次，删掉最低分（也就是给予更大的容错空间）；最后考试难度中规中矩，把课上定理和应用学明白，问题不大。\n\n点评人：大一工科生\n\n上课学期：春",
-            "created_at": "2025/12/13 12:55",
-            "modified_at": "2025/12/13 12:55",
-            "score": "4.0",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2614,
+      "rating": 5,
+      "comment": "考核方式：期末+几次作业（删掉一次最低分）\n\n授课质量与给分：老师讲的很清楚，非常有耐心；作业还可以，两周留一次，删掉最低分（也就是给予更大的容错空间）；最后考试难度中规中矩，把课上定理和应用学明白，问题不大。\n\n点评人：大一工科生\n\n上课学期：春",
+      "created_at": "2025/12/13 12:55",
+      "score": "4.0"
+    }
+  ]
 }

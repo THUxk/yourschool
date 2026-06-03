@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 977,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程很轻松 考核标准很简单 身体不太好的同学可以冲",
-            "created_at": "2024/07/21 18:36",
-            "modified_at": "2024/07/21 18:36",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 977,
+      "rating": 5,
+      "comment": "课程很轻松 考核标准很简单 身体不太好的同学可以冲",
+      "created_at": "2024/07/21 18:36",
+      "score": null
+    }
+  ]
 }
