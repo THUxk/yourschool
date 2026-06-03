@@ -1,0 +1,114 @@
+name: Merge new data into main
+
+on:
+  push:
+    branches: [data]
+    paths:
+      - 'new_*.json'
+
+jobs:
+  merge-json:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: data
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          # 获取本次推送中新增的 new_*.json 文件（仅新增，避免重复合并）
+          git diff --name-only HEAD~1 HEAD | grep '^new_.*\.json$' > changed_files.txt
+          echo "Changed files:"
+          cat changed_files.txt
+          # 将文件列表存入环境变量（供后续步骤使用）
+          echo "FILES=$(cat changed_files.txt | tr '\n' ' ')" >> $GITHUB_ENV
+
+      - name: Switch to main branch
+        run: |
+          git checkout main
+          git pull origin main
+
+      - name: Merge JSON files
+        run: |
+          # 初始化 all_data.json（如果不存在）
+          if [ ! -f all_data.json ]; then
+            echo "[]" > all_data.json
+          fi
+
+          # 遍历每个新增文件，将其内容追加到数组
+          for file in ${{ env.FILES }}; do
+            if [ -n "$file" ] && [ -f "$file" ]; then
+              echo "Merging $file"
+              # 使用 jq 将新对象添加到数组末尾
+              jq --argjson new_data "$(cat "$file")" '. += [$new_data]' all_data.json > temp.json
+              mv temp.json all_data.json
+            fi
+          done
+
+      - name: Commit and push to main
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add all_data.json
+          git commit -m "chore: auto-merge new data from data branch [skip ci]"
+          git push origin main
+
+      - name: Record merge to log.txt
+        run: |
+          git checkout main
+          # 记录本次整合信息（时间、文件名、提交消息）
+          echo "## $({date +%Y-%m-%d\ %H:%M:%S}) - Merged: ${{ env.FILES }} - Message: ${{ github.event.head_commit.message }}" >> log.txt
+          # 显示当前 log.txt 内容
+          echo "Log content:"
+          cat log.txt
+
+      - name: Clean up merged JSON files on data branch
+        run: |
+          git checkout data
+          # 删除已成功合并的 JSON 文件
+          rm -f new_*.json
+          # 记录删除操作
+          echo "## $({date +%Y-%m-%d\ %H:%M:%S}) - Cleaned: removed new_*.json" >> log.txt
+          # 显示当前 data 分支上的 JSON 文件（应已清空）
+          echo "Remaining files on data branch:"
+          ls -la new_*.json 2>/dev/null || echo "(none)"
+
+      - name: Reset data branch commit history
+        run: |
+          # 回退到上次整合前的状态，清除本次 commit
+          git checkout data
+          # 回退本次 commit，保留数据但清除 commit
+          git reset --soft HEAD~1 2>/dev/null || true
+          # 强制回退所有 commit（保留 JSON 文件以便下次重新合并）
+          git reset --hard HEAD~1 2>/dev/null || true
+          # 清除本次 commit 的 reflog 记录
+          git reflog expire --expire=now --all
+          # 强制 GC 清理无用的对象
+          git gc --prune=now --aggressive
+          # 记录重置操作
+          echo "## $({date +%Y-%m-%d\ %H:%M:%S}) - Reset: cleared ${{ github.event.head_commit.id }}" >> log.txt
+          # 显示当前 data 分支的 commit 历史（应已清空）
+          echo "Data branch commit history:"
+          git log --oneline -5 || echo "(none)"
+          # 显示当前 data 分支上的 JSON 文件
+          echo "Remaining JSON files:"
+          ls -la new_*.json 2>/dev/null || echo "(none)"
+
+      - name: Update log.txt with final state
+        run: |
+          git checkout main
+          # 显示最终状态
+          echo "=== Final state ==="
+          echo "log.txt:"
+          cat log.txt
+          echo ""
+          echo "JSON files on data branch:"
+          ls -la new_*.json 2>/dev/null || echo "(none)"
+          echo ""
+          echo "Data branch commit history:"
+          git log --oneline -5 || echo "(none)"
