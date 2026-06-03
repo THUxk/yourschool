@@ -762,8 +762,25 @@ async function initStatPage() {
 
 // ==================== 新点评提交 ====================
 
-async function submitReview(courseId, rating, comment, score, semester) {
-    //next commit
+async function submitReview(courseId, rating, comment, score) {
+    const payload = {
+        id: courseId,
+        rating: rating,
+        comment: comment,
+        created_at: new Date().toISOString().slice(0, 19).replace('T', ' '),
+        score: score,
+    };
+    const encoded = btoa(JSON.stringify(payload));
+    const res = await fetch('https://api.yourschool.cc.cd/comment', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            content: encoded,
+            encoding: 'base64',
+            message: 'Add file via curl',
+        }),
+    });
+    return res.json();
 }
 
 // 课程搜索（从 course_index 中搜索）
@@ -821,15 +838,16 @@ function showReviewForm(courseId, courseName) {
         <div class="review-form-body" style="padding:20px 28px 28px;overflow:auto;flex:1;">
             ${courseSearchHtml}
             <div style="margin-bottom:16px;">
-                <label style="display:block;margin-bottom:6px;font-weight:500;">推荐指数 <span style="color:#ff4d4f;">*</span></label>
-                <div id="rating-stars" style="display:flex;gap:8px;font-size:28px;cursor:pointer;">
-                    ${[1,2,3,4,5].map(i => `<span data-rating="${i}" style="color:#e8e8e8;transition:color 0.2s;">★</span>`).join('')}
-                </div>
-                <input type="hidden" id="review-rating-value" value="0">
-            </div>
-            <div style="margin-bottom:16px;">
                 <label style="display:block;margin-bottom:6px;font-weight:500;">详细点评 <span style="color:#ff4d4f;">*</span></label>
-                <textarea id="review-comment" placeholder="请分享你对这门课的评价..." style="width:100%;min-height:160px;padding:10px 14px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;resize:vertical;line-height:1.7;font-family:inherit;box-sizing:border-box;"></textarea>
+                <textarea id="review-comment" placeholder="请分享你对这门课的评价..." style="width:100%;min-height:160px;padding:10px 14px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;resize:vertical;line-height:1.7;font-family:inherit;box-sizing:border-box;">
+考核方式：
+
+授课质量与给分：
+
+点评人：
+
+上课学期：
+                </textarea>
                 <div style="margin-top:4px;color:#999;font-size:12px;line-height:1.6;">
                     理想的点评应当富有事实且对课程有全面的描述。比如课讲得好但是考核很严格，或者作业多但给分很高。<br>
                     二者都说出来更有利于同学们做出全面的选择和判断。<br>
@@ -840,10 +858,6 @@ function showReviewForm(courseId, courseName) {
                 <div style="flex:1;">
                     <label style="display:block;margin-bottom:6px;font-weight:500;">成绩（可选）</label>
                     <input id="review-score" placeholder="分数或等级，中期退课填W" style="width:100%;padding:8px 12px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;font-family:inherit;box-sizing:border-box;">
-                </div>
-                <div style="flex:1;">
-                    <label style="display:block;margin-bottom:6px;font-weight:500;">上课学期（可选）</label>
-                    <input id="review-semester" placeholder="" style="width:100%;padding:8px 12px;border:1px solid #d9d9d9;border-radius:6px;font-size:14px;font-family:inherit;box-sizing:border-box;">
                 </div>
             </div>
             <div style="display:flex;gap:12px;justify-content:flex-end;margin-top:8px;">
@@ -951,7 +965,7 @@ function showReviewForm(courseId, courseName) {
         this.textContent = '提交中...';
         this.disabled = true;
 
-        const result = await submitReview(finalCourseId, rating, comment, score, semester);
+        const result = await submitReview(finalCourseId, rating, comment, score);
         if (result.success) {
             overlay.remove();
             alert('点评提交成功！');
