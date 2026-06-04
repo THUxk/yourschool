@@ -999,7 +999,7 @@ const Controller = {
     }
   },
 
-  // 搜索课程（用于新点评页面）
+  // 搜索课程（用于新点评页面，搜索字段与 doSearchInternal 一致，保留下拉交互限制）
   searchCoursesFromIndex(query) {
     if (!query || query.length < 1) return [];
     if (!State.searchIndexCache?.courses) return [];
@@ -1011,18 +1011,18 @@ const Controller = {
     for (const [key, info] of Object.entries(courses)) {
       if (!info || typeof info !== "object") continue;
 
-      const searchText = Utils.normalizeParens(
-        `${info.kcm}（${info.jsm}）`,
-      ).toLowerCase();
-      if (searchText.includes(lower)) {
-        results.push({
-          sqid: info.sqid,
-          name: info.kcm || "",
-          teacher: info.jsm || "",
-          dept: info.kkdw || "",
-          count: info.count || 0,
-        });
-      }
+      // 搜索字段与搜索页一致：匹配索引 key
+      const normKey = Utils.normalizeParens(key).toLowerCase();
+      if (!normKey.includes(lower)) continue;
+
+      results.push({
+        sqid: info.sqid,
+        name: info.kcm || "",
+        teacher: info.jsm || "",
+        dept: info.kkdw || "",
+        count: info.count || 0,
+      });
+
       if (results.length >= 20) break;
     }
 
@@ -1394,8 +1394,8 @@ function initNewReviewPage() {
     const dropdown = Utils.$("review-course-dropdown");
     const selectedDiv = Utils.$("review-course-selected");
 
-    // 加载搜索索引
-    DataLoader.loadSearchIndex(true).catch((err) => {
+    // 加载搜索索引（与搜索页一致，默认加载全量课程索引）
+    DataLoader.loadSearchIndex(false).catch((err) => {
       console.error("Failed to load search index:", err);
       showError("课程列表加载失败，请刷新重试");
     });
