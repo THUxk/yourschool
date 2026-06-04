@@ -106,7 +106,7 @@ const DataLoader = {
   // 加载 Manifest
   async loadManifest() {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "manifest.json");
+      const res = await fetch(CONFIG.RAW_BASE + "manifest.json", { credentials: "omit" });
       State.manifest = await res.json();
     } catch (e) {
       console.error("Manifest load error", e);
@@ -116,7 +116,7 @@ const DataLoader = {
   // 加载静态文件
   async loadStatic(key, filename, expectedType = null) {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename);
+      const res = await fetch(CONFIG.RAW_BASE + filename, { credentials: "omit" });
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
       const data = await res.json();
       return data;
@@ -135,7 +135,7 @@ const DataLoader = {
       ? "with_comment_index.json"
       : "full_index.json";
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename);
+      const res = await fetch(CONFIG.RAW_BASE + filename, { credentials: "omit" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       const arr = [];
@@ -168,7 +168,7 @@ const DataLoader = {
       ? "with_comment_index.json"
       : "full_index.json";
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename);
+      const res = await fetch(CONFIG.RAW_BASE + filename, { credentials: "omit" });
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
       State.searchIndexCache = await res.json();
     } catch (e) {
@@ -184,7 +184,7 @@ const DataLoader = {
 
     // 加载课程数据
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "courses/" + sqid + ".json");
+      const res = await fetch(CONFIG.RAW_BASE + "courses/" + sqid + ".json", { credentials: "omit" });
       if (!res.ok) throw new Error("not found");
       courseData = await res.json();
     } catch (e) {
@@ -196,6 +196,7 @@ const DataLoader = {
       try {
         const res = await fetch(
           CONFIG.RAW_BASE + "teachers/" + tid + ".json",
+          { credentials: "omit" },
         );
         if (res.ok) {
           teacherData = await res.json();
@@ -591,7 +592,7 @@ const Controller = {
   async initStatPage() {
     if (!State.fullIndexLoaded) {
       try {
-        const res = await fetch(CONFIG.RAW_BASE + "full_index.json");
+        const res = await fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" });
         if (res.ok) {
           const data = await res.json();
           let totalReview = 0,
@@ -713,7 +714,7 @@ const Controller = {
   // 从索引获取院系信息
   async fetchDeptFromIndex(sqid) {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json");
+      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", { credentials: "omit" });
       if (res.ok) {
         const ciRaw = await res.json();
         if (ciRaw?.courses) {
