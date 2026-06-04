@@ -593,28 +593,26 @@ const Controller = {
     Renderer.renderCourseList();
   },
 
-  // 初始化统计页
+  // 初始化统计页（始终直接请求 full_index.json，不受 fullIndexLoaded 污染）
   async initStatPage() {
-    if (!State.fullIndexLoaded) {
-      try {
-        const res = await fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" });
-        if (res.ok) {
-          const data = await res.json();
-          let totalReview = 0,
-            totalCourse = 0,
-            reviewedCount = 0;
-          for (const info of Object.values(data.courses || {})) {
-            if (!info || typeof info !== "object") continue;
-            totalCourse++;
-            if (info.count > 0) reviewedCount++;
-            totalReview += info.count || 0;
-          }
-          this.updateStatElements(totalReview, totalCourse, reviewedCount);
-          return;
+    try {
+      const res = await fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" });
+      if (res.ok) {
+        const data = await res.json();
+        let totalReview = 0,
+          totalCourse = 0,
+          reviewedCount = 0;
+        for (const info of Object.values(data.courses || {})) {
+          if (!info || typeof info !== "object") continue;
+          totalCourse++;
+          if (info.count > 0) reviewedCount++;
+          totalReview += info.count || 0;
         }
-      } catch (e) {
-        console.error("[initStatPage] Error:", e);
+        this.updateStatElements(totalReview, totalCourse, reviewedCount);
+        return;
       }
+    } catch (e) {
+      console.error("[initStatPage] Error:", e);
     }
 
     // fallback: 用已加载的 coursesAll 统计
