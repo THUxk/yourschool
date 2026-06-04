@@ -1,97 +1,49 @@
 {
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3355,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "讲课没有逻辑、意义不明、催眠、但有考勤不得不去。\n还好任务量不大，给分应该还行。建议带耳塞上课。\n\n\n点评人：H\n\n上课学期：25秋",
-            "created_at": "2026/05/27 09:46",
-            "modified_at": "2026/05/27 09:46",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3160,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "课堂小测验及课堂表现10%\n课堂演讲/演讲稿10%\n小班讨论（2次）30%\n期末考试50%\n\nK\n\n个人认为讲课水平一般，着重介绍马哲但对政治经济学基本没有讲述，且常进行莫名其妙的人道主义的生硬的升华。给分应该不错。\n适合完全不愿意了解马主义或者不需要通过课堂讲授了解马主义的同学选。",
-            "created_at": "2026/03/04 15:56",
-            "modified_at": "2026/03/04 15:56",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1121,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n考试\n授课质量与给分：\n讲得很深刻，树洞上有往年题可以参考\n上课学期：\n2023秋",
-            "created_at": "2024/07/23 18:45",
-            "modified_at": "2024/07/23 18:45",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 290,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "艾老师讲前八周的马克思主义哲学，后八周蔡老师讲马克思政治经济学。有两次上课小测，第五周前写一篇小作文，可报名组队进行小组报告来替换，期末无论文，为随堂开卷考试，三道大题选两个作答。建议上课积极互动，考前看PPT。上课回答问题和pre均有加分。",
-            "created_at": "2024/07/21 14:01",
-            "modified_at": "2024/07/21 14:01",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 65,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师帅，推荐",
-            "created_at": "2024/07/21 11:49",
-            "modified_at": "2024/07/21 11:49",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 11,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "艾老师讲课生动形象，前半学期授课内容偏哲学方向，充满了辩证思想；后半学期往年可能会换为陈梦老师进行授课，讲授马克思主义经济学部分的知识。艾老师与陈老师的课堂都非常吸引人，每次上课会提出一些开放性的问题供大家自由讨论、自由发言；偶尔会有小测作为签到。课程任务是进行课堂展示。\n\n期末考试采用开卷形式，可以带纸质资料，由若干道主观题构成",
-            "created_at": "2024/07/21 10:49",
-            "modified_at": "2024/07/21 10:49",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3355,
+      "rating": 3,
+      "comment": "讲课没有逻辑、意义不明、催眠、但有考勤不得不去。\n还好任务量不大，给分应该还行。建议带耳塞上课。\n\n\n点评人：H\n\n上课学期：25秋",
+      "created_at": "2026/05/27 09:46",
+      "score": null
+    },
+    {
+      "id": 3160,
+      "rating": 3,
+      "comment": "课堂小测验及课堂表现10%\n课堂演讲/演讲稿10%\n小班讨论（2次）30%\n期末考试50%\n\nK\n\n个人认为讲课水平一般，着重介绍马哲但对政治经济学基本没有讲述，且常进行莫名其妙的人道主义的生硬的升华。给分应该不错。\n适合完全不愿意了解马主义或者不需要通过课堂讲授了解马主义的同学选。",
+      "created_at": "2026/03/04 15:56",
+      "score": "4.0"
+    },
+    {
+      "id": 1121,
+      "rating": 5,
+      "comment": "考核方式：\n考试\n授课质量与给分：\n讲得很深刻，树洞上有往年题可以参考\n上课学期：\n2023秋",
+      "created_at": "2024/07/23 18:45",
+      "score": null
+    },
+    {
+      "id": 290,
+      "rating": 5,
+      "comment": "艾老师讲前八周的马克思主义哲学，后八周蔡老师讲马克思政治经济学。有两次上课小测，第五周前写一篇小作文，可报名组队进行小组报告来替换，期末无论文，为随堂开卷考试，三道大题选两个作答。建议上课积极互动，考前看PPT。上课回答问题和pre均有加分。",
+      "created_at": "2024/07/21 14:01",
+      "score": null
+    },
+    {
+      "id": 65,
+      "rating": 5,
+      "comment": "老师帅，推荐",
+      "created_at": "2024/07/21 11:49",
+      "score": null
+    },
+    {
+      "id": 11,
+      "rating": 5,
+      "comment": "艾老师讲课生动形象，前半学期授课内容偏哲学方向，充满了辩证思想；后半学期往年可能会换为陈梦老师进行授课，讲授马克思主义经济学部分的知识。艾老师与陈老师的课堂都非常吸引人，每次上课会提出一些开放性的问题供大家自由讨论、自由发言；偶尔会有小测作为签到。课程任务是进行课堂展示。\n\n期末考试采用开卷形式，可以带纸质资料，由若干道主观题构成",
+      "created_at": "2024/07/21 10:49",
+      "score": null
+    }
+  ]
 }

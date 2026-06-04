@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 112,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n作业实验各10%，期中（小测）30%，期末50%\n\n授课质量与给分：\n物理思维严谨，课堂气氛活跃；老师讲的挺好的，而且也很耐心回答同学问题，而且小学期也就这一个老师，所以小学期想冲理力就直接冲",
-            "created_at": "2024/07/21 12:43",
-            "modified_at": "2024/07/21 12:43",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 112,
+      "rating": 5,
+      "comment": "考核方式：\n作业实验各10%，期中（小测）30%，期末50%\n\n授课质量与给分：\n物理思维严谨，课堂气氛活跃；老师讲的挺好的，而且也很耐心回答同学问题，而且小学期也就这一个老师，所以小学期想冲理力就直接冲",
+      "created_at": "2024/07/21 12:43",
+      "score": null
+    }
+  ]
 }

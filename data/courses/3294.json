@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 933,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "每周或者每两周读一部戏剧，老师主要讲作品的背景（包括作者、故事起源、所处时代的评价等），然后给一些引导问题让我们小组讨论",
-            "created_at": "2024/07/21 18:24",
-            "modified_at": "2024/07/21 18:24",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 933,
+      "rating": 5,
+      "comment": "每周或者每两周读一部戏剧，老师主要讲作品的背景（包括作者、故事起源、所处时代的评价等），然后给一些引导问题让我们小组讨论",
+      "created_at": "2024/07/21 18:24",
+      "score": null
+    }
+  ]
 }

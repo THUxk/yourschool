@@ -1,82 +1,42 @@
 {
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2421,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：忘了\n\n授课质量与给分：老师上课很有激情，课件十分详尽，但是老师疑似身负知识的诅咒，不太能理解没学过化竞的同学的疑惑点，总之很不错，可以推荐\n\n点评人：P\n\n上课学期：2025春",
-            "created_at": "2025/07/07 21:13",
-            "modified_at": "2025/07/07 21:13",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2182,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：无签到 作业30期中25期末45 这学期的期中期末都挺简单的\n\n授课质量与给分：个人挺喜欢他的讲课风格的，讲得很清楚，考试重点也说得很明白，PPT非常之详细，平时作业有一定难度但上课认真听了就基本能做出来。上课有很多不计分的练习题，个人挺喜欢的，可以及时巩固上课学的东西，也可以用来在预习的时候检验预习成果\n\n点评人：T\n\n上课学期：",
-            "created_at": "2025/06/11 13:50",
-            "modified_at": "2025/06/11 13:50",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 943,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "强推，给分很好",
-            "created_at": "2024/07/21 18:26",
-            "modified_at": "2024/07/21 18:26",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 942,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "李必杰老师是照着自己的PPT讲的，然后平时作业有些难，期中考试较难，期末考试较简单。老师设置的答疑环节很好，助教十分负责，上课体验蛮有收获",
-            "created_at": "2024/07/21 18:26",
-            "modified_at": "2024/07/21 18:26",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 119,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "上课速度较快不容易跟上，需要课后多花工夫，老师自己出卷，期中期末题型基本相同。学有机学好机理很重要，不然就会像我一样临近考试背了好多反应，一考试就会云里雾里。",
-            "created_at": "2024/07/21 12:49",
-            "modified_at": "2024/07/21 12:49",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2421,
+      "rating": 5,
+      "comment": "考核方式：忘了\n\n授课质量与给分：老师上课很有激情，课件十分详尽，但是老师疑似身负知识的诅咒，不太能理解没学过化竞的同学的疑惑点，总之很不错，可以推荐\n\n点评人：P\n\n上课学期：2025春",
+      "created_at": "2025/07/07 21:13",
+      "score": "A"
+    },
+    {
+      "id": 2182,
+      "rating": 5,
+      "comment": "考核方式：无签到 作业30期中25期末45 这学期的期中期末都挺简单的\n\n授课质量与给分：个人挺喜欢他的讲课风格的，讲得很清楚，考试重点也说得很明白，PPT非常之详细，平时作业有一定难度但上课认真听了就基本能做出来。上课有很多不计分的练习题，个人挺喜欢的，可以及时巩固上课学的东西，也可以用来在预习的时候检验预习成果\n\n点评人：T\n\n上课学期：",
+      "created_at": "2025/06/11 13:50",
+      "score": null
+    },
+    {
+      "id": 943,
+      "rating": 5,
+      "comment": "强推，给分很好",
+      "created_at": "2024/07/21 18:26",
+      "score": null
+    },
+    {
+      "id": 942,
+      "rating": 4,
+      "comment": "李必杰老师是照着自己的PPT讲的，然后平时作业有些难，期中考试较难，期末考试较简单。老师设置的答疑环节很好，助教十分负责，上课体验蛮有收获",
+      "created_at": "2024/07/21 18:26",
+      "score": null
+    },
+    {
+      "id": 119,
+      "rating": 3,
+      "comment": "上课速度较快不容易跟上，需要课后多花工夫，老师自己出卷，期中期末题型基本相同。学有机学好机理很重要，不然就会像我一样临近考试背了好多反应，一考试就会云里雾里。",
+      "created_at": "2024/07/21 12:49",
+      "score": null
+    }
+  ]
 }

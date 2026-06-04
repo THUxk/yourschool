@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3400,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：分组做小项目进行汇报\n\n授课质量与给分：看名字选的小众神秘课程，但是意外的超级不赖\n每次上课可以获得大量小零食\n同组的计科大佬很强因此项目压力不大\n给到夯\n哦对了结课还能吃到印有神秘合影的小蛋糕，好吃\n点评人：ano2\n\n上课学期：2025-2026春",
-            "created_at": "2026/05/30 18:03",
-            "modified_at": "2026/05/30 18:03",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2610,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式\n小组为单位做一个医工结合小项目，小组展示\n有机会参加医工结合大赛\n授课质量与给分：\n都挺好的，有一定的任务量，小组任务为主\n点评人：\n\n上课学期：\n2024秋",
-            "created_at": "2025/12/13 11:06",
-            "modified_at": "2025/12/13 11:06",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3400,
+      "rating": 5,
+      "comment": "考核方式：分组做小项目进行汇报\n\n授课质量与给分：看名字选的小众神秘课程，但是意外的超级不赖\n每次上课可以获得大量小零食\n同组的计科大佬很强因此项目压力不大\n给到夯\n哦对了结课还能吃到印有神秘合影的小蛋糕，好吃\n点评人：ano2\n\n上课学期：2025-2026春",
+      "created_at": "2026/05/30 18:03",
+      "score": null
+    },
+    {
+      "id": 2610,
+      "rating": 5,
+      "comment": "考核方式\n小组为单位做一个医工结合小项目，小组展示\n有机会参加医工结合大赛\n授课质量与给分：\n都挺好的，有一定的任务量，小组任务为主\n点评人：\n\n上课学期：\n2024秋",
+      "created_at": "2025/12/13 11:06",
+      "score": "A-"
+    }
+  ]
 }

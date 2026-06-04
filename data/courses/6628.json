@@ -1,157 +1,77 @@
 {
-    "count": 10,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1564,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "不上朱老师的思政，那损失可太大辣！神，冲就完辣！",
-            "created_at": "2024/12/25 14:58",
-            "modified_at": "2024/12/25 14:58",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 704,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "分几个专题，学生pre+老师讲，有助教带着。老师讲课水平挺高，人也很好，还会邀请学生吃饭或喝咖啡。",
-            "created_at": "2024/07/21 17:17",
-            "modified_at": "2024/07/21 17:17",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 703,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "大班+小班讨论一次+读书会一次，上课围绕六个专题，pre给分是小组共同分➕个人分。期末论文占分较多",
-            "created_at": "2024/07/21 17:17",
-            "modified_at": "2024/07/21 17:17",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 702,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "大致内容通过学生的PRE和每个专题交替进行\n上课体验超好，能看视频，还有歌谈会等等\n考频方式很可爱哈哈哈",
-            "created_at": "2024/07/21 17:17",
-            "modified_at": "2024/07/21 17:17",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 400,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n小组pre40%+读书报告20%+随堂签到10%+期末报告30%。\n授课质量与给分：\n结合时事，上课比较有趣，涵盖的内容全面。在小组pre前几周忙一些。",
-            "created_at": "2024/07/21 14:51",
-            "modified_at": "2024/07/21 14:51",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 311,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：课程展示+小班讨论+作业+小测+期末随堂考试\n\n特点：任务量适中，课程比较有趣，课堂气氛活跃。分专题小组pre，最后要做一个3000字论文。",
-            "created_at": "2024/07/21 14:08",
-            "modified_at": "2024/07/21 14:08",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 265,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "朱老师讲课喜欢和大家用雨课堂进行互动，课堂气氛很好，作业有观看视频写作文，观看mooc课件并在线上讨论区进行讨论或提问，另外可以自愿报名课前演讲。",
-            "created_at": "2024/07/21 13:49",
-            "modified_at": "2024/07/21 13:49",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 147,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "通常自己讲课，与同学互动不多，讲课风格比较传统；学期中会有3-4周小班讨论，需要抢2次，大班每节课有两个课堂展示（也要抢），有慕课任务，期末随堂测验（二选一写论文）；分数比例大致为慕课20%，小班讨论20%，作业与期末60%；给分正常。",
-            "created_at": "2024/07/21 13:06",
-            "modified_at": "2024/07/21 13:06",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 82,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "总体任务量较重，包括慕课、大班教学与小班讨论，会有若干次同学互评、针对给定话题的作业，期末考试闭卷，可以通过报名课前演讲加分。",
-            "created_at": "2024/07/21 12:16",
-            "modified_at": "2024/07/21 12:16",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 35,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：读书报告+课堂展示+期末论文\n\n特点：任务量适中，课程比较有趣，课堂气氛活跃。课程作业形式多样，为期中的读书报告，课中的小组课堂展示（选题自选，先到先得），期末的论文，没有考试。",
-            "created_at": "2024/07/21 11:03",
-            "modified_at": "2024/07/21 11:03",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 10,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1564,
+      "rating": 5,
+      "comment": "不上朱老师的思政，那损失可太大辣！神，冲就完辣！",
+      "created_at": "2024/12/25 14:58",
+      "score": null
+    },
+    {
+      "id": 704,
+      "rating": 5,
+      "comment": "分几个专题，学生pre+老师讲，有助教带着。老师讲课水平挺高，人也很好，还会邀请学生吃饭或喝咖啡。",
+      "created_at": "2024/07/21 17:17",
+      "score": null
+    },
+    {
+      "id": 703,
+      "rating": 5,
+      "comment": "大班+小班讨论一次+读书会一次，上课围绕六个专题，pre给分是小组共同分➕个人分。期末论文占分较多",
+      "created_at": "2024/07/21 17:17",
+      "score": null
+    },
+    {
+      "id": 702,
+      "rating": 5,
+      "comment": "大致内容通过学生的PRE和每个专题交替进行\n上课体验超好，能看视频，还有歌谈会等等\n考频方式很可爱哈哈哈",
+      "created_at": "2024/07/21 17:17",
+      "score": null
+    },
+    {
+      "id": 400,
+      "rating": 4,
+      "comment": "考核方式：\n小组pre40%+读书报告20%+随堂签到10%+期末报告30%。\n授课质量与给分：\n结合时事，上课比较有趣，涵盖的内容全面。在小组pre前几周忙一些。",
+      "created_at": "2024/07/21 14:51",
+      "score": null
+    },
+    {
+      "id": 311,
+      "rating": 3,
+      "comment": "考核方式：课程展示+小班讨论+作业+小测+期末随堂考试\n\n特点：任务量适中，课程比较有趣，课堂气氛活跃。分专题小组pre，最后要做一个3000字论文。",
+      "created_at": "2024/07/21 14:08",
+      "score": null
+    },
+    {
+      "id": 265,
+      "rating": 4,
+      "comment": "朱老师讲课喜欢和大家用雨课堂进行互动，课堂气氛很好，作业有观看视频写作文，观看mooc课件并在线上讨论区进行讨论或提问，另外可以自愿报名课前演讲。",
+      "created_at": "2024/07/21 13:49",
+      "score": null
+    },
+    {
+      "id": 147,
+      "rating": 4,
+      "comment": "通常自己讲课，与同学互动不多，讲课风格比较传统；学期中会有3-4周小班讨论，需要抢2次，大班每节课有两个课堂展示（也要抢），有慕课任务，期末随堂测验（二选一写论文）；分数比例大致为慕课20%，小班讨论20%，作业与期末60%；给分正常。",
+      "created_at": "2024/07/21 13:06",
+      "score": null
+    },
+    {
+      "id": 82,
+      "rating": 3,
+      "comment": "总体任务量较重，包括慕课、大班教学与小班讨论，会有若干次同学互评、针对给定话题的作业，期末考试闭卷，可以通过报名课前演讲加分。",
+      "created_at": "2024/07/21 12:16",
+      "score": null
+    },
+    {
+      "id": 35,
+      "rating": 4,
+      "comment": "考核方式：读书报告+课堂展示+期末论文\n\n特点：任务量适中，课程比较有趣，课堂气氛活跃。课程作业形式多样，为期中的读书报告，课中的小组课堂展示（选题自选，先到先得），期末的论文，没有考试。",
+      "created_at": "2024/07/21 11:03",
+      "score": null
+    }
+  ]
 }

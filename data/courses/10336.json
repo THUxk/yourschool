@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3048,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\nOj小测期末\n授课质量与给分：\n清朝ppt，课程质量不是很高，重点是考前自己一定要极其认真认真复习，突击\n点评人：\nS\n上课学期：大二上",
-            "created_at": "2026/02/19 13:23",
-            "modified_at": "2026/02/19 13:23",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 2789,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：30%四次oj+20%两次电子开卷小测+50%闭卷期末\n\n授课质量与给分：\n十几年前的ppt的reader，只不过这课除了念ppt好像也没什么别的讲法了，看看ppt上的动画还能有点用。小测纯水，但期末题量很大。\n\n点评人：硒代矽酸锡\n\n上课学期：2025-2026秋",
-            "created_at": "2026/01/30 18:14",
-            "modified_at": "2026/01/30 18:14",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1144,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：oj + 小测 + 期末\n\n授课质量与给分：讲的很烂，PPT经常有错，不如看网课。考试简单，4.0很容易（小测别寄就行）\n\n上课学期：2023秋",
-            "created_at": "2024/07/23 23:44",
-            "modified_at": "2024/07/23 23:44",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3048,
+      "rating": 4,
+      "comment": "考核方式：\nOj小测期末\n授课质量与给分：\n清朝ppt，课程质量不是很高，重点是考前自己一定要极其认真认真复习，突击\n点评人：\nS\n上课学期：大二上",
+      "created_at": "2026/02/19 13:23",
+      "score": "A-"
+    },
+    {
+      "id": 2789,
+      "rating": 4,
+      "comment": "考核方式：30%四次oj+20%两次电子开卷小测+50%闭卷期末\n\n授课质量与给分：\n十几年前的ppt的reader，只不过这课除了念ppt好像也没什么别的讲法了，看看ppt上的动画还能有点用。小测纯水，但期末题量很大。\n\n点评人：硒代矽酸锡\n\n上课学期：2025-2026秋",
+      "created_at": "2026/01/30 18:14",
+      "score": null
+    },
+    {
+      "id": 1144,
+      "rating": 3,
+      "comment": "考核方式：oj + 小测 + 期末\n\n授课质量与给分：讲的很烂，PPT经常有错，不如看网课。考试简单，4.0很容易（小测别寄就行）\n\n上课学期：2023秋",
+      "created_at": "2024/07/23 23:44",
+      "score": "A"
+    }
+  ]
 }

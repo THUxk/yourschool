@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2050,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n作业30 期中35 期末35\n授课质量与给分：\n老师伟大无需多言，讲的很清楚，考试也很照顾同学\n会给同学点冰淇淋吃！\n\n上课学期：24-25春",
-            "created_at": "2025/05/09 19:42",
-            "modified_at": "2025/05/09 19:42",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1197,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n作业30%+期中35%+期末35%\n授课质量与给分：\n授课质量极高，给分极好，上过的都懂，不需要再多说了\n点评人：\n匿名\n上课学期：春季学期",
-            "created_at": "2024/07/24 12:55",
-            "modified_at": "2024/07/24 12:55",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2050,
+      "rating": 5,
+      "comment": "考核方式：\n作业30 期中35 期末35\n授课质量与给分：\n老师伟大无需多言，讲的很清楚，考试也很照顾同学\n会给同学点冰淇淋吃！\n\n上课学期：24-25春",
+      "created_at": "2025/05/09 19:42",
+      "score": null
+    },
+    {
+      "id": 1197,
+      "rating": 5,
+      "comment": "考核方式：\n作业30%+期中35%+期末35%\n授课质量与给分：\n授课质量极高，给分极好，上过的都懂，不需要再多说了\n点评人：\n匿名\n上课学期：春季学期",
+      "created_at": "2024/07/24 12:55",
+      "score": "A"
+    }
+  ]
 }

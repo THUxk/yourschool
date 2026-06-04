@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 180,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "对实验重点讲解比较到位，批改作业及时。",
-            "created_at": "2024/07/21 13:20",
-            "modified_at": "2024/07/21 13:20",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 180,
+      "rating": 5,
+      "comment": "对实验重点讲解比较到位，批改作业及时。",
+      "created_at": "2024/07/21 13:20",
+      "score": null
+    }
+  ]
 }

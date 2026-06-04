@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1291,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：50hw+15mid+35course project\n\n授课质量：好玩，如果以后想从事深度强化学习方向建议学习这门课程。很多研究生也上这课，大作业记得找个大腿抱一下，有好多项目是研究生拿自己paper的工作来做的。\n\n上课学期：24春",
-            "created_at": "2024/08/11 19:03",
-            "modified_at": "2024/08/11 19:03",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1291,
+      "rating": 5,
+      "comment": "考核方式：50hw+15mid+35course project\n\n授课质量：好玩，如果以后想从事深度强化学习方向建议学习这门课程。很多研究生也上这课，大作业记得找个大腿抱一下，有好多项目是研究生拿自己paper的工作来做的。\n\n上课学期：24春",
+      "created_at": "2024/08/11 19:03",
+      "score": "A-"
+    }
+  ]
 }

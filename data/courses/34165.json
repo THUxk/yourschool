@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2677,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：专项：有效区投壶和定点投壶\n\n授课质量与给分：大二上的，老师真的是大善人，特别特别好，拯救了我的体育。\n\n点评人：\n\n上课学期：25-26秋",
-            "created_at": "2025/12/29 21:29",
-            "modified_at": "2025/12/29 21:29",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2677,
+      "rating": 5,
+      "comment": "考核方式：专项：有效区投壶和定点投壶\n\n授课质量与给分：大二上的，老师真的是大善人，特别特别好，拯救了我的体育。\n\n点评人：\n\n上课学期：25-26秋",
+      "created_at": "2025/12/29 21:29",
+      "score": null
+    }
+  ]
 }

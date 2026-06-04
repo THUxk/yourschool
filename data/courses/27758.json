@@ -1,202 +1,98 @@
 {
-    "count": 13,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3326,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：3稿+2次pre\n\n授课质量与给分：夯。老师很有风度，专业知识很过硬，非常了解武侠主题的小说影视游戏等等，课堂氛围比较轻松，会穿插很多有些意思的讨论互动环节。\n\n点评人：\n\n上课学期：",
-            "created_at": "2026/05/25 00:35",
-            "modified_at": "2026/05/25 00:35",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3190,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时作业+期末大论文\n\n授课质量与给分：虽然我自己喜欢武侠小说的因素可能有一定主观影响，但是神中神\n\n点评人：\n\n上课学期：25年秋",
-            "created_at": "2026/03/11 16:12",
-            "modified_at": "2026/03/11 16:12",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2942,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时作业+期末大论文\n\n授课质量与给分：\n耿老师真的神中之神，温文尔雅地低声讲课就能把你带到武侠和骑士的世界里，开学以来唯一一门可以做到全程一眼手机不看的课。而且任务量也不大，期末论文基本上都是一次次小作业堆砌起来的，认真跟着写论文基本上到最后把作业整合到一起修改一下就够了。\n讲的好除外也超级负责，每个人单独会给些两页的评语，告诉你哪里好哪里该改，两次面批，能对接到每个同学及其认真！\n写作与沟通的真神！尤其适合武侠迷，冲就完了！\n\n点评人：快青柠\n\n上课学期：25秋",
-            "created_at": "2026/01/31 14:21",
-            "modified_at": "2026/01/31 14:21",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2608,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "作为一个学生，我认为能够选到耿老师的课是我的荣幸。\n老师的课堂实在是太好了，让我学到了不少东西。“侠与骑士”的主题从一开始就非常吸引我，我相信老师也是一位有济世情怀的大侠，选定了目标并持之以恒地前进。\n我觉得不管从现实的课堂教学还是从精神的引导上，耿老师都是独一档的好。",
-            "created_at": "2025/12/13 01:20",
-            "modified_at": "2025/12/13 01:20",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2276,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "评价：\n神中神，无论是上课深度、方式，亲近程度，对学生的人文关怀，对社会的思考，都是我在清华上过最好的课程，唯一问题只是受限于写沟课的优秀率限制，但强烈推荐大家去上",
-            "created_at": "2025/06/27 20:12",
-            "modified_at": "2025/06/27 20:12",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2201,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：拟稿15%+初稿20%+终稿35%+课堂讨论与平时作业15%+2次pre15%\n授课质量与给分：\n极推荐，评价是足以铭记一生的课程\n\n点评人：\n上课学期：",
-            "created_at": "2025/06/23 07:53",
-            "modified_at": "2025/06/23 07:53",
-            "score": "未出",
-            "moderator_remark": null
-        },
-        {
-            "id": 2104,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：伟大 无须多言\n\n点评人：白给居士\n\n上课学期：24年秋",
-            "created_at": "2025/05/19 15:04",
-            "modified_at": "2025/05/19 15:04",
-            "score": "4",
-            "moderator_remark": null
-        },
-        {
-            "id": 2098,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：非常伟大 冲吧冲吧 来你清后启蒙性的第一堂课\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/05/18 21:31",
-            "modified_at": "2025/05/18 21:31",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2097,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：非常伟大 冲吧冲吧 来你清后启蒙性的第一堂课\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/05/18 21:31",
-            "modified_at": "2025/05/18 21:31",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2096,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：非常伟大 冲吧冲吧 来你清后启蒙性的第一堂课\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/05/18 21:31",
-            "modified_at": "2025/05/18 21:31",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1213,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "（21秋）笔者上的主题如今已经不见了，好在耿老师依然在那里。老师人很好，如果想在论文中讨论一些文学、哲学相关的话题可以得到充分的指导。",
-            "created_at": "2024/07/24 16:39",
-            "modified_at": "2024/07/24 16:39",
-            "score": "4",
-            "moderator_remark": null
-        },
-        {
-            "id": 416,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师是个留长发的大帅哥，文学博士，论文选题相对宽松；认真参与课堂讨论，会有很多思考。",
-            "created_at": "2024/07/21 15:03",
-            "modified_at": "2024/07/21 15:03",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 253,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师人很好，课堂氛围友善，作业量适中，可以学到很多东西，给分也好。",
-            "created_at": "2024/07/21 13:44",
-            "modified_at": "2024/07/21 13:44",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 13,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3326,
+      "rating": 5,
+      "comment": "考核方式：3稿+2次pre\n\n授课质量与给分：夯。老师很有风度，专业知识很过硬，非常了解武侠主题的小说影视游戏等等，课堂氛围比较轻松，会穿插很多有些意思的讨论互动环节。\n\n点评人：\n\n上课学期：",
+      "created_at": "2026/05/25 00:35",
+      "score": null
+    },
+    {
+      "id": 3190,
+      "rating": 5,
+      "comment": "考核方式：平时作业+期末大论文\n\n授课质量与给分：虽然我自己喜欢武侠小说的因素可能有一定主观影响，但是神中神\n\n点评人：\n\n上课学期：25年秋",
+      "created_at": "2026/03/11 16:12",
+      "score": null
+    },
+    {
+      "id": 2942,
+      "rating": 5,
+      "comment": "考核方式：平时作业+期末大论文\n\n授课质量与给分：\n耿老师真的神中之神，温文尔雅地低声讲课就能把你带到武侠和骑士的世界里，开学以来唯一一门可以做到全程一眼手机不看的课。而且任务量也不大，期末论文基本上都是一次次小作业堆砌起来的，认真跟着写论文基本上到最后把作业整合到一起修改一下就够了。\n讲的好除外也超级负责，每个人单独会给些两页的评语，告诉你哪里好哪里该改，两次面批，能对接到每个同学及其认真！\n写作与沟通的真神！尤其适合武侠迷，冲就完了！\n\n点评人：快青柠\n\n上课学期：25秋",
+      "created_at": "2026/01/31 14:21",
+      "score": "4.0"
+    },
+    {
+      "id": 2608,
+      "rating": 5,
+      "comment": "作为一个学生，我认为能够选到耿老师的课是我的荣幸。\n老师的课堂实在是太好了，让我学到了不少东西。“侠与骑士”的主题从一开始就非常吸引我，我相信老师也是一位有济世情怀的大侠，选定了目标并持之以恒地前进。\n我觉得不管从现实的课堂教学还是从精神的引导上，耿老师都是独一档的好。",
+      "created_at": "2025/12/13 01:20",
+      "score": null
+    },
+    {
+      "id": 2276,
+      "rating": 5,
+      "comment": "评价：\n神中神，无论是上课深度、方式，亲近程度，对学生的人文关怀，对社会的思考，都是我在清华上过最好的课程，唯一问题只是受限于写沟课的优秀率限制，但强烈推荐大家去上",
+      "created_at": "2025/06/27 20:12",
+      "score": "4.0"
+    },
+    {
+      "id": 2201,
+      "rating": 5,
+      "comment": "考核方式：拟稿15%+初稿20%+终稿35%+课堂讨论与平时作业15%+2次pre15%\n授课质量与给分：\n极推荐，评价是足以铭记一生的课程\n\n点评人：\n上课学期：",
+      "created_at": "2025/06/23 07:53",
+      "score": "未出"
+    },
+    {
+      "id": 2104,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：伟大 无须多言\n\n点评人：白给居士\n\n上课学期：24年秋",
+      "created_at": "2025/05/19 15:04",
+      "score": "4"
+    },
+    {
+      "id": 2098,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：非常伟大 冲吧冲吧 来你清后启蒙性的第一堂课\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/05/18 21:31",
+      "score": "A"
+    },
+    {
+      "id": 2097,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：非常伟大 冲吧冲吧 来你清后启蒙性的第一堂课\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/05/18 21:31",
+      "score": "A"
+    },
+    {
+      "id": 2096,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：非常伟大 冲吧冲吧 来你清后启蒙性的第一堂课\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/05/18 21:31",
+      "score": "A"
+    },
+    {
+      "id": 1213,
+      "rating": 5,
+      "comment": "（21秋）笔者上的主题如今已经不见了，好在耿老师依然在那里。老师人很好，如果想在论文中讨论一些文学、哲学相关的话题可以得到充分的指导。",
+      "created_at": "2024/07/24 16:39",
+      "score": "4"
+    },
+    {
+      "id": 416,
+      "rating": 5,
+      "comment": "老师是个留长发的大帅哥，文学博士，论文选题相对宽松；认真参与课堂讨论，会有很多思考。",
+      "created_at": "2024/07/21 15:03",
+      "score": null
+    },
+    {
+      "id": 253,
+      "rating": 5,
+      "comment": "老师人很好，课堂氛围友善，作业量适中，可以学到很多东西，给分也好。",
+      "created_at": "2024/07/21 13:44",
+      "score": null
+    }
+  ]
 }

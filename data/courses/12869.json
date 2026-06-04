@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2208,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "唯一的缺点，明年不开了\n小登们有点可怜",
-            "created_at": "2025/06/26 22:05",
-            "modified_at": "2025/06/26 22:05",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2208,
+      "rating": 5,
+      "comment": "唯一的缺点，明年不开了\n小登们有点可怜",
+      "created_at": "2025/06/26 22:05",
+      "score": null
+    }
+  ]
 }

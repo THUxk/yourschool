@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1963,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：考试\n\n授课质量与给分：烂中烂，常年评教后5%的史诗级抽象烂课\n\n点评人：\n\n上课学期：2023",
-            "created_at": "2025/02/27 20:22",
-            "modified_at": "2025/02/27 20:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1101,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n每节课课后10分钟做题，可以组队（你懂的）\n授课质量与给分：\n24年刘老师新改革的，相比之前好了不少，强烈推荐\n点评人：\n\n上课学期：\n2024春",
-            "created_at": "2024/07/23 15:50",
-            "modified_at": "2024/07/23 15:50",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1963,
+      "rating": 1,
+      "comment": "考核方式：考试\n\n授课质量与给分：烂中烂，常年评教后5%的史诗级抽象烂课\n\n点评人：\n\n上课学期：2023",
+      "created_at": "2025/02/27 20:22",
+      "score": null
+    },
+    {
+      "id": 1101,
+      "rating": 5,
+      "comment": "考核方式：\n每节课课后10分钟做题，可以组队（你懂的）\n授课质量与给分：\n24年刘老师新改革的，相比之前好了不少，强烈推荐\n点评人：\n\n上课学期：\n2024春",
+      "created_at": "2024/07/23 15:50",
+      "score": "A"
+    }
+  ]
 }

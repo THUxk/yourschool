@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 283,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "去年春季学期王老师好像没开课，但根据之前的接触，老师非常和蔼，人很nice；相信认真学习最后给分也会很不错。",
-            "created_at": "2024/07/21 13:58",
-            "modified_at": "2024/07/21 13:58",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 283,
+      "rating": 5,
+      "comment": "去年春季学期王老师好像没开课，但根据之前的接触，老师非常和蔼，人很nice；相信认真学习最后给分也会很不错。",
+      "created_at": "2024/07/21 13:58",
+      "score": null
+    }
+  ]
 }

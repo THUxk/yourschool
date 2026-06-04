@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 213,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程涉及讲速度、加速度、流量、温度等参数的测量。老师上课生动，ppt内容详尽，注重记忆和理解。期末是半开卷考试，概念和计算都会考到。",
-            "created_at": "2024/07/21 13:31",
-            "modified_at": "2024/07/21 13:31",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 213,
+      "rating": 5,
+      "comment": "课程涉及讲速度、加速度、流量、温度等参数的测量。老师上课生动，ppt内容详尽，注重记忆和理解。期末是半开卷考试，概念和计算都会考到。",
+      "created_at": "2024/07/21 13:31",
+      "score": null
+    }
+  ]
 }

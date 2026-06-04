@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3338,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：线下定位签到+两次小作业+小组展示\n\n授课质量与给分：主要讲生命周期评价及碳足迹，小组展示内容是定量分析某物品全生命周期的碳排放，笔者当小组长且组员干活比较缓慢，有点痛苦\n给分尚可，24秋A-及以上占75%\n\n点评人：幻影土豆儿\n\n上课学期：25秋",
-            "created_at": "2026/05/25 10:27",
-            "modified_at": "2026/05/25 10:27",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3338,
+      "rating": 4,
+      "comment": "考核方式：线下定位签到+两次小作业+小组展示\n\n授课质量与给分：主要讲生命周期评价及碳足迹，小组展示内容是定量分析某物品全生命周期的碳排放，笔者当小组长且组员干活比较缓慢，有点痛苦\n给分尚可，24秋A-及以上占75%\n\n点评人：幻影土豆儿\n\n上课学期：25秋",
+      "created_at": "2026/05/25 10:27",
+      "score": "A-"
+    }
+  ]
 }

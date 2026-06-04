@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 649,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "非常有意思的课！\n强推",
-            "created_at": "2024/07/21 17:01",
-            "modified_at": "2024/07/21 17:01",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 649,
+      "rating": 5,
+      "comment": "非常有意思的课！\n强推",
+      "created_at": "2024/07/21 17:01",
+      "score": null
+    }
+  ]
 }

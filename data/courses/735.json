@@ -1,82 +1,42 @@
 {
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 692,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "小班讨论六选二（相当于四周不用上） 老师挑重点讲 讲得很好 只要听课了作业考试都没问题 老师能捞到90的都会捞",
-            "created_at": "2024/07/21 17:14",
-            "modified_at": "2024/07/21 17:14",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 446,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：考勤+小组讨论+两次小作业+期末考试\n\n授课质量与给分：\n任务量较少，老师给分不错，同学们认真对待各项作业即可。",
-            "created_at": "2024/07/21 15:29",
-            "modified_at": "2024/07/21 15:29",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 397,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "前六节课为小班讨论（选择两节），后期为大班课。考核方式包括考勤、雨课堂完成情况、个人作业及期末开卷考试。任务量一般，讨论课要求较高，上课略显无聊，给分一般。",
-            "created_at": "2024/07/21 14:48",
-            "modified_at": "2024/07/21 14:48",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 148,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "传统的思政课，中规中矩；任务包含慕课，两次小班讨论（记录发言），2-3次较短的论述文作业，最后当堂的论文考试，整体任务量中等。分数比例大致为慕课20%，期中总结（或课外实践/读书报告）10%，小班讨论20%，大班作业与期末考试50%；有随机点名；给分普遍还可以。",
-            "created_at": "2024/07/21 13:06",
-            "modified_at": "2024/07/21 13:06",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 42,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：慕课+论文+小班讨论+期末随堂考试\n特点：前八周上慕课和小班讨论，后八周大班上课。任务量较少也比较简单，而且给分也比较好，整体上是很好的体验，期末考试开卷，并且考试内容被上课内容全覆盖，注意老师上课会提醒重点考核内容。",
-            "created_at": "2024/07/21 11:06",
-            "modified_at": "2024/07/21 11:06",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 692,
+      "rating": 5,
+      "comment": "小班讨论六选二（相当于四周不用上） 老师挑重点讲 讲得很好 只要听课了作业考试都没问题 老师能捞到90的都会捞",
+      "created_at": "2024/07/21 17:14",
+      "score": null
+    },
+    {
+      "id": 446,
+      "rating": 5,
+      "comment": "考核方式：考勤+小组讨论+两次小作业+期末考试\n\n授课质量与给分：\n任务量较少，老师给分不错，同学们认真对待各项作业即可。",
+      "created_at": "2024/07/21 15:29",
+      "score": null
+    },
+    {
+      "id": 397,
+      "rating": 3,
+      "comment": "前六节课为小班讨论（选择两节），后期为大班课。考核方式包括考勤、雨课堂完成情况、个人作业及期末开卷考试。任务量一般，讨论课要求较高，上课略显无聊，给分一般。",
+      "created_at": "2024/07/21 14:48",
+      "score": null
+    },
+    {
+      "id": 148,
+      "rating": 4,
+      "comment": "传统的思政课，中规中矩；任务包含慕课，两次小班讨论（记录发言），2-3次较短的论述文作业，最后当堂的论文考试，整体任务量中等。分数比例大致为慕课20%，期中总结（或课外实践/读书报告）10%，小班讨论20%，大班作业与期末考试50%；有随机点名；给分普遍还可以。",
+      "created_at": "2024/07/21 13:06",
+      "score": null
+    },
+    {
+      "id": 42,
+      "rating": 4,
+      "comment": "考核方式：慕课+论文+小班讨论+期末随堂考试\n特点：前八周上慕课和小班讨论，后八周大班上课。任务量较少也比较简单，而且给分也比较好，整体上是很好的体验，期末考试开卷，并且考试内容被上课内容全覆盖，注意老师上课会提醒重点考核内容。",
+      "created_at": "2024/07/21 11:06",
+      "score": null
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2063,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：\n\n授课质量与给分：老师讲的是真一般，但是不考勤，任务量还行，中间有两次pre，最后期末写一个3000字的论文\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/05/16 17:15",
-            "modified_at": "2025/05/16 17:15",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2063,
+      "rating": 3,
+      "comment": "考核方式：\n\n授课质量与给分：老师讲的是真一般，但是不考勤，任务量还行，中间有两次pre，最后期末写一个3000字的论文\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/05/16 17:15",
+      "score": null
+    }
+  ]
 }

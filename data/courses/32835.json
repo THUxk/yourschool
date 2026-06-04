@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1911,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "低年级针对高年级的学生做评述，高年级做文献综述汇报。仅仅1学分，但得上2个学期，主打一个“细水长流”\n\n上课和答辩一样，让大家红红脸，出出汗，老师非常负责给建议，见解非常新颖，让大脑充满不确定性。",
-            "created_at": "2025/02/18 20:12",
-            "modified_at": "2025/02/18 20:12",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1911,
+      "rating": 5,
+      "comment": "低年级针对高年级的学生做评述，高年级做文献综述汇报。仅仅1学分，但得上2个学期，主打一个“细水长流”\n\n上课和答辩一样，让大家红红脸，出出汗，老师非常负责给建议，见解非常新颖，让大脑充满不确定性。",
+      "created_at": "2025/02/18 20:12",
+      "score": null
+    }
+  ]
 }

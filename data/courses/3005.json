@@ -1,97 +1,49 @@
 {
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2920,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：随堂小测加期末考试\n\n授课质量与给分：老师讲课非常非常详细，PPT非常适合自学，给分超级好，老师人超级温柔，答疑非常耐心。就是她上课有点容易使人发困（全班清醒率不足25%）。\n\n点评人：\n\n上课学期：大一秋",
-            "created_at": "2026/01/30 23:19",
-            "modified_at": "2026/01/30 23:19",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2828,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "吉岩老师🥰🥰🥰老师特别温柔，经常提早下课让我们去吃饭，作业很少，而且没有期中，(*๓´╰╯`๓)♡",
-            "created_at": "2026/01/30 19:53",
-            "modified_at": "2026/01/30 19:53",
-            "score": "",
-            "moderator_remark": null
-        },
-        {
-            "id": 1843,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式\n\n授课质量与给分：\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/31 23:51",
-            "modified_at": "2025/01/31 23:51",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1838,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：无期中 以期末为主\n\n授课质量与给分：老师人很温柔，会根据上课做题的情况调整速度，平时作业量比较少，期末有时间剩就会带着同学复习，但是期末考试个人感觉比较难，需要考前好好复习准备\n\n点评人：\n\n上课学期：2024秋",
-            "created_at": "2025/01/31 13:53",
-            "modified_at": "2025/01/31 13:53",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1254,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期末考试，无期中考和小测。\n\n上课以ppt为主，便于复习。老师人很温柔，比较为学生着想，讲课质量还可以。作业不多，亦无期中考试，课业压力较小。",
-            "created_at": "2024/07/30 14:44",
-            "modified_at": "2024/07/30 14:44",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 754,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "没有期中考试，以期末考试为主，上课主要以ppt为主，课后也比较轻松，没有太大的作业量",
-            "created_at": "2024/07/21 17:33",
-            "modified_at": "2024/07/21 17:33",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2920,
+      "rating": 5,
+      "comment": "考核方式：随堂小测加期末考试\n\n授课质量与给分：老师讲课非常非常详细，PPT非常适合自学，给分超级好，老师人超级温柔，答疑非常耐心。就是她上课有点容易使人发困（全班清醒率不足25%）。\n\n点评人：\n\n上课学期：大一秋",
+      "created_at": "2026/01/30 23:19",
+      "score": "A"
+    },
+    {
+      "id": 2828,
+      "rating": 5,
+      "comment": "吉岩老师🥰🥰🥰老师特别温柔，经常提早下课让我们去吃饭，作业很少，而且没有期中，(*๓´╰╯`๓)♡",
+      "created_at": "2026/01/30 19:53",
+      "score": ""
+    },
+    {
+      "id": 1843,
+      "rating": 5,
+      "comment": "考核方式\n\n授课质量与给分：\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/31 23:51",
+      "score": null
+    },
+    {
+      "id": 1838,
+      "rating": 5,
+      "comment": "考核方式：无期中 以期末为主\n\n授课质量与给分：老师人很温柔，会根据上课做题的情况调整速度，平时作业量比较少，期末有时间剩就会带着同学复习，但是期末考试个人感觉比较难，需要考前好好复习准备\n\n点评人：\n\n上课学期：2024秋",
+      "created_at": "2025/01/31 13:53",
+      "score": null
+    },
+    {
+      "id": 1254,
+      "rating": 5,
+      "comment": "考核方式：期末考试，无期中考和小测。\n\n上课以ppt为主，便于复习。老师人很温柔，比较为学生着想，讲课质量还可以。作业不多，亦无期中考试，课业压力较小。",
+      "created_at": "2024/07/30 14:44",
+      "score": "A"
+    },
+    {
+      "id": 754,
+      "rating": 4,
+      "comment": "没有期中考试，以期末考试为主，上课主要以ppt为主，课后也比较轻松，没有太大的作业量",
+      "created_at": "2024/07/21 17:33",
+      "score": null
+    }
+  ]
 }

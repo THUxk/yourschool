@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2329,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：50页论文+签到\n\n授课质量与给分：求真必修课，Yau亲自授课。课堂形式类似于通识讲座，要求每节课签到，以及完成一篇50页论文。如果对历史感兴趣值得上，但我只是为了毕业才不得不上的。\n\n点评人：\n\n上课学期：2025年",
-            "created_at": "2025/06/28 12:03",
-            "modified_at": "2025/06/28 12:03",
-            "score": "P",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2329,
+      "rating": 1,
+      "comment": "考核方式：50页论文+签到\n\n授课质量与给分：求真必修课，Yau亲自授课。课堂形式类似于通识讲座，要求每节课签到，以及完成一篇50页论文。如果对历史感兴趣值得上，但我只是为了毕业才不得不上的。\n\n点评人：\n\n上课学期：2025年",
+      "created_at": "2025/06/28 12:03",
+      "score": "P"
+    }
+  ]
 }

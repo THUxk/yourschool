@@ -1,232 +1,112 @@
 {
-    "count": 15,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3224,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：一致\n\n授课质量与给分：夯爆了\n\n点评人：\n\n上课学期：",
-            "created_at": "2026/04/11 12:15",
-            "modified_at": "2026/04/11 12:15",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 3217,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "优点我就不多说了，看其他同学的评论就好。这里我客观地说一点“没那么好”的地方，供同学参考。首先，任务量比较大，作业+习题课题目量还是比较多的。其次，考勤查的特别严，缺勤一次总评扣5分，习题课也必须签到。再者，习题课助教的好坏直接决定你对习题课的感受，建议同时打听一下哪几位助教比较好（不过助教也有比较严的，比如习题课随机点人讲题）。最后，从26春开始，崔老师的国内生班似乎只允许探微、致理-化学、秀钟书院的学生选课，其他院系的同学可能得申请手选（具体我不太清楚）。\n\n点评人：\n\n上课学期：25秋",
-            "created_at": "2026/04/04 09:29",
-            "modified_at": "2026/04/04 09:29",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 2952,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "授课质量与给分：崔奶奶伟大无需多言！每周会有小班讲习题课，帮助挺大的。\n\n点评人：快青柠\n\n上课学期：25秋",
-            "created_at": "2026/01/31 17:16",
-            "modified_at": "2026/01/31 17:16",
-            "score": "3.6",
-            "moderator_remark": null
-        },
-        {
-            "id": 2912,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：（国际生班）30%作业+max{30%期中+40%期末, 20%期中+50%期末} 期中跟期末都是闭卷笔试\n\n授课质量与给分：课讲的不错，老师很有耐心，用电子白板，课后会发群里。有小班习题课。\n\n点评人：lii\n\n上课学期：2025秋",
-            "created_at": "2026/01/30 22:45",
-            "modified_at": "2026/01/30 22:45",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 2145,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：全校差不多\n\n授课质量与给分：\n上课讲得细致，老师人很和善，鼓励提问答疑；\n写的教材很细致，个人感觉比黄皮那本好理解，但排版有些差\n老师的班上氛围好，活跃，同学积极\n助教质量高\n（第二学期没选上，在别的老师班上觉得摆烂同学很多）\n点评人：\n\n上课学期：2024秋",
-            "created_at": "2025/05/23 13:24",
-            "modified_at": "2025/05/23 13:24",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2106,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：正常考试\n\n授课质量与给分：讲得很细致！很能提供情绪价值！\n\n点评人：xx\n\n上课学期：2024年秋",
-            "created_at": "2025/05/19 15:59",
-            "modified_at": "2025/05/19 15:59",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1565,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：神中神 无需多言\n\n点评人：\n\n上课学期：",
-            "created_at": "2024/12/25 20:13",
-            "modified_at": "2024/12/25 20:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1086,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "讲的确实不错，但不知道为啥说崔老师给分好，难道是发小作文能加分？\n我个人感觉给分和小班助教有很大关系……\n我当年反正是严格按照总评给的，哪怕只差零点几分也没往上提一个档",
-            "created_at": "2024/07/23 15:18",
-            "modified_at": "2024/07/23 15:18",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 719,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "给分最好，全校周知",
-            "created_at": "2024/07/21 17:22",
-            "modified_at": "2024/07/21 17:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 718,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "讲的很细致",
-            "created_at": "2024/07/21 17:22",
-            "modified_at": "2024/07/21 17:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 717,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "万人追捧的大烫门，其实观感一般1.老师确实很负责，这学期用了自己写的书，但排版看起来很痛苦，有一定编辑错误，而且很多定理按照她的逻辑书写，并不是所有人都能get 2.上课可卷，仔细想想，那么牛的大佬，在哪都是4.0，根本没必要上这课求满绩，就，这么争何必呢",
-            "created_at": "2024/07/21 17:22",
-            "modified_at": "2024/07/21 17:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 716,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "崔老师有小班习题课制度，帮助同学更好理解，老师也很认真负责，但是讲的比较浅，延伸拓展的不多",
-            "created_at": "2024/07/21 17:22",
-            "modified_at": "2024/07/21 17:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 715,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "崔老师上每一节课都很认真，用的是自己编的教材，作业不多不少，习题课有考勤，会有对应的习题课材料。讨论氛围好，老师会耐心倾听解答，也有专门用来大家讨论的微信群，群里总有同学大佬。总之十分不错。",
-            "created_at": "2024/07/21 17:22",
-            "modified_at": "2024/07/21 17:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 301,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "很热门的老师，选课靠欧气。老师认真负责，对同学很耐心，讲课不局限于书本，讲课节奏较快，但是细致且易懂；上课手写板书，很全面，课后板书会上传到网络学堂，便于复习。习题课为小班制，有很多和老师交流的机会；上课气氛很活跃，作业量和难度适中，老师人很好，会有一些加分小作业，考核方式为作业20%+期中30%+期末50%，体验很好。",
-            "created_at": "2024/07/21 14:05",
-            "modified_at": "2024/07/21 14:05",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 232,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "崔姐姐非常认真负责，给分也很好，课程比较难选上，使用平板板书上课，课后会上传讲义。与其他班级不同，崔姐姐课堂的习题课是小班习题课的形式，认真参与会收获很多。",
-            "created_at": "2024/07/21 13:38",
-            "modified_at": "2024/07/21 13:38",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 15,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3224,
+      "rating": 5,
+      "comment": "考核方式：一致\n\n授课质量与给分：夯爆了\n\n点评人：\n\n上课学期：",
+      "created_at": "2026/04/11 12:15",
+      "score": "A"
+    },
+    {
+      "id": 3217,
+      "rating": 4,
+      "comment": "优点我就不多说了，看其他同学的评论就好。这里我客观地说一点“没那么好”的地方，供同学参考。首先，任务量比较大，作业+习题课题目量还是比较多的。其次，考勤查的特别严，缺勤一次总评扣5分，习题课也必须签到。再者，习题课助教的好坏直接决定你对习题课的感受，建议同时打听一下哪几位助教比较好（不过助教也有比较严的，比如习题课随机点人讲题）。最后，从26春开始，崔老师的国内生班似乎只允许探微、致理-化学、秀钟书院的学生选课，其他院系的同学可能得申请手选（具体我不太清楚）。\n\n点评人：\n\n上课学期：25秋",
+      "created_at": "2026/04/04 09:29",
+      "score": "A-"
+    },
+    {
+      "id": 2952,
+      "rating": 5,
+      "comment": "授课质量与给分：崔奶奶伟大无需多言！每周会有小班讲习题课，帮助挺大的。\n\n点评人：快青柠\n\n上课学期：25秋",
+      "created_at": "2026/01/31 17:16",
+      "score": "3.6"
+    },
+    {
+      "id": 2912,
+      "rating": 4,
+      "comment": "考核方式：（国际生班）30%作业+max{30%期中+40%期末, 20%期中+50%期末} 期中跟期末都是闭卷笔试\n\n授课质量与给分：课讲的不错，老师很有耐心，用电子白板，课后会发群里。有小班习题课。\n\n点评人：lii\n\n上课学期：2025秋",
+      "created_at": "2026/01/30 22:45",
+      "score": "A-"
+    },
+    {
+      "id": 2145,
+      "rating": 5,
+      "comment": "考核方式：全校差不多\n\n授课质量与给分：\n上课讲得细致，老师人很和善，鼓励提问答疑；\n写的教材很细致，个人感觉比黄皮那本好理解，但排版有些差\n老师的班上氛围好，活跃，同学积极\n助教质量高\n（第二学期没选上，在别的老师班上觉得摆烂同学很多）\n点评人：\n\n上课学期：2024秋",
+      "created_at": "2025/05/23 13:24",
+      "score": null
+    },
+    {
+      "id": 2106,
+      "rating": 5,
+      "comment": "考核方式：正常考试\n\n授课质量与给分：讲得很细致！很能提供情绪价值！\n\n点评人：xx\n\n上课学期：2024年秋",
+      "created_at": "2025/05/19 15:59",
+      "score": "A"
+    },
+    {
+      "id": 1565,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：神中神 无需多言\n\n点评人：\n\n上课学期：",
+      "created_at": "2024/12/25 20:13",
+      "score": null
+    },
+    {
+      "id": 1086,
+      "rating": 4,
+      "comment": "讲的确实不错，但不知道为啥说崔老师给分好，难道是发小作文能加分？\n我个人感觉给分和小班助教有很大关系……\n我当年反正是严格按照总评给的，哪怕只差零点几分也没往上提一个档",
+      "created_at": "2024/07/23 15:18",
+      "score": null
+    },
+    {
+      "id": 719,
+      "rating": 5,
+      "comment": "给分最好，全校周知",
+      "created_at": "2024/07/21 17:22",
+      "score": null
+    },
+    {
+      "id": 718,
+      "rating": 4,
+      "comment": "讲的很细致",
+      "created_at": "2024/07/21 17:22",
+      "score": null
+    },
+    {
+      "id": 717,
+      "rating": 3,
+      "comment": "万人追捧的大烫门，其实观感一般1.老师确实很负责，这学期用了自己写的书，但排版看起来很痛苦，有一定编辑错误，而且很多定理按照她的逻辑书写，并不是所有人都能get 2.上课可卷，仔细想想，那么牛的大佬，在哪都是4.0，根本没必要上这课求满绩，就，这么争何必呢",
+      "created_at": "2024/07/21 17:22",
+      "score": null
+    },
+    {
+      "id": 716,
+      "rating": 5,
+      "comment": "崔老师有小班习题课制度，帮助同学更好理解，老师也很认真负责，但是讲的比较浅，延伸拓展的不多",
+      "created_at": "2024/07/21 17:22",
+      "score": null
+    },
+    {
+      "id": 715,
+      "rating": 5,
+      "comment": "崔老师上每一节课都很认真，用的是自己编的教材，作业不多不少，习题课有考勤，会有对应的习题课材料。讨论氛围好，老师会耐心倾听解答，也有专门用来大家讨论的微信群，群里总有同学大佬。总之十分不错。",
+      "created_at": "2024/07/21 17:22",
+      "score": null
+    },
+    {
+      "id": 301,
+      "rating": 5,
+      "comment": "很热门的老师，选课靠欧气。老师认真负责，对同学很耐心，讲课不局限于书本，讲课节奏较快，但是细致且易懂；上课手写板书，很全面，课后板书会上传到网络学堂，便于复习。习题课为小班制，有很多和老师交流的机会；上课气氛很活跃，作业量和难度适中，老师人很好，会有一些加分小作业，考核方式为作业20%+期中30%+期末50%，体验很好。",
+      "created_at": "2024/07/21 14:05",
+      "score": null
+    },
+    {
+      "id": 232,
+      "rating": 5,
+      "comment": "崔姐姐非常认真负责，给分也很好，课程比较难选上，使用平板板书上课，课后会上传讲义。与其他班级不同，崔姐姐课堂的习题课是小班习题课的形式，认真参与会收获很多。",
+      "created_at": "2024/07/21 13:38",
+      "score": "A"
+    }
+  ]
 }

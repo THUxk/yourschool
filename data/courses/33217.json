@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2439,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：pre或诺和新元+期末+作业\n\n授课质量与给分：给分和其他生物专业课一样差，但参加诺和新元很占便宜。王建斌老师讲课比较注重同学们的自主探究和实验分析，郗乔然老师就是比较正常的讲法。总体上应该比不带H的课更能锻炼思维能力，考试也更难（有点像ibo风格）。\n\n上课学期：2025春",
-            "created_at": "2025/07/10 12:39",
-            "modified_at": "2025/07/10 12:39",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2439,
+      "rating": 5,
+      "comment": "考核方式：pre或诺和新元+期末+作业\n\n授课质量与给分：给分和其他生物专业课一样差，但参加诺和新元很占便宜。王建斌老师讲课比较注重同学们的自主探究和实验分析，郗乔然老师就是比较正常的讲法。总体上应该比不带H的课更能锻炼思维能力，考试也更难（有点像ibo风格）。\n\n上课学期：2025春",
+      "created_at": "2025/07/10 12:39",
+      "score": null
+    }
+  ]
 }

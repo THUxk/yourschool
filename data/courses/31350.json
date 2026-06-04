@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2277,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：2个有关课程主题的ppt提交，第二个ppt要做pre\n\n授课质量与给分：课程干货很多，但是老师讲的略显乏味。任务量不大，自己网上找找资料即可。结课后会组织一次航天博物馆的参观。给分未知，适合对航天感兴趣的同学~\n\n上课学期：25春",
-            "created_at": "2025/06/27 20:41",
-            "modified_at": "2025/06/27 20:41",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2277,
+      "rating": 4,
+      "comment": "考核方式：2个有关课程主题的ppt提交，第二个ppt要做pre\n\n授课质量与给分：课程干货很多，但是老师讲的略显乏味。任务量不大，自己网上找找资料即可。结课后会组织一次航天博物馆的参观。给分未知，适合对航天感兴趣的同学~\n\n上课学期：25春",
+      "created_at": "2025/06/27 20:41",
+      "score": "A-"
+    }
+  ]
 }

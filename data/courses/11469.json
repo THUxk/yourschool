@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2225,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：期末闭卷考\n\n授课质量与给分：老师讲得挺好的，但是给分非常不友好！！！期末闭卷要背的内容非常非常多，背完还不一定有好分数，给分心狠手辣。\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/06/27 17:40",
-            "modified_at": "2025/06/27 17:40",
-            "score": "",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2225,
+      "rating": 1,
+      "comment": "考核方式：期末闭卷考\n\n授课质量与给分：老师讲得挺好的，但是给分非常不友好！！！期末闭卷要背的内容非常非常多，背完还不一定有好分数，给分心狠手辣。\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/06/27 17:40",
+      "score": ""
+    }
+  ]
 }

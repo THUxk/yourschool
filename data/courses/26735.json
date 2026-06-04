@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3082,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中+期末+作业+读课文\n\n授课质量与给分：老师很温柔很热心，说自己严厉但实际都是鼓励学生，会细致的纠正大家的语法和发音，会放德语电影和歌给大家，考试有一定难度但给分不错\n\n点评人：lll\n\n上课学期：2022秋",
-            "created_at": "2026/02/25 16:01",
-            "modified_at": "2026/02/25 16:01",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3082,
+      "rating": 5,
+      "comment": "考核方式：期中+期末+作业+读课文\n\n授课质量与给分：老师很温柔很热心，说自己严厉但实际都是鼓励学生，会细致的纠正大家的语法和发音，会放德语电影和歌给大家，考试有一定难度但给分不错\n\n点评人：lll\n\n上课学期：2022秋",
+      "created_at": "2026/02/25 16:01",
+      "score": "A"
+    }
+  ]
 }

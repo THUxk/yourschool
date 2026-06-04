@@ -1,97 +1,49 @@
 {
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3269,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：\n\n授课质量与给分：上课轻松愉悦，但是真的能学到东西吗。。。对心理学感兴趣的同学建议左转去上心理系硬一点的课。而且小组作业评分真的玄学极了。感觉大家都在靠小组作业来卷。\n\n点评人：\n\n上课学期：2025秋",
-            "created_at": "2026/05/21 21:11",
-            "modified_at": "2026/05/21 21:11",
-            "score": "3.6",
-            "moderator_remark": null
-        },
-        {
-            "id": 2881,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "给分好，轻松，内容有深度",
-            "created_at": "2026/01/30 21:29",
-            "modified_at": "2026/01/30 21:29",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1746,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：潜能开发报告，无考试\n\n授课质量与给分：强推\n\n点评人：xll\n\n上课学期：24秋季",
-            "created_at": "2025/01/25 16:27",
-            "modified_at": "2025/01/25 16:27",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 530,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "以大学生常见心理素质和潜能发展的问题困惑需求为基础，通过案例分析小组合作以及一些课堂互动进行，氛围很好老师人超好～",
-            "created_at": "2024/07/21 16:16",
-            "modified_at": "2024/07/21 16:16",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 529,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "大概就是讲大学生心理方面的，老师之前是央财的，老师很好，上课氛围轻松愉悦，可以认识到好朋友",
-            "created_at": "2024/07/21 16:16",
-            "modified_at": "2024/07/21 16:16",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 528,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程轻松有趣，任务量主要是小组作业",
-            "created_at": "2024/07/21 16:16",
-            "modified_at": "2024/07/21 16:16",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3269,
+      "rating": 3,
+      "comment": "考核方式：\n\n授课质量与给分：上课轻松愉悦，但是真的能学到东西吗。。。对心理学感兴趣的同学建议左转去上心理系硬一点的课。而且小组作业评分真的玄学极了。感觉大家都在靠小组作业来卷。\n\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/05/21 21:11",
+      "score": "3.6"
+    },
+    {
+      "id": 2881,
+      "rating": 5,
+      "comment": "给分好，轻松，内容有深度",
+      "created_at": "2026/01/30 21:29",
+      "score": "A"
+    },
+    {
+      "id": 1746,
+      "rating": 5,
+      "comment": "考核方式：潜能开发报告，无考试\n\n授课质量与给分：强推\n\n点评人：xll\n\n上课学期：24秋季",
+      "created_at": "2025/01/25 16:27",
+      "score": "A"
+    },
+    {
+      "id": 530,
+      "rating": 5,
+      "comment": "以大学生常见心理素质和潜能发展的问题困惑需求为基础，通过案例分析小组合作以及一些课堂互动进行，氛围很好老师人超好～",
+      "created_at": "2024/07/21 16:16",
+      "score": null
+    },
+    {
+      "id": 529,
+      "rating": 5,
+      "comment": "大概就是讲大学生心理方面的，老师之前是央财的，老师很好，上课氛围轻松愉悦，可以认识到好朋友",
+      "created_at": "2024/07/21 16:16",
+      "score": null
+    },
+    {
+      "id": 528,
+      "rating": 5,
+      "comment": "课程轻松有趣，任务量主要是小组作业",
+      "created_at": "2024/07/21 16:16",
+      "score": null
+    }
+  ]
 }

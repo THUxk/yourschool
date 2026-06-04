@@ -1,52 +1,28 @@
 {
-    "count": 3,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 959,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "四次读书报告，一次论文",
-            "created_at": "2024/07/21 18:31",
-            "modified_at": "2024/07/21 18:31",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 958,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "全周课共四篇读书报告一篇期末论文，给分好，上课不点名不签到，四次小组读书讨论课下助教组织的，好课！",
-            "created_at": "2024/07/21 18:31",
-            "modified_at": "2024/07/21 18:31",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 957,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "中国哲学主要讲述了从先秦到汉代的哲学思想，由著名教师李震讲述，上课体验很不错，学到很多有意思的知识",
-            "created_at": "2024/07/21 18:31",
-            "modified_at": "2024/07/21 18:31",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 3,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 959,
+      "rating": 5,
+      "comment": "四次读书报告，一次论文",
+      "created_at": "2024/07/21 18:31",
+      "score": null
+    },
+    {
+      "id": 958,
+      "rating": 4,
+      "comment": "全周课共四篇读书报告一篇期末论文，给分好，上课不点名不签到，四次小组读书讨论课下助教组织的，好课！",
+      "created_at": "2024/07/21 18:31",
+      "score": null
+    },
+    {
+      "id": 957,
+      "rating": 5,
+      "comment": "中国哲学主要讲述了从先秦到汉代的哲学思想，由著名教师李震讲述，上课体验很不错，学到很多有意思的知识",
+      "created_at": "2024/07/21 18:31",
+      "score": null
+    }
+  ]
 }

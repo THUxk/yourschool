@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1799,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：平时作业+期中+大作业小组展示\n\n授课质量与给分：上课讲的一般，总体来说任务量不算小，小组作业事比较多，期中和往年重合度大，给分正常\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/25 23:13",
-            "modified_at": "2025/01/25 23:13",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1799,
+      "rating": 3,
+      "comment": "考核方式：平时作业+期中+大作业小组展示\n\n授课质量与给分：上课讲的一般，总体来说任务量不算小，小组作业事比较多，期中和往年重合度大，给分正常\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/25 23:13",
+      "score": null
+    }
+  ]
 }

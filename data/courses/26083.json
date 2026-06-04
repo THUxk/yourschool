@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2539,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n今年新增了一个ai戏曲动画的期中，只需要在这个和期末论文里选一个完成（整个课只要这一个任务），ai戏曲动画只要交了就行，基本上可以很快搞完，而且如果搞得好还有奖金拿（非常多且比较容易）\n授课质量与给分：都非常好\n点评人：\nM.\n上课学期：2025冬",
-            "created_at": "2025/12/08 19:52",
-            "modified_at": "2025/12/08 19:52",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 992,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "每节课是不同行当的京剧演员来讲座，会现场唱，很有意思，作业只有期末1500的论文，我上的时候是这样",
-            "created_at": "2024/07/21 18:41",
-            "modified_at": "2024/07/21 18:41",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2539,
+      "rating": 5,
+      "comment": "考核方式：\n今年新增了一个ai戏曲动画的期中，只需要在这个和期末论文里选一个完成（整个课只要这一个任务），ai戏曲动画只要交了就行，基本上可以很快搞完，而且如果搞得好还有奖金拿（非常多且比较容易）\n授课质量与给分：都非常好\n点评人：\nM.\n上课学期：2025冬",
+      "created_at": "2025/12/08 19:52",
+      "score": "4.0"
+    },
+    {
+      "id": 992,
+      "rating": 5,
+      "comment": "每节课是不同行当的京剧演员来讲座，会现场唱，很有意思，作业只有期末1500的论文，我上的时候是这样",
+      "created_at": "2024/07/21 18:41",
+      "score": null
+    }
+  ]
 }

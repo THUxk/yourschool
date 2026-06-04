@@ -1,277 +1,133 @@
 {
-    "count": 18,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3324,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "被卷王组员带了，不然应该拿不到4.0。老师人特别好，但事也确实多。推荐的电影超级高质，打脸文想写好还是挺难的……课每次都闷到缺氧还会很困，但我依然很喜欢他hhhh",
-            "created_at": "2026/05/24 21:53",
-            "modified_at": "2026/05/24 21:53",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 3323,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n\n授课质量与给分：我是24秋那条评论，现在我来调分了（）标准不明晰（现在似乎比我那时候明晰了），内容全是扯皮，两周一整个下午的小班讨论，再加上晚课到9.45的正课，我觉得上这门课没什么意义\n\n点评人：\n\n上课学期：",
-            "created_at": "2026/05/24 19:46",
-            "modified_at": "2026/05/24 19:46",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3319,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：刻意练习60% 出勤10% 影评5%*2 期末打脸文20%\n\n授课质量与给分：授课质量每个人看法不一样，有些人觉得在胡说八道，有些人觉得大开眼界。给分我认为极差。我们组在小组展示总评额外+3分并且刻意练习60分拿满的情况下，居然全组只有一个4.0，成绩复核说因为要控制满分率向下调分到89了，给我气无语了。。总之在意GPA的建议蹭流量旁听，千万别跟风选，任务量也还是挺大的，每两周要耗费一整个下午进行可以练习，还有概率抽到摆烂队友。\n\n点评人：jo\n\n上课学期：2025秋",
-            "created_at": "2026/05/24 01:59",
-            "modified_at": "2026/05/24 01:59",
-            "score": "3.6 B+",
-            "moderator_remark": null
-        },
-        {
-            "id": 3071,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：刻意练习60%+课堂参与10%+两篇影评10%+大论文20%\n\n授课质量与给分：大热课程，很多人选，甚至教室都坐不下，后来只能强制让助教查学生卡放人进，导致我期中之后基本就没来过了。\n大课内容我觉得还好，但也有挺多人批评的，对于我们这种非专业的来说其实都差不多，主要是任务量小吧，几次刻意练习其实就针对几件事情随便发表一下自己的观点就行了，影评和大论文等到期末随便写写就行了。这一届课程爆满所以课堂参与应该是送分的吧（？）给分还好\n\n点评人：查理\n\n上课学期：25～26秋",
-            "created_at": "2026/02/25 11:21",
-            "modified_at": "2026/02/25 11:21",
-            "score": "A-/4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 2694,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 2,
-            "comment": "讲课就喜欢迎合刻板印象搞热点 一点都不严谨客观 每周还要小组meeting烦得要死 除了给分好不知道有啥优点",
-            "created_at": "2026/01/05 15:54",
-            "modified_at": "2026/01/05 15:54",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2259,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n\n授课质量与给分：标准不明晰，也没学到太多东西，任务相对于3学分的课来说挺多的\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/06/27 18:45",
-            "modified_at": "2025/06/27 18:45",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1969,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n标准不明晰\n授课质量与给分：\n0\n点评人：\n\n上课学期：",
-            "created_at": "2025/03/03 17:01",
-            "modified_at": "2025/03/03 17:01",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1968,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 2,
-            "comment": "考核方式：\n\n授课质量与给分：\n1\n点评人：\n\n上课学期：",
-            "created_at": "2025/03/03 16:58",
-            "modified_at": "2025/03/03 16:58",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1823,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：小组讨论+论文\n\n授课质量与给分：给分很好\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/01/27 08:13",
-            "modified_at": "2025/01/27 08:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1822,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：\n\n授课质量与给分：\n3\n点评人：\n\n上课学期：\n2024秋",
-            "created_at": "2025/01/26 23:35",
-            "modified_at": "2025/01/26 23:35",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1403,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：如果只是对心理学感兴趣来听听挺好的，而且可以随便翘课只要参加刻意练习就行，作业量也是很少。刘嘉老师每节课后推荐一部电影，作业就是所有电影里面选两篇写定型文，要求用到课上的心理学知识（虽然感觉课上其实没很多的心理学知识~有时候会出现一些奇异搞笑的言论），期末是一篇打脸文，就是写篇论文论述老师课上哪里讲的大错特错之类的\n\n点评人：\n\n上课学期：2024秋",
-            "created_at": "2024/12/06 18:04",
-            "modified_at": "2024/12/06 18:04",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1054,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：课堂参与10%，课程作业50%，小班研讨40%\n\n授课质量与给分：给分非常好，形式和内容都很有意思，涉及心理学，认知科学，社会学等领域，上课不签到且任务量在社科课组中来说算很小的，而且任务都比较有意思\n点评人：eve\n\n上课学期：2022-2023秋",
-            "created_at": "2024/07/22 09:55",
-            "modified_at": "2024/07/22 09:55",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 865,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课程内容很丰富，包括对意识 心理 ai 性爱 文化语言 大脑blablabla的研究\n刘老师人很幽默和蔼，知识储备nb，我的神",
-            "created_at": "2024/07/21 18:05",
-            "modified_at": "2024/07/21 18:05",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 864,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "网上的课程大纲非常详细，老师非常风趣幽默，作业有八次小组讨论，总体任务量不是很大，分组完成，作业分数方面，小组成员的成绩捆绑在一起，组内作业分数无差异。小组讨论可以结识一些神奇的同学，好评。",
-            "created_at": "2024/07/21 18:05",
-            "modified_at": "2024/07/21 18:05",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 863,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "前八周可以不来,因为没有作业.后八周也可以不来，但每周有一次刻意练习,练习内容为小组讨论、写思维导图、每周一篇800字文章总结，期末写一篇驳斥文。给分都高 。课堂有内容有深度，老师涪陵的，川普很搞笑。",
-            "created_at": "2024/07/21 18:05",
-            "modified_at": "2024/07/21 18:05",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 862,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "主要就是介绍一些心理学的小知识，像听故事一样，还有刻意练习以小组单位进行，大家一起讨论一个问题，主要是批判的过程。都很有趣！",
-            "created_at": "2024/07/21 18:05",
-            "modified_at": "2024/07/21 18:05",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 861,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "属于社科必修课，主要介绍心理学入入入门知识，老师人很好讲的也棒，课容量很大大一全能选上！",
-            "created_at": "2024/07/21 18:05",
-            "modified_at": "2024/07/21 18:05",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 860,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "有八次gp，一篇论文，老师本人讲的非常好",
-            "created_at": "2024/07/21 18:05",
-            "modified_at": "2024/07/21 18:05",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 18,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3324,
+      "rating": 4,
+      "comment": "被卷王组员带了，不然应该拿不到4.0。老师人特别好，但事也确实多。推荐的电影超级高质，打脸文想写好还是挺难的……课每次都闷到缺氧还会很困，但我依然很喜欢他hhhh",
+      "created_at": "2026/05/24 21:53",
+      "score": "4.0"
+    },
+    {
+      "id": 3323,
+      "rating": 1,
+      "comment": "考核方式：\n\n授课质量与给分：我是24秋那条评论，现在我来调分了（）标准不明晰（现在似乎比我那时候明晰了），内容全是扯皮，两周一整个下午的小班讨论，再加上晚课到9.45的正课，我觉得上这门课没什么意义\n\n点评人：\n\n上课学期：",
+      "created_at": "2026/05/24 19:46",
+      "score": null
+    },
+    {
+      "id": 3319,
+      "rating": 1,
+      "comment": "考核方式：刻意练习60% 出勤10% 影评5%*2 期末打脸文20%\n\n授课质量与给分：授课质量每个人看法不一样，有些人觉得在胡说八道，有些人觉得大开眼界。给分我认为极差。我们组在小组展示总评额外+3分并且刻意练习60分拿满的情况下，居然全组只有一个4.0，成绩复核说因为要控制满分率向下调分到89了，给我气无语了。。总之在意GPA的建议蹭流量旁听，千万别跟风选，任务量也还是挺大的，每两周要耗费一整个下午进行可以练习，还有概率抽到摆烂队友。\n\n点评人：jo\n\n上课学期：2025秋",
+      "created_at": "2026/05/24 01:59",
+      "score": "3.6 B+"
+    },
+    {
+      "id": 3071,
+      "rating": 5,
+      "comment": "考核方式：刻意练习60%+课堂参与10%+两篇影评10%+大论文20%\n\n授课质量与给分：大热课程，很多人选，甚至教室都坐不下，后来只能强制让助教查学生卡放人进，导致我期中之后基本就没来过了。\n大课内容我觉得还好，但也有挺多人批评的，对于我们这种非专业的来说其实都差不多，主要是任务量小吧，几次刻意练习其实就针对几件事情随便发表一下自己的观点就行了，影评和大论文等到期末随便写写就行了。这一届课程爆满所以课堂参与应该是送分的吧（？）给分还好\n\n点评人：查理\n\n上课学期：25～26秋",
+      "created_at": "2026/02/25 11:21",
+      "score": "A-/4.0"
+    },
+    {
+      "id": 2694,
+      "rating": 2,
+      "comment": "讲课就喜欢迎合刻板印象搞热点 一点都不严谨客观 每周还要小组meeting烦得要死 除了给分好不知道有啥优点",
+      "created_at": "2026/01/05 15:54",
+      "score": null
+    },
+    {
+      "id": 2259,
+      "rating": 1,
+      "comment": "考核方式：\n\n授课质量与给分：标准不明晰，也没学到太多东西，任务相对于3学分的课来说挺多的\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/06/27 18:45",
+      "score": null
+    },
+    {
+      "id": 1969,
+      "rating": 1,
+      "comment": "考核方式：\n标准不明晰\n授课质量与给分：\n0\n点评人：\n\n上课学期：",
+      "created_at": "2025/03/03 17:01",
+      "score": null
+    },
+    {
+      "id": 1968,
+      "rating": 2,
+      "comment": "考核方式：\n\n授课质量与给分：\n1\n点评人：\n\n上课学期：",
+      "created_at": "2025/03/03 16:58",
+      "score": null
+    },
+    {
+      "id": 1823,
+      "rating": 5,
+      "comment": "考核方式：小组讨论+论文\n\n授课质量与给分：给分很好\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/01/27 08:13",
+      "score": null
+    },
+    {
+      "id": 1822,
+      "rating": 3,
+      "comment": "考核方式：\n\n授课质量与给分：\n3\n点评人：\n\n上课学期：\n2024秋",
+      "created_at": "2025/01/26 23:35",
+      "score": null
+    },
+    {
+      "id": 1403,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：如果只是对心理学感兴趣来听听挺好的，而且可以随便翘课只要参加刻意练习就行，作业量也是很少。刘嘉老师每节课后推荐一部电影，作业就是所有电影里面选两篇写定型文，要求用到课上的心理学知识（虽然感觉课上其实没很多的心理学知识~有时候会出现一些奇异搞笑的言论），期末是一篇打脸文，就是写篇论文论述老师课上哪里讲的大错特错之类的\n\n点评人：\n\n上课学期：2024秋",
+      "created_at": "2024/12/06 18:04",
+      "score": null
+    },
+    {
+      "id": 1054,
+      "rating": 5,
+      "comment": "考核方式：课堂参与10%，课程作业50%，小班研讨40%\n\n授课质量与给分：给分非常好，形式和内容都很有意思，涉及心理学，认知科学，社会学等领域，上课不签到且任务量在社科课组中来说算很小的，而且任务都比较有意思\n点评人：eve\n\n上课学期：2022-2023秋",
+      "created_at": "2024/07/22 09:55",
+      "score": "4.0"
+    },
+    {
+      "id": 865,
+      "rating": 5,
+      "comment": "课程内容很丰富，包括对意识 心理 ai 性爱 文化语言 大脑blablabla的研究\n刘老师人很幽默和蔼，知识储备nb，我的神",
+      "created_at": "2024/07/21 18:05",
+      "score": null
+    },
+    {
+      "id": 864,
+      "rating": 5,
+      "comment": "网上的课程大纲非常详细，老师非常风趣幽默，作业有八次小组讨论，总体任务量不是很大，分组完成，作业分数方面，小组成员的成绩捆绑在一起，组内作业分数无差异。小组讨论可以结识一些神奇的同学，好评。",
+      "created_at": "2024/07/21 18:05",
+      "score": null
+    },
+    {
+      "id": 863,
+      "rating": 5,
+      "comment": "前八周可以不来,因为没有作业.后八周也可以不来，但每周有一次刻意练习,练习内容为小组讨论、写思维导图、每周一篇800字文章总结，期末写一篇驳斥文。给分都高 。课堂有内容有深度，老师涪陵的，川普很搞笑。",
+      "created_at": "2024/07/21 18:05",
+      "score": null
+    },
+    {
+      "id": 862,
+      "rating": 5,
+      "comment": "主要就是介绍一些心理学的小知识，像听故事一样，还有刻意练习以小组单位进行，大家一起讨论一个问题，主要是批判的过程。都很有趣！",
+      "created_at": "2024/07/21 18:05",
+      "score": null
+    },
+    {
+      "id": 861,
+      "rating": 5,
+      "comment": "属于社科必修课，主要介绍心理学入入入门知识，老师人很好讲的也棒，课容量很大大一全能选上！",
+      "created_at": "2024/07/21 18:05",
+      "score": null
+    },
+    {
+      "id": 860,
+      "rating": 5,
+      "comment": "有八次gp，一篇论文，老师本人讲的非常好",
+      "created_at": "2024/07/21 18:05",
+      "score": null
+    }
+  ]
 }

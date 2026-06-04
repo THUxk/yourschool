@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 68,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "李强老师对于课堂管理比较严格，课程回家作业相对其他老师更多，较多的课下练习、两篇制定课题的化学小论文（其中一篇以小组为单位，期末需要进行报告），对应地没有期中考试。但老师讲课十分有趣，老师也十分乐意与同学互动，对于未参加过化学竞赛的同学相当友好。",
-            "created_at": "2024/07/21 12:10",
-            "modified_at": "2024/07/21 12:10",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 68,
+      "rating": 5,
+      "comment": "李强老师对于课堂管理比较严格，课程回家作业相对其他老师更多，较多的课下练习、两篇制定课题的化学小论文（其中一篇以小组为单位，期末需要进行报告），对应地没有期中考试。但老师讲课十分有趣，老师也十分乐意与同学互动，对于未参加过化学竞赛的同学相当友好。",
+      "created_at": "2024/07/21 12:10",
+      "score": null
+    }
+  ]
 }

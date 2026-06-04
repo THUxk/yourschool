@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 648,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "课程人数少只有二三十人 没到可能容易被发现\n上课主要在概述人工智能的一些前沿和老师自己研究的方向，可能会有不懂的东西但没关系 只要了解感兴趣的内容\n最后有一个两人的pre，任务量不大",
-            "created_at": "2024/07/21 17:00",
-            "modified_at": "2024/07/21 17:00",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 648,
+      "rating": 4,
+      "comment": "课程人数少只有二三十人 没到可能容易被发现\n上课主要在概述人工智能的一些前沿和老师自己研究的方向，可能会有不懂的东西但没关系 只要了解感兴趣的内容\n最后有一个两人的pre，任务量不大",
+      "created_at": "2024/07/21 17:00",
+      "score": null
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 278,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "平时作业大多都是课本上的习题，难度一般不大，印象中还有一次作业要求使用R语言。但期末考试相较于平时的作业题难度更大，需要认真复习。",
-            "created_at": "2024/07/21 13:55",
-            "modified_at": "2024/07/21 13:55",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 278,
+      "rating": 3,
+      "comment": "平时作业大多都是课本上的习题，难度一般不大，印象中还有一次作业要求使用R语言。但期末考试相较于平时的作业题难度更大，需要认真复习。",
+      "created_at": "2024/07/21 13:55",
+      "score": null
+    }
+  ]
 }

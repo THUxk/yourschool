@@ -1,82 +1,42 @@
 {
-    "count": 5,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1340,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "讲课超级好的老师，内容很生动形象还有点小幽默，下课答疑特别棒，很耐心解释很透彻\n英语上课还是有挑战的，理解会慢一些而且要花很多时间\n总之很喜欢yyl！",
-            "created_at": "2024/11/08 14:44",
-            "modified_at": "2024/11/08 14:44",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 810,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "杨老师讲课超级好！课上不但会讲线性代数知识本身，还会讲在各个领域的应用。最重要的是期中take home期末开卷！！！",
-            "created_at": "2024/07/21 17:55",
-            "modified_at": "2024/07/21 17:55",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 809,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "纯英文授课，不过挺有意思",
-            "created_at": "2024/07/21 17:55",
-            "modified_at": "2024/07/21 17:55",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 808,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师讲的透彻，给分好，除了英语因素，算是最好老师",
-            "created_at": "2024/07/21 17:55",
-            "modified_at": "2024/07/21 17:55",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 309,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "课堂活泼有趣，课下解决问题积极高效，非常关心学生。整体体验很好。（开设英语班线性代数）",
-            "created_at": "2024/07/21 14:07",
-            "modified_at": "2024/07/21 14:07",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1340,
+      "rating": 5,
+      "comment": "讲课超级好的老师，内容很生动形象还有点小幽默，下课答疑特别棒，很耐心解释很透彻\n英语上课还是有挑战的，理解会慢一些而且要花很多时间\n总之很喜欢yyl！",
+      "created_at": "2024/11/08 14:44",
+      "score": null
+    },
+    {
+      "id": 810,
+      "rating": 5,
+      "comment": "杨老师讲课超级好！课上不但会讲线性代数知识本身，还会讲在各个领域的应用。最重要的是期中take home期末开卷！！！",
+      "created_at": "2024/07/21 17:55",
+      "score": null
+    },
+    {
+      "id": 809,
+      "rating": 4,
+      "comment": "纯英文授课，不过挺有意思",
+      "created_at": "2024/07/21 17:55",
+      "score": null
+    },
+    {
+      "id": 808,
+      "rating": 5,
+      "comment": "老师讲的透彻，给分好，除了英语因素，算是最好老师",
+      "created_at": "2024/07/21 17:55",
+      "score": null
+    },
+    {
+      "id": 309,
+      "rating": 5,
+      "comment": "课堂活泼有趣，课下解决问题积极高效，非常关心学生。整体体验很好。（开设英语班线性代数）",
+      "created_at": "2024/07/21 14:07",
+      "score": null
+    }
+  ]
 }

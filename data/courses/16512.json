@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1693,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：考试\n授课质量与给分：\n质量较差，学到最后还没理清知识脉络，线代知识确实散但讲课顺序还是很重要的；给分严格按排名比例调分；菜狗别的不少都4了就线代寄了（\n点评人：匿捏\n上课学期：大一上",
-            "created_at": "2025/01/24 22:44",
-            "modified_at": "2025/01/24 22:44",
-            "score": "B-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1693,
+      "rating": 3,
+      "comment": "考核方式：考试\n授课质量与给分：\n质量较差，学到最后还没理清知识脉络，线代知识确实散但讲课顺序还是很重要的；给分严格按排名比例调分；菜狗别的不少都4了就线代寄了（\n点评人：匿捏\n上课学期：大一上",
+      "created_at": "2025/01/24 22:44",
+      "score": "B-"
+    }
+  ]
 }

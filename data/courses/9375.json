@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2459,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "别来快跑",
-            "created_at": "2025/08/30 20:25",
-            "modified_at": "2025/08/30 20:25",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2459,
+      "rating": 1,
+      "comment": "别来快跑",
+      "created_at": "2025/08/30 20:25",
+      "score": null
+    }
+  ]
 }

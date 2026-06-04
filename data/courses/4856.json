@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 367,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "（2021春）课程任务量：不定期雨课堂小作业（定个闹钟，不然会忘），一次个人pre，期末大作业（别逾期，逾期扣分20分/天）。平时要看电影，不然上课就游离在课堂之外。教学风格：很有启发性。上课经常看电影哈哈哈！给分不错，感悟：认真看电影，从经典电影里你能学到很多。",
-            "created_at": "2024/07/21 14:29",
-            "modified_at": "2024/07/21 14:29",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 367,
+      "rating": 5,
+      "comment": "（2021春）课程任务量：不定期雨课堂小作业（定个闹钟，不然会忘），一次个人pre，期末大作业（别逾期，逾期扣分20分/天）。平时要看电影，不然上课就游离在课堂之外。教学风格：很有启发性。上课经常看电影哈哈哈！给分不错，感悟：认真看电影，从经典电影里你能学到很多。",
+      "created_at": "2024/07/21 14:29",
+      "score": null
+    }
+  ]
 }

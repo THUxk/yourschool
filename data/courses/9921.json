@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1325,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：分小组做pre，写小论文\n授课质量与给分：老师上课循循善诱，讲课内容丰富全面，还会具体分析当下中日关系和日本政治运作模式，非常棒！\n\n点评人：乐趴趴\n\n上课学期：2023秋",
-            "created_at": "2024/10/29 11:13",
-            "modified_at": "2024/10/29 11:13",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1325,
+      "rating": 5,
+      "comment": "考核方式：分小组做pre，写小论文\n授课质量与给分：老师上课循循善诱，讲课内容丰富全面，还会具体分析当下中日关系和日本政治运作模式，非常棒！\n\n点评人：乐趴趴\n\n上课学期：2023秋",
+      "created_at": "2024/10/29 11:13",
+      "score": "A-"
+    }
+  ]
 }

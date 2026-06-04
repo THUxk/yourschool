@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 210,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "李老师讲的比较慢，有时会用另外两位老师的ppt，适合对新知识接受较慢的同学。",
-            "created_at": "2024/07/21 13:31",
-            "modified_at": "2024/07/21 13:31",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 210,
+      "rating": 4,
+      "comment": "李老师讲的比较慢，有时会用另外两位老师的ppt，适合对新知识接受较慢的同学。",
+      "created_at": "2024/07/21 13:31",
+      "score": null
+    }
+  ]
 }

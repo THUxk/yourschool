@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1020,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "每节课都会进行课堂教学内容，然后分组进行舞蹈创作与编排。没有跳舞的经验也是完全没问题的。但要要求自己比较E比较放的开才行。",
-            "created_at": "2024/07/21 18:49",
-            "modified_at": "2024/07/21 18:49",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 758,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "基本每节课就是随便跳一跳舞，很轻松，下课结束之后填一个小问卷，期末是小组组队合跳一支短的舞，虽然课时显示是两节课，但大部分都只上一节课，只有快期末了排练用两节",
-            "created_at": "2024/07/21 17:39",
-            "modified_at": "2024/07/21 17:39",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1020,
+      "rating": 5,
+      "comment": "每节课都会进行课堂教学内容，然后分组进行舞蹈创作与编排。没有跳舞的经验也是完全没问题的。但要要求自己比较E比较放的开才行。",
+      "created_at": "2024/07/21 18:49",
+      "score": null
+    },
+    {
+      "id": 758,
+      "rating": 5,
+      "comment": "基本每节课就是随便跳一跳舞，很轻松，下课结束之后填一个小问卷，期末是小组组队合跳一支短的舞，虽然课时显示是两节课，但大部分都只上一节课，只有快期末了排练用两节",
+      "created_at": "2024/07/21 17:39",
+      "score": null
+    }
+  ]
 }

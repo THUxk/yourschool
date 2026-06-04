@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 597,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "上课讲述较有条理\n一位老师一位助教\n老师学识渊博 对课程理解深\n坏处就是容易打瞌睡",
-            "created_at": "2024/07/21 16:45",
-            "modified_at": "2024/07/21 16:45",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 597,
+      "rating": 3,
+      "comment": "上课讲述较有条理\n一位老师一位助教\n老师学识渊博 对课程理解深\n坏处就是容易打瞌睡",
+      "created_at": "2024/07/21 16:45",
+      "score": null
+    }
+  ]
 }

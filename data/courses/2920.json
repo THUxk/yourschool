@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 69,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "上课使用雨课堂（微信小程序）。平时作业每周有十道左右简答题。PPT翻页较快，内容较多，听课需要专注。去年期中只有两道简答题，期末考试以PPT为主。",
-            "created_at": "2024/07/21 12:11",
-            "modified_at": "2024/07/21 12:11",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 69,
+      "rating": 5,
+      "comment": "上课使用雨课堂（微信小程序）。平时作业每周有十道左右简答题。PPT翻页较快，内容较多，听课需要专注。去年期中只有两道简答题，期末考试以PPT为主。",
+      "created_at": "2024/07/21 12:11",
+      "score": null
+    }
+  ]
 }

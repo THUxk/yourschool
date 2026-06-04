@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1482,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师很好，每次上课都会带很多研究团队的博士生，可以接触到人工智能和元宇宙领域前沿，讲课也很有意思。而且还会给大家发VR设备，平时可以在寝室玩。ChatGPT plus会员也给报销，鼓励在学习生活中使用ai\n点评人：鱼鱼\n\n上课学期：2024秋",
-            "created_at": "2024/12/09 15:19",
-            "modified_at": "2024/12/09 15:19",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1482,
+      "rating": 5,
+      "comment": "老师很好，每次上课都会带很多研究团队的博士生，可以接触到人工智能和元宇宙领域前沿，讲课也很有意思。而且还会给大家发VR设备，平时可以在寝室玩。ChatGPT plus会员也给报销，鼓励在学习生活中使用ai\n点评人：鱼鱼\n\n上课学期：2024秋",
+      "created_at": "2024/12/09 15:19",
+      "score": null
+    }
+  ]
 }

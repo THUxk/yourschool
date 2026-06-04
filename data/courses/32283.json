@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2715,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：正手对攻（20+动作10）和打比赛（20），以及体测三千米阳光体育和跳远\n\n授课质量与给分：老师没的说，上课主要是打球，体验不错，不过专项给分主要是按打比赛来，建议有一定基础，不然很可能比赛+动作会扣七八分甚至更多（最多11）\n\n点评人：导向蓟",
-            "created_at": "2026/01/13 11:02",
-            "modified_at": "2026/01/13 11:02",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2715,
+      "rating": 4,
+      "comment": "考核方式：正手对攻（20+动作10）和打比赛（20），以及体测三千米阳光体育和跳远\n\n授课质量与给分：老师没的说，上课主要是打球，体验不错，不过专项给分主要是按打比赛来，建议有一定基础，不然很可能比赛+动作会扣七八分甚至更多（最多11）\n\n点评人：导向蓟",
+      "created_at": "2026/01/13 11:02",
+      "score": null
+    }
+  ]
 }

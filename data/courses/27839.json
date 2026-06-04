@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2825,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中＋期末＋作业\n\n授课质量与给分：永远的神，无需多言。邓老师是真的想让同学们学会，考试也是真的想让人得分。考点也会详细的说明，选上就是赚到\n\n点评人：星野\n\n上课学期：",
-            "created_at": "2026/01/30 19:47",
-            "modified_at": "2026/01/30 19:47",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2787,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：20%作业+30%期中+50%期末\n\n授课质量与给分：\n老师讲课非常形象生动、通俗易懂，一些难点会讲得很慢很细，虽然这可能在某些时候表现为催眠。考试闭卷，题目十分友好。\n\n点评人：硒代矽酸锡\n\n上课学期：2025-2026秋",
-            "created_at": "2026/01/30 18:13",
-            "modified_at": "2026/01/30 18:13",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2825,
+      "rating": 5,
+      "comment": "考核方式：期中＋期末＋作业\n\n授课质量与给分：永远的神，无需多言。邓老师是真的想让同学们学会，考试也是真的想让人得分。考点也会详细的说明，选上就是赚到\n\n点评人：星野\n\n上课学期：",
+      "created_at": "2026/01/30 19:47",
+      "score": "A"
+    },
+    {
+      "id": 2787,
+      "rating": 4,
+      "comment": "考核方式：20%作业+30%期中+50%期末\n\n授课质量与给分：\n老师讲课非常形象生动、通俗易懂，一些难点会讲得很慢很细，虽然这可能在某些时候表现为催眠。考试闭卷，题目十分友好。\n\n点评人：硒代矽酸锡\n\n上课学期：2025-2026秋",
+      "created_at": "2026/01/30 18:13",
+      "score": null
+    }
+  ]
 }

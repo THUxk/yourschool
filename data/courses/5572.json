@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 92,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 2,
-            "comment": "内容较难，涉及大学物理和数学的频繁应用，因此课程描述中注明不建议新生选修。第一节课会劝退新生，但若有对应学科基础也可以选修。给分好，有户外观星活动。",
-            "created_at": "2024/07/21 12:26",
-            "modified_at": "2024/07/21 12:26",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 92,
+      "rating": 2,
+      "comment": "内容较难，涉及大学物理和数学的频繁应用，因此课程描述中注明不建议新生选修。第一节课会劝退新生，但若有对应学科基础也可以选修。给分好，有户外观星活动。",
+      "created_at": "2024/07/21 12:26",
+      "score": null
+    }
+  ]
 }

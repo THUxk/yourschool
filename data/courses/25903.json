@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 646,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "王莹老师是社科学院心理学系的教授，这门课主要讲授一个人从受精卵到死亡一生中生理和心理的变化、可能产生的问题和化解的方式。通过这门课可以对人的成长历程有一个很全面的了解，感觉对一生的长远发展非常有好处！强推！",
-            "created_at": "2024/07/21 17:00",
-            "modified_at": "2024/07/21 17:00",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 646,
+      "rating": 5,
+      "comment": "王莹老师是社科学院心理学系的教授，这门课主要讲授一个人从受精卵到死亡一生中生理和心理的变化、可能产生的问题和化解的方式。通过这门课可以对人的成长历程有一个很全面的了解，感觉对一生的长远发展非常有好处！强推！",
+      "created_at": "2024/07/21 17:00",
+      "score": null
+    }
+  ]
 }

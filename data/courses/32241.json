@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1037,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "像硬件设计的一门课，因为和我专业相关，做起来很快乐，会设计一个AI产品，前八次课教一些东西，每节课还会让我们自己动手实践带回去成品，很有成就感（有一次是让我们手焊了一个机械键盘，连上线真的可以用的那种！），后八次课让我们自己做最终项目，老师会很耐心指导",
-            "created_at": "2024/07/21 18:55",
-            "modified_at": "2024/07/21 18:55",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1037,
+      "rating": 5,
+      "comment": "像硬件设计的一门课，因为和我专业相关，做起来很快乐，会设计一个AI产品，前八次课教一些东西，每节课还会让我们自己动手实践带回去成品，很有成就感（有一次是让我们手焊了一个机械键盘，连上线真的可以用的那种！），后八次课让我们自己做最终项目，老师会很耐心指导",
+      "created_at": "2024/07/21 18:55",
+      "score": null
+    }
+  ]
 }

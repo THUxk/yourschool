@@ -1,202 +1,98 @@
 {
-    "count": 13,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3390,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "底下四个疑似被刷好评了，各位慎重选课，不知道骗别人选这个课对他有什么好处，坑人真的合适吗，自己不小心吃这种烂课，还要让别人也吃？ppt稀烂，上课毫无水平，刷好评真是坏到骨子里了",
-            "created_at": "2026/05/29 09:07",
-            "modified_at": "2026/05/29 09:07",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3365,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：\n**不错的**\n点评人：\n\n上课学期：",
-            "created_at": "2026/05/28 16:30",
-            "modified_at": "2026/05/28 16:30",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3364,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：\n好的\n点评人：\n\n上课学期：",
-            "created_at": "2026/05/28 16:29",
-            "modified_at": "2026/05/28 16:29",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3363,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：\n好的\n点评人：\n\n上课学期：",
-            "created_at": "2026/05/28 16:29",
-            "modified_at": "2026/05/28 16:29",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3362,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：\n挺好\n点评人：\n\n上课学期：",
-            "created_at": "2026/05/28 16:29",
-            "modified_at": "2026/05/28 16:29",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3361,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n期中+期末+作业+加分，期中可以覆盖\n授课质量与给分：\n挺好的\n点评人：\n\n上课学期：2026秋",
-            "created_at": "2026/05/28 16:29",
-            "modified_at": "2026/05/28 16:29",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3360,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "之前听说考试简单才来的，结果不知道什么时候开始黑化了，上课讲的稀烂不提，考试题还特别复杂",
-            "created_at": "2026/05/28 14:38",
-            "modified_at": "2026/05/28 14:38",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3333,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "毫无优点可言，被前几年的评价骗进来选他的，结果课上成这样，考试也难，快来爽吃不调分3.0",
-            "created_at": "2026/05/25 10:24",
-            "modified_at": "2026/05/25 10:24",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3331,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "黑化了，上课讲的毫无营养，教考分离严重，出的题很难，给分也差，居然还不调分",
-            "created_at": "2026/05/25 10:22",
-            "modified_at": "2026/05/25 10:22",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3305,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 2,
-            "comment": "考核方式：\n作业+期末（没有期中）+习题课参与+回答问题加分，最高+3\n授课质量与给分：\n其实个人觉得上课一般，可能相比之前退化了，奈何考试内容和难度似乎都比唐老师低\n点评人：\n\n上课学期：2025秋",
-            "created_at": "2026/05/23 11:52",
-            "modified_at": "2026/05/23 11:52",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 3175,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：\n作业+期末（没有期中）+习题课参与+回答问题加分，最高+3\n授课质量与给分：\n其实个人觉得上课一般，可能相比之前退化了，奈何考试内容和难度似乎都比唐老师低\n点评人：\n\n上课学期：2025秋",
-            "created_at": "2026/03/07 12:57",
-            "modified_at": "2026/03/07 12:57",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1462,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n\n授课质量与给分：1.0\n\n点评人：\n\n上课学期：",
-            "created_at": "2024/12/08 15:11",
-            "modified_at": "2024/12/08 15:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 277,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n期末考试难度中等偏上。作业都布置的课本习题，有一个大作业需要写两个实际应用类型的题目，小组一起做。有配套的在线课程，每隔几周会有在线测试，最后的考试基本是基础题型。\n授课质量与给分：\n讲课细致，善于用实例说明问题，课程内容比较有意思。上课时使用雨课堂，下课后有慕课自学的要求（不计分）。",
-            "created_at": "2024/07/21 13:55",
-            "modified_at": "2024/07/21 13:55",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 13,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3390,
+      "rating": 1,
+      "comment": "底下四个疑似被刷好评了，各位慎重选课，不知道骗别人选这个课对他有什么好处，坑人真的合适吗，自己不小心吃这种烂课，还要让别人也吃？ppt稀烂，上课毫无水平，刷好评真是坏到骨子里了",
+      "created_at": "2026/05/29 09:07",
+      "score": null
+    },
+    {
+      "id": 3365,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：\n**不错的**\n点评人：\n\n上课学期：",
+      "created_at": "2026/05/28 16:30",
+      "score": null
+    },
+    {
+      "id": 3364,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：\n好的\n点评人：\n\n上课学期：",
+      "created_at": "2026/05/28 16:29",
+      "score": null
+    },
+    {
+      "id": 3363,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：\n好的\n点评人：\n\n上课学期：",
+      "created_at": "2026/05/28 16:29",
+      "score": null
+    },
+    {
+      "id": 3362,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：\n挺好\n点评人：\n\n上课学期：",
+      "created_at": "2026/05/28 16:29",
+      "score": null
+    },
+    {
+      "id": 3361,
+      "rating": 5,
+      "comment": "考核方式：\n期中+期末+作业+加分，期中可以覆盖\n授课质量与给分：\n挺好的\n点评人：\n\n上课学期：2026秋",
+      "created_at": "2026/05/28 16:29",
+      "score": null
+    },
+    {
+      "id": 3360,
+      "rating": 1,
+      "comment": "之前听说考试简单才来的，结果不知道什么时候开始黑化了，上课讲的稀烂不提，考试题还特别复杂",
+      "created_at": "2026/05/28 14:38",
+      "score": null
+    },
+    {
+      "id": 3333,
+      "rating": 1,
+      "comment": "毫无优点可言，被前几年的评价骗进来选他的，结果课上成这样，考试也难，快来爽吃不调分3.0",
+      "created_at": "2026/05/25 10:24",
+      "score": null
+    },
+    {
+      "id": 3331,
+      "rating": 1,
+      "comment": "黑化了，上课讲的毫无营养，教考分离严重，出的题很难，给分也差，居然还不调分",
+      "created_at": "2026/05/25 10:22",
+      "score": null
+    },
+    {
+      "id": 3305,
+      "rating": 2,
+      "comment": "考核方式：\n作业+期末（没有期中）+习题课参与+回答问题加分，最高+3\n授课质量与给分：\n其实个人觉得上课一般，可能相比之前退化了，奈何考试内容和难度似乎都比唐老师低\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/05/23 11:52",
+      "score": null
+    },
+    {
+      "id": 3175,
+      "rating": 3,
+      "comment": "考核方式：\n作业+期末（没有期中）+习题课参与+回答问题加分，最高+3\n授课质量与给分：\n其实个人觉得上课一般，可能相比之前退化了，奈何考试内容和难度似乎都比唐老师低\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/03/07 12:57",
+      "score": "4.0"
+    },
+    {
+      "id": 1462,
+      "rating": 1,
+      "comment": "考核方式：\n\n授课质量与给分：1.0\n\n点评人：\n\n上课学期：",
+      "created_at": "2024/12/08 15:11",
+      "score": null
+    },
+    {
+      "id": 277,
+      "rating": 4,
+      "comment": "考核方式：\n期末考试难度中等偏上。作业都布置的课本习题，有一个大作业需要写两个实际应用类型的题目，小组一起做。有配套的在线课程，每隔几周会有在线测试，最后的考试基本是基础题型。\n授课质量与给分：\n讲课细致，善于用实例说明问题，课程内容比较有意思。上课时使用雨课堂，下课后有慕课自学的要求（不计分）。",
+      "created_at": "2024/07/21 13:55",
+      "score": null
+    }
+  ]
 }

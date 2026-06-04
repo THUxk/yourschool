@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 777,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师会带我们编舞，有期中期末两个即兴表演，课上还会聊天，聊关于童年的记忆之类的，总之特别浪漫",
-            "created_at": "2024/07/21 17:44",
-            "modified_at": "2024/07/21 17:44",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 777,
+      "rating": 5,
+      "comment": "老师会带我们编舞，有期中期末两个即兴表演，课上还会聊天，聊关于童年的记忆之类的，总之特别浪漫",
+      "created_at": "2024/07/21 17:44",
+      "score": null
+    }
+  ]
 }

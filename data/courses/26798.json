@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2257,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中口试+期末口试、笔试+平时作业\n\n上课学期：2025春\n\n平时作业量较少。上课会有请人回答问题的环节，频率大概每节课1-2次。课上补充的东西挺多，但是期末笔试的时候基本上只会有课本内容。",
-            "created_at": "2025/06/27 18:41",
-            "modified_at": "2025/06/27 18:41",
-            "score": "A",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2257,
+      "rating": 5,
+      "comment": "考核方式：期中口试+期末口试、笔试+平时作业\n\n上课学期：2025春\n\n平时作业量较少。上课会有请人回答问题的环节，频率大概每节课1-2次。课上补充的东西挺多，但是期末笔试的时候基本上只会有课本内容。",
+      "created_at": "2025/06/27 18:41",
+      "score": "A"
+    }
+  ]
 }

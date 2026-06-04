@@ -1,37 +1,21 @@
 {
-    "count": 2,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3126,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：考试，可选pre、report等\n\n授课质量与给分：讲得非常清晰、有耐心，回答学生的问题也很仔细，ppt爱用表情包hh，强推，不过考得和中文大物完全不一样，但认真复习笔记还是有用\n\n点评人：\n\n上课学期：",
-            "created_at": "2026/02/28 19:58",
-            "modified_at": "2026/02/28 19:58",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 2192,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n\n授课质量与给分：非常好的老师绝对不调分批发2.0+\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/06/17 19:24",
-            "modified_at": "2025/06/17 19:24",
-            "score": "2.6",
-            "moderator_remark": null
-        }
-    ]
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3126,
+      "rating": 5,
+      "comment": "考核方式：考试，可选pre、report等\n\n授课质量与给分：讲得非常清晰、有耐心，回答学生的问题也很仔细，ppt爱用表情包hh，强推，不过考得和中文大物完全不一样，但认真复习笔记还是有用\n\n点评人：\n\n上课学期：",
+      "created_at": "2026/02/28 19:58",
+      "score": "A"
+    },
+    {
+      "id": 2192,
+      "rating": 1,
+      "comment": "考核方式：\n\n授课质量与给分：非常好的老师绝对不调分批发2.0+\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/06/17 19:24",
+      "score": "2.6"
+    }
+  ]
 }

@@ -1,202 +1,98 @@
 {
-    "count": 13,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3271,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式：\n黑箱\n授课质量与给分：\n给分应该是乱给的，任务量也不小，平时作业都在平均分之上，最后依旧吃3.6\n课程收获是精通AI，大家都是拿AI写的\n整体给到NPC\n点评人：\n\n上课学期：\n25秋",
-            "created_at": "2026/05/21 21:35",
-            "modified_at": "2026/05/21 21:35",
-            "score": "3.6",
-            "moderator_remark": null
-        },
-        {
-            "id": 2401,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n\n授课质量与给分：A\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/07/06 02:13",
-            "modified_at": "2025/07/06 02:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2400,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 2,
-            "comment": "给分不如别的，任务量比别的多。",
-            "created_at": "2025/07/05 18:53",
-            "modified_at": "2025/07/05 18:53",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2213,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：大论文，IMRD+最后两周口头汇报\n\n授课质量与给分：授课质量极高，给分极好，冲就完事了\n每次小作业分数都是班上偏下，最后口头汇报磕磕巴巴还照着稿子念，照样给了4.0\n之前还在怀疑这么多说给分好的是什么说法，现在发现是真的香😋\n\n点评人：匿\n\n上课学期：2025春",
-            "created_at": "2025/06/27 17:18",
-            "modified_at": "2025/06/27 17:18",
-            "score": "4.0",
-            "moderator_remark": null
-        },
-        {
-            "id": 1871,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：三篇初稿和一篇终稿，以及一次口头pre\n\n授课质量与给分：这学期最喜欢最有收获的一门课（二之一）\n\n点评人：\n\n上课学期：大一上",
-            "created_at": "2025/02/13 17:06",
-            "modified_at": "2025/02/13 17:06",
-            "score": "A",
-            "moderator_remark": null
-        },
-        {
-            "id": 1726,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：IMRD+终稿+汇报\n\n授课质量与给分：好，收获很大，给分也比想象中好的，认真完成就有用\n\n点评人：\n\n上课学期：24秋",
-            "created_at": "2025/01/25 08:57",
-            "modified_at": "2025/01/25 08:57",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 1701,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "平时的IMRD写的很差，pre又没好好准备。本来以为能拿3.3已然是万幸了，结果最后获得了A-。只能说庞老师给分超级好，同时讲课一流、老师和助教都极其负责。这么好的老师真的做到了让我一个高中极其讨厌英语的人燃起了对英语的极大的兴趣。\n\n上课学期：24秋",
-            "created_at": "2025/01/24 23:21",
-            "modified_at": "2025/01/24 23:21",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 882,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "总的来说就是写三千字论文 但是需要调查 老师讲的很好很有水平",
-            "created_at": "2024/07/21 18:11",
-            "modified_at": "2024/07/21 18:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 881,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "庞红梅老师讲的很好，能从她的课上学到很多东西，课间也会放一些电视剧片段等等，个人感觉非常好",
-            "created_at": "2024/07/21 18:11",
-            "modified_at": "2024/07/21 18:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 880,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "没预习没关系，上课不听也没关系，平时没得作业（除了自愿写的），一学期只要完成一篇论文就可以了，老师课间会放经典英美剧片段，上课不能使用电子设备，老师很温柔，给分很宽松",
-            "created_at": "2024/07/21 18:11",
-            "modified_at": "2024/07/21 18:11",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 403,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n课堂参与10%+pre15%+学期中论文写作任务50%+终稿25%\n\n每周都没有强制完成的作业，但需要读教材论文，个人认为还是很难读的。只有一个大作业和pre，大作业是一篇论文，期中要写完一半上交，后半学期是后半篇论文，最后要交一个最终稿。授课使用ppt，课程有一定难度，算是科研指导教学的典型课程，老师很温柔。",
-            "created_at": "2024/07/21 14:54",
-            "modified_at": "2024/07/21 14:54",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 382,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：出勤与课堂参与、口头展示、IMRDA五个部分的写作、论文终稿\n\n授课质量与给分：\n课程内容以教材为主，以ppt为辅，以教材中的论文进行授课，老师要求预习。课程作业与考核方面，有课堂小作业但不强求，作业为长度2000字左右的论文，会分期分块写，每部分都有各自的DDL，分开打分，期末将文章整合后总体打分，期末也有小组展示，介绍论文。老师讲课有趣有理，上课语言以英语为主。任务量适中。认真对待、用心写，会拿到好成绩。给分较好",
-            "created_at": "2024/07/21 14:38",
-            "modified_at": "2024/07/21 14:38",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 270,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "任务量中等偏少，老师讲课有意思，但是会要求上课不能使用手机和电脑，给分挺好。",
-            "created_at": "2024/07/21 13:52",
-            "modified_at": "2024/07/21 13:52",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 13,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3271,
+      "rating": 1,
+      "comment": "考核方式：\n黑箱\n授课质量与给分：\n给分应该是乱给的，任务量也不小，平时作业都在平均分之上，最后依旧吃3.6\n课程收获是精通AI，大家都是拿AI写的\n整体给到NPC\n点评人：\n\n上课学期：\n25秋",
+      "created_at": "2026/05/21 21:35",
+      "score": "3.6"
+    },
+    {
+      "id": 2401,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：A\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/07/06 02:13",
+      "score": null
+    },
+    {
+      "id": 2400,
+      "rating": 2,
+      "comment": "给分不如别的，任务量比别的多。",
+      "created_at": "2025/07/05 18:53",
+      "score": null
+    },
+    {
+      "id": 2213,
+      "rating": 5,
+      "comment": "考核方式：大论文，IMRD+最后两周口头汇报\n\n授课质量与给分：授课质量极高，给分极好，冲就完事了\n每次小作业分数都是班上偏下，最后口头汇报磕磕巴巴还照着稿子念，照样给了4.0\n之前还在怀疑这么多说给分好的是什么说法，现在发现是真的香😋\n\n点评人：匿\n\n上课学期：2025春",
+      "created_at": "2025/06/27 17:18",
+      "score": "4.0"
+    },
+    {
+      "id": 1871,
+      "rating": 5,
+      "comment": "考核方式：三篇初稿和一篇终稿，以及一次口头pre\n\n授课质量与给分：这学期最喜欢最有收获的一门课（二之一）\n\n点评人：\n\n上课学期：大一上",
+      "created_at": "2025/02/13 17:06",
+      "score": "A"
+    },
+    {
+      "id": 1726,
+      "rating": 5,
+      "comment": "考核方式：IMRD+终稿+汇报\n\n授课质量与给分：好，收获很大，给分也比想象中好的，认真完成就有用\n\n点评人：\n\n上课学期：24秋",
+      "created_at": "2025/01/25 08:57",
+      "score": null
+    },
+    {
+      "id": 1701,
+      "rating": 5,
+      "comment": "平时的IMRD写的很差，pre又没好好准备。本来以为能拿3.3已然是万幸了，结果最后获得了A-。只能说庞老师给分超级好，同时讲课一流、老师和助教都极其负责。这么好的老师真的做到了让我一个高中极其讨厌英语的人燃起了对英语的极大的兴趣。\n\n上课学期：24秋",
+      "created_at": "2025/01/24 23:21",
+      "score": "A-"
+    },
+    {
+      "id": 882,
+      "rating": 5,
+      "comment": "总的来说就是写三千字论文 但是需要调查 老师讲的很好很有水平",
+      "created_at": "2024/07/21 18:11",
+      "score": null
+    },
+    {
+      "id": 881,
+      "rating": 5,
+      "comment": "庞红梅老师讲的很好，能从她的课上学到很多东西，课间也会放一些电视剧片段等等，个人感觉非常好",
+      "created_at": "2024/07/21 18:11",
+      "score": null
+    },
+    {
+      "id": 880,
+      "rating": 5,
+      "comment": "没预习没关系，上课不听也没关系，平时没得作业（除了自愿写的），一学期只要完成一篇论文就可以了，老师课间会放经典英美剧片段，上课不能使用电子设备，老师很温柔，给分很宽松",
+      "created_at": "2024/07/21 18:11",
+      "score": null
+    },
+    {
+      "id": 403,
+      "rating": 5,
+      "comment": "考核方式：\n课堂参与10%+pre15%+学期中论文写作任务50%+终稿25%\n\n每周都没有强制完成的作业，但需要读教材论文，个人认为还是很难读的。只有一个大作业和pre，大作业是一篇论文，期中要写完一半上交，后半学期是后半篇论文，最后要交一个最终稿。授课使用ppt，课程有一定难度，算是科研指导教学的典型课程，老师很温柔。",
+      "created_at": "2024/07/21 14:54",
+      "score": null
+    },
+    {
+      "id": 382,
+      "rating": 5,
+      "comment": "考核方式：出勤与课堂参与、口头展示、IMRDA五个部分的写作、论文终稿\n\n授课质量与给分：\n课程内容以教材为主，以ppt为辅，以教材中的论文进行授课，老师要求预习。课程作业与考核方面，有课堂小作业但不强求，作业为长度2000字左右的论文，会分期分块写，每部分都有各自的DDL，分开打分，期末将文章整合后总体打分，期末也有小组展示，介绍论文。老师讲课有趣有理，上课语言以英语为主。任务量适中。认真对待、用心写，会拿到好成绩。给分较好",
+      "created_at": "2024/07/21 14:38",
+      "score": null
+    },
+    {
+      "id": 270,
+      "rating": 5,
+      "comment": "任务量中等偏少，老师讲课有意思，但是会要求上课不能使用手机和电脑，给分挺好。",
+      "created_at": "2024/07/21 13:52",
+      "score": null
+    }
+  ]
 }

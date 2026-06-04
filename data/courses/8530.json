@@ -1,112 +1,56 @@
 {
-    "count": 7,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2654,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：统考\n\n授课质量与给分：pptreader，但是PPT做得很好，唯一有问题的是不要太关注PPT上的拔高内容，有上课回放\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/12/18 14:53",
-            "modified_at": "2025/12/18 14:53",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2449,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "考核方式：平时:期中:期末 = 2:3:5 / 2:0:8\n\n授课质量与给分：\n雨课堂直播+回放，讲的还可以，感觉比ylj好\n不调分\n\n上课学期：25春",
-            "created_at": "2025/07/20 03:36",
-            "modified_at": "2025/07/20 03:36",
-            "score": "2.3",
-            "moderator_remark": null
-        },
-        {
-            "id": 2448,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：考试+作业\n\n授课质量与给分：不考勤，上课用ppt，讲的很细，有录屏，课没上或者复习都很方便，个人认为课讲的很好，适合数学基础不是很好的同学（比如我），选课压力也没崔jl那么大，强推\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/07/12 22:48",
-            "modified_at": "2025/07/12 22:48",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2299,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：平时:期中:期末=2:3:5或2:0:8取高\n\n授课质量与给分：无考勤，有录播和ppt，讲得非常非常细（虽然说有些地方细得没意思）也比较面向考试，作业个人认为极少（不排除是因为本人上学期被ylj调教了才这样觉得），据说不调分\n\n点评人：硒代矽酸锡\n\n上课学期：2024-2025春",
-            "created_at": "2025/06/27 22:20",
-            "modified_at": "2025/06/27 22:20",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 2282,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：20%平时+20%max{期中，期末}+60%期末\n\n授课质量与给分：不查考勤，平时分只要作业交了就给满，但不调分。讲课很细致，但略慢（本人几乎没上过线下课，基本雨课堂1.5倍速回放）。作业题来源书本，习题课题目质量很高。适合数学基础一般的同学。\n\n上课学期：25春",
-            "created_at": "2025/06/27 20:55",
-            "modified_at": "2025/06/27 20:55",
-            "score": "A-",
-            "moderator_remark": null
-        },
-        {
-            "id": 1519,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：期中期末，建议提前找往年卷练手\n授课质量与给分：\nypjj的讲课方式略平淡，**容易犯困**，但是坚持跟下来的话会对知识掌握的很明白；**ppt质量很高**，可用作复习材料，有很多值得思考和积累的例题。**不调分**。\n点评人：Eric\n上课学期：24春",
-            "created_at": "2024/12/12 11:52",
-            "modified_at": "2024/12/12 11:52",
-            "score": "B",
-            "moderator_remark": null
-        },
-        {
-            "id": 181,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "老师使用PPT授课，PPT内容详细全面，上课节奏较快。课后作业任务量大，但都会给出详细解答，收获也会更多。在本学期的微积分学习中，计算是很重要的一环，建议大家多多练习。总之晏平姐姐的课认认真真跟着学收获很大，注意课前课后利用PPT进行预习复习，不要因为作业量大就打退堂鼓，不调分。",
-            "created_at": "2024/07/21 13:20",
-            "modified_at": "2024/07/21 13:20",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 7,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2654,
+      "rating": 4,
+      "comment": "考核方式：统考\n\n授课质量与给分：pptreader，但是PPT做得很好，唯一有问题的是不要太关注PPT上的拔高内容，有上课回放\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/12/18 14:53",
+      "score": null
+    },
+    {
+      "id": 2449,
+      "rating": 3,
+      "comment": "考核方式：平时:期中:期末 = 2:3:5 / 2:0:8\n\n授课质量与给分：\n雨课堂直播+回放，讲的还可以，感觉比ylj好\n不调分\n\n上课学期：25春",
+      "created_at": "2025/07/20 03:36",
+      "score": "2.3"
+    },
+    {
+      "id": 2448,
+      "rating": 5,
+      "comment": "考核方式：考试+作业\n\n授课质量与给分：不考勤，上课用ppt，讲的很细，有录屏，课没上或者复习都很方便，个人认为课讲的很好，适合数学基础不是很好的同学（比如我），选课压力也没崔jl那么大，强推\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/07/12 22:48",
+      "score": null
+    },
+    {
+      "id": 2299,
+      "rating": 5,
+      "comment": "考核方式：平时:期中:期末=2:3:5或2:0:8取高\n\n授课质量与给分：无考勤，有录播和ppt，讲得非常非常细（虽然说有些地方细得没意思）也比较面向考试，作业个人认为极少（不排除是因为本人上学期被ylj调教了才这样觉得），据说不调分\n\n点评人：硒代矽酸锡\n\n上课学期：2024-2025春",
+      "created_at": "2025/06/27 22:20",
+      "score": null
+    },
+    {
+      "id": 2282,
+      "rating": 5,
+      "comment": "考核方式：20%平时+20%max{期中，期末}+60%期末\n\n授课质量与给分：不查考勤，平时分只要作业交了就给满，但不调分。讲课很细致，但略慢（本人几乎没上过线下课，基本雨课堂1.5倍速回放）。作业题来源书本，习题课题目质量很高。适合数学基础一般的同学。\n\n上课学期：25春",
+      "created_at": "2025/06/27 20:55",
+      "score": "A-"
+    },
+    {
+      "id": 1519,
+      "rating": 5,
+      "comment": "考核方式：期中期末，建议提前找往年卷练手\n授课质量与给分：\nypjj的讲课方式略平淡，**容易犯困**，但是坚持跟下来的话会对知识掌握的很明白；**ppt质量很高**，可用作复习材料，有很多值得思考和积累的例题。**不调分**。\n点评人：Eric\n上课学期：24春",
+      "created_at": "2024/12/12 11:52",
+      "score": "B"
+    },
+    {
+      "id": 181,
+      "rating": 4,
+      "comment": "老师使用PPT授课，PPT内容详细全面，上课节奏较快。课后作业任务量大，但都会给出详细解答，收获也会更多。在本学期的微积分学习中，计算是很重要的一环，建议大家多多练习。总之晏平姐姐的课认认真真跟着学收获很大，注意课前课后利用PPT进行预习复习，不要因为作业量大就打退堂鼓，不调分。",
+      "created_at": "2024/07/21 13:20",
+      "score": null
+    }
+  ]
 }

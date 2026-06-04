@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 2089,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：考勤+作业20\n期中考\n期末考\n\n授课质量与给分：质量好，会讲历年的考题，会讲方法，给发公正，不过要是课堂积极，每次回答问题期末考+1分\n\n点评人：\n\n上课学期：",
-            "created_at": "2025/05/18 09:50",
-            "modified_at": "2025/05/18 09:50",
-            "score": "4.0",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2089,
+      "rating": 5,
+      "comment": "考核方式：考勤+作业20\n期中考\n期末考\n\n授课质量与给分：质量好，会讲历年的考题，会讲方法，给发公正，不过要是课堂积极，每次回答问题期末考+1分\n\n点评人：\n\n上课学期：",
+      "created_at": "2025/05/18 09:50",
+      "score": "4.0"
+    }
+  ]
 }

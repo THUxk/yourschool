@@ -1,97 +1,49 @@
 {
-    "count": 6,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3086,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "老师会背刺，最好摆摆的别跟老师交流，交流的越多越觉得你们做的不行，最后直接绩点背刺。\n本人所有课程要求都认真完成了最后连个3.6都不给。\n周围一个组的朋友也都是3.3",
-            "created_at": "2026/02/25 17:31",
-            "modified_at": "2026/02/25 17:31",
-            "score": "3.3",
-            "moderator_remark": null
-        },
-        {
-            "id": 3085,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "老师会背刺，最好摆摆的别跟老师交流，交流的越多越觉得你们做的不行，最后直接绩点背刺。\n本人所有课程要求都认真完成了最后连个3.6都不给。\n周围一个组的朋友也都是3.3",
-            "created_at": "2026/02/25 17:31",
-            "modified_at": "2026/02/25 17:31",
-            "score": "3.3",
-            "moderator_remark": null
-        },
-        {
-            "id": 507,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "教授产品设计思维方法与设计过程，机械系老师，上课比较宽松，作业量也不大，没有期中期末考试",
-            "created_at": "2024/07/21 16:08",
-            "modified_at": "2024/07/21 16:08",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 506,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "教授产品设计思维方法，设计过程，机械系教授，上课比较宽松，不提问 ，作业需要小组完成，",
-            "created_at": "2024/07/21 16:08",
-            "modified_at": "2024/07/21 16:08",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 505,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "他是个特别好的老头 你可以不来 只要快下课进雨课堂做小测就行 小测都是ppt上的 他ppt会发在网络学堂",
-            "created_at": "2024/07/21 16:08",
-            "modified_at": "2024/07/21 16:08",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 504,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "如果是老师的讲授课，可以在下面摸鱼写作业，但是老师有一点是会拖堂，讲不完的时候，讲授课还会小测试，但是测试答案都在PPT里面。分小组进行设计项目，按要求做就好了",
-            "created_at": "2024/07/21 16:08",
-            "modified_at": "2024/07/21 16:08",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 6,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3086,
+      "rating": 1,
+      "comment": "老师会背刺，最好摆摆的别跟老师交流，交流的越多越觉得你们做的不行，最后直接绩点背刺。\n本人所有课程要求都认真完成了最后连个3.6都不给。\n周围一个组的朋友也都是3.3",
+      "created_at": "2026/02/25 17:31",
+      "score": "3.3"
+    },
+    {
+      "id": 3085,
+      "rating": 1,
+      "comment": "老师会背刺，最好摆摆的别跟老师交流，交流的越多越觉得你们做的不行，最后直接绩点背刺。\n本人所有课程要求都认真完成了最后连个3.6都不给。\n周围一个组的朋友也都是3.3",
+      "created_at": "2026/02/25 17:31",
+      "score": "3.3"
+    },
+    {
+      "id": 507,
+      "rating": 5,
+      "comment": "教授产品设计思维方法与设计过程，机械系老师，上课比较宽松，作业量也不大，没有期中期末考试",
+      "created_at": "2024/07/21 16:08",
+      "score": null
+    },
+    {
+      "id": 506,
+      "rating": 5,
+      "comment": "教授产品设计思维方法，设计过程，机械系教授，上课比较宽松，不提问 ，作业需要小组完成，",
+      "created_at": "2024/07/21 16:08",
+      "score": null
+    },
+    {
+      "id": 505,
+      "rating": 5,
+      "comment": "他是个特别好的老头 你可以不来 只要快下课进雨课堂做小测就行 小测都是ppt上的 他ppt会发在网络学堂",
+      "created_at": "2024/07/21 16:08",
+      "score": null
+    },
+    {
+      "id": 504,
+      "rating": 3,
+      "comment": "如果是老师的讲授课，可以在下面摸鱼写作业，但是老师有一点是会拖堂，讲不完的时候，讲授课还会小测试，但是测试答案都在PPT里面。分小组进行设计项目，按要求做就好了",
+      "created_at": "2024/07/21 16:08",
+      "score": null
+    }
+  ]
 }

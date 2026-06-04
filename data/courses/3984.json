@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 129,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "给分好，作业少，期末一篇3000字论文。老师很有想法，认真学的话能够学到很多东西。",
-            "created_at": "2024/07/21 12:55",
-            "modified_at": "2024/07/21 12:55",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 129,
+      "rating": 5,
+      "comment": "给分好，作业少，期末一篇3000字论文。老师很有想法，认真学的话能够学到很多东西。",
+      "created_at": "2024/07/21 12:55",
+      "score": null
+    }
+  ]
 }

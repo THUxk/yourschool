@@ -1,172 +1,84 @@
 {
-    "count": 11,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1808,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 1,
-            "comment": "考核方式\n期中读书报告\n小组展示\n期末论文\n授课质量与给分：还行、给分不理解。是组长，认真做展示（承担了蛮多事情，论文和助教商量，多次修改，仍然吃到3.6……不理解呀\n\n点评人：\n\n上课学期：2024秋季",
-            "created_at": "2025/01/26 10:33",
-            "modified_at": "2025/01/26 10:33",
-            "score": "3.6",
-            "moderator_remark": null
-        },
-        {
-            "id": 690,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "因为有小组pre，所以组员给力很重要。上课很少提问，可以做线代",
-            "created_at": "2024/07/21 17:13",
-            "modified_at": "2024/07/21 17:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 689,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "探究选题很贴合学生实际生活，一点也不死板！比如张雪峰、奥本海默、苏联解体、邓稼先与杨振宁等等。助教很多，颜值也很高！老师上课也挺有趣的，经常开开小玩笑",
-            "created_at": "2024/07/21 17:13",
-            "modified_at": "2024/07/21 17:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 688,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师讲课讲得非常好，助教们也非常耐心，任务不算非常重，一个小论文一个大论文还有一个pre",
-            "created_at": "2024/07/21 17:13",
-            "modified_at": "2024/07/21 17:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 687,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "老师人美心善，课堂氛围超好",
-            "created_at": "2024/07/21 17:13",
-            "modified_at": "2024/07/21 17:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 686,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "课堂较为轻松 老师人也很好 任务量适中，平时作业不算太多，但pre加上期末论文加起来也还是有一定的任务量的",
-            "created_at": "2024/07/21 17:13",
-            "modified_at": "2024/07/21 17:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 685,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "李老师很体谅大家，平常几乎没作业，只有期中读书报告，期末论文和一个小组展示，没有考试。课上也尽力带动大家进入情景来思考。上课体验很好。",
-            "created_at": "2024/07/21 17:13",
-            "modified_at": "2024/07/21 17:13",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 449,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n探究作业+平时作业+随堂考试+期末论文\n授课质量与给分：\n讲授与讨论相结合，授课精彩，教授的内容有一定的深度和难度，适合有一定哲学基础或想认真学习马克思主义的同学。作业少而精，对应不同的专题需要选取必读书目做pre，读书报告与期末论文深化pre的内容。",
-            "created_at": "2024/07/21 15:30",
-            "modified_at": "2024/07/21 15:30",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 401,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：平时任务较少，小组pre周需要读书并开展两次讨论，有期末论文。\n\n授课质量与给分：\n分六个专题主要讲授人生观、理想信念、中国精神、社会主义核心价值观、道德和法律基础等内容。",
-            "created_at": "2024/07/21 14:52",
-            "modified_at": "2024/07/21 14:52",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 261,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "往年对李老师的一致评价是人美心善，不是谣言。课上会安排小组讨论一次，刚接触到这种形式的时候可能不太适应，但实际宽容度很高，留的准备时间也还算充分。按照2021年的安排，期末之前会有两次比较短的读书笔记，期末是2000-3000左右的读书报告（论文）。2000字论文真的不算难写，有之前小组讨论的准备，几个小时就能赶完。给分也不错。",
-            "created_at": "2024/07/21 13:47",
-            "modified_at": "2024/07/21 13:47",
-            "score": null,
-            "moderator_remark": null
-        },
-        {
-            "id": 43,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：展示+作业+小测+论文\n\n特点：老师人美心善，给分不错，论文为手写，但据零字班反映当时任务量偏大，一字班反映课程任务较少。",
-            "created_at": "2024/07/21 11:06",
-            "modified_at": "2024/07/21 11:06",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 11,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1808,
+      "rating": 1,
+      "comment": "考核方式\n期中读书报告\n小组展示\n期末论文\n授课质量与给分：还行、给分不理解。是组长，认真做展示（承担了蛮多事情，论文和助教商量，多次修改，仍然吃到3.6……不理解呀\n\n点评人：\n\n上课学期：2024秋季",
+      "created_at": "2025/01/26 10:33",
+      "score": "3.6"
+    },
+    {
+      "id": 690,
+      "rating": 5,
+      "comment": "因为有小组pre，所以组员给力很重要。上课很少提问，可以做线代",
+      "created_at": "2024/07/21 17:13",
+      "score": null
+    },
+    {
+      "id": 689,
+      "rating": 5,
+      "comment": "探究选题很贴合学生实际生活，一点也不死板！比如张雪峰、奥本海默、苏联解体、邓稼先与杨振宁等等。助教很多，颜值也很高！老师上课也挺有趣的，经常开开小玩笑",
+      "created_at": "2024/07/21 17:13",
+      "score": null
+    },
+    {
+      "id": 688,
+      "rating": 5,
+      "comment": "老师讲课讲得非常好，助教们也非常耐心，任务不算非常重，一个小论文一个大论文还有一个pre",
+      "created_at": "2024/07/21 17:13",
+      "score": null
+    },
+    {
+      "id": 687,
+      "rating": 5,
+      "comment": "老师人美心善，课堂氛围超好",
+      "created_at": "2024/07/21 17:13",
+      "score": null
+    },
+    {
+      "id": 686,
+      "rating": 4,
+      "comment": "课堂较为轻松 老师人也很好 任务量适中，平时作业不算太多，但pre加上期末论文加起来也还是有一定的任务量的",
+      "created_at": "2024/07/21 17:13",
+      "score": null
+    },
+    {
+      "id": 685,
+      "rating": 5,
+      "comment": "李老师很体谅大家，平常几乎没作业，只有期中读书报告，期末论文和一个小组展示，没有考试。课上也尽力带动大家进入情景来思考。上课体验很好。",
+      "created_at": "2024/07/21 17:13",
+      "score": null
+    },
+    {
+      "id": 449,
+      "rating": 5,
+      "comment": "考核方式：\n探究作业+平时作业+随堂考试+期末论文\n授课质量与给分：\n讲授与讨论相结合，授课精彩，教授的内容有一定的深度和难度，适合有一定哲学基础或想认真学习马克思主义的同学。作业少而精，对应不同的专题需要选取必读书目做pre，读书报告与期末论文深化pre的内容。",
+      "created_at": "2024/07/21 15:30",
+      "score": null
+    },
+    {
+      "id": 401,
+      "rating": 4,
+      "comment": "考核方式：平时任务较少，小组pre周需要读书并开展两次讨论，有期末论文。\n\n授课质量与给分：\n分六个专题主要讲授人生观、理想信念、中国精神、社会主义核心价值观、道德和法律基础等内容。",
+      "created_at": "2024/07/21 14:52",
+      "score": null
+    },
+    {
+      "id": 261,
+      "rating": 5,
+      "comment": "往年对李老师的一致评价是人美心善，不是谣言。课上会安排小组讨论一次，刚接触到这种形式的时候可能不太适应，但实际宽容度很高，留的准备时间也还算充分。按照2021年的安排，期末之前会有两次比较短的读书笔记，期末是2000-3000左右的读书报告（论文）。2000字论文真的不算难写，有之前小组讨论的准备，几个小时就能赶完。给分也不错。",
+      "created_at": "2024/07/21 13:47",
+      "score": null
+    },
+    {
+      "id": 43,
+      "rating": 4,
+      "comment": "考核方式：展示+作业+小测+论文\n\n特点：老师人美心善，给分不错，论文为手写，但据零字班反映当时任务量偏大，一字班反映课程任务较少。",
+      "created_at": "2024/07/21 11:06",
+      "score": null
+    }
+  ]
 }

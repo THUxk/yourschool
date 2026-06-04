@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 279,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 4,
-            "comment": "考核方式：\n每周作业+三次实验+一次小组讨论课+期末闭卷考试。\n授课质量与给分：\n讲课细致，教学认真。总体而言难度不大，但仍需要认真学习。要重视理解概念。期末可以通过爱课程网站进行复习。",
-            "created_at": "2024/07/21 13:56",
-            "modified_at": "2024/07/21 13:56",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 279,
+      "rating": 4,
+      "comment": "考核方式：\n每周作业+三次实验+一次小组讨论课+期末闭卷考试。\n授课质量与给分：\n讲课细致，教学认真。总体而言难度不大，但仍需要认真学习。要重视理解概念。期末可以通过爱课程网站进行复习。",
+      "created_at": "2024/07/21 13:56",
+      "score": null
+    }
+  ]
 }

@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 1175,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 3,
-            "comment": "平均每周都会有作业，方程推导以及编程\n考核方式：\n大作业\n授课质量与给分：\n会培养强大的自学能力",
-            "created_at": "2024/07/24 09:36",
-            "modified_at": "2024/07/24 09:36",
-            "score": null,
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1175,
+      "rating": 3,
+      "comment": "平均每周都会有作业，方程推导以及编程\n考核方式：\n大作业\n授课质量与给分：\n会培养强大的自学能力",
+      "created_at": "2024/07/24 09:36",
+      "score": null
+    }
+  ]
 }

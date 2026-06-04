@@ -1,22 +1,14 @@
 {
-    "count": 1,
-    "next": null,
-    "previous": null,
-    "results": [
-        {
-            "id": 3213,
-            "reactions": {
-                "approves": 0,
-                "disapproves": 0
-            },
-            "is_mine": false,
-            "semester": "",
-            "rating": 5,
-            "comment": "考核方式：\n期末可以覆盖期中，7道大题，要写证明\n授课质量与给分：\n给分好，考试比作业简单，讲得透彻\n点评人：\nGary\n上课学期：\n2025秋",
-            "created_at": "2026/04/01 16:36",
-            "modified_at": "2026/04/01 16:36",
-            "score": "A-",
-            "moderator_remark": null
-        }
-    ]
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3213,
+      "rating": 5,
+      "comment": "考核方式：\n期末可以覆盖期中，7道大题，要写证明\n授课质量与给分：\n给分好，考试比作业简单，讲得透彻\n点评人：\nGary\n上课学期：\n2025秋",
+      "created_at": "2026/04/01 16:36",
+      "score": "A-"
+    }
+  ]
 }
