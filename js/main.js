@@ -1510,9 +1510,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 // 全局事件绑定
 document.addEventListener("click", (e) => {
-  // 过滤器组切换
-  if (e.target.matches('[data-toggle="filter-group"]')) {
-    Controller.toggleFilterGroup(e.target);
+  // 过滤器组切换 — 匹配 data-target 属性（HTML 中使用的属性名）
+  const filterTitle = e.target.closest('[data-target]');
+  if (filterTitle) {
+    Controller.toggleFilterGroup(filterTitle);
   }
 
   // 趋势图相关
@@ -1526,7 +1527,7 @@ document.addEventListener("click", (e) => {
 
 // 搜索相关事件
 document.addEventListener("DOMContentLoaded", () => {
-  // 课程列表页过滤器
+  // 课程列表页过滤器 — "仅显示有点评的课程"
   const filterHasReviews = Utils.$("filter-has-reviews");
   if (filterHasReviews) {
     filterHasReviews.addEventListener("change", () =>
@@ -1534,22 +1535,14 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   }
 
-  // 搜索页
-  const searchBtn = Utils.$("search-btn");
+  // 搜索页 — "仅显示有点评的课程" 复选框
   const searchOnlyReviewed = Utils.$("search-only-reviewed");
   const searchKeywordInput = Utils.$("search-keyword-input");
-
-  if (searchBtn) {
-    searchBtn.addEventListener("click", () =>
-      Controller.doSearchInternal(searchKeywordInput?.value.trim()),
-    );
-  }
-
   if (searchOnlyReviewed) {
     searchOnlyReviewed.addEventListener("change", () => {
       State.searchIndexCache = null;
       DataLoader.loadSearchIndex(searchOnlyReviewed.checked).then(() => {
-        Controller.doSearchInternal(searchKeywordInput?.value.trim());
+        Controller.doSearchInternal(searchKeywordInput?.value?.trim() || "");
       });
     });
   }
@@ -1569,3 +1562,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+/* ================================================================
+ * 全局函数暴露 — 供 HTML inline 事件处理器调用
+ * HTML 中的 onclick/onsubmit 等需要全局作用域的函数
+ * ================================================================ */
+
+// 搜索页 — 表单提交 / 搜索按钮
+window.doSearch = function () {
+  const kw = Utils.$("search-keyword-input")?.value?.trim() || "";
+  Controller.doSearchInternal(kw);
+};
+
+// 课程列表页 — 筛选确认按钮
+window.applyFilters = function () {
+  Controller.applyFilters();
+};
+
+// 课程列表页 — 筛选组折叠/展开
+window.toggleFilterGroup = function (el) {
+  Controller.toggleFilterGroup(el);
+};
