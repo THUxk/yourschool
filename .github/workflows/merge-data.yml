@@ -256,6 +256,9 @@ jobs:
           git pull origin data --quiet
           mkdir -p archive
 
+          git config --global user.email ""
+          git config --global user.name "Updater"
+
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
           LOG_ENTRY="## $TIMESTAMP - Processed: ${{ env.FILES }}"
 
