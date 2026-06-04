@@ -252,7 +252,7 @@ jobs:
             echo "ℹ️ No changes to commit on main branch."
           fi
 
-      - name: Update data branch: archive processed files and log
+      - name: Update data branch archive processed files and log
         run: |
           git checkout data
           git pull origin data --quiet
