@@ -2,14 +2,6 @@
   "v": 3,
   "total_courses": 34773,
   "total_reviews": 3372,
-  "chunk_size": 6955,
-  "chunks": [
-    "courses_0.json",
-    "courses_1.json",
-    "courses_2.json",
-    "courses_3.json",
-    "courses_4.json"
-  ],
   "years": [
     "2016",
     "2018",

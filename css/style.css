@@ -663,6 +663,90 @@ a:hover { color: var(--primary-color); }
 .sidebar-filter::-webkit-scrollbar-thumb { background: #ddd; border-radius: 2px; }
 .sidebar-filter::-webkit-scrollbar-track { background: transparent; }
 
+/* ========== New Review Form ========== */
+.review-form-container {
+    margin-top: 20px;
+}
+.review-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.review-form-container label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.review-form-container input[type="text"],
+.review-form-container textarea,
+.review-form-container input[type="text"],
+.review-form-container input[type="hidden"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    color: var(--text-primary);
+    background: var(--bg-white);
+    outline: none;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+.review-form-container input:focus,
+.review-form-container textarea:focus {
+    border-color: var(--primary-color);
+}
+.review-form-container textarea {
+    resize: vertical;
+    min-height: 180px;
+    line-height: 1.7;
+}
+/* Star rating */
+#review-rating-stars {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#review-rating-stars span { user-select: none; }
+#review-rating-stars span:hover { color: var(--primary-color); }
+#review-rating-stars span.star-selected { color: var(--primary-color); }
+/* Dropdown for course search */
+#review-course-dropdown {
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-height: 220px;
+    overflow: auto;
+    display: none;
+}
+#review-course-dropdown.show { display: block; }
+#review-course-dropdown div {
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid var(--bg-page);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.2s;
+}
+#review-course-dropdown div:hover { background: var(--bg-page); }
+#review-course-dropdown div:last-child { border-bottom: none; }
+#review-course-dropdown div span:first-child { font-weight: 500; }
+#review-course-dropdown div span:nth-child(2) { color: var(--primary-color); margin-left: 4px; }
+#review-course-dropdown div span:last-child { color: var(--text-tertiary); margin-left: 8px; }
+/* Selected course badge */
+#review-course-selected {
+    display: none;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #f0f5ff;
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#review-course-selected.show { display: block; }
+
 /* ========== Trend Modal ========== */
 .trend-overlay {
     display: none;
