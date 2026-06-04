@@ -306,7 +306,7 @@ jobs:
             echo "$LOG_ENTRY (no valid files)" >> log.txt
           fi
 
-          git add log.txt
+          git add .
           git commit -m "chore(data): archive processed reviews and update log [skip ci]"
           git push origin data
 
