@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面未找到 | THU选课社区</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .error-code {
+            font-size: 72px;
+            font-weight: 700;
+            color: var(--primary-color);
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+        .error-message {
+            font-size: 18px;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <div class="nav-wrap">
+            <a href="/index.html" class="logo">THU选课社区</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <div class="error-message">抱歉，您访问的页面不存在。</div>
+            <a href="/index.html" class="btn-primary">返回首页</a>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-links">
+            <a href="/about.html">关于</a>
+            <a href="/faq.html">常见问题</a>
+        </div>
+        <div>&copy;2024 THU选课社区</div>
+    </footer>
+
+    <script>
+        // 尝试从当前 URL 中提取课程 ID 并重定向
+        (function() {
+            var path = window.location.pathname;
+            // 匹配 /course/12345 这样的路径，重定向到 course.html?sqid=12345
+            var courseMatch = path.match(/^\/course\/(\d+)/);
+            if (courseMatch) {
+                window.location.replace('course.html?sqid=' + courseMatch[1]);
+            }
+        })();
+    </script>
+</body>
+</html>

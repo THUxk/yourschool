@@ -1,0 +1,16 @@
+# Cloudflare Pages Redirects
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# 支持无 .html 后缀的清洁 URL（301 永久重定向，保证资源路径正确）
+
+/index          /index.html       301
+/courses        /courses.html     301
+/course         /course.html      301
+/search         /search.html      301
+/statistics     /statistics.html  301
+/about          /about.html       301
+/faq            /faq.html         301
+/new-review     /new-review.html  301
+
+# 课程详情短链接
+/course/:sqid   /course.html?sqid=:sqid   301

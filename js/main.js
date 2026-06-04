@@ -11,7 +11,7 @@
 // 配置常量
 const CONFIG = {
   API_BASE: "https://api.yourschool.cc.cd",
-  RAW_BASE: "data/",
+  RAW_BASE: "/data/",
   PAGE_SIZES: [10, 20, 50],
 };
 
@@ -327,7 +327,7 @@ const Renderer = {
       const card = document.createElement("div");
       card.className = "review-card";
       card.innerHTML = `
-        <a href="course.html?sqid=${item.course.id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
+        <a href="/course.html?sqid=${item.course.id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
         <div class="review-rating-text">推荐指数：${item.rating}</div>
         <div class="review-comment">${item.comment || "无点评内容"}</div>
         <div class="review-meta"><span>#${item.id}</span><span>${item.modified_at || ""}</span></div>
@@ -376,7 +376,7 @@ const Renderer = {
       div.innerHTML = `
         <div class="course-info">
           <h3>
-            <a href="course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
+            <a href="/course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
               ${c.kcm}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.jsm}）</span>
             </a>
           </h3>
@@ -497,7 +497,7 @@ const Renderer = {
       div.innerHTML = `
         <div class="search-result-info">
           <h3>
-            <a href="course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
+            <a href="/course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
               ${c.kcm}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.jsm}）</span>
             </a>
           </h3>
@@ -535,10 +535,15 @@ const Controller = {
     const routeMap = {
       "/": "index",
       "/index.html": "index",
+      "/index": "index",
       "/courses.html": "courses",
+      "/courses": "courses",
       "/statistics.html": "statistics",
+      "/statistics": "statistics",
       "/course.html": "course",
+      "/course": "course",
       "/search.html": "search",
+      "/search": "search",
     };
 
     const pageType = Object.entries(routeMap).find(
@@ -852,7 +857,7 @@ const Controller = {
     const newReviewBtn = Utils.$("new-review-btn-detail");
     if (newReviewBtn && State.currentCourseDetail) {
       const courseDisplayName = `${courseName}（${teacherName}）`;
-      const url = `new-review.html?courseId=${encodeURIComponent(sqid)}&courseName=${encodeURIComponent(courseDisplayName)}`;
+      const url = `/new-review.html?courseId=${encodeURIComponent(sqid)}&courseName=${encodeURIComponent(courseDisplayName)}`;
       newReviewBtn.href = url;
     }
   },
@@ -1315,7 +1320,8 @@ const TrendChart = {
 
 // 新点评页面初始化
 function initNewReviewPage() {
-  if (!window.location.pathname.endsWith("new-review.html")) return;
+  const path = window.location.pathname;
+  if (!path.endsWith("new-review.html") && !path.endsWith("new-review")) return;
 
   // 工具函数
   function escapeHtml(text) {
@@ -1484,7 +1490,7 @@ function initNewReviewPage() {
       );
       if (result.success) {
         alert("点评提交成功！");
-        window.location.href = "index.html";
+        window.location.href = "/index.html";
       } else {
         showError(result.error || "提交失败，请稍后重试");
       }
