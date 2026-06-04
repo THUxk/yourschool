@@ -116,7 +116,7 @@ jobs:
             fi
 
             # --- Enrich the review for reviews_latest.json ---
-            FULL_INDEX_PATH="../data/full_index.json"
+            FULL_INDEX_PATH="data/full_index.json"
             if [ ! -f "$FULL_INDEX_PATH" ]; then
               echo "❌ Error: data/full_index.json not found!"
               exit 1
