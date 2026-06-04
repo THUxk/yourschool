@@ -48,7 +48,7 @@ jobs:
           git remote add origin https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git
           git fetch origin main --quiet
           git checkout FETCH_HEAD
-          mkdir -p data/course
+          mkdir -p data/courses
 
       - name: Process each new review, merge into course files, and collect data
         working-directory: ./main-workspace
@@ -170,6 +170,12 @@ jobs:
             exit 1
           fi
 
+          # 初始化 with_comment_index.json（如果不存在）
+          if [ ! -f "data/with_comment_index.json" ]; then
+            jq -n '{ courses: {} }' > data/with_comment_index.json
+            echo "Initialized empty with_comment_index.json"
+          fi
+
           while IFS= read -r sqid; do
             if [ -z "$sqid" ]; then
               continue
@@ -185,36 +191,35 @@ jobs:
             COUNT=$(jq '.count' "$COURSE_FILE")
             AVG=$(jq '[.results[].rating] | add / length' "$COURSE_FILE")
 
-            if jq -e --argjson target_sqid "$sqid" '
-              .courses | to_entries[] | select(.value.sqid == $target_sqid)
-            ' data/with_comment_index.json > /dev/null; then
-              echo "  -> Updating existing entry"
-              jq --argjson target_sqid "$sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
-                .courses |= (to_entries | map(
-                  if .value.sqid == $target_sqid then
-                    .value.count = $count | .value.avg = $avg
-                  else
-                    .
-                  end
-                ) | from_entries)
-              ' data/with_comment_index.json > temp_index.json
-              mv temp_index.json data/with_comment_index.json
-            else
-              echo "  -> Creating new entry from full_index"
-              DISPLAY_KEY=$(jq -r --argjson target_sqid "$sqid" '
-                .courses | to_entries[] | select(.value.sqid == $target_sqid) | .key
-              ' "$FULL_INDEX_PATH")
-              
-              if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
-                echo "    ⚠️ Course with sqid $sqid not found in full_index.json."
-                continue
-              fi
+            # 从 full_index.json 中找到完整的课程数据
+            FULL_COURSE_ENTRY=$(jq -r --argjson target_sqid "$sqid" '
+              .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
+            ' "$FULL_INDEX_PATH")
 
-              jq --arg key "$DISPLAY_KEY" --argjson count "$COUNT" --argjson avg "$AVG" '
-                .courses[$key] |= (.count = $count | .avg = $avg)
-              ' data/with_comment_index.json > temp_index.json
-              mv temp_index.json data/with_comment_index.json
+            if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
+              echo "    ⚠️ Course with sqid $sqid not found in full_index.json."
+              continue
             fi
+
+            DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
+            FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq '.value')
+
+            if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
+              echo "    ⚠️ Invalid display key for sqid $sqid."
+              continue
+            fi
+
+            # 构建新的课程条目：完整复制 full_index 数据 + 添加 count/avg
+            NEW_COURSE_ENTRY=$(jq --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
+              $full_val | .count = $count | .avg = $avg
+            ')
+
+            # 写入到 with_comment_index.json
+            jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
+              .courses[$key] = $new_entry
+            ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
+
+            echo "  -> Updated entry for '$DISPLAY_KEY' (sqid=$sqid)"
 
           done < ../updated_sqids.txt
 
@@ -294,7 +299,7 @@ jobs:
             echo "$LOG_ENTRY (no valid files)" >> log.txt
           fi
 
-          git add archive/ log.txt
+          git add log.txt
           git commit -m "chore(data): archive processed reviews and update log [skip ci]"
           git push origin data
 
