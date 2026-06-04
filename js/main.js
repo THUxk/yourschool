@@ -307,8 +307,44 @@ const Renderer = {
     const totalEl = Utils.$("total-review-num");
     if (!wrap || !totalEl) return;
 
-    const total = State.latestReviews.length;
-    totalEl.textContent = State.manifest ? State.manifest.total_reviews : total;
+    // 合并服务端 latest reviews 与本地缓存
+    const localReviews = LocalCache.getAllForLatest();
+    const localMap = new Map();
+    localReviews.forEach((r) => {
+      // 用 course.id + rating + comment 前60字 做去重标识
+      const key = `${r.course?.id || ""}_${r.rating}_${(r.comment || "").slice(0, 60)}`;
+      localMap.set(key, r);
+    });
+
+    // 去重：服务端已有的不重复添加
+    const serverReviews = State.latestReviews || [];
+    const merged = [...localReviews];
+    const serverKeys = new Set();
+    serverReviews.forEach((r) => {
+      const key = `${r.course?.id || ""}_${r.rating}_${(r.comment || "").slice(0, 60)}`;
+      serverKeys.add(key);
+    });
+    // 只保留本地独有的
+    const dedupedLocal = localReviews.filter((r) => {
+      const key = `${r.course?.id || ""}_${r.rating}_${(r.comment || "").slice(0, 60)}`;
+      return !serverKeys.has(key);
+    });
+
+    const allReviews = [...dedupedLocal, ...serverReviews];
+    // 按时间/ID 排序：本地用 _local_ts，服务端用 id
+    allReviews.sort((a, b) => {
+      const aTime = a._local_ts || 0;
+      const bTime = b._local_ts || 0;
+      if (aTime && bTime) return bTime - aTime;
+      if (aTime) return -1; // 本地优先
+      if (bTime) return 1;
+      return (b.id || 0) - (a.id || 0);
+    });
+
+    const total = allReviews.length;
+    totalEl.textContent = State.manifest
+      ? (State.manifest.total_reviews || 0) + dedupedLocal.length
+      : total;
 
     if (!total) {
       wrap.innerHTML = '<div class="empty-tip">暂无点评内容</div>';
@@ -317,20 +353,22 @@ const Renderer = {
     }
 
     const { page, size } = State.getPageState("index");
-    const paged = Utils.getPaged(State.latestReviews, page, size);
+    const paged = Utils.getPaged(allReviews, page, size);
     const frag = document.createDocumentFragment();
 
     paged.forEach((item) => {
-      const name = item._course_name || `课程 #${item.course.id}`;
+      const name = item._course_name || `课程 #${(item.course || {}).id}`;
       const teacher = item._course_teacher || "";
       const courseName = teacher ? `${name}（${teacher}）` : name;
+      const isLocal = !!item._local_id;
       const card = document.createElement("div");
       card.className = "review-card";
+      const timeStr = item.modified_at || item.created_at || "";
       card.innerHTML = `
-        <a href="/course.html?sqid=${item.course.id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
+        <a href="/course.html?sqid=${(item.course || {}).id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
         <div class="review-rating-text">推荐指数：${item.rating}</div>
         <div class="review-comment">${item.comment || "无点评内容"}</div>
-        <div class="review-meta"><span>#${item.id}</span><span>${item.modified_at || ""}</span></div>
+        <div class="review-meta"><span>${isLocal ? "本地" : "#" + item.id}</span><span>${timeStr}</span></div>
       `;
       frag.appendChild(card);
     });
@@ -407,7 +445,24 @@ const Renderer = {
     const wrap = Utils.$("course-review-list");
     if (!wrap || !State.currentCourseDetail) return;
 
-    let list = [...(State.currentCourseDetail.reviews || [])];
+    // 合并服务端 reviews 与本地缓存
+    const sqid = State.currentCourseDetail.sqid;
+    const localReviews = LocalCache.getReviewsForCourse(sqid);
+    const serverReviews = State.currentCourseDetail.reviews || [];
+
+    // 去重
+    const serverKeys = new Set();
+    serverReviews.forEach((r) => {
+      const key = `${r.rating}_${(r.comment || "").slice(0, 60)}`;
+      serverKeys.add(key);
+    });
+    const dedupedLocal = localReviews.filter((r) => {
+      const key = `${r.rating}_${(r.comment || "").slice(0, 60)}`;
+      return !serverKeys.has(key);
+    });
+
+    let list = [...dedupedLocal, ...serverReviews];
+
     const ratingFilter = Utils.$("rating-select")?.value;
     const semesterFilter = Utils.$("semester-select")?.value;
 
@@ -424,13 +479,35 @@ const Renderer = {
     const dateKey = (r) => r.modified_at || r.created_at || "";
 
     if (sortVal === "newest") {
-      list.sort((a, b) => dateKey(b).localeCompare(dateKey(a)));
+      list.sort((a, b) => {
+        const aTime = a._local_ts || 0;
+        const bTime = b._local_ts || 0;
+        if (aTime && bTime) return bTime - aTime;
+        if (aTime) return -1;
+        if (bTime) return 1;
+        return dateKey(b).localeCompare(dateKey(a));
+      });
     } else if (sortVal === "oldest") {
-      list.sort((a, b) => dateKey(a).localeCompare(dateKey(b)));
+      list.sort((a, b) => {
+        const aTime = a._local_ts || 0;
+        const bTime = b._local_ts || 0;
+        if (aTime && bTime) return aTime - bTime;
+        if (aTime) return -1;
+        if (bTime) return 1;
+        return dateKey(a).localeCompare(dateKey(b));
+      });
     } else if (sortVal === "rating-high") {
       list.sort((a, b) => b.rating - a.rating);
     } else if (sortVal === "rating-low") {
       list.sort((a, b) => a.rating - b.rating);
+    }
+
+    // 更新总点评数（含本地缓存）
+    const totalLocal = dedupedLocal.length;
+    const reviewCountEl = Utils.$("review-count-title");
+    if (reviewCountEl) {
+      const svCount = State.currentCourseDetail.review_count || serverReviews.length;
+      reviewCountEl.textContent = `点评（${svCount + totalLocal}条）`;
     }
 
     const total = list.length;
@@ -445,12 +522,14 @@ const Renderer = {
     const frag = document.createDocumentFragment();
 
     paged.forEach((item) => {
+      const isLocal = !!item._local_id;
       const div = document.createElement("div");
       div.className = "review-card";
+      const timeStr = item.modified_at || item.created_at || "";
       div.innerHTML = `
         <div class="review-rating-text">推荐指数：${item.rating}${item.score ? " 成绩：" + item.score : ""}</div>
         <div class="review-comment" style="white-space:pre-line;">${item.comment || "无点评内容"}</div>
-        <div class="review-meta"><span>#${item.id}</span><span>${item.modified_at || item.created_at || ""}</span></div>
+        <div class="review-meta"><span>${isLocal ? "本地" : "#" + item.id}</span><span>${timeStr}</span></div>
       `;
       frag.appendChild(div);
     });
@@ -599,15 +678,15 @@ const Controller = {
       const res = await fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" });
       if (res.ok) {
         const data = await res.json();
-        let totalReview = 0,
-          totalCourse = 0,
+        let totalCourse = 0,
           reviewedCount = 0;
         for (const info of Object.values(data.courses || {})) {
           if (!info || typeof info !== "object") continue;
           totalCourse++;
           if (info.count > 0) reviewedCount++;
-          totalReview += info.count || 0;
         }
+        // 点评总数与首页保持一致：优先使用 manifest.json 的 total_reviews
+        const totalReview = State.manifest?.total_reviews ?? 0;
         this.updateStatElements(totalReview, totalCourse, reviewedCount);
         return;
       }
@@ -615,13 +694,12 @@ const Controller = {
       console.error("[initStatPage] Error:", e);
     }
 
-    // fallback: 用已加载的 coursesAll 统计
-    let totalReview = 0,
-      totalCourse = State.coursesAll.length,
+    // fallback: 用 manifest + coursesAll 统计
+    const totalReview = State.manifest?.total_reviews ?? 0;
+    let totalCourse = State.coursesAll.length,
       reviewedCount = 0;
     for (const c of State.coursesAll) {
       if (c.count > 0) reviewedCount++;
-      totalReview += c.count || 0;
     }
     this.updateStatElements(
       totalReview,
@@ -1026,6 +1104,129 @@ const Controller = {
 
     results.sort((a, b) => (b.count || 0) - (a.count || 0));
     return results;
+  },
+};
+
+// Loading 弹窗模块
+const LoadingModal = {
+  show() {
+    const modal = Utils.$("submit-loading-modal");
+    if (modal) modal.style.display = "flex";
+  },
+  hide() {
+    const modal = Utils.$("submit-loading-modal");
+    if (modal) modal.style.display = "none";
+  },
+  showResult(success, message) {
+    this.hide();
+    const modal = Utils.$("submit-result-modal");
+    const icon = Utils.$("submit-result-icon");
+    const title = Utils.$("submit-result-title");
+    const msg = Utils.$("submit-result-msg");
+    const btn = Utils.$("submit-result-close-btn");
+
+    if (!modal) return;
+
+    if (success) {
+      icon.textContent = "✅";
+      title.textContent = "提交成功";
+      msg.textContent = message || "点评已成功提交！";
+    } else {
+      icon.textContent = "❌";
+      title.textContent = "提交失败";
+      msg.textContent = message || "提交失败，请稍后重试";
+    }
+
+    modal.style.display = "flex";
+
+    // 绑定关闭按钮
+    btn.onclick = () => {
+      modal.style.display = "none";
+      if (success) {
+        window.location.href = "/index.html";
+      }
+    };
+
+    // 点击背景关闭
+    modal.onclick = (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+        if (success) {
+          window.location.href = "/index.html";
+        }
+      }
+    };
+  },
+};
+
+// 本地缓存模块 — 将提交的点评存入 localStorage，在页面渲染时整合显示
+const LocalCache = {
+  STORAGE_KEY: "local_reviews",
+  _counter: null,
+
+  _load() {
+    try {
+      const raw = localStorage.getItem(this.STORAGE_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+      return [];
+    }
+  },
+
+  _save(reviews) {
+    try {
+      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(reviews));
+    } catch (e) {
+      console.error("[LocalCache] Failed to save:", e);
+    }
+  },
+
+  _nextLocalId() {
+    const reviews = this._load();
+    return reviews.length > 0
+      ? Math.max(...reviews.map((r) => r._local_id || 0)) + 1
+      : 1;
+  },
+
+  /** 添加一条新点评到本地缓存 */
+  addReview(courseId, rating, comment, score, courseName, courseTeacher) {
+    const review = {
+      _local_id: this._nextLocalId(),
+      course: { id: courseId },
+      rating: rating,
+      comment: comment,
+      created_at: Utils.getFormattedTime(),
+      score: score || null,
+      _course_name: courseName || "未知课程",
+      _course_teacher: courseTeacher || "未知教师",
+      _local_ts: Date.now(),
+    };
+
+    const reviews = this._load();
+    reviews.unshift(review); // 最新在前
+
+    // 最多保留 200 条本地缓存
+    if (reviews.length > 200) reviews.length = 200;
+
+    this._save(reviews);
+    return review;
+  },
+
+  /** 获取全部本地缓存的点评（用于首页最新列表） */
+  getAllForLatest() {
+    return this._load();
+  },
+
+  /** 获取某门课程的本地点评 */
+  getReviewsForCourse(sqid) {
+    return this._load().filter(
+      (r) => String(r.course.id) === String(sqid),
+    );
+  },
+
+  /** 获取某门课程的本地点评数量 */
+  getCountForCourse(sqid) {
+    return this.getReviewsForCourse(sqid).length;
   },
 };
 
@@ -1479,6 +1680,9 @@ function initNewReviewPage() {
       return;
     }
 
+    // 显示 loading 弹窗
+    LoadingModal.show();
+
     try {
       const result = await ReviewSubmitter.submitReview(
         courseId,
@@ -1487,14 +1691,46 @@ function initNewReviewPage() {
         score,
       );
       if (result.success) {
-        alert("点评提交成功！");
-        window.location.href = "/index.html";
+        // 提取课程名称和教师（供本地缓存使用）
+        let courseName = "";
+        let courseTeacher = "";
+        const selectedDiv = Utils.$("review-course-selected");
+        if (selectedDiv && selectedDiv.style.display !== "none") {
+          const text = selectedDiv.textContent || "";
+          const match = text.match(/^(.+?)（(.+?)）/);
+          if (match) {
+            courseName = match[1];
+            courseTeacher = match[2];
+          }
+        }
+        if (!courseName && courseNameParam) {
+          const decoded = decodeURIComponent(courseNameParam);
+          const m = decoded.match(/^(.+?)（(.+?)）$/);
+          if (m) {
+            courseName = m[1];
+            courseTeacher = m[2];
+          } else {
+            courseName = decoded;
+          }
+        }
+
+        // 存入本地缓存
+        LocalCache.addReview(
+          courseId,
+          rating,
+          comment,
+          score,
+          courseName,
+          courseTeacher,
+        );
+
+        LoadingModal.showResult(true, "点评已成功提交！稍后将跳转到首页。");
       } else {
-        showError(result.error || "提交失败，请稍后重试");
+        LoadingModal.showResult(false, result.error || "提交失败，请稍后重试");
       }
     } catch (err) {
       console.error(err);
-      showError("网络错误，请检查连接后重试");
+      LoadingModal.showResult(false, "网络错误，请检查连接后重试");
     }
   });
 
