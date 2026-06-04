@@ -4,7 +4,7 @@
  * 架构优化:
  *   - 模块化设计
  *   - 统一数据管理
- *   - 增强缓存策略
+ *   - 删除所有缓存机制
  *   - 减少重复代码
  * ================================================================ */
 
@@ -12,8 +12,6 @@
 const CONFIG = {
   API_BASE: "http://api.yourschool.cc.cd",
   RAW_BASE: "data/",
-  CACHE_PREFIX: "thu_v4_",
-  CACHE_TTL: 30 * 60 * 1000,
   PAGE_SIZES: [10, 20, 50],
 };
 
@@ -56,31 +54,6 @@ const Utils = {
   // DOM 查询
   $: (id) => document.getElementById(id),
   qs: (sel) => document.querySelector(sel),
-
-  // 缓存管理
-  getCache(key) {
-    try {
-      const raw = localStorage.getItem(CONFIG.CACHE_PREFIX + key);
-      if (!raw) return null;
-      const { data, ts } = JSON.parse(raw);
-      if (Date.now() - ts > CONFIG.CACHE_TTL) {
-        localStorage.removeItem(CONFIG.CACHE_PREFIX + key);
-        return null;
-      }
-      return data;
-    } catch {
-      return null;
-    }
-  },
-
-  setCache(key, data) {
-    try {
-      localStorage.setItem(
-        CONFIG.CACHE_PREFIX + key,
-        JSON.stringify({ data, ts: Date.now() }),
-      );
-    } catch {}
-  },
 
   // 分页工具
   getPaged(list, page, size) {
@@ -132,16 +105,9 @@ const Utils = {
 const DataLoader = {
   // 加载 Manifest
   async loadManifest() {
-    const cached = Utils.getCache("manifest");
-    if (cached && cached.v === 3 && cached.detail_chunks) {
-      State.manifest = cached;
-      return;
-    }
-
     try {
       const res = await fetch(CONFIG.RAW_BASE + "manifest.json");
       State.manifest = await res.json();
-      Utils.setCache("manifest", State.manifest);
     } catch (e) {
       console.error("Manifest load error", e);
     }
@@ -149,26 +115,10 @@ const DataLoader = {
 
   // 加载静态文件
   async loadStatic(key, filename, expectedType = null) {
-    const cached = Utils.getCache(key);
-    if (
-      cached !== null &&
-      cached !== undefined &&
-      !(Array.isArray(cached) && cached.length === 0)
-    ) {
-      if (expectedType === "array" && !Array.isArray(cached)) {
-        console.warn(
-          `[loadStatic] Cache type mismatch for ${key}, re-fetching`,
-        );
-      } else {
-        return cached;
-      }
-    }
-
     try {
       const res = await fetch(CONFIG.RAW_BASE + filename);
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
       const data = await res.json();
-      Utils.setCache(key, data);
       return data;
     } catch (e) {
       console.error(`[loadStatic] Error loading ${filename}:`, e);
@@ -180,15 +130,6 @@ const DataLoader = {
   async loadAllCourses(onlyReviewed) {
     if (State.coursesAll.length > 0 && State.coursesReviewOnly === onlyReviewed)
       return;
-
-    const cacheKey = onlyReviewed ? "courses_all_comment" : "courses_all_v4";
-    const cached = Utils.getCache(cacheKey);
-    if (cached) {
-      State.coursesAll = cached;
-      State.coursesReviewOnly = onlyReviewed;
-      State.fullIndexLoaded = true;
-      return;
-    }
 
     const filename = onlyReviewed
       ? "with_comment_index.json"
@@ -213,7 +154,6 @@ const DataLoader = {
       State.coursesAll = arr;
       State.coursesReviewOnly = onlyReviewed;
       State.fullIndexLoaded = true;
-      Utils.setCache(cacheKey, State.coursesAll);
     } catch (e) {
       console.error("[loadAllCourses] Error loading " + filename + ":", e);
       State.coursesAll = [];
@@ -224,13 +164,6 @@ const DataLoader = {
 
   // 加载搜索索引
   async loadSearchIndex(onlyReviewed) {
-    const cacheKey = onlyReviewed ? "search_idx_comment" : "search_idx_full";
-    const cached = Utils.getCache(cacheKey);
-    if (cached && cached.courses && Object.keys(cached.courses).length > 0) {
-      State.searchIndexCache = cached;
-      return;
-    }
-
     const filename = onlyReviewed
       ? "with_comment_index.json"
       : "full_index.json";
@@ -238,7 +171,6 @@ const DataLoader = {
       const res = await fetch(CONFIG.RAW_BASE + filename);
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
       State.searchIndexCache = await res.json();
-      Utils.setCache(cacheKey, State.searchIndexCache);
     } catch (e) {
       console.error(`[loadSearchIndex] Error loading ${filename}:`, e);
       State.searchIndexCache = { courses: {} };
@@ -252,15 +184,9 @@ const DataLoader = {
 
     // 加载课程数据
     try {
-      const cacheKey = "course_" + sqid;
-      let cached = Utils.getCache(cacheKey);
-      if (!cached) {
-        const res = await fetch(CONFIG.RAW_BASE + "courses/" + sqid + ".json");
-        if (!res.ok) throw new Error("not found");
-        cached = await res.json();
-        Utils.setCache(cacheKey, cached);
-      }
-      courseData = cached;
+      const res = await fetch(CONFIG.RAW_BASE + "courses/" + sqid + ".json");
+      if (!res.ok) throw new Error("not found");
+      courseData = await res.json();
     } catch (e) {
       console.error(`[loadCourseDetail] Error loading course ${sqid}:`, e);
     }
@@ -268,18 +194,12 @@ const DataLoader = {
     // 加载教师数据
     if (tid) {
       try {
-        const cacheKey = "teacher_" + tid;
-        let cached = Utils.getCache(cacheKey);
-        if (!cached) {
-          const res = await fetch(
-            CONFIG.RAW_BASE + "teachers/" + tid + ".json",
-          );
-          if (res.ok) {
-            cached = await res.json();
-            Utils.setCache(cacheKey, cached);
-          }
+        const res = await fetch(
+          CONFIG.RAW_BASE + "teachers/" + tid + ".json",
+        );
+        if (res.ok) {
+          teacherData = await res.json();
         }
-        teacherData = cached || null;
       } catch (e) {
         console.error(`[loadCourseDetail] Error loading teacher ${tid}:`, e);
       }
