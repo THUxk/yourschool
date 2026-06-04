@@ -1,5 +1,17 @@
 [
   {
+    "id": 3408,
+    "course": {
+      "id": 2165
+    },
+    "rating": 5,
+    "comment": "考核方式：日志，自动pf\n授课质量与给分：5\n点评人：zhzh\n上课学期：2025-2026秋\n刷通识学分用的，自动pf还没什么任务量",
+    "created_at": "2026/06/04 23:57",
+    "score": "P",
+    "_course_name": "实验室科研探究（2）",
+    "_course_teacher": "汤彬"
+  },
+  {
     "id": 3407,
     "course": {
       "id": 2164
@@ -1186,17 +1198,5 @@
     "score": "P",
     "_course_name": "图书馆概论",
     "_course_teacher": "杨玲"
-  },
-  {
-    "id": 3308,
-    "course": {
-      "id": 2868
-    },
-    "rating": 5,
-    "comment": "考核方式：平时20%+max[(期中30%+期末50%)，(期末80%)]\n\n授课质量与给分：讲得很好，也容易跟上。\n\n点评人：xz\n\n上课学期：2025秋",
-    "created_at": "2026/05/23 13:36",
-    "score": "3.6",
-    "_course_name": "微积分A(1)",
-    "_course_teacher": "晏平"
   }
 ]
