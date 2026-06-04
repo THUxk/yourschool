@@ -1,4 +1,4 @@
-name: Merge new data into main
+name: Merge new reviews into course data, update index, and manage latest reviews
 
 on:
   push:
@@ -6,109 +6,280 @@ on:
     paths:
       - 'new_*.json'
 
+env:
+  MAX_LATEST_REVIEWS: 100
+
 jobs:
-  merge-json:
+  merge-reviews:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout data branch
         uses: actions/checkout@v4
         with:
           ref: data
 
-      - name: Get changed files
-        id: changed-files
+      - name: Get changed new_*.json files
+        id: get-files
         run: |
-          # 获取本次推送中新增的 new_*.json 文件（仅新增，避免重复合并）
           git diff --name-only HEAD~1 HEAD | grep '^new_.*\.json$' > changed_files.txt
-          echo "Changed files:"
-          cat changed_files.txt
-          # 将文件列表存入环境变量（供后续步骤使用）
-          echo "FILES=$(cat changed_files.txt | tr '\n' ' ')" >> $GITHUB_ENV
-
-      - name: Switch to main branch
-        run: |
-          git checkout main
-          git pull origin main
-
-      - name: Merge JSON files
-        run: |
-          # 初始化 all_data.json（如果不存在）
-          if [ ! -f all_data.json ]; then
-            echo "[]" > all_data.json
+          echo "Files to process:"
+          cat changed_files.txt || echo "(none)"
+          if [ -s changed_files.txt ]; then
+            tr '\n' ' ' < changed_files.txt | sed 's/ $//' > file_list.txt
+            echo "FILES=$(cat file_list.txt)" >> $GITHUB_ENV
+          else
+            echo "FILES=" >> $GITHUB_ENV
           fi
 
-          # 遍历每个新增文件，将其内容追加到数组
+      - name: Prepare main branch workspace
+        run: |
+          mkdir -p main-workspace
+          cd main-workspace
+          git init
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git fetch origin main --quiet
+          git checkout FETCH_HEAD
+          mkdir -p data/course
+
+      - name: Process each new review, merge into course files, and collect data
+        working-directory: ./main-workspace
+        run: |
+          echo -n "" > ../updated_sqids.txt
+          echo "[]" > ../new_reviews_for_latest.json
+
+          # --- Determine the starting comment ID ---
+          LATEST_FILE="data/reviews_latest.json"
+          if [ -f "$LATEST_FILE" ] && [ "$(jq length "$LATEST_FILE")" -gt 0 ]; then
+            # File exists and is not empty, get the first (latest) id
+            current_max_id=$(jq -r '.[0].id' "$LATEST_FILE")
+            echo "Starting from existing max comment ID: $current_max_id"
+          else
+            # File is missing or empty, start from 1
+            current_max_id=0
+            echo "Starting from scratch, initial comment ID will be 1"
+          fi
+
           for file in ${{ env.FILES }}; do
-            if [ -n "$file" ] && [ -f "$file" ]; then
-              echo "Merging $file"
-              # 使用 jq 将新对象添加到数组末尾
-              jq --argjson new_data "$(cat "$file")" '. += [$new_data]' all_data.json > temp.json
-              mv temp.json all_data.json
+            if [ -z "$file" ] || [ ! -f "../$file" ]; then
+              continue
             fi
+
+            echo "Processing $file..."
+
+            # --- Validation: Expect 'id' as course_sqid ---
+            if ! jq 'has("id") and has("rating") and has("comment")' "../$file" > /dev/null 2>&1; then
+              echo "⚠️ SKIP (invalid format): $file"
+              continue
+            fi
+
+            course_sqid=$(jq -r '.id // "null"' "../$file")
+            if [ "$course_sqid" = "null" ] || [ -z "$course_sqid" ]; then
+              echo "⚠️ SKIP (missing/invalid course_sqid): $file"
+              continue
+            fi
+
+            # --- Generate the next sequential comment ID ---
+            current_max_id=$((current_max_id + 1))
+            comment_id=$current_max_id
+            echo "Assigned sequential Comment ID: $comment_id"
+
+            target_file="data/course/${course_sqid}.json"
+            echo "Target file: $target_file"
+
+            # --- Handle Course File ---
+            if [ ! -f "$target_file" ]; then
+              echo "Creating new course file for sqid: $course_sqid"
+              jq -n --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '{
+                "count": 1,
+                "next": null,
+                "previous": null,
+                "results": [($new_review | .id = $comment_id)]
+              }' > "$target_file"
+              echo "$course_sqid" >> ../updated_sqids.txt
+            else
+              # Optional: Check for duplicate comment ID within this course file
+              if jq -e --argjson cid "$comment_id" 'any(.results[]; .id == $cid)' "$target_file" > /dev/null; then
+                echo "❌ CRITICAL: Duplicate comment ID $comment_id found in course file! This should never happen."
+                exit 1
+              fi
+
+              echo "✅ Merging comment (id=$comment_id) into course $course_sqid"
+              jq --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '
+                .results += [($new_review | .id = $comment_id)] |
+                .count = (.results | length)
+              ' "$target_file" > temp.json && mv temp.json "$target_file"
+              echo "$course_sqid" >> ../updated_sqids.txt
+            fi
+
+            # --- Enrich the review for reviews_latest.json ---
+            FULL_INDEX_PATH="../data/full_index.json"
+            if [ ! -f "$FULL_INDEX_PATH" ]; then
+              echo "❌ Error: data/full_index.json not found!"
+              exit 1
+            fi
+
+            COURSE_INFO=$(jq -r --argjson target_sqid "$course_sqid" '
+              .courses | to_entries[] | select(.value.sqid == $target_sqid) | .value
+            ' "$FULL_INDEX_PATH")
+
+            if [ -z "$COURSE_INFO" ] || [ "$COURSE_INFO" = "null" ]; then
+              echo "⚠️ Warning: Course info for sqid $course_sqid not found."
+              COURSE_NAME="Unknown Course"
+              COURSE_TEACHER="Unknown Teacher"
+            else
+              COURSE_NAME=$(echo "$COURSE_INFO" | jq -r '.kcm')
+              COURSE_TEACHER=$(echo "$COURSE_INFO" | jq -r '.jsm')
+            fi
+
+            ENRICHED_REVIEW=$(jq -n \
+              --argjson original_review "$(cat "../$file")" \
+              --argjson course_sqid "$course_sqid" \
+              --arg course_name "$COURSE_NAME" \
+              --arg course_teacher "$COURSE_TEACHER" \
+              --argjson comment_id "$comment_id" \
+              '{
+                "id": $comment_id,
+                "course": { "id": $course_sqid },
+                "rating": ($original_review.rating // 0),
+                "comment": ($original_review.comment // ""),
+                "created_at": ($original_review.created_at // ""),
+                "score": ($original_review.score // null),
+                "_course_name": $course_name,
+                "_course_teacher": $course_teacher
+              }')
+
+            jq --argjson new_r "$ENRICHED_REVIEW" '. += [$new_r]' ../new_reviews_for_latest.json > ../temp_new_reviews.json
+            mv ../temp_new_reviews.json ../new_reviews_for_latest.json
+
           done
 
-      - name: Commit and push to main
+          sort -u ../updated_sqids.txt -o ../updated_sqids.txt
+          echo "Final comment ID after processing: $current_max_id"
+
+      # ... The rest of the steps remain the same ...
+
+      - name: Update with_comment_index.json
+        working-directory: ./main-workspace
+        run: |
+          FULL_INDEX_PATH="data/full_index.json"
+          if [ ! -f "$FULL_INDEX_PATH" ]; then
+            echo "❌ Error: data/full_index.json not found on main branch!"
+            exit 1
+          fi
+
+          while IFS= read -r sqid; do
+            if [ -z "$sqid" ]; then
+              continue
+            fi
+
+            echo "Updating index for course sqid: $sqid"
+            COURSE_FILE="data/course/${sqid}.json"
+            if [ ! -f "$COURSE_FILE" ]; then
+              echo "⚠️ Course file missing for sqid $sqid, skipping index update."
+              continue
+            fi
+
+            COUNT=$(jq '.count' "$COURSE_FILE")
+            AVG=$(jq '[.results[].rating] | add / length' "$COURSE_FILE")
+
+            if jq -e --argjson target_sqid "$sqid" '
+              .courses | to_entries[] | select(.value.sqid == $target_sqid)
+            ' data/with_comment_index.json > /dev/null; then
+              echo "  -> Updating existing entry"
+              jq --argjson target_sqid "$sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
+                .courses |= (to_entries | map(
+                  if .value.sqid == $target_sqid then
+                    .value.count = $count | .value.avg = $avg
+                  else
+                    .
+                  end
+                ) | from_entries)
+              ' data/with_comment_index.json > temp_index.json
+              mv temp_index.json data/with_comment_index.json
+            else
+              echo "  -> Creating new entry from full_index"
+              DISPLAY_KEY=$(jq -r --argjson target_sqid "$sqid" '
+                .courses | to_entries[] | select(.value.sqid == $target_sqid) | .key
+              ' "$FULL_INDEX_PATH")
+              
+              if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
+                echo "    ⚠️ Course with sqid $sqid not found in full_index.json."
+                continue
+              fi
+
+              jq --arg key "$DISPLAY_KEY" --argjson count "$COUNT" --argjson avg "$AVG" '
+                .courses[$key] |= (.count = $count | .avg = $avg)
+              ' data/with_comment_index.json > temp_index.json
+              mv temp_index.json data/with_comment_index.json
+            fi
+
+          done < ../updated_sqids.txt
+
+      - name: Update reviews_latest.json
+        working-directory: ./main-workspace
+        run: |
+          LATEST_FILE="data/reviews_latest.json"
+          MAX_COUNT=${{ env.MAX_LATEST_REVIEWS }}
+
+          if [ ! -f "$LATEST_FILE" ]; then
+            echo "[]" > "$LATEST_FILE"
+            echo "Intialized empty $LATEST_FILE"
+          fi
+
+          NEW_REVIEWS=$(cat ../new_reviews_for_latest.json)
+          # Prepend new reviews and truncate
+          jq --argjson new_reviews "$NEW_REVIEWS" --argjson max_count "$MAX_COUNT" '
+            ($new_reviews + .) | .[0:$max_count]
+          ' "$LATEST_FILE" > temp_latest.json
+
+          mv temp_latest.json "$LATEST_FILE"
+          echo "✅ Updated $LATEST_FILE. Total now: $(jq length "$LATEST_FILE")"
+
+      - name: Commit changes to main branch
+        working-directory: ./main-workspace
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add all_data.json
-          git commit -m "chore: auto-merge new data from data branch [skip ci]"
-          git push origin main
+          git add data/course/ data/with_comment_index.json data/reviews_latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed [skip ci]"
+            git push origin HEAD:main
+            echo "✅ Changes pushed to main branch."
+          else
+            echo "ℹ️ No changes to commit on main branch."
+          fi
 
-      - name: Record merge to log.txt
-        run: |
-          git checkout main
-          # 记录本次整合信息（时间、文件名、提交消息）
-          echo "## $({date +%Y-%m-%d\ %H:%M:%S}) - Merged: ${{ env.FILES }} - Message: ${{ github.event.head_commit.message }}" >> log.txt
-          # 显示当前 log.txt 内容
-          echo "Log content:"
-          cat log.txt
-
-      - name: Clean up merged JSON files on data branch
+      - name: Update data branch: archive processed files and log
         run: |
           git checkout data
-          # 删除已成功合并的 JSON 文件
-          rm -f new_*.json
-          # 记录删除操作
-          echo "## $({date +%Y-%m-%d\ %H:%M:%S}) - Cleaned: removed new_*.json" >> log.txt
-          # 显示当前 data 分支上的 JSON 文件（应已清空）
-          echo "Remaining files on data branch:"
-          ls -la new_*.json 2>/dev/null || echo "(none)"
+          git pull origin data --quiet
+          mkdir -p archive
 
-      - name: Reset data branch commit history
-        run: |
-          # 回退到上次整合前的状态，清除本次 commit
-          git checkout data
-          # 回退本次 commit，保留数据但清除 commit
-          git reset --soft HEAD~1 2>/dev/null || true
-          # 强制回退所有 commit（保留 JSON 文件以便下次重新合并）
-          git reset --hard HEAD~1 2>/dev/null || true
-          # 清除本次 commit 的 reflog 记录
-          git reflog expire --expire=now --all
-          # 强制 GC 清理无用的对象
-          git gc --prune=now --aggressive
-          # 记录重置操作
-          echo "## $({date +%Y-%m-%d\ %H:%M:%S}) - Reset: cleared ${{ github.event.head_commit.id }}" >> log.txt
-          # 显示当前 data 分支的 commit 历史（应已清空）
-          echo "Data branch commit history:"
-          git log --oneline -5 || echo "(none)"
-          # 显示当前 data 分支上的 JSON 文件
-          echo "Remaining JSON files:"
-          ls -la new_*.json 2>/dev/null || echo "(none)"
+          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+          LOG_ENTRY="## $TIMESTAMP - Processed: ${{ env.FILES }}"
 
-      - name: Update log.txt with final state
+          if [ -n "${{ env.FILES }}" ]; then
+            for file in ${{ env.FILES }}; do
+              if [ -f "$file" ]; then
+                mv "$file" "archive/$(basename "$file")"
+              fi
+            done
+            echo "$LOG_ENTRY" >> log.txt
+          else
+            echo "$LOG_ENTRY (no valid files)" >> log.txt
+          fi
+
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add archive/ log.txt
+          git commit -m "chore(data): archive processed reviews and update log [skip ci]"
+          git push origin data
+
+      - name: Final Summary
         run: |
-          git checkout main
-          # 显示最终状态
-          echo "=== Final state ==="
-          echo "log.txt:"
-          cat log.txt
-          echo ""
-          echo "JSON files on data branch:"
-          ls -la new_*.json 2>/dev/null || echo "(none)"
-          echo ""
-          echo "Data branch commit history:"
-          git log --oneline -5 || echo "(none)"
+          echo "🎉 Workflow completed successfully!"
+          echo "Processed files: ${{ env.FILES }}"
+          echo "Check 'log.txt' on the 'data' branch for a full history."
