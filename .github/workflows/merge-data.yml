@@ -13,7 +13,7 @@ jobs:
   merge-reviews:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # 必须有写权限
 
     steps:
       - name: Checkout data branch
@@ -21,6 +21,7 @@ jobs:
         with:
           ref: data
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}  # 👈 关键：提供写权限 token
 
       - name: Get changed new_*.json files
         id: get-files
@@ -36,11 +37,16 @@ jobs:
           fi
 
       - name: Prepare main branch workspace
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p main-workspace
           cd main-workspace
           git init
-          git remote add origin https://github.com/${{ github.repository }}.git
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          # 👇 使用带 token 的 URL，确保后续 push 成功
+          git remote add origin https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git
           git fetch origin main --quiet
           git checkout FETCH_HEAD
           mkdir -p data/course
@@ -54,11 +60,9 @@ jobs:
           # --- Determine the starting comment ID ---
           LATEST_FILE="data/reviews_latest.json"
           if [ -f "$LATEST_FILE" ] && [ "$(jq length "$LATEST_FILE")" -gt 0 ]; then
-            # File exists and is not empty, get the first (latest) id
             current_max_id=$(jq -r '.[0].id' "$LATEST_FILE")
             echo "Starting from existing max comment ID: $current_max_id"
           else
-            # File is missing or empty, start from 1
             current_max_id=0
             echo "Starting from scratch, initial comment ID will be 1"
           fi
@@ -70,7 +74,6 @@ jobs:
 
             echo "Processing $file..."
 
-            # --- Validation: Expect 'id' as course_sqid ---
             if ! jq 'has("id") and has("rating") and has("comment")' "../$file" > /dev/null 2>&1; then
               echo "⚠️ SKIP (invalid format): $file"
               continue
@@ -82,7 +85,6 @@ jobs:
               continue
             fi
 
-            # --- Generate the next sequential comment ID ---
             current_max_id=$((current_max_id + 1))
             comment_id=$current_max_id
             echo "Assigned sequential Comment ID: $comment_id"
@@ -90,7 +92,6 @@ jobs:
             target_file="data/course/${course_sqid}.json"
             echo "Target file: $target_file"
 
-            # --- Handle Course File ---
             if [ ! -f "$target_file" ]; then
               echo "Creating new course file for sqid: $course_sqid"
               jq -n --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '{
@@ -101,9 +102,8 @@ jobs:
               }' > "$target_file"
               echo "$course_sqid" >> ../updated_sqids.txt
             else
-              # Optional: Check for duplicate comment ID within this course file
               if jq -e --argjson cid "$comment_id" 'any(.results[]; .id == $cid)' "$target_file" > /dev/null; then
-                echo "❌ CRITICAL: Duplicate comment ID $comment_id found in course file! This should never happen."
+                echo "❌ CRITICAL: Duplicate comment ID $comment_id found in course file!"
                 exit 1
               fi
 
@@ -115,7 +115,6 @@ jobs:
               echo "$course_sqid" >> ../updated_sqids.txt
             fi
 
-            # --- Enrich the review for reviews_latest.json ---
             FULL_INDEX_PATH="data/full_index.json"
             if [ ! -f "$FULL_INDEX_PATH" ]; then
               echo "❌ Error: data/full_index.json not found!"
@@ -127,7 +126,6 @@ jobs:
             ' "$FULL_INDEX_PATH")
 
             if [ -z "$COURSE_INFO" ] || [ "$COURSE_INFO" = "null" ]; then
-              echo "⚠️ Warning: Course info for sqid $course_sqid not found."
               COURSE_NAME="Unknown Course"
               COURSE_TEACHER="Unknown Teacher"
             else
@@ -159,8 +157,6 @@ jobs:
 
           sort -u ../updated_sqids.txt -o ../updated_sqids.txt
           echo "Final comment ID after processing: $current_max_id"
-
-      # ... The rest of the steps remain the same ...
 
       - name: Update with_comment_index.json
         working-directory: ./main-workspace
@@ -231,7 +227,6 @@ jobs:
           fi
 
           NEW_REVIEWS=$(cat ../new_reviews_for_latest.json)
-          # Prepend new reviews and truncate
           jq --argjson new_reviews "$NEW_REVIEWS" --argjson max_count "$MAX_COUNT" '
             ($new_reviews + .) | .[0:$max_count]
           ' "$LATEST_FILE" > temp_latest.json
@@ -242,8 +237,6 @@ jobs:
       - name: Commit changes to main branch
         working-directory: ./main-workspace
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
           git add data/course/ data/with_comment_index.json data/reviews_latest.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed [skip ci]"
@@ -254,7 +247,11 @@ jobs:
           fi
 
       - name: Update data branch archive processed files and log
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # 重新配置远程地址以支持 push
+          git remote set-url origin https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git
           git checkout data
           git pull origin data --quiet
           mkdir -p archive
@@ -273,8 +270,6 @@ jobs:
             echo "$LOG_ENTRY (no valid files)" >> log.txt
           fi
 
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
           git add archive/ log.txt
           git commit -m "chore(data): archive processed reviews and update log [skip ci]"
           git push origin data
