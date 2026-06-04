@@ -13,7 +13,7 @@ jobs:
   merge-reviews:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 必须有写权限
+      contents: write
 
     steps:
       - name: Checkout data branch
@@ -21,7 +21,7 @@ jobs:
         with:
           ref: data
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}  # 👈 关键：提供写权限 token
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get changed new_*.json files
         id: get-files
@@ -45,7 +45,6 @@ jobs:
           git init
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          # 👇 使用带 token 的 URL，确保后续 push 成功
           git remote add origin https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git
           git fetch origin main --quiet
           git checkout FETCH_HEAD
@@ -56,6 +55,7 @@ jobs:
         run: |
           echo -n "" > ../updated_sqids.txt
           echo "[]" > ../new_reviews_for_latest.json
+          REVIEW_COUNT=0
 
           # --- Determine the starting comment ID ---
           LATEST_FILE="data/reviews_latest.json"
@@ -89,7 +89,7 @@ jobs:
             comment_id=$current_max_id
             echo "Assigned sequential Comment ID: $comment_id"
 
-            target_file="data/course/${course_sqid}.json"
+            target_file="data/courses/${course_sqid}.json"
             echo "Target file: $target_file"
 
             if [ ! -f "$target_file" ]; then
@@ -101,6 +101,7 @@ jobs:
                 "results": [($new_review | .id = $comment_id)]
               }' > "$target_file"
               echo "$course_sqid" >> ../updated_sqids.txt
+              REVIEW_COUNT=$((REVIEW_COUNT + 1))
             else
               if jq -e --argjson cid "$comment_id" 'any(.results[]; .id == $cid)' "$target_file" > /dev/null; then
                 echo "❌ CRITICAL: Duplicate comment ID $comment_id found in course file!"
@@ -113,6 +114,7 @@ jobs:
                 .count = (.results | length)
               ' "$target_file" > temp.json && mv temp.json "$target_file"
               echo "$course_sqid" >> ../updated_sqids.txt
+              REVIEW_COUNT=$((REVIEW_COUNT + 1))
             fi
 
             FULL_INDEX_PATH="data/full_index.json"
@@ -157,6 +159,7 @@ jobs:
 
           sort -u ../updated_sqids.txt -o ../updated_sqids.txt
           echo "Final comment ID after processing: $current_max_id"
+          echo $REVIEW_COUNT > ../review_count.txt
 
       - name: Update with_comment_index.json
         working-directory: ./main-workspace
@@ -173,7 +176,7 @@ jobs:
             fi
 
             echo "Updating index for course sqid: $sqid"
-            COURSE_FILE="data/course/${sqid}.json"
+            COURSE_FILE="data/courses/${sqid}.json"
             if [ ! -f "$COURSE_FILE" ]; then
               echo "⚠️ Course file missing for sqid $sqid, skipping index update."
               continue
@@ -223,7 +226,7 @@ jobs:
 
           if [ ! -f "$LATEST_FILE" ]; then
             echo "[]" > "$LATEST_FILE"
-            echo "Intialized empty $LATEST_FILE"
+            echo "Initialized empty $LATEST_FILE"
           fi
 
           NEW_REVIEWS=$(cat ../new_reviews_for_latest.json)
@@ -234,10 +237,32 @@ jobs:
           mv temp_latest.json "$LATEST_FILE"
           echo "✅ Updated $LATEST_FILE. Total now: $(jq length "$LATEST_FILE")"
 
+      - name: Update manifest.json total_reviews
+        working-directory: ./main-workspace
+        run: |
+          MANIFEST="data/manifest.json"
+          if [ ! -f "$MANIFEST" ]; then
+            echo "❌ Error: $MANIFEST not found!"
+            exit 1
+          fi
+
+          INCREMENT=$(cat ../review_count.txt)
+          if [ -z "$INCREMENT" ]; then
+            INCREMENT=0
+          fi
+
+          if [ "$INCREMENT" -gt 0 ]; then
+            echo "Incrementing total_reviews by $INCREMENT"
+            jq --argjson inc "$INCREMENT" '.total_reviews += $inc' "$MANIFEST" > temp_manifest.json
+            mv temp_manifest.json "$MANIFEST"
+          else
+            echo "No new reviews, manifest unchanged."
+          fi
+
       - name: Commit changes to main branch
         working-directory: ./main-workspace
         run: |
-          git add data/course/ data/with_comment_index.json data/reviews_latest.json
+          git add data/courses/ data/with_comment_index.json data/reviews_latest.json data/manifest.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed [skip ci]"
             git push origin HEAD:main
@@ -250,14 +275,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 重新配置远程地址以支持 push
           git remote set-url origin https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git
           git checkout data
           git pull origin data --quiet
           mkdir -p archive
-
-          git config --global user.email ""
-          git config --global user.name "Updater"
 
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
           LOG_ENTRY="## $TIMESTAMP - Processed: ${{ env.FILES }}"
@@ -281,4 +302,6 @@ jobs:
         run: |
           echo "🎉 Workflow completed successfully!"
           echo "Processed files: ${{ env.FILES }}"
+          INCR=$(cat main-workspace/../review_count.txt)
+          echo "New reviews added: $INCR"
           echo "Check 'log.txt' on the 'data' branch for a full history."
