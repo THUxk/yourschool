@@ -15,6 +15,10 @@ jobs:
     permissions:
       contents: write
 
+    concurrency:
+      group: merge-reviews-data-branch
+      cancel-in-progress: false   # 排队，不取消
+
     steps:
       - name: Checkout data branch
         uses: actions/checkout@v4
@@ -284,6 +288,9 @@ jobs:
           git checkout data
           git pull origin data --quiet
           mkdir -p archive
+
+          git config user.name "GitHub Actions"
+          git config user.email ""
 
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
           LOG_ENTRY="## $TIMESTAMP - Processed: ${{ env.FILES }}"
