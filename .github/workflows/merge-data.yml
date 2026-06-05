@@ -193,13 +193,14 @@ jobs:
             fi
 
             COUNT=$(jq '.count' "$COURSE_FILE")
-            AVG=$(jq '[.results[].rating] | add / length' "$COURSE_FILE")
+            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$COURSE_FILE")
 
-            # 从 full_index.json 中找到完整的课程数据
-            FULL_COURSE_ENTRY=$(jq -r --argjson target_sqid "$sqid" '
+            # 从 full_index.json 中找到完整的课程数据 (关键修复: 移除 -r 标志!)
+            FULL_COURSE_ENTRY=$(jq --argjson target_sqid "$sqid" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
             ' "$FULL_INDEX_PATH")
 
+            # 检查是否找到课程
             if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
               echo "    ⚠️ Course with sqid $sqid not found in full_index.json."
               continue
@@ -213,9 +214,9 @@ jobs:
               continue
             fi
 
-            # 构建新的课程条目：完整复制 full_index 数据 + 添加 count/avg
+            # 构建新的课程条目：完整复制 full_index 数据 + 添加 count/avg (防御性删除旧统计字段)
             NEW_COURSE_ENTRY=$(jq --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
-              $full_val | .count = $count | .avg = $avg
+              ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
             ')
 
             # 写入到 with_comment_index.json
@@ -273,7 +274,7 @@ jobs:
         run: |
           git add data/courses/ data/with_comment_index.json data/reviews_latest.json data/manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "${{ env.FILES }}"
+            git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed"
             git push origin HEAD:main
             echo "✅ Changes pushed to main branch."
           else
@@ -290,7 +291,7 @@ jobs:
           mkdir -p archive
 
           git config user.name "GitHub Actions"
-          git config user.email ""
+          git config user.email "actions@github.com"
 
           TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
           LOG_ENTRY="## $TIMESTAMP - Processed: ${{ env.FILES }}"
@@ -306,8 +307,7 @@ jobs:
             echo "$LOG_ENTRY (no valid files)" >> log.txt
           fi
 
-          git add .
-          git rm new_reviews_for_latest.json main-workspace
+          git add archive/ log.txt
           git commit -m "chore(data): archive processed reviews and update log [skip ci]"
           git push origin data
 
