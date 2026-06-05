@@ -57,7 +57,8 @@ jobs:
       - name: Process each new review, merge into course files, and collect data
         working-directory: ./main-workspace
         run: |
-          set -euo pipefail
+          set -euo pipefail  # 👈 关键：严格错误处理
+
           echo -n "" > ../updated_sqids.txt
           echo "[]" > ../new_reviews_for_latest.json
           REVIEW_COUNT=0
@@ -132,51 +133,50 @@ jobs:
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             fi
 
-            # --- Enrich review for reviews_latest ---
-            if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
-              COURSE_NAME="Unknown Course"
-              COURSE_TEACHER="Unknown Teacher"
-            else
-              # 从 FULL_COURSE_ENTRY 中提取 name/teacher
-              COURSE_NAME=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.kcm')
-              COURSE_TEACHER=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.jsm')
-            fi
-
-            # --- Update with_comment_index.json ---
-            echo "=== Content of updated_sqids.txt ==="
-            cat -A ../updated_sqids.txt   # -A 显示不可见字符（如 $ 表示换行）
-            echo "==================================="
-            wc -l ../updated_sqids.txt    # 查看行数
-            
-            COUNT=$(jq '.count' "$target_file")
-            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
-
+            # --- Get full course entry from full_index.json (COMPACT JSON!) ---
             FULL_COURSE_ENTRY=$(jq -c --argjson target_sqid "$course_sqid" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
             ' "$FULL_INDEX_PATH")
 
-            if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
+            COUNT=$(jq '.count' "$target_file")
+            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
+
+            if [ -z "$FULL_COURSE_ENTRY" ]; then
               echo "    ⚠️ Course sqid=$course_sqid not in full_index, using fallback."
               DISPLAY_KEY="__unknown__${course_sqid}"
-              NEW_COURSE_ENTRY=$(jq -c -n --argjson sqid "$course_sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
-                { kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }
-              ')
+              NEW_COURSE_ENTRY=$(jq -c -n \
+                --argjson sqid "$course_sqid" \
+                --argjson count "$COUNT" \
+                --argjson avg "$AVG" \
+                '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }')
+              COURSE_NAME="Unknown Course"
+              COURSE_TEACHER="Unknown Teacher"
             else
               DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
               FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')
+              
               if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
                 echo "    ⚠️ Invalid display key for sqid=$course_sqid, using fallback."
                 DISPLAY_KEY="__unknown__${course_sqid}"
-                NEW_COURSE_ENTRY=$(jq -c -n --argjson sqid "$course_sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
-                  { kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }
-                ')
+                NEW_COURSE_ENTRY=$(jq -c -n \
+                  --argjson sqid "$course_sqid" \
+                  --argjson count "$COUNT" \
+                  --argjson avg "$AVG" \
+                  '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }')
+                COURSE_NAME="Unknown Course"
+                COURSE_TEACHER="Unknown Teacher"
               else
-                NEW_COURSE_ENTRY=$(jq -c --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
-                  ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
-                ')
+                NEW_COURSE_ENTRY=$(jq -c \
+                  --argjson full_val "$FULL_VALUE" \
+                  --argjson count "$COUNT" \
+                  --argjson avg "$AVG" \
+                  '($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg')
+                COURSE_NAME=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.kcm')
+                COURSE_TEACHER=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.jsm')
               fi
             fi
 
+            # --- Update with_comment_index.json ---
             jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
               .courses[$key] = $new_entry
             ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
@@ -212,6 +212,7 @@ jobs:
       - name: Update reviews_latest.json
         working-directory: ./main-workspace
         run: |
+          set -euo pipefail
           LATEST_FILE="data/reviews_latest.json"
           MAX_COUNT=${{ env.MAX_LATEST_REVIEWS }}
 
@@ -231,6 +232,7 @@ jobs:
       - name: Update manifest.json total_reviews
         working-directory: ./main-workspace
         run: |
+          set -euo pipefail
           MANIFEST="data/manifest.json"
           if [ ! -f "$MANIFEST" ]; then
             echo "❌ Error: $MANIFEST not found!"
@@ -253,7 +255,8 @@ jobs:
       - name: Commit changes to main branch
         working-directory: ./main-workspace
         run: |
-          git add data/courses data/with_comment_index.json data/reviews_latest.json data/manifest.json
+          set -euo pipefail
+          git add data/courses/ data/with_comment_index.json data/reviews_latest.json data/manifest.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed"
             git push origin HEAD:main
@@ -266,6 +269,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -euo pipefail
           git remote set-url origin https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git
           git checkout data
           git pull origin data --quiet
