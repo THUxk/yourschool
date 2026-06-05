@@ -1,5 +1,17 @@
 [
   {
+    "id": 3421,
+    "course": {
+      "id": 1
+    },
+    "rating": 5,
+    "comment": "考核方式：\n授课质量与给分：\n点评人：\n上课学期：\n            test",
+    "created_at": "2026/06/05 17:48",
+    "score": null,
+    "_course_name": "高等统计选讲(I)",
+    "_course_teacher": "李东"
+  },
+  {
     "id": 3420,
     "course": {
       "id": 1
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "离散数学(1)",
     "_course_teacher": "刘世霞"
-  },
-  {
-    "id": 3321,
-    "course": {
-      "id": 31405
-    },
-    "rating": 1,
-    "comment": "考核方式：统考\n\n授课质量与给分：课上不讲大物\n\n点评人：\n\n上课学期：",
-    "created_at": "2026/05/24 17:17",
-    "score": null,
-    "_course_name": "大学物理B(1)",
-    "_course_teacher": "丁世谦"
   }
 ]
