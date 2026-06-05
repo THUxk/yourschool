@@ -63,8 +63,8 @@ jobs:
 
           # --- Determine the starting comment ID ---
           LATEST_FILE="data/reviews_latest.json"
-          if [ -f "$LATEST_FILE" ] && [ "$(jq length "$LATEST_FILE")" -gt 0 ]; then
-            current_max_id=$(jq -r '.[0].id' "$LATEST_FILE")
+          if [ -f "$LATEST_FILE" ] && [ "$(jq -c length "$LATEST_FILE")" -gt 0 ]; then
+            current_max_id=$(jq -c -r '.[0].id' "$LATEST_FILE")
             echo "Starting from existing max comment ID: $current_max_id"
           else
             current_max_id=0
@@ -78,12 +78,12 @@ jobs:
 
             echo "Processing $file..."
 
-            if ! jq 'has("id") and has("rating") and has("comment")' "../$file" > /dev/null 2>&1; then
+            if ! jq -c 'has("id") and has("rating") and has("comment")' "../$file" > /dev/null 2>&1; then
               echo "⚠️ SKIP (invalid format): $file"
               continue
             fi
 
-            course_sqid=$(jq -r '.id // "null"' "../$file")
+            course_sqid=$(jq -c -r '.id // "null"' "../$file")
             if [ "$course_sqid" = "null" ] || [ -z "$course_sqid" ]; then
               echo "⚠️ SKIP (missing/invalid course_sqid): $file"
               continue
@@ -98,7 +98,7 @@ jobs:
 
             if [ ! -f "$target_file" ]; then
               echo "Creating new course file for sqid: $course_sqid"
-              jq -n --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '{
+              jq -c -n --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '{
                 "count": 1,
                 "next": null,
                 "previous": null,
@@ -107,13 +107,13 @@ jobs:
               echo "$course_sqid" >> ../updated_sqids.txt
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             else
-              if jq -e --argjson cid "$comment_id" 'any(.results[]; .id == $cid)' "$target_file" > /dev/null; then
+              if jq -c -e --argjson cid "$comment_id" 'any(.results[]; .id == $cid)' "$target_file" > /dev/null; then
                 echo "❌ CRITICAL: Duplicate comment ID $comment_id found in course file!"
                 exit 1
               fi
 
               echo "✅ Merging comment (id=$comment_id) into course $course_sqid"
-              jq --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '
+              jq -c --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '
                 .results += [($new_review | .id = $comment_id)] |
                 .count = (.results | length)
               ' "$target_file" > temp.json && mv temp.json "$target_file"
@@ -127,7 +127,7 @@ jobs:
               exit 1
             fi
 
-            COURSE_INFO=$(jq -r --argjson target_sqid "$course_sqid" '
+            COURSE_INFO=$(jq -c -r --argjson target_sqid "$course_sqid" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | .value
             ' "$FULL_INDEX_PATH")
 
@@ -135,11 +135,11 @@ jobs:
               COURSE_NAME="Unknown Course"
               COURSE_TEACHER="Unknown Teacher"
             else
-              COURSE_NAME=$(echo "$COURSE_INFO" | jq -r '.kcm')
-              COURSE_TEACHER=$(echo "$COURSE_INFO" | jq -r '.jsm')
+              COURSE_NAME=$(echo "$COURSE_INFO" | jq -c -r '.kcm')
+              COURSE_TEACHER=$(echo "$COURSE_INFO" | jq -c -r '.jsm')
             fi
 
-            ENRICHED_REVIEW=$(jq -n \
+            ENRICHED_REVIEW=$(jq -c -n \
               --argjson original_review "$(cat "../$file")" \
               --argjson course_sqid "$course_sqid" \
               --arg course_name "$COURSE_NAME" \
@@ -156,7 +156,7 @@ jobs:
                 "_course_teacher": $course_teacher
               }')
 
-            jq --argjson new_r "$ENRICHED_REVIEW" '. += [$new_r]' ../new_reviews_for_latest.json > ../temp_new_reviews.json
+            jq -c --argjson new_r "$ENRICHED_REVIEW" '. += [$new_r]' ../new_reviews_for_latest.json > ../temp_new_reviews.json
             mv ../temp_new_reviews.json ../new_reviews_for_latest.json
 
           done
@@ -176,7 +176,7 @@ jobs:
 
           # 初始化 with_comment_index.json（如果不存在）
           if [ ! -f "data/with_comment_index.json" ]; then
-            jq -n '{ courses: {} }' > data/with_comment_index.json
+            jq -c -n '{ courses: {} }' > data/with_comment_index.json
             echo "Initialized empty with_comment_index.json"
           fi
 
@@ -192,11 +192,11 @@ jobs:
               continue
             fi
 
-            COUNT=$(jq '.count' "$COURSE_FILE")
-            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$COURSE_FILE")
+            COUNT=$(jq -c '.count' "$COURSE_FILE")
+            AVG=$(jq -c '[.results[].rating] | (add / length) // 0' "$COURSE_FILE")
 
             # 从 full_index.json 中找到完整的课程数据 (关键修复: 移除 -r 标志!)
-            FULL_COURSE_ENTRY=$(jq --argjson target_sqid "$sqid" '
+            FULL_COURSE_ENTRY=$(jq -c --argjson target_sqid "$sqid" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
             ' "$FULL_INDEX_PATH")
 
@@ -206,8 +206,8 @@ jobs:
               continue
             fi
 
-            DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
-            FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq '.value')
+            DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -c -r '.key')
+            FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')
 
             if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
               echo "    ⚠️ Invalid display key for sqid $sqid."
@@ -215,12 +215,12 @@ jobs:
             fi
 
             # 构建新的课程条目：完整复制 full_index 数据 + 添加 count/avg (防御性删除旧统计字段)
-            NEW_COURSE_ENTRY=$(jq --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
+            NEW_COURSE_ENTRY=$(jq -c --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
               ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
             ')
 
             # 写入到 with_comment_index.json
-            jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
+            jq -c --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
               .courses[$key] = $new_entry
             ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
 
@@ -240,12 +240,12 @@ jobs:
           fi
 
           NEW_REVIEWS=$(cat ../new_reviews_for_latest.json)
-          jq --argjson new_reviews "$NEW_REVIEWS" --argjson max_count "$MAX_COUNT" '
+          jq -c --argjson new_reviews "$NEW_REVIEWS" --argjson max_count "$MAX_COUNT" '
             ($new_reviews + .) | .[0:$max_count]
           ' "$LATEST_FILE" > temp_latest.json
 
           mv temp_latest.json "$LATEST_FILE"
-          echo "✅ Updated $LATEST_FILE. Total now: $(jq length "$LATEST_FILE")"
+          echo "✅ Updated $LATEST_FILE. Total now: $(jq -c length "$LATEST_FILE")"
 
       - name: Update manifest.json total_reviews
         working-directory: ./main-workspace
@@ -263,7 +263,7 @@ jobs:
 
           if [ "$INCREMENT" -gt 0 ]; then
             echo "Incrementing total_reviews by $INCREMENT"
-            jq --argjson inc "$INCREMENT" '.total_reviews += $inc' "$MANIFEST" > temp_manifest.json
+            jq -c --argjson inc "$INCREMENT" '.total_reviews += $inc' "$MANIFEST" > temp_manifest.json
             mv temp_manifest.json "$MANIFEST"
           else
             echo "No new reviews, manifest unchanged."
@@ -307,7 +307,9 @@ jobs:
             echo "$LOG_ENTRY (no valid files)" >> log.txt
           fi
 
-          git add archive/ log.txt
+          rm -rf main-workspace
+
+          git add .
           git commit -m "chore(data): archive processed reviews and update log [skip ci]"
           git push origin data
 
