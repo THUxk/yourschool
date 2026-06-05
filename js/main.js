@@ -98,7 +98,7 @@ const Utils = {
     }
     const match = comment.match(/上课学期[：:]\s*(.+)/);
     return match ? match[1].trim() : "";
-  }
+  },
 };
 
 // 数据加载器
@@ -106,7 +106,9 @@ const DataLoader = {
   // 加载 Manifest
   async loadManifest() {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "manifest.json", { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + "manifest.json", {
+        credentials: "omit",
+      });
       State.manifest = await res.json();
     } catch (e) {
       console.error("Manifest load error", e);
@@ -116,7 +118,9 @@ const DataLoader = {
   // 加载静态文件
   async loadStatic(key, filename, expectedType = null) {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename, { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + filename, {
+        credentials: "omit",
+      });
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
       const data = await res.json();
       return data;
@@ -135,7 +139,9 @@ const DataLoader = {
       ? "with_comment_index.json"
       : "full_index.json";
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename, { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + filename, {
+        credentials: "omit",
+      });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       const arr = [];
@@ -168,7 +174,9 @@ const DataLoader = {
       ? "with_comment_index.json"
       : "full_index.json";
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename, { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + filename, {
+        credentials: "omit",
+      });
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
       State.searchIndexCache = await res.json();
     } catch (e) {
@@ -184,7 +192,9 @@ const DataLoader = {
 
     // 加载课程数据
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "courses/" + sqid + ".json", { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + "courses/" + sqid + ".json", {
+        credentials: "omit",
+      });
       if (!res.ok) throw new Error("not found");
       courseData = await res.json();
     } catch (e) {
@@ -194,10 +204,9 @@ const DataLoader = {
     // 加载教师数据
     if (tid) {
       try {
-        const res = await fetch(
-          CONFIG.RAW_BASE + "teachers/" + tid + ".json",
-          { credentials: "omit" },
-        );
+        const res = await fetch(CONFIG.RAW_BASE + "teachers/" + tid + ".json", {
+          credentials: "omit",
+        });
         if (res.ok) {
           teacherData = await res.json();
         }
@@ -506,7 +515,8 @@ const Renderer = {
     const totalLocal = dedupedLocal.length;
     const reviewCountEl = Utils.$("review-count-title");
     if (reviewCountEl) {
-      const svCount = State.currentCourseDetail.review_count || serverReviews.length;
+      const svCount =
+        State.currentCourseDetail.review_count || serverReviews.length;
       reviewCountEl.textContent = `点评（${svCount + totalLocal}条）`;
     }
 
@@ -659,7 +669,11 @@ const Controller = {
 
   // 初始化首页
   async initIndexPage() {
-    State.latestReviews = await DataLoader.loadStatic("latest_reviews", "reviews_latest.json", "array");
+    State.latestReviews = await DataLoader.loadStatic(
+      "latest_reviews",
+      "reviews_latest.json",
+      "array",
+    );
     Renderer.renderIndex();
   },
 
@@ -672,39 +686,27 @@ const Controller = {
     Renderer.renderCourseList();
   },
 
-  // 初始化统计页（始终直接请求 full_index.json，不受 fullIndexLoaded 污染）
+  // 初始化统计页（始终直接请求 with_comment_index.json）
   async initStatPage() {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", {
+        credentials: "omit",
+      });
       if (res.ok) {
         const data = await res.json();
-        let totalCourse = State.manifest?.total_courses ?? 0,
-          reviewedCount = 0;
-        for (const info of Object.values(data.courses || {})) {
-          if (!info || typeof info !== "object") continue;
-          reviewedCount++;
-        }
 
         const totalReview = State.manifest?.total_reviews ?? 0;
+        const totalCourse = State.manifest?.total_courses ?? 0;
+        const reviewedCount = data.courses
+          ? Object.values(data.courses).length
+          : 0;
+
         this.updateStatElements(totalReview, totalCourse, reviewedCount);
         return;
       }
     } catch (e) {
       console.error("[initStatPage] Error:", e);
     }
-
-    // fallback: 用 manifest + coursesAll 统计
-    const totalReview = State.manifest?.total_reviews ?? 0;
-    let totalCourse = State.manifest?.total_courses ?? 0,
-      reviewedCount = 0;
-    for (const c of State.coursesAll) {
-      if (c.count > 0) reviewedCount++;
-    }
-    this.updateStatElements(
-      totalReview,
-      totalCourse,
-      reviewedCount,
-    );
   },
 
   // 更新统计元素
@@ -794,7 +796,9 @@ const Controller = {
   // 从索引获取院系信息
   async fetchDeptFromIndex(sqid) {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", {
+        credentials: "omit",
+      });
       if (res.ok) {
         const ciRaw = await res.json();
         if (ciRaw?.courses) {
@@ -1218,9 +1222,7 @@ const LocalCache = {
 
   /** 获取某门课程的本地点评 */
   getReviewsForCourse(sqid) {
-    return this._load().filter(
-      (r) => String(r.course.id) === String(sqid),
-    );
+    return this._load().filter((r) => String(r.course.id) === String(sqid));
   },
 
   /** 获取某门课程的本地点评数量 */
@@ -1751,7 +1753,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 // 全局事件绑定
 document.addEventListener("click", (e) => {
   // 过滤器组切换 — 匹配 data-target 属性（HTML 中使用的属性名）
-  const filterTitle = e.target.closest('[data-target]');
+  const filterTitle = e.target.closest("[data-target]");
   if (filterTitle) {
     Controller.toggleFilterGroup(filterTitle);
   }
