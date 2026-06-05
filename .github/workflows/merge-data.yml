@@ -57,6 +57,7 @@ jobs:
       - name: Process each new review, merge into course files, and collect data
         working-directory: ./main-workspace
         run: |
+          set -euo pipefail
           echo -n "" > ../updated_sqids.txt
           echo "[]" > ../new_reviews_for_latest.json
           REVIEW_COUNT=0
@@ -131,17 +132,14 @@ jobs:
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             fi
 
-            # --- Lookup course info in full_index (used for enrichment AND index) ---
-            COURSE_INFO=$(jq -r --argjson target_sqid "$course_sqid" '
-              .courses | to_entries[] | select(.value.sqid == $target_sqid) | .value
-            ' "$FULL_INDEX_PATH")
-
-            if [ -z "$COURSE_INFO" ] || [ "$COURSE_INFO" = "null" ]; then
+            # --- Enrich review for reviews_latest ---
+            if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
               COURSE_NAME="Unknown Course"
               COURSE_TEACHER="Unknown Teacher"
             else
-              COURSE_NAME=$(echo "$COURSE_INFO" | jq -r '.kcm')
-              COURSE_TEACHER=$(echo "$COURSE_INFO" | jq -r '.jsm')
+              # 从 FULL_COURSE_ENTRY 中提取 name/teacher
+              COURSE_NAME=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.kcm')
+              COURSE_TEACHER=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.jsm')
             fi
 
             # --- Update with_comment_index.json ---
@@ -153,7 +151,7 @@ jobs:
             COUNT=$(jq '.count' "$target_file")
             AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
 
-            FULL_COURSE_ENTRY=$(jq --argjson target_sqid "$course_sqid" '
+            FULL_COURSE_ENTRY=$(jq -c --argjson target_sqid "$course_sqid" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
             ' "$FULL_INDEX_PATH")
 
