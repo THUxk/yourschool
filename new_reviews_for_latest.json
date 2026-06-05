@@ -1,1 +1,14 @@
-[{"id":3415,"course":{"id":8530},"rating":5,"comment":"考核方式：统考\n授课质量与给分：\n点评人：lin\n上课学期：2025-2026春\n 非常好的课程，使我和作业搏斗，但是老师讲课很好","created_at":"2026/06/05 11:31","score":null,"_course_name":"微积分A(2)","_course_teacher":"晏平"}]
+[
+  {
+    "id": 3416,
+    "course": {
+      "id": 40462
+    },
+    "rating": 5,
+    "comment": "考核方式：体验性的实验+期末研究展示\n授课质量与给分：似乎不会有3.6以下的评分\n点评人：lin\n上课学期：2025-2026春",
+    "created_at": "2026/06/05 11:45",
+    "score": null,
+    "_course_name": "科技创新与挑战2D",
+    "_course_teacher": "潘思宁"
+  }
+]
