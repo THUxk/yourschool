@@ -201,22 +201,25 @@ jobs:
             ' "$FULL_INDEX_PATH")
 
             if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
-              echo "    ⚠️ Course with sqid $sqid not found in full_index.json."
-              continue
+              echo "    ⚠️ Course with sqid $sqid not found in full_index.json, using fallback entry."
+              DISPLAY_KEY="__unknown__${sqid}"
+              NEW_COURSE_ENTRY=$(jq -c -n --argjson sqid "$sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
+                { kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }
+              ')
+            else
+              DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
+              FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')  # 👈 关键：-c 确保单行 JSON
+
+              if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
+                echo "    ⚠️ Invalid display key for sqid $sqid."
+                continue
+              fi
+
+              # 构建新条目：输出紧凑 JSON（关键：-c）
+              NEW_COURSE_ENTRY=$(jq -c --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
+                ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
+              ')  # 👈 关键：-c
             fi
-
-            DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
-            FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')  # 👈 关键：-c 确保单行 JSON
-
-            if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
-              echo "    ⚠️ Invalid display key for sqid $sqid."
-              continue
-            fi
-
-            # 构建新条目：输出紧凑 JSON（关键：-c）
-            NEW_COURSE_ENTRY=$(jq -c --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
-              ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
-            ')  # 👈 关键：-c
 
             # 写入到 with_comment_index.json
             jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
