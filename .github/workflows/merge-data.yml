@@ -61,6 +61,18 @@ jobs:
           echo "[]" > ../new_reviews_for_latest.json
           REVIEW_COUNT=0
 
+          # --- Initialize with_comment_index.json ---
+          if [ ! -f "data/with_comment_index.json" ]; then
+            jq -n '{ courses: {} }' > data/with_comment_index.json
+            echo "Initialized empty with_comment_index.json"
+          fi
+
+          FULL_INDEX_PATH="data/full_index.json"
+          if [ ! -f "$FULL_INDEX_PATH" ]; then
+            echo "❌ Error: data/full_index.json not found!"
+            exit 1
+          fi
+
           # --- Determine the starting comment ID ---
           LATEST_FILE="data/reviews_latest.json"
           if [ -f "$LATEST_FILE" ] && [ "$(jq length "$LATEST_FILE")" -gt 0 ]; then
@@ -104,7 +116,6 @@ jobs:
                 "previous": null,
                 "results": [($new_review | .id = $comment_id)]
               }' > "$target_file"
-              echo "$course_sqid" >> ../updated_sqids.txt
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             else
               if jq -e --argjson cid "$comment_id" 'any(.results[]; .id == $cid)' "$target_file" > /dev/null; then
@@ -117,16 +128,10 @@ jobs:
                 .results += [($new_review | .id = $comment_id)] |
                 .count = (.results | length)
               ' "$target_file" > temp.json && mv temp.json "$target_file"
-              echo "$course_sqid" >> ../updated_sqids.txt
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             fi
 
-            FULL_INDEX_PATH="data/full_index.json"
-            if [ ! -f "$FULL_INDEX_PATH" ]; then
-              echo "❌ Error: data/full_index.json not found!"
-              exit 1
-            fi
-
+            # --- Lookup course info in full_index (used for enrichment AND index) ---
             COURSE_INFO=$(jq -r --argjson target_sqid "$course_sqid" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | .value
             ' "$FULL_INDEX_PATH")
@@ -139,6 +144,43 @@ jobs:
               COURSE_TEACHER=$(echo "$COURSE_INFO" | jq -r '.jsm')
             fi
 
+            # --- Update with_comment_index.json ---
+            COUNT=$(jq '.count' "$target_file")
+            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
+
+            FULL_COURSE_ENTRY=$(jq --argjson target_sqid "$course_sqid" '
+              .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
+            ' "$FULL_INDEX_PATH")
+
+            if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
+              echo "    ⚠️ Course sqid=$course_sqid not in full_index, using fallback."
+              DISPLAY_KEY="__unknown__${course_sqid}"
+              NEW_COURSE_ENTRY=$(jq -c -n --argjson sqid "$course_sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
+                { kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }
+              ')
+            else
+              DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
+              FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')
+              if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
+                echo "    ⚠️ Invalid display key for sqid=$course_sqid, using fallback."
+                DISPLAY_KEY="__unknown__${course_sqid}"
+                NEW_COURSE_ENTRY=$(jq -c -n --argjson sqid "$course_sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
+                  { kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }
+                ')
+              else
+                NEW_COURSE_ENTRY=$(jq -c --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
+                  ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
+                ')
+              fi
+            fi
+
+            jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
+              .courses[$key] = $new_entry
+            ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
+
+            echo "  -> Index updated: '$DISPLAY_KEY' (sqid=$course_sqid, count=$COUNT, avg=$AVG)"
+
+            # --- Enrich review for reviews_latest ---
             ENRICHED_REVIEW=$(jq -n \
               --argjson original_review "$(cat "../$file")" \
               --argjson course_sqid "$course_sqid" \
@@ -161,74 +203,8 @@ jobs:
 
           done
 
-          sort -u ../updated_sqids.txt -o ../updated_sqids.txt
           echo "Final comment ID after processing: $current_max_id"
           echo $REVIEW_COUNT > ../review_count.txt
-
-      - name: Update with_comment_index.json
-        working-directory: ./main-workspace
-        run: |
-          FULL_INDEX_PATH="data/full_index.json"
-          if [ ! -f "$FULL_INDEX_PATH" ]; then
-            echo "❌ Error: data/full_index.json not found on main branch!"
-            exit 1
-          fi
-
-          # 初始化 with_comment_index.json（如果不存在）
-          if [ ! -f "data/with_comment_index.json" ]; then
-            jq -n '{ courses: {} }' > data/with_comment_index.json
-            echo "Initialized empty with_comment_index.json"
-          fi
-
-          while IFS= read -r sqid; do
-            if [ -z "$sqid" ]; then
-              continue
-            fi
-
-            echo "Updating index for course sqid: $sqid"
-            COURSE_FILE="data/courses/${sqid}.json"
-            if [ ! -f "$COURSE_FILE" ]; then
-              echo "⚠️ Course file missing for sqid $sqid, skipping index update."
-              continue
-            fi
-
-            COUNT=$(jq '.count' "$COURSE_FILE")
-            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$COURSE_FILE")
-
-            # 从 full_index.json 中找到完整的课程数据（注意：这里不需要 -r）
-            FULL_COURSE_ENTRY=$(jq --argjson target_sqid "$sqid" '
-              .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
-            ' "$FULL_INDEX_PATH")
-
-            if [ -z "$FULL_COURSE_ENTRY" ] || [ "$FULL_COURSE_ENTRY" = "null" ]; then
-              echo "    ⚠️ Course with sqid $sqid not found in full_index.json, using fallback entry."
-              DISPLAY_KEY="__unknown__${sqid}"
-              NEW_COURSE_ENTRY=$(jq -c -n --argjson sqid "$sqid" --argjson count "$COUNT" --argjson avg "$AVG" '
-                { kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }
-              ')
-            else
-              DISPLAY_KEY=$(echo "$FULL_COURSE_ENTRY" | jq -r '.key')
-              FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')  # 👈 关键：-c 确保单行 JSON
-
-              if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
-                echo "    ⚠️ Invalid display key for sqid $sqid."
-                continue
-              fi
-
-              # 构建新条目：输出紧凑 JSON（关键：-c）
-              NEW_COURSE_ENTRY=$(jq -c --argjson full_val "$FULL_VALUE" --argjson count "$COUNT" --argjson avg "$AVG" '
-                ($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg
-              ')  # 👈 关键：-c
-            fi
-
-            # 写入到 with_comment_index.json
-            jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
-              .courses[$key] = $new_entry
-            ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
-
-            echo "  -> Updated entry for '$DISPLAY_KEY' (sqid=$sqid)"
-
-          done < ../updated_sqids.txt
 
       - name: Update reviews_latest.json
         working-directory: ./main-workspace
