@@ -145,6 +145,11 @@ jobs:
             fi
 
             # --- Update with_comment_index.json ---
+            echo "=== Content of updated_sqids.txt ==="
+            cat -A ../updated_sqids.txt   # -A 显示不可见字符（如 $ 表示换行）
+            echo "==================================="
+            wc -l ../updated_sqids.txt    # 查看行数
+            
             COUNT=$(jq '.count' "$target_file")
             AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
 
@@ -250,7 +255,7 @@ jobs:
       - name: Commit changes to main branch
         working-directory: ./main-workspace
         run: |
-          git add .
+          git add data/courses data/with_comment_index.json data/reviews_latest.json data/manifest.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed"
             git push origin HEAD:main
