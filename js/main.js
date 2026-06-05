@@ -483,6 +483,7 @@ const Renderer = {
 
     paged.forEach((c) => {
       const count = c.count || 0;
+      const avg = count > 0 ? parseFloat(c.avg).toFixed(1) : "-";
       const div = document.createElement("div");
       div.className = "course-list-item";
       div.innerHTML = `
@@ -494,7 +495,10 @@ const Renderer = {
           </h3>
           <div class="course-dept-name">${c.kkdw}</div>
         </div>
-        <div class="course-review-status">${count === 0 ? "暂无点评" : count + "条点评"}</div>
+        <div class="course-review-status">
+          <div class="course-score-num">${avg}</div>
+          <div class="course-score-count">${count}人评价</div>
+        </div>
       `;
       frag.appendChild(div);
     });
