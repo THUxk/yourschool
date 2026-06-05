@@ -1,5 +1,17 @@
 [
   {
+    "id": 3422,
+    "course": {
+      "id": 1
+    },
+    "rating": 4,
+    "comment": "test1",
+    "created_at": "2026/06/05 17:51",
+    "score": null,
+    "_course_name": "高等统计选讲(I)",
+    "_course_teacher": "李东"
+  },
+  {
     "id": 3421,
     "course": {
       "id": 1
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "心智探秘",
     "_course_teacher": "刘嘉"
-  },
-  {
-    "id": 3322,
-    "course": {
-      "id": 12894
-    },
-    "rating": 4,
-    "comment": "讲课还行，考试纯恶心人，考得难得离谱然后再大力调分的意义是什么？\n\nTips：这课上课题目正确率高有额外加分，优秀作业没有额外加分",
-    "created_at": "2026/05/24 19:19",
-    "score": null,
-    "_course_name": "离散数学(1)",
-    "_course_teacher": "刘世霞"
   }
 ]
