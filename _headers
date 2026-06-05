@@ -13,18 +13,14 @@
 
 # CSS and JS — longer cache with versioned filenames or content hash
 /css/*
-  Cache-Control: public, max-age=86400, immutable
+  Cache-Control: public, max-age=300, immutable
 
 /js/*
-  Cache-Control: public, max-age=86400, immutable
+  Cache-Control: public, max-age=300, immutable
 
 # Data files (JSON) — moderate cache, may be updated frequently
 /data/*
   Cache-Control: public, max-age=300, must-revalidate
-
-# Static assets that rarely change
-/assets/*
-  Cache-Control: public, max-age=604800, immutable
 
 # Security: deny access to hidden files
 /_*
