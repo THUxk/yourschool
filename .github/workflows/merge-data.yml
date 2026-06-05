@@ -98,14 +98,13 @@ jobs:
               continue
             fi
 
-            # ✅ CRITICAL FIX: Extract .id as RAW JSON to preserve type (number/string)
+            # ✅ Extract .id as RAW JSON to preserve type (number/string)
             course_sqid_json=$(jq '.id' "../$file")
             if [ "$course_sqid_json" = "null" ] || [ -z "$course_sqid_json" ]; then
               echo "⚠️ SKIP (missing/invalid course_sqid): $file"
               continue
             fi
 
-            # For logging/debugging
             course_sqid_str=$(echo "$course_sqid_json" | jq -r .)
             echo "Processing course sqid: $course_sqid_str"
 
@@ -139,22 +138,25 @@ jobs:
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             fi
 
+            # --- Extract count and avg as raw JSON ---
+            COUNT_JSON=$(jq '.count' "$target_file")
+            AVG_JSON=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
+
             # --- Get full course entry from full_index.json ---
             FULL_COURSE_ENTRY=$(jq -c --argjson target_sqid "$course_sqid_json" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
             ' "$FULL_INDEX_PATH")
 
-            COUNT=$(jq '.count' "$target_file")
-            AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
-
+            # --- Construct new_entry safely via temp file ---
             if [ -z "$FULL_COURSE_ENTRY" ]; then
               echo "    ⚠️ Course sqid=$course_sqid_str not in full_index, using fallback."
               DISPLAY_KEY="__unknown__${course_sqid_str}"
-              NEW_COURSE_ENTRY=$(jq -c -n \
+              jq -n \
                 --argjson sqid "$course_sqid_json" \
-                --argjson count "$COUNT" \
-                --argjson avg "$AVG" \
-                '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }')
+                --argjson count "$COUNT_JSON" \
+                --argjson avg "$AVG_JSON" \
+                '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }' \
+                > temp_new_entry.json
               COURSE_NAME="Unknown Course"
               COURSE_TEACHER="Unknown Teacher"
             else
@@ -164,30 +166,35 @@ jobs:
               if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
                 echo "    ⚠️ Invalid display key for sqid=$course_sqid_str, using fallback."
                 DISPLAY_KEY="__unknown__${course_sqid_str}"
-                NEW_COURSE_ENTRY=$(jq -c -n \
+                jq -n \
                   --argjson sqid "$course_sqid_json" \
-                  --argjson count "$COUNT" \
-                  --argjson avg "$AVG" \
-                  '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }')
+                  --argjson count "$COUNT_JSON" \
+                  --argjson avg "$AVG_JSON" \
+                  '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }' \
+                  > temp_new_entry.json
                 COURSE_NAME="Unknown Course"
                 COURSE_TEACHER="Unknown Teacher"
               else
-                NEW_COURSE_ENTRY=$(jq -c \
+                # ✅ CORE FIX: Build new_entry in jq, output to file
+                jq -n \
                   --argjson full_val "$FULL_VALUE" \
-                  --argjson count "$COUNT" \
-                  --argjson avg "$AVG" \
-                  '($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg')
+                  --argjson count "$COUNT_JSON" \
+                  --argjson avg "$AVG_JSON" \
+                  '($full_val | del(.count?, .avg?)) | .count = $count | .avg = $avg' \
+                  > temp_new_entry.json
                 COURSE_NAME=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.kcm')
                 COURSE_TEACHER=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.jsm')
               fi
             fi
 
-            # --- Update with_comment_index.json ---
-            jq --arg key "$DISPLAY_KEY" --argjson new_entry "$NEW_COURSE_ENTRY" '
-              .courses[$key] = $new_entry
-            ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
+            # --- Update with_comment_index.json using --slurpfile (100% safe) ---
+            jq --arg key "$DISPLAY_KEY" \
+               --slurpfile new_entry temp_new_entry.json \
+               '.courses[$key] = $new_entry[0]' \
+               data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
 
-            echo "  -> Index updated: '$DISPLAY_KEY' (sqid=$course_sqid_str, count=$COUNT, avg=$AVG)"
+            rm -f temp_new_entry.json
+            echo "  -> Index updated: '$DISPLAY_KEY' (sqid=$course_sqid_str, count=$(echo "$COUNT_JSON"), avg=$(echo "$AVG_JSON"))"
 
             # --- Enrich review for reviews_latest ---
             ENRICHED_REVIEW=$(jq -n \
