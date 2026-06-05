@@ -17,7 +17,7 @@ jobs:
 
     concurrency:
       group: merge-reviews-data-branch
-      cancel-in-progress: false   # 排队，不取消
+      cancel-in-progress: false
 
     steps:
       - name: Checkout data branch
@@ -57,13 +57,13 @@ jobs:
       - name: Process each new review, merge into course files, and collect data
         working-directory: ./main-workspace
         run: |
-          set -euo pipefail  # 👈 关键：严格错误处理
+          set -euo pipefail
 
           echo -n "" > ../updated_sqids.txt
           echo "[]" > ../new_reviews_for_latest.json
           REVIEW_COUNT=0
 
-          # --- Initialize with_comment_index.json ---
+          # Initialize with_comment_index.json if not exists
           if [ ! -f "data/with_comment_index.json" ]; then
             jq -n '{ courses: {} }' > data/with_comment_index.json
             echo "Initialized empty with_comment_index.json"
@@ -75,7 +75,7 @@ jobs:
             exit 1
           fi
 
-          # --- Determine the starting comment ID ---
+          # Determine starting comment ID
           LATEST_FILE="data/reviews_latest.json"
           if [ -f "$LATEST_FILE" ] && [ "$(jq length "$LATEST_FILE")" -gt 0 ]; then
             current_max_id=$(jq -r '.[0].id' "$LATEST_FILE")
@@ -92,26 +92,32 @@ jobs:
 
             echo "Processing $file..."
 
+            # Validate file structure
             if ! jq 'has("id") and has("rating") and has("comment")' "../$file" > /dev/null 2>&1; then
               echo "⚠️ SKIP (invalid format): $file"
               continue
             fi
 
-            course_sqid=$(jq -r '.id // "null"' "../$file")
-            if [ "$course_sqid" = "null" ] || [ -z "$course_sqid" ]; then
+            # ✅ CRITICAL FIX: Extract .id as RAW JSON to preserve type (number/string)
+            course_sqid_json=$(jq '.id' "../$file")
+            if [ "$course_sqid_json" = "null" ] || [ -z "$course_sqid_json" ]; then
               echo "⚠️ SKIP (missing/invalid course_sqid): $file"
               continue
             fi
+
+            # For logging/debugging
+            course_sqid_str=$(echo "$course_sqid_json" | jq -r .)
+            echo "Processing course sqid: $course_sqid_str"
 
             current_max_id=$((current_max_id + 1))
             comment_id=$current_max_id
             echo "Assigned sequential Comment ID: $comment_id"
 
-            target_file="data/courses/${course_sqid}.json"
+            target_file="data/courses/${course_sqid_str}.json"
             echo "Target file: $target_file"
 
             if [ ! -f "$target_file" ]; then
-              echo "Creating new course file for sqid: $course_sqid"
+              echo "Creating new course file for sqid: $course_sqid_str"
               jq -n --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '{
                 "count": 1,
                 "next": null,
@@ -125,7 +131,7 @@ jobs:
                 exit 1
               fi
 
-              echo "✅ Merging comment (id=$comment_id) into course $course_sqid"
+              echo "✅ Merging comment (id=$comment_id) into course $course_sqid_str"
               jq --argjson new_review "$(cat "../$file")" --argjson comment_id "$comment_id" '
                 .results += [($new_review | .id = $comment_id)] |
                 .count = (.results | length)
@@ -133,8 +139,8 @@ jobs:
               REVIEW_COUNT=$((REVIEW_COUNT + 1))
             fi
 
-            # --- Get full course entry from full_index.json (COMPACT JSON!) ---
-            FULL_COURSE_ENTRY=$(jq -c --argjson target_sqid "$course_sqid" '
+            # --- Get full course entry from full_index.json ---
+            FULL_COURSE_ENTRY=$(jq -c --argjson target_sqid "$course_sqid_json" '
               .courses | to_entries[] | select(.value.sqid == $target_sqid) | { key: .key, value: .value }
             ' "$FULL_INDEX_PATH")
 
@@ -142,10 +148,10 @@ jobs:
             AVG=$(jq '[.results[].rating] | (add / length) // 0' "$target_file")
 
             if [ -z "$FULL_COURSE_ENTRY" ]; then
-              echo "    ⚠️ Course sqid=$course_sqid not in full_index, using fallback."
-              DISPLAY_KEY="__unknown__${course_sqid}"
+              echo "    ⚠️ Course sqid=$course_sqid_str not in full_index, using fallback."
+              DISPLAY_KEY="__unknown__${course_sqid_str}"
               NEW_COURSE_ENTRY=$(jq -c -n \
-                --argjson sqid "$course_sqid" \
+                --argjson sqid "$course_sqid_json" \
                 --argjson count "$COUNT" \
                 --argjson avg "$AVG" \
                 '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }')
@@ -156,10 +162,10 @@ jobs:
               FULL_VALUE=$(echo "$FULL_COURSE_ENTRY" | jq -c '.value')
               
               if [ -z "$DISPLAY_KEY" ] || [ "$DISPLAY_KEY" = "null" ]; then
-                echo "    ⚠️ Invalid display key for sqid=$course_sqid, using fallback."
-                DISPLAY_KEY="__unknown__${course_sqid}"
+                echo "    ⚠️ Invalid display key for sqid=$course_sqid_str, using fallback."
+                DISPLAY_KEY="__unknown__${course_sqid_str}"
                 NEW_COURSE_ENTRY=$(jq -c -n \
-                  --argjson sqid "$course_sqid" \
+                  --argjson sqid "$course_sqid_json" \
                   --argjson count "$COUNT" \
                   --argjson avg "$AVG" \
                   '{ kcm: "(unknown)", sqid: $sqid, jsm: "(unknown)", tid: 0, kkdw: "(unknown)", count: $count, avg: $avg }')
@@ -181,12 +187,12 @@ jobs:
               .courses[$key] = $new_entry
             ' data/with_comment_index.json > temp_index.json && mv temp_index.json data/with_comment_index.json
 
-            echo "  -> Index updated: '$DISPLAY_KEY' (sqid=$course_sqid, count=$COUNT, avg=$AVG)"
+            echo "  -> Index updated: '$DISPLAY_KEY' (sqid=$course_sqid_str, count=$COUNT, avg=$AVG)"
 
             # --- Enrich review for reviews_latest ---
             ENRICHED_REVIEW=$(jq -n \
               --argjson original_review "$(cat "../$file")" \
-              --argjson course_sqid "$course_sqid" \
+              --argjson course_sqid "$course_sqid_json" \
               --arg course_name "$COURSE_NAME" \
               --arg course_teacher "$COURSE_TEACHER" \
               --argjson comment_id "$comment_id" \
