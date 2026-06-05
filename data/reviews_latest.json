@@ -1,5 +1,17 @@
 [
   {
+    "id": 3413,
+    "course": {
+      "id": 34204
+    },
+    "rating": 5,
+    "comment": "考核方式：P/F\n授课质量与给分：完成8次微沙龙和导师面对面，学习一些文献检索和科研流程，期末小组推举做一个pre，通过即可\n点评人：lin\n上课学期：2025-2026秋",
+    "created_at": "2026/06/05 10:20",
+    "score": "P",
+    "_course_name": "科技创新与挑战1",
+    "_course_teacher": "钱鹤"
+  },
+  {
     "id": 3412,
     "course": {
       "id": 2164
@@ -1186,17 +1198,5 @@
     "score": "3.6",
     "_course_name": "费曼物理学（1）",
     "_course_teacher": "阮东"
-  },
-  {
-    "id": 3313,
-    "course": {
-      "id": 32277
-    },
-    "rating": 5,
-    "comment": "考核方式：考试\n\n授课质量与给分：伟大无需多言\n\n点评人：j\n\n上课学期：25秋",
-    "created_at": "2026/05/23 20:21",
-    "score": "4",
-    "_course_name": "费曼物理学（3）",
-    "_course_teacher": "鲜于中之"
   }
 ]
