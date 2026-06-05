@@ -317,6 +317,4 @@ jobs:
         run: |
           echo "🎉 Workflow completed successfully!"
           echo "Processed files: ${{ env.FILES }}"
-          INCR=$(cat main-workspace/../review_count.txt)
-          echo "New reviews added: $INCR"
           echo "Check 'log.txt' on the 'data' branch for a full history."
