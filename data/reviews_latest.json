@@ -1,5 +1,17 @@
 [
   {
+    "id": 3424,
+    "course": {
+      "id": 1
+    },
+    "rating": 4,
+    "comment": "test3",
+    "created_at": "2026/06/05 17:51",
+    "score": null,
+    "_course_name": "高等统计选讲(I)",
+    "_course_teacher": "李东"
+  },
+  {
     "id": 3423,
     "course": {
       "id": 1
@@ -1186,17 +1198,5 @@
     "score": "4.0",
     "_course_name": "宗教学基础知识",
     "_course_teacher": "朱东华"
-  },
-  {
-    "id": 3324,
-    "course": {
-      "id": 28487
-    },
-    "rating": 4,
-    "comment": "被卷王组员带了，不然应该拿不到4.0。老师人特别好，但事也确实多。推荐的电影超级高质，打脸文想写好还是挺难的……课每次都闷到缺氧还会很困，但我依然很喜欢他hhhh",
-    "created_at": "2026/05/24 21:53",
-    "score": "4.0",
-    "_course_name": "心智探秘",
-    "_course_teacher": "刘嘉"
   }
 ]
