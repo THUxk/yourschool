@@ -675,17 +675,16 @@ const Controller = {
   // 初始化统计页（始终直接请求 full_index.json，不受 fullIndexLoaded 污染）
   async initStatPage() {
     try {
-      const res = await fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" });
+      const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", { credentials: "omit" });
       if (res.ok) {
         const data = await res.json();
-        let totalCourse = 0,
+        let totalCourse = State.manifest?.total_courses ?? 0,
           reviewedCount = 0;
         for (const info of Object.values(data.courses || {})) {
           if (!info || typeof info !== "object") continue;
-          totalCourse++;
-          if (info.count > 0) reviewedCount++;
+          reviewedCount++;
         }
-        // 点评总数与首页保持一致：优先使用 manifest.json 的 total_reviews
+
         const totalReview = State.manifest?.total_reviews ?? 0;
         this.updateStatElements(totalReview, totalCourse, reviewedCount);
         return;
@@ -696,14 +695,14 @@ const Controller = {
 
     // fallback: 用 manifest + coursesAll 统计
     const totalReview = State.manifest?.total_reviews ?? 0;
-    let totalCourse = State.coursesAll.length,
+    let totalCourse = State.manifest?.total_courses ?? 0,
       reviewedCount = 0;
     for (const c of State.coursesAll) {
       if (c.count > 0) reviewedCount++;
     }
     this.updateStatElements(
       totalReview,
-      totalCourse || (State.manifest ? State.manifest.total_courses : 0),
+      totalCourse,
       reviewedCount,
     );
   },
