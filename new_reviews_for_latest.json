@@ -1,14 +1,14 @@
 [
   {
-    "id": 3425,
+    "id": 3420,
     "course": {
-      "id": 1
+      "id": 37527
     },
-    "rating": 5,
-    "comment": "final test",
-    "created_at": "2026/06/05 18:18",
+    "rating": 1,
+    "comment": "考核方式：签到+作业+期末（明年开始可能有期中）\n授课质量与给分：1\n点评人：zhzh\n上课学期：2025-2026春\n有得选吗😅好几个老师换着讲，上课没人听，超级喜欢出雨课堂答题，作业超级难，期末可带cheat sheet，难度不知道，给分不知道。都来自强了，不想上也得上。",
+    "created_at": "2026/06/05 18:33",
     "score": null,
-    "_course_name": "高等统计选讲(I)",
-    "_course_teacher": "李东"
+    "_course_name": "能源经济导论",
+    "_course_teacher": "康重庆"
   }
 ]
