@@ -2,8 +2,8 @@
 优化 full_index.json — 移除前端未使用的字段以减小文件体积。
 
 移除字段：
-  - kch (课程号数组) — JS 代码中未使用
-  - xnxq (学年学期数组) — JS 代码中未使用
+  - count (评论数) — JS 代码中未使用
+  - avg (平均评分) — JS 代码中未使用
 
 预期效果：15.5 MB → 约 8-10 MB
 """
@@ -26,20 +26,20 @@ def optimize_index(input_path, output_path=None):
     print(f"课程总数: {total}")
 
     # 统计移除的字段
-    removed_kch = 0
-    removed_xnxq = 0
+    removed_count = 0
+    removed_avg = 0
 
     for key, info in courses.items():
         if isinstance(info, dict):
-            if 'kch' in info:
-                del info['kch']
-                removed_kch += 1
-            if 'xnxq' in info:
-                del info['xnxq']
-                removed_xnxq += 1
+            if 'count' in info:
+                del info['count']
+                removed_count += 1
+            if 'avg' in info:
+                del info['avg']
+                removed_avg += 1
 
-    print(f"移除了 {removed_kch} 个 kch 字段")
-    print(f"移除了 {removed_xnxq} 个 xnxq 字段")
+    print(f"移除了 {removed_count} 个 count 字段")
+    print(f"移除了 {removed_avg} 个 avg 字段")
 
     # 写入优化后的文件
     print(f"写入: {output_path}")
