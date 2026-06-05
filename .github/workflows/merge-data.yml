@@ -273,7 +273,7 @@ jobs:
         run: |
           git add data/courses/ data/with_comment_index.json data/reviews_latest.json data/manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed"
+            git commit -m "${{ env.FILES }}"
             git push origin HEAD:main
             echo "✅ Changes pushed to main branch."
           else
@@ -307,6 +307,7 @@ jobs:
           fi
 
           git add .
+          git rm new_reviews_for_latest.json main-workspace
           git commit -m "chore(data): archive processed reviews and update log [skip ci]"
           git push origin data
 
