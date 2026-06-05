@@ -6,7 +6,8 @@
 3. 删除长度 < 3 个字符的 comment
 4. 重新计算 count 与 avg (average rating)
 5. 更新 with_comment_index.json 中对应的 count 与 avg
-6. 重新计算总点评数，更新 manifest.json
+6. 从 reviews_latest.json 中同步删除被移除的评论
+7. 重新计算总点评数，更新 manifest.json
 """
 
 import json
@@ -16,6 +17,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 COURSES_DIR = os.path.join(BASE_DIR, "courses")
 WITH_COMMENT_PATH = os.path.join(BASE_DIR, "with_comment_index.json")
+REVIEWS_LATEST_PATH = os.path.join(BASE_DIR, "reviews_latest.json")
 MANIFEST_PATH = os.path.join(BASE_DIR, "manifest.json")
 
 MIN_COMMENT_LENGTH = 3  # 少于此长度的 comment 将被删除
@@ -32,18 +34,19 @@ def save_json(path, data):
 
 
 def clean_course_file(filepath):
-    """清理单个课程文件，返回 (old_count, new_count, new_avg, removed_dupes, removed_short, modified_data)"""
+    """清理单个课程文件，返回 (old_count, new_count, new_avg, removed_dupes, removed_short, modified_data, removed_ids)"""
     data = load_json(filepath)
     results = data.get("results", [])
     old_count = len(results)
 
     if not results:
-        return old_count, 0, None, 0, 0, None
+        return old_count, 0, None, 0, 0, None, set()
 
     # Step 1: 去重 —— 相同 comment 仅保留第一条
     seen_comments = set()
     deduped = []
     removed_dupes = 0
+    removed_ids = set()
     for item in results:
         comment = (item.get("comment") or "").strip()
         if comment not in seen_comments:
@@ -51,14 +54,20 @@ def clean_course_file(filepath):
             deduped.append(item)
         else:
             removed_dupes += 1
+            if "id" in item:
+                removed_ids.add(item["id"])
 
     # Step 2: 删除长度 < MIN_COMMENT_LENGTH 的 comment
     before_short_filter = len(deduped)
-    filtered = [
-        item for item in deduped
-        if len((item.get("comment") or "").strip()) >= MIN_COMMENT_LENGTH
-    ]
-    removed_short = before_short_filter - len(filtered)
+    filtered = []
+    removed_short = 0
+    for item in deduped:
+        if len((item.get("comment") or "").strip()) >= MIN_COMMENT_LENGTH:
+            filtered.append(item)
+        else:
+            removed_short += 1
+            if "id" in item:
+                removed_ids.add(item["id"])
 
     new_count = len(filtered)
 
@@ -72,7 +81,7 @@ def clean_course_file(filepath):
     data["next"] = None
     data["previous"] = None
 
-    return old_count, new_count, new_avg, removed_dupes, removed_short, data
+    return old_count, new_count, new_avg, removed_dupes, removed_short, data, removed_ids
 
 
 def main():
@@ -81,10 +90,11 @@ def main():
     print(f"  - 去重: 相同 comment 仅保留第一条")
     print(f"  - 删短: 删除长度 < {MIN_COMMENT_LENGTH} 字符的 comment")
     print(f"  - 重算: count / avg")
+    print(f"  - 同步: 从 reviews_latest.json 删除被移除的评论")
     print("=" * 60)
 
     # ---- 1. 加载 with_comment_index.json，建立 sqid -> key 映射 ----
-    print("\n[1/4] 加载 with_comment_index.json ...")
+    print("\n[1/5] 加载 with_comment_index.json ...")
     with_comment = load_json(WITH_COMMENT_PATH)
     courses_index = with_comment.get("courses", {})
 
@@ -98,7 +108,7 @@ def main():
     print(f"  共 {len(courses_index)} 个有评论课程条目")
 
     # ---- 2. 遍历 courses 目录 ----
-    print("\n[2/4] 遍历课程文件 ...")
+    print("\n[2/5] 遍历课程文件 ...")
     course_files = sorted(
         [f for f in os.listdir(COURSES_DIR) if f.endswith(".json")],
         key=lambda x: int(x.replace(".json", "")) if x.replace(".json", "").isdigit() else 0
@@ -110,6 +120,7 @@ def main():
     total_short = 0
     modified_files = 0
     index_updates = 0
+    all_removed_ids = set()  # 汇总所有被删除的评论 id
 
     for filename in course_files:
         filepath = os.path.join(COURSES_DIR, filename)
@@ -119,12 +130,13 @@ def main():
             print(f"  ⚠ 跳过非数字文件名: {filename}")
             continue
 
-        old_count, new_count, new_avg, dupes, short, modified_data = clean_course_file(filepath)
+        old_count, new_count, new_avg, dupes, short, modified_data, removed_ids = clean_course_file(filepath)
 
         total_old += old_count
         total_new += new_count
         total_dupes += dupes
         total_short += short
+        all_removed_ids |= removed_ids
 
         if old_count != new_count and modified_data is not None:
             modified_files += 1
@@ -151,15 +163,35 @@ def main():
     print(f"     清理后评论: {total_new}")
 
     # ---- 3. 写回 with_comment_index.json ----
-    print("\n[3/4] 更新 with_comment_index.json ...")
+    print("\n[3/5] 更新 with_comment_index.json ...")
     if index_updates > 0:
         save_json(WITH_COMMENT_PATH, with_comment)
         print(f"  共更新 {index_updates} 个课程条目")
     else:
         print("  无需更新")
 
-    # ---- 4. 重新计算总点评数，更新 manifest.json ----
-    print("\n[4/4] 更新 manifest.json ...")
+    # ---- 4. 清理 reviews_latest.json ----
+    print("\n[4/5] 清理 reviews_latest.json ...")
+    if all_removed_ids:
+        reviews_latest = load_json(REVIEWS_LATEST_PATH)
+        old_reviews_count = len(reviews_latest)
+        filtered_reviews = [
+            review for review in reviews_latest
+            if review.get("id") not in all_removed_ids
+        ]
+        new_reviews_count = len(filtered_reviews)
+        removed_from_latest = old_reviews_count - new_reviews_count
+        if removed_from_latest > 0:
+            save_json(REVIEWS_LATEST_PATH, filtered_reviews)
+            print(f"  从 reviews_latest.json 删除了 {removed_from_latest} 条评论")
+            print(f"  ({old_reviews_count} → {new_reviews_count})")
+        else:
+            print(f"  无需删除（被移除的 id 在 reviews_latest.json 中未找到）")
+    else:
+        print("  无需删除（没有评论被移除）")
+
+    # ---- 5. 重新计算总点评数，更新 manifest.json ----
+    print("\n[5/5] 更新 manifest.json ...")
     total_reviews = sum(info.get("count", 0) for info in courses_index.values())
     manifest = load_json(MANIFEST_PATH)
     old_total_reviews = manifest.get("total_reviews", 0)
@@ -169,6 +201,7 @@ def main():
 
     print("\n" + "=" * 60)
     print("✅ 清理完成！")
+    print(f"   共删除 {total_dupes + total_short} 条评论（去重 {total_dupes} + 过短 {total_short}）")
     print("=" * 60)
 
 

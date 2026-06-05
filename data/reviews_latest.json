@@ -468,199 +468,7 @@
     "_course_teacher": "戴松涛"
   },
   {
-    "id": 3386,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3385,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3384,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3383,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3382,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3381,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3380,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3379,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3378,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "？",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
     "id": 3377,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3376,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3375,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3374,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3373,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3372,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3371,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
-  },
-  {
-    "id": 3370,
     "course": {
       "id": 745
     },
@@ -684,42 +492,6 @@
     "_course_teacher": "李成旺"
   },
   {
-    "id": 3368,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "。 。 。 。",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3367,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "，",
-    "created_at": "2026/05/28 16:32",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
-    "id": 3366,
-    "course": {
-      "id": 743
-    },
-    "rating": 1,
-    "comment": "，",
-    "created_at": "2026/05/28 16:32",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "李成旺"
-  },
-  {
     "id": 3365,
     "course": {
       "id": 2371
@@ -733,18 +505,6 @@
   },
   {
     "id": 3364,
-    "course": {
-      "id": 2371
-    },
-    "rating": 5,
-    "comment": "考核方式：\n\n授课质量与给分：\n好的\n点评人：\n\n上课学期：",
-    "created_at": "2026/05/28 16:29",
-    "score": null,
-    "_course_name": "概率论与数理统计",
-    "_course_teacher": "梁恒"
-  },
-  {
-    "id": 3363,
     "course": {
       "id": 2371
     },
@@ -790,18 +550,6 @@
     "score": null,
     "_course_name": "概率论与数理统计",
     "_course_teacher": "梁恒"
-  },
-  {
-    "id": 3359,
-    "course": {
-      "id": 32274
-    },
-    "rating": 1,
-    "comment": "神人",
-    "created_at": "2026/05/28 14:25",
-    "score": null,
-    "_course_name": "大学物理B(2)",
-    "_course_teacher": "柳鹏"
   },
   {
     "id": 3358,
@@ -1086,18 +834,6 @@
     },
     "rating": 5,
     "comment": "概率论对计算机学习还是很重要的，想学到东西直接冲唐老师",
-    "created_at": "2026/05/25 10:25",
-    "score": null,
-    "_course_name": "概率论与数理统计",
-    "_course_teacher": "唐宏岩"
-  },
-  {
-    "id": 3334,
-    "course": {
-      "id": 1738
-    },
-    "rating": 5,
-    "comment": "真神",
     "created_at": "2026/05/25 10:25",
     "score": null,
     "_course_name": "概率论与数理统计",
