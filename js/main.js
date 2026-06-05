@@ -135,33 +135,68 @@ const DataLoader = {
     if (State.coursesAll.length > 0 && State.coursesReviewOnly === onlyReviewed)
       return;
 
-    const filename = onlyReviewed
-      ? "with_comment_index.json"
-      : "full_index.json";
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename, {
-        credentials: "omit",
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      const arr = [];
-      for (const [key, info] of Object.entries(data.courses || {})) {
-        if (!info || typeof info !== "object") continue;
-        arr.push({
-          kcm: info.kcm || "",
-          jsm: info.jsm || "",
-          kkdw: info.kkdw || "",
-          count: info.count || 0,
-          avg: info.avg || 0,
-          sqid: info.sqid,
-          tid: info.tid,
+      let arr;
+
+      if (onlyReviewed) {
+        // 仅有点评：只需 with_comment_index.json（自带 count/avg）
+        const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", {
+          credentials: "omit",
         });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        arr = [];
+        for (const [key, info] of Object.entries(data.courses || {})) {
+          if (!info || typeof info !== "object") continue;
+          arr.push({
+            kcm: info.kcm || "",
+            jsm: info.jsm || "",
+            kkdw: info.kkdw || "",
+            count: info.count || 0,
+            avg: info.avg || 0,
+            sqid: info.sqid,
+            tid: info.tid,
+          });
+        }
+      } else {
+        // 全部课程：同时加载 full_index（课程列表）和 with_comment_index（评分数据）
+        const [fullRes, wcRes] = await Promise.all([
+          fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" }),
+          fetch(CONFIG.RAW_BASE + "with_comment_index.json", { credentials: "omit" }),
+        ]);
+        if (!fullRes.ok) throw new Error(`HTTP ${fullRes.status}`);
+        const fullData = await fullRes.json();
+        // 构建 with_comment 的 sqid → {count, avg} 映射
+        const wcMap = {};
+        if (wcRes.ok) {
+          const wcData = await wcRes.json();
+          for (const info of Object.values(wcData.courses || {})) {
+            if (info && info.sqid != null) {
+              wcMap[info.sqid] = { count: info.count || 0, avg: info.avg || 0 };
+            }
+          }
+        }
+        arr = [];
+        for (const [key, info] of Object.entries(fullData.courses || {})) {
+          if (!info || typeof info !== "object") continue;
+          const wc = wcMap[info.sqid];
+          arr.push({
+            kcm: info.kcm || "",
+            jsm: info.jsm || "",
+            kkdw: info.kkdw || "",
+            count: wc ? wc.count : 0,
+            avg: wc ? wc.avg : 0,
+            sqid: info.sqid,
+            tid: info.tid,
+          });
+        }
       }
+
       State.coursesAll = arr;
       State.coursesReviewOnly = onlyReviewed;
       State.fullIndexLoaded = true;
     } catch (e) {
-      console.error("[loadAllCourses] Error loading " + filename + ":", e);
+      console.error("[loadAllCourses] Error:", e);
       State.coursesAll = [];
       State.coursesReviewOnly = onlyReviewed;
       State.fullIndexLoaded = true;
@@ -170,17 +205,47 @@ const DataLoader = {
 
   // 加载搜索索引
   async loadSearchIndex(onlyReviewed) {
-    const filename = onlyReviewed
-      ? "with_comment_index.json"
-      : "full_index.json";
     try {
-      const res = await fetch(CONFIG.RAW_BASE + filename, {
-        credentials: "omit",
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}: ${filename}`);
-      State.searchIndexCache = await res.json();
+      if (onlyReviewed) {
+        // 仅有点评：只需 with_comment_index.json
+        const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", {
+          credentials: "omit",
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        State.searchIndexCache = await res.json();
+      } else {
+        // 全部课程：同时加载 full 和 with_comment，合并 count/avg 到 full 中
+        const [fullRes, wcRes] = await Promise.all([
+          fetch(CONFIG.RAW_BASE + "full_index.json", { credentials: "omit" }),
+          fetch(CONFIG.RAW_BASE + "with_comment_index.json", { credentials: "omit" }),
+        ]);
+        if (!fullRes.ok) throw new Error(`HTTP ${fullRes.status}`);
+        const fullData = await fullRes.json();
+        // 构建 with_comment 的 sqid → {count, avg} 映射
+        const wcMap = {};
+        if (wcRes.ok) {
+          const wcData = await wcRes.json();
+          for (const info of Object.values(wcData.courses || {})) {
+            if (info && info.sqid != null) {
+              wcMap[info.sqid] = { count: info.count || 0, avg: info.avg || 0 };
+            }
+          }
+        }
+        // 将 count/avg 合并到 full 的每门课程中
+        const mergedCourses = {};
+        for (const [key, info] of Object.entries(fullData.courses || {})) {
+          if (!info || typeof info !== "object") continue;
+          const wc = wcMap[info.sqid];
+          mergedCourses[key] = {
+            ...info,
+            count: wc ? wc.count : 0,
+            avg: wc ? wc.avg : 0,
+          };
+        }
+        State.searchIndexCache = { courses: mergedCourses };
+      }
     } catch (e) {
-      console.error(`[loadSearchIndex] Error loading ${filename}:`, e);
+      console.error("[loadSearchIndex] Error:", e);
       State.searchIndexCache = { courses: {} };
     }
   },
@@ -727,12 +792,22 @@ const Controller = {
   async initCourseDetail() {
     const params = new URLSearchParams(location.search);
     const sqid = params.get("sqid");
-    const tid = params.get("tid");
+    let tid = params.get("tid") || null;
+    let deptName = params.get("dept") || "";
 
     if (!sqid) {
       Utils.qs(".container").innerHTML =
         '<div class="empty-tip">缺少课程参数</div>';
       return;
+    }
+
+    // 如果 URL 缺少 tid 或 dept，从索引中查找补全
+    if (!tid || !deptName) {
+      const idxInfo = await this.lookupFromIndex(sqid);
+      if (idxInfo) {
+        if (!tid) tid = idxInfo.tid;
+        if (!deptName) deptName = idxInfo.kkdw || "";
+      }
     }
 
     const { courseData, teacherData } = await DataLoader.loadCourseDetail(
@@ -747,18 +822,12 @@ const Controller = {
     // 获取基本信息
     let courseName = params.get("name") || "";
     let teacherName = params.get("teacher") || "";
-    let deptName = params.get("dept") || "";
 
     if (teacherData && !teacherName) {
       teacherName = teacherData.name || "";
     }
     if (!courseName) courseName = "未知课程";
     if (!teacherName) teacherName = "未知教师";
-
-    // 补充院系信息
-    if (!deptName) {
-      deptName = await this.fetchDeptFromIndex(sqid);
-    }
 
     // 计算平均分
     let avgRating = 0;
@@ -793,8 +862,8 @@ const Controller = {
     Renderer.renderCourseDetailReviews();
   },
 
-  // 从索引获取院系信息
-  async fetchDeptFromIndex(sqid) {
+  // 从 with_comment_index 查找课程的 tid 和院系
+  async lookupFromIndex(sqid) {
     try {
       const res = await fetch(CONFIG.RAW_BASE + "with_comment_index.json", {
         credentials: "omit",
@@ -804,7 +873,7 @@ const Controller = {
         if (ciRaw?.courses) {
           for (const info of Object.values(ciRaw.courses)) {
             if (info && String(info.sqid) === String(sqid)) {
-              return info.kkdw || "";
+              return { tid: info.tid, kkdw: info.kkdw || "" };
             }
           }
         }
@@ -812,7 +881,7 @@ const Controller = {
     } catch (e) {
       /* 静默失败 */
     }
-    return "";
+    return null;
   },
 
   // 渲染课程详情页面
