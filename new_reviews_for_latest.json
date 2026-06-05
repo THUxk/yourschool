@@ -1,12 +1,12 @@
 [
   {
-    "id": 3424,
+    "id": 3425,
     "course": {
       "id": 1
     },
-    "rating": 4,
-    "comment": "test3",
-    "created_at": "2026/06/05 17:51",
+    "rating": 5,
+    "comment": "final test",
+    "created_at": "2026/06/05 18:18",
     "score": null,
     "_course_name": "高等统计选讲(I)",
     "_course_teacher": "李东"
