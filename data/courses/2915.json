@@ -1,5 +1,5 @@
 {
-  "count": 4,
+  "count": 3,
   "next": null,
   "previous": null,
   "results": [
@@ -12,13 +12,6 @@
     },
     {
       "id": 578,
-      "rating": 5,
-      "comment": "比较轻松，老师会讲一些冷笑话，有PPT，也会在考前强调重点，比较推荐",
-      "created_at": "2024/07/21 16:36",
-      "score": null
-    },
-    {
-      "id": 577,
       "rating": 5,
       "comment": "比较轻松，老师会讲一些冷笑话，有PPT，也会在考前强调重点，比较推荐",
       "created_at": "2024/07/21 16:36",

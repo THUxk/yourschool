@@ -1,17 +1,10 @@
 {
-  "count": 12,
+  "count": 11,
   "next": null,
   "previous": null,
   "results": [
     {
       "id": 2407,
-      "rating": 5,
-      "comment": "考核方式：\n\n授课质量与给分：\n讲课出色，课程内容质量高\n点评人：\n\n上课学期：",
-      "created_at": "2025/07/06 10:21",
-      "score": "A-"
-    },
-    {
-      "id": 2406,
       "rating": 5,
       "comment": "考核方式：\n\n授课质量与给分：\n讲课出色，课程内容质量高\n点评人：\n\n上课学期：",
       "created_at": "2025/07/06 10:21",

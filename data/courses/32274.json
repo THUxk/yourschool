@@ -1,15 +1,8 @@
 {
-  "count": 2,
+  "count": 1,
   "next": null,
   "previous": null,
   "results": [
-    {
-      "id": 3359,
-      "rating": 1,
-      "comment": "神人",
-      "created_at": "2026/05/28 14:25",
-      "score": null
-    },
     {
       "id": 3357,
       "rating": 1,

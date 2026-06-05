@@ -1,15 +1,8 @@
 {
-  "count": 2,
+  "count": 1,
   "next": null,
   "previous": null,
   "results": [
-    {
-      "id": 1200,
-      "rating": 1,
-      "comment": "屎",
-      "created_at": "2024/07/24 13:06",
-      "score": null
-    },
     {
       "id": 1179,
       "rating": 2,

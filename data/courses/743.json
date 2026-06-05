@@ -1,5 +1,5 @@
 {
-  "count": 19,
+  "count": 7,
   "next": null,
   "previous": null,
   "results": [
@@ -18,94 +18,10 @@
       "score": null
     },
     {
-      "id": 3386,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3385,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3384,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3383,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3382,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3381,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3380,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3379,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3378,
-      "rating": 1,
-      "comment": "？",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
       "id": 3369,
       "rating": 1,
       "comment": "。 。 。 。",
       "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3368,
-      "rating": 1,
-      "comment": "。 。 。 。",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
-    {
-      "id": 3367,
-      "rating": 1,
-      "comment": "，",
-      "created_at": "2026/05/28 16:32",
-      "score": null
-    },
-    {
-      "id": 3366,
-      "rating": 1,
-      "comment": "，",
-      "created_at": "2026/05/28 16:32",
       "score": null
     },
     {

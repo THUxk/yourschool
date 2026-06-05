@@ -1,14 +1,6 @@
 {
-  "count": 1,
+  "count": 0,
   "next": null,
   "previous": null,
-  "results": [
-    {
-      "id": 1148,
-      "rating": 1,
-      "comment": "史",
-      "created_at": "2024/07/24 01:44",
-      "score": ""
-    }
-  ]
+  "results": []
 }

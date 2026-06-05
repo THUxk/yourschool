@@ -1,5 +1,5 @@
 {
-  "count": 3,
+  "count": 2,
   "next": null,
   "previous": null,
   "results": [
@@ -12,13 +12,6 @@
     },
     {
       "id": 1775,
-      "rating": 1,
-      "comment": "考核方式：外业，Pre，图，报告\n\n授课质量与给分：zhrsb，无需多言\n给分玄学\n\n点评人：\n\n上课学期：",
-      "created_at": "2025/01/25 20:54",
-      "score": null
-    },
-    {
-      "id": 1774,
       "rating": 1,
       "comment": "考核方式：外业，Pre，图，报告\n\n授课质量与给分：zhrsb，无需多言\n给分玄学\n\n点评人：\n\n上课学期：",
       "created_at": "2025/01/25 20:54",

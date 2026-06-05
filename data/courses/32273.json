@@ -1,5 +1,5 @@
 {
-  "count": 4,
+  "count": 3,
   "next": null,
   "previous": null,
   "results": [
@@ -19,13 +19,6 @@
     },
     {
       "id": 1016,
-      "rating": 5,
-      "comment": "艾老师人很好，作业也不是很多，平时上课超级随和",
-      "created_at": "2024/07/21 18:47",
-      "score": null
-    },
-    {
-      "id": 1015,
       "rating": 5,
       "comment": "艾老师人很好，作业也不是很多，平时上课超级随和",
       "created_at": "2024/07/21 18:47",

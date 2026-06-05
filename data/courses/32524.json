@@ -1,17 +1,10 @@
 {
-  "count": 3,
+  "count": 2,
   "next": null,
   "previous": null,
   "results": [
     {
       "id": 2805,
-      "rating": 5,
-      "comment": "考核方式：quiz点名+作业+pre+project，没有考试。\n\n授课质量与给分：最好有一定的DL和RL基础。老师讲课质量很高，是很好的具身智能入门课。homework和project任务量很大。给分很好。在本学期时间充足的情况下推荐选课。\n\n点评人：匿名\n\n上课学期：25秋",
-      "created_at": "2026/01/30 18:57",
-      "score": null
-    },
-    {
-      "id": 2804,
       "rating": 5,
       "comment": "考核方式：quiz点名+作业+pre+project，没有考试。\n\n授课质量与给分：最好有一定的DL和RL基础。老师讲课质量很高，是很好的具身智能入门课。homework和project任务量很大。给分很好。在本学期时间充足的情况下推荐选课。\n\n点评人：匿名\n\n上课学期：25秋",
       "created_at": "2026/01/30 18:57",
