@@ -692,6 +692,7 @@ const Controller = {
     const path = location.pathname;
     const routeMap = {
       "/thucourse": "index",
+      "/thucourse/": "index",
       "/thucourse/index.html": "index",
       "/thucourse/index": "index",
       "/thucourse/courses.html": "courses",
