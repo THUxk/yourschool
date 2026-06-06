@@ -19,7 +19,7 @@ css/*
   Cache-Control: public, max-age=300, immutable
 
 # Data files (JSON) — moderate cache, may be updated frequently
-/thucourse/data/*
+/data/*
   Cache-Control: public, max-age=300, must-revalidate
 
 # Security: deny access to hidden files
