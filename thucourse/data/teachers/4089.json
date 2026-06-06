@@ -1,0 +1,20 @@
+{
+    "tid": "4089",
+    "name": "A.K.M Masood-ul-Alam",
+    "related_courses": [
+        {
+            "id": 12879,
+            "code": "12882",
+            "name": "线性代数(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12862,
+            "code": "12865",
+            "name": "线性代数(1)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

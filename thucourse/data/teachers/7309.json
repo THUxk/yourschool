@@ -1,0 +1,20 @@
+{
+    "tid": "7309",
+    "name": "YAVARTANOO MOHAMMAD HOSSEIN",
+    "related_courses": [
+        {
+            "id": 34298,
+            "code": "34460",
+            "name": "量子力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33719,
+            "code": "33881",
+            "name": "引力理论专题",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

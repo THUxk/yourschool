@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 795,
+      "rating": 4,
+      "comment": "讲课有点催眠，有ppt，作业比较难，考试比较简单",
+      "created_at": "2024/07/21 17:52",
+      "score": null
+    },
+    {
+      "id": 246,
+      "rating": 5,
+      "comment": "王学成老师人很不错，比较好相处，给分正常。",
+      "created_at": "2024/07/21 13:42",
+      "score": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "tid": "6636",
+    "name": "HOFFE OTFRIED GERHARD",
+    "related_courses": [
+        {
+            "id": 30121,
+            "code": "30283",
+            "name": "当代政治哲学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29139,
+            "code": "29301",
+            "name": "康德的道德哲学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "tid": "7222",
+    "name": "ANDERSSON LARS AAKE",
+    "related_courses": [
+        {
+            "id": 33279,
+            "code": "33441",
+            "name": "电动力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32997,
+            "code": "33159",
+            "name": "广义相对论（1）",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

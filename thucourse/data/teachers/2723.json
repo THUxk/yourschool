@@ -1,0 +1,20 @@
+{
+    "tid": "2723",
+    "name": "GEEWAX MARILYN ANN",
+    "related_courses": [
+        {
+            "id": 13138,
+            "code": "13144",
+            "name": "财经新闻写作与编辑",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5199,
+            "code": "5198",
+            "name": "全球经济热点新闻",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

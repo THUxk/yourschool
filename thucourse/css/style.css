@@ -1,0 +1,905 @@
+/* ========== CSS Variables ========== */
+:root {
+    --primary-color: #8a4abf;
+    --primary-hover: #7a3dd8;
+    --text-primary: #1a1a1a;
+    --text-secondary: #666;
+    --text-tertiary: #999;
+    --border-color: #e8e8e8;
+    --bg-page: #f5f5f5;
+    --bg-white: #fff;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 10px;
+    --layout-width: 1200px;
+    --layout-margin: 16px;
+}
+
+/* ========== Reset & Base ========== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    margin: 0 !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+        'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: var(--bg-page);
+    color: var(--text-primary);
+    font-size: 14px;
+    line-height: 1.6;
+}
+a { text-decoration: none; color: inherit; }
+a:hover { color: var(--primary-color); }
+
+/* ========== Global Title ========== */
+.title {
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000 !important;
+}
+
+/* ========== Layout Helpers ========== */
+.basic-layout {
+    min-height: 100vh !important;
+}
+.basic-layout .header {
+    padding-inline: var(--layout-margin);
+    padding-left: var(--layout-margin) !important;
+    padding-right: var(--layout-margin) !important;
+    background: #fff !important;
+}
+.basic-layout .content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    max-width: var(--layout-width);
+    padding: 0 var(--layout-margin);
+}
+.basic-layout .footer {
+    text-align: center !important;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    background: #fff;
+}
+.card-title {
+    white-space: normal;
+}
+.review-body {
+    width: 100%;
+}
+.comment p {
+    margin: 0 !important;
+    overflow-wrap: break-word;
+}
+.comment code {
+    white-space: normal;
+}
+.total-point {
+    font-weight: 700;
+}
+.search-input {
+    margin-bottom: var(--layout-margin);
+}
+
+/* ========== Header ========== */
+.header {
+    background: #fff !important;
+}
+
+/* ========== Top Navigation ========== */
+.top-nav {
+    background: var(--bg-white);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-wrap {
+    align-content: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: calc(var(--layout-width) - 2 * var(--layout-margin)) !important;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0 24px;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000 !important;
+    padding-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.nav-item {
+    padding: 0 16px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: var(--text-secondary);
+    position: relative;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+.nav-item:hover { color: var(--text-primary); }
+.nav-item.active {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.nav-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    height: 3px;
+    background: var(--primary-color);
+    border-radius: 2px 2px 0 0;
+}
+
+/* ========== Search Button (navbar) ========== */
+.navbar .search-button,
+.search-box .search-button,
+.search-btn-icon {
+    margin: 8px !important;
+}
+.search-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+/* 隐藏 navbar 中的搜索输入框，只保留圆形按钮跳转 */
+.search-box .search-input-field {
+    display: none;
+}
+.search-btn-icon {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    border: 1px solid var(--border-color) !important;
+    background: #fff !important;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: middle;
+    text-decoration: none !important;
+}
+.search-btn-icon:hover {
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+}
+.search-btn-icon svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+/* ========== Container & Layout ========== */
+.container {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 24px;
+}
+.page-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.page-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.page-title span {
+    font-weight: 400;
+    color: var(--text-tertiary);
+    font-size: 15px;
+}
+
+/* ========== Buttons ========== */
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 15px;
+    height: 32px;
+    background: var(--primary-color);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    line-height: 1.5715;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    text-decoration: none;
+    white-space: nowrap;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.btn-primary:hover { 
+    background: var(--primary-hover); 
+}
+.btn-primary:active {
+    background: var(--primary-active, #096dd9);
+}
+.btn-primary svg { 
+    display: inline-block; 
+    width: 1em; 
+    height: 1em; 
+    fill: currentColor; 
+    vertical-align: -0.125em;
+}
+
+.btn-outline {
+    padding: 5px 16px;
+    background: var(--bg-white);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.btn-outline:hover { border-color: var(--primary-color); color: var(--primary-color); }
+
+/* ========== Review Item (Index Page) ========== */
+.review-card {
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    padding: 20px 24px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.review-course-link {
+    font-size: 15px;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.review-course-link:hover { text-decoration: underline; }
+.review-rating-text {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.review-comment {
+    color: var(--text-primary);
+    font-size: 14px;
+    white-space: pre-line;
+    line-height: 1.7;
+    word-break: break-word;
+}
+.review-meta {
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--text-tertiary);
+}
+.review-meta span { margin-right: 12px; }
+
+/* ========== Course List (Courses Page) Layout ========== */
+.courses-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.sidebar-filter {
+    width: 280px;
+    flex-shrink: 0;
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    padding: 0 0 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    position: sticky;
+    top: 84px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+.filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px 8px;
+    font-size: 15px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    background: var(--bg-white);
+    z-index: 10;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 4px;
+}
+.filter-confirm {
+    padding: 4px 16px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    background: transparent;
+}
+.filter-group-title {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+.filter-group-title .arrow {
+    margin-right: 8px;
+    font-size: 10px;
+    color: var(--text-tertiary);
+    transition: transform 0.2s;
+}
+.filter-group-title .arrow.open { transform: rotate(90deg); }
+.filter-options {
+    padding: 0 20px 12px;
+    display: none;
+}
+.filter-options.show { display: block; }
+.filter-option {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 13px;
+}
+.filter-option input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: var(--primary-color);
+}
+.filter-option-label { flex: 1; color: var(--text-primary); }
+
+/* ====== Toggle Switch (点评筛选) ====== */
+.filter-option-toggle {
+    cursor: pointer;
+    user-select: none;
+}
+.filter-option-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+}
+.toggle-slider {
+    position: relative;
+    width: 38px;
+    height: 21px;
+    background: #d1d1d1;
+    border-radius: 11px;
+    transition: background 0.25s;
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+.toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 2px;
+    top: 2px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.25s;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.filter-option-toggle input:checked + .toggle-slider {
+    background: var(--primary-color);
+}
+.filter-option-toggle input:checked + .toggle-slider::before {
+    transform: translateX(17px);
+}
+.toggle-label-text {
+    color: var(--text-primary);
+}
+
+.filter-option-count {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    background: var(--bg-page);
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+.courses-main {
+    flex: 1;
+    min-width: 0;
+}
+.courses-count {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+.course-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    margin-bottom: 10px;
+    transition: box-shadow 0.2s;
+}
+.course-list-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.course-info h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.course-info h3 a { color: var(--primary-color); }
+.course-info h3 a:hover { text-decoration: underline; }
+.course-dept-name {
+    font-size: 13px;
+    color: var(--text-tertiary);
+}
+.course-review-status {
+    text-align: right;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+.course-score-num {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.course-score-count {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    white-space: nowrap;
+}
+
+/* ========== Course Detail (course.html) Layout ========== */
+.course-detail-layout {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+.detail-sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+.info-card {
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.info-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+.info-row {
+    display: flex;
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.info-row .label { color: var(--text-tertiary); flex-shrink: 0; margin-right: 8px; }
+.info-row .value { color: var(--text-primary); word-break: break-all; }
+.teacher-courses-list { list-style: none; }
+.teacher-courses-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--bg-page);
+    font-size: 14px;
+}
+.teacher-courses-list li:last-child { border-bottom: none; }
+.teacher-courses-list a { color: var(--primary-color); }
+.teacher-courses-list a:hover { text-decoration: underline; }
+.teacher-course-score { color: var(--text-tertiary); font-size: 13px; margin-left: 4px; }
+
+.detail-main { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; }
+.detail-main > * { width: 100%; max-width: 720px; }
+.detail-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.detail-head h2 { font-size: 17px; font-weight: 600; }
+.detail-head-actions { display: flex; gap: 8px; }
+
+.review-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background: var(--bg-white);
+    border-radius: var(--radius-md);
+    font-size: 13px;
+    align-items: center;
+}
+.review-filters label {
+    color: var(--text-tertiary);
+    flex-shrink: 0;
+}
+.review-filters select {
+    padding: 4px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    background: var(--bg-white);
+    color: var(--text-primary);
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* ========== Course Detail Review Items (centered) ========== */
+#course-review-list {
+    width: 100%;
+}
+#course-review-list .review-card {
+    border: none !important;
+    border-bottom: 1px solid #f0f0f0 !important;
+    border-radius: 0 !important;
+    padding: 20px 24px !important;
+    text-align: left;
+}
+
+/* ========== Search Page ========== */
+.search-page-nav {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.search-back-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text-secondary);
+    font-size: 22px;
+    border: none;
+    background: none;
+    flex-shrink: 0;
+}
+.search-back-btn:hover { color: var(--text-primary); }
+.search-page-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.search-bar-wrapper {
+    display: flex;
+    margin-bottom: 16px;
+    position: relative;
+}
+.search-bar-input {
+    flex: 1;
+    height: 44px;
+    padding: 0 48px 0 16px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 15px;
+    outline: none;
+    color: var(--text-primary);
+    background: var(--bg-white);
+    transition: border-color 0.2s;
+}
+.search-bar-input:focus { border-color: var(--primary-color); }
+.search-bar-submit {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--text-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+.search-bar-submit:hover { color: var(--primary-color); background: rgba(138,74,240,0.06); }
+.search-checkbox-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: var(--text-primary);
+}
+.search-checkbox-wrap input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--primary-color);
+}
+.search-result-header {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+.search-result-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    margin-bottom: 10px;
+}
+.search-result-info h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.search-result-info h3 a { color: var(--primary-color); }
+.search-result-info h3 a:hover { text-decoration: underline; }
+.search-result-dept { font-size: 13px; color: var(--text-tertiary); }
+.search-result-score { text-align: right; flex-shrink: 0; margin-left: 20px; }
+.search-score-num { font-size: 18px; font-weight: 700; color: var(--text-primary); }
+.search-score-count { font-size: 12px; color: var(--text-tertiary); }
+
+/* ========== Pagination ========== */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+.pagination button,
+.pagination select {
+    height: 34px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-white);
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0 12px;
+    outline: none;
+    transition: all 0.2s;
+}
+.pagination button:hover:not(:disabled) {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.pagination button.active {
+    background: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+.pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+.pagination .ellipsis {
+    padding: 0 6px;
+    color: var(--text-tertiary);
+}
+
+/* ========== Empty Tip ========== */
+.empty-tip {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-tertiary);
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+}
+
+/* ========== Footer ========== */
+.site-footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+    background: transparent;
+    color: var(--text-tertiary);
+    font-size: 13px;
+}
+.footer-links { margin-bottom: 6px; }
+.footer-links a {
+    margin: 0 4px;
+    color: var(--primary-color);
+}
+.footer-links a:hover { opacity: 0.8; }
+
+/* ========== Scrollbar ========== */
+.sidebar-filter::-webkit-scrollbar { width: 4px; }
+.sidebar-filter::-webkit-scrollbar-thumb { background: #ddd; border-radius: 2px; }
+.sidebar-filter::-webkit-scrollbar-track { background: transparent; }
+
+/* ========== New Review Form ========== */
+.review-form-container {
+    margin-top: 20px;
+}
+.review-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.review-form-container label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.review-form-container input[type="text"],
+.review-form-container textarea,
+.review-form-container input[type="text"],
+.review-form-container input[type="hidden"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 14px;
+    color: var(--text-primary);
+    background: var(--bg-white);
+    outline: none;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+.review-form-container input:focus,
+.review-form-container textarea:focus {
+    border-color: var(--primary-color);
+}
+.review-form-container textarea {
+    resize: vertical;
+    min-height: 180px;
+    line-height: 1.7;
+}
+/* Star rating */
+#review-rating-stars {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#review-rating-stars span { user-select: none; }
+#review-rating-stars span:hover { color: var(--primary-color); }
+#review-rating-stars span.star-selected { color: var(--primary-color); }
+/* Dropdown for course search */
+#review-course-dropdown {
+    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-height: 220px;
+    overflow: auto;
+    display: none;
+}
+#review-course-dropdown.show { display: block; }
+#review-course-dropdown div {
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid var(--bg-page);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color 0.2s;
+}
+#review-course-dropdown div:hover { background: var(--bg-page); }
+#review-course-dropdown div:last-child { border-bottom: none; }
+#review-course-dropdown div span:first-child { font-weight: 500; }
+#review-course-dropdown div span:nth-child(2) { color: var(--primary-color); margin-left: 4px; }
+#review-course-dropdown div span:last-child { color: var(--text-tertiary); margin-left: 8px; }
+/* Selected course badge */
+#review-course-selected {
+    display: none;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #f0f5ff;
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+#review-course-selected.show { display: block; }
+
+/* ========== Trend Modal ========== */
+.trend-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+.trend-overlay.show { display: flex; }
+.trend-backdrop {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+.trend-modal {
+    position: relative;
+    width: min(900px, calc(100vw - 32px));
+    max-height: calc(100vh - 48px);
+    background: #fff;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+.trend-modal-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 24px 0;
+    flex-shrink: 0;
+}
+.trend-modal-title {
+    font-size: 16px; font-weight: 600; color: var(--text-primary);
+}
+.trend-modal-close {
+    width: 32px; height: 32px;
+    display: flex; align-items: center; justify-content: center;
+    border: none; background: none; cursor: pointer;
+    font-size: 18px; color: var(--text-tertiary); line-height: 1;
+    border-radius: 50%; transition: all 0.2s;
+}
+.trend-modal-close:hover { background: var(--bg-page); color: var(--text-primary); }
+.trend-modal-body {
+    padding: 16px 24px 24px;
+    overflow: auto;
+    flex: 1; min-height: 0;
+}
+.trend-chart-wrap {
+    width: 100%;
+    height: 380px;
+    position: relative;
+}
+.trend-chart-wrap canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+.trend-legend {
+    display: flex; justify-content: center; gap: 28px;
+    margin-top: 12px; font-size: 13px; color: var(--text-secondary);
+}
+.trend-legend-item { display: flex; align-items: center; gap: 6px; }
+.trend-legend-dot {
+    width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0;
+}
+.trend-legend-dot.bar { background: #91c4f2; }
+.trend-legend-dot.line { background: #52c41a; }
+
+/* ========== Responsive ========== */
+@media (max-width: 900px) {
+    .courses-layout { flex-direction: column; }
+    .sidebar-filter { width: 100%; position: static; max-height: none; }
+    .course-detail-layout { flex-direction: column; }
+    .detail-sidebar { width: 100%; }
+    .search-box { display: none; }
+    .nav-wrap { padding: 0 16px; }
+    .container { padding: 16px; }
+}
+@media (max-width: 576px) {
+    .logo {
+        font-size: 14px !important;
+        padding-right: 8px !important;
+        margin-right: 8px;
+    }
+    .nav-item {
+        padding: 0 8px !important;
+        font-size: 13px !important;
+    }
+    .search-btn-icon {
+        margin: 4px !important;
+    }
+    .search-input-field {
+        width: 100px !important;
+        padding: 4px 8px !important;
+    }
+    .page-head { flex-direction: column; gap: 10px; align-items: flex-start; }
+    .review-filters { flex-direction: column; align-items: stretch; }
+    .detail-head { flex-direction: column; gap: 10px; align-items: flex-start; }
+}

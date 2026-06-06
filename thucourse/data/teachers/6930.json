@@ -1,0 +1,20 @@
+{
+    "tid": "6930",
+    "name": "Kuruoglu Ercan Engin",
+    "related_courses": [
+        {
+            "id": 33642,
+            "code": "33804",
+            "name": "贝叶斯学习与数据分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30929,
+            "code": "31091",
+            "name": "随机过程",
+            "avg": 3.0,
+            "count": 2
+        }
+    ]
+}

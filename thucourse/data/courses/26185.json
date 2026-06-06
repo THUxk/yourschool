@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 898,
+      "rating": 5,
+      "comment": "每节课会有课后作业，500字以内的总结。还有一个小组pre，总结一下对于某一章的思考。\n老师很好，上课不点名，可以摸一下下鱼，作业认真一点就好。\n推荐！(*๓´╰╯`๓)♡",
+      "created_at": "2024/07/21 18:15",
+      "score": null
+    },
+    {
+      "id": 230,
+      "rating": 5,
+      "comment": "老师给分较好。",
+      "created_at": "2024/07/21 13:37",
+      "score": null
+    }
+  ]
+}

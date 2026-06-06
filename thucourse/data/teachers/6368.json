@@ -1,0 +1,27 @@
+{
+    "tid": "6368",
+    "name": "Ercan E. Kuruoglu",
+    "related_courses": [
+        {
+            "id": 27464,
+            "code": "27626",
+            "name": "贝叶斯学习与数据分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28246,
+            "code": "28408",
+            "name": "时间序列分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27297,
+            "code": "27459",
+            "name": "随机过程",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

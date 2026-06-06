@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 20,
+      "rating": 4,
+      "comment": "赵老师语速不快，听课需要耐心。通常来说前面进度会落后于其他班，然后期末疯狂加速。不过讲的很细致。",
+      "created_at": "2024/07/21 10:54",
+      "score": null
+    }
+  ]
+}

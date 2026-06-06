@@ -1,0 +1,20 @@
+{
+    "tid": "4454",
+    "name": "Xavier Roch Casellas",
+    "related_courses": [
+        {
+            "id": 15222,
+            "code": "15230",
+            "name": "西班牙语(第二外国语)(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15220,
+            "code": "15228",
+            "name": "西班牙语(第二外国语)(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

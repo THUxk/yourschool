@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1237,
+      "rating": 2,
+      "comment": "考核方式：论文和pre\n\n授课质量与给分：给分一般，前两年曾乱给分，没交论文也能得A，交了得B+。",
+      "created_at": "2024/07/26 02:42",
+      "score": null
+    },
+    {
+      "id": 5,
+      "rating": 3,
+      "comment": "考核方式：论文\n\n授课质量与给分：23 春有吹风机挂\n\n点评人：jkjkmxmx\n\n上课学期：不是我上的",
+      "created_at": "2024/07/21 03:19",
+      "score": ""
+    }
+  ]
+}

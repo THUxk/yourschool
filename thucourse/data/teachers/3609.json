@@ -1,0 +1,20 @@
+{
+    "tid": "3609",
+    "name": "Matthew Jacob",
+    "related_courses": [
+        {
+            "id": 24690,
+            "code": "24846",
+            "name": "高级英语",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10033,
+            "code": "10032",
+            "name": "高级英语II",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

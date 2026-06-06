@@ -1,0 +1,20 @@
+{
+    "tid": "1723",
+    "name": "Scott Moura",
+    "related_courses": [
+        {
+            "id": 26720,
+            "code": "26882",
+            "name": "能源系统的强化学习",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2627,
+            "code": "2626",
+            "name": "能源系统与控制",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

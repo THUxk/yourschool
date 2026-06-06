@@ -1,0 +1,20 @@
+{
+    "tid": "5196",
+    "name": "Calene Peck",
+    "related_courses": [
+        {
+            "id": 20014,
+            "code": "20038",
+            "name": "英语听说(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 19671,
+            "code": "19695",
+            "name": "英语高级口语",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

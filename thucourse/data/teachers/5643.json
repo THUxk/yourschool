@@ -1,0 +1,20 @@
+{
+    "tid": "5643",
+    "name": "Richard(法)",
+    "related_courses": [
+        {
+            "id": 21975,
+            "code": "22066",
+            "name": "法语听说",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21974,
+            "code": "22065",
+            "name": "法国文化",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

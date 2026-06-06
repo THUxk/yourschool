@@ -1,0 +1,20 @@
+{
+    "tid": "3767",
+    "name": "GU MILE",
+    "related_courses": [
+        {
+            "id": 11546,
+            "code": "11547",
+            "name": "信息物理学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11153,
+            "code": "11154",
+            "name": "信息物理",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

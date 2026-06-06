@@ -1,0 +1,20 @@
+{
+    "tid": "5591",
+    "name": "Berthold Kuhn",
+    "related_courses": [
+        {
+            "id": 21791,
+            "code": "21816",
+            "name": "公民社会与法制前沿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21648,
+            "code": "21673",
+            "name": "非政府管理概论",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

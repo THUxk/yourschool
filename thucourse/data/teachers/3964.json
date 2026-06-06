@@ -1,0 +1,20 @@
+{
+    "tid": "3964",
+    "name": "Frances Foong Yao",
+    "related_courses": [
+        {
+            "id": 13753,
+            "code": "13761",
+            "name": "博弈论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12225,
+            "code": "12226",
+            "name": "计算机科学研究实践",
+            "avg": 1.0,
+            "count": 1
+        }
+    ]
+}

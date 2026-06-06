@@ -1,0 +1,20 @@
+{
+    "tid": "4761",
+    "name": "Scott Simmons",
+    "related_courses": [
+        {
+            "id": 25649,
+            "code": "25810",
+            "name": "中级英语口语",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17139,
+            "code": "17156",
+            "name": "中级英语写作",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

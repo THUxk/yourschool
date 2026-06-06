@@ -1,0 +1,20 @@
+{
+    "tid": "4741",
+    "name": "Daniel Tobias",
+    "related_courses": [
+        {
+            "id": 17776,
+            "code": "17793",
+            "name": "英语国家文化",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16973,
+            "code": "16990",
+            "name": "英国社会与文化",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

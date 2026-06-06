@@ -1,0 +1,27 @@
+{
+    "tid": "6666",
+    "name": "SHING-TUNG YAU",
+    "related_courses": [
+        {
+            "id": 34182,
+            "code": "34344",
+            "name": "数学史Ⅲ",
+            "avg": 1.0,
+            "count": 1
+        },
+        {
+            "id": 32313,
+            "code": "32475",
+            "name": "数学史Ⅱ",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29398,
+            "code": "29560",
+            "name": "数学史",
+            "avg": 1.5,
+            "count": 2
+        }
+    ]
+}

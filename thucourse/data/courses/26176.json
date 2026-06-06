@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 900,
+      "rating": 3,
+      "comment": "就是每个人轮流讲pre，然后鼓励提问",
+      "created_at": "2024/07/21 18:16",
+      "score": null
+    },
+    {
+      "id": 226,
+      "rating": 5,
+      "comment": "三次新闻评论+两次pre，老师人还不错！\n老师人很好，任务量不大且给分好，体验极佳。",
+      "created_at": "2024/07/21 13:36",
+      "score": null
+    }
+  ]
+}

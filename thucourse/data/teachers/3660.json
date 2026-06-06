@@ -1,0 +1,20 @@
+{
+    "tid": "3660",
+    "name": "Albert Jan Van Den Berg",
+    "related_courses": [
+        {
+            "id": 25221,
+            "code": "25381",
+            "name": "国际仲裁案例研修",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10372,
+            "code": "10373",
+            "name": "国际仲裁裁决的执行",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

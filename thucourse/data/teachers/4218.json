@@ -1,0 +1,27 @@
+{
+    "tid": "4218",
+    "name": "欧阳沁",
+    "related_courses": [
+        {
+            "id": 16866,
+            "code": "16883",
+            "name": "KAB(Know About Business)创业基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32919,
+            "code": "33081",
+            "name": "新生导引课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13646,
+            "code": "13654",
+            "name": "社会工作案例研讨课",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tid": "2939",
+    "name": "DE MELO GERARD MARIO ANTHONY",
+    "related_courses": [
+        {
+            "id": 6023,
+            "code": "6022",
+            "name": "数据科学导论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10441,
+            "code": "10442",
+            "name": "计算机入门",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10963,
+            "code": "10964",
+            "name": "言语科学技术及创新应用",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11544,
+            "code": "11545",
+            "name": "语义技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 6021,
+            "code": "6020",
+            "name": "大数据分析",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

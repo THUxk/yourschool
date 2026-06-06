@@ -1,0 +1,20 @@
+{
+    "tid": "4731",
+    "name": "Daniel Langan",
+    "related_courses": [
+        {
+            "id": 17218,
+            "code": "17235",
+            "name": "英语听说(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16936,
+            "code": "16953",
+            "name": "大学英语读写译(3)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

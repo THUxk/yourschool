@@ -1,0 +1,20 @@
+{
+    "tid": "3247",
+    "name": "Guillem Castanar",
+    "related_courses": [
+        {
+            "id": 7839,
+            "code": "7838",
+            "name": "西班牙语(第二外国语)(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7837,
+            "code": "7836",
+            "name": "西班牙语(第二外国语)(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+# Cloudflare Pages Headers Configuration
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# HTML pages — short cache, quickly reflect updates
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+  Content-Type: text/html; charset=utf-8
+
+# CSS and JS — longer cache with versioned filenames or content hash
+/css/*
+  Cache-Control: public, max-age=300, immutable
+
+/js/*
+  Cache-Control: public, max-age=300, immutable
+
+# Data files (JSON) — moderate cache, may be updated frequently
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Security: deny access to hidden files
+/_*
+  Cache-Control: no-store

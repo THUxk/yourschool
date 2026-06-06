@@ -1,0 +1,41 @@
+{
+    "tid": "2789",
+    "name": "LECOUTURIER Emmanuel Antoine",
+    "related_courses": [
+        {
+            "id": 29215,
+            "code": "29377",
+            "name": "微积分A(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29769,
+            "code": "29931",
+            "name": "代数与数论研讨课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31869,
+            "code": "32031",
+            "name": "代数数论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33551,
+            "code": "33713",
+            "name": "模曲线专题漫谈",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5451,
+            "code": "5450",
+            "name": "微积分A(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

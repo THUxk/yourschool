@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1040,
+      "rating": 5,
+      "comment": "实践课+理论课，实践课很有意思，可以做键盘、双色板",
+      "created_at": "2024/07/21 18:56",
+      "score": null
+    },
+    {
+      "id": 1039,
+      "rating": 5,
+      "comment": "作为通识课对每个专业的人都很友好 作业水水的老师也很友善！强推！",
+      "created_at": "2024/07/21 18:56",
+      "score": null
+    }
+  ]
+}

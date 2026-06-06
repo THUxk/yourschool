@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 2805,
+      "rating": 5,
+      "comment": "考核方式：quiz点名+作业+pre+project，没有考试。\n\n授课质量与给分：最好有一定的DL和RL基础。老师讲课质量很高，是很好的具身智能入门课。homework和project任务量很大。给分很好。在本学期时间充足的情况下推荐选课。\n\n点评人：匿名\n\n上课学期：25秋",
+      "created_at": "2026/01/30 18:57",
+      "score": null
+    },
+    {
+      "id": 2790,
+      "rating": 3,
+      "comment": "# 考核方式\n分数占比：\n- 40% 的 homework\n- 10% 的签到性质的 quiz\n- 35% 的 project，包括 15% 的 pre 和 20% 的 report\n- 15% 的 paper presentation。（小组从一个 list 里选一个 paper 做一个 pre）\n\n如何获得 4.0：\n- 总分前 50%\n- hw 和 quiz 都做了，同时 project 得分前 50%\n- hw 和 quiz 都做了，同时 paper pre 得分前 20%\n\n# 授课质量与给分 \n- 讲课内容的涵盖面很广，包括具身这个领域的方方面面，但是受限于时间，每个面不会讲得特别细。\n- 华哲讲课有点快，可能没有一定基础的话吸收起来需要花一定时间。\n- 华哲讲课风格很幽默风趣，时不时会有一些 vote 和自由讨论之类的环节。\n- 似乎给分还是很不错的，身边统计学一下**能够顺利完成课程 project** 的话大都能获得 4.0。\n\n# 课程 project\n\n这里重点说一下**课程的 project 部分**。\n\nproject 可以选择 *track1*（普通赛道）和 *track2*（自定义赛道），笔者选了 track1，所以这里只谈谈 track1（track2 选择的 ddl 在 project announcement 的一周之后，所以如果想要做 track2 **一定要提前准备**）。\ntrack1 有两部分任务：\n- 第一部分是 benchmark task，需要你学会用机械臂完成三个 task，每个 task *搭建场景、采集 trajectory、训练 deployable policy、真机演示*各 1 分，总共 12 分。\n- 第二部分是 self-defined task（半命题作文），你需要设计一个 task 并完成。\n首先，你需要在 final report 里给出详尽的 related work，占 2 分。\ntask 的评分为：\n   - task的难易程度，有是否使用了双臂、是否 long horizon 等指标，占 3 分\n   - task 的 method 得分，你的方法需要或者能 generalization，或者能打过你设定的 baseline，任意满足一条即可，占 2 分\n   - task 的成功率和分析得分，各占 0.5分，总共 1 分。\n\n最后的总共得分为三者的**乘积**而非加和（*换句话说，后两项未达到满分将会导致整个 task 得分**砍半***）。整个 self-defined task 占 8 分。最终的 report 为 12+8=20 分。\n\n本学期的 project 的工作量非常恐怖，需要花费较长时间熟悉代码仓库和调试代码。而且每个 task 实现的路径很多，有相当多的坑，每个坑都会花费你大量时间调试。\n\n建议：\n- ***尽早启动 project。***\n- 不懂的东西多问助教。\n- 使用助教提供的 maniskill3 写代码，因为会下发使用 maniskill3 的示例代码。\n- 不要高估机械臂和RL的表现，设计的 task 在保证得分的前提下越简单越好。SO101 的 6 自由度 IK 经常 fail。RL 需要比较 dense 的 reward 才能训出东西。\n- RL 很慢。一次 RL 短则 ~6h，长则一两天。请格外注意超参数的设置以及每个环境运行 step 的对齐，防止因为错误的参数浪费时间。\n- 似乎在 final pre 之前完成 project 的队伍不多，最后 report due 延期了。\n- **听说下学期具身这课的 project 设计会有大改，所以以上建议不一定完全适用。建议退课截止之前找助教打听一下情况。希望后人能少吃一点前人吃过的苦。**\n\n点评人：大二上选课\n\n上课学期：秋季学期",
+      "created_at": "2026/01/30 18:22",
+      "score": "A"
+    }
+  ]
+}

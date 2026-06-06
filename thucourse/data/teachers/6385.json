@@ -1,0 +1,20 @@
+{
+    "tid": "6385",
+    "name": "ORMEL CHRISTIAAN WESSEL",
+    "related_courses": [
+        {
+            "id": 28755,
+            "code": "28917",
+            "name": "恒星与行星",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27359,
+            "code": "27521",
+            "name": "理论天体物理专题",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

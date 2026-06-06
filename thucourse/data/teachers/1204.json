@@ -1,0 +1,20 @@
+{
+    "tid": "1204",
+    "name": "PASTOR PAREJA JOSE CARLOS",
+    "related_courses": [
+        {
+            "id": 3908,
+            "code": "3907",
+            "name": "科技英语写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1578,
+            "code": "1577",
+            "name": "发育细胞生物学： 发育过程中的细胞基石",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

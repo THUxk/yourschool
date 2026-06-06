@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 97,
+      "rating": 4,
+      "comment": "评分包括平时演讲、期中考试、期末考试等部分，每周任务量中规中矩，一般要求每周阅读一篇论文",
+      "created_at": "2024/07/21 12:29",
+      "score": null
+    }
+  ]
+}

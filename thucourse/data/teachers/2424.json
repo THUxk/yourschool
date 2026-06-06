@@ -1,0 +1,20 @@
+{
+    "tid": "2424",
+    "name": "HARRER ALEXANDRA",
+    "related_courses": [
+        {
+            "id": 9479,
+            "code": "9478",
+            "name": "中国建筑史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4279,
+            "code": "4278",
+            "name": "中西建筑文化比较概论",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

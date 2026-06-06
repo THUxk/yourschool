@@ -1,0 +1,20 @@
+{
+    "tid": "204",
+    "name": "Joseph Lyman Pratt",
+    "related_courses": [
+        {
+            "id": 9888,
+            "code": "9887",
+            "name": "外国法专题讲座－法律文书",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 228,
+            "code": "227",
+            "name": "外国法专题讲座－法律文书",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

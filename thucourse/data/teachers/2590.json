@@ -1,0 +1,20 @@
+{
+    "tid": "2590",
+    "name": "BICE SARA JANE",
+    "related_courses": [
+        {
+            "id": 26619,
+            "code": "26781",
+            "name": "发展实践专题讲座I",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4808,
+            "code": "4807",
+            "name": "全球化与治理",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}
