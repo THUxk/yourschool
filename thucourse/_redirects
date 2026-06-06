@@ -8,4 +8,4 @@
 # 只有两段式路径（如 /course/12345）不会与 /course.html 产生前缀冲突
 
 # 课程详情短链接: /course/12345 → /course.html?sqid=12345
-/course/:sqid   /course.html?sqid=:sqid   301
+/thucourse/course/:sqid   /thucourse/course.html?sqid=:sqid   301

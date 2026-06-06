@@ -1219,7 +1219,7 @@ const LoadingModal = {
     btn.onclick = () => {
       modal.style.display = "none";
       if (success) {
-        window.location.href = "/index.html";
+        window.location.href = "/thucourse/index.html";
       }
     };
 
@@ -1228,7 +1228,7 @@ const LoadingModal = {
       if (e.target === modal) {
         modal.style.display = "none";
         if (success) {
-          window.location.href = "/index.html";
+          window.location.href = "/thucourse/index.html";
         }
       }
     };
