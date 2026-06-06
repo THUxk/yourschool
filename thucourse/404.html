@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - 页面未找到 | THU选课社区</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/thucourse/css/style.css">
     <style>
         .error-container {
             text-align: center;
@@ -27,7 +27,7 @@
 <body>
     <div class="top-nav">
         <div class="nav-wrap">
-            <a href="/index.html" class="logo">THU选课社区</a>
+            <a href="/thucourse/index.html" class="logo">THU选课社区</a>
         </div>
     </div>
 
@@ -35,14 +35,14 @@
         <div class="error-container">
             <div class="error-code">404</div>
             <div class="error-message">抱歉，您访问的页面不存在。</div>
-            <a href="/index.html" class="btn-primary">返回首页</a>
+            <a href="/thucourse/index.html" class="btn-primary">返回首页</a>
         </div>
     </div>
 
     <footer class="site-footer">
         <div class="footer-links">
-            <a href="/about.html">关于</a>
-            <a href="/faq.html">常见问题</a>
+            <a href="/thucourse/about.html">关于</a>
+            <a href="/thucourse/faq.html">常见问题</a>
         </div>
         <div>&copy;2024 THU选课社区</div>
     </footer>
@@ -56,20 +56,20 @@
             // （_redirects 已处理，这里作为兜底）
             var courseMatch = path.match(/^\/course\/(\d+)/);
             if (courseMatch) {
-                window.location.replace('/course.html?sqid=' + courseMatch[1]);
+                window.location.replace('course.html?sqid=' + courseMatch[1]);
                 return;
             }
 
             // 清洁 URL 映射表：无后缀 → .html
             var cleanMap = {
-                '/index':      '/index.html',
-                '/courses':    '/courses.html',
-                '/course':     '/course.html',
-                '/search':     '/search.html',
-                '/statistics': '/statistics.html',
-                '/about':      '/about.html',
-                '/faq':        '/faq.html',
-                '/new-review': '/new-review.html'
+                '/thucourse/index':      'thucourse/index.html',
+                '/thucourse/courses':    'thucourse/courses.html',
+                '/thucourse/course':     'thucourse/course.html',
+                '/thucourse/search':     'thucourse/search.html',
+                '/thucourse/statistics': 'thucourse/statistics.html',
+                '/thucourse/about':      'thucourse/about.html',
+                '/thucourse/faq':        'thucourse/faq.html',
+                '/thucourse/new-review': 'thucourse/new-review.html'
             };
 
             if (cleanMap[path]) {

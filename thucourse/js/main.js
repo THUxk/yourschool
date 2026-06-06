@@ -11,7 +11,7 @@
 // 配置常量
 const CONFIG = {
   API_BASE: "https://api.yourschool.cc.cd",
-  RAW_BASE: "/data/",
+  RAW_BASE: "/thucourse/data/",
   PAGE_SIZES: [10, 20, 50],
 };
 
@@ -439,7 +439,7 @@ const Renderer = {
       card.className = "review-card";
       const timeStr = item.modified_at || item.created_at || "";
       card.innerHTML = `
-        <a href="/course.html?sqid=${(item.course || {}).id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
+        <a href="/thucourse/course.html?sqid=${(item.course || {}).id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
         <div class="review-rating-text">推荐指数：${item.rating}</div>
         <div class="review-comment">${item.comment || "无点评内容"}</div>
         <div class="review-meta"><span>${isLocal ? "本地" : "#" + item.id}</span><span>${timeStr}</span></div>
@@ -489,7 +489,7 @@ const Renderer = {
       div.innerHTML = `
         <div class="course-info">
           <h3>
-            <a href="/course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
+            <a href="/thucourse/course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
               ${c.kcm}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.jsm}）</span>
             </a>
           </h3>
@@ -655,7 +655,7 @@ const Renderer = {
       div.innerHTML = `
         <div class="search-result-info">
           <h3>
-            <a href="/course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
+            <a href="/thucourse/course.html?sqid=${c.sqid}&tid=${c.tid}&name=${encodeURIComponent(c.kcm)}&teacher=${encodeURIComponent(c.jsm)}&dept=${encodeURIComponent(c.kkdw)}">
               ${c.kcm}<span style="font-weight:400;color:#8a4abf;margin-left:4px;">（${c.jsm}）</span>
             </a>
           </h3>
@@ -691,23 +691,23 @@ const Controller = {
   async routePage() {
     const path = location.pathname;
     const routeMap = {
-      "/": "index",
-      "/index.html": "index",
-      "/index": "index",
-      "/courses.html": "courses",
-      "/courses": "courses",
-      "/statistics.html": "statistics",
-      "/statistics": "statistics",
-      "/course.html": "course",
-      "/course": "course",
-      "/search.html": "search",
-      "/search": "search",
+      "/thucourse": "index",
+      "/thucourse/index.html": "index",
+      "/thucourse/index": "index",
+      "/thucourse/courses.html": "courses",
+      "/thucourse/courses": "courses",
+      "/thucourse/statistics.html": "statistics",
+      "/thucourse/statistics": "statistics",
+      "/thucourse/course.html": "course",
+      "/thucourse/course": "course",
+      "/thucourse/search.html": "search",
+      "/thucourse/search": "search",
     };
 
     const pageType = Object.entries(routeMap).find(
       ([pattern]) =>
         path.endsWith(pattern) ||
-        (pattern === "/" && (path === "/" || path.endsWith("/"))),
+        (pattern === "/thucourse" && (path === "/thucourse" || path.endsWith("/thucourse"))),
     )?.[1];
 
     if (pageType) {
@@ -1009,7 +1009,7 @@ const Controller = {
     const newReviewBtn = Utils.$("new-review-btn-detail");
     if (newReviewBtn && State.currentCourseDetail) {
       const courseDisplayName = `${courseName}（${teacherName}）`;
-      const url = `/new-review.html?courseId=${encodeURIComponent(sqid)}&courseName=${encodeURIComponent(courseDisplayName)}`;
+      const url = `/thucourse/new-review.html?courseId=${encodeURIComponent(sqid)}&courseName=${encodeURIComponent(courseDisplayName)}`;
       newReviewBtn.href = url;
     }
   },

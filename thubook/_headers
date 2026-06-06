@@ -12,14 +12,14 @@
   Content-Type: text/html; charset=utf-8
 
 # CSS and JS — longer cache with versioned filenames or content hash
-/css/*
+css/*
   Cache-Control: public, max-age=300, immutable
 
 /js/*
   Cache-Control: public, max-age=300, immutable
 
 # Data files (JSON) — moderate cache, may be updated frequently
-/data/*
+/thucourse/data/*
   Cache-Control: public, max-age=300, must-revalidate
 
 # Security: deny access to hidden files
