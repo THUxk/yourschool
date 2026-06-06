@@ -1,5 +1,17 @@
 [
   {
+    "id": 3437,
+    "course": {
+      "id": 37117
+    },
+    "rating": 3,
+    "comment": "考核方式：PF，不知道是否会有改变\n授课质量与给分：大杂烩，建议不去上课\n点评人：lrl\n上课学期：25-26秋",
+    "created_at": "2026/06/06 22:43",
+    "score": "P",
+    "_course_name": "能源导论",
+    "_course_teacher": "李政"
+  },
+  {
     "id": 3436,
     "course": {
       "id": 25898
