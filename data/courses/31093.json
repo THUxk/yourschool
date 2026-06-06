@@ -1,5 +1,5 @@
 {
-  "count": 1,
+  "count": 2,
   "next": null,
   "previous": null,
   "results": [
@@ -9,6 +9,13 @@
       "comment": "考核方式：四次作业+课上whiteboard problem/coding lab\n\n授课质量与给分：全英文授课但老师讲到关键地方会用中文重复一遍，课程内容包括应用线性代数、PDE数值解、统计逆问题和机器学习基础，认真学完可以“build a strong mathematical and computational foundation for machine learning, modeling, and data analysis”，不过也可以水过去（大大方方vibe）\n\n上课不考勤，每周一次习题课也不考勤\n\n老师人很好，讲课很有意思，上课会给同学们发小零食，习题课会给同学们点奶茶/kfc/...\n\n给分也很好，（老师说）完成至少两次whiteboard problem/coding lab+全部作业即可4.0，再做一个可选的大作业则可获取A+\n\n点评人：幻影土豆儿\n\n上课学期：26春",
       "created_at": "2026/05/25 10:44",
       "score": null
+    },
+    {
+      "id": 3434,
+      "rating": 5,
+      "comment": "考核方式：\n\n授课质量与给分：你只要不胡闹，都4.0\n\n点评人：\n\n上课学期：",
+      "created_at": "2026/06/06 20:33",
+      "score": "4.0"
     }
   ]
 }
