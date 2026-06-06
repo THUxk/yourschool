@@ -15,10 +15,6 @@
   Cache-Control: public, max-age=300, must-revalidate
   Content-Type: text/html; charset=utf-8
 
-/thubook/*
-  Cache-Control: public, max-age=300, must-revalidate
-  Content-Type: text/html; charset=utf-8
-
 # CSS and JS — longer cache with versioned filenames or content hash
 /thucourse/css/*
   Cache-Control: public, max-age=300, immutable
