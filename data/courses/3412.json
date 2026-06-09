@@ -1,0 +1,28 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3443,
+      "reactions": {
+        "approves": 0,
+        "disapproves": 0
+      },
+      "is_mine": false,
+      "semester": "",
+      "course": {
+        "id": 14281,
+        "code": "14289",
+        "name": "一元微积分",
+        "teacher": "姚家燕"
+      },
+      "rating": 1,
+      "comment": "考核方式：\n\n授课质量与给分：每次回答问题期末考+1分，很搞笑了\n\n点评人：\n\n上课学期：2026春",
+      "created_at": "2026/06/08 23:59",
+      "modified_at": "2026/06/08 23:59",
+      "score": "3.6",
+      "moderator_remark": null
+    }
+  ]
+}
