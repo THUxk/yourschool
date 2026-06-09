@@ -1,0 +1,28 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 3455,
+      "reactions": {
+        "approves": 0,
+        "disapproves": 0
+      },
+      "is_mine": false,
+      "semester": "",
+      "course": {
+        "id": 5947,
+        "code": "5946",
+        "name": "微积分A(2)",
+        "teacher": "姚家燕"
+      },
+      "rating": 1,
+      "comment": "考核方式：\n平时20，期中30，期末50\n授课质量与给分：\n现在退课还来得及\n点评人：\n\n上课学期：2025秋",
+      "created_at": "2026/06/09 00:01",
+      "modified_at": "2026/06/09 00:01",
+      "score": "4.0",
+      "moderator_remark": null
+    }
+  ]
+}

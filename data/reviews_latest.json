@@ -1,5 +1,17 @@
 [
   {
+    "id": 3455,
+    "course": {
+      "id": 3414
+    },
+    "rating": 1,
+    "comment": "考核方式：\n平时20，期中30，期末50\n授课质量与给分：\n现在退课还来得及\n点评人：\n\n上课学期：2025秋",
+    "created_at": "2026/06/09 00:01",
+    "score": "4.0",
+    "_course_name": "热质交换原理和应用",
+    "_course_teacher": "张寅平"
+  },
+  {
     "id": 3454,
     "course": {
       "id": 3415
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "概率论与数理统计",
     "_course_teacher": "唐宏岩"
-  },
-  {
-    "id": 3333,
-    "course": {
-      "id": 2371
-    },
-    "rating": 1,
-    "comment": "毫无优点可言，被前几年的评价骗进来选他的，结果课上成这样，考试也难，快来爽吃不调分3.0",
-    "created_at": "2026/05/25 10:24",
-    "score": null,
-    "_course_name": "概率论与数理统计",
-    "_course_teacher": "梁恒"
   }
 ]
