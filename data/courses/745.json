@@ -1,15 +1,8 @@
 {
-  "count": 4,
+  "count": 3,
   "next": null,
   "previous": null,
   "results": [
-    {
-      "id": 3377,
-      "rating": 5,
-      "comment": "！！！",
-      "created_at": "2026/05/28 16:33",
-      "score": null
-    },
     {
       "id": 3076,
       "rating": 2,

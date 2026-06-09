@@ -20,7 +20,7 @@ WITH_COMMENT_PATH = os.path.join(BASE_DIR, "with_comment_index.json")
 REVIEWS_LATEST_PATH = os.path.join(BASE_DIR, "reviews_latest.json")
 MANIFEST_PATH = os.path.join(BASE_DIR, "manifest.json")
 
-MIN_COMMENT_LENGTH = 3  # 少于此长度的 comment 将被删除
+MIN_COMMENT_LENGTH = 5  # 少于此长度的 comment 将被删除
 
 
 def load_json(path):

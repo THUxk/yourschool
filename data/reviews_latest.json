@@ -24,18 +24,6 @@
     "_course_teacher": "李双寿"
   },
   {
-    "id": 3453,
-    "course": {
-      "id": 3416
-    },
-    "rating": 5,
-    "comment": "考核方式：考试加作业\n\n授课质量与给分：牢无金牌教师，你值得拥有\n\n点评人：五字班小登\n\n上课学期：2026春",
-    "created_at": "2026/06/09 00:08",
-    "score": "W",
-    "_course_name": "机器人技术专业创新实践",
-    "_course_teacher": "赵千川"
-  },
-  {
     "id": 3452,
     "course": {
       "id": 3417
@@ -46,30 +34,6 @@
     "score": null,
     "_course_name": "智能交通专业创新实践",
     "_course_teacher": "李萌"
-  },
-  {
-    "id": 3451,
-    "course": {
-      "id": 3418
-    },
-    "rating": 1,
-    "comment": "考核方式：\n\n授课质量与给分：下面被人刷分了，大家别看，这老师至少上课没有任何营养，考核是上课回答问题+小组展示+小组大论文，个人觉得别选，毕竟最后也就吃了3.6\n\n点评人：\n\n上课学期：",
-    "created_at": "2026/06/09 14:25",
-    "score": "3.6",
-    "_course_name": "机器人技术专业创新实践(1)",
-    "_course_teacher": "赵千川"
-  },
-  {
-    "id": 3450,
-    "course": {
-      "id": 3419
-    },
-    "rating": 5,
-    "comment": "神，无需多言，伟大，和善，会教学，唯一可能点是上课环节不会有太大变动，可能会略显乏味，但是除此之外没有任何缺点，任务量我觉得对于想要学好英语的人来说简直是少之又少了，每天跟做可以有效提高英语水平，一学期下来我感觉thu里外国学生的对话我已经可以完全听懂了。张老师简直是英语教学的king，与学生交流也总是笑眯眯的，还会给你写很长的feedback鼓励你，选老张，得英语。\n（另：张老师务必保重身体，一定要健健康康的！！！）",
-    "created_at": "2026/06/09 19:34",
-    "score": null,
-    "_course_name": "病毒与蛋白质结构",
-    "_course_teacher": "娄智勇"
   },
   {
     "id": 3449,
@@ -94,18 +58,6 @@
     "score": "4.0",
     "_course_name": "中外染织纹样史",
     "_course_teacher": "贾玺增"
-  },
-  {
-    "id": 3447,
-    "course": {
-      "id": 3412
-    },
-    "rating": 1,
-    "comment": "考核方式：\n\n授课质量与给分：每次回答问题期末考+1分，很搞笑了\n\n点评人：\n\n上课学期：2026春",
-    "created_at": "2026/06/08 23:59",
-    "score": "3.6",
-    "_course_name": "重彩",
-    "_course_teacher": "程向军"
   },
   {
     "id": 3446,
@@ -286,18 +238,6 @@
     "score": "A-",
     "_course_name": "数据分析引论",
     "_course_teacher": "陈松蹊"
-  },
-  {
-    "id": 3431,
-    "course": {
-      "id": 37368
-    },
-    "rating": 2,
-    "comment": "烂",
-    "created_at": "2026/06/06 02:42",
-    "score": null,
-    "_course_name": "微积分C(2)",
-    "_course_teacher": "张广远"
   },
   {
     "id": 3430,
@@ -826,18 +766,6 @@
     "score": null,
     "_course_name": "大学物理CE",
     "_course_teacher": "戴松涛"
-  },
-  {
-    "id": 3377,
-    "course": {
-      "id": 745
-    },
-    "rating": 5,
-    "comment": "！！！",
-    "created_at": "2026/05/28 16:33",
-    "score": null,
-    "_course_name": "马克思主义基本原理",
-    "_course_teacher": "邹广文"
   },
   {
     "id": 3369,
