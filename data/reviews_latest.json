@@ -1,17 +1,5 @@
 [
   {
-    "id": 3448,
-    "course": {
-      "id": 3411
-    },
-    "rating": 1,
-    "comment": "考核方式：详见（1）那一栏\n\n授课质量与给分：快跑\n\n点评人：\n\n上课学期：",
-    "created_at": "2026/06/08 16:03",
-    "score": "4.0",
-    "_course_name": "中外染织纹样史",
-    "_course_teacher": "贾玺增"
-  },
-  {
     "id": 3447,
     "course": {
       "id": 3412
@@ -1198,5 +1186,17 @@
     "score": null,
     "_course_name": "程序设计基础",
     "_course_teacher": "兴军亮"
+  },
+  {
+    "id": 3326,
+    "course": {
+      "id": 27758
+    },
+    "rating": 5,
+    "comment": "考核方式：3稿+2次pre\n\n授课质量与给分：夯。老师很有风度，专业知识很过硬，非常了解武侠主题的小说影视游戏等等，课堂氛围比较轻松，会穿插很多有些意思的讨论互动环节。\n\n点评人：\n\n上课学期：",
+    "created_at": "2026/05/25 00:35",
+    "score": null,
+    "_course_name": "写作与沟通",
+    "_course_teacher": "耿弘明"
   }
 ]
