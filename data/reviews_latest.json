@@ -1,5 +1,17 @@
 [
   {
+    "id": 3453,
+    "course": {
+      "id": 3416
+    },
+    "rating": 5,
+    "comment": "考核方式：考试加作业\n\n授课质量与给分：牢无金牌教师，你值得拥有\n\n点评人：五字班小登\n\n上课学期：2026春",
+    "created_at": "2026/06/09 00:08",
+    "score": "W",
+    "_course_name": "机器人技术专业创新实践",
+    "_course_teacher": "赵千川"
+  },
+  {
     "id": 3452,
     "course": {
       "id": 3417
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "可持续发展探究",
     "_course_teacher": "胡洪营"
-  },
-  {
-    "id": 3331,
-    "course": {
-      "id": 2371
-    },
-    "rating": 1,
-    "comment": "黑化了，上课讲的毫无营养，教考分离严重，出的题很难，给分也差，居然还不调分",
-    "created_at": "2026/05/25 10:22",
-    "score": null,
-    "_course_name": "概率论与数理统计",
-    "_course_teacher": "梁恒"
   }
 ]
