@@ -1,5 +1,17 @@
 [
   {
+    "id": 3455,
+    "course": {
+      "id": 26198
+    },
+    "rating": 1,
+    "comment": "考核方式：\nted笔记，语音评论\n授课质量与给分：\n拉完了\n点评人：\nX\n上课学期：2026年春\n考核巨难，感觉根本不像听说B，感觉也没学到什么东西，不推荐",
+    "created_at": "2026/06/10 14:48",
+    "score": null,
+    "_course_name": "英语听说交流(B)",
+    "_course_teacher": "刘延"
+  },
+  {
     "id": 3454,
     "course": {
       "id": 25898
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "概率论与数理统计",
     "_course_teacher": "唐宏岩"
-  },
-  {
-    "id": 3333,
-    "course": {
-      "id": 2371
-    },
-    "rating": 1,
-    "comment": "毫无优点可言，被前几年的评价骗进来选他的，结果课上成这样，考试也难，快来爽吃不调分3.0",
-    "created_at": "2026/05/25 10:24",
-    "score": null,
-    "_course_name": "概率论与数理统计",
-    "_course_teacher": "梁恒"
   }
 ]

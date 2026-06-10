@@ -1,5 +1,5 @@
 {
-  "count": 9,
+  "count": 10,
   "next": null,
   "previous": null,
   "results": [
@@ -64,6 +64,13 @@
       "rating": 4,
       "comment": "考核方式：\n考勤、课堂表现、单词quiz、课后作业（录音复述）、口语讨论和期末当堂听并复述\n授课质量与给分：\n课程每周学习一个TED talk，每学期计划完成14个TED talk。老师与课程都不错。给分较好。",
       "created_at": "2024/07/21 14:36",
+      "score": null
+    },
+    {
+      "id": 3455,
+      "rating": 1,
+      "comment": "考核方式：\nted笔记，语音评论\n授课质量与给分：\n拉完了\n点评人：\nX\n上课学期：2026年春\n考核巨难，感觉根本不像听说B，感觉也没学到什么东西，不推荐",
+      "created_at": "2026/06/10 14:48",
       "score": null
     }
   ]
