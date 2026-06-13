@@ -1,5 +1,17 @@
 [
   {
+    "id": 3467,
+    "course": {
+      "id": 37461
+    },
+    "rating": 1,
+    "comment": "一个你可以不用去听的课。",
+    "created_at": "2026/06/13 12:03",
+    "score": null,
+    "_course_name": "编译原理",
+    "_course_teacher": "段斯斯"
+  },
+  {
     "id": 3466,
     "course": {
       "id": 35239
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "基础物理学(3)",
     "_course_teacher": "安宇"
-  },
-  {
-    "id": 3346,
-    "course": {
-      "id": 32367
-    },
-    "rating": 1,
-    "comment": "考核方式：\n\n授课质量与给分：1\n\n点评人：\n\n上课学期：",
-    "created_at": "2026/05/25 17:40",
-    "score": null,
-    "_course_name": "程序设计基础",
-    "_course_teacher": "任炬"
   }
 ]
