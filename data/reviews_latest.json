@@ -1,5 +1,17 @@
 [
   {
+    "id": 3471,
+    "course": {
+      "id": 2371
+    },
+    "rating": 1,
+    "comment": "讲的课质量极差，被前几年的评价骗进来选他的，实测课堂给分差，严格考勤，考试也难，快来爽吃不调分3.0",
+    "created_at": "2026/06/16 15:54",
+    "score": null,
+    "_course_name": "概率论与数理统计",
+    "_course_teacher": "梁恒"
+  },
+  {
     "id": 3470,
     "course": {
       "id": 6982
@@ -1186,17 +1198,5 @@
     "score": "W",
     "_course_name": "艺术的启示",
     "_course_teacher": "李睦"
-  },
-  {
-    "id": 3350,
-    "course": {
-      "id": 13086
-    },
-    "rating": 5,
-    "comment": "考核方式：\n大一下唯一一个田径专项，30分动作（基本给满）+10分100米\n授课质量与给分：\n能让全班同学50米跑进7秒，伟大无需多言",
-    "created_at": "2026/05/26 14:12",
-    "score": null,
-    "_course_name": "大一体育活动",
-    "_course_teacher": "胡凯"
   }
 ]
