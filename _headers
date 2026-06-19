@@ -6,6 +6,37 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 
+# ========== Explicit MIME types for static assets ==========
+# These prevent Cloudflare from ever serving text/html for CSS/JS files
+# (critical when CDN edge nodes have stale/missing files)
+
+/*.css
+  Content-Type: text/css; charset=utf-8
+
+/*.js
+  Content-Type: application/javascript; charset=utf-8
+
+/*.json
+  Content-Type: application/json; charset=utf-8
+
+/*.svg
+  Content-Type: image/svg+xml
+
+/*.png
+  Content-Type: image/png
+
+/*.jpg
+  Content-Type: image/jpeg
+
+/*.jpeg
+  Content-Type: image/jpeg
+
+/*.webp
+  Content-Type: image/webp
+
+/*.woff2
+  Content-Type: font/woff2
+
 # HTML pages — short cache, quickly reflect updates
 /*.html
   Cache-Control: public, max-age=300, must-revalidate
@@ -14,6 +45,20 @@
 /thucourse/*.html
   Cache-Control: public, max-age=300, must-revalidate
   Content-Type: text/html; charset=utf-8
+
+# ========== Thubook (VuePress) static assets ==========
+# Content-hashed filenames → can cache permanently (immutable)
+
+/thubook/assets/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/thubook/assets/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/thubook/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# ========== Thucourse static assets ==========
 
 # CSS and JS — longer cache with versioned filenames or content hash
 /thucourse/css/*
