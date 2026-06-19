@@ -1,14 +1,14 @@
 [
   {
-    "id": 3486,
+    "id": 3487,
     "course": {
-      "id": 27786
+      "id": 27135
     },
-    "rating": 5,
-    "comment": "考核方式：期初演讲 期中配音 听力小测 平时口语作业 期末话剧\n              \n授课质量与给分：质量高，老师认真 给分好\n              \n点评人：\n              \n上课学期：",
-    "created_at": "2026/06/19 22:59",
+    "rating": 1,
+    "comment": "考核方式：小测 作业 考勤\n              \n授课质量与给分：全看助教盲盒\n              \n点评人：\n              \n上课学期：",
+    "created_at": "2026/06/19 23:01",
     "score": null,
-    "_course_name": "英语听说交流(B)",
-    "_course_teacher": "洪娜"
+    "_course_name": "信息管理导论",
+    "_course_teacher": "卫强"
   }
 ]
