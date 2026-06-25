@@ -1,0 +1,43 @@
+# humans.txt
+# See: https://github.com/humans-txt/Humans-txt
+
+## We're humans, living in a city somewhere near here
+
+The THUxk team, Tsinghua University.
+
+## We're trying to build a better city for everyone
+
+Our mission is to provide a clean, organized, and reliable resource hub for Tsinghua students.
+- Thubook: A survival guide for navigating the campus
+- Thucourse: A community for course selection, ratings, and reviews
+
+## We use these technologies to build the city we live in
+
+- HTML5 / CSS3 / JavaScript
+- Cloudflare Pages (hosting & CDN)
+- VuePress (for Thubook documentation)
+- Python (for data processing and indexing)
+
+## This city's manual (or rulebook)
+
+- robots.txt — tells search engines how to crawl our site
+- sitemap.xml — lists all our important pages
+- CONTRIBUTING.md — guidelines for contributors
+
+## Meet the community that keeps the city running
+
+We welcome contributions, suggestions, and feedback from students and faculty.
+
+## We work hard to keep this city running smoothly
+
+Our site is updated regularly with fresh content, improved navigation,
+and enhanced features to serve the community better.
+
+## How to get in touch with the team
+
+Email: contact@thu.xk.tsinghua.edu.cn
+
+## Our pledge to you
+
+We will never spam you with unsolicited messages, violate your
+privacy, or put your personal information in any database.

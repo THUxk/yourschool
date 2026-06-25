@@ -1,0 +1,36 @@
+# robots.txt for THUxk
+# https://www.robotstxt.org/protocol.html
+
+User-agent: *
+
+# 允许抓取所有页面
+Allow: /
+
+# 抓取主要页面
+Allow: /thubook
+Allow: /thubook/*
+Allow: /thucourse
+Allow: /thucourse/*
+Allow: /course.html
+Allow: /course.html*
+
+# 禁止抓取私有/敏感目录（如果有）
+Disallow: /_*
+Disallow: /data/
+Disallow: /.git/
+
+# 爬取频率限制：每分钟最多 1 次请求
+Crawl-delay: 60
+
+# Sitemap 位置
+Sitemap: https://yourschool.com/sitemap.xml
+
+# 允许部分搜索引擎抓取特定页面
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /

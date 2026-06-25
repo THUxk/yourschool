@@ -1,0 +1,41 @@
+# Search index for THUxk
+# This file helps search engines and crawlers discover content on the site
+
+## Discoverable Content
+
+### Main Pages
+- **首页** - 欢迎页面，提供 Thubook 和 Thucourse 的入口
+- **Thubook 手册** - 清华大学生存手册，包含各种实用信息
+- **Thucourse 选课社区** - 课程评分、点评与选课经验交流
+
+### Content Structure
+- Thubook 包含多个子页面（如 about、contributing 等）
+- Thucourse 包含课程详情页面（/course.html?sqid=xxx）
+
+## SEO Keywords
+- 清华大学选课
+- 清华课程评价
+- 清华学生手册
+- 选课经验
+- 课程评分
+
+## Site Structure
+```
+/
+├── /thubook        # 手册首页
+│   ├── /about      # 关于手册
+│   ├── /contributing  # 贡献指南
+├── /thucourse     # 选课社区首页
+│   └── /course.html?sqid=xxx  # 课程详情页
+└── /course.html?sqid=xxx  # 课程详情短链接
+```
+
+## Update Frequency
+- 首页：每周更新
+- Thubook/Thucourse 主页：每月更新
+- 课程详情页：每月更新
+
+## Crawler Instructions
+- 允许抓取所有公开页面
+- 限制抓取频率为每分钟 1 次（Crawl-delay: 60）
+- 禁止抓取私有目录（/_*、/data/、/.git/）

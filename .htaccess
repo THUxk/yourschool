@@ -1,0 +1,22 @@
+# Crawler-Friendly Configuration
+# 为搜索引擎优化的 Apache 配置
+
+# 允许搜索引擎索引当前页面
+Header set X-Robots-Tag "index, follow"
+
+# 允许搜索引擎抓取 JavaScript 内容
+Header set X-Content-Type-Options "nosniff"
+
+# 启用 ETag 缓存（搜索引擎喜欢缓存）
+ETag "%{Etag}"
+
+# 设置 Content-Type 为 UTF-8
+AddDefaultCharset utf-8
+
+# 对于 robots.txt 的访问（搜索引擎需要访问）
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^robots.txt$ - [L,T=text/plain]
+RewriteRule ^sitemap\.xml$ - [L,T=application/xml]
+RewriteRule ^sitemap-index\.xml$ - [L,T=application/xml]
+</IfModule>
