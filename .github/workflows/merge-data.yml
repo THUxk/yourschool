@@ -61,6 +61,7 @@ jobs:
 
           echo -n "" > ../updated_sqids.txt
           echo "[]" > ../new_reviews_for_latest.json
+          echo "[]" > ../teacher_updates.json
           REVIEW_COUNT=0
 
           # Initialize with_comment_index.json if not exists
@@ -196,6 +197,20 @@ jobs:
             rm -f temp_new_entry.json
             echo "  -> Index updated: '$DISPLAY_KEY' (sqid=$course_sqid_str, count=$(echo "$COUNT_JSON"), avg=$(echo "$AVG_JSON"))"
 
+            # --- Track teacher file update (only when course is in full_index) ---
+            if [ -n "$FULL_COURSE_ENTRY" ]; then
+              COURSE_TID=$(echo "$FULL_COURSE_ENTRY" | jq -r '.value.tid // -1')
+              if [ "$COURSE_TID" != "null" ] && [ "$COURSE_TID" != "-1" ] && [ -n "$COURSE_TID" ]; then
+                TEACHER_UPDATE=$(jq -n \
+                  --argjson tid "$COURSE_TID" \
+                  --argjson sqid "$course_sqid_json" \
+                  --argjson count "$COUNT_JSON" \
+                  --argjson avg "$AVG_JSON" \
+                  '{tid: $tid, sqid: $sqid, count: $count, avg: $avg}')
+                jq --argjson upd "$TEACHER_UPDATE" '. += [$upd]' ../teacher_updates.json > ../temp_tu.json && mv ../temp_tu.json ../teacher_updates.json
+              fi
+            fi
+
             # --- Enrich review for reviews_latest ---
             ENRICHED_REVIEW=$(jq -n \
               --argjson original_review "$(cat "../$file")" \
@@ -221,6 +236,30 @@ jobs:
 
           echo "Final comment ID after processing: $current_max_id"
           echo $REVIEW_COUNT > ../review_count.txt
+
+          # --- Update teacher files with new count/avg ---
+          TEACHER_UPDATES=$(cat ../teacher_updates.json)
+          TEACHER_UPDATE_COUNT=$(echo "$TEACHER_UPDATES" | jq 'length')
+          echo "Teacher files to update: $TEACHER_UPDATE_COUNT"
+
+          if [ "$TEACHER_UPDATE_COUNT" -gt 0 ]; then
+            echo "$TEACHER_UPDATES" | jq -c '.[]' | while read -r update; do
+              tid=$(echo "$update" | jq -r '.tid')
+              sqid=$(echo "$update" | jq -r '.sqid')
+              count=$(echo "$update" | jq -r '.count')
+              avg=$(echo "$update" | jq -r '.avg')
+
+              teacher_file="data/teachers/${tid}.json"
+              if [ -f "$teacher_file" ]; then
+                jq --argjson sqid "$sqid" --argjson count "$count" --argjson avg "$avg" '
+                  .related_courses |= map(if .id == $sqid then .count = $count | .avg = $avg else . end)
+                ' "$teacher_file" > temp_teacher.json && mv temp_teacher.json "$teacher_file"
+                echo "  ✅ Updated teacher $tid: sqid=$sqid count=$count avg=$avg"
+              else
+                echo "  ⚠️ Teacher file not found: $teacher_file (sqid=$sqid)"
+              fi
+            done
+          fi
 
       - name: Update reviews_latest.json
         working-directory: ./main-workspace
@@ -269,7 +308,7 @@ jobs:
         working-directory: ./main-workspace
         run: |
           set -euo pipefail
-          git add data/courses/ data/with_comment_index.json data/reviews_latest.json data/manifest.json
+          git add data/courses/ data/teachers/ data/with_comment_index.json data/reviews_latest.json data/manifest.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): auto-merge reviews, update indexes, and latest feed"
             git push origin HEAD:main
