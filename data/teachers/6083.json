@@ -1,13 +1,1 @@
-{
-    "tid": "6083",
-    "name": "李渭",
-    "related_courses": [
-        {
-            "id": 25095,
-            "code": "25255",
-            "name": "大学物理B(2)",
-            "avg": 5.0,
-            "count": 2
-        }
-    ]
-}
+{"tid": "6083", "name": "\u674e\u6e2d", "related_courses": [{"id": 25095, "code": "25255", "name": "\u5927\u5b66\u7269\u7406B(2)", "avg": 5.0, "count": 2}]}

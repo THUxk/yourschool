@@ -1,13 +1,20 @@
 {
-    "tid": "7512",
-    "name": "RODINA LAURENTIU",
-    "related_courses": [
-        {
-            "id": 38184,
-            "code": "",
-            "name": "共形场论",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7512",
+  "name": "RODINA LAURENTIU",
+  "related_courses": [
+    {
+      "id": 38184,
+      "code": "",
+      "name": "共形场论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38156,
+      "code": "38155",
+      "name": "量子场论(2)",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

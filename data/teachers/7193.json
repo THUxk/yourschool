@@ -1,20 +1,27 @@
 {
-    "tid": "7193",
-    "name": "Rita Louise HOLLOWAY",
-    "related_courses": [
-        {
-            "id": 32829,
-            "code": "32991",
-            "name": "对等通信",
-            "avg": 0.0,
-            "count": 0
-        },
-        {
-            "id": 39069,
-            "code": "",
-            "name": "未来人居研究",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7193",
+  "name": "Rita Louise HOLLOWAY",
+  "related_courses": [
+    {
+      "id": 32829,
+      "code": "32991",
+      "name": "对等通信",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 39069,
+      "code": "",
+      "name": "未来人居研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37916,
+      "code": "37915",
+      "name": "建筑环境中的宣传战略",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "tid": "7852",
+  "name": "TAKASHITAKEBE",
+  "related_courses": [
+    {
+      "id": 35217,
+      "code": "35216",
+      "name": "椭圆函数",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35597,
+      "code": "35596",
+      "name": "统计力学",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

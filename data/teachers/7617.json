@@ -1,13 +1,20 @@
 {
-    "tid": "7617",
-    "name": "陈跃文",
-    "related_courses": [
-        {
-            "id": 38534,
-            "code": "",
-            "name": "常微分方程导论",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7617",
+  "name": "陈跃文",
+  "related_courses": [
+    {
+      "id": 38534,
+      "code": "",
+      "name": "常微分方程导论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38077,
+      "code": "38076",
+      "name": "分析-2",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,13 +1,1 @@
-{
-    "tid": "7015",
-    "name": "舒美",
-    "related_courses": [
-        {
-            "id": 31414,
-            "code": "31576",
-            "name": "游泳测试",
-            "avg": 5.0,
-            "count": 4
-        }
-    ]
-}
+{"tid": "7015", "name": "\u8212\u7f8e", "related_courses": [{"id": 31414, "code": "31576", "name": "\u6e38\u6cf3\u6d4b\u8bd5", "avg": 5.0, "count": 4}]}

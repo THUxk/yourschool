@@ -1,13 +1,1 @@
-{
-    "tid": "4146",
-    "name": "严京滨",
-    "related_courses": [
-        {
-            "id": 13237,
-            "code": "13244",
-            "name": "现代制造系统概论及实验",
-            "avg": 1.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "4146", "name": "\u4e25\u4eac\u6ee8", "related_courses": [{"id": 13237, "code": "13244", "name": "\u73b0\u4ee3\u5236\u9020\u7cfb\u7edf\u6982\u8bba\u53ca\u5b9e\u9a8c", "avg": 1.0, "count": 1}]}

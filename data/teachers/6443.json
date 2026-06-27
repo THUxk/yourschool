@@ -1,13 +1,1 @@
-{
-    "tid": "6443",
-    "name": "牛丽红",
-    "related_courses": [
-        {
-            "id": 27737,
-            "code": "27899",
-            "name": "大学化学实验B",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6443", "name": "\u725b\u4e3d\u7ea2", "related_courses": [{"id": 27737, "code": "27899", "name": "\u5927\u5b66\u5316\u5b66\u5b9e\u9a8cB", "avg": 5.0, "count": 1}]}

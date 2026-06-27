@@ -1,13 +1,34 @@
 {
-    "tid": "7372",
-    "name": "HELLER SEBASTIAN GREGOR",
-    "related_courses": [
-        {
-            "id": 34294,
-            "code": "34456",
-            "name": "复分析",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7372",
+  "name": "HELLER SEBASTIAN GREGOR",
+  "related_courses": [
+    {
+      "id": 34294,
+      "code": "34456",
+      "name": "复分析",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35589,
+      "code": "35588",
+      "name": "拓扑学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36497,
+      "code": "36496",
+      "name": "黎曼曲面导论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37956,
+      "code": "37955",
+      "name": "分析-0",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,13 +1,1 @@
-{
-    "tid": "1042",
-    "name": "李成晴",
-    "related_courses": [
-        {
-            "id": 1341,
-            "code": "1340",
-            "name": "写作与沟通",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "1042", "name": "\u674e\u6210\u6674", "related_courses": [{"id": 1341, "code": "1340", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 5.0, "count": 1}]}

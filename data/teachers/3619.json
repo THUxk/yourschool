@@ -1,13 +1,20 @@
 {
-    "tid": "3619",
-    "name": "杜婧",
-    "related_courses": [
-        {
-            "id": 25005,
-            "code": "25165",
-            "name": "科技英语实践课",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "3619",
+  "name": "杜婧",
+  "related_courses": [
+    {
+      "id": 25005,
+      "code": "25165",
+      "name": "科技英语实践课",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 34816,
+      "code": "34815",
+      "name": "从分子到人体&mdash;&mdash;多尺度生物力学",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

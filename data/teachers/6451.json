@@ -1,13 +1,1 @@
-{
-    "tid": "6451",
-    "name": "陈豪",
-    "related_courses": [
-        {
-            "id": 27755,
-            "code": "27917",
-            "name": "写作与沟通",
-            "avg": 4.916666666666667,
-            "count": 12
-        }
-    ]
-}
+{"tid": "6451", "name": "\u9648\u8c6a", "related_courses": [{"id": 27755, "code": "27917", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 4.9, "count": 12}]}

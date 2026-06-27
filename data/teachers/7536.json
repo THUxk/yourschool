@@ -1,13 +1,20 @@
 {
-    "tid": "7536",
-    "name": "JOHANSSON PER JOHAN ANDERS",
-    "related_courses": [
-        {
-            "id": 38208,
-            "code": "",
-            "name": "高等回归方法",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7536",
+  "name": "JOHANSSON PER JOHAN ANDERS",
+  "related_courses": [
+    {
+      "id": 38208,
+      "code": "",
+      "name": "高等回归方法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38188,
+      "code": "38187",
+      "name": "因果推断",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

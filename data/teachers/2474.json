@@ -1,13 +1,1 @@
-{
-    "tid": "2474",
-    "name": "曹立波",
-    "related_courses": [
-        {
-            "id": 4438,
-            "code": "4437",
-            "name": "《红楼梦》导读",
-            "avg": 4.5,
-            "count": 2
-        }
-    ]
-}
+{"tid": "2474", "name": "\u66f9\u7acb\u6ce2", "related_courses": [{"id": 4438, "code": "4437", "name": "\u300a\u7ea2\u697c\u68a6\u300b\u5bfc\u8bfb", "avg": 4.5, "count": 2}]}

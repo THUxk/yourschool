@@ -1,13 +1,27 @@
 {
-    "tid": "7373",
-    "name": "Vlaar Bart Hendrik Maarten",
-    "related_courses": [
-        {
-            "id": 34296,
-            "code": "34458",
-            "name": "理论力学",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7373",
+  "name": "Vlaar Bart Hendrik Maarten",
+  "related_courses": [
+    {
+      "id": 34296,
+      "code": "34458",
+      "name": "理论力学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35919,
+      "code": "35918",
+      "name": "卡茨-穆迪代数",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36736,
+      "code": "36735",
+      "name": "数学物理专题",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

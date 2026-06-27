@@ -1,13 +1,1 @@
-{
-    "tid": "3249",
-    "name": "朱孝远",
-    "related_courses": [
-        {
-            "id": 7876,
-            "code": "7875",
-            "name": "西方文明",
-            "avg": 2.3333333333333335,
-            "count": 3
-        }
-    ]
-}
+{"tid": "3249", "name": "\u6731\u5b5d\u8fdc", "related_courses": [{"id": 7876, "code": "7875", "name": "\u897f\u65b9\u6587\u660e", "avg": 2.3, "count": 3}]}

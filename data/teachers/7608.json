@@ -1,13 +1,1 @@
-{
-    "tid": "7608",
-    "name": "郭梦柯",
-    "related_courses": [
-        {
-            "id": 38503,
-            "code": "",
-            "name": "英语听说交流(B)",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
-}
+{"tid": "7608", "name": "\u90ed\u68a6\u67ef", "related_courses": [{"id": 38503, "code": "", "name": "\u82f1\u8bed\u542c\u8bf4\u4ea4\u6d41(B)", "avg": 0.0, "count": 0}, {"id": 37173, "code": "37172", "name": "\u82f1\u8bed\u9605\u8bfb\u5199\u4f5c(A)", "avg": 5, "count": 1}]}

@@ -1,13 +1,1 @@
-{
-    "tid": "63",
-    "name": "程京",
-    "related_courses": [
-        {
-            "id": 65,
-            "code": "64",
-            "name": "转化医学工程",
-            "avg": 4.0,
-            "count": 2
-        }
-    ]
-}
+{"tid": "63", "name": "\u7a0b\u4eac", "related_courses": [{"id": 65, "code": "64", "name": "\u8f6c\u5316\u533b\u5b66\u5de5\u7a0b", "avg": 4.0, "count": 2}]}

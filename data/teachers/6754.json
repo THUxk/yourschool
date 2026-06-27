@@ -1,13 +1,1 @@
-{
-    "tid": "6754",
-    "name": "朱杰",
-    "related_courses": [
-        {
-            "id": 29919,
-            "code": "30081",
-            "name": "卫生与保健",
-            "avg": 4.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6754", "name": "\u6731\u6770", "related_courses": [{"id": 29919, "code": "30081", "name": "\u536b\u751f\u4e0e\u4fdd\u5065", "avg": 4.5, "count": 2}]}

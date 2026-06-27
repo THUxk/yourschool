@@ -1,13 +1,1 @@
-{
-    "tid": "7001",
-    "name": "赵开春",
-    "related_courses": [
-        {
-            "id": 31350,
-            "code": "31512",
-            "name": "宇航技术的发展与微小卫星",
-            "avg": 4.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "7001", "name": "\u8d75\u5f00\u6625", "related_courses": [{"id": 31350, "code": "31512", "name": "\u5b87\u822a\u6280\u672f\u7684\u53d1\u5c55\u4e0e\u5fae\u5c0f\u536b\u661f", "avg": 4.0, "count": 1}]}

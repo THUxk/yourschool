@@ -1,13 +1,20 @@
 {
-    "tid": "7545",
-    "name": "LIU JUN",
-    "related_courses": [
-        {
-            "id": 38217,
-            "code": "",
-            "name": "高等统计选讲(III)",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7545",
+  "name": "LIU JUN",
+  "related_courses": [
+    {
+      "id": 38217,
+      "code": "",
+      "name": "高等统计选讲(III)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38141,
+      "code": "38140",
+      "name": "高等统计选讲(I)",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

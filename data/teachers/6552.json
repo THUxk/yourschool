@@ -1,13 +1,1 @@
-{
-    "tid": "6552",
-    "name": "胡恒",
-    "related_courses": [
-        {
-            "id": 28606,
-            "code": "28768",
-            "name": "中国历史地理",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6552", "name": "\u80e1\u6052", "related_courses": [{"id": 28606, "code": "28768", "name": "\u4e2d\u56fd\u5386\u53f2\u5730\u7406", "avg": 5.0, "count": 1}]}

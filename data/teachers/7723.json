@@ -1,13 +1,27 @@
 {
-    "tid": "7723",
-    "name": "KIMYEONG LEE",
-    "related_courses": [
-        {
-            "id": 39049,
-            "code": "",
-            "name": "弦理论",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7723",
+  "name": "KIMYEONG LEE",
+  "related_courses": [
+    {
+      "id": 39049,
+      "code": "",
+      "name": "弦理论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38167,
+      "code": "38166",
+      "name": "统计力学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38173,
+      "code": "38172",
+      "name": "量子力学",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

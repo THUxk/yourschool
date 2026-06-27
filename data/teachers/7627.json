@@ -1,13 +1,20 @@
 {
-    "tid": "7627",
-    "name": "唐宸",
-    "related_courses": [
-        {
-            "id": 38594,
-            "code": "",
-            "name": "中国古典文献学",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7627",
+  "name": "唐宸",
+  "related_courses": [
+    {
+      "id": 38594,
+      "code": "",
+      "name": "中国古典文献学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37845,
+      "code": "37844",
+      "name": "数字文献学",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,13 +1,1 @@
-{
-    "tid": "6769",
-    "name": "汪忠",
-    "related_courses": [
-        {
-            "id": 30029,
-            "code": "30191",
-            "name": "数学物理方程",
-            "avg": 5.0,
-            "count": 3
-        }
-    ]
-}
+{"tid": "6769", "name": "\u6c6a\u5fe0", "related_courses": [{"id": 30029, "code": "30191", "name": "\u6570\u5b66\u7269\u7406\u65b9\u7a0b", "avg": 5.0, "count": 3}]}

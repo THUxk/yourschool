@@ -1,13 +1,1 @@
-{
-    "tid": "6657",
-    "name": "赵冬梅",
-    "related_courses": [
-        {
-            "id": 29283,
-            "code": "29445",
-            "name": "中国古代社会生活史专题",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6657", "name": "\u8d75\u51ac\u6885", "related_courses": [{"id": 29283, "code": "29445", "name": "\u4e2d\u56fd\u53e4\u4ee3\u793e\u4f1a\u751f\u6d3b\u53f2\u4e13\u9898", "avg": 5.0, "count": 1}]}

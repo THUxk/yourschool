@@ -1,0 +1,20 @@
+{
+  "tid": "7805",
+  "name": "KIMYEONGLEE",
+  "related_courses": [
+    {
+      "id": 36112,
+      "code": "36111",
+      "name": "统计力学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36363,
+      "code": "36362",
+      "name": "量子力学",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

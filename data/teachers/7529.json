@@ -1,13 +1,20 @@
 {
-    "tid": "7529",
-    "name": "Yongchang Zhu",
-    "related_courses": [
-        {
-            "id": 38201,
-            "code": "",
-            "name": "代数-2",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7529",
+  "name": "Yongchang Zhu",
+  "related_courses": [
+    {
+      "id": 38201,
+      "code": "",
+      "name": "代数-2",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38908,
+      "code": "38907",
+      "name": "李群和李代数",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

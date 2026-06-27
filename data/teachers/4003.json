@@ -1,13 +1,27 @@
 {
-    "tid": "4003",
-    "name": "隋洁",
-    "related_courses": [
-        {
-            "id": 12427,
-            "code": "12428",
-            "name": "文化神经科学",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "4003",
+  "name": "隋洁",
+  "related_courses": [
+    {
+      "id": 12427,
+      "code": "12428",
+      "name": "文化神经科学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 34829,
+      "code": "34828",
+      "name": "社会认知与脑&mdash;&mdash;初级",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35078,
+      "code": "35077",
+      "name": "社会认知与脑&mdash;&mdash;高级",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

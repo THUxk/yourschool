@@ -1,0 +1,20 @@
+{
+  "tid": "7942",
+  "name": "JOHANSSONPERJOHANANDERS",
+  "related_courses": [
+    {
+      "id": 36748,
+      "code": "36747",
+      "name": "因果推断",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37743,
+      "code": "37742",
+      "name": "高等回归方法",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

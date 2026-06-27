@@ -1,13 +1,1 @@
-{
-    "tid": "7360",
-    "name": "高慧娟",
-    "related_courses": [
-        {
-            "id": 34127,
-            "code": "34289",
-            "name": "形意运动与健康",
-            "avg": 5.0,
-            "count": 2
-        }
-    ]
-}
+{"tid": "7360", "name": "\u9ad8\u6167\u5a1f", "related_courses": [{"id": 37884, "code": "37883", "name": "\u4e2d\u533b\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 34127, "code": "34289", "name": "\u5f62\u610f\u8fd0\u52a8\u4e0e\u5065\u5eb7", "avg": 5.0, "count": 1}]}

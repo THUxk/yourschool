@@ -1,13 +1,1 @@
-{
-    "tid": "6646",
-    "name": "石智丹",
-    "related_courses": [
-        {
-            "id": 29200,
-            "code": "29362",
-            "name": "党的知识概论",
-            "avg": 4.5,
-            "count": 2
-        }
-    ]
-}
+{"tid": "6646", "name": "\u77f3\u667a\u4e39", "related_courses": [{"id": 29200, "code": "29362", "name": "\u515a\u7684\u77e5\u8bc6\u6982\u8bba", "avg": 4.5, "count": 2}]}

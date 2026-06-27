@@ -1,13 +1,20 @@
 {
-    "tid": "7465",
-    "name": "TAKASHI TAKEBE",
-    "related_courses": [
-        {
-            "id": 38137,
-            "code": "",
-            "name": "椭圆函数",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7465",
+  "name": "TAKASHI TAKEBE",
+  "related_courses": [
+    {
+      "id": 38137,
+      "code": "",
+      "name": "椭圆函数",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38147,
+      "code": "38146",
+      "name": "统计力学",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

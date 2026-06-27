@@ -1,0 +1,27 @@
+{
+  "tid": "7940",
+  "name": "SergeiOblezin",
+  "related_courses": [
+    {
+      "id": 35296,
+      "code": "35295",
+      "name": "表示论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35735,
+      "code": "35734",
+      "name": "实数群的表示",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36743,
+      "code": "36742",
+      "name": "代数与数论专题(3)",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

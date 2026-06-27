@@ -1,13 +1,1 @@
-{
-    "tid": "6744",
-    "name": "陈章",
-    "related_courses": [
-        {
-            "id": 29876,
-            "code": "30038",
-            "name": "智能机器人初探",
-            "avg": 4.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6744", "name": "\u9648\u7ae0", "related_courses": [{"id": 35648, "code": "35647", "name": "\u4ea4\u53c9\u9879\u76ee\u8bad\u7ec3(1)-\u667a\u80fd\u673a\u5668\u4eba", "avg": 0.0, "count": 0}, {"id": 29876, "code": "30038", "name": "\u667a\u80fd\u673a\u5668\u4eba\u521d\u63a2", "avg": 4.0, "count": 1}]}

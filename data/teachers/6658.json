@@ -1,13 +1,1 @@
-{
-    "tid": "6658",
-    "name": "冯伟",
-    "related_courses": [
-        {
-            "id": 29296,
-            "code": "29458",
-            "name": "数据与算法",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6658", "name": "\u51af\u4f1f", "related_courses": [{"id": 36940, "code": "36939", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 29296, "code": "29458", "name": "\u6570\u636e\u4e0e\u7b97\u6cd5", "avg": 5.0, "count": 1}]}

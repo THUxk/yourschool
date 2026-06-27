@@ -1,13 +1,20 @@
 {
-    "tid": "7546",
-    "name": "Artane J&eacute;r&eacute;mie Siad",
-    "related_courses": [
-        {
-            "id": 38218,
-            "code": "",
-            "name": "代数-0",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7546",
+  "name": "Artane J&eacute;r&eacute;mie Siad",
+  "related_courses": [
+    {
+      "id": 38218,
+      "code": "",
+      "name": "代数-0",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38510,
+      "code": "38509",
+      "name": "代数-1",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

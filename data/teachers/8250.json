@@ -1,0 +1,20 @@
+{
+  "tid": "8250",
+  "name": "HansEmilOscarMickelin",
+  "related_courses": [
+    {
+      "id": 37892,
+      "code": "37891",
+      "name": "应用数学专题(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37985,
+      "code": "37984",
+      "name": "数值分析",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

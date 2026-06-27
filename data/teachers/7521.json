@@ -1,13 +1,27 @@
 {
-    "tid": "7521",
-    "name": "ZHANG XIAOPING",
-    "related_courses": [
-        {
-            "id": 38193,
-            "code": "",
-            "name": "能源环境与数据信息概论",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7521",
+  "name": "ZHANG XIAOPING",
+  "related_courses": [
+    {
+      "id": 38193,
+      "code": "",
+      "name": "能源环境与数据信息概论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38206,
+      "code": "38205",
+      "name": "交叉创新实践课&mdash;&mdash;智慧城市创新应用",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38853,
+      "code": "38852",
+      "name": "创新创业前沿讲座",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

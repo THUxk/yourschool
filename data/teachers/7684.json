@@ -1,13 +1,20 @@
 {
-    "tid": "7684",
-    "name": "焦骏鹏",
-    "related_courses": [
-        {
-            "id": 38905,
-            "code": "",
-            "name": "代数几何(1)",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7684",
+  "name": "焦骏鹏",
+  "related_courses": [
+    {
+      "id": 38905,
+      "code": "",
+      "name": "代数几何(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37744,
+      "code": "37743",
+      "name": "代数簇",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "tid": "7943",
+  "name": "KHANINKONSTANTIN",
+  "related_courses": [
+    {
+      "id": 36749,
+      "code": "36748",
+      "name": "遍历论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37977,
+      "code": "37976",
+      "name": "动力系统专题",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

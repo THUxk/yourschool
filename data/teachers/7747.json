@@ -1,13 +1,20 @@
 {
-    "tid": "7747",
-    "name": "王曦影",
-    "related_courses": [
-        {
-            "id": 39104,
-            "code": "",
-            "name": "教育质性研究",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7747",
+  "name": "王曦影",
+  "related_courses": [
+    {
+      "id": 39104,
+      "code": "",
+      "name": "教育质性研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35813,
+      "code": "35812",
+      "name": "质性教育研究方法(II)",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

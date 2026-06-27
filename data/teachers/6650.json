@@ -1,13 +1,1 @@
-{
-    "tid": "6650",
-    "name": "段昊泓",
-    "related_courses": [
-        {
-            "id": 29229,
-            "code": "29391",
-            "name": "化学原理",
-            "avg": 4.0,
-            "count": 2
-        }
-    ]
-}
+{"tid": "6650", "name": "\u6bb5\u660a\u6cd3", "related_courses": [{"id": 29229, "code": "29391", "name": "\u5316\u5b66\u539f\u7406", "avg": 4.0, "count": 2}]}

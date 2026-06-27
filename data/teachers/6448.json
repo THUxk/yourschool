@@ -1,13 +1,1 @@
-{
-    "tid": "6448",
-    "name": "王沛楠",
-    "related_courses": [
-        {
-            "id": 27748,
-            "code": "27910",
-            "name": "写作与沟通",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6448", "name": "\u738b\u6c9b\u6960", "related_courses": [{"id": 27748, "code": "27910", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 5.0, "count": 1}]}

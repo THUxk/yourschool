@@ -1,13 +1,20 @@
 {
-    "tid": "7558",
-    "name": "邹雪妍",
-    "related_courses": [
-        {
-            "id": 38288,
-            "code": "",
-            "name": "AI实践基石",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7558",
+  "name": "邹雪妍",
+  "related_courses": [
+    {
+      "id": 38288,
+      "code": "",
+      "name": "AI实践基石",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37565,
+      "code": "37564",
+      "name": "深度学习",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

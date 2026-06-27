@@ -1,13 +1,27 @@
 {
-    "tid": "7720",
-    "name": "Hans Emil Oscar Mickelin",
-    "related_courses": [
-        {
-            "id": 39046,
-            "code": "",
-            "name": "应用数学专题",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7720",
+  "name": "Hans Emil Oscar Mickelin",
+  "related_courses": [
+    {
+      "id": 39046,
+      "code": "",
+      "name": "应用数学专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38214,
+      "code": "38213",
+      "name": "应用数学专题(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38220,
+      "code": "38219",
+      "name": "数值分析",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

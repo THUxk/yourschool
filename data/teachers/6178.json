@@ -1,13 +1,1 @@
-{
-    "tid": "6178",
-    "name": "包茂红",
-    "related_courses": [
-        {
-            "id": 25907,
-            "code": "26069",
-            "name": "简明世界环境史",
-            "avg": 4.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6178", "name": "\u5305\u8302\u7ea2", "related_courses": [{"id": 25907, "code": "26069", "name": "\u7b80\u660e\u4e16\u754c\u73af\u5883\u53f2", "avg": 4.0, "count": 1}]}

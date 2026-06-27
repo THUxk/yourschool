@@ -1,13 +1,1 @@
-{
-    "tid": "2279",
-    "name": "章宏伟",
-    "related_courses": [
-        {
-            "id": 3836,
-            "code": "3835",
-            "name": "故宫学",
-            "avg": 5.0,
-            "count": 4
-        }
-    ]
-}
+{"tid": "2279", "name": "\u7ae0\u5b8f\u4f1f", "related_courses": [{"id": 3836, "code": "3835", "name": "\u6545\u5bab\u5b66", "avg": 5.0, "count": 4}]}

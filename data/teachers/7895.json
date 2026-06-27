@@ -1,0 +1,20 @@
+{
+  "tid": "7895",
+  "name": "谢海华",
+  "related_courses": [
+    {
+      "id": 36592,
+      "code": "36591",
+      "name": "面向数据和计算的Python编程",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37905,
+      "code": "37904",
+      "name": "基于Python的机器学习实践",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

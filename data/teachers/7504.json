@@ -1,13 +1,20 @@
 {
-    "tid": "7504",
-    "name": "QINGHUA LIU",
-    "related_courses": [
-        {
-            "id": 38176,
-            "code": "",
-            "name": "生命科学新视野：生理讲座",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7504",
+  "name": "QINGHUA LIU",
+  "related_courses": [
+    {
+      "id": 38176,
+      "code": "",
+      "name": "生命科学新视野：生理讲座",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38150,
+      "code": "38149",
+      "name": "生命科学新视野：生理研讨",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

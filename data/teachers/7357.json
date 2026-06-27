@@ -1,13 +1,1 @@
-{
-    "tid": "7357",
-    "name": "刘佳峰",
-    "related_courses": [
-        {
-            "id": 34124,
-            "code": "34286",
-            "name": "客从何处来-进化和演化",
-            "avg": 5.0,
-            "count": 3
-        }
-    ]
-}
+{"tid": "7357", "name": "\u5218\u4f73\u5cf0", "related_courses": [{"id": 34124, "code": "34286", "name": "\u5ba2\u4ece\u4f55\u5904\u6765-\u8fdb\u5316\u548c\u6f14\u5316", "avg": 5.0, "count": 3}]}

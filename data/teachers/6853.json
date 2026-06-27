@@ -1,13 +1,1 @@
-{
-    "tid": "6853",
-    "name": "孙永平",
-    "related_courses": [
-        {
-            "id": 30485,
-            "code": "30647",
-            "name": "现代科学哲学概论",
-            "avg": 3.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6853", "name": "\u5b59\u6c38\u5e73", "related_courses": [{"id": 30485, "code": "30647", "name": "\u73b0\u4ee3\u79d1\u5b66\u54f2\u5b66\u6982\u8bba", "avg": 3.0, "count": 1}]}

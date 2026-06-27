@@ -1,13 +1,20 @@
 {
-    "tid": "7547",
-    "name": "KHANIN KONSTANTIN",
-    "related_courses": [
-        {
-            "id": 38219,
-            "code": "",
-            "name": "动力系统专题",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7547",
+  "name": "KHANIN KONSTANTIN",
+  "related_courses": [
+    {
+      "id": 38219,
+      "code": "",
+      "name": "动力系统专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38189,
+      "code": "38188",
+      "name": "遍历论",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

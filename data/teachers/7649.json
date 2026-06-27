@@ -1,13 +1,27 @@
 {
-    "tid": "7649",
-    "name": "彭镜夫",
-    "related_courses": [
-        {
-            "id": 38790,
-            "code": "",
-            "name": "统计推断",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7649",
+  "name": "彭镜夫",
+  "related_courses": [
+    {
+      "id": 38790,
+      "code": "",
+      "name": "统计推断",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36923,
+      "code": "36922",
+      "name": "思政实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37523,
+      "code": "37522",
+      "name": "分析-2(AI)",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

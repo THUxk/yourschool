@@ -1,13 +1,1 @@
-{
-    "tid": "514",
-    "name": "杨玲",
-    "related_courses": [
-        {
-            "id": 611,
-            "code": "610",
-            "name": "图书馆概论",
-            "avg": 4.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "514", "name": "\u6768\u73b2", "related_courses": [{"id": 611, "code": "610", "name": "\u56fe\u4e66\u9986\u6982\u8bba", "avg": 4.0, "count": 1}]}

@@ -1,13 +1,20 @@
 {
-    "tid": "6269",
-    "name": "KARUNAKARA UNNI KRISHNAN",
-    "related_courses": [
-        {
-            "id": 33437,
-            "code": "33599",
-            "name": "民间社会中的领导力实践：后自由时代的跨国界合作",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "6269",
+  "name": "KARUNAKARA UNNI KRISHNAN",
+  "related_courses": [
+    {
+      "id": 33437,
+      "code": "33599",
+      "name": "民间社会中的领导力实践：后自由时代的跨国界合作",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35088,
+      "code": "35087",
+      "name": "&ldquo;无国界医生&rdquo;中的领导力实践",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

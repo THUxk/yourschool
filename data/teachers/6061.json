@@ -1,13 +1,1 @@
-{
-    "tid": "6061",
-    "name": "彭良瑞",
-    "related_courses": [
-        {
-            "id": 24889,
-            "code": "25049",
-            "name": "媒体与认知",
-            "avg": 3.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6061", "name": "\u5f6d\u826f\u745e", "related_courses": [{"id": 24889, "code": "25049", "name": "\u5a92\u4f53\u4e0e\u8ba4\u77e5", "avg": 3.0, "count": 1}]}

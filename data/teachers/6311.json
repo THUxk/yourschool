@@ -1,13 +1,1 @@
-{
-    "tid": "6311",
-    "name": "王晋炜",
-    "related_courses": [
-        {
-            "id": 26799,
-            "code": "26961",
-            "name": "西班牙语（第二外国语）（1）",
-            "avg": 4.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6311", "name": "\u738b\u664b\u709c", "related_courses": [{"id": 26799, "code": "26961", "name": "\u897f\u73ed\u7259\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff081\uff09", "avg": 4.0, "count": 1}]}

@@ -1,0 +1,20 @@
+{
+  "tid": "7774",
+  "name": "RODINALAURENTIU",
+  "related_courses": [
+    {
+      "id": 35920,
+      "code": "35919",
+      "name": "量子场论(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36738,
+      "code": "36737",
+      "name": "共形场论",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

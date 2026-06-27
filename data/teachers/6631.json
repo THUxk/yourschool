@@ -1,13 +1,1 @@
-{
-    "tid": "6631",
-    "name": "朱成礼",
-    "related_courses": [
-        {
-            "id": 29073,
-            "code": "29235",
-            "name": "计算机程序设计实践",
-            "avg": 5.0,
-            "count": 2
-        }
-    ]
-}
+{"tid": "6631", "name": "\u6731\u6210\u793c", "related_courses": [{"id": 29073, "code": "29235", "name": "\u8ba1\u7b97\u673a\u7a0b\u5e8f\u8bbe\u8ba1\u5b9e\u8df5", "avg": 5.0, "count": 2}]}

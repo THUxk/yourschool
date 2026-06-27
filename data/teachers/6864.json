@@ -1,13 +1,1 @@
-{
-    "tid": "6864",
-    "name": "喻国灿",
-    "related_courses": [
-        {
-            "id": 30537,
-            "code": "30699",
-            "name": "大学化学B",
-            "avg": 5.0,
-            "count": 2
-        }
-    ]
-}
+{"tid": "6864", "name": "\u55bb\u56fd\u707f", "related_courses": [{"id": 30537, "code": "30699", "name": "\u5927\u5b66\u5316\u5b66B", "avg": 5.0, "count": 2}]}

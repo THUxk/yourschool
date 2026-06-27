@@ -1,13 +1,20 @@
 {
-    "tid": "7646",
-    "name": "金华清",
-    "related_courses": [
-        {
-            "id": 38772,
-            "code": "",
-            "name": "蒙特卡洛方法",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7646",
+  "name": "金华清",
+  "related_courses": [
+    {
+      "id": 38772,
+      "code": "",
+      "name": "蒙特卡洛方法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37923,
+      "code": "37922",
+      "name": "高等统计选讲(I)",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

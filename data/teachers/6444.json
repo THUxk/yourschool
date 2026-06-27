@@ -1,13 +1,1 @@
-{
-    "tid": "6444",
-    "name": "李治中",
-    "related_courses": [
-        {
-            "id": 27739,
-            "code": "27901",
-            "name": "癌症与社会",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6444", "name": "\u674e\u6cbb\u4e2d", "related_courses": [{"id": 27739, "code": "27901", "name": "\u764c\u75c7\u4e0e\u793e\u4f1a", "avg": 5.0, "count": 1}]}

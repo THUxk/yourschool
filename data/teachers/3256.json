@@ -1,13 +1,20 @@
 {
-    "tid": "3256",
-    "name": "TEY MENG KHOON",
-    "related_courses": [
-        {
-            "id": 7907,
-            "code": "7906",
-            "name": "原子分子物理",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "3256",
+  "name": "TEY MENG KHOON",
+  "related_courses": [
+    {
+      "id": 7907,
+      "code": "7906",
+      "name": "原子分子物理",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37467,
+      "code": "37466",
+      "name": "原子分子物理概论",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

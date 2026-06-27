@@ -1,0 +1,20 @@
+{
+  "tid": "7813",
+  "name": "CEZARLUPU",
+  "related_courses": [
+    {
+      "id": 36147,
+      "code": "36146",
+      "name": "数学解题方法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36367,
+      "code": "36366",
+      "name": "解析数论",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

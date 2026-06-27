@@ -1,13 +1,1 @@
-{
-    "tid": "7135",
-    "name": "林朝阳",
-    "related_courses": [
-        {
-            "id": 32279,
-            "code": "32441",
-            "name": "化学原理",
-            "avg": 5.0,
-            "count": 4
-        }
-    ]
-}
+{"tid": "7135", "name": "\u6797\u671d\u9633", "related_courses": [{"id": 32279, "code": "32441", "name": "\u5316\u5b66\u539f\u7406", "avg": 5.0, "count": 4}]}

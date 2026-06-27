@@ -1,13 +1,1 @@
-{
-    "tid": "6884",
-    "name": "黄崧",
-    "related_courses": [
-        {
-            "id": 30683,
-            "code": "30845",
-            "name": "观测天文学",
-            "avg": 5.0,
-            "count": 1
-        }
-    ]
-}
+{"tid": "6884", "name": "\u9ec4\u5d27", "related_courses": [{"id": 30683, "code": "30845", "name": "\u89c2\u6d4b\u5929\u6587\u5b66", "avg": 5.0, "count": 1}]}

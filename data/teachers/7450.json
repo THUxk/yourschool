@@ -1,13 +1,20 @@
 {
-    "tid": "7450",
-    "name": "CHEN DAOYI",
-    "related_courses": [
-        {
-            "id": 38122,
-            "code": "",
-            "name": "出海实践",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7450",
+  "name": "CHEN DAOYI",
+  "related_courses": [
+    {
+      "id": 38122,
+      "code": "",
+      "name": "出海实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38124,
+      "code": "38123",
+      "name": "渗流力学与应用",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

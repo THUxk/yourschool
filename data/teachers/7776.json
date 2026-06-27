@@ -1,0 +1,27 @@
+{
+  "tid": "7776",
+  "name": "FUKAYAKENJI",
+  "related_courses": [
+    {
+      "id": 35930,
+      "code": "35929",
+      "name": "伪全纯曲线简介",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36744,
+      "code": "36743",
+      "name": "导出范畴专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37896,
+      "code": "37895",
+      "name": "辛几何",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}

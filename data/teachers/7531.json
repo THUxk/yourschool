@@ -1,13 +1,20 @@
 {
-    "tid": "7531",
-    "name": "LI XINYU",
-    "related_courses": [
-        {
-            "id": 38203,
-            "code": "",
-            "name": "天体物理中的数量级估计",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7531",
+  "name": "LI XINYU",
+  "related_courses": [
+    {
+      "id": 38203,
+      "code": "",
+      "name": "天体物理中的数量级估计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38962,
+      "code": "38961",
+      "name": "理论天体物理专题",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

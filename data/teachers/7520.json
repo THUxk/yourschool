@@ -1,13 +1,27 @@
 {
-    "tid": "7520",
-    "name": "WONG TIEN YIN",
-    "related_courses": [
-        {
-            "id": 38192,
-            "code": "",
-            "name": "医学人工智能",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7520",
+  "name": "WONG TIEN YIN",
+  "related_courses": [
+    {
+      "id": 38192,
+      "code": "",
+      "name": "医学人工智能",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38162,
+      "code": "38161",
+      "name": "眼科学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38204,
+      "code": "38203",
+      "name": "医学人工智能基础与实践",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,13 +1,20 @@
 {
-    "tid": "7498",
-    "name": "CEZAR LUPU",
-    "related_courses": [
-        {
-            "id": 38170,
-            "code": "",
-            "name": "数学解题方法",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7498",
+  "name": "CEZAR LUPU",
+  "related_courses": [
+    {
+      "id": 38170,
+      "code": "",
+      "name": "数学解题方法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38174,
+      "code": "38173",
+      "name": "解析数论",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

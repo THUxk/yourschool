@@ -1,13 +1,41 @@
 {
-    "tid": "7488",
-    "name": "MARKOVIC VLADIMIR",
-    "related_courses": [
-        {
-            "id": 38160,
-            "code": "",
-            "name": "泰西米勒理论(2)",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7488",
+  "name": "MARKOVIC VLADIMIR",
+  "related_courses": [
+    {
+      "id": 38160,
+      "code": "",
+      "name": "泰西米勒理论(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38142,
+      "code": "38141",
+      "name": "泰西米勒理论(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38191,
+      "code": "38190",
+      "name": "拟共形映射与泰西米勒空间简介",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38216,
+      "code": "38215",
+      "name": "双曲几何和泰西米勒空间简介",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 39061,
+      "code": "39060",
+      "name": "调和与极小映射简介",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

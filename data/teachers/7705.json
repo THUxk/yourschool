@@ -1,13 +1,20 @@
 {
-    "tid": "7705",
-    "name": "LAMB ALEXANDER MATTHEW",
-    "related_courses": [
-        {
-            "id": 39020,
-            "code": "",
-            "name": "世界模型、探索与行动",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7705",
+  "name": "LAMB ALEXANDER MATTHEW",
+  "related_courses": [
+    {
+      "id": 39020,
+      "code": "",
+      "name": "世界模型、探索与行动",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38202,
+      "code": "38201",
+      "name": "自监督深度学习",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

@@ -1,20 +1,27 @@
 {
-    "tid": "3913",
-    "name": "Thomas Piachand",
-    "related_courses": [
-        {
-            "id": 24779,
-            "code": "24936",
-            "name": "英语口语(2)",
-            "avg": 0.0,
-            "count": 0
-        },
-        {
-            "id": 12034,
-            "code": "12035",
-            "name": "英语报刊选读",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "3913",
+  "name": "Thomas Piachand",
+  "related_courses": [
+    {
+      "id": 24779,
+      "code": "24936",
+      "name": "英语口语(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 12034,
+      "code": "12035",
+      "name": "英语报刊选读",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 34827,
+      "code": "34826",
+      "name": "学术英语专项技能&mdash;&mdash;批判性思维",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

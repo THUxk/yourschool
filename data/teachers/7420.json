@@ -1,13 +1,20 @@
 {
-    "tid": "7420",
-    "name": "徐锋军",
-    "related_courses": [
-        {
-            "id": 34770,
-            "code": "34932",
-            "name": "量子物理",
-            "avg": 0.0,
-            "count": 0
-        }
-    ]
+  "tid": "7420",
+  "name": "徐锋军",
+  "related_courses": [
+    {
+      "id": 34770,
+      "code": "34932",
+      "name": "量子物理",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37901,
+      "code": "37900",
+      "name": "弦理论II",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
 }

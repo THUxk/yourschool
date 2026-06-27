@@ -1,0 +1,20 @@
+{
+  "tid": "7760",
+  "name": "CHENDAOYI",
+  "related_courses": [
+    {
+      "id": 35119,
+      "code": "35118",
+      "name": "出海实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35122,
+      "code": "35121",
+      "name": "渗流力学与应用",
+      "avg": 0.0,
+      "count": 0
+    }
+  ]
+}
