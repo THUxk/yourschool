@@ -1,5 +1,5 @@
 {
-  "count": 1,
+  "count": 2,
   "next": null,
   "previous": null,
   "results": [
@@ -8,6 +8,13 @@
       "rating": 1,
       "comment": "考核方式：\n\n授课质量与给分：\n💩\n点评人：\n\n上课学期：",
       "created_at": "2025/06/27 17:26",
+      "score": null
+    },
+    {
+      "id": 3558,
+      "rating": 4,
+      "comment": "考核方式：三种拳法、三种腿法，六种摔法选两种。\n              \n授课质量与给分：老师很有意思。前几周学拳法可能会打破手。\n              \n点评人：H\n              \n上课学期：26秋",
+      "created_at": "2026/07/03 19:09",
       "score": null
     }
   ]
