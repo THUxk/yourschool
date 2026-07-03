@@ -1,5 +1,17 @@
 [
   {
+    "id": 3534,
+    "course": {
+      "id": 29244
+    },
+    "rating": 5,
+    "comment": "考核方式：平时作业30+两次小班讨论30+期末开卷考试40\n              \n授课质量与给分：会随机点名\n              \n点评人：lcgw\n              \n上课学期：大一上\n\n会提前发期末考试题（一道简答一道论述）往年题拟合度高",
+    "created_at": "2026/07/03 17:51",
+    "score": "4.0",
+    "_course_name": "思想道德与法治",
+    "_course_teacher": "戴木才"
+  },
+  {
     "id": 3533,
     "course": {
       "id": 1332
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "写作与沟通",
     "_course_teacher": "贾雯旭"
-  },
-  {
-    "id": 3434,
-    "course": {
-      "id": 31093
-    },
-    "rating": 5,
-    "comment": "考核方式：\n\n授课质量与给分：你只要不胡闹，都4.0\n\n点评人：\n\n上课学期：",
-    "created_at": "2026/06/06 20:33",
-    "score": "4.0",
-    "_course_name": "数学建模和数据分析",
-    "_course_teacher": "顾辰"
   }
 ]
