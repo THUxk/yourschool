@@ -1,1 +1,90 @@
-{"tid": "2786", "name": "\u5f20\u7eea\u5c71", "related_courses": [{"id": 9545, "code": "9544", "name": "\u53e4\u5e0c\u814a\u6587\u732e\u9605\u8bfb", "avg": 0.0, "count": 0}, {"id": 11186, "code": "11187", "name": "\u5386\u53f2\u4e13\u4e1a\u82f1\u8bed\u6587\u732e\u7814\u8bfb", "avg": 0.0, "count": 0}, {"id": 13269, "code": "13276", "name": "\u6691\u671f\u5916\u8bed\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 17712, "code": "17729", "name": "\u4e2d\u5916\u6587\u5316\u4ea4\u6d41\u53f2\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 6801, "code": "6800", "name": "\u4e16\u754c\u4e0a\u53e4\u4e2d\u53e4\u53f2", "avg": 0.0, "count": 0}, {"id": 20066, "code": "20090", "name": "\u4e2d\u897f\u6587\u5316\u4ea4\u6d41\u53f2\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 24670, "code": "24826", "name": "\u4e16\u754c\u6587\u660e\u7684\u8fdb\u7a0b", "avg": 0.0, "count": 0}, {"id": 28607, "code": "28769", "name": "\u5386\u53f2\u5b66\u82f1\u8bed\u6587\u732e\u9605\u8bfb", "avg": 0.0, "count": 0}, {"id": 18827, "code": "18844", "name": "\u6b27\u7f8e\u53f2\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 5435, "code": "5434", "name": "\u53e4\u4ee3\u4e2d\u56fd-\u6b27\u6d32\u4ea4\u6d41\u53f2", "avg": 0.0, "count": 0}, {"id": 37843, "code": "37842", "name": "\u521d\u9636\u53e4\u5e0c\u814a\u8bed", "avg": 0.0, "count": 0}, {"id": 16002, "code": "16011", "name": "\u4e2d\u897f\u6587\u5316\u5173\u7cfb\u53f2", "avg": 1.0, "count": 1}]}
+{
+  "tid": "2786",
+  "name": "张绪山",
+  "related_courses": [
+    {
+      "id": 9545,
+      "code": "9544",
+      "name": "古希腊文献阅读",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 11186,
+      "code": "11187",
+      "name": "历史专业英语文献研读",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 13269,
+      "code": "13276",
+      "name": "暑期外语训练",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 17712,
+      "code": "17729",
+      "name": "中外文化交流史专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 6801,
+      "code": "6800",
+      "name": "世界上古中古史",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 20066,
+      "code": "20090",
+      "name": "中西文化交流史专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 24670,
+      "code": "24826",
+      "name": "世界文明的进程",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 28607,
+      "code": "28769",
+      "name": "历史学英语文献阅读",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 18827,
+      "code": "18844",
+      "name": "欧美史专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5435,
+      "code": "5434",
+      "name": "古代中国-欧洲交流史",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37843,
+      "code": "37842",
+      "name": "初阶古希腊语",
+      "avg": 4,
+      "count": 1
+    },
+    {
+      "id": 16002,
+      "code": "16011",
+      "name": "中西文化关系史",
+      "avg": 1.0,
+      "count": 1
+    }
+  ]
+}
