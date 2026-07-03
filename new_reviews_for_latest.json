@@ -1,14 +1,14 @@
 [
   {
-    "id": 3540,
+    "id": 3541,
     "course": {
-      "id": 3183
+      "id": 36247
     },
-    "rating": 1,
-    "comment": "考核方式：期末70%+平时20%+论文10%\n              \n授课质量与给分：中规中矩，貌似不调分\n              \n点评人：lcgw\n              \n上课学期：大一上\n\n期末考试全英，难度大，不调分，身边给分好像都不好",
-    "created_at": "2026/07/03 17:57",
-    "score": null,
-    "_course_name": "离散数学",
-    "_course_teacher": "史灵生"
+    "rating": 5,
+    "comment": "考核方式：视频\n              \n授课质量与给分：轻松\n              \n点评人：lcgw\n              \n上课学期：大一上\n\n基本没有任务",
+    "created_at": "2026/07/03 18:00",
+    "score": "3.6",
+    "_course_name": "英语阅读写作(B)",
+    "_course_teacher": "张文霞"
   }
 ]
