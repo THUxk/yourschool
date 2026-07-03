@@ -1,1 +1,13 @@
-{"tid": "6304", "name": "\u859b\u4e98\u534e", "related_courses": [{"id": 26788, "code": "26950", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 5.0, "count": 11}]}
+{
+  "tid": "6304",
+  "name": "薛亘华",
+  "related_courses": [
+    {
+      "id": 26788,
+      "code": "26950",
+      "name": "写作与沟通",
+      "avg": 5,
+      "count": 12
+    }
+  ]
+}
