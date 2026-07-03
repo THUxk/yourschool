@@ -1,5 +1,5 @@
 {
-  "count": 1,
+  "count": 2,
   "next": null,
   "previous": null,
   "results": [
@@ -9,6 +9,13 @@
       "comment": "一个你可以不用去听的课。",
       "created_at": "2026/06/13 12:03",
       "score": null
+    },
+    {
+      "id": 3638,
+      "rating": 5,
+      "comment": "考核方式：考试\n              \n上课学期：2026 春\n\n不用上课，但是依然可以有4.0吃",
+      "created_at": "2026/07/03 23:47",
+      "score": "A"
     }
   ]
 }
