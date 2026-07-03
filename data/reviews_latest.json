@@ -1,5 +1,17 @@
 [
   {
+    "id": 3515,
+    "course": {
+      "id": 37367
+    },
+    "rating": 4,
+    "comment": "考核方式：作业+期中+期末，与其他微积分老师相同\n              \n授课质量与给分：授课质量正常（使用yp的ppt），给分正常（微积分应该是统一给分）\n              \n点评人：\n              \n上课学期：2026春",
+    "created_at": "2026/07/03 17:30",
+    "score": "A-",
+    "_course_name": "微积分A(2)",
+    "_course_teacher": "李静爽"
+  },
+  {
     "id": 3514,
     "course": {
       "id": 24984
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "科技创新与挑战2D",
     "_course_teacher": "潘思宁"
-  },
-  {
-    "id": 3415,
-    "course": {
-      "id": 8530
-    },
-    "rating": 5,
-    "comment": "考核方式：统考\n授课质量与给分：\n点评人：lin\n上课学期：2025-2026春\n 非常好的课程，使我和作业搏斗，但是老师讲课很好",
-    "created_at": "2026/06/05 11:31",
-    "score": null,
-    "_course_name": "微积分A(2)",
-    "_course_teacher": "晏平"
   }
 ]
