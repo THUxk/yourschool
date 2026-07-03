@@ -1,5 +1,17 @@
 [
   {
+    "id": 3633,
+    "course": {
+      "id": 29291
+    },
+    "rating": 4,
+    "comment": "考核方式：作业+期中+期末\n              \n授课质量与给分：授课较为枯燥，给分正常（工图比较简单，一般得分较好）\n              \n点评人：\n              \n上课学期：2026春",
+    "created_at": "2026/07/03 23:12",
+    "score": "A",
+    "_course_name": "工程图学基础",
+    "_course_teacher": "吴军"
+  },
+  {
     "id": 3632,
     "course": {
       "id": 30425
@@ -1186,17 +1198,5 @@
     "score": "4.0",
     "_course_name": "思想道德与法治",
     "_course_teacher": "戴木才"
-  },
-  {
-    "id": 3533,
-    "course": {
-      "id": 1332
-    },
-    "rating": 4,
-    "comment": "考核方式：\n              \n授课质量与给分：26年考试非常简单，任务量不算大，符合3个学分的要求\n              \n点评人：\n              \n上课学期：",
-    "created_at": "2026/07/03 17:50",
-    "score": null,
-    "_course_name": "数字逻辑电路",
-    "_course_teacher": "赵有健"
   }
 ]
