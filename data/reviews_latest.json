@@ -1,5 +1,17 @@
 [
   {
+    "id": 3531,
+    "course": {
+      "id": 11319
+    },
+    "rating": 4,
+    "comment": "考核方式：\n              \n授课质量与给分：专项给分很好，基本上能够熟练的打完一套太极就能拿到46及以上。打的很差很差也能拿到43以上\n              \n点评人：\n              \n上课学期：",
+    "created_at": "2026/07/03 17:48",
+    "score": null,
+    "_course_name": "三年级男生武术",
+    "_course_teacher": "冯宏鹏"
+  },
+  {
     "id": 3530,
     "course": {
       "id": 3906
@@ -1186,17 +1198,5 @@
     "score": "A-",
     "_course_name": "数据分析引论",
     "_course_teacher": "陈松蹊"
-  },
-  {
-    "id": 3431,
-    "course": {
-      "id": 37368
-    },
-    "rating": 2,
-    "comment": "烂",
-    "created_at": "2026/06/06 02:42",
-    "score": null,
-    "_course_name": "微积分C(2)",
-    "_course_teacher": "张广远"
   }
 ]
