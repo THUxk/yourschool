@@ -1,5 +1,17 @@
 [
   {
+    "id": 3541,
+    "course": {
+      "id": 36247
+    },
+    "rating": 5,
+    "comment": "考核方式：视频\n              \n授课质量与给分：轻松\n              \n点评人：lcgw\n              \n上课学期：大一上\n\n基本没有任务",
+    "created_at": "2026/07/03 18:00",
+    "score": "3.6",
+    "_course_name": "英语阅读写作(B)",
+    "_course_teacher": "张文霞"
+  },
+  {
     "id": 3540,
     "course": {
       "id": 3183
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "电子电路与系统基础(2)",
     "_course_teacher": "张沕琳"
-  },
-  {
-    "id": 3441,
-    "course": {
-      "id": 31326
-    },
-    "rating": 5,
-    "comment": "考核方式：出勤5%，两次Reading Homework各占10%，两次Writing Homework分占15%，20%，期中期末各20%\n授课质量与给分：授课主要是祖传PPT+网课老师肖恩\n点评人：lin\n上课学期：2025-2026秋\n            John还是很温柔的一个老师，但是完全不接受电子版的作业，必须在纸张上完成各种作业，平常线上提交的作业也要求Word格式，会细心教授如何写作，写作方法更像给公式给你套，每一段都有严格的格式字数要求。期中是800词写作，期末是各种类型的阅读和改写题目题目，题量比较大，总体来说不错",
-    "created_at": "2026/06/09 21:59",
-    "score": "4.0",
-    "_course_name": "英语阅读写作(B)",
-    "_course_teacher": "BERRA JOHN BENJAMIN"
   }
 ]
