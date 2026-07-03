@@ -1,5 +1,17 @@
 [
   {
+    "id": 3537,
+    "course": {
+      "id": 27725
+    },
+    "rating": 5,
+    "comment": "考核方式：max{20%作业+30%期中+50%期末，20%作业+80%期末}\n              \n授课质量与给分：好\n              \n点评人：lcgw\n              \n上课学期：大一上\n\n有回放，授课内容深，速度较慢，一起写板书，神",
+    "created_at": "2026/07/03 17:54",
+    "score": "3.6",
+    "_course_name": "线性代数",
+    "_course_teacher": "艾颖华"
+  },
+  {
     "id": 3536,
     "course": {
       "id": 37377
@@ -1186,17 +1198,5 @@
     "score": "P",
     "_course_name": "自强书院导引课",
     "_course_teacher": "钟海旺"
-  },
-  {
-    "id": 3437,
-    "course": {
-      "id": 37117
-    },
-    "rating": 3,
-    "comment": "考核方式：PF，不知道是否会有改变\n授课质量与给分：大杂烩，建议不去上课\n点评人：lrl\n上课学期：25-26秋",
-    "created_at": "2026/06/06 22:43",
-    "score": "P",
-    "_course_name": "能源导论",
-    "_course_teacher": "李政"
   }
 ]
