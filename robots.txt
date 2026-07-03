@@ -23,7 +23,7 @@ Disallow: /.git/
 Crawl-delay: 60
 
 # Sitemap 位置
-Sitemap: https://yourschool.com/sitemap.xml
+Sitemap: https://yourschool.cc.cd/sitemap.xml
 
 # 允许部分搜索引擎抓取特定页面
 User-agent: Googlebot

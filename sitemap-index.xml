@@ -2,13 +2,13 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- 主站点 sitemap -->
   <sitemap>
-    <loc>https://yourschool.com/sitemap.xml</loc>
+    <loc>https://yourschool.cc.cd/sitemap.xml</loc>
     <lastmod>2026-06-25</lastmod>
   </sitemap>
 
   <!-- 课程数据 sitemap（如果存在） -->
   <sitemap>
-    <loc>https://yourschool.com/data/sitemap.xml</loc>
+    <loc>https://yourschool.cc.cd/data/sitemap.xml</loc>
     <lastmod>2026-06-25</lastmod>
   </sitemap>
 
