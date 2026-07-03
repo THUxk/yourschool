@@ -1,5 +1,5 @@
 {
-  "count": 9,
+  "count": 10,
   "next": null,
   "previous": null,
   "results": [
@@ -64,6 +64,13 @@
       "rating": 5,
       "comment": "考核方式：日志\n授课质量与给分：5\n点评人：zzh\n上课学期：\n            刷学分👍",
       "created_at": "2026/06/05 01:14",
+      "score": "P"
+    },
+    {
+      "id": 3620,
+      "rating": 5,
+      "comment": "考核方式：PF，考勤+日志\n授课质量与给分：\n前人之述备矣。二级选课不要睡过头即可。\n点评人：硒代矽酸锡\n上课学期：2025-2026春",
+      "created_at": "2026/07/03 21:13",
       "score": "P"
     }
   ]
