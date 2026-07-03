@@ -1,14 +1,14 @@
 [
   {
-    "id": 3577,
+    "id": 3578,
     "course": {
-      "id": 5925
+      "id": 31409
     },
-    "rating": 3,
-    "comment": "考核方式：\n              \n授课质量与给分：壁垒\n              \n点评人：\n              \n上课学期：",
-    "created_at": "2026/07/03 19:42",
-    "score": null,
-    "_course_name": "计算机程序设计基础(Python)",
-    "_course_teacher": "乔林"
+    "rating": 5,
+    "comment": "考核方式：视频作业和小作业\n              \n授课质量与给分：真的讲的很好，把我的思想拨回正轨，非常推荐去听。给分神中神！\n              \n点评人：Qwert\n              \n上课学期：26春",
+    "created_at": "2026/07/03 19:43",
+    "score": "A-",
+    "_course_name": "中国近现代史纲要",
+    "_course_teacher": "吴起民"
   }
 ]
