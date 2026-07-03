@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-21be565a","path":"/%E6%A0%A1%E5%86%85%E7%94%9F%E6%B4%BB%E8%AE%BE%E6%96%BD/","title":"校内生活设施","lang":"zh-CN","frontmatter":{"title":"校内生活设施","article":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

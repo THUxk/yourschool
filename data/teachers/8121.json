@@ -1,1 +1,13 @@
-{"tid": "8121", "name": "\u6bb5\u65af\u65af", "related_courses": [{"id": 37461, "code": "37460", "name": "\u7f16\u8bd1\u539f\u7406", "avg": 1, "count": 1}]}
+{
+  "tid": "8121",
+  "name": "段斯斯",
+  "related_courses": [
+    {
+      "id": 37461,
+      "code": "37460",
+      "name": "编译原理",
+      "avg": 3,
+      "count": 2
+    }
+  ]
+}

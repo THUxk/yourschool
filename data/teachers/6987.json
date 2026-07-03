@@ -1,1 +1,41 @@
-{"tid": "6987", "name": "\u5434\u8d77\u6c11", "related_courses": [{"id": 33010, "code": "33172", "name": "\u5f62\u52bf\u4e0e\u653f\u7b56(1)-\u79cb-\u8ba8\u8bba\u8bfe", "avg": 0.0, "count": 0}, {"id": 35136, "code": "35135", "name": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u53f2(&quot;\u56db\u53f2&quot;)", "avg": 0.0, "count": 0}, {"id": 36886, "code": "36885", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 37139, "code": "37138", "name": "\u4e2d\u5171\u515a\u53f2\u6587\u732e\u7814\u8bfb(1)", "avg": 0.0, "count": 0}, {"id": 31409, "code": "31571", "name": "\u4e2d\u56fd\u8fd1\u73b0\u4ee3\u53f2\u7eb2\u8981", "avg": 5.0, "count": 11}]}
+{
+  "tid": "6987",
+  "name": "吴起民",
+  "related_courses": [
+    {
+      "id": 33010,
+      "code": "33172",
+      "name": "形势与政策(1)-秋-讨论课",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35136,
+      "code": "35135",
+      "name": "中华人民共和国史(&quot;四史&quot;)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36886,
+      "code": "36885",
+      "name": "思政实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37139,
+      "code": "37138",
+      "name": "中共党史文献研读(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 31409,
+      "code": "31571",
+      "name": "中国近现代史纲要",
+      "avg": 5,
+      "count": 12
+    }
+  ]
+}

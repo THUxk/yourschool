@@ -1,1 +1,13 @@
-{"tid": "6336", "name": "\u664f\u51b0", "related_courses": [{"id": 26932, "code": "27094", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 3.0, "count": 4}]}
+{
+  "tid": "6336",
+  "name": "晏冰",
+  "related_courses": [
+    {
+      "id": 26932,
+      "code": "27094",
+      "name": "写作与沟通",
+      "avg": 3.4,
+      "count": 5
+    }
+  ]
+}

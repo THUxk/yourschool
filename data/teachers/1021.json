@@ -1,1 +1,125 @@
-{"tid": "1021", "name": "\u6731\u6842\u840d", "related_courses": [{"id": 2246, "code": "2245", "name": "\u7535\u5de5\u6280\u672f\u548c\u7535\u529b\u7cfb\u7edf\u65b0\u8fdb\u5c55", "avg": 0.0, "count": 0}, {"id": 2641, "code": "2640", "name": "\u751f\u4ea7\u5b9e\u4e60", "avg": 0.0, "count": 0}, {"id": 2962, "code": "2961", "name": "\u7535\u8def\u539f\u7406A(2)", "avg": 0.0, "count": 0}, {"id": 3706, "code": "3705", "name": "\u7535\u6c14\u5de5\u7a0b\u6280\u672f\u53d1\u5c55\u8bb2\u5ea7", "avg": 0.0, "count": 0}, {"id": 6244, "code": "6243", "name": "\u7efc\u5408\u8bba\u6587\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 8463, "code": "8462", "name": "\u7535\u8def\u539f\u7406A(1)", "avg": 0.0, "count": 0}, {"id": 13162, "code": "13168", "name": "\u80fd\u6e90\u79d1\u5b66\u4e0e\u5de5\u7a0b\u5bfc\u8bba", "avg": 0.0, "count": 0}, {"id": 1692, "code": "1691", "name": "\u7535\u8def\u539f\u7406\u5b9e\u9a8c", "avg": 0.0, "count": 0}, {"id": 17210, "code": "17227", "name": "\u7535\u8def\u539f\u7406(\u82f1)", "avg": 0.0, "count": 0}, {"id": 23774, "code": "23905", "name": "windows\u7a0b\u5e8f\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 25160, "code": "25320", "name": "\u80fd\u6e90\u4e92\u8054\u7f51\u9886\u57df\u7684\u521b\u65b0\u521b\u4e1a", "avg": 0.0, "count": 0}, {"id": 26004, "code": "26166", "name": "\u7efc\u5408\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 27842, "code": "28004", "name": "\u9ad8\u7b49\u7535\u8def\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 32135, "code": "32297", "name": "\u5de5\u5177\u8f6f\u4ef6\u4f7f\u7528", "avg": 0.0, "count": 0}, {"id": 14686, "code": "14694", "name": "\u7535\u529b\u7535\u5b50\u4eff\u771f\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 1308, "code": "1307", "name": "\u7535\u8def\u539f\u7406", "avg": 2.0, "count": 3}, {"id": 30626, "code": "30788", "name": "\u9ad8\u7b49\u7535\u8def\u5206\u6790B", "avg": 1.0, "count": 1}]}
+{
+  "tid": "1021",
+  "name": "朱桂萍",
+  "related_courses": [
+    {
+      "id": 2246,
+      "code": "2245",
+      "name": "电工技术和电力系统新进展",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 2641,
+      "code": "2640",
+      "name": "生产实习",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 2962,
+      "code": "2961",
+      "name": "电路原理A(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 3706,
+      "code": "3705",
+      "name": "电气工程技术发展讲座",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 6244,
+      "code": "6243",
+      "name": "综合论文训练",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 8463,
+      "code": "8462",
+      "name": "电路原理A(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 13162,
+      "code": "13168",
+      "name": "能源科学与工程导论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 1692,
+      "code": "1691",
+      "name": "电路原理实验",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 17210,
+      "code": "17227",
+      "name": "电路原理(英)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 23774,
+      "code": "23905",
+      "name": "windows程序设计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 25160,
+      "code": "25320",
+      "name": "能源互联网领域的创新创业",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26004,
+      "code": "26166",
+      "name": "综合实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 27842,
+      "code": "28004",
+      "name": "高等电路分析",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 32135,
+      "code": "32297",
+      "name": "工具软件使用",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14686,
+      "code": "14694",
+      "name": "电力电子仿真设计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 1308,
+      "code": "1307",
+      "name": "电路原理",
+      "avg": 2.75,
+      "count": 4
+    },
+    {
+      "id": 30626,
+      "code": "30788",
+      "name": "高等电路分析B",
+      "avg": 1.0,
+      "count": 1
+    }
+  ]
+}

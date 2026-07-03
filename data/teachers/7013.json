@@ -1,1 +1,41 @@
-{"tid": "7013", "name": "\u674e\u7393", "related_courses": [{"id": 33016, "code": "33178", "name": "\u5f62\u52bf\u4e0e\u653f\u7b56(1)-\u79cb-\u8ba8\u8bba\u8bfe", "avg": 0.0, "count": 0}, {"id": 35154, "code": "35153", "name": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u53f2(&quot;\u56db\u53f2&quot;)", "avg": 0.0, "count": 0}, {"id": 36185, "code": "36184", "name": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u53f2(&ldquo;\u56db\u53f2&rdquo;)", "avg": 0.0, "count": 0}, {"id": 36572, "code": "36571", "name": "\u6587\u732e\u68c0\u7d22\u4e0e\u5229\u7528(\u9a6c\u514b\u601d\u4e3b\u4e49\u7406\u8bba)", "avg": 0.0, "count": 0}, {"id": 31410, "code": "31572", "name": "\u4e2d\u56fd\u8fd1\u73b0\u4ee3\u53f2\u7eb2\u8981", "avg": 4.6, "count": 11}]}
+{
+  "tid": "7013",
+  "name": "李玓",
+  "related_courses": [
+    {
+      "id": 33016,
+      "code": "33178",
+      "name": "形势与政策(1)-秋-讨论课",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35154,
+      "code": "35153",
+      "name": "中华人民共和国史(&quot;四史&quot;)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36185,
+      "code": "36184",
+      "name": "中华人民共和国史(&ldquo;四史&rdquo;)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36572,
+      "code": "36571",
+      "name": "文献检索与利用(马克思主义理论)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 31410,
+      "code": "31572",
+      "name": "中国近现代史纲要",
+      "avg": 4.384615384615385,
+      "count": 13
+    }
+  ]
+}

@@ -1,1 +1,90 @@
-{"tid": "510", "name": "\u8c0c\u536b\u519b", "related_courses": [{"id": 10420, "code": "10421", "name": "\u8f6f\u4ef6\u5f00\u53d1\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 13657, "code": "13665", "name": "\u7a0b\u5e8f\u8bbe\u8ba1\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 14678, "code": "14686", "name": "\u8f6f\u4ef6\u5de5\u7a0b\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 2586, "code": "2585", "name": "Java\u7a0b\u5e8f\u8bbe\u8ba1\u4e0e\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 18263, "code": "18280", "name": "\u5d4c\u5165\u5f0f\u7cfb\u7edf\u53ca\u5176\u8f6f\u4ef6\u5de5\u5177", "avg": 0.0, "count": 0}, {"id": 23942, "code": "24080", "name": "\u8ba1\u7b97\u673a\u8bed\u8a00\u4e0e\u7a0b\u5e8f\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 24025, "code": "24166", "name": "\u64cd\u4f5c\u7cfb\u7edf\u4e0e\u7cfb\u7edf\u7f16\u7a0b", "avg": 0.0, "count": 0}, {"id": 16887, "code": "16904", "name": "\u8f6f\u4ef6\u5f00\u53d1\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 3862, "code": "3861", "name": "\u64cd\u4f5c\u7cfb\u7edf", "avg": 0.0, "count": 0}, {"id": 607, "code": "606", "name": "Java\u8bed\u8a00\u7a0b\u5e8f\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 3021, "code": "3020", "name": "\u8ba1\u7b97\u673a\u7a0b\u5e8f\u8bbe\u8ba1\u57fa\u7840", "avg": 4.9, "count": 12}, {"id": 30488, "code": "30650", "name": "Python\u7a0b\u5e8f\u8bbe\u8ba1\u8fdb\u9636", "avg": 4.0, "count": 1}]}
+{
+  "tid": "510",
+  "name": "谌卫军",
+  "related_courses": [
+    {
+      "id": 10420,
+      "code": "10421",
+      "name": "软件开发实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 13657,
+      "code": "13665",
+      "name": "程序设计基础",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14678,
+      "code": "14686",
+      "name": "软件工程（1）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 2586,
+      "code": "2585",
+      "name": "Java程序设计与训练",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 18263,
+      "code": "18280",
+      "name": "嵌入式系统及其软件工具",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 23942,
+      "code": "24080",
+      "name": "计算机语言与程序设计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 24025,
+      "code": "24166",
+      "name": "操作系统与系统编程",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16887,
+      "code": "16904",
+      "name": "软件开发基础",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 3862,
+      "code": "3861",
+      "name": "操作系统",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 607,
+      "code": "606",
+      "name": "Java语言程序设计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 3021,
+      "code": "3020",
+      "name": "计算机程序设计基础",
+      "avg": 4.923076923076923,
+      "count": 13
+    },
+    {
+      "id": 30488,
+      "code": "30650",
+      "name": "Python程序设计进阶",
+      "avg": 4.0,
+      "count": 1
+    }
+  ]
+}

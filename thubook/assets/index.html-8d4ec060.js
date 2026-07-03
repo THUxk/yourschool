@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-73563ac1","path":"/%E8%80%81%E4%B9%A1%E5%9C%A8%E6%B8%85%E5%8D%8E/","title":"老乡在清华","lang":"zh-CN","frontmatter":{"title":"老乡在清华","article":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

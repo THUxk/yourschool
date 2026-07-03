@@ -1,1 +1,27 @@
-{"tid": "1088", "name": "\u8212\u6587", "related_courses": [{"id": 20084, "code": "20108", "name": "\u6bdb\u6cfd\u4e1c\u601d\u60f3\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 21091, "code": "21116", "name": "\u6c11\u56fd\u53f2", "avg": 0.0, "count": 0}, {"id": 1402, "code": "1401", "name": "\u4e2d\u56fd\u8fd1\u73b0\u4ee3\u53f2\u7eb2\u8981", "avg": 4.1, "count": 14}]}
+{
+  "tid": "1088",
+  "name": "舒文",
+  "related_courses": [
+    {
+      "id": 20084,
+      "code": "20108",
+      "name": "毛泽东思想概论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 21091,
+      "code": "21116",
+      "name": "民国史",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 1402,
+      "code": "1401",
+      "name": "中国近现代史纲要",
+      "avg": 4.133333333333334,
+      "count": 15
+    }
+  ]
+}

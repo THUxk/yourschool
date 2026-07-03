@@ -1,1 +1,20 @@
-{"tid": "1254", "name": "\u9648\u6668", "related_courses": [{"id": 1658, "code": "1657", "name": "\u5927\u5b66\u5316\u5b66B", "avg": 4.7, "count": 3}, {"id": 2912, "code": "2911", "name": "\u5927\u5b66\u5316\u5b66A", "avg": 4.5, "count": 2}]}
+{
+  "tid": "1254",
+  "name": "陈晨",
+  "related_courses": [
+    {
+      "id": 1658,
+      "code": "1657",
+      "name": "大学化学B",
+      "avg": 4.75,
+      "count": 4
+    },
+    {
+      "id": 2912,
+      "code": "2911",
+      "name": "大学化学A",
+      "avg": 4.5,
+      "count": 2
+    }
+  ]
+}
