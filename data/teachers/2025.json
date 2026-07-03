@@ -1,1 +1,83 @@
-{"tid": "2025", "name": "\u53f2\u7075\u751f", "related_courses": [{"id": 20145, "code": "20169", "name": "\u51e0\u4f55\u4e0e\u4ee3\u6570(2)", "avg": 0.0, "count": 0}, {"id": 24838, "code": "24995", "name": "\u7ebf\u6027\u4ee3\u6570(1)", "avg": 0.0, "count": 0}, {"id": 26906, "code": "27068", "name": "\u5fae\u79ef\u5206B(2)", "avg": 0.0, "count": 0}, {"id": 34130, "code": "34292", "name": "\u5fae\u79ef\u5206A(1)", "avg": 0.0, "count": 0}, {"id": 17135, "code": "17152", "name": "\u968f\u673a\u6570\u5b66\u65b9\u6cd5", "avg": 0.0, "count": 0}, {"id": 18423, "code": "18440", "name": "\u7ec4\u5408\u6570\u5b66", "avg": 0.0, "count": 0}, {"id": 38462, "code": "", "name": "\u5fae\u79ef\u5206B(1)", "avg": 0.0, "count": 0}, {"id": 3183, "code": "3182", "name": "\u79bb\u6563\u6570\u5b66", "avg": 1.8, "count": 5}, {"id": 4728, "code": "4727", "name": "\u6982\u7387\u8bba\u4e0e\u6570\u7406\u7edf\u8ba1", "avg": 4.0, "count": 1}, {"id": 26132, "code": "26294", "name": "\u7ebf\u6027\u4ee3\u6570", "avg": 5.0, "count": 1}, {"id": 33099, "code": "33261", "name": "\u5fae\u79ef\u5206A(2)", "avg": 5.0, "count": 2}]}
+{
+  "tid": "2025",
+  "name": "史灵生",
+  "related_courses": [
+    {
+      "id": 20145,
+      "code": "20169",
+      "name": "几何与代数(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 24838,
+      "code": "24995",
+      "name": "线性代数(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26906,
+      "code": "27068",
+      "name": "微积分B(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 34130,
+      "code": "34292",
+      "name": "微积分A(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 17135,
+      "code": "17152",
+      "name": "随机数学方法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 18423,
+      "code": "18440",
+      "name": "组合数学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38462,
+      "code": "",
+      "name": "微积分B(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 3183,
+      "code": "3182",
+      "name": "离散数学",
+      "avg": 1.6666666666666667,
+      "count": 6
+    },
+    {
+      "id": 4728,
+      "code": "4727",
+      "name": "概率论与数理统计",
+      "avg": 4.0,
+      "count": 1
+    },
+    {
+      "id": 26132,
+      "code": "26294",
+      "name": "线性代数",
+      "avg": 5.0,
+      "count": 1
+    },
+    {
+      "id": 33099,
+      "code": "33261",
+      "name": "微积分A(2)",
+      "avg": 5.0,
+      "count": 2
+    }
+  ]
+}
