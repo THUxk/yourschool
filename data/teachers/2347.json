@@ -1,1 +1,13 @@
-{"tid": "2347", "name": "\u5eb7\u5578", "related_courses": [{"id": 4052, "code": "4051", "name": "\u897f\u65b9\u97f3\u4e50\u53f2", "avg": 5.0, "count": 5}]}
+{
+  "tid": "2347",
+  "name": "康啸",
+  "related_courses": [
+    {
+      "id": 4052,
+      "code": "4051",
+      "name": "西方音乐史",
+      "avg": 5,
+      "count": 6
+    }
+  ]
+}
