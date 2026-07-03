@@ -1,14 +1,14 @@
 [
   {
-    "id": 3515,
+    "id": 3516,
     "course": {
-      "id": 37367
+      "id": 36317
     },
-    "rating": 4,
-    "comment": "考核方式：作业+期中+期末，与其他微积分老师相同\n              \n授课质量与给分：授课质量正常（使用yp的ppt），给分正常（微积分应该是统一给分）\n              \n点评人：\n              \n上课学期：2026春",
+    "rating": 1,
+    "comment": "考核方式：统考\n              \n授课质量与给分：难\n              \n点评人：lcgw\n              \n上课学期：\n\n极难，大部分不考",
     "created_at": "2026/07/03 17:30",
-    "score": "A-",
-    "_course_name": "微积分A(2)",
-    "_course_teacher": "李静爽"
+    "score": null,
+    "_course_name": "高等微积分(1)",
+    "_course_teacher": "王晓峰"
   }
 ]
