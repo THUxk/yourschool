@@ -1,1 +1,69 @@
-{"tid": "509", "name": "\u4e54\u6797", "related_courses": [{"id": 23392, "code": "23522", "name": "\u8ba1\u7b97\u673a\u8f6f\u4ef6\u6280\u672f\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 23567, "code": "23697", "name": "Linux\u73af\u5883\u4e0b\u7684\u7a0b\u5e8f\u5f00\u53d1", "avg": 0.0, "count": 0}, {"id": 2463, "code": "2462", "name": "\u57fa\u4e8eLinux\u7684C++", "avg": 0.0, "count": 0}, {"id": 25957, "code": "26119", "name": "\u57fa\u4e8eLinux\u7684C++\uff08\u4e0a\u673a\uff09", "avg": 0.0, "count": 0}, {"id": 24877, "code": "25037", "name": "\u73b0\u4ee3\u64cd\u4f5c\u7cfb\u7edf", "avg": 0.0, "count": 0}, {"id": 16798, "code": "16815", "name": "\u7a0b\u5e8f\u62bd\u8c61", "avg": 0.0, "count": 0}, {"id": 606, "code": "605", "name": "\u64cd\u4f5c\u7cfb\u7edf", "avg": 0.0, "count": 0}, {"id": 1312, "code": "1311", "name": "\u8ba1\u7b97\u673a\u7a0b\u5e8f\u8bbe\u8ba1\u57fa\u7840", "avg": 4.4, "count": 7}, {"id": 5925, "code": "5924", "name": "\u8ba1\u7b97\u673a\u7a0b\u5e8f\u8bbe\u8ba1\u57fa\u7840\uff08Python\uff09", "avg": 4.0, "count": 2}]}
+{
+  "tid": "509",
+  "name": "乔林",
+  "related_courses": [
+    {
+      "id": 23392,
+      "code": "23522",
+      "name": "计算机软件技术基础",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 23567,
+      "code": "23697",
+      "name": "Linux环境下的程序开发",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 2463,
+      "code": "2462",
+      "name": "基于Linux的C++",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 25957,
+      "code": "26119",
+      "name": "基于Linux的C++（上机）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 24877,
+      "code": "25037",
+      "name": "现代操作系统",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16798,
+      "code": "16815",
+      "name": "程序抽象",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 606,
+      "code": "605",
+      "name": "操作系统",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 1312,
+      "code": "1311",
+      "name": "计算机程序设计基础",
+      "avg": 4,
+      "count": 8
+    },
+    {
+      "id": 5925,
+      "code": "5924",
+      "name": "计算机程序设计基础（Python）",
+      "avg": 4.0,
+      "count": 2
+    }
+  ]
+}
