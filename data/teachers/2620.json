@@ -1,1 +1,76 @@
-{"tid": "2620", "name": "\u9648\u529f", "related_courses": [{"id": 31356, "code": "31518", "name": "\u751f\u6001\u5b66", "avg": 0.0, "count": 0}, {"id": 33792, "code": "33954", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 4884, "code": "4883", "name": "\u5b66\u672f\u82f1\u8bed\u542c\u8bf4\uff084\uff09\uff0d\u8fa9\u8bba", "avg": 0.0, "count": 0}, {"id": 35342, "code": "35341", "name": "\u9e1f\u7c7b\u5b66\u5bfc\u8bba", "avg": 0.0, "count": 0}, {"id": 36177, "code": "36176", "name": "\u5927\u5b66\u751f\u7269\u5b66\u5b9e\u9a8c", "avg": 0.0, "count": 0}, {"id": 36236, "code": "36235", "name": "\u73b0\u4ee3\u751f\u7269\u5b66\u5bfc\u8bba\u5b9e\u9a8c", "avg": 0.0, "count": 0}, {"id": 36994, "code": "36993", "name": "\u666e\u901a\u751f\u7269\u5b66\u91ce\u5916\u7efc\u5408\u5b9e\u4e60", "avg": 0.0, "count": 0}, {"id": 26176, "code": "26338", "name": "\u82f1\u8bed\u542c\u8bf4\u4ea4\u6d41\uff08A\uff09", "avg": 4.0, "count": 2}, {"id": 31273, "code": "31435", "name": "\u666e\u901a\u751f\u7269\u5b66", "avg": 4.6, "count": 11}, {"id": 33109, "code": "33271", "name": "\u666e\u901a\u751f\u7269\u5b66\u5b9e\u9a8c", "avg": 4.0, "count": 1}]}
+{
+  "tid": "2620",
+  "name": "陈功",
+  "related_courses": [
+    {
+      "id": 31356,
+      "code": "31518",
+      "name": "生态学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 33792,
+      "code": "33954",
+      "name": "思政实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 4884,
+      "code": "4883",
+      "name": "学术英语听说（4）－辩论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 35342,
+      "code": "35341",
+      "name": "鸟类学导论",
+      "avg": 3,
+      "count": 1
+    },
+    {
+      "id": 36177,
+      "code": "36176",
+      "name": "大学生物学实验",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36236,
+      "code": "36235",
+      "name": "现代生物学导论实验",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36994,
+      "code": "36993",
+      "name": "普通生物学野外综合实习",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26176,
+      "code": "26338",
+      "name": "英语听说交流（A）",
+      "avg": 4.0,
+      "count": 2
+    },
+    {
+      "id": 31273,
+      "code": "31435",
+      "name": "普通生物学",
+      "avg": 4.6,
+      "count": 11
+    },
+    {
+      "id": 33109,
+      "code": "33271",
+      "name": "普通生物学实验",
+      "avg": 4.0,
+      "count": 1
+    }
+  ]
+}
