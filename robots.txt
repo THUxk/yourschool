@@ -3,34 +3,18 @@
 
 User-agent: *
 
-# 允许抓取所有页面
+# Allow all main pages
 Allow: /
 
-# 抓取主要页面
-Allow: /thubook
-Allow: /thubook/*
-Allow: /thucourse
-Allow: /thucourse/*
-Allow: /course.html
-Allow: /course.html*
-
-# 禁止抓取私有/敏感目录（如果有）
-Disallow: /_*
-Disallow: /data/
+# Block private/internal paths
+Disallow: /_headers
+Disallow: /_redirects
 Disallow: /.git/
+Disallow: /.qwen/
 
-# 爬取频率限制：每分钟最多 1 次请求
-Crawl-delay: 60
+# Crawl-delay: polite rate-limiting (seconds), respected by Bing / Yandex
+Crawl-delay: 10
 
-# Sitemap 位置
+# Sitemaps
 Sitemap: https://yourschool.cc.cd/sitemap.xml
-
-# 允许部分搜索引擎抓取特定页面
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Baiduspider
-Allow: /
+Sitemap: https://yourschool.cc.cd/sitemap-index.xml

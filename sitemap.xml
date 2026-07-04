@@ -1,49 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 首页 -->
+
+  <!-- ==================== 首页 ==================== -->
   <url>
     <loc>https://yourschool.cc.cd/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Thubook 手册 -->
+  <!-- ==================== Thubook 手册 ==================== -->
   <url>
-    <loc>https://yourschool.cc.cd/thubook</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Thucourse 选课社区 -->
-  <url>
-    <loc>https://yourschool.cc.cd/thucourse</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- 课程详情页 -->
-  <url>
-    <loc>https://yourschool.cc.cd/thucourse/course.html</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://yourschool.cc.cd/thubook/</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- Thubook 子页面 -->
   <url>
-    <loc>https://yourschool.cc.cd/thubook/about</loc>
-    <lastmod>2026-06-25</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://yourschool.cc.cd/thubook/gzh.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourschool.cc.cd/thubook/contributing</loc>
-    <lastmod>2026-06-25</lastmod>
+    <loc>https://yourschool.cc.cd/thubook/jiqiao.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/log.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/mythu.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/newstudent.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/phones.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/thustory.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/websites.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/words.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Thubook / 专题 -->
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/专题/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/chuguo.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/dance.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/erzhao.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/exit.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/fuxiu.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/hwjh.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/id.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/jiangxuejin.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/jiaotong.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/jiaoxuelou.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/junxun.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/kuaidi.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/lib.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/nq.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/peiyangfangan.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/qgzx.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/qianhukou.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/shetuan.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/shitang.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/srt.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/sushe.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/thuculture.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/thugpa.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/tice.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/time.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/tiyu.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/xiaoli.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/xiaoyiyuan.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/xinshenggugan.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/xuanke.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/xuehao56.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/xyk.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/yyfj.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/zhiyuanzhe.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/zhuanyejiancheng.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/zixi.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/zszn.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/专题/zzy.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Thubook / 其他 -->
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/其他/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url><loc>https://yourschool.cc.cd/thubook/其他/keyanweb.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/其他/lvyou.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/其他/park.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Thubook / 校内生活设施 -->
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/校内生活设施/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/buybook.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/chaoshi.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/dayin.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/kafei.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/lifa.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/sm.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/xiuche.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/xiyifang.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/yanjing.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/yd.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/yinhang.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/youju.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://yourschool.cc.cd/thubook/校内生活设施/zhaoxiang.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Thubook / 老乡在清华 -->
+  <url>
+    <loc>https://yourschool.cc.cd/thubook/老乡在清华/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url><loc>https://yourschool.cc.cd/thubook/老乡在清华/hunan.html</loc><lastmod>2026-07-04</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- ==================== Thucourse 选课社区 ==================== -->
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/course.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/courses.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/search.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/statistics.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/about.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/faq.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://yourschool.cc.cd/thucourse/new-review.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>

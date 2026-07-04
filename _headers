@@ -6,10 +6,23 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
 
-# ========== Explicit MIME types for static assets ==========
-# These prevent Cloudflare from ever serving text/html for CSS/JS files
-# (critical when CDN edge nodes have stale/missing files)
+# ========== HTML pages — indexable, short cache ==========
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+  Content-Type: text/html; charset=utf-8
+  X-Robots-Tag: index, follow
 
+/thucourse/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+  Content-Type: text/html; charset=utf-8
+  X-Robots-Tag: index, follow
+
+/thubook/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+  Content-Type: text/html; charset=utf-8
+  X-Robots-Tag: index, follow
+
+# ========== Explicit MIME types for static assets ==========
 /*.css
   Content-Type: text/css; charset=utf-8
 
@@ -37,18 +50,20 @@
 /*.woff2
   Content-Type: font/woff2
 
-# HTML pages — short cache, quickly reflect updates
-/*.html
-  Cache-Control: public, max-age=300, must-revalidate
-  Content-Type: text/html; charset=utf-8
+# Sitemaps — allow crawlers, no caching
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
 
-/thucourse/*.html
-  Cache-Control: public, max-age=300, must-revalidate
-  Content-Type: text/html; charset=utf-8
+/sitemap-index.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
 
-# ========== Thubook (VuePress) static assets ==========
-# Content-hashed filenames → can cache permanently (immutable)
+/robots.txt
+  Cache-Control: public, max-age=3600
+  Content-Type: text/plain; charset=utf-8
 
+# ========== Thubook static assets (content-hashed, immutable) ==========
 /thubook/assets/*.css
   Cache-Control: public, max-age=31536000, immutable
 
@@ -59,18 +74,23 @@
   Cache-Control: public, max-age=31536000, immutable
 
 # ========== Thucourse static assets ==========
-
-# CSS and JS — longer cache with versioned filenames or content hash
 /thucourse/css/*
   Cache-Control: public, max-age=300, immutable
 
 /thucourse/js/*
   Cache-Control: public, max-age=300, immutable
 
-# Data files (JSON) — moderate cache, may be updated frequently
+# ========== Data files — moderate cache ==========
 /data/*
   Cache-Control: public, max-age=300, must-revalidate
+  Content-Type: application/json; charset=utf-8
 
-# Security: deny access to hidden files
-/_*
+# ========== Security: deny public access to internal files ==========
+/_headers
+  Cache-Control: no-store
+
+/_redirects
+  Cache-Control: no-store
+
+/.htaccess
   Cache-Control: no-store
