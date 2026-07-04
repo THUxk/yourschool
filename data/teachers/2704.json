@@ -1,1 +1,69 @@
-{"tid": "2704", "name": "\u89e3\u5b89", "related_courses": [{"id": 5353, "code": "5352", "name": "\u4e2d\u56fd\u65b0\u519c\u6751\u5efa\u8bbe\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 17160, "code": "17177", "name": "\u9093\u5c0f\u5e73\u7406\u8bba\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 20784, "code": "20809", "name": "\u5f53\u4ee3\u4e2d\u56fd\u7ecf\u6d4e\u6539\u9769\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 28466, "code": "28628", "name": "\u6bdb\u6cfd\u4e1c\u601d\u60f3\u548c\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u7406\u8bba\u4f53\u7cfb\u6982\u8bba(1)", "avg": 0.0, "count": 0}, {"id": 33745, "code": "33907", "name": "\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u7406\u8bba\u4f53\u7cfb", "avg": 0.0, "count": 0}, {"id": 34894, "code": "34893", "name": "\u6bdb\u6cfd\u4e1c\u601d\u60f3\u3001\u9093\u5c0f\u5e73\u7406\u8bba\u548c&ldquo;\u4e09\u4e2a\u4ee3\u8868&rdquo;\u91cd\u8981\u601d\u60f3\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 34924, "code": "34923", "name": "&ldquo;\u4e09\u519c&rdquo;\u4e2d\u56fd", "avg": 0.0, "count": 0}, {"id": 5147, "code": "5146", "name": "\u6bdb\u6cfd\u4e1c\u601d\u60f3\u548c\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u7406\u8bba\u4f53\u7cfb\u6982\u8bba", "avg": 2.7, "count": 3}, {"id": 28459, "code": "28621", "name": "\u4e60\u8fd1\u5e73\u65b0\u65f6\u4ee3\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u601d\u60f3\u6982\u8bba", "avg": 3.0, "count": 1}]}
+{
+  "tid": "2704",
+  "name": "解安",
+  "related_courses": [
+    {
+      "id": 5353,
+      "code": "5352",
+      "name": "中国新农村建设专题研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 17160,
+      "code": "17177",
+      "name": "邓小平理论概论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 20784,
+      "code": "20809",
+      "name": "当代中国经济改革研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 28466,
+      "code": "28628",
+      "name": "毛泽东思想和中国特色社会主义理论体系概论(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 33745,
+      "code": "33907",
+      "name": "中国特色社会主义理论体系",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 34894,
+      "code": "34893",
+      "name": "毛泽东思想、邓小平理论和&ldquo;三个代表&rdquo;重要思想概论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 34924,
+      "code": "34923",
+      "name": "&ldquo;三农&rdquo;中国",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5147,
+      "code": "5146",
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "avg": 3,
+      "count": 4
+    },
+    {
+      "id": 28459,
+      "code": "28621",
+      "name": "习近平新时代中国特色社会主义思想概论",
+      "avg": 3.0,
+      "count": 1
+    }
+  ]
+}

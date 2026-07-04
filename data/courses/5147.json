@@ -1,5 +1,5 @@
 {
-  "count": 3,
+  "count": 4,
   "next": null,
   "previous": null,
   "results": [
@@ -22,6 +22,13 @@
       "rating": 3,
       "comment": "上课喜欢讲自己的故事，喜欢让同学回答问题。",
       "created_at": "2024/07/21 13:29",
+      "score": null
+    },
+    {
+      "id": 3667,
+      "rating": 4,
+      "comment": "考核方式：小组展示+期末电子开卷考\n              \n授课质量与给分：口音有点重，但是不考勤，任务量小\n              \n点评人：\n              \n上课学期：",
+      "created_at": "2026/07/04 15:56",
       "score": null
     }
   ]
