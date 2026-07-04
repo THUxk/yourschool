@@ -1,5 +1,17 @@
 [
   {
+    "id": 3659,
+    "course": {
+      "id": 30110
+    },
+    "rating": 5,
+    "comment": "考核方式：祖传期中30期末60出勤表现10\n              \n授课质量与给分：巨型跨文化交际，大二就能handle，评分的时候说不定还能占点优势，早选不亏，除了是早八（不过Kurashige的课迟到了也不会怎么样罢）\n              \n点评人：R\n              \n上课学期：26S",
+    "created_at": "2026/07/04 15:35",
+    "score": "A-",
+    "_course_name": "日语口译(1)",
+    "_course_teacher": "KURASHIGE TAKU"
+  },
+  {
     "id": 3658,
     "course": {
       "id": 35396
@@ -1186,17 +1198,5 @@
     "score": "P",
     "_course_name": "初阶古希腊语",
     "_course_teacher": "张绪山"
-  },
-  {
-    "id": 3559,
-    "course": {
-      "id": 2997
-    },
-    "rating": 4,
-    "comment": "考核方式：原题和ppt例题\n              \n授课质量与给分：质量一般，不调分但考的简单，学不到什么，但是架不住绩点高高\n              \n点评人：Declan\n              \n上课学期：26春",
-    "created_at": "2026/07/03 19:11",
-    "score": "4.0",
-    "_course_name": "基础物理学(1)",
-    "_course_teacher": "CHEN SHAOMIN"
   }
 ]
