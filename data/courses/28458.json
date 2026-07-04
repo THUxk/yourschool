@@ -1,5 +1,5 @@
 {
-  "count": 3,
+  "count": 4,
   "next": null,
   "previous": null,
   "results": [
@@ -22,6 +22,13 @@
       "rating": 5,
       "comment": "李戈老师毛概、习概适合水过去。划水拿4.0也有可能。",
       "created_at": "2024/07/21 15:48",
+      "score": null
+    },
+    {
+      "id": 3666,
+      "rating": 2,
+      "comment": "考核方式：考勤+小论文+大论文\n              \n授课质量与给分：讲得中规中矩，全勤3.3\n              \n点评人：\n              \n上课学期：",
+      "created_at": "2026/07/04 15:55",
       "score": null
     }
   ]
