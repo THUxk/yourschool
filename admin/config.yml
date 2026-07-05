@@ -28,7 +28,7 @@ collections:
     folder: "src"
     create: true
     extension: .md
-    format: markdown  # 使用纯 Markdown 格式，不包含 Front Matter
+    format: frontmatter  # 必须使用 frontmatter 格式
     path: "{{slug}}"
     slug: "{{slug}}"
     filter:
@@ -46,7 +46,7 @@ collections:
     folder: "src/专题"
     create: true
     extension: .md
-    format: markdown
+    format: frontmatter
     path: "专题/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -61,7 +61,7 @@ collections:
     folder: "src/其他"
     create: true
     extension: .md
-    format: markdown
+    format: frontmatter
     path: "其他/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -76,7 +76,7 @@ collections:
     folder: "src/校内生活设施"
     create: true
     extension: .md
-    format: markdown
+    format: frontmatter
     path: "校内生活设施/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -91,7 +91,7 @@ collections:
     folder: "src/老乡在清华"
     create: true
     extension: .md
-    format: markdown
+    format: frontmatter
     path: "老乡在清华/{{slug}}"
     slug: "{{slug}}"
     editor:
