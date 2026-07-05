@@ -36,6 +36,8 @@ collections:
       pattern: /^(?!专题|其他|校内生活设施|老乡在清华|assets)/
     editor:
       preview: true
+    # 添加分页配置 - 每页最多5个
+    meta: { page: { field: "title", max: 5 } }
     fields:
       - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
@@ -52,6 +54,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: true
+    # 添加分页配置 - 每页最多5个
+    meta: { page: { field: "title", max: 5 } }
     fields:
       - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
@@ -68,6 +72,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: true
+    # 添加分页配置 - 每页最多5个
+    meta: { page: { field: "title", max: 5 } }
     fields:
       - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
@@ -84,6 +90,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: true
+    # 添加分页配置 - 每页最多5个
+    meta: { page: { field: "title", max: 5 } }
     fields:
       - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
@@ -100,6 +108,8 @@ collections:
     slug: "{{slug}}"
     editor:
       preview: true
+    # 添加分页配置 - 每页最多5个
+    meta: { page: { field: "title", max: 5 } }
     fields:
       - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
