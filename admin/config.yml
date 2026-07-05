@@ -25,7 +25,6 @@ collections:
     label_singular: "页面"
     folder: "src"
     create: true
-    extension: .md
     path: "{{slug}}"
     slug: "{{slug}}"
     filter:
@@ -46,7 +45,6 @@ collections:
     label_singular: "专题文章"
     folder: "src/专题"
     create: true
-    extension: .md
     path: "{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -64,7 +62,6 @@ collections:
     label_singular: "其他文章"
     folder: "src/其他"
     create: true
-    extension: .md
     path: "{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -82,7 +79,6 @@ collections:
     label_singular: "设施指南"
     folder: "src/校内生活设施"
     create: true
-    extension: .md
     path: "{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -100,7 +96,6 @@ collections:
     label_singular: "老乡会"
     folder: "src/老乡在清华"
     create: true
-    extension: .md
     path: "{{slug}}"
     slug: "{{slug}}"
     editor:
