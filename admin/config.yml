@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   repo: THUxk/thubook
   branch: main
-  base_url: https://yourschool.cc.cd/thubook/
+  base_url: https://yourschool.cc.cd
   identity_url: https://api.yourschool.cc.cd/identity
   gateway_url: https://api.yourschool.cc.cd/git/github
   use_json_payload: true
@@ -16,8 +16,8 @@ backend:
 
 # local_backend: true  # 仅本地开发时启用，生产环境建议注释
 
-site_url: https://yourschool.cc.cd/thubook/
-display_url: https://yourschool.cc.cd/thubook/
+site_url: https://yourschool.cc.cd
+display_url: https://yourschool.cc.cd
 
 media_folder: "src/assets"
 public_folder: "/assets"
@@ -32,8 +32,8 @@ collections:
     format: frontmatter
     # 注意：Decap CMS 无法自动处理子目录 slug，建议让用户手动输入路径
     # 如果你希望支持子目录，请取消注释下面两行（但需用户输入完整路径）
-    # path: "{{path}}"
-    # slug: "{{slug}}"
+    path: "{{path}}"
+    slug: "{{slug}}"
     editor:
       preview: true
     fields:
