@@ -28,7 +28,7 @@ collections:
     folder: "src"
     create: true
     extension: .md
-    format: frontmatter  # 必须使用 frontmatter 格式
+    format: frontmatter
     path: "{{slug}}"
     slug: "{{slug}}"
     filter:
@@ -37,6 +37,7 @@ collections:
     editor:
       preview: true
     fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 专题集合
@@ -52,6 +53,7 @@ collections:
     editor:
       preview: true
     fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 其他集合
@@ -67,6 +69,7 @@ collections:
     editor:
       preview: true
     fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 校内生活设施集合
@@ -82,6 +85,7 @@ collections:
     editor:
       preview: true
     fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 老乡在清华集合
@@ -97,4 +101,5 @@ collections:
     editor:
       preview: true
     fields:
+      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
