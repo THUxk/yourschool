@@ -36,7 +36,6 @@ collections:
     pagination:
       limit: 5
     fields:
-      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 专题集合
@@ -53,7 +52,6 @@ collections:
     pagination:
       limit: 5
     fields:
-      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 其他集合
@@ -70,7 +68,6 @@ collections:
     pagination:
       limit: 5
     fields:
-      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 校内生活设施集合
@@ -87,7 +84,6 @@ collections:
     pagination:
       limit: 5
     fields:
-      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
 
   # 老乡在清华集合
@@ -104,5 +100,4 @@ collections:
     pagination:
       limit: 5
     fields:
-      - { label: "标题", name: "title", widget: "string", required: true }
       - { label: "内容", name: "body", widget: "markdown", required: true }
