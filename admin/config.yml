@@ -1,9 +1,11 @@
 backend:
-  name: github
+  name: git-gateway
   repo: THUxk/thubook
   branch: main
-  base_url: https://api.yourschool.cc.cd
-  auth_endpoint: /auth
+  base_url: https://yourschool.cc.cd
+  identity_url: https://api.yourschool.cc.cd/identity
+  gateway_url: https://api.yourschool.cc.cd/git/github
+  use_json_payload: true
 
   commit_messages:
     create: "CMS: 创建 {{collection}} {{slug}}"
@@ -26,7 +28,6 @@ collections:
     folder: "src"
     create: true
     extension: .md
-    format: markdown-frontmatter
     path: "{{slug}}"
     slug: "{{slug}}"
     filter:
@@ -48,7 +49,6 @@ collections:
     folder: "src/专题"
     create: true
     extension: .md
-    format: markdown-frontmatter
     path: "专题/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -67,7 +67,6 @@ collections:
     folder: "src/其他"
     create: true
     extension: .md
-    format: markdown-frontmatter
     path: "其他/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -86,7 +85,6 @@ collections:
     folder: "src/校内生活设施"
     create: true
     extension: .md
-    format: markdown-frontmatter
     path: "校内生活设施/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -105,7 +103,6 @@ collections:
     folder: "src/老乡在清华"
     create: true
     extension: .md
-    format: markdown-frontmatter
     path: "老乡在清华/{{slug}}"
     slug: "{{slug}}"
     editor:
