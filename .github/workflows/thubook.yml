@@ -1,0 +1,92 @@
+# ===================================================================
+# CI: 监听 THUxk/thubook 更新 → VuePress 编译 → 推送到 yourschool/thubook/
+# ===================================================================
+#
+# 触发方式：repository_dispatch
+#   在 thubook 仓库中添加一个 webhook（或简单 workflow），
+#   push 到 main 时向 yourschool 发送 dispatch 事件：
+#
+#   curl -X POST \
+#     -H "Authorization: token $TOKEN" \
+#     -H "Accept: application/vnd.github.v3+json" \
+#     https://api.github.com/repos/THUxk/yourschool/dispatches \
+#     -d '{"event_type":"thubook-updated"}'
+#
+# Secret 要求（yourschool → Settings → Secrets → Actions）：
+#   DEPLOY_TOKEN — 对 THUxk/thubook 有读权限、对 THUxk/yourschool 有写权限的 PAT
+# ===================================================================
+
+name: Build and Deploy Thubook
+
+on:
+  repository_dispatch:
+    types: [thubook-updated]
+  workflow_dispatch:
+
+# 与 merge-data.yml 共享同一 concurrency group，实现排队、避免 push 竞争
+concurrency:
+  group: merge-reviews-data-branch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ---------- 1. 拉取 thubook 源码 ----------
+      - name: 📥 Checkout thubook source
+        uses: actions/checkout@v4
+        with:
+          repository: THUxk/thubook
+          ref: main
+          token: ${{ secrets.DEPLOY_TOKEN }}
+          fetch-depth: 0
+
+      # ---------- 2. 安装 Node.js ----------
+      - name: 🔧 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # ---------- 3. 安装依赖并编译 ----------
+      - name: 🔨 Install & build
+        run: |
+          set -euo pipefail
+          npm ci
+          npm run docs:build
+
+      # ---------- 4. 推送到 yourschool/thubook/ ----------
+      - name: 🚀 Deploy to yourschool
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          DIST_DIR="$GITHUB_WORKSPACE/src/.vuepress/dist"
+
+          # 克隆 yourschool main 分支
+          git clone --depth 1 \
+            "https://x-access-token:${DEPLOY_TOKEN}@github.com/THUxk/yourschool.git" \
+            /tmp/deploy
+
+          cd /tmp/deploy
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # 替换 thubook/ 目录
+          rm -rf thubook
+          cp -r "$DIST_DIR" thubook
+
+          # 仅当有变更时才提交
+          git add -A thubook/
+          if git diff --cached --quiet; then
+            echo 'ℹ️ No changes to deploy'
+          else
+            git commit -m 'chore(thubook): rebuild static site'
+            git push origin main
+            echo '✅ Deployed to yourschool/thubook/'
+          fi
