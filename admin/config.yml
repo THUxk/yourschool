@@ -26,7 +26,7 @@ collections:
     folder: "src"
     create: true
     extension: .md
-    format: yaml-frontmatter
+    format: markdown-frontmatter
     path: "{{slug}}"
     slug: "{{slug}}"
     filter:
@@ -48,7 +48,7 @@ collections:
     folder: "src/专题"
     create: true
     extension: .md
-    format: yaml-frontmatter
+    format: markdown-frontmatter
     path: "专题/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -67,7 +67,7 @@ collections:
     folder: "src/其他"
     create: true
     extension: .md
-    format: yaml-frontmatter
+    format: markdown-frontmatter
     path: "其他/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -86,7 +86,7 @@ collections:
     folder: "src/校内生活设施"
     create: true
     extension: .md
-    format: yaml-frontmatter
+    format: markdown-frontmatter
     path: "校内生活设施/{{slug}}"
     slug: "{{slug}}"
     editor:
@@ -105,7 +105,7 @@ collections:
     folder: "src/老乡在清华"
     create: true
     extension: .md
-    format: yaml-frontmatter
+    format: markdown-frontmatter
     path: "老乡在清华/{{slug}}"
     slug: "{{slug}}"
     editor:
