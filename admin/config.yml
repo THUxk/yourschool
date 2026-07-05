@@ -14,8 +14,6 @@ backend:
     uploadMedia: "CMS: 上传媒体文件 {{path}}"
     deleteMedia: "CMS: 删除媒体文件 {{path}}"
 
-# local_backend: true  # 仅本地开发时启用，生产环境建议注释
-
 site_url: https://yourschool.cc.cd
 display_url: https://yourschool.cc.cd
 
@@ -23,16 +21,78 @@ media_folder: "src/assets"
 public_folder: "/assets"
 
 collections:
-  - name: "pages"
-    label: "页面与文章"
+  # 根目录页面集合
+  - name: "root_pages"
+    label: "根目录页面"
     label_singular: "页面"
     folder: "src"
     create: true
     extension: .md
-    format: frontmatter
-    # 注意：Decap CMS 无法自动处理子目录 slug，建议让用户手动输入路径
-    # 如果你希望支持子目录，请取消注释下面两行（但需用户输入完整路径）
-    path: "{{path}}"
+    format: markdown  # 使用纯 Markdown 格式，不包含 Front Matter
+    path: "{{slug}}"
+    slug: "{{slug}}"
+    filter:
+      field: filename
+      pattern: /^(?!专题|其他|校内生活设施|老乡在清华|assets)/
+    editor:
+      preview: true
+    fields:
+      - { label: "内容", name: "body", widget: "markdown", required: true }
+
+  # 专题集合
+  - name: "topics"
+    label: "专题"
+    label_singular: "专题文章"
+    folder: "src/专题"
+    create: true
+    extension: .md
+    format: markdown
+    path: "专题/{{slug}}"
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "内容", name: "body", widget: "markdown", required: true }
+
+  # 其他集合
+  - name: "others"
+    label: "其他"
+    label_singular: "其他文章"
+    folder: "src/其他"
+    create: true
+    extension: .md
+    format: markdown
+    path: "其他/{{slug}}"
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "内容", name: "body", widget: "markdown", required: true }
+
+  # 校内生活设施集合
+  - name: "campus_facilities"
+    label: "校内生活设施"
+    label_singular: "设施指南"
+    folder: "src/校内生活设施"
+    create: true
+    extension: .md
+    format: markdown
+    path: "校内生活设施/{{slug}}"
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "内容", name: "body", widget: "markdown", required: true }
+
+  # 老乡在清华集合
+  - name: "hometown_associations"
+    label: "老乡在清华"
+    label_singular: "老乡会"
+    folder: "src/老乡在清华"
+    create: true
+    extension: .md
+    format: markdown
+    path: "老乡在清华/{{slug}}"
     slug: "{{slug}}"
     editor:
       preview: true
