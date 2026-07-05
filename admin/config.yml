@@ -1,11 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
   repo: THUxk/thubook
   branch: main
-  base_url: https://yourschool.cc.cd
-  identity_url: https://api.yourschool.cc.cd/identity
-  gateway_url: https://api.yourschool.cc.cd/git/github
-  use_json_payload: true
+  base_url: https://api.yourschool.cc.cd
+  auth_endpoint: /auth
 
   commit_messages:
     create: "CMS: 创建 {{collection}} {{slug}}"
