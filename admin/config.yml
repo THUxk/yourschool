@@ -37,14 +37,4 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: "标题", name: "title", widget: "string", required: false }
-      - { label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, hint: "可选，用于排序" }
-      - { label: "标签", name: "tags", widget: "list", default: [], required: false }
-      - { label: "分类", name: "categories", widget: "list", default: [], required: false }
-      - { label: "封面图", name: "cover", widget: "image", required: false }
-        # 可选：若想将封面图单独存放，可取消下一行注释
-        # media_folder: "src/assets/covers"
-        # public_folder: "/assets/covers"
-      - { label: "摘要", name: "description", widget: "text", required: false }
-      - { label: "草稿", name: "draft", widget: "boolean", default: false, required: false, hint: "设为 true 将不在网站显示（需 VuePress 支持）" }
       - { label: "内容", name: "body", widget: "markdown", required: true }
