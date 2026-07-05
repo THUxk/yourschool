@@ -47,7 +47,7 @@ collections:
     folder: "src/专题"
     create: true
     extension: .md
-    path: "专题/{{slug}}"
+    path: "{{slug}}"
     slug: "{{slug}}"
     editor:
       preview: true
@@ -65,7 +65,7 @@ collections:
     folder: "src/其他"
     create: true
     extension: .md
-    path: "其他/{{slug}}"
+    path: "{{slug}}"
     slug: "{{slug}}"
     editor:
       preview: true
@@ -83,7 +83,7 @@ collections:
     folder: "src/校内生活设施"
     create: true
     extension: .md
-    path: "校内生活设施/{{slug}}"
+    path: "{{slug}}"
     slug: "{{slug}}"
     editor:
       preview: true
@@ -101,7 +101,7 @@ collections:
     folder: "src/老乡在清华"
     create: true
     extension: .md
-    path: "老乡在清华/{{slug}}"
+    path: "{{slug}}"
     slug: "{{slug}}"
     editor:
       preview: true
