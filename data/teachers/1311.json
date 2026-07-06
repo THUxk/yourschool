@@ -1,1 +1,153 @@
-{"tid": "1311", "name": "\u5415\u5efa\u5f3a", "related_courses": [{"id": 11556, "code": "11557", "name": "\u5927\u5b66\u751f\u97f3\u4e50\u77e5\u8bc6\u4e0e\u6b23\u8d4f", "avg": 0.0, "count": 0}, {"id": 11561, "code": "11562", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u5408\u594f(3)", "avg": 0.0, "count": 0}, {"id": 12185, "code": "12186", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u961f\u57fa\u7840\u77e5\u8bc6\u4e0e\u5408\u594f(2)", "avg": 0.0, "count": 0}, {"id": 14156, "code": "14164", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u961f\u57fa\u7840\u77e5\u8bc6\u4e0e\u6f14\u594f\u5b9e\u8df5(1)", "avg": 0.0, "count": 0}, {"id": 14386, "code": "14394", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u961f\u57fa\u7840\u77e5\u8bc6\u4e0e\u6f14\u594f\u5b9e\u8df5(2)", "avg": 0.0, "count": 0}, {"id": 14428, "code": "14436", "name": "\u7efc\u5408\u827a\u672f\u8bad\u7ec3(1)", "avg": 0.0, "count": 0}, {"id": 14515, "code": "14523", "name": "\u7efc\u5408\u827a\u672f\u8bad\u7ec3(2)", "avg": 0.0, "count": 0}, {"id": 16799, "code": "16816", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u961f\u5408\u594f(2)", "avg": 0.0, "count": 0}, {"id": 16811, "code": "16828", "name": "20\u4e16\u7eaa\u4e2d\u56fd\u6b4c\u66f2\u53f2\u6982\u51b5", "avg": 0.0, "count": 0}, {"id": 5355, "code": "5354", "name": "\u897f\u65b9\u97f3\u4e50\u4e0e\u89c2\u5ff5", "avg": 0.0, "count": 0}, {"id": 16814, "code": "16831", "name": "\u7efc\u5408\u827a\u672f\u8bad\u7ec3(3)", "avg": 0.0, "count": 0}, {"id": 21175, "code": "21200", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u5408\u594f(4)", "avg": 0.0, "count": 0}, {"id": 23684, "code": "23814", "name": "\u4f20\u7edf\u4e0e\u73b0\u4ee3\u97f3\u4e50\u8d4f\u6790", "avg": 0.0, "count": 0}, {"id": 24799, "code": "24956", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u961f\u57fa\u7840\u77e5\u8bc6\u4e0e\u5408\u594f(1)", "avg": 0.0, "count": 0}, {"id": 27654, "code": "27816", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u5408\u594f(5)", "avg": 0.0, "count": 0}, {"id": 28381, "code": "28543", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u5408\u594f(6)", "avg": 0.0, "count": 0}, {"id": 29168, "code": "29330", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u5408\u594f(1)", "avg": 0.0, "count": 0}, {"id": 29884, "code": "30046", "name": "\u6c11\u65cf\u7ba1\u5f26\u4e50\u5408\u594f(2)", "avg": 0.0, "count": 0}, {"id": 16812, "code": "16829", "name": "\u4f20\u7edf\u4e0e\u73b0\u4ee3\u97f3\u4e50", "avg": 0.0, "count": 0}, {"id": 1757, "code": "1756", "name": "\u4ea4\u54cd\u97f3\u4e50\u8d4f\u6790", "avg": 3.0, "count": 1}, {"id": 3888, "code": "3887", "name": "20\u4e16\u7eaa\u4e2d\u56fd\u6b4c\u66f2\u53d1\u5c55\u53f2", "avg": 4.0, "count": 1}]}
+{
+  "tid": "1311",
+  "name": "吕建强",
+  "related_courses": [
+    {
+      "id": 11556,
+      "code": "11557",
+      "name": "大学生音乐知识与欣赏",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 11561,
+      "code": "11562",
+      "name": "民族管弦乐合奏(3)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 12185,
+      "code": "12186",
+      "name": "民族管弦乐队基础知识与合奏(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14156,
+      "code": "14164",
+      "name": "民族管弦乐队基础知识与演奏实践(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14386,
+      "code": "14394",
+      "name": "民族管弦乐队基础知识与演奏实践(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14428,
+      "code": "14436",
+      "name": "综合艺术训练(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14515,
+      "code": "14523",
+      "name": "综合艺术训练(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16799,
+      "code": "16816",
+      "name": "民族管弦乐队合奏(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16811,
+      "code": "16828",
+      "name": "20世纪中国歌曲史概况",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5355,
+      "code": "5354",
+      "name": "西方音乐与观念",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16814,
+      "code": "16831",
+      "name": "综合艺术训练(3)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 21175,
+      "code": "21200",
+      "name": "民族管弦乐合奏(4)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 23684,
+      "code": "23814",
+      "name": "传统与现代音乐赏析",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 24799,
+      "code": "24956",
+      "name": "民族管弦乐队基础知识与合奏(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 27654,
+      "code": "27816",
+      "name": "民族管弦乐合奏(5)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 28381,
+      "code": "28543",
+      "name": "民族管弦乐合奏(6)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 29168,
+      "code": "29330",
+      "name": "民族管弦乐合奏(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 29884,
+      "code": "30046",
+      "name": "民族管弦乐合奏(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16812,
+      "code": "16829",
+      "name": "传统与现代音乐",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 1757,
+      "code": "1756",
+      "name": "交响音乐赏析",
+      "avg": 3.0,
+      "count": 1
+    },
+    {
+      "id": 3888,
+      "code": "3887",
+      "name": "20世纪中国歌曲发展史",
+      "avg": 4.5,
+      "count": 2
+    }
+  ]
+}
