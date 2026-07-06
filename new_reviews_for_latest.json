@@ -1,14 +1,14 @@
 [
   {
-    "id": 3707,
+    "id": 3708,
     "course": {
-      "id": 26936
+      "id": 31528
     },
-    "rating": 1,
-    "comment": "考核方式：只有一次性考核，玩的就是心跳。大佬也会失误。\n              \n授课质量与给分：成绩自动降档。\n              \n点评人：\n              \n上课学期：",
-    "created_at": "2026/07/06 08:10",
+    "rating": 5,
+    "comment": "给分超好，无脑冲就完了",
+    "created_at": "2026/07/06 13:38",
     "score": null,
-    "_course_name": "二年级女生气排球",
-    "_course_teacher": "赵青"
+    "_course_name": "面向对象程序设计基础",
+    "_course_teacher": "任炬"
   }
 ]
