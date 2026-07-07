@@ -1,1 +1,55 @@
-{"tid": "2391", "name": "\u5f20\u5c0f\u5e73", "related_courses": [{"id": 12818, "code": "12821", "name": "\u4fe1\u606f\u79d1\u5b66\u6280\u672f\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 13209, "code": "13215", "name": "\u8ba1\u7b97\u79d1\u5b66\u4e0e\u751f\u6daf\u89c4\u5212", "avg": 0.0, "count": 0}, {"id": 17449, "code": "17466", "name": "\u8ba1\u7b97\u673a\u7f51\u7edc", "avg": 0.0, "count": 0}, {"id": 19010, "code": "19029", "name": "\u8ba1\u7b97\u673a\u7f51\u7edc\u53ca\u6838\u5fc3\u8bbe\u5907\u539f\u7406", "avg": 0.0, "count": 0}, {"id": 27702, "code": "27864", "name": "\u8ba1\u7b97\u79d1\u5b66\u4e0e\u751f\u6daf\u53d1\u5c55", "avg": 0.0, "count": 0}, {"id": 4172, "code": "4171", "name": "\u65b0\u751f\u5bfc\u5f15\u8bfe", "avg": 0.0, "count": 0}, {"id": 5810, "code": "5809", "name": "\u79bb\u6563\u6570\u5b66(2)", "avg": 2.0, "count": 14}]}
+{
+  "tid": "2391",
+  "name": "张小平",
+  "related_courses": [
+    {
+      "id": 12818,
+      "code": "12821",
+      "name": "信息科学技术概论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 13209,
+      "code": "13215",
+      "name": "计算科学与生涯规划",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 17449,
+      "code": "17466",
+      "name": "计算机网络",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 19010,
+      "code": "19029",
+      "name": "计算机网络及核心设备原理",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 27702,
+      "code": "27864",
+      "name": "计算科学与生涯发展",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 4172,
+      "code": "4171",
+      "name": "新生导引课",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5810,
+      "code": "5809",
+      "name": "离散数学(2)",
+      "avg": 1.9333333333333333,
+      "count": 15
+    }
+  ]
+}
