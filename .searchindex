@@ -5,37 +5,75 @@
 
 ### Main Pages
 - **首页** - 欢迎页面，提供 Thubook 和 Thucourse 的入口
-- **Thubook 手册** - 清华大学生存手册，包含各种实用信息
+- **Thubook 手册** - 清华大学生存手册，包含新生指南、选课技巧、校园生活设施等
 - **Thucourse 选课社区** - 课程评分、点评与选课经验交流
 
 ### Content Structure
-- Thubook 包含多个子页面（如 about、contributing 等）
-- Thucourse 包含课程详情页面（/course.html?sqid=xxx）
+- Thubook 包含多个子页面（新生词典、新生指南、校园技巧、常用电话、常用网址等）
+- Thubook/专题 包含新生常见问题、清华校历、上课时间、清华GPA、体测、选课、军训等
+- Thubook/校内生活设施 包含超市、书店、咖啡奶茶、打印店、药店、银行等
+- Thubook/其他 包含科研网站、北京旅游推荐等
+- Thucourse 包含课程列表、课程详情、搜索、数据统计、关于、FAQ 等页面
 
 ## SEO Keywords
 - 清华大学选课
 - 清华课程评价
 - 清华学生手册
+- 清华校园生存指南
 - 选课经验
 - 课程评分
+- Thubook
+- Thucourse
 
 ## Site Structure
 ```
 /
-├── /thubook        # 手册首页
-│   ├── /about      # 关于手册
-│   ├── /contributing  # 贡献指南
-├── /thucourse     # 选课社区首页
-│   └── /course.html?sqid=xxx  # 课程详情页
-└── /course.html?sqid=xxx  # 课程详情短链接
+├── /thubook/                      # 手册首页
+│   ├── words.html                 # 新生词典
+│   ├── newstudent.html            # 新生指南
+│   ├── jiqiao.html                # 校园技巧
+│   ├── phones.html                # 常用电话
+│   ├── websites.html              # 常用网址
+│   ├── gzh.html                   # 公众号收录
+│   ├── mythu.html                 # 我的THU
+│   ├── thustory.html              # 毕业生故事
+│   ├── log.html                   # 更新日志
+│   ├── 专题/                      # 专题目录
+│   │   ├── nq.html                # 新生常见问题
+│   │   ├── xiaoli.html            # 清华校历
+│   │   ├── time.html              # 上课时间
+│   │   ├── thugpa.html            # 清华GPA
+│   │   ├── tice.html              # 体测
+│   │   ├── xuanke.html            # 选课
+│   │   ├── junxun.html            # 军训
+│   │   └── ...                    # 更多专题
+│   ├── 校内生活设施/               # 生活设施目录
+│   │   ├── chaoshi.html           # 超市
+│   │   ├── dayin.html             # 打印店
+│   │   └── ...                    # 更多设施
+│   ├── 老乡在清华/                 # 老乡专区
+│   └── 其他/                      # 其他
+├── /thucourse/                    # 选课社区首页
+│   ├── courses.html               # 所有课程
+│   ├── course.html                # 课程详情
+│   ├── search.html                # 搜索
+│   ├── statistics.html            # 数据统计
+│   ├── about.html                 # 关于
+│   ├── faq.html                   # 常见问题
+│   └── new-review.html            # 新建点评
+├── /sitemap.xml                   # 站点地图
+├── /sitemap-index.xml             # 站点地图索引
+├── /robots.txt                    # 爬虫协议
+└── /manifest.json                 # PWA 配置
 ```
 
 ## Update Frequency
 - 首页：每周更新
 - Thubook/Thucourse 主页：每月更新
-- 课程详情页：每月更新
+- 课程详情页：每周更新
+- Thubook 专题页面：每月更新
 
 ## Crawler Instructions
 - 允许抓取所有公开页面
-- 限制抓取频率为每分钟 1 次（Crawl-delay: 60）
-- 禁止抓取私有目录（/_*、/data/、/.git/）
+- 不限制抓取频率
+- 禁止抓取私有目录（/_headers、/_redirects、/.git/、/.qwen/）

@@ -73,9 +73,6 @@ Disallow: /_redirects
 Disallow: /.git/
 Disallow: /.qwen/
 
-# Crawl-delay: polite rate-limiting (seconds), respected by Bing / Yandex
-Crawl-delay: 10
-
 # Sitemaps
 Sitemap: https://yourschool.cc.cd/sitemap.xml
 Sitemap: https://yourschool.cc.cd/sitemap-index.xml
