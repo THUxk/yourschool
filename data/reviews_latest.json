@@ -1,5 +1,17 @@
 [
   {
+    "id": 3743,
+    "course": {
+      "id": 31410
+    },
+    "rating": 5,
+    "comment": "发现自己原来给3分给得太低了，中和一下\n\n点评人：台灯",
+    "created_at": "2026/07/08 14:45",
+    "score": null,
+    "_course_name": "中国近现代史纲要",
+    "_course_teacher": "李玓"
+  },
+  {
     "id": 3742,
     "course": {
       "id": 37115
@@ -1186,17 +1198,5 @@
     "score": "A-",
     "_course_name": "中国近现代史纲要",
     "_course_teacher": "李玓"
-  },
-  {
-    "id": 3643,
-    "course": {
-      "id": 6659
-    },
-    "rating": 5,
-    "comment": "考核方式：同下\n              \n授课质量与给分：符合我理想中完美的通识课，上课可以自由安排，最后的报告也比较轻松，认真听也能学到一些知识；作业给分好，就是不要忘记DDL\n              \n点评人：lrl\n              \n上课学期：25-26春",
-    "created_at": "2026/07/04 10:30",
-    "score": "A",
-    "_course_name": "医学学科概览",
-    "_course_teacher": "谢兰"
   }
 ]
