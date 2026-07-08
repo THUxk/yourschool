@@ -1,1 +1,69 @@
-{"tid": "222", "name": "\u6c6a\u6d0b", "related_courses": [{"id": 5161, "code": "5160", "name": "\u503a\u6743\u6cd5\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 5835, "code": "5834", "name": "\u7269\u6743\u6cd5", "avg": 0.0, "count": 0}, {"id": 10490, "code": "10491", "name": "\u6c11\u6cd5\u603b\u8bba", "avg": 0.0, "count": 0}, {"id": 29455, "code": "29617", "name": "\u4eb2\u5c5e\u4e0e\u7ee7\u627f\u6cd5", "avg": 0.0, "count": 0}, {"id": 30896, "code": "31058", "name": "\u7269\u6743\u6cd5\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 364, "code": "363", "name": "\u7f57\u9a6c\u6cd5\u4e0e\u73b0\u4ee3\u6c11\u6cd5", "avg": 0.0, "count": 0}, {"id": 32653, "code": "32815", "name": "\u6c11\u6cd5\u603b\u8bba\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 249, "code": "248", "name": "\u7ee7\u627f\u6cd5", "avg": 0.0, "count": 0}, {"id": 8339, "code": "8338", "name": "\u5408\u540c\u6cd5", "avg": 5.0, "count": 1}]}
+{
+  "tid": "222",
+  "name": "汪洋",
+  "related_courses": [
+    {
+      "id": 5161,
+      "code": "5160",
+      "name": "债权法专题研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5835,
+      "code": "5834",
+      "name": "物权法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 10490,
+      "code": "10491",
+      "name": "民法总论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 29455,
+      "code": "29617",
+      "name": "亲属与继承法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 30896,
+      "code": "31058",
+      "name": "物权法专题研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 364,
+      "code": "363",
+      "name": "罗马法与现代民法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 32653,
+      "code": "32815",
+      "name": "民法总论专题研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 249,
+      "code": "248",
+      "name": "继承法",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 8339,
+      "code": "8338",
+      "name": "合同法",
+      "avg": 5,
+      "count": 2
+    }
+  ]
+}
