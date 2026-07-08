@@ -1,1 +1,48 @@
-{"tid": "6914", "name": "\u987e\u8fb0", "related_courses": [{"id": 31088, "code": "31250", "name": "\u5de5\u7a0b\u8ba1\u7b97\u673a\u5236\u56fe", "avg": 0.0, "count": 0}, {"id": 32936, "code": "33098", "name": "\u79d1\u6280\u4e0e\u4eba\u6587\u7814\u8ba8\u8bfe", "avg": 0.0, "count": 0}, {"id": 30866, "code": "31028", "name": "\u53cd\u6f14\u7406\u8bba\u53ca\u5e94\u7528", "avg": 0.0, "count": 0}, {"id": 36389, "code": "36388", "name": "\u5353\u8d8a\u5de5\u7a0b\u5e08\u57f9\u517b\uff1a\u56e0\u6750\u65bd\u6559\u7814\u8ba8\u8bfe(1)", "avg": 0.0, "count": 0}, {"id": 37115, "code": "37114", "name": "\u5de5\u7a0b\u7cfb\u7edf\u8868\u8fbe\u539f\u7406", "avg": 0.0, "count": 0}, {"id": 31093, "code": "31255", "name": "\u6570\u5b66\u5efa\u6a21\u548c\u6570\u636e\u5206\u6790", "avg": 5, "count": 2}]}
+{
+  "tid": "6914",
+  "name": "顾辰",
+  "related_courses": [
+    {
+      "id": 31088,
+      "code": "31250",
+      "name": "工程计算机制图",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 32936,
+      "code": "33098",
+      "name": "科技与人文研讨课",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 30866,
+      "code": "31028",
+      "name": "反演理论及应用",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36389,
+      "code": "36388",
+      "name": "卓越工程师培养：因材施教研讨课(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37115,
+      "code": "37114",
+      "name": "工程系统表达原理",
+      "avg": 5,
+      "count": 1
+    },
+    {
+      "id": 31093,
+      "code": "31255",
+      "name": "数学建模和数据分析",
+      "avg": 5,
+      "count": 2
+    }
+  ]
+}
