@@ -1,1 +1,27 @@
-{"tid": "6310", "name": "\u5ed6\u83e1", "related_courses": [{"id": 26966, "code": "27128", "name": "\u897f\u73ed\u7259\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 26798, "code": "26960", "name": "\u897f\u73ed\u7259\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff081\uff09", "avg": 5.0, "count": 1}, {"id": 29277, "code": "29439", "name": "\u897f\u73ed\u7259\u8bed(\u7b2c\u4e8c\u5916\u56fd\u8bed)\uff083\uff09", "avg": 5.0, "count": 1}]}
+{
+  "tid": "6310",
+  "name": "廖菡",
+  "related_courses": [
+    {
+      "id": 26966,
+      "code": "27128",
+      "name": "西班牙语（第二外国语）（2）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26798,
+      "code": "26960",
+      "name": "西班牙语（第二外国语）（1）",
+      "avg": 5,
+      "count": 2
+    },
+    {
+      "id": 29277,
+      "code": "29439",
+      "name": "西班牙语(第二外国语)（3）",
+      "avg": 5.0,
+      "count": 1
+    }
+  ]
+}
