@@ -15,8 +15,8 @@ backend:
 site_url: https://yourschool.cc.cd
 display_url: https://yourschool.cc.cd
 
-media_folder: "./src/assets"
-public_folder: "./src/assets"
+media_folder: "src/assets"
+public_folder: "src/assets"
 
 collections:
   # 根目录页面集合
