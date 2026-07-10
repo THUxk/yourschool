@@ -24,6 +24,8 @@ collections:
     label: "根目录页面"
     label_singular: "页面"
     folder: "src"
+    media_folder: "src/.vuepress/public/assets"
+    public_folder: "/assets"
     create: true
     path: "{{slug}}"
     slug: "{{slug}}"
@@ -43,6 +45,8 @@ collections:
     label: "专题"
     label_singular: "专题文章"
     folder: "src/专题"
+    media_folder: "src/.vuepress/public/assets"
+    public_folder: "/assets"
     create: true
     path: "{{slug}}"
     slug: "{{slug}}"
@@ -59,6 +63,8 @@ collections:
     label: "其他"
     label_singular: "其他文章"
     folder: "src/其他"
+    media_folder: "src/.vuepress/public/assets"
+    public_folder: "/assets"
     create: true
     path: "{{slug}}"
     slug: "{{slug}}"
@@ -75,6 +81,8 @@ collections:
     label: "校内生活设施"
     label_singular: "设施指南"
     folder: "src/校内生活设施"
+    media_folder: "src/.vuepress/public/assets"
+    public_folder: "/assets"
     create: true
     path: "{{slug}}"
     slug: "{{slug}}"
@@ -91,6 +99,8 @@ collections:
     label: "老乡在清华"
     label_singular: "老乡会"
     folder: "src/老乡在清华"
+    media_folder: "src/.vuepress/public/assets"
+    public_folder: "/assets"
     create: true
     path: "{{slug}}"
     slug: "{{slug}}"
