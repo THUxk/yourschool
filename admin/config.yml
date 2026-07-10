@@ -15,7 +15,7 @@ backend:
 site_url: https://yourschool.cc.cd
 display_url: https://yourschool.cc.cd
 
-media_folder: "/assets"
+media_folder: "src/.vuepress/public/assets"
 public_folder: "/assets"
 
 collections:
