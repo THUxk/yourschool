@@ -4,7 +4,6 @@ backend:
   branch: main
   base_url: https://api.yourschool.cc.cd
   auth_endpoint: /auth
-
   commit_messages:
     create: "CMS: 创建 {{collection}} {{slug}}"
     update: "CMS: 更新 {{collection}} {{slug}}"
@@ -24,90 +23,110 @@ collections:
     label: "根目录页面"
     label_singular: "页面"
     folder: "src"
+    path: "{{slug}}.md"
+    slug: "{{slug}}"
     media_folder: "src/.vuepress/public/assets"
     public_folder: "/assets"
     create: true
-    path: "{{slug}}"
-    slug: "{{slug}}"
     filter:
       field: filename
       pattern: /^(?!专题|其他|校内生活设施|老乡在清华|assets)/
     editor:
       preview: true
-    # 添加分页配置 - 每页最多5个
     pagination:
       limit: 5
     fields:
-      - { label: "内容", name: "body", widget: "markdown", required: true }
+      - label: "内容"
+        name: "body"
+        widget: "markdown"
+        required: true
+        media_folder: "src/.vuepress/public/assets"
+        public_folder: "/assets"
 
   # 专题集合
   - name: "topics"
     label: "专题"
     label_singular: "专题文章"
     folder: "src/专题"
+    path: "{{slug}}.md"
+    slug: "{{slug}}"
     media_folder: "src/.vuepress/public/assets"
     public_folder: "/assets"
     create: true
-    path: "{{slug}}"
-    slug: "{{slug}}"
     editor:
       preview: true
-    # 添加分页配置 - 每页最多5个
     pagination:
       limit: 5
     fields:
-      - { label: "内容", name: "body", widget: "markdown", required: true }
+      - label: "内容"
+        name: "body"
+        widget: "markdown"
+        required: true
+        media_folder: "src/.vuepress/public/assets"
+        public_folder: "/assets"
 
   # 其他集合
   - name: "others"
     label: "其他"
     label_singular: "其他文章"
     folder: "src/其他"
+    path: "{{slug}}.md"
+    slug: "{{slug}}"
     media_folder: "src/.vuepress/public/assets"
     public_folder: "/assets"
     create: true
-    path: "{{slug}}"
-    slug: "{{slug}}"
     editor:
       preview: true
-    # 添加分页配置 - 每页最多5个
     pagination:
       limit: 5
     fields:
-      - { label: "内容", name: "body", widget: "markdown", required: true }
+      - label: "内容"
+        name: "body"
+        widget: "markdown"
+        required: true
+        media_folder: "src/.vuepress/public/assets"
+        public_folder: "/assets"
 
   # 校内生活设施集合
   - name: "campus_facilities"
     label: "校内生活设施"
     label_singular: "设施指南"
     folder: "src/校内生活设施"
+    path: "{{slug}}.md"
+    slug: "{{slug}}"
     media_folder: "src/.vuepress/public/assets"
     public_folder: "/assets"
     create: true
-    path: "{{slug}}"
-    slug: "{{slug}}"
     editor:
       preview: true
-    # 添加分页配置 - 每页最多5个
     pagination:
       limit: 5
     fields:
-      - { label: "内容", name: "body", widget: "markdown", required: true }
+      - label: "内容"
+        name: "body"
+        widget: "markdown"
+        required: true
+        media_folder: "src/.vuepress/public/assets"
+        public_folder: "/assets"
 
   # 老乡在清华集合
   - name: "hometown_associations"
     label: "老乡在清华"
     label_singular: "老乡会"
     folder: "src/老乡在清华"
+    path: "{{slug}}.md"
+    slug: "{{slug}}"
     media_folder: "src/.vuepress/public/assets"
     public_folder: "/assets"
     create: true
-    path: "{{slug}}"
-    slug: "{{slug}}"
     editor:
       preview: true
-    # 添加分页配置 - 每页最多5个
     pagination:
       limit: 5
     fields:
-      - { label: "内容", name: "body", widget: "markdown", required: true }
+      - label: "内容"
+        name: "body"
+        widget: "markdown"
+        required: true
+        media_folder: "src/.vuepress/public/assets"
+        public_folder: "/assets"
