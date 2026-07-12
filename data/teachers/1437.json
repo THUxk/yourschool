@@ -1,1 +1,104 @@
-{"tid": "1437", "name": "\u9773\u536b\u840d", "related_courses": [{"id": 3724, "code": "3723", "name": "\u793e\u4f1a\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 24975, "code": "25135", "name": "\u8de8\u6587\u5316\u4ea4\u6d41\u4e0e\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 26301, "code": "26463", "name": "\u7ecf\u6d4e\u601d\u60f3\u53f2", "avg": 0.0, "count": 0}, {"id": 26402, "code": "26564", "name": "\u9ad8\u5e74\u7ea7\u5b66\u672f\u7814\u7a76\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 13828, "code": "13836", "name": "\u7ecf\u6d4e\u5b66\u539f\u7406\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 4186, "code": "4185", "name": "\u5fae\u89c2\u7ecf\u6d4e\u5b66", "avg": 0.0, "count": 0}, {"id": 7086, "code": "7085", "name": "\u4e2d\u56fd\u7ecf\u6d4e\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 7088, "code": "7087", "name": "\u7ecf\u6d4e\u5b66\u539f\u7406\uff08\u4e0b\uff09", "avg": 0.0, "count": 0}, {"id": 1968, "code": "1967", "name": "\u4e2d\u7ea7\u5b8f\u89c2\u7ecf\u6d4e\u5b66", "avg": 0.0, "count": 0}, {"id": 36889, "code": "36888", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 5257, "code": "5256", "name": "\u4e2d\u56fd\u5b8f\u89c2\u7ecf\u6d4e\u5206\u6790", "avg": 5.0, "count": 1}, {"id": 5258, "code": "5257", "name": "\u751f\u6d3b\u4e2d\u7684\u7ecf\u6d4e\u5b66", "avg": 5.0, "count": 1}, {"id": 6336, "code": "6335", "name": "\u7ecf\u6d4e\u5b66\u539f\u7406", "avg": 5.0, "count": 1}, {"id": 10057, "code": "10056", "name": "\u7ecf\u6d4e\u5b66\u539f\u7406\uff08\u4e0a\uff09", "avg": 5.0, "count": 1}]}
+{
+  "tid": "1437",
+  "name": "靳卫萍",
+  "related_courses": [
+    {
+      "id": 3724,
+      "code": "3723",
+      "name": "社会实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 24975,
+      "code": "25135",
+      "name": "跨文化交流与实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26301,
+      "code": "26463",
+      "name": "经济思想史",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26402,
+      "code": "26564",
+      "name": "高年级学术研究训练",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 13828,
+      "code": "13836",
+      "name": "经济学原理（2）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 4186,
+      "code": "4185",
+      "name": "微观经济学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 7086,
+      "code": "7085",
+      "name": "中国经济分析",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 7088,
+      "code": "7087",
+      "name": "经济学原理（下）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 1968,
+      "code": "1967",
+      "name": "中级宏观经济学",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36889,
+      "code": "36888",
+      "name": "思政实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5257,
+      "code": "5256",
+      "name": "中国宏观经济分析",
+      "avg": 5.0,
+      "count": 1
+    },
+    {
+      "id": 5258,
+      "code": "5257",
+      "name": "生活中的经济学",
+      "avg": 4.5,
+      "count": 2
+    },
+    {
+      "id": 6336,
+      "code": "6335",
+      "name": "经济学原理",
+      "avg": 5.0,
+      "count": 1
+    },
+    {
+      "id": 10057,
+      "code": "10056",
+      "name": "经济学原理（上）",
+      "avg": 5.0,
+      "count": 1
+    }
+  ]
+}
