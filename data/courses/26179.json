@@ -1,5 +1,5 @@
 {
-  "count": 5,
+  "count": 6,
   "next": null,
   "previous": null,
   "results": [
@@ -37,6 +37,13 @@
       "comment": "每节课都会有放新闻/ted演讲 然后routine work是每个人一学期需要演讲一次（内容自定）每周准备一条新闻的comment（一分钟左右）两周交一次 学期末有小组作业 任务量适中 但是老师人特别好！感觉这样的训练很有效果～",
       "created_at": "2024/07/21 18:17",
       "score": null
+    },
+    {
+      "id": 3778,
+      "rating": 5,
+      "comment": "考核方式：News commentary（30%）+\n              Mini talk（20%）+A group research project（20%）+Participation（Quiz 10% + Notes 10% + Participation 10% 共30%）\n授课质量与给分：很好地训练英语听说能力，强度很高，上课要好好准备，每周都需要准备，课下任务很重（很多Oral practice，自己多听多练习就会感觉更好，quiz会从发的听力材料里面抽取，较为简单）老师和助教都非常好！抓的比较细，可以多多交流，最后一个project相当于一篇小论文了，做点研究，最后上去pre可以不用全脱稿。总而言之是非常好的课！\n              \n点评人：J\n              \n上课学期：25-26春",
+      "created_at": "2026/07/15 14:46",
+      "score": "4.0"
     }
   ]
 }

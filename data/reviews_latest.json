@@ -1,5 +1,17 @@
 [
   {
+    "id": 3778,
+    "course": {
+      "id": 26179
+    },
+    "rating": 5,
+    "comment": "考核方式：News commentary（30%）+\n              Mini talk（20%）+A group research project（20%）+Participation（Quiz 10% + Notes 10% + Participation 10% 共30%）\n授课质量与给分：很好地训练英语听说能力，强度很高，上课要好好准备，每周都需要准备，课下任务很重（很多Oral practice，自己多听多练习就会感觉更好，quiz会从发的听力材料里面抽取，较为简单）老师和助教都非常好！抓的比较细，可以多多交流，最后一个project相当于一篇小论文了，做点研究，最后上去pre可以不用全脱稿。总而言之是非常好的课！\n              \n点评人：J\n              \n上课学期：25-26春",
+    "created_at": "2026/07/15 14:46",
+    "score": "4.0",
+    "_course_name": "英语听说交流(A)",
+    "_course_teacher": "刘宁"
+  },
+  {
     "id": 3777,
     "course": {
       "id": 37527
@@ -1186,17 +1198,5 @@
     "score": "C+",
     "_course_name": "高分子化学与物理",
     "_course_teacher": "许华平"
-  },
-  {
-    "id": 3678,
-    "course": {
-      "id": 35342
-    },
-    "rating": 3,
-    "comment": "考核方式：未知，我也很想知道\n              \n授课质量与给分：\n老师讲的确实有趣，但是切勿相信批发4.0的评价！本人一学期勤勤恳恳收获3.6，慎重选择\n              \n点评人：\n              \n上课学期：",
-    "created_at": "2026/07/04 17:22",
-    "score": null,
-    "_course_name": "鸟类学导论",
-    "_course_teacher": "陈功"
   }
 ]
