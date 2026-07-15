@@ -1,1 +1,125 @@
-{"tid": "32", "name": "\u5f20\u56fd\u521a", "related_courses": [{"id": 14177, "code": "14185", "name": "\u4e2d\u56fd\u53f2\u8981\u8bba", "avg": 0.0, "count": 0}, {"id": 16219, "code": "16228", "name": "\u4e2d\u56fd\u793e\u4f1a\u6587\u5316\u53f2\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 16404, "code": "16419", "name": "\u300a\u8d44\u6cbb\u901a\u9274\u300b\u5bfc\u8bfb\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 17264, "code": "17281", "name": "\u540d\u8457\u5bfc\u8bfb\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 18398, "code": "18415", "name": "\u4e2d\u56fd\u53e4\u4ee3\u53f2\u6587\u732e", "avg": 0.0, "count": 0}, {"id": 21272, "code": "21297", "name": "\u4e2d\u56fd\u6587\u5316\u5728\u6b27\u6d32(1500-1800)", "avg": 0.0, "count": 0}, {"id": 21275, "code": "21300", "name": "\u4e2d\u56fd\u5b66\u672f\u53f2\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 22209, "code": "22324", "name": "\u5386\u53f2\u6587\u9009", "avg": 0.0, "count": 0}, {"id": 32760, "code": "32922", "name": "\u4e2d\u56fd\u4e2d\u53e4\u5236\u5ea6\u53f2\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 5502, "code": "5501", "name": "\u4e2d\u897f\u6587\u5316\u5173\u7cfb\u53f2", "avg": 0.0, "count": 0}, {"id": 4549, "code": "4548", "name": "\u4e2d\u53e4\u793e\u4f1a\u4e0e\u5236\u5ea6\u7814\u7a76\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 33, "code": "32", "name": "\u5386\u53f2\u5b66\u7406\u8bba\u4e0e\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 38433, "code": "", "name": "\u4e2d\u5916\u6587\u660e\u6bd4\u8f83\u6982\u8981", "avg": 0.0, "count": 0}, {"id": 36651, "code": "36650", "name": "\u6bd4\u8f83\u6587\u660e\u89c6\u91ce\u4e0b\u7684\u4e2d\u534e\u9886\u5bfc\u667a\u6167", "avg": 0.0, "count": 0}, {"id": 375, "code": "374", "name": "\u968b\u5510\u4e94\u4ee3\u53f2", "avg": 3.0, "count": 1}, {"id": 2927, "code": "2926", "name": "\u4e2d\u56fd\u6587\u660e", "avg": 5.0, "count": 1}, {"id": 6485, "code": "6484", "name": "\u300a\u8d44\u6cbb\u901a\u9274\u300b\u5bfc\u8bfb", "avg": 4.7, "count": 3}]}
+{
+  "tid": "32",
+  "name": "张国刚",
+  "related_courses": [
+    {
+      "id": 14177,
+      "code": "14185",
+      "name": "中国史要论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16219,
+      "code": "16228",
+      "name": "中国社会文化史研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16404,
+      "code": "16419",
+      "name": "《资治通鉴》导读（2）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 17264,
+      "code": "17281",
+      "name": "名著导读（1）",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 18398,
+      "code": "18415",
+      "name": "中国古代史文献",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 21272,
+      "code": "21297",
+      "name": "中国文化在欧洲(1500-1800)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 21275,
+      "code": "21300",
+      "name": "中国学术史研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 22209,
+      "code": "22324",
+      "name": "历史文选",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 32760,
+      "code": "32922",
+      "name": "中国中古制度史研究",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 5502,
+      "code": "5501",
+      "name": "中西文化关系史",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 4549,
+      "code": "4548",
+      "name": "中古社会与制度研究专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 33,
+      "code": "32",
+      "name": "历史学理论与实践",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 38433,
+      "code": "",
+      "name": "中外文明比较概要",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36651,
+      "code": "36650",
+      "name": "比较文明视野下的中华领导智慧",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 375,
+      "code": "374",
+      "name": "隋唐五代史",
+      "avg": 3.0,
+      "count": 1
+    },
+    {
+      "id": 2927,
+      "code": "2926",
+      "name": "中国文明",
+      "avg": 5,
+      "count": 2
+    },
+    {
+      "id": 6485,
+      "code": "6484",
+      "name": "《资治通鉴》导读",
+      "avg": 4.7,
+      "count": 3
+    }
+  ]
+}
