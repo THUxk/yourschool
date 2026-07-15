@@ -1,5 +1,17 @@
 [
   {
+    "id": 3780,
+    "course": {
+      "id": 8530
+    },
+    "rating": 4,
+    "comment": "晏老师真的很喜欢讲定理证明啊\n但是理解定理证明对成绩绝对是完全的负面影响\n不要证明\n趁早刷题   \n\n上课学期：2026 spring\n\nsamuel",
+    "created_at": "2026/07/15 22:20",
+    "score": "B+",
+    "_course_name": "微积分A(2)",
+    "_course_teacher": "晏平"
+  },
+  {
     "id": 3779,
     "course": {
       "id": 2927
@@ -1186,17 +1198,5 @@
     "score": "4.0",
     "_course_name": "日本史",
     "_course_teacher": "刘晓峰"
-  },
-  {
-    "id": 3680,
-    "course": {
-      "id": 2984
-    },
-    "rating": 5,
-    "comment": "考核方式：实验+最后答辩+代码\n              \n授课质量与给分：5\n              \n点评人：匿名\n              \n上课学期：2026春季",
-    "created_at": "2026/07/04 17:36",
-    "score": "A+",
-    "_course_name": "数字电路与嵌入式系统",
-    "_course_teacher": "曾鸣"
   }
 ]
