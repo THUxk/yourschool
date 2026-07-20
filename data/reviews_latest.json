@@ -1,5 +1,17 @@
 [
   {
+    "id": 3787,
+    "course": {
+      "id": 37515
+    },
+    "rating": 5,
+    "comment": "考核方式：/\n              \n授课质量与给分：/\n              \n点评人：Fan Liang\n              \n上课学期：/\n\n注意：老师似乎对清华的成绩登记系统不熟悉，这门课89分会得到B 3.3的总评",
+    "created_at": "2026/07/20 23:36",
+    "score": "/",
+    "_course_name": "微分几何(1)",
+    "_course_teacher": "朱波"
+  },
+  {
     "id": 3786,
     "course": {
       "id": 37515
@@ -1186,17 +1198,5 @@
     "score": "4.0",
     "_course_name": "复变函数",
     "_course_teacher": "李岩松"
-  },
-  {
-    "id": 3687,
-    "course": {
-      "id": 33613
-    },
-    "rating": 5,
-    "comment": "考核方式：平时作业40%，期末考试(可携带电子资料)60%\n              \n授课质量与给分：5\n              \n点评人：栗悟饭和龟波气功\n              \n上课学期：2026 Spring\n\n推荐每一位物理系学生上的 GR 课！\n\n不同于其他 GR 课程，安老师选的参考书之一是 Weinberg 的《引力和宇宙学》，这本书和作者的三本 QFT 教材一样有非常明显的独特风格——物理味很浓厚，强调实验和直观，这在众多形同微分几何计算练习册的同类教材中独树一帜\n\n本课程的前半部分是对 GR 的引入，其根本出发点是等效原理，指出非 Euclidean 几何只是不蕴含物理的有效描述，GR 本身也是只某种展开 (对导数展开) 下的有效场论。也许研究几何分析的学生会对安老师的讲法感到困惑，但是从物理上看，这种理解正暗含了量子引力的一种可能，在人类发现真正紫外完备的引力理论之前，Weinberg 的洞察都不是过时的。在此之后算了几种黑洞和引力波，参考书目有俞允强老师的《广义相对论简明教程》第七章，Sussking 的《An Introduction to Black Holes, Information and the String Theory Revolution》第一章，James B. Hartle 的《Gravity: An Introduction to Einstein's General Relativity》第十五章和 Michele Maggiore 的《Gravitational Waves, Volume 1: Theory and Experiments》前四章。安老师对于计算过程的讲解比较简略，当然这可以理解成本课程的特点，对于物理学来说计算不是也不应该喧宾夺主\n\n本课程的后半部分介绍了一些有趣的专题，即时空的热学效应 (Unruh effect, Hawking radiation) 和基础的宇宙学理论，参考书有 Edward W. Kolb, Michael S. Turner 的《The Early Universe》前四章和 V. Mukhanov, S. Winitzki 的《Introduction to Quantum Effects in Gravity》第七章。没有继续用Weinberg的书的原因是它的宇宙学部分确实有些过时。这一部分的内容对于开拓大家的物理视野是很有帮助的\n\n需要强调的是，本人建议大家先用其他 GR 或微分几何教材自学一点内容，否则你在课下补全板书的计算过程时会非常吃力 (比如 Weinberg 的书用了非常雷霆的方法引入曲率张量，能用那种方法算出来的那真是这辈子有了)。此外请确保分析力学功底扎实，起码会算电磁场的 Noether current。如果有空闲时间的话可以学一点 QFT (不用会太多，理解小群表示，了解自由场的二次量子化和路径积分就够了，显然本课程不会用到算散射振幅的 Feynman 图或者重整化手段)，这样听后半学期的内容会舒服一点\n\n最后说一下绩点相关。作业好好写，可能这学期就这么点计算训练，再不写的话到了考场上那不炸了。个人认为安老师的作业布置不太匹配课程进度，所以大家如果没有精彩内容抢先看的话做起来会有些吃力。期末考试可以携带任意数目的纸质资料和电子资料，但别用手机 (据老师所说这是因为巡考看见了会不高兴www)。最后一节课下课后安老师会发往年卷，可以做一下然后熟悉安老师的出题风格。个人认为题目不是很难，但是比较灵活 (毕竟谁也不希望学生听了一学期课之后只是一台算 Christoffel symbols 和 Riemann tensor 的机器)\n\n时间机器是不可能造出来的",
-    "created_at": "2026/07/05 00:13",
-    "score": "4.0",
-    "_course_name": "广义相对论",
-    "_course_teacher": "安海鹏"
   }
 ]
