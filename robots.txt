@@ -74,5 +74,5 @@ Disallow: /.git/
 Disallow: /.qwen/
 
 # Sitemaps
-Sitemap: https://yourschool.cc.cd/sitemap.xml
-Sitemap: https://yourschool.cc.cd/sitemap-index.xml
+Sitemap: https://thubook.help/sitemap.xml
+Sitemap: https://thubook.help/sitemap-index.xml

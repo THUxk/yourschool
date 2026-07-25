@@ -11,8 +11,8 @@ backend:
     uploadMedia: "CMS: 上传媒体文件 {{path}}"
     deleteMedia: "CMS: 删除媒体文件 {{path}}"
 
-site_url: https://yourschool.cc.cd
-display_url: https://yourschool.cc.cd
+site_url: https://thubook.help
+display_url: https://thubook.help
 
 media_folder: "src/.vuepress/public/assets"
 public_folder: "/assets"
