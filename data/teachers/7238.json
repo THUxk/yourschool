@@ -1,1 +1,48 @@
-{"tid": "7238", "name": "\u5f20\u9896", "related_courses": [{"id": 33720, "code": "33882", "name": "\u82f1\u8bed\u53e3\u8bd1\u5165\u95e8", "avg": 0.0, "count": 0}, {"id": 35531, "code": "35530", "name": "\u6587\u5b66\u7406\u8bba", "avg": 0.0, "count": 0}, {"id": 36573, "code": "36572", "name": "\u6587\u827a\u5b66\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 37667, "code": "37666", "name": "\u79d1\u6280\u5199\u4f5c\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 37710, "code": "37709", "name": "\u73b0\u4ee3\u751f\u547d\u79d1\u5b66\u524d\u6cbf\u63a2\u7d22", "avg": 0.0, "count": 0}, {"id": 33134, "code": "33296", "name": "\u82f1\u8bed\u542c\u8bf4\u4ea4\u6d41\uff08A\uff09", "avg": 4.7, "count": 3}]}
+{
+  "tid": "7238",
+  "name": "张颖",
+  "related_courses": [
+    {
+      "id": 33720,
+      "code": "33882",
+      "name": "英语口译入门",
+      "avg": 5,
+      "count": 1
+    },
+    {
+      "id": 35531,
+      "code": "35530",
+      "name": "文学理论",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 36573,
+      "code": "36572",
+      "name": "文艺学专题",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37667,
+      "code": "37666",
+      "name": "科技写作训练",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 37710,
+      "code": "37709",
+      "name": "现代生命科学前沿探索",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 33134,
+      "code": "33296",
+      "name": "英语听说交流（A）",
+      "avg": 4.7,
+      "count": 3
+    }
+  ]
+}
