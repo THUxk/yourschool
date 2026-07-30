@@ -1,7 +1,7 @@
 {
   "name": "THUxk",
   "short_name": "THUxk",
-  "description": "清华大学的学术资源与学习社区",
+  "description": "THU的学术资源与学习社区",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#8a4abf",
