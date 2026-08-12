@@ -1,5 +1,5 @@
 {
-  "count": 5,
+  "count": 6,
   "next": null,
   "previous": null,
   "results": [
@@ -37,6 +37,13 @@
       "comment": "考核方式：见上\n              \n授课质量与给分：讲课比较催眠。。不过作业量大可以弥补。课间放的音乐有的还是很好听的\n              \n点评人：\n              \n上课学期：",
       "created_at": "2026/07/03 19:36",
       "score": "A"
+    },
+    {
+      "id": 3835,
+      "rating": 5,
+      "comment": "作业多到爆，但是能让你从完全不会练得明明白白",
+      "created_at": "2026/08/12 18:21",
+      "score": null
     }
   ]
 }
