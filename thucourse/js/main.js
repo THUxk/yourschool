@@ -440,7 +440,7 @@ const Renderer = {
       const timeStr = item.modified_at || item.created_at || "";
       card.innerHTML = `
         <a href="/thucourse/course.html?sqid=${(item.course || {}).id}&name=${encodeURIComponent(name)}&teacher=${encodeURIComponent(teacher)}" class="review-course-link">${courseName}</a>
-        <div class="review-rating-text">推荐指数：${item.rating}</div>
+        <div class="review-rating-text">推荐指数：${item.rating}${item.score ? " 成绩：" + item.score : ""}</div>
         <div class="review-comment">${item.comment || "无点评内容"}</div>
         <div class="review-meta"><span>${isLocal ? "本地" : "#" + item.id}</span><span>${timeStr}</span></div>
       `;
