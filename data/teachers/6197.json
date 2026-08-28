@@ -1,1 +1,20 @@
-{"tid": "6197", "name": "\u6b66\u6d77\u5e73", "related_courses": [{"id": 26061, "code": "26223", "name": "\u4e2d\u56fd\u5386\u53f2\u5730\u7406", "avg": 0.0, "count": 0}, {"id": 28445, "code": "28607", "name": "\u4e16\u754c\u5386\u53f2\u5730\u7406", "avg": 5.0, "count": 2}]}
+{
+  "tid": "6197",
+  "name": "武海平",
+  "related_courses": [
+    {
+      "id": 26061,
+      "code": "26223",
+      "name": "中国历史地理",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 28445,
+      "code": "28607",
+      "name": "世界历史地理",
+      "avg": 5,
+      "count": 3
+    }
+  ]
+}
