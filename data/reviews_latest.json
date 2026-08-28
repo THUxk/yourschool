@@ -1,5 +1,17 @@
 [
   {
+    "id": 3851,
+    "course": {
+      "id": 26084
+    },
+    "rating": 1,
+    "comment": "考核方式：作业\n              \n授课质量与给分：老师思维方式比较登\n              \n点评人\n              \n上课学期：",
+    "created_at": "2026/08/28 16:05",
+    "score": null,
+    "_course_name": "戏剧剧本基础写作",
+    "_course_teacher": "付桂生"
+  },
+  {
     "id": 3850,
     "course": {
       "id": 7000
@@ -1186,17 +1198,5 @@
     "score": "4.0",
     "_course_name": "西班牙语(第二外国语)(1)",
     "_course_teacher": "廖菡"
-  },
-  {
-    "id": 3751,
-    "course": {
-      "id": 8339
-    },
-    "rating": 5,
-    "comment": "考核方式：期末考试\n              \n授课质量与给分：这学期是默认P/F的\n              \n点评人：happy_pointer\n              \n上课学期：2026春",
-    "created_at": "2026/07/09 01:42",
-    "score": "P",
-    "_course_name": "合同法",
-    "_course_teacher": "汪洋"
   }
 ]
