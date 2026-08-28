@@ -1,5 +1,5 @@
 {
-  "count": 7,
+  "count": 5,
   "next": null,
   "previous": null,
   "results": [
@@ -36,20 +36,6 @@
       "rating": 5,
       "comment": "考核方式：课堂+作业+video abstract\n这门课的作业是小组合作写一篇英文research article，每人负责一个部分，其他人进行同行评议，每个人写的部分，同行评议和终稿都在考核里占一部分分数。video abstract就是以video的形式做个文章摘要。\n授课质量与给分：写文章的工作量分到每个组员头上并不大，老师人很好，还会安排下午茶时间，面对面帮大家解决作业中的问题。给分应该还不错，本人拿了4.0。\n建议无脑选。\n上课学期：2024年秋",
       "created_at": "2025/01/28 10:48",
-      "score": null
-    },
-    {
-      "id": 884,
-      "rating": 5,
-      "comment": "讲解学术英语论文写作的用词、结构等方面，老师人很好，会发放一些小礼物",
-      "created_at": "2024/07/21 18:11",
-      "score": null
-    },
-    {
-      "id": 222,
-      "rating": 5,
-      "comment": "工作量少，老师非常nice。",
-      "created_at": "2024/07/21 13:34",
       "score": null
     }
   ]

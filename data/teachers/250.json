@@ -1,1 +1,27 @@
-{"tid": "250", "name": "\u5218\u949d", "related_courses": [{"id": 24757, "code": "24914", "name": "\u79d1\u5b66\u6587\u5316\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 34775, "code": "34774", "name": "\u82f1\u56fd\u7684\u79d1\u5b66\u4e0e\u6587\u5316&mdash;&mdash;\u4ee5\u7ef4\u591a\u5229\u4e9a\u65f6\u4ee3\u4e3a\u4e2d\u5fc3", "avg": 0.0, "count": 0}, {"id": 25078, "code": "25238", "name": "\u56fe\u8bdd\u79d1\u5b66\u6587\u660e\u53f2", "avg": 4.0, "count": 1}]}
+{
+    "tid": "250",
+    "name": "刘钝",
+    "related_courses": [
+        {
+            "id": 24757,
+            "code": "24914",
+            "name": "科学文化专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34775,
+            "code": "34774",
+            "name": "英国的科学与文化&mdash;&mdash;以维多利亚时代为中心",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25078,
+            "code": "25238",
+            "name": "图话科学文明史",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

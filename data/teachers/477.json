@@ -1,1 +1,167 @@
-{"tid": "477", "name": "\u5218\u660a", "related_courses": [{"id": 3295, "code": "3294", "name": "\u9ad8\u7ea7\u82f1\u8bed\u8bfb\u5199\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 4349, "code": "4348", "name": "\u838e\u58eb\u6bd4\u4e9a\u620f\u5267\u9009\u8bfb", "avg": 0.0, "count": 0}, {"id": 5704, "code": "5703", "name": "\u9ad8\u7ea7\u82f1\u8bed\u8bfb\u5199\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 8203, "code": "8202", "name": "\u7406\u89e3\u838e\u58eb\u6bd4\u4e9a", "avg": 0.0, "count": 0}, {"id": 11830, "code": "11831", "name": "\u9ad8\u7ea7\u82f1\u8bed\u8bfb\u5199\uff083\uff09", "avg": 0.0, "count": 0}, {"id": 13541, "code": "13549", "name": "\u9ad8\u7ea7\u82f1\u8bed\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 13600, "code": "13608", "name": "\u82f1\u8bed\u542c\u529b(2)", "avg": 0.0, "count": 0}, {"id": 14422, "code": "14430", "name": "\u82f1\u8bed\u7cbe\u8bfb \uff084\uff09", "avg": 0.0, "count": 0}, {"id": 14426, "code": "14434", "name": "\u9ad8\u7ea7\u82f1\u8bed\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 2477, "code": "2476", "name": "\u82f1\u8bed\u620f\u5267\u6392\u7ec3\u4e0e\u82f1\u8bed\u6717\u8bfb", "avg": 0.0, "count": 0}, {"id": 17526, "code": "17543", "name": "\u82f1\u8bed\u5199\u4f5c(3)", "avg": 0.0, "count": 0}, {"id": 17551, "code": "17568", "name": "\u82f1\u6c49\u7ffb\u8bd1", "avg": 0.0, "count": 0}, {"id": 17605, "code": "17622", "name": "\u7efc\u5408\u82f1\u8bed(1)", "avg": 0.0, "count": 0}, {"id": 19028, "code": "19047", "name": "\u82f1\u8bed\u542c\u529b(3)", "avg": 0.0, "count": 0}, {"id": 20720, "code": "20745", "name": "\u82f1\u8bed\u53e3\u8bd1(1)", "avg": 0.0, "count": 0}, {"id": 20879, "code": "20904", "name": "\u7efc\u5408\u82f1\u8bed(4)", "avg": 0.0, "count": 0}, {"id": 29103, "code": "29265", "name": "\u838e\u58eb\u6bd4\u4e9a\u620f\u5267\u6392\u7ec3", "avg": 0.0, "count": 0}, {"id": 34023, "code": "34185", "name": "\u821e\u53f0\u4e0a\u7684\u838e\u58eb\u6bd4\u4e9a", "avg": 0.0, "count": 0}, {"id": 17405, "code": "17422", "name": "\u82f1\u8bed\u5199\u4f5c(2)", "avg": 0.0, "count": 0}, {"id": 38694, "code": "", "name": "\u82f1\u8bed\u620f\u5267\u7814\u8bfb", "avg": 0.0, "count": 0}, {"id": 38070, "code": "38069", "name": "\u838e\u58eb\u6bd4\u4e9a\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 553, "code": "552", "name": "\u838e\u58eb\u6bd4\u4e9a\u60b2\u5267\u4e0e\u559c\u5267\u7cbe\u8bfb", "avg": 5.0, "count": 1}, {"id": 3294, "code": "3293", "name": "\u82f1\u8bed\u620f\u5267\u9009\u8bfb", "avg": 5.0, "count": 1}]}
+{
+    "tid": "477",
+    "name": "刘昊",
+    "related_courses": [
+        {
+            "id": 3295,
+            "code": "3294",
+            "name": "高级英语读写（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4349,
+            "code": "4348",
+            "name": "莎士比亚戏剧选读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5704,
+            "code": "5703",
+            "name": "高级英语读写（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8203,
+            "code": "8202",
+            "name": "理解莎士比亚",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11830,
+            "code": "11831",
+            "name": "高级英语读写（3）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13541,
+            "code": "13549",
+            "name": "高级英语（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13600,
+            "code": "13608",
+            "name": "英语听力(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14422,
+            "code": "14430",
+            "name": "英语精读 （4）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14426,
+            "code": "14434",
+            "name": "高级英语（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2477,
+            "code": "2476",
+            "name": "英语戏剧排练与英语朗读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17526,
+            "code": "17543",
+            "name": "英语写作(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17551,
+            "code": "17568",
+            "name": "英汉翻译",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17605,
+            "code": "17622",
+            "name": "综合英语(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 19028,
+            "code": "19047",
+            "name": "英语听力(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20720,
+            "code": "20745",
+            "name": "英语口译(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20879,
+            "code": "20904",
+            "name": "综合英语(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29103,
+            "code": "29265",
+            "name": "莎士比亚戏剧排练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34023,
+            "code": "34185",
+            "name": "舞台上的莎士比亚",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17405,
+            "code": "17422",
+            "name": "英语写作(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38694,
+            "code": "",
+            "name": "英语戏剧研读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38070,
+            "code": "38069",
+            "name": "莎士比亚专题研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 553,
+            "code": "552",
+            "name": "莎士比亚悲剧与喜剧精读",
+            "avg": 5.0,
+            "count": 1
+        },
+        {
+            "id": 3294,
+            "code": "3293",
+            "name": "英语戏剧选读",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

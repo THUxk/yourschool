@@ -1,5 +1,5 @@
 {
-  "count": 9,
+  "count": 8,
   "next": null,
   "previous": null,
   "results": [
@@ -36,13 +36,6 @@
       "rating": 5,
       "comment": "考核方式：下面同学评价了\n\n授课质量与给分：质量挺高的\n\n点评人：\n\n上课学期：",
       "created_at": "2024/12/06 17:51",
-      "score": null
-    },
-    {
-      "id": 889,
-      "rating": 4,
-      "comment": "会讲essay的具体写法，把它拆分为thesis statement,incidence,conclusion等数个部分，详细介绍每一部分的写法，作业也大多和这个有关。期中闭卷写800字论文。期末开卷写1500字论文。每次作业会给分。甚至有的时候给出排名（谜之操作）。不过作业量都很小。",
-      "created_at": "2024/07/21 18:13",
       "score": null
     },
     {

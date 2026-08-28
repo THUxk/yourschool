@@ -1,41 +1,69 @@
 @echo off
-chcp 65001 >nul
-title THU选课社区
+setlocal
+title THUxk Local Server
 
-cd /d "%~dp0"
+rem Serve from main because pages use absolute /thucourse/ and /data/ URLs.
+for %%d in ("%~dp0..") do set "WEB_ROOT=%%~fd"
+set "PORT=8080"
+if not "%~1"=="" set "PORT=%~1"
+set "SITE_URL=http://127.0.0.1:%PORT%/thucourse/"
 
-echo.
-echo ╔════════════════════════════════╗
-echo ║     THU 选课社区 - 本地启动    ║
-echo ╚════════════════════════════════╝
-echo.
-
-:: 尝试找 Python
-set PYTHON=
-for %%p in (python python3 py) do (
-    where %%p >nul 2>nul
-    if not errorlevel 1 (
-        set PYTHON=%%p
-        goto :found
-    )
+cd /d "%WEB_ROOT%"
+if errorlevel 1 (
+    echo [ERROR] Cannot open the web root:
+    echo         %WEB_ROOT%
+    goto :failed
 )
 
-echo [错误] 未找到 Python，请先安装 Python 或将其添加到 PATH。
-echo        下载地址: https://www.python.org/downloads/
-pause
+rem Do not rely on WHERE: Windows execution aliases may not be reported by it.
+set "PYTHON_CMD="
+python -c "import sys" >nul 2>nul
+if not errorlevel 1 set "PYTHON_CMD=python"
+if defined PYTHON_CMD goto :python_found
+
+python3 -c "import sys" >nul 2>nul
+if not errorlevel 1 set "PYTHON_CMD=python3"
+if defined PYTHON_CMD goto :python_found
+
+py -3 -c "import sys" >nul 2>nul
+if not errorlevel 1 set "PYTHON_CMD=py -3"
+if defined PYTHON_CMD goto :python_found
+
+echo [ERROR] Python 3 was not found.
+echo         Install it from https://www.python.org/downloads/
+goto :failed
+
+:python_found
+rem Validate the port before opening a browser window.
+%PYTHON_CMD% -c "import socket,sys; s=socket.socket(); s.bind(('127.0.0.1',int(sys.argv[1]))); s.close()" "%PORT%" >nul 2>nul
+if errorlevel 1 (
+    echo [ERROR] Port %PORT% is invalid or already in use.
+    echo         Stop the old server with Ctrl+C, or run:
+    echo         run.bat 8081
+    goto :failed
+)
+
+echo.
+echo ========================================
+echo   THUxk local server
+echo ========================================
+echo Python:   %PYTHON_CMD%
+echo Web root: %WEB_ROOT%
+echo Website:  %SITE_URL%
+echo Stop:     Ctrl+C
+echo.
+
+rem THUXK_NO_BROWSER=1 is useful for automated checks.
+if /i not "%THUXK_NO_BROWSER%"=="1" (
+    start "" cmd /d /c "timeout /t 2 /nobreak >nul && start %SITE_URL%"
+)
+
+%PYTHON_CMD% -m http.server %PORT% --bind 127.0.0.1
+set "SERVER_EXIT=%ERRORLEVEL%"
+if not "%SERVER_EXIT%"=="0" echo [ERROR] The local server exited with code %SERVER_EXIT%.
+if /i not "%THUXK_NO_PAUSE%"=="1" pause
+exit /b %SERVER_EXIT%
+
+:failed
+if /i not "%THUXK_NO_PAUSE%"=="1" pause
 exit /b 1
-
-:found
-echo [信息] 使用 %PYTHON% 启动本地服务器...
-echo.
-echo   网站地址: http://localhost:8080
-echo   按 Ctrl+C 可停止服务器
-echo.
-
-:: 延迟 1 秒后打开浏览器（等服务器启动）
-start "" cmd /c "timeout /t 2 /nobreak >nul && start http://localhost:8080"
-
-:: 启动 HTTP 服务器
-%PYTHON% -m http.server 8080 --bind 127.0.0.1
-
-pause

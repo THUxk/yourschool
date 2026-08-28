@@ -1,1 +1,13 @@
-{"tid": "6303", "name": "\u8d3a\u66e6\u9e23", "related_courses": [{"id": 26787, "code": "26949", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 4.7, "count": 6}]}
+{
+    "tid": "6303",
+    "name": "贺曦鸣",
+    "related_courses": [
+        {
+            "id": 26787,
+            "code": "26949",
+            "name": "写作与沟通",
+            "avg": 4.6,
+            "count": 5
+        }
+    ]
+}

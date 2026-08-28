@@ -1,1 +1,76 @@
-{"tid": "112", "name": "\u738b\u96ef\u59dd", "related_courses": [{"id": 9999, "code": "9998", "name": "\u4e2d\u56fd\u65b9\u6848:\u4e16\u754c\u53d1\u5c55\u5927\u52bf\u4e0e\u56fd\u5bb6\u5916\u4ea4\u6218\u7565", "avg": 0.0, "count": 0}, {"id": 10087, "code": "10086", "name": "\u4e2d\u56fd\u5171\u4ea7\u515a\u4e0e\u56fd\u5bb6\u6cbb\u7406", "avg": 0.0, "count": 0}, {"id": 18560, "code": "18577", "name": "\u793e\u4f1a\u601d\u6f6e\u4e0e\u9752\u5e74\u6559\u80b2", "avg": 0.0, "count": 0}, {"id": 20266, "code": "20290", "name": "\u601d\u60f3\u9053\u5fb7\u4fee\u517b", "avg": 0.0, "count": 0}, {"id": 4258, "code": "4257", "name": "\u5f62\u52bf\u4e0e\u653f\u7b56", "avg": 0.0, "count": 0}, {"id": 119, "code": "118", "name": "\u4e2d\u56fd\u65b9\u6848:\u5168\u7403\u6cbb\u7406\u683c\u5c40\u4e0e\u56fd\u5bb6\u5916\u4ea4\u6218\u7565", "avg": 0.0, "count": 0}, {"id": 38478, "code": "", "name": "\u5927\u5b66\u751f\u601d\u60f3\u6587\u5316\u7d20\u517b", "avg": 0.0, "count": 0}, {"id": 37942, "code": "37941", "name": "\u5927\u4e2d\u5c0f\u5b66\u601d\u60f3\u653f\u6cbb\u7406\u8bba\u8bfe\u4e00\u4f53\u5316\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 735, "code": "734", "name": "\u601d\u60f3\u9053\u5fb7\u4fee\u517b\u4e0e\u6cd5\u5f8b\u57fa\u7840", "avg": 4.2, "count": 5}, {"id": 29243, "code": "29405", "name": "\u601d\u60f3\u9053\u5fb7\u4e0e\u6cd5\u6cbb", "avg": 2.9583333333333335, "count": 24}]}
+{
+    "tid": "112",
+    "name": "王雯姝",
+    "related_courses": [
+        {
+            "id": 9999,
+            "code": "9998",
+            "name": "中国方案:世界发展大势与国家外交战略",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10087,
+            "code": "10086",
+            "name": "中国共产党与国家治理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18560,
+            "code": "18577",
+            "name": "社会思潮与青年教育",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20266,
+            "code": "20290",
+            "name": "思想道德修养",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4258,
+            "code": "4257",
+            "name": "形势与政策",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 119,
+            "code": "118",
+            "name": "中国方案:全球治理格局与国家外交战略",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38478,
+            "code": "",
+            "name": "大学生思想文化素养",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37942,
+            "code": "37941",
+            "name": "大中小学思想政治理论课一体化研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 735,
+            "code": "734",
+            "name": "思想道德修养与法律基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29243,
+            "code": "29405",
+            "name": "思想道德与法治",
+            "avg": 2.9583333333333335,
+            "count": 24
+        }
+    ]
+}

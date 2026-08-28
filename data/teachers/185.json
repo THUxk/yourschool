@@ -1,1 +1,153 @@
-{"tid": "185", "name": "\u51af\u6d77\u9e70", "related_courses": [{"id": 5732, "code": "5731", "name": "\u8de8\u6587\u5316\u4ea4\u9645(2)", "avg": 0.0, "count": 0}, {"id": 5931, "code": "5930", "name": "\u57fa\u7840\u65e5\u8bed(2)", "avg": 0.0, "count": 0}, {"id": 6148, "code": "6147", "name": "\u7ffb\u8bd1\u5b9e\u4e60", "avg": 0.0, "count": 0}, {"id": 6888, "code": "6887", "name": "\u5b9e\u7528\u65e5\u8bed\u4f1a\u8bdd\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 9185, "code": "9184", "name": "\u8de8\u6587\u5316\u4ea4\u9645\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 10576, "code": "10577", "name": "\u65e5\u8bed\u620f\u5267\u6392\u6f14", "avg": 0.0, "count": 0}, {"id": 11206, "code": "11207", "name": "\u7cfb\u56fe\u4e66\u97f3\u50cf\u8d44\u6599\u6574\u7406\u53ca\u5b66\u672f\u4f1a\u8bae\u670d\u52a1", "avg": 0.0, "count": 0}, {"id": 11259, "code": "11260", "name": "\u65e5\u8bed\u542c\u529b\u4f1a\u8bdd\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 11703, "code": "11704", "name": "\u65e5\u8bed\u53e3\u8bd1(1)", "avg": 0.0, "count": 0}, {"id": 13751, "code": "13759", "name": "\u57fa\u7840\u65e5\u8bed(1)", "avg": 0.0, "count": 0}, {"id": 14406, "code": "14414", "name": "\u65e5\u8bed\u8bba\u6587\u5199\u4f5c\u6307\u5bfc", "avg": 0.0, "count": 0}, {"id": 18050, "code": "18067", "name": "\u65e5\u8bed\u53e3\u8bd1(2)", "avg": 0.0, "count": 0}, {"id": 18124, "code": "18141", "name": "\u65e5\u8bed\u6cdb\u8bfb(1)", "avg": 0.0, "count": 0}, {"id": 19147, "code": "19166", "name": "\u65e5\u672c\u8fd1\u73b0\u4ee3\u6587\u5b66\u4f5c\u5bb6\u4e0e\u4f5c\u54c1\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 22009, "code": "22100", "name": "\u65e5\u672c\u6587\u5b66(2)", "avg": 0.0, "count": 0}, {"id": 31431, "code": "31593", "name": "\u751f\u6d3b\u65e5\u8bed\u542c\u8bf4", "avg": 0.0, "count": 0}, {"id": 3297, "code": "3296", "name": "\u5b9e\u7528\u65e5\u8bed\u4f1a\u8bdd\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 205, "code": "204", "name": "\u65e5\u672c\u8fd1\u73b0\u4ee3\u6587\u5b66\u539f\u8457\u8bfb\u89e3", "avg": 0.0, "count": 0}, {"id": 17599, "code": "17616", "name": "\u7b2c\u4e8c\u5916\u8bed(\u65e5\u8bed)(1)", "avg": 5.0, "count": 1}, {"id": 26749, "code": "26911", "name": "\u65e5\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff081\uff09", "avg": 5.0, "count": 1}, {"id": 27799, "code": "27961", "name": "\u65e5\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff082\uff09", "avg": 5.0, "count": 1}]}
+{
+    "tid": "185",
+    "name": "冯海鹰",
+    "related_courses": [
+        {
+            "id": 5732,
+            "code": "5731",
+            "name": "跨文化交际(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5931,
+            "code": "5930",
+            "name": "基础日语(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 6148,
+            "code": "6147",
+            "name": "翻译实习",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 6888,
+            "code": "6887",
+            "name": "实用日语会话（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9185,
+            "code": "9184",
+            "name": "跨文化交际（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10576,
+            "code": "10577",
+            "name": "日语戏剧排演",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11206,
+            "code": "11207",
+            "name": "系图书音像资料整理及学术会议服务",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11259,
+            "code": "11260",
+            "name": "日语听力会话训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11703,
+            "code": "11704",
+            "name": "日语口译(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13751,
+            "code": "13759",
+            "name": "基础日语(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14406,
+            "code": "14414",
+            "name": "日语论文写作指导",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18050,
+            "code": "18067",
+            "name": "日语口译(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18124,
+            "code": "18141",
+            "name": "日语泛读(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 19147,
+            "code": "19166",
+            "name": "日本近现代文学作家与作品研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22009,
+            "code": "22100",
+            "name": "日本文学(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31431,
+            "code": "31593",
+            "name": "生活日语听说",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3297,
+            "code": "3296",
+            "name": "实用日语会话（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 205,
+            "code": "204",
+            "name": "日本近现代文学原著读解",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17599,
+            "code": "17616",
+            "name": "第二外语(日语)(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26749,
+            "code": "26911",
+            "name": "日语（第二外国语）（1）",
+            "avg": 5.0,
+            "count": 1
+        },
+        {
+            "id": 27799,
+            "code": "27961",
+            "name": "日语（第二外国语）（2）",
+            "avg": 5.0,
+            "count": 1
+        }
+    ]
+}

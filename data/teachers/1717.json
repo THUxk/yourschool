@@ -1,1 +1,160 @@
-{"tid": "1717", "name": "\u738b\u82f1", "related_courses": [{"id": 3451, "code": "3450", "name": "\u4f4f\u533a\u89c4\u5212\u4e0e\u4f4f\u5b85\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 3655, "code": "3654", "name": "\u535a\u58eb\u751f\u82f1\u8bed", "avg": 0.0, "count": 0}, {"id": 4333, "code": "4332", "name": "\u7efc\u5408\u8bba\u6587\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 4405, "code": "4404", "name": "\u5916\u8bed\u5b9e\u8df5B", "avg": 0.0, "count": 0}, {"id": 5795, "code": "5794", "name": "\u8bcd\u6c47\u7684\u529b\u91cf", "avg": 0.0, "count": 0}, {"id": 8562, "code": "8561", "name": "\u79d1\u6280\u82f1\u8bed\uff08\u4e2d\u7ea7\uff09", "avg": 0.0, "count": 0}, {"id": 16623, "code": "16640", "name": "\u5927\u5b66\u82f1\u8bed\u8bfb\u5199\u8bd1(1)", "avg": 0.0, "count": 0}, {"id": 17002, "code": "17019", "name": "\u5927\u5b66\u82f1\u8bed", "avg": 0.0, "count": 0}, {"id": 3438, "code": "3437", "name": "\u4f4f\u533a\u89c4\u5212\u4e0e\u8bbe\u8ba1\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 23394, "code": "23524", "name": "\u9ad8\u7ea7\u53e3\u8bed", "avg": 0.0, "count": 0}, {"id": 24478, "code": "24631", "name": "\u5927\u4e00\u5916\u8bed\u5f3a\u5316\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 25275, "code": "25436", "name": "\u57ce\u4e61\u89c4\u5212\u8bbe\u8ba1\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 27917, "code": "28079", "name": "\u57ce\u4e61\u89c4\u5212\u8bbe\u8ba1\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 32928, "code": "33090", "name": "\u57ce\u4e61\u89c4\u5212\u5b66\u672f\u524d\u6cbf", "avg": 0.0, "count": 0}, {"id": 33282, "code": "33444", "name": "\u57ce\u4e61\u89c4\u5212\u8bbe\u8ba1(3)", "avg": 0.0, "count": 0}, {"id": 33454, "code": "33616", "name": "\u89c4\u5212\u5b9e\u8df5\u524d\u6cbf", "avg": 0.0, "count": 0}, {"id": 22072, "code": "22178", "name": "\u5927\u5b66\u82f1\u8bed\u8bfb\u5199\u8bd1(2)", "avg": 0.0, "count": 0}, {"id": 3444, "code": "3443", "name": "\u57ce\u5e02\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 2603, "code": "2602", "name": "\u5916\u8bed\u5b9e\u8df5D", "avg": 0.0, "count": 0}, {"id": 37528, "code": "37527", "name": "\u57ce\u4e61\u89c4\u5212\u8bbe\u8ba1(4)", "avg": 0.0, "count": 0}, {"id": 5250, "code": "5249", "name": "\u79d1\u6280\u82f1\u8bed\uff08\u9ad8\u7ea7\uff09", "avg": 3.3, "count": 3}, {"id": 5713, "code": "5712", "name": "\u79d1\u6280\u82f1\u8bed\u89c6\u542c\u8bf4", "avg": 5.0, "count": 4}]}
+{
+    "tid": "1717",
+    "name": "王英",
+    "related_courses": [
+        {
+            "id": 3451,
+            "code": "3450",
+            "name": "住区规划与住宅设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3655,
+            "code": "3654",
+            "name": "博士生英语",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4333,
+            "code": "4332",
+            "name": "综合论文训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4405,
+            "code": "4404",
+            "name": "外语实践B",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5795,
+            "code": "5794",
+            "name": "词汇的力量",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8562,
+            "code": "8561",
+            "name": "科技英语（中级）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16623,
+            "code": "16640",
+            "name": "大学英语读写译(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17002,
+            "code": "17019",
+            "name": "大学英语",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3438,
+            "code": "3437",
+            "name": "住区规划与设计概论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23394,
+            "code": "23524",
+            "name": "高级口语",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 24478,
+            "code": "24631",
+            "name": "大一外语强化训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25275,
+            "code": "25436",
+            "name": "城乡规划设计（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27917,
+            "code": "28079",
+            "name": "城乡规划设计（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32928,
+            "code": "33090",
+            "name": "城乡规划学术前沿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33282,
+            "code": "33444",
+            "name": "城乡规划设计(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33454,
+            "code": "33616",
+            "name": "规划实践前沿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22072,
+            "code": "22178",
+            "name": "大学英语读写译(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3444,
+            "code": "3443",
+            "name": "城市设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2603,
+            "code": "2602",
+            "name": "外语实践D",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37528,
+            "code": "37527",
+            "name": "城乡规划设计(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5250,
+            "code": "5249",
+            "name": "科技英语（高级）",
+            "avg": 4.5,
+            "count": 2
+        },
+        {
+            "id": 5713,
+            "code": "5712",
+            "name": "科技英语视听说",
+            "avg": 5,
+            "count": 2
+        }
+    ]
+}

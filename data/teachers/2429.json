@@ -1,1 +1,55 @@
-{"tid": "2429", "name": "\u77f3\u4e2d\u82f1", "related_courses": [{"id": 26676, "code": "26838", "name": "\u6559\u80b2\u7814\u7a76\u524d\u6cbf", "avg": 0.0, "count": 0}, {"id": 28125, "code": "28287", "name": "\u6559\u80b2\u5b66\u539f\u7406", "avg": 0.0, "count": 0}, {"id": 28977, "code": "29139", "name": "\u535a\u58eb\u751f\u5b66\u672f\u524d\u6cbf\u7814\u8ba8\u8bfe", "avg": 0.0, "count": 0}, {"id": 30358, "code": "30520", "name": "\u4e60\u8fd1\u5e73\u603b\u4e66\u8bb0\u6559\u80b2\u91cd\u8981\u8bba\u8ff0\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 32008, "code": "32170", "name": "\u6559\u80b2\u5b66\u539f\u7406\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 4289, "code": "4288", "name": "\u9ad8\u7b49\u6559\u80b2\u54f2\u5b66", "avg": 0.0, "count": 0}, {"id": 26097, "code": "26259", "name": "\u6559\u80b2\u54f2\u5b66", "avg": 5.0, "count": 1}]}
+{
+    "tid": "2429",
+    "name": "石中英",
+    "related_courses": [
+        {
+            "id": 26676,
+            "code": "26838",
+            "name": "教育研究前沿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28125,
+            "code": "28287",
+            "name": "教育学原理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28977,
+            "code": "29139",
+            "name": "博士生学术前沿研讨课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30358,
+            "code": "30520",
+            "name": "习近平总书记教育重要论述研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32008,
+            "code": "32170",
+            "name": "教育学原理专题研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4289,
+            "code": "4288",
+            "name": "高等教育哲学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26097,
+            "code": "26259",
+            "name": "教育哲学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

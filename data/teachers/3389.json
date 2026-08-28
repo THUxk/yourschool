@@ -1,1 +1,76 @@
-{"tid": "3389", "name": "\u66fe\u60e0\u6167", "related_courses": [{"id": 27727, "code": "27889", "name": "\u504f\u5fae\u5206\u65b9\u7a0b\u5f15\u8bba", "avg": 0.0, "count": 0}, {"id": 11541, "code": "11542", "name": "\u7ebf\u6027\u4ee3\u6570(2)", "avg": 0.0, "count": 0}, {"id": 16514, "code": "16531", "name": "\u504f\u5fae\u5206\u65b9\u7a0bII", "avg": 0.0, "count": 0}, {"id": 33476, "code": "33638", "name": "\u6570\u5b66\u7269\u7406\u4e2d\u7684\u975e\u7ebf\u6027\u504f\u5fae\u5206\u65b9\u7a0b", "avg": 0.0, "count": 0}, {"id": 8677, "code": "8676", "name": "\u6570\u7406\u65b9\u7a0b\u5f15\u8bba", "avg": 0.0, "count": 0}, {"id": 37105, "code": "37104", "name": "\u5e38\u5fae\u5206\u65b9\u7a0b", "avg": 0.0, "count": 0}, {"id": 37961, "code": "37960", "name": "\u504f\u5fae\u5206\u65b9\u7a0b", "avg": 0.0, "count": 0}, {"id": 25437, "code": "25598", "name": "\u7ebf\u6027\u4ee3\u6570(1)", "avg": 1.5, "count": 65}, {"id": 29224, "code": "29386", "name": "\u7ebf\u6027\u4ee3\u6570", "avg": 2.4, "count": 5}, {"id": 30528, "code": "30690", "name": "\u5fae\u79ef\u5206C(1)", "avg": 2.8, "count": 8}]}
+{
+    "tid": "3389",
+    "name": "曾惠慧",
+    "related_courses": [
+        {
+            "id": 27727,
+            "code": "27889",
+            "name": "偏微分方程引论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11541,
+            "code": "11542",
+            "name": "线性代数(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16514,
+            "code": "16531",
+            "name": "偏微分方程II",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33476,
+            "code": "33638",
+            "name": "数学物理中的非线性偏微分方程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8677,
+            "code": "8676",
+            "name": "数理方程引论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37105,
+            "code": "37104",
+            "name": "常微分方程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37961,
+            "code": "37960",
+            "name": "偏微分方程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25437,
+            "code": "25598",
+            "name": "线性代数(1)",
+            "avg": 1.476923076923077,
+            "count": 65
+        },
+        {
+            "id": 29224,
+            "code": "29386",
+            "name": "线性代数",
+            "avg": 2.4,
+            "count": 5
+        },
+        {
+            "id": 30528,
+            "code": "30690",
+            "name": "微积分C(1)",
+            "avg": 2.75,
+            "count": 8
+        }
+    ]
+}

@@ -1,1 +1,48 @@
-{"tid": "6694", "name": "\u9648\u6881", "related_courses": [{"id": 29668, "code": "29830", "name": "\u793e\u4f1a\u7f51\u7edc\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 30914, "code": "31076", "name": "\u5065\u5eb7\u4f20\u64ad", "avg": 0.0, "count": 0}, {"id": 31919, "code": "32081", "name": "\u5065\u5eb7\u5ba3\u6559\u7814\u7a76\u4e0e\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 29586, "code": "29748", "name": "\u4f20\u64ad\u5b66\u7814\u7a76\u65b9\u6cd5\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 38826, "code": "", "name": "\u4eba\u5de5\u667a\u80fd\u8d4b\u80fd\u5b66\u672f\u7814\u7a76\uff1a\u4eba\u673a\u4e92\u52a8\u7684\u77e5\u8bc6\u751f\u4ea7", "avg": 0.0, "count": 0}, {"id": 32216, "code": "32378", "name": "\u5927\u4f17\u4f20\u64ad\u4e0e\u793e\u4f1a", "avg": 5.0, "count": 2}]}
+{
+    "tid": "6694",
+    "name": "陈梁",
+    "related_courses": [
+        {
+            "id": 29668,
+            "code": "29830",
+            "name": "社会网络分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30914,
+            "code": "31076",
+            "name": "健康传播",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31919,
+            "code": "32081",
+            "name": "健康宣教研究与实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29586,
+            "code": "29748",
+            "name": "传播学研究方法专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38826,
+            "code": "",
+            "name": "人工智能赋能学术研究：人机互动的知识生产",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32216,
+            "code": "32378",
+            "name": "大众传播与社会",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

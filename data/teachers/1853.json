@@ -1,1 +1,83 @@
-{"tid": "1853", "name": "\u5434\u660a", "related_courses": [{"id": 11323, "code": "11324", "name": "\u8ba1\u7b97\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 12730, "code": "12733", "name": "Matlab\u4e0e\u79d1\u5b66\u8ba1\u7b97\u5f15\u8bba", "avg": 0.0, "count": 0}, {"id": 12920, "code": "12924", "name": "\u6982\u7387\u8bba(1)", "avg": 0.0, "count": 0}, {"id": 16201, "code": "16210", "name": "\u968f\u673a\u6570\u5b66\u65b9\u6cd5", "avg": 0.0, "count": 0}, {"id": 11128, "code": "11129", "name": "\u504f\u5fae\u5206\u65b9\u7a0b\u6570\u503c\u89e3", "avg": 0.0, "count": 0}, {"id": 28435, "code": "28597", "name": "\u6982\u7387\u8bba\u4e0e\u968f\u673a\u8fc7\u7a0b", "avg": 0.0, "count": 0}, {"id": 29439, "code": "29601", "name": "\u79d1\u7814\u8bba\u6587\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 31959, "code": "32121", "name": "\u6982\u7387\u8bba(2)", "avg": 0.0, "count": 0}, {"id": 19782, "code": "19806", "name": "\u8272\u5f69\uff08\u9759\u7269\uff09", "avg": 0.0, "count": 0}, {"id": 2879, "code": "2878", "name": "\u590d\u53d8\u51fd\u6570\u4e0e\u6570\u7406\u65b9\u7a0b", "avg": 4.0, "count": 1}, {"id": 12822, "code": "12825", "name": "\u6570\u5b66\u7269\u7406\u65b9\u6cd5", "avg": 5.0, "count": 1}]}
+{
+    "tid": "1853",
+    "name": "吴昊",
+    "related_courses": [
+        {
+            "id": 11323,
+            "code": "11324",
+            "name": "计算实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12730,
+            "code": "12733",
+            "name": "Matlab与科学计算引论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12920,
+            "code": "12924",
+            "name": "概率论(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16201,
+            "code": "16210",
+            "name": "随机数学方法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11128,
+            "code": "11129",
+            "name": "偏微分方程数值解",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28435,
+            "code": "28597",
+            "name": "概率论与随机过程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29439,
+            "code": "29601",
+            "name": "科研论文训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31959,
+            "code": "32121",
+            "name": "概率论(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 19782,
+            "code": "19806",
+            "name": "色彩（静物）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2879,
+            "code": "2878",
+            "name": "复变函数与数理方程",
+            "avg": 4.0,
+            "count": 1
+        },
+        {
+            "id": 12822,
+            "code": "12825",
+            "name": "数学物理方法",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

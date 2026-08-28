@@ -1,5 +1,5 @@
 {
-  "count": 3,
+  "count": 2,
   "next": null,
   "previous": null,
   "results": [
@@ -16,13 +16,6 @@
       "comment": "考核方式：\n两次论文\n授课质量与给分：\n老师比较水，可以翘课摆烂但是论文得好好卷。\n点评人：\n匿名\n上课学期：\n2022秋",
       "created_at": "2024/07/23 15:59",
       "score": "A-"
-    },
-    {
-      "id": 768,
-      "rating": 2,
-      "comment": "写论文很累的",
-      "created_at": "2024/07/21 17:42",
-      "score": null
     }
   ]
 }

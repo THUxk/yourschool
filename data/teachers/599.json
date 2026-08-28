@@ -1,1 +1,76 @@
-{"tid": "599", "name": "\u8521\u4e07\u7115", "related_courses": [{"id": 7736, "code": "7735", "name": "\u9a6c\u514b\u601d\u4e3b\u4e49\u653f\u6cbb\u7ecf\u6d4e\u5b66\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 10231, "code": "10231", "name": "\u653f\u6cbb\u7ecf\u6d4e\u5b66\u524d\u6cbf\u95ee\u9898", "avg": 0.0, "count": 0}, {"id": 1805, "code": "1804", "name": "\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u7406\u8bba\u4e0e\u5b9e\u8df5\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 29529, "code": "29691", "name": "\u65b0\u65f6\u4ee3\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u7406\u8bba\u4e0e\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 29831, "code": "29993", "name": "\u653f\u6cbb\u7ecf\u6d4e\u5b66\u7ecf\u5178\u8457\u4f5c\u9009\u8bfb", "avg": 0.0, "count": 0}, {"id": 32393, "code": "32555", "name": "\u9a6c\u514b\u601d\u4e3b\u4e49\u653f\u6cbb\u7ecf\u6d4e\u5b66\uff08\u4e0a\uff09", "avg": 0.0, "count": 0}, {"id": 740, "code": "739", "name": "\u9a6c\u514b\u601d\u4e3b\u4e49\u57fa\u672c\u539f\u7406", "avg": 0.0, "count": 0}, {"id": 38827, "code": "", "name": "\u4e2d\u56fd\u5f0f\u73b0\u4ee3\u5316\u7684\u7406\u8bba\u4e0e\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 39010, "code": "", "name": "\u9a6c\u514b\u601d\u4e3b\u4e49\u7814\u7a76\u5bfc\u8bba", "avg": 0.0, "count": 0}, {"id": 26147, "code": "26309", "name": "\u5f62\u52bf\u4e0e\u653f\u7b56", "avg": 4.0, "count": 1}]}
+{
+    "tid": "599",
+    "name": "蔡万焕",
+    "related_courses": [
+        {
+            "id": 7736,
+            "code": "7735",
+            "name": "马克思主义政治经济学专题研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10231,
+            "code": "10231",
+            "name": "政治经济学前沿问题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1805,
+            "code": "1804",
+            "name": "中国特色社会主义理论与实践研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29529,
+            "code": "29691",
+            "name": "新时代中国特色社会主义理论与实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29831,
+            "code": "29993",
+            "name": "政治经济学经典著作选读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32393,
+            "code": "32555",
+            "name": "马克思主义政治经济学（上）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 740,
+            "code": "739",
+            "name": "马克思主义基本原理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38827,
+            "code": "",
+            "name": "中国式现代化的理论与实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 39010,
+            "code": "",
+            "name": "马克思主义研究导论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26147,
+            "code": "26309",
+            "name": "形势与政策",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

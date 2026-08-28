@@ -1,1 +1,41 @@
-{"tid": "4061", "name": "\u5218\u4e16\u971e", "related_courses": [{"id": 12957, "code": "12961", "name": "\u79bb\u6563\u6570\u5b66", "avg": 0.0, "count": 0}, {"id": 25891, "code": "26053", "name": "\u7a0b\u5e8f\u8bbe\u8ba1\u5b9e\u8bad", "avg": 0.0, "count": 0}, {"id": 12718, "code": "12721", "name": "\u4fe1\u606f\u53ef\u89c6\u5316\u4e0e\u53ef\u89c6\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 12894, "code": "12898", "name": "\u79bb\u6563\u6570\u5b66(1)", "avg": 3.4, "count": 5}, {"id": 33159, "code": "33321", "name": "\u79bb\u6563\u6570\u5b66(2)", "avg": 5.0, "count": 1}]}
+{
+    "tid": "4061",
+    "name": "刘世霞",
+    "related_courses": [
+        {
+            "id": 12957,
+            "code": "12961",
+            "name": "离散数学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25891,
+            "code": "26053",
+            "name": "程序设计实训",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12718,
+            "code": "12721",
+            "name": "信息可视化与可视分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12894,
+            "code": "12898",
+            "name": "离散数学(1)",
+            "avg": 3.4,
+            "count": 5
+        },
+        {
+            "id": 33159,
+            "code": "33321",
+            "name": "离散数学(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

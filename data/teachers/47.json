@@ -1,1 +1,90 @@
-{"tid": "47", "name": "\u5434\u4f1f\u5149", "related_courses": [{"id": 7419, "code": "7418", "name": "\u5de5\u7a0b\u7ba1\u7406\u4e2d\u7684\u6cd5\u5f8b", "avg": 0.0, "count": 0}, {"id": 15089, "code": "15097", "name": "\u7f51\u7edc\u77e5\u8bc6\u4ea7\u6743\uff08\u82f1\uff09", "avg": 0.0, "count": 0}, {"id": 231, "code": "230", "name": "\u8457\u4f5c\u6743\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 15956, "code": "15965", "name": "\u7f51\u7edc\u4e16\u754c\u7684\u77e5\u8bc6\u4ea7\u6743", "avg": 0.0, "count": 0}, {"id": 18782, "code": "18799", "name": "\u7535\u5b50\u5546\u52a1\u4e0e\u6cd5\u5f8b\u95ee\u9898", "avg": 0.0, "count": 0}, {"id": 21856, "code": "21945", "name": "\u77e5\u8bc6\u4ea7\u6743\u6848\u4f8b\u7814\u8ba8", "avg": 0.0, "count": 0}, {"id": 21966, "code": "22057", "name": "\u77e5\u8bc6\u4ea7\u6743\u6cd5\u5b66", "avg": 0.0, "count": 0}, {"id": 15756, "code": "15764", "name": "\u77e5\u8bc6\u4ea7\u6743\u6cd5\u5b66\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 4595, "code": "4594", "name": "\u7f51\u7edc\u4e0e\u7535\u5b50\u5546\u52a1\u6cd5", "avg": 0.0, "count": 0}, {"id": 48, "code": "47", "name": "\u7f51\u7edc\u73af\u5883\u4e2d\u7684\u77e5\u8bc6\u4ea7\u6743\u6cd5", "avg": 0.0, "count": 0}, {"id": 569, "code": "568", "name": "\u5168\u7403\u5316\u4e0b\u7684\u77e5\u8bc6\u4ea7\u6743\u6218\u7565", "avg": 5.0, "count": 1}, {"id": 29159, "code": "29321", "name": "\u6280\u672f\u3001\u5236\u5ea6\u4e0e\u6cd5\u6cbb", "avg": 4.0, "count": 3}]}
+{
+    "tid": "47",
+    "name": "吴伟光",
+    "related_courses": [
+        {
+            "id": 7419,
+            "code": "7418",
+            "name": "工程管理中的法律",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15089,
+            "code": "15097",
+            "name": "网络知识产权（英）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 231,
+            "code": "230",
+            "name": "著作权专题研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15956,
+            "code": "15965",
+            "name": "网络世界的知识产权",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18782,
+            "code": "18799",
+            "name": "电子商务与法律问题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21856,
+            "code": "21945",
+            "name": "知识产权案例研讨",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21966,
+            "code": "22057",
+            "name": "知识产权法学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15756,
+            "code": "15764",
+            "name": "知识产权法学研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4595,
+            "code": "4594",
+            "name": "网络与电子商务法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 48,
+            "code": "47",
+            "name": "网络环境中的知识产权法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 569,
+            "code": "568",
+            "name": "全球化下的知识产权战略",
+            "avg": 5.0,
+            "count": 1
+        },
+        {
+            "id": 29159,
+            "code": "29321",
+            "name": "技术、制度与法治",
+            "avg": 3.5,
+            "count": 2
+        }
+    ]
+}

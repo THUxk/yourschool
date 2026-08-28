@@ -1,1 +1,27 @@
-{"tid": "2421", "name": "\u51af\u9a85", "related_courses": [{"id": 4542, "code": "4541", "name": "\u9ad8\u80fd\u5929\u4f53\u7269\u7406", "avg": 0.0, "count": 0}, {"id": 4268, "code": "4267", "name": "\u80fd\u6e90\u4e13\u5bb6\u8bb2\u5ea7", "avg": 0.0, "count": 0}, {"id": 5572, "code": "5571", "name": "\u5929\u4f53\u7269\u7406\u6982\u8bba", "avg": 2.0, "count": 1}]}
+{
+    "tid": "2421",
+    "name": "冯骅",
+    "related_courses": [
+        {
+            "id": 4542,
+            "code": "4541",
+            "name": "高能天体物理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4268,
+            "code": "4267",
+            "name": "能源专家讲座",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5572,
+            "code": "5571",
+            "name": "天体物理概论",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

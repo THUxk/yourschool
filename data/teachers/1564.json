@@ -1,1 +1,125 @@
-{"tid": "1564", "name": "\u6768\u5efa\u65b0", "related_courses": [{"id": 2469, "code": "2468", "name": "\u91d1\u5de5\u5b9e\u4e60C(\u96c6\u4e2d)", "avg": 0.0, "count": 0}, {"id": 3032, "code": "3031", "name": "\u7535\u5b50\u5de5\u827a\u5b9e\u4e60\uff08\u5206\u6563\uff09", "avg": 0.0, "count": 0}, {"id": 7178, "code": "7177", "name": "\u4e92\u6362\u6027\u4e0e\u6280\u672f\u6d4b\u91cf", "avg": 0.0, "count": 0}, {"id": 7390, "code": "7389", "name": "\u5236\u9020\u5de5\u827a\u8bbe\u8ba1\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 8436, "code": "8435", "name": "\u521b\u4e1a\u8ba4\u8bc6\u4e0e\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 8524, "code": "8523", "name": "\u6280\u672f\u4ea7\u54c1\u7684\u77e5\u8bc6\u4ea7\u6743", "avg": 0.0, "count": 0}, {"id": 25955, "code": "26117", "name": "\u91d1\u5de5\u5b9e\u4e60A(\u96c6\u4e2d)", "avg": 0.0, "count": 0}, {"id": 25958, "code": "26120", "name": "\u91d1\u5de5\u5b9e\u4e60B(\u96c6\u4e2d)", "avg": 0.0, "count": 0}, {"id": 31374, "code": "31536", "name": "\u5236\u9020\u5de5\u7a0b\u4f53\u9a8c", "avg": 0.0, "count": 0}, {"id": 31506, "code": "31668", "name": "\u4ea7\u54c1\u5de5\u7a0b\u5316\u8bbe\u8ba1\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 32974, "code": "33136", "name": "\u5236\u9020\u5de5\u7a0b\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 33897, "code": "34059", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 34000, "code": "34162", "name": "\u79d1\u6280\u4ea7\u54c1\u521b\u65b0\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 38242, "code": "", "name": "\u52b3\u52a8\u7f8e\u80b2\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 34798, "code": "34797", "name": "\u521b\u4e1a\u5bfc\u5f15&mdash;\u4e0e\u521b\u4e1a\u540d\u5bb6\u9762\u5bf9\u9762", "avg": 0.0, "count": 0}, {"id": 36998, "code": "36997", "name": "\u8bbe\u8ba1\u4e0e\u5236\u9020\u5de5\u7a0b\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 2252, "code": "2251", "name": "\u7535\u5b50\u5de5\u827a\u5b9e\u4e60\uff08\u96c6\u4e2d\uff09", "avg": 1.7, "count": 3}]}
+{
+    "tid": "1564",
+    "name": "杨建新",
+    "related_courses": [
+        {
+            "id": 2469,
+            "code": "2468",
+            "name": "金工实习C(集中)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3032,
+            "code": "3031",
+            "name": "电子工艺实习（分散）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7178,
+            "code": "7177",
+            "name": "互换性与技术测量",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7390,
+            "code": "7389",
+            "name": "制造工艺设计实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8436,
+            "code": "8435",
+            "name": "创业认识与实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8524,
+            "code": "8523",
+            "name": "技术产品的知识产权",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25955,
+            "code": "26117",
+            "name": "金工实习A(集中)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25958,
+            "code": "26120",
+            "name": "金工实习B(集中)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31374,
+            "code": "31536",
+            "name": "制造工程体验",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31506,
+            "code": "31668",
+            "name": "产品工程化设计实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32974,
+            "code": "33136",
+            "name": "制造工程训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33897,
+            "code": "34059",
+            "name": "思政实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34000,
+            "code": "34162",
+            "name": "科技产品创新实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38242,
+            "code": "",
+            "name": "劳动美育实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34798,
+            "code": "34797",
+            "name": "创业导引&mdash;与创业名家面对面",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36998,
+            "code": "36997",
+            "name": "设计与制造工程训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2252,
+            "code": "2251",
+            "name": "电子工艺实习（集中）",
+            "avg": 1.6666666666666667,
+            "count": 3
+        }
+    ]
+}

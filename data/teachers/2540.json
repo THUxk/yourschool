@@ -1,1 +1,27 @@
-{"tid": "2540", "name": "\u66f9\u70b3\u9633", "related_courses": [{"id": 28317, "code": "28479", "name": "\u65b0\u751f\u5bfc\u5f15\u8bfe", "avg": 0.0, "count": 0}, {"id": 4647, "code": "4646", "name": "\u65b0\u6982\u5ff5\u70ed\u5b66", "avg": 0.0, "count": 0}, {"id": 7276, "code": "7275", "name": "\u5de5\u7a0b\u70ed\u529b\u5b66", "avg": 4.5, "count": 2}]}
+{
+    "tid": "2540",
+    "name": "曹炳阳",
+    "related_courses": [
+        {
+            "id": 28317,
+            "code": "28479",
+            "name": "新生导引课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4647,
+            "code": "4646",
+            "name": "新概念热学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7276,
+            "code": "7275",
+            "name": "工程热力学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,1 +1,48 @@
-{"tid": "2542", "name": "\u5218\u6653\u4e3d", "related_courses": [{"id": 25997, "code": "26159", "name": "\u751f\u4ea7\u5b9e\u4e60", "avg": 0.0, "count": 0}, {"id": 28824, "code": "28986", "name": "\u5730\u4e0b\u7ed3\u6784\u5de5\u7a0b", "avg": 0.0, "count": 0}, {"id": 34214, "code": "34376", "name": "\u5ca9\u77f3\u529b\u5b66", "avg": 0.0, "count": 0}, {"id": 35833, "code": "35832", "name": "\u6e17\u6d41\u529b\u5b66\u4e0e\u8ba1\u7b97\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 4661, "code": "4660", "name": "\u5de5\u7a0b\u8ba1\u7b97\u673a\u5236\u56fe", "avg": 4.0, "count": 1}, {"id": 29148, "code": "29310", "name": "\u5b9d\u7389\u77f3\u9274\u8d4f", "avg": 5.0, "count": 1}]}
+{
+    "tid": "2542",
+    "name": "刘晓丽",
+    "related_courses": [
+        {
+            "id": 25997,
+            "code": "26159",
+            "name": "生产实习",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28824,
+            "code": "28986",
+            "name": "地下结构工程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34214,
+            "code": "34376",
+            "name": "岩石力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 35833,
+            "code": "35832",
+            "name": "渗流力学与计算分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4661,
+            "code": "4660",
+            "name": "工程计算机制图",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29148,
+            "code": "29310",
+            "name": "宝玉石鉴赏",
+            "avg": 5.0,
+            "count": 1
+        }
+    ]
+}

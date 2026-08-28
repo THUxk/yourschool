@@ -1,1 +1,20 @@
-{"tid": "2720", "name": "\u5468\u7ea2", "related_courses": [{"id": 29329, "code": "29491", "name": "\u9ad8\u7b49\u7535\u8def\u5b9e\u9a8c", "avg": 0.0, "count": 0}, {"id": 5193, "code": "5192", "name": "\u7535\u8def\u539f\u7406\u5b9e\u9a8c", "avg": 5.0, "count": 2}]}
+{
+    "tid": "2720",
+    "name": "周红",
+    "related_courses": [
+        {
+            "id": 29329,
+            "code": "29491",
+            "name": "高等电路实验",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5193,
+            "code": "5192",
+            "name": "电路原理实验",
+            "avg": 5,
+            "count": 1
+        }
+    ]
+}

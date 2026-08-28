@@ -1,1 +1,90 @@
-{"tid": "3495", "name": "\u674e\u6b63\u98ce", "related_courses": [{"id": 10115, "code": "10115", "name": "\u79d1\u5b66\u5b66\u4e0e\u79d1\u6280\u653f\u7b56", "avg": 0.0, "count": 0}, {"id": 10453, "code": "10454", "name": "\u4e2d\u56fd\u9a6c\u514b\u601d\u4e3b\u4e49\u4e0e\u5f53\u4ee3", "avg": 0.0, "count": 0}, {"id": 10542, "code": "10543", "name": "\u79d1\u7814\u89c4\u8303", "avg": 0.0, "count": 0}, {"id": 11106, "code": "11107", "name": "\u5927\u5b66\u4e0e\u5927\u5e08", "avg": 0.0, "count": 0}, {"id": 14630, "code": "14638", "name": "\u5b17\u53d8\u4e0e\u78b0\u649e\uff1a\u73b0\u4ee3\u4e2d\u56fd\u79d1\u5b66\u89c2\u5ff5\u7684\u6f14\u53d8", "avg": 0.0, "count": 0}, {"id": 15358, "code": "15366", "name": "\u81ea\u7136\u8fa9\u8bc1\u6cd5", "avg": 0.0, "count": 0}, {"id": 21369, "code": "21394", "name": "\u79d1\u5b66\u5b66\u548c\u79d1\u6280\u653f\u7b56", "avg": 0.0, "count": 0}, {"id": 30426, "code": "30588", "name": "\u5b66\u672f\u89c4\u8303\u4e0e\u804c\u4e1a\u4f26\u7406", "avg": 0.0, "count": 0}, {"id": 9805, "code": "9804", "name": "\u521b\u65b0\u4e0e\u79d1\u6280\u53d1\u5c55", "avg": 0.0, "count": 0}, {"id": 33708, "code": "33870", "name": "\u5de5\u7a0b\u4f26\u7406", "avg": 0.0, "count": 0}, {"id": 9326, "code": "9325", "name": "\u79d1\u5b66\u793e\u4f1a\u5b66\u4e0e\u79d1\u6280\u653f\u7b56\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 32221, "code": "32383", "name": "\u79d1\u6280\u4f26\u7406\u6982\u8bba", "avg": 4.0, "count": 1}]}
+{
+    "tid": "3495",
+    "name": "李正风",
+    "related_courses": [
+        {
+            "id": 10115,
+            "code": "10115",
+            "name": "科学学与科技政策",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10453,
+            "code": "10454",
+            "name": "中国马克思主义与当代",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10542,
+            "code": "10543",
+            "name": "科研规范",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11106,
+            "code": "11107",
+            "name": "大学与大师",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14630,
+            "code": "14638",
+            "name": "嬗变与碰撞：现代中国科学观念的演变",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15358,
+            "code": "15366",
+            "name": "自然辩证法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21369,
+            "code": "21394",
+            "name": "科学学和科技政策",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30426,
+            "code": "30588",
+            "name": "学术规范与职业伦理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9805,
+            "code": "9804",
+            "name": "创新与科技发展",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33708,
+            "code": "33870",
+            "name": "工程伦理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9326,
+            "code": "9325",
+            "name": "科学社会学与科技政策专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32221,
+            "code": "32383",
+            "name": "科技伦理概论",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

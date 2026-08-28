@@ -1,1 +1,27 @@
-{"tid": "6244", "name": "\u738b\u4e1c\u6770", "related_courses": [{"id": 27402, "code": "27564", "name": "\u4e2d\u56fd\u8fd1\u4e16\u6587\u5316\u53f2\u4e13\u9898\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 26396, "code": "26558", "name": "\u4e2d\u56fd\u8fd1\u73b0\u4ee3\u601d\u60f3\u6587\u5316\u53f2", "avg": 0.0, "count": 0}, {"id": 27763, "code": "27925", "name": "\u5386\u53f2\u5b66\u662f\u4ec0\u4e48", "avg": 3.4, "count": 8}]}
+{
+    "tid": "6244",
+    "name": "王东杰",
+    "related_courses": [
+        {
+            "id": 27402,
+            "code": "27564",
+            "name": "中国近世文化史专题研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26396,
+            "code": "26558",
+            "name": "中国近现代思想文化史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27763,
+            "code": "27925",
+            "name": "历史学是什么",
+            "avg": 2.8,
+            "count": 5
+        }
+    ]
+}

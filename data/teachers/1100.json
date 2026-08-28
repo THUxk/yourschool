@@ -1,1 +1,76 @@
-{"tid": "1100", "name": "\u5362\u8fbe\u6eb6", "related_courses": [{"id": 16032, "code": "16041", "name": "\u5b9e\u9a8c\u5ba4\u79d1\u7814\u63a2\u7a76\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 16560, "code": "16577", "name": "\u5de5\u4e1a\u751f\u4ea7\u6982\u8bba(2)", "avg": 0.0, "count": 0}, {"id": 17443, "code": "17460", "name": "\u5de5\u4e1a\u751f\u4ea7\u6982\u8bba(1)", "avg": 0.0, "count": 0}, {"id": 4040, "code": "4039", "name": "\u6e05\u534e\u65b0\u5174\u6280\u672f\u63a2\u7a76II", "avg": 0.0, "count": 0}, {"id": 24450, "code": "24603", "name": "\u5de5\u4e1a\u7cfb\u7edf\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 33485, "code": "33647", "name": "\u6e05\u534e\u63a2\u7a76", "avg": 0.0, "count": 0}, {"id": 19836, "code": "19860", "name": "\u5de5\u4e1a\u7cfb\u7edf\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 1420, "code": "1419", "name": "\u6e05\u534e\u65b0\u5174\u6280\u672f\u63a2\u7a76", "avg": 0.0, "count": 0}, {"id": 38900, "code": "", "name": "\u79d1\u6280\u6559\u80b2\u5b9e\u8df5\u5bfc\u5f15", "avg": 0.0, "count": 0}, {"id": 16027, "code": "16036", "name": "\u5b9e\u9a8c\u5ba4\u79d1\u7814\u63a2\u7a76\uff081\uff09", "avg": 4.0, "count": 1}]}
+{
+    "tid": "1100",
+    "name": "卢达溶",
+    "related_courses": [
+        {
+            "id": 16032,
+            "code": "16041",
+            "name": "实验室科研探究（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16560,
+            "code": "16577",
+            "name": "工业生产概论(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17443,
+            "code": "17460",
+            "name": "工业生产概论(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4040,
+            "code": "4039",
+            "name": "清华新兴技术探究II",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 24450,
+            "code": "24603",
+            "name": "工业系统实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33485,
+            "code": "33647",
+            "name": "清华探究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 19836,
+            "code": "19860",
+            "name": "工业系统概论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1420,
+            "code": "1419",
+            "name": "清华新兴技术探究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38900,
+            "code": "",
+            "name": "科技教育实践导引",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16027,
+            "code": "16036",
+            "name": "实验室科研探究（1）",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

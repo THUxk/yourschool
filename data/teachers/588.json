@@ -1,1 +1,125 @@
-{"tid": "588", "name": "\u5f20\u67cf\u840c", "related_courses": [{"id": 11055, "code": "11056", "name": "\u52a8\u6001\u8868\u8fbe\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 12161, "code": "12162", "name": "\u4e09\u7ef4\u9020\u578b\u57fa\u7840\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 13557, "code": "13565", "name": "\u8f6f\u4ef6\u5e94\u7528", "avg": 0.0, "count": 0}, {"id": 17602, "code": "17619", "name": "\u5f62\u6001\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 21949, "code": "22040", "name": "\u7acb\u4f53\u6784\u6210", "avg": 0.0, "count": 0}, {"id": 22359, "code": "22476", "name": "\u6784\u6210(1)", "avg": 0.0, "count": 0}, {"id": 33243, "code": "33405", "name": "\u89c6\u9891\u521b\u4f5c", "avg": 0.0, "count": 0}, {"id": 33252, "code": "33414", "name": "\u89c6\u89c9\u601d\u7ef4", "avg": 0.0, "count": 0}, {"id": 3366, "code": "3365", "name": "\u89c6\u89c9\u8bed\u8a00\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 33999, "code": "34161", "name": "\u521b\u610f\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 6391, "code": "6390", "name": "\u4e09\u7ef4\u9020\u578b\u57fa\u7840(2)", "avg": 0.0, "count": 0}, {"id": 719, "code": "718", "name": "\u6784\u6210", "avg": 0.0, "count": 0}, {"id": 34883, "code": "34882", "name": "\u4e13\u4e1a\u57fa\u7840&middot;\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 36002, "code": "36001", "name": "\u63d2\u753b\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 36145, "code": "36144", "name": "\u6570\u5b57\u5a92\u4ecb\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 16054, "code": "16063", "name": "\u7efc\u5408\u9020\u578b\u57fa\u7840\uff081\uff09", "avg": 3.0, "count": 1}, {"id": 32963, "code": "33125", "name": "\u52a8\u6001\u56fe\u5f62", "avg": 2.5, "count": 2}]}
+{
+    "tid": "588",
+    "name": "张柏萌",
+    "related_courses": [
+        {
+            "id": 11055,
+            "code": "11056",
+            "name": "动态表达基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12161,
+            "code": "12162",
+            "name": "三维造型基础（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13557,
+            "code": "13565",
+            "name": "软件应用",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17602,
+            "code": "17619",
+            "name": "形态研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21949,
+            "code": "22040",
+            "name": "立体构成",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22359,
+            "code": "22476",
+            "name": "构成(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33243,
+            "code": "33405",
+            "name": "视频创作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33252,
+            "code": "33414",
+            "name": "视觉思维",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3366,
+            "code": "3365",
+            "name": "视觉语言（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33999,
+            "code": "34161",
+            "name": "创意设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 6391,
+            "code": "6390",
+            "name": "三维造型基础(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 719,
+            "code": "718",
+            "name": "构成",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34883,
+            "code": "34882",
+            "name": "专业基础&middot;设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36002,
+            "code": "36001",
+            "name": "插画设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36145,
+            "code": "36144",
+            "name": "数字媒介设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16054,
+            "code": "16063",
+            "name": "综合造型基础（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32963,
+            "code": "33125",
+            "name": "动态图形",
+            "avg": 2.5,
+            "count": 2
+        }
+    ]
+}

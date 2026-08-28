@@ -1,1 +1,62 @@
-{"tid": "2623", "name": "\u738b\u5baa\u660e", "related_courses": [{"id": 9836, "code": "9835", "name": "\u6587\u732e\u68c0\u7d22\u4e0e\u5229\u7528\uff08\u9a6c\u514b\u601d\u4e3b\u4e49\u7406\u8bba\uff09", "avg": 0.0, "count": 0}, {"id": 18039, "code": "18056", "name": "\u4e2d\u5916\u6587\u5316\u4ea4\u6d41\u53f2\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 18133, "code": "18150", "name": "\u6c11\u56fd\u53f2", "avg": 0.0, "count": 0}, {"id": 20105, "code": "20129", "name": "\u6bdb\u6cfd\u4e1c\u601d\u60f3\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 20836, "code": "20861", "name": "\u8fd1\u4ee3\u4e2d\u897f\u6587\u5316\u4ea4\u6d41\u53f2", "avg": 0.0, "count": 0}, {"id": 23864, "code": "23999", "name": "19-20\u4e16\u7eaa\u4e2d\u5916\u5173\u7cfb\u53f2", "avg": 0.0, "count": 0}, {"id": 28890, "code": "29052", "name": "\u4e2d\u56fd\u8fd1\u73b0\u4ee3\u653f\u6cbb\u601d\u60f3\u53f2\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 4898, "code": "4897", "name": "\u4e2d\u56fd\u8fd1\u73b0\u4ee3\u53f2\u7eb2\u8981", "avg": 2.7, "count": 6}]}
+{
+    "tid": "2623",
+    "name": "王宪明",
+    "related_courses": [
+        {
+            "id": 9836,
+            "code": "9835",
+            "name": "文献检索与利用（马克思主义理论）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18039,
+            "code": "18056",
+            "name": "中外文化交流史专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18133,
+            "code": "18150",
+            "name": "民国史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20105,
+            "code": "20129",
+            "name": "毛泽东思想概论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20836,
+            "code": "20861",
+            "name": "近代中西文化交流史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23864,
+            "code": "23999",
+            "name": "19-20世纪中外关系史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28890,
+            "code": "29052",
+            "name": "中国近现代政治思想史研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4898,
+            "code": "4897",
+            "name": "中国近现代史纲要",
+            "avg": 2,
+            "count": 4
+        }
+    ]
+}

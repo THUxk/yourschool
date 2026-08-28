@@ -1,1 +1,83 @@
-{"tid": "238", "name": "\u9a6c\u94f6\u7434", "related_courses": [{"id": 5588, "code": "5587", "name": "\u7efc\u5408\u8bba\u6587\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 2561, "code": "2560", "name": "\u4e13\u4e1a\u5b9e\u4e60", "avg": 0.0, "count": 0}, {"id": 24932, "code": "25092", "name": "\u793e\u4f1a\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 30810, "code": "30972", "name": "\u7ecf\u5178\u7814\u8bfb\u4e0e\u4e13\u9898\u7814\u8ba8\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 34404, "code": "34566", "name": "\u7ecf\u5178\u7814\u8bfb\u4e0e\u4e13\u9898\u7814\u8ba8\uff084\uff09", "avg": 0.0, "count": 0}, {"id": 8059, "code": "8058", "name": "\u300a\u8bd7\u7ecf\u300b\u9009\u8bfb", "avg": 0.0, "count": 0}, {"id": 267, "code": "266", "name": "\u300a\u8bd7\u7ecf\u300b\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 37634, "code": "37633", "name": "\u7ecf\u5178\u7814\u8bfb\u4e0e\u4e13\u9898\u7814\u8ba8(1)", "avg": 0.0, "count": 0}, {"id": 37638, "code": "37637", "name": "\u7ecf\u5178\u7814\u8bfb\u4e0e\u4e13\u9898\u7814\u8ba8(3)", "avg": 0.0, "count": 0}, {"id": 37724, "code": "37723", "name": "\u5148\u79e6\u6587\u5b66\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 4847, "code": "4846", "name": "\u4e2d\u56fd\u53e4\u4ee3\u6587\u5b66\u53f2\uff081\uff09", "avg": 5.0, "count": 2}]}
+{
+    "tid": "238",
+    "name": "马银琴",
+    "related_courses": [
+        {
+            "id": 5588,
+            "code": "5587",
+            "name": "综合论文训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2561,
+            "code": "2560",
+            "name": "专业实习",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 24932,
+            "code": "25092",
+            "name": "社会实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30810,
+            "code": "30972",
+            "name": "经典研读与专题研讨（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34404,
+            "code": "34566",
+            "name": "经典研读与专题研讨（4）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8059,
+            "code": "8058",
+            "name": "《诗经》选读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 267,
+            "code": "266",
+            "name": "《诗经》研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37634,
+            "code": "37633",
+            "name": "经典研读与专题研讨(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37638,
+            "code": "37637",
+            "name": "经典研读与专题研讨(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37724,
+            "code": "37723",
+            "name": "先秦文学研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4847,
+            "code": "4846",
+            "name": "中国古代文学史（1）",
+            "avg": 5,
+            "count": 1
+        }
+    ]
+}

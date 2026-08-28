@@ -1,1 +1,20 @@
-{"tid": "6445", "name": "\u5468\u656c\u654f", "related_courses": [{"id": 29241, "code": "29403", "name": "\u601d\u60f3\u9053\u5fb7\u4e0e\u6cd5\u6cbb", "avg": 0.0, "count": 0}, {"id": 27745, "code": "27907", "name": "\u601d\u60f3\u9053\u5fb7\u4fee\u517b\u4e0e\u6cd5\u5f8b\u57fa\u7840", "avg": 4.0, "count": 1}]}
+{
+    "tid": "6445",
+    "name": "周敬敏",
+    "related_courses": [
+        {
+            "id": 29241,
+            "code": "29403",
+            "name": "思想道德与法治",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27745,
+            "code": "27907",
+            "name": "思想道德修养与法律基础",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

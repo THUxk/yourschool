@@ -1,1 +1,69 @@
-{"tid": "1216", "name": "\u90b1\u51cc\u4e91", "related_courses": [{"id": 28676, "code": "28838", "name": "\u6570\u5b66\u7814\u8ba8\u8bfe\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 26591, "code": "26753", "name": "\u53cd\u95ee\u9898\u7684\u7406\u8bba\u4e0e\u5e94\u7528", "avg": 0.0, "count": 0}, {"id": 32796, "code": "32958", "name": "\u5e94\u7528\u6570\u5b66\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 33391, "code": "33553", "name": "\u4ece\u7406\u8bba\u5230\u5e94\u7528\uff1a\u79d1\u5b66\u8ba1\u7b97\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 34581, "code": "34743", "name": "\u6700\u4f18\u8f93\u8fd0\u7406\u8bba\u53ca\u5176\u5e94\u7528\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 31872, "code": "32034", "name": "\u53cd\u95ee\u9898\u524d\u6cbf\u9009\u8bb2", "avg": 0.0, "count": 0}, {"id": 1599, "code": "1598", "name": "\u6570\u503c\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 36368, "code": "36367", "name": "\u6570\u503c\u5206\u67901", "avg": 0.0, "count": 0}, {"id": 27720, "code": "27882", "name": "\u7ebf\u6027\u4ee3\u6570", "avg": 2.0, "count": 1}]}
+{
+    "tid": "1216",
+    "name": "邱凌云",
+    "related_courses": [
+        {
+            "id": 28676,
+            "code": "28838",
+            "name": "数学研讨课（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26591,
+            "code": "26753",
+            "name": "反问题的理论与应用",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32796,
+            "code": "32958",
+            "name": "应用数学专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33391,
+            "code": "33553",
+            "name": "从理论到应用：科学计算实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34581,
+            "code": "34743",
+            "name": "最优输运理论及其应用概论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31872,
+            "code": "32034",
+            "name": "反问题前沿选讲",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1599,
+            "code": "1598",
+            "name": "数值分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36368,
+            "code": "36367",
+            "name": "数值分析1",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27720,
+            "code": "27882",
+            "name": "线性代数",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,1 +1,20 @@
-{"tid": "1941", "name": "\u94b1\u4fca\u96ef", "related_courses": [{"id": 10345, "code": "10346", "name": "\u6587\u732e\u68c0\u7d22\u4e0e\u8bba\u6587\u5199\u4f5c", "avg": 0.0, "count": 0}, {"id": 3027, "code": "3026", "name": "\u6587\u732e\u68c0\u7d22\u4e0e\u5229\u7528(\u7406\u5de5\u7c7b)", "avg": 5.0, "count": 1}]}
+{
+    "tid": "1941",
+    "name": "钱俊雯",
+    "related_courses": [
+        {
+            "id": 10345,
+            "code": "10346",
+            "name": "文献检索与论文写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3027,
+            "code": "3026",
+            "name": "文献检索与利用(理工类)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,1 +1,48 @@
-{"tid": "2334", "name": "\u6c6a\u5c0f\u6211", "related_courses": [{"id": 4869, "code": "4868", "name": "\u6a21\u5f0f\u8bc6\u522b\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 11298, "code": "11299", "name": "\u8ba1\u7b97\u5206\u5b50\u751f\u7269\u5b66\u5f15\u8bba", "avg": 0.0, "count": 0}, {"id": 25572, "code": "25733", "name": "\u4fe1\u606f\u8bba\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 4002, "code": "4001", "name": "\u4ea4\u53c9\u9879\u76ee\u7efc\u5408\u8bad\u7ec3A", "avg": 0.0, "count": 0}, {"id": 36618, "code": "36617", "name": "\u6570\u5b57\u751f\u7269\u5b66\u5f15\u8bba", "avg": 0.0, "count": 0}, {"id": 27015, "code": "27177", "name": "\u6a21\u5f0f\u8bc6\u522b\u4e0e\u673a\u5668\u5b66\u4e60", "avg": 4.0, "count": 1}]}
+{
+    "tid": "2334",
+    "name": "汪小我",
+    "related_courses": [
+        {
+            "id": 4869,
+            "code": "4868",
+            "name": "模式识别基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11298,
+            "code": "11299",
+            "name": "计算分子生物学引论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25572,
+            "code": "25733",
+            "name": "信息论基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4002,
+            "code": "4001",
+            "name": "交叉项目综合训练A",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36618,
+            "code": "36617",
+            "name": "数字生物学引论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27015,
+            "code": "27177",
+            "name": "模式识别与机器学习",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "count": 6,
+  "count": 5,
   "next": null,
   "previous": null,
   "results": [
@@ -36,13 +36,6 @@
       "rating": 2,
       "comment": "考核方式：\n\n授课质量与给分：讲课是真不行\n\n点评人：\n\n上课学期：",
       "created_at": "2025/03/03 20:45",
-      "score": null
-    },
-    {
-      "id": 182,
-      "rating": 4,
-      "comment": "林润亮老师电子课件比较全，讲课的内容和ppt很同步。老师人不错，作业比较少，考试是统考。",
-      "created_at": "2024/07/21 13:20",
       "score": null
     }
   ]

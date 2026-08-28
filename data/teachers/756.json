@@ -1,1 +1,55 @@
-{"tid": "756", "name": "\u738b\u5c0f\u7fa4", "related_courses": [{"id": 5659, "code": "5658", "name": "\u8ba1\u7b97\u91d1\u878d\u5b66", "avg": 0.0, "count": 0}, {"id": 7090, "code": "7089", "name": "\u6982\u7387\u8bba(1)", "avg": 0.0, "count": 0}, {"id": 15821, "code": "15829", "name": "\u8499\u7279\u5361\u7f57\u65b9\u6cd5", "avg": 0.0, "count": 0}, {"id": 20830, "code": "20855", "name": "\u968f\u673a\u6570\u5b66\u65b9\u6cd5", "avg": 0.0, "count": 0}, {"id": 945, "code": "944", "name": "\u91d1\u878d\u6570\u5b66", "avg": 0.0, "count": 0}, {"id": 38956, "code": "", "name": "\u7edf\u8ba1\u6848\u4f8b\u4e0e\u5b9e\u52a1", "avg": 0.0, "count": 0}, {"id": 2854, "code": "2853", "name": "\u6982\u7387\u8bba\u4e0e\u6570\u7406\u7edf\u8ba1", "avg": 4.0, "count": 2}]}
+{
+    "tid": "756",
+    "name": "王小群",
+    "related_courses": [
+        {
+            "id": 5659,
+            "code": "5658",
+            "name": "计算金融学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7090,
+            "code": "7089",
+            "name": "概率论(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15821,
+            "code": "15829",
+            "name": "蒙特卡罗方法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20830,
+            "code": "20855",
+            "name": "随机数学方法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 945,
+            "code": "944",
+            "name": "金融数学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38956,
+            "code": "",
+            "name": "统计案例与实务",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2854,
+            "code": "2853",
+            "name": "概率论与数理统计",
+            "avg": 4,
+            "count": 1
+        }
+    ]
+}

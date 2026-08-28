@@ -1,1 +1,181 @@
-{"tid": "1506", "name": "\u5f20\u654f", "related_courses": [{"id": 3455, "code": "3454", "name": "\u4f4f\u533a\u89c4\u5212\u4e0e\u4f4f\u5b85\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 4121, "code": "4120", "name": "\u4fe1\u606f\u68c0\u7d22\u7684\u524d\u6cbf\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 4255, "code": "4254", "name": "\u673a\u5668\u5b66\u4e60\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 6360, "code": "6359", "name": "\u5efa\u7b51\u8bbe\u8ba1\uff087\uff09", "avg": 0.0, "count": 0}, {"id": 8665, "code": "8664", "name": "\u5efa\u7b51\u8bbe\u8ba1\uff084\u4e0a\uff09", "avg": 0.0, "count": 0}, {"id": 9019, "code": "9018", "name": "Web\u4e0e\u4fe1\u606f\u68c0\u7d22", "avg": 0.0, "count": 0}, {"id": 10518, "code": "10519", "name": "\u57ce\u4e61\u89c4\u5212\u8bbe\u8ba1\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 11215, "code": "11216", "name": "\u73b0\u4ee3\u5149\u7535\u4fe1\u606f\u4f20\u611f", "avg": 0.0, "count": 0}, {"id": 11620, "code": "11621", "name": "\u5149\u4f20\u611f\u6280\u672f", "avg": 0.0, "count": 0}, {"id": 12445, "code": "12446", "name": "\u957f\u5468\u671f\u5149\u7ea4\u5149\u6805\u4f20\u611f\u8bbe\u8ba1\u5b9e\u9a8c", "avg": 0.0, "count": 0}, {"id": 17004, "code": "17021", "name": "\u4e00\u5916\u4fc4\u8bed(3)", "avg": 0.0, "count": 0}, {"id": 17069, "code": "17086", "name": "\u4e00\u5916\u4fc4\u8bed(2)", "avg": 0.0, "count": 0}, {"id": 17212, "code": "17229", "name": "\u4e00\u5916\u4fc4\u8bed(1)", "avg": 0.0, "count": 0}, {"id": 19777, "code": "19801", "name": "\u4fc4\u8bed\u89c6\u542c\u8bf4", "avg": 0.0, "count": 0}, {"id": 21258, "code": "21283", "name": "\u7b2c\u4e8c\u5916\u56fd\u8bed(\u4fc4\u8bed)", "avg": 0.0, "count": 0}, {"id": 22440, "code": "22562", "name": "\u4e8c\u5916\u4fc4\u8bed(1)", "avg": 0.0, "count": 0}, {"id": 23008, "code": "23132", "name": "\u4e8c\u5916\u4fc4\u8bed(2)", "avg": 0.0, "count": 0}, {"id": 25272, "code": "25433", "name": "\u57ce\u5e02\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 26740, "code": "26902", "name": "\u4fc4\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 13221, "code": "13227", "name": "\u7269\u7406\u5149\u5b66", "avg": 0.0, "count": 0}, {"id": 2142, "code": "2141", "name": "\u4fc4\u8bed(\u7b2c\u4e8c\u5916\u56fd\u8bed)(1)", "avg": 0.0, "count": 0}, {"id": 35242, "code": "35241", "name": "\u7ec6\u80de\u81ea\u566c\u3001\u86cb\u767d\u5206\u6ccc\u548c\u4eba\u7c7b\u75be\u75c5", "avg": 0.0, "count": 0}, {"id": 35502, "code": "35501", "name": "\u533b\u5b66\u7edf\u8ba1", "avg": 0.0, "count": 0}, {"id": 37731, "code": "37730", "name": "\u5927\u6570\u636e\u4e0e\u751f\u7269\u7edf\u8ba1\u5b66", "avg": 0.0, "count": 0}, {"id": 4975, "code": "4974", "name": "\u4fc4\u8bed(\u7b2c\u4e8c\u5916\u56fd\u8bed)(3)", "avg": 5.0, "count": 1}]}
+{
+    "tid": "1506",
+    "name": "张敏",
+    "related_courses": [
+        {
+            "id": 3455,
+            "code": "3454",
+            "name": "住区规划与住宅设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4121,
+            "code": "4120",
+            "name": "信息检索的前沿研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4255,
+            "code": "4254",
+            "name": "机器学习概论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 6360,
+            "code": "6359",
+            "name": "建筑设计（7）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8665,
+            "code": "8664",
+            "name": "建筑设计（4上）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9019,
+            "code": "9018",
+            "name": "Web与信息检索",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10518,
+            "code": "10519",
+            "name": "城乡规划设计（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11215,
+            "code": "11216",
+            "name": "现代光电信息传感",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11620,
+            "code": "11621",
+            "name": "光传感技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12445,
+            "code": "12446",
+            "name": "长周期光纤光栅传感设计实验",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17004,
+            "code": "17021",
+            "name": "一外俄语(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17069,
+            "code": "17086",
+            "name": "一外俄语(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 17212,
+            "code": "17229",
+            "name": "一外俄语(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 19777,
+            "code": "19801",
+            "name": "俄语视听说",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21258,
+            "code": "21283",
+            "name": "第二外国语(俄语)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 22440,
+            "code": "22562",
+            "name": "二外俄语(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23008,
+            "code": "23132",
+            "name": "二外俄语(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25272,
+            "code": "25433",
+            "name": "城市设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26740,
+            "code": "26902",
+            "name": "俄语（第二外国语）（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 13221,
+            "code": "13227",
+            "name": "物理光学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2142,
+            "code": "2141",
+            "name": "俄语(第二外国语)(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 35242,
+            "code": "35241",
+            "name": "细胞自噬、蛋白分泌和人类疾病",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 35502,
+            "code": "35501",
+            "name": "医学统计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37731,
+            "code": "37730",
+            "name": "大数据与生物统计学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4975,
+            "code": "4974",
+            "name": "俄语(第二外国语)(3)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

@@ -1,1 +1,146 @@
-{"tid": "2849", "name": "\u674e\u4e39", "related_courses": [{"id": 13891, "code": "13899", "name": "\u8d22\u52a1\u62a5\u8868\u5206\u6790\uff08\u82f1\uff09", "avg": 0.0, "count": 0}, {"id": 26503, "code": "26665", "name": "\u6587\u732e\u7efc\u8ff0\u4e0e\u9009\u9898\u62a5\u544a", "avg": 0.0, "count": 0}, {"id": 26504, "code": "26666", "name": "\u4e13\u4e1a\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 27365, "code": "27527", "name": "\u4f1a\u8ba1\u4e13\u9898\u7814\u8ba8\u8bfe", "avg": 0.0, "count": 0}, {"id": 28172, "code": "28334", "name": "\u4f1a\u8ba1\u5b9e\u8df5\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 7284, "code": "7283", "name": "\u5ba1\u8ba1\u5b66(1)", "avg": 0.0, "count": 0}, {"id": 29718, "code": "29880", "name": "\u5927\u6570\u636e\u4e0e\u8d22\u52a1\u7ba1\u7406", "avg": 0.0, "count": 0}, {"id": 31881, "code": "32043", "name": "\u7ba1\u7406\u6848\u4f8b\u7814\u7a76\u4e0e\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 32738, "code": "32900", "name": "\u4e2d\u56fdESG\u524d\u6cbf\u6a21\u5f0f\u63a2\u7a76\u7cfb\u5217\u8bfe\u7a0b\uff08\u4e00\uff09", "avg": 0.0, "count": 0}, {"id": 33480, "code": "33642", "name": "\u5ba1\u8ba1\u5b66", "avg": 0.0, "count": 0}, {"id": 34513, "code": "34675", "name": "\u8d22\u52a1\u62a5\u544a\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 29101, "code": "29263", "name": "\u8d22\u52a1\u6570\u636e\u5206\u6790\u4e0e\u51b3\u7b56\u5b9e\u52a1\u63a2\u7a76(1)", "avg": 0.0, "count": 0}, {"id": 9340, "code": "9339", "name": "\u8ba1\u7b97\u673a\u7f51\u7edc\u524d\u6cbf\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 10077, "code": "10076", "name": "\u6d1e\u6089\u652f\u67f1\u4ea7\u4e1a\u7cfb\u5217\u8bfe\u7a0b - \u4e2d\u56fd\u623f\u5730\u4ea7\u4e1a", "avg": 0.0, "count": 0}, {"id": 5664, "code": "5663", "name": "\u8d22\u52a1\u62a5\u8868\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 35868, "code": "35867", "name": "\u5ba1\u8ba1\u7406\u8bba\u4e0e\u5b9e\u52a1", "avg": 0.0, "count": 0}, {"id": 36661, "code": "36660", "name": "\u4eba\u5de5\u667a\u80fd\u4e0e\u4f01\u4e1a\u4ef7\u503c", "avg": 0.0, "count": 0}, {"id": 9375, "code": "9374", "name": "\u4e0b\u4e00\u4ee3\u4e92\u8054\u7f51", "avg": 1.0, "count": 1}, {"id": 28580, "code": "28742", "name": "\u8f6f\u4ef6\u5de5\u7a0b", "avg": 4.0, "count": 1}, {"id": 32526, "code": "32688", "name": "\u5ba1\u8ba1\u4e0e\u98ce\u9669\u8bc4\u4f30", "avg": 5.0, "count": 1}]}
+{
+    "tid": "2849",
+    "name": "李丹",
+    "related_courses": [
+        {
+            "id": 13891,
+            "code": "13899",
+            "name": "财务报表分析（英）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26503,
+            "code": "26665",
+            "name": "文献综述与选题报告",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26504,
+            "code": "26666",
+            "name": "专业实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27365,
+            "code": "27527",
+            "name": "会计专题研讨课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28172,
+            "code": "28334",
+            "name": "会计实践专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7284,
+            "code": "7283",
+            "name": "审计学(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29718,
+            "code": "29880",
+            "name": "大数据与财务管理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31881,
+            "code": "32043",
+            "name": "管理案例研究与分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32738,
+            "code": "32900",
+            "name": "中国ESG前沿模式探究系列课程（一）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33480,
+            "code": "33642",
+            "name": "审计学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34513,
+            "code": "34675",
+            "name": "财务报告分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29101,
+            "code": "29263",
+            "name": "财务数据分析与决策实务探究(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9340,
+            "code": "9339",
+            "name": "计算机网络前沿研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10077,
+            "code": "10076",
+            "name": "洞悉支柱产业系列课程 - 中国房地产业",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5664,
+            "code": "5663",
+            "name": "财务报表分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 35868,
+            "code": "35867",
+            "name": "审计理论与实务",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36661,
+            "code": "36660",
+            "name": "人工智能与企业价值",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9375,
+            "code": "9374",
+            "name": "下一代互联网",
+            "avg": 1.0,
+            "count": 1
+        },
+        {
+            "id": 28580,
+            "code": "28742",
+            "name": "软件工程",
+            "avg": 4.0,
+            "count": 1
+        },
+        {
+            "id": 32526,
+            "code": "32688",
+            "name": "审计与风险评估",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

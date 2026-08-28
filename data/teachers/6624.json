@@ -1,1 +1,20 @@
-{"tid": "6624", "name": "\u949f\u632f\u632f", "related_courses": [{"id": 29021, "code": "29183", "name": "\u53e4\u5178\u8bd7\u8bcd\u9605\u8bfb\u4e0e\u9274\u8d4f", "avg": 0.0, "count": 0}, {"id": 29020, "code": "29182", "name": "\u8bd7\u8bcd\u683c\u5f8b\u4e0e\u521b\u4f5c", "avg": 4.6, "count": 8}]}
+{
+    "tid": "6624",
+    "name": "钟振振",
+    "related_courses": [
+        {
+            "id": 29021,
+            "code": "29183",
+            "name": "古典诗词阅读与鉴赏",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29020,
+            "code": "29182",
+            "name": "诗词格律与创作",
+            "avg": 4.4,
+            "count": 5
+        }
+    ]
+}

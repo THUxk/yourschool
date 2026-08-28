@@ -1,1 +1,48 @@
-{"tid": "363", "name": "\u53f6\u96c4\u82f1", "related_courses": [{"id": 799, "code": "798", "name": "\u5fae/\u7eb3\u673a\u7535\u7cfb\u7edf\uff0d\u5947\u5999\u7684\u5fae\u5c0f\u4e16\u754c", "avg": 0.0, "count": 0}, {"id": 14667, "code": "14675", "name": "\u5fae\u578b\u673a\u7535\u7cfb\u7edf\u524d\u6cbf", "avg": 0.0, "count": 0}, {"id": 21201, "code": "21226", "name": "\u5fae\u673a\u7535\u7cfb\u7edf\u8bbe\u8ba1\u6848\u4f8b\u5206\u6790\u7814\u8ba8", "avg": 0.0, "count": 0}, {"id": 23490, "code": "23620", "name": "\u5fae\u7c73/\u7eb3\u7c73\u6280\u672f\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 415, "code": "414", "name": "\u5fae\u7c73/\u7eb3\u7c73\u6280\u672f\u6982\u8bba", "avg": 0.0, "count": 0}, {"id": 5722, "code": "5721", "name": "\u5fae\u7c73\u7eb3\u7c73\u6280\u672f\u4e0e\u4eea\u5668", "avg": 3.5, "count": 2}]}
+{
+    "tid": "363",
+    "name": "叶雄英",
+    "related_courses": [
+        {
+            "id": 799,
+            "code": "798",
+            "name": "微/纳机电系统－奇妙的微小世界",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14667,
+            "code": "14675",
+            "name": "微型机电系统前沿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21201,
+            "code": "21226",
+            "name": "微机电系统设计案例分析研讨",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23490,
+            "code": "23620",
+            "name": "微米/纳米技术基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 415,
+            "code": "414",
+            "name": "微米/纳米技术概论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5722,
+            "code": "5721",
+            "name": "微米纳米技术与仪器",
+            "avg": 3,
+            "count": 1
+        }
+    ]
+}

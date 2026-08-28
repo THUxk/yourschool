@@ -1,1 +1,27 @@
-{"tid": "1245", "name": "\u8303\u51e4\u82f1", "related_courses": [{"id": 7600, "code": "7599", "name": "\u6838\u5de5\u7a0b\u4e2d\u6fc0\u5149\u5149\u8c31\u6280\u672f", "avg": 0.0, "count": 0}, {"id": 28927, "code": "29089", "name": "\u6587\u732e\u68c0\u7d22\u4e0e\u8bba\u6587\u5199\u4f5c", "avg": 0.0, "count": 0}, {"id": 1642, "code": "1641", "name": "\u6587\u732e\u68c0\u7d22\u4e0e\u5229\u7528(\u7406\u5de5\u7c7b)", "avg": 4.0, "count": 1}]}
+{
+    "tid": "1245",
+    "name": "范凤英",
+    "related_courses": [
+        {
+            "id": 7600,
+            "code": "7599",
+            "name": "核工程中激光光谱技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28927,
+            "code": "29089",
+            "name": "文献检索与论文写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1642,
+            "code": "1641",
+            "name": "文献检索与利用(理工类)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

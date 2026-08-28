@@ -1,1 +1,55 @@
-{"tid": "2466", "name": "\u96cd\u7a33\u5b89", "related_courses": [{"id": 6450, "code": "6449", "name": "\u7ebf\u6027\u4ee3\u6570(1)", "avg": 0.0, "count": 0}, {"id": 18468, "code": "18485", "name": "\u504f\u5fae\u5206\u65b9\u7a0bII", "avg": 0.0, "count": 0}, {"id": 25821, "code": "25982", "name": "\u975e\u7ebf\u6027\u53cc\u66f2\u504f\u5fae\u5206\u65b9\u7a0b", "avg": 0.0, "count": 0}, {"id": 4402, "code": "4401", "name": "\u504f\u5fae\u5206\u65b9\u7a0b", "avg": 0.0, "count": 0}, {"id": 38677, "code": "", "name": "\u6570\u503c\u5206\u6790", "avg": 0.0, "count": 0}, {"id": 36503, "code": "36502", "name": "\u6570\u503c\u5206\u6790A", "avg": 0.0, "count": 0}, {"id": 26118, "code": "26280", "name": "\u5fae\u79ef\u5206B(1)", "avg": 3.7, "count": 3}]}
+{
+    "tid": "2466",
+    "name": "雍稳安",
+    "related_courses": [
+        {
+            "id": 6450,
+            "code": "6449",
+            "name": "线性代数(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18468,
+            "code": "18485",
+            "name": "偏微分方程II",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25821,
+            "code": "25982",
+            "name": "非线性双曲偏微分方程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4402,
+            "code": "4401",
+            "name": "偏微分方程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38677,
+            "code": "",
+            "name": "数值分析",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36503,
+            "code": "36502",
+            "name": "数值分析A",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26118,
+            "code": "26280",
+            "name": "微积分B(1)",
+            "avg": 3,
+            "count": 1
+        }
+    ]
+}

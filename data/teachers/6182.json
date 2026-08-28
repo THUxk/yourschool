@@ -1,1 +1,55 @@
-{"tid": "6182", "name": "\u738b\u6d77\u4e1c", "related_courses": [{"id": 27019, "code": "27181", "name": "\u5de5\u7a0b\u5b9e\u9a8c\u79d1\u5b66\u53ca\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 29338, "code": "29500", "name": "\u4f20\u70ed\u5b66", "avg": 0.0, "count": 0}, {"id": 30268, "code": "30430", "name": "\u4f4e\u7ef4\u6750\u6599\u7684\u5148\u8fdb\u5236\u5907\u65b9\u6cd5\u53ca\u5176\u6d4b\u91cf\u539f\u7406", "avg": 0.0, "count": 0}, {"id": 25923, "code": "26085", "name": "\u79d1\u6280\u82f1\u8bed\u5b9e\u8df5\u8bfe", "avg": 0.0, "count": 0}, {"id": 38819, "code": "", "name": "\u70ed\u53c2\u6570\u8fd1\u4ee3\u6d4b\u8bd5\u6280\u672f", "avg": 0.0, "count": 0}, {"id": 36544, "code": "36543", "name": "\u4f20\u70ed\u7406\u8bba\u65b0\u8fdb\u5c55", "avg": 0.0, "count": 0}, {"id": 32905, "code": "33067", "name": "\u5de5\u7a0b\u70ed\u529b\u5b66", "avg": 5.0, "count": 1}]}
+{
+    "tid": "6182",
+    "name": "王海东",
+    "related_courses": [
+        {
+            "id": 27019,
+            "code": "27181",
+            "name": "工程实验科学及设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29338,
+            "code": "29500",
+            "name": "传热学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30268,
+            "code": "30430",
+            "name": "低维材料的先进制备方法及其测量原理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25923,
+            "code": "26085",
+            "name": "科技英语实践课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38819,
+            "code": "",
+            "name": "热参数近代测试技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36544,
+            "code": "36543",
+            "name": "传热理论新进展",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32905,
+            "code": "33067",
+            "name": "工程热力学",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

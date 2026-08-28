@@ -1,5 +1,5 @@
 {
-  "count": 4,
+  "count": 3,
   "next": null,
   "previous": null,
   "results": [
@@ -16,13 +16,6 @@
       "comment": "考核方式：小组展示+期末考试\n\n授课质量与给分：上课没有激情，给分很一般\n\n点评人：\n\n上课学期：",
       "created_at": "2025/06/27 19:16",
       "score": "B+"
-    },
-    {
-      "id": 204,
-      "rating": 3,
-      "comment": "上课喜欢讲自己的故事，喜欢让同学回答问题。",
-      "created_at": "2024/07/21 13:29",
-      "score": null
     },
     {
       "id": 3667,

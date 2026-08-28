@@ -1,5 +1,5 @@
 {
-  "count": 7,
+  "count": 6,
   "next": null,
   "previous": null,
   "results": [
@@ -43,13 +43,6 @@
       "rating": 5,
       "comment": "考核方式：\n没有作业。没有考勤。只有结课时的一个 15min 小组 pre。\n授课质量与给分：\n老师的确在认真讲课，如果想听还是可以收获东西的。并且老师很幽默，你可以听到人生观分享和实验室奇谈。\n点评人：Cucumber\n上课学期：2024 秋",
       "created_at": "2024/12/07 15:34",
-      "score": null
-    },
-    {
-      "id": 669,
-      "rating": 5,
-      "comment": "讲一些氧化物知识，和最后的展示没关系，pf课",
-      "created_at": "2024/07/21 17:08",
       "score": null
     }
   ]

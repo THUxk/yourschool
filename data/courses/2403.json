@@ -1,5 +1,5 @@
 {
-  "count": 21,
+  "count": 20,
   "next": null,
   "previous": null,
   "results": [
@@ -134,13 +134,6 @@
       "rating": 4,
       "comment": "考核方式：讲课很搞笑，动作丰富\n\n授课质量与给分：建议自学\n\n点评人：\n\n上课学期：2016年秋",
       "created_at": "2024/07/25 23:41",
-      "score": null
-    },
-    {
-      "id": 512,
-      "rating": 5,
-      "comment": "对于零基础还是有难度的，尤其是大作业。不过讲课内容很有意思，期末考试只占30分，相对友好",
-      "created_at": "2024/07/21 16:10",
       "score": null
     },
     {

@@ -1,1 +1,132 @@
-{"tid": "1418", "name": "\u8d75\u5343\u5ddd", "related_courses": [{"id": 3418, "code": "3417", "name": "\u673a\u5668\u4eba\u6280\u672f\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5(1)", "avg": 0.0, "count": 0}, {"id": 4358, "code": "4357", "name": "\u7ebf\u6027\u63a7\u5236\u7cfb\u7edf\u5de5\u7a0b", "avg": 0.0, "count": 0}, {"id": 7048, "code": "7047", "name": "\u673a\u5668\u4eba\u6280\u672f\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5(3)", "avg": 0.0, "count": 0}, {"id": 14666, "code": "14674", "name": "\u63a7\u5236\u5de5\u7a0b\u4e13\u9898\u7814\u7a76\u8bfe", "avg": 0.0, "count": 0}, {"id": 15797, "code": "15805", "name": "\u79bb\u6563\u4e8b\u4ef6\u52a8\u6001\u7cfb\u7edf", "avg": 0.0, "count": 0}, {"id": 16342, "code": "16356", "name": "\u81ea\u52a8\u63a7\u5236\u7406\u8bba(2)", "avg": 0.0, "count": 0}, {"id": 21738, "code": "21763", "name": "\u590d\u6742\u7cfb\u7edf\u6027\u80fd\u8bc4\u4ef7\u548c\u4f18\u5316", "avg": 0.0, "count": 0}, {"id": 25032, "code": "25192", "name": "\u673a\u5668\u4eba\u6280\u672f\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5(2)", "avg": 0.0, "count": 0}, {"id": 26264, "code": "26426", "name": "\u81ea\u52a8\u63a7\u5236\u7406\u8bba", "avg": 0.0, "count": 0}, {"id": 27220, "code": "27382", "name": "\u673a\u5668\u4eba\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5(1)", "avg": 0.0, "count": 0}, {"id": 27677, "code": "27839", "name": "\u7535\u5b50\u7cfb\u7edf\u8bbe\u8ba1\u7efc\u5408\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 28038, "code": "28200", "name": "\u673a\u5668\u4eba\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5(2)", "avg": 0.0, "count": 0}, {"id": 28394, "code": "28556", "name": "\u667a\u80fd\u673a\u5668\u4eba\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 29909, "code": "30071", "name": "\u673a\u5668\u4eba\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5\uff08\u8bbe\u8ba1\u65b9\u6cd5\uff09", "avg": 0.0, "count": 0}, {"id": 3416, "code": "3415", "name": "\u673a\u5668\u4eba\u6280\u672f\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 30501, "code": "30663", "name": "\u673a\u5668\u4eba\u4e13\u4e1a\u521b\u65b0\u5b9e\u8df5\uff08\u539f\u578b\u5236\u4f5c\uff09", "avg": 0.0, "count": 0}, {"id": 1925, "code": "1924", "name": "\u7ebf\u6027\u7cfb\u7edf\u7406\u8bba", "avg": 0.0, "count": 0}, {"id": 3629, "code": "3628", "name": "\u81ea\u52a8\u63a7\u5236\u7406\u8bba(1)", "avg": 4.0, "count": 1}]}
+{
+    "tid": "1418",
+    "name": "赵千川",
+    "related_courses": [
+        {
+            "id": 3418,
+            "code": "3417",
+            "name": "机器人技术专业创新实践(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4358,
+            "code": "4357",
+            "name": "线性控制系统工程",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7048,
+            "code": "7047",
+            "name": "机器人技术专业创新实践(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14666,
+            "code": "14674",
+            "name": "控制工程专题研究课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 15797,
+            "code": "15805",
+            "name": "离散事件动态系统",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16342,
+            "code": "16356",
+            "name": "自动控制理论(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21738,
+            "code": "21763",
+            "name": "复杂系统性能评价和优化",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25032,
+            "code": "25192",
+            "name": "机器人技术专业创新实践(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26264,
+            "code": "26426",
+            "name": "自动控制理论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27220,
+            "code": "27382",
+            "name": "机器人专业创新实践(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27677,
+            "code": "27839",
+            "name": "电子系统设计综合实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28038,
+            "code": "28200",
+            "name": "机器人专业创新实践(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28394,
+            "code": "28556",
+            "name": "智能机器人专业创新实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29909,
+            "code": "30071",
+            "name": "机器人专业创新实践（设计方法）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3416,
+            "code": "3415",
+            "name": "机器人技术专业创新实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30501,
+            "code": "30663",
+            "name": "机器人专业创新实践（原型制作）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1925,
+            "code": "1924",
+            "name": "线性系统理论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 3629,
+            "code": "3628",
+            "name": "自动控制理论(1)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

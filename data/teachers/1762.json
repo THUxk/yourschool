@@ -1,1 +1,55 @@
-{"tid": "1762", "name": "\u674e\u9707", "related_courses": [{"id": 29977, "code": "30139", "name": "\u300a\u5e84\u5b50\u300b\u7814\u8bfb", "avg": 0.0, "count": 0}, {"id": 30336, "code": "30498", "name": "\u9b4f\u664b\u7384\u5b66\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 9344, "code": "9343", "name": "\u70ed\u7269\u7406\u91cf\u6d4b\u6280\u672f", "avg": 0.0, "count": 0}, {"id": 33954, "code": "34116", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 34684, "code": "34846", "name": "\u884c\u5065\u4e66\u9662\u4e13\u4e1a\u5b66\u4e60\u6307\u5f15", "avg": 0.0, "count": 0}, {"id": 2725, "code": "2724", "name": "\u5de5\u7a0b\u70ed\u529b\u5b66", "avg": 4.0, "count": 1}, {"id": 30551, "code": "30713", "name": "\u4e2d\u56fd\u54f2\u5b66\uff081\uff09", "avg": 4.7, "count": 3}]}
+{
+    "tid": "1762",
+    "name": "李震",
+    "related_courses": [
+        {
+            "id": 29977,
+            "code": "30139",
+            "name": "《庄子》研读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30336,
+            "code": "30498",
+            "name": "魏晋玄学研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9344,
+            "code": "9343",
+            "name": "热物理量测技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33954,
+            "code": "34116",
+            "name": "思政实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34684,
+            "code": "34846",
+            "name": "行健书院专业学习指引",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2725,
+            "code": "2724",
+            "name": "工程热力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30551,
+            "code": "30713",
+            "name": "中国哲学（1）",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

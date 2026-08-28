@@ -1,5 +1,5 @@
 {
-  "count": 7,
+  "count": 6,
   "next": null,
   "previous": null,
   "results": [
@@ -37,13 +37,6 @@
       "comment": "讲课最烂 but给分最好的课\n很可能一学期混下来啥都没学会但是能拿4.0\n2024年了还在教MFC也是没谁了\n不过看在批发4.0的份上也不算太差",
       "created_at": "2024/07/23 15:11",
       "score": "A+"
-    },
-    {
-      "id": 636,
-      "rating": 3,
-      "comment": "上课是录课，但作业量给分都很好",
-      "created_at": "2024/07/21 16:57",
-      "score": null
     },
     {
       "id": 3765,

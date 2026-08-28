@@ -1,1 +1,48 @@
-{"tid": "6753", "name": "\u5f90\u94ed\u62e5", "related_courses": [{"id": 31073, "code": "31235", "name": "\u6bdb\u6cfd\u4e1c\u601d\u60f3\u548c\u4e2d\u56fd\u7279\u8272\u793e\u4f1a\u4e3b\u4e49\u7406\u8bba\u4f53\u7cfb\u6982\u8bba(2)", "avg": 0.0, "count": 0}, {"id": 31336, "code": "31498", "name": "\u5b66\u751f\u793e\u4f1a\u5de5\u4f5c\u6982\u8bba\uff08\u63d0\u9ad8\u73ed\uff09", "avg": 0.0, "count": 0}, {"id": 31391, "code": "31553", "name": "\u4e2d\u56fd\u6587\u5316\u4e0e\u4e2d\u56fd\u56fd\u60c5\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 32093, "code": "32255", "name": "\u4e2d\u56fd\u6587\u5316\u4e0e\u4e2d\u56fd\u56fd\u60c5\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 29917, "code": "30079", "name": "\u5927\u5b66\u751f\u521b\u65b0\u521b\u4e1a\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 30507, "code": "30669", "name": "\u5b66\u751f\u793e\u4f1a\u5de5\u4f5c\u6982\u8bba", "avg": 5.0, "count": 1}]}
+{
+    "tid": "6753",
+    "name": "徐铭拥",
+    "related_courses": [
+        {
+            "id": 31073,
+            "code": "31235",
+            "name": "毛泽东思想和中国特色社会主义理论体系概论(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31336,
+            "code": "31498",
+            "name": "学生社会工作概论（提高班）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31391,
+            "code": "31553",
+            "name": "中国文化与中国国情（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32093,
+            "code": "32255",
+            "name": "中国文化与中国国情（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29917,
+            "code": "30079",
+            "name": "大学生创新创业基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30507,
+            "code": "30669",
+            "name": "学生社会工作概论",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

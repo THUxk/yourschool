@@ -1,1 +1,104 @@
-{"tid": "3558", "name": "\u8c22\u4e39", "related_courses": [{"id": 13042, "code": "13048", "name": "\u82f1\u8bed\uff08\u7b2c\u4e00\u5916\u56fd\u8bed\uff09", "avg": 0.0, "count": 0}, {"id": 26121, "code": "26283", "name": "\u7ebf\u6027\u4ee3\u6570\uff08\u7406\u79d1\u7c7b\uff09", "avg": 0.0, "count": 0}, {"id": 29301, "code": "29463", "name": "\u91cf\u5b50\u529b\u5b66\u7684\u6570\u5b66\u65b9\u6cd5", "avg": 0.0, "count": 0}, {"id": 29878, "code": "30040", "name": "\u673a\u5668\u5b66\u4e60\u7684\u6570\u5b66\u539f\u7406", "avg": 0.0, "count": 0}, {"id": 30697, "code": "30859", "name": "\u91cf\u5b50\u529b\u5b66", "avg": 0.0, "count": 0}, {"id": 31655, "code": "31817", "name": "\u6570\u5b66\u7814\u8ba8\u8bfe\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 34506, "code": "34668", "name": "\u9ece\u66fc\u66f2\u9762", "avg": 0.0, "count": 0}, {"id": 10277, "code": "10277", "name": "\u5fae\u7eb3\u7535\u5b50\u6750\u6599\u5668\u4ef6\u5206\u6790\u6280\u672f", "avg": 0.0, "count": 0}, {"id": 34507, "code": "34669", "name": "\u7fa4\u8868\u793a\u7406\u8bba", "avg": 0.0, "count": 0}, {"id": 9651, "code": "9650", "name": "\u65b0\u578b\u6709\u673a\u7535\u5b50\u5668\u4ef6", "avg": 0.0, "count": 0}, {"id": 38581, "code": "", "name": "\u62bd\u8c61\u4ee3\u6570", "avg": 0.0, "count": 0}, {"id": 36934, "code": "36933", "name": "\u601d\u653f\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 37559, "code": "37558", "name": "\u5206\u6790\u529b\u5b66", "avg": 0.0, "count": 0}, {"id": 32272, "code": "32434", "name": "\u7ebf\u6027\u4ee3\u6570", "avg": 3.7, "count": 3}]}
+{
+    "tid": "3558",
+    "name": "谢丹",
+    "related_courses": [
+        {
+            "id": 13042,
+            "code": "13048",
+            "name": "英语（第一外国语）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26121,
+            "code": "26283",
+            "name": "线性代数（理科类）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29301,
+            "code": "29463",
+            "name": "量子力学的数学方法",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29878,
+            "code": "30040",
+            "name": "机器学习的数学原理",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30697,
+            "code": "30859",
+            "name": "量子力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31655,
+            "code": "31817",
+            "name": "数学研讨课（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34506,
+            "code": "34668",
+            "name": "黎曼曲面",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10277,
+            "code": "10277",
+            "name": "微纳电子材料器件分析技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34507,
+            "code": "34669",
+            "name": "群表示理论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 9651,
+            "code": "9650",
+            "name": "新型有机电子器件",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38581,
+            "code": "",
+            "name": "抽象代数",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36934,
+            "code": "36933",
+            "name": "思政实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37559,
+            "code": "37558",
+            "name": "分析力学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32272,
+            "code": "32434",
+            "name": "线性代数",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

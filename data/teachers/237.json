@@ -1,1 +1,83 @@
-{"tid": "237", "name": "\u4e07\u4fca\u4eba", "related_courses": [{"id": 9491, "code": "9490", "name": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2", "avg": 0.0, "count": 0}, {"id": 16613, "code": "16630", "name": "\u5f53\u4ee3\u9053\u5fb7\u95ee\u9898\u63a2\u8ba8", "avg": 0.0, "count": 0}, {"id": 18603, "code": "18620", "name": "\u897f\u65b9\u4f26\u7406\u5b66\u7814\u7a76\uff08\u542b\u73b0\u5f53\u4ee3\uff09", "avg": 0.0, "count": 0}, {"id": 18767, "code": "18784", "name": "\u7ecf\u6d4e\u4f26\u7406\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 20324, "code": "20348", "name": "\u653f\u6cbb\u4f26\u7406\u7814\u7a76", "avg": 0.0, "count": 0}, {"id": 21394, "code": "21419", "name": "\u4eba\u6587\u793e\u4f1a\u79d1\u5b66\u5bfc\u8bba", "avg": 0.0, "count": 0}, {"id": 23597, "code": "23727", "name": "\u897f\u65b9\u4f26\u7406\u5b66\u539f\u8457\u9009\u8bfb", "avg": 0.0, "count": 0}, {"id": 23624, "code": "23754", "name": "\u516c\u5171\u653f\u7b56\u7684\u4f26\u7406\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 30172, "code": "30334", "name": "\u54f2\u5b66\u7ecf\u5178\u4e0e\u4e13\u9898\u7814\u8ba8\u73ed\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 266, "code": "265", "name": "\u653f\u6cbb\u54f2\u5b66\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 4772, "code": "4771", "name": "\u653f\u6cbb\u54f2\u5b66\u539f\u7406", "avg": 5.0, "count": 2}]}
+{
+    "tid": "237",
+    "name": "万俊人",
+    "related_courses": [
+        {
+            "id": 9491,
+            "code": "9490",
+            "name": "西方伦理学史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16613,
+            "code": "16630",
+            "name": "当代道德问题探讨",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18603,
+            "code": "18620",
+            "name": "西方伦理学研究（含现当代）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18767,
+            "code": "18784",
+            "name": "经济伦理研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20324,
+            "code": "20348",
+            "name": "政治伦理研究",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 21394,
+            "code": "21419",
+            "name": "人文社会科学导论",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23597,
+            "code": "23727",
+            "name": "西方伦理学原著选读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23624,
+            "code": "23754",
+            "name": "公共政策的伦理基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30172,
+            "code": "30334",
+            "name": "哲学经典与专题研讨班（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 266,
+            "code": "265",
+            "name": "政治哲学基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4772,
+            "code": "4771",
+            "name": "政治哲学原理",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

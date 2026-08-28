@@ -1,1 +1,13 @@
-{"tid": "6512", "name": "\u5218\u5929\u9a84", "related_courses": [{"id": 28276, "code": "28438", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 5, "count": 8}]}
+{
+    "tid": "6512",
+    "name": "刘天骄",
+    "related_courses": [
+        {
+            "id": 28276,
+            "code": "28438",
+            "name": "写作与沟通",
+            "avg": 5,
+            "count": 6
+        }
+    ]
+}

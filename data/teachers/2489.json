@@ -1,1 +1,62 @@
-{"tid": "2489", "name": "\u4e25\u7a0b", "related_courses": [{"id": 10539, "code": "10540", "name": "\u4e2d\u56fd\u53e4\u4ee3\u8bd7\u6b4c\u9009\u8bfb", "avg": 0.0, "count": 0}, {"id": 10563, "code": "10564", "name": "\u4e2d\u56fd\u53e4\u5178\u8bd7\u8bcd\u9274\u8d4f", "avg": 0.0, "count": 0}, {"id": 12563, "code": "12566", "name": "\u4e2d\u56fd\u53e4\u5178\u6563\u6587\u8bf5\u8bfb", "avg": 0.0, "count": 0}, {"id": 25258, "code": "25418", "name": "\u4e2d\u56fd\u53e4\u4ee3\u6587\u5b66\u4f5c\u54c1\u9009\u8bfb(1)", "avg": 0.0, "count": 0}, {"id": 30120, "code": "30282", "name": "\u6570\u5b57\u4eba\u6587", "avg": 0.0, "count": 0}, {"id": 38291, "code": "", "name": "\u793e\u4f1a\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 35532, "code": "35531", "name": "\u4e2d\u56fd\u53e4\u4ee3\u6587\u5b66\u7406\u8bba\u6279\u8bc4", "avg": 0.0, "count": 0}, {"id": 4472, "code": "4471", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 5.0, "count": 8}]}
+{
+    "tid": "2489",
+    "name": "严程",
+    "related_courses": [
+        {
+            "id": 10539,
+            "code": "10540",
+            "name": "中国古代诗歌选读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 10563,
+            "code": "10564",
+            "name": "中国古典诗词鉴赏",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12563,
+            "code": "12566",
+            "name": "中国古典散文诵读",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25258,
+            "code": "25418",
+            "name": "中国古代文学作品选读(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30120,
+            "code": "30282",
+            "name": "数字人文",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38291,
+            "code": "",
+            "name": "社会实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 35532,
+            "code": "35531",
+            "name": "中国古代文学理论批评",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4472,
+            "code": "4471",
+            "name": "写作与沟通",
+            "avg": 5,
+            "count": 4
+        }
+    ]
+}

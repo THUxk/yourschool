@@ -1,1 +1,97 @@
-{"tid": "2368", "name": "\u5218\u5411\u950b", "related_courses": [{"id": 12720, "code": "12723", "name": "\u673a\u68b0\u8bbe\u8ba1\u7efc\u5408\u5b9e\u8df5B", "avg": 0.0, "count": 0}, {"id": 12732, "code": "12735", "name": "\u673a\u68b0\u8bbe\u8ba1\u7efc\u5408\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 12734, "code": "12737", "name": "\u673a\u68b0\u8bbe\u8ba1\u7efc\u5408\u5b9e\u8df5C", "avg": 0.0, "count": 0}, {"id": 16561, "code": "16578", "name": "\u673a\u68b0\u8bbe\u8ba1\u8bfe\u7a0b\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 4385, "code": "4384", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840A(2)", "avg": 0.0, "count": 0}, {"id": 24376, "code": "24529", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840\u8bfe\u7a0b\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 24741, "code": "24898", "name": "\u673a\u68b0\u8bbe\u8ba1\u7efc\u5408\u5b9e\u8df5A", "avg": 0.0, "count": 0}, {"id": 25839, "code": "26000", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840B(3)", "avg": 0.0, "count": 0}, {"id": 23404, "code": "23534", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840A", "avg": 0.0, "count": 0}, {"id": 4120, "code": "4119", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840A(3)", "avg": 0.0, "count": 0}, {"id": 36357, "code": "36356", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 36393, "code": "36392", "name": "\u673a\u68b0\u8bbe\u8ba1\u5236\u9020\u7efc\u5408\u5b9e\u8df5", "avg": 0.0, "count": 0}, {"id": 20030, "code": "20054", "name": "\u673a\u68b0\u8bbe\u8ba1\u57fa\u7840B(2)", "avg": 4.0, "count": 1}]}
+{
+    "tid": "2368",
+    "name": "刘向锋",
+    "related_courses": [
+        {
+            "id": 12720,
+            "code": "12723",
+            "name": "机械设计综合实践B",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12732,
+            "code": "12735",
+            "name": "机械设计综合训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12734,
+            "code": "12737",
+            "name": "机械设计综合实践C",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16561,
+            "code": "16578",
+            "name": "机械设计课程设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4385,
+            "code": "4384",
+            "name": "机械设计基础A(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 24376,
+            "code": "24529",
+            "name": "机械设计基础课程设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 24741,
+            "code": "24898",
+            "name": "机械设计综合实践A",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25839,
+            "code": "26000",
+            "name": "机械设计基础B(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 23404,
+            "code": "23534",
+            "name": "机械设计基础A",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4120,
+            "code": "4119",
+            "name": "机械设计基础A(3)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36357,
+            "code": "36356",
+            "name": "机械设计基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36393,
+            "code": "36392",
+            "name": "机械设计制造综合实践",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 20030,
+            "code": "20054",
+            "name": "机械设计基础B(2)",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

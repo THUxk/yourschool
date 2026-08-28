@@ -1,1 +1,55 @@
-{"tid": "6068", "name": "\u66f9\u664b", "related_courses": [{"id": 26275, "code": "26437", "name": "\u62d3\u6251\u5b66", "avg": 0.0, "count": 0}, {"id": 28432, "code": "28594", "name": "\u6982\u7387\u8bba\u4e0e\u6570\u7406\u7edf\u8ba1(\u793e\u79d1\u7c7b)", "avg": 0.0, "count": 0}, {"id": 30832, "code": "30994", "name": "\u692d\u5706\u51fd\u6570", "avg": 0.0, "count": 0}, {"id": 33553, "code": "33715", "name": "\u52a8\u673a\u7406\u8bba\u7b80\u4ecb", "avg": 0.0, "count": 0}, {"id": 24973, "code": "25133", "name": "\u5927\u5b66\u6570\u5b66(4)(\u793e\u79d1\u7c7b)", "avg": 0.0, "count": 0}, {"id": 27721, "code": "27883", "name": "\u7ebf\u6027\u4ee3\u6570", "avg": 4.3, "count": 3}, {"id": 29933, "code": "30095", "name": "\u9ad8\u7b49\u7ebf\u6027\u4ee3\u6570\u9009\u8bb2", "avg": 5.0, "count": 1}]}
+{
+    "tid": "6068",
+    "name": "曹晋",
+    "related_courses": [
+        {
+            "id": 26275,
+            "code": "26437",
+            "name": "拓扑学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28432,
+            "code": "28594",
+            "name": "概率论与数理统计(社科类)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30832,
+            "code": "30994",
+            "name": "椭圆函数",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33553,
+            "code": "33715",
+            "name": "动机理论简介",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 24973,
+            "code": "25133",
+            "name": "大学数学(4)(社科类)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27721,
+            "code": "27883",
+            "name": "线性代数",
+            "avg": 4,
+            "count": 1
+        },
+        {
+            "id": 29933,
+            "code": "30095",
+            "name": "高等线性代数选讲",
+            "avg": 5.0,
+            "count": 1
+        }
+    ]
+}

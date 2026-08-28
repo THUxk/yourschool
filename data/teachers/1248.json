@@ -1,1 +1,104 @@
-{"tid": "1248", "name": "\u5f20\u6d9b", "related_courses": [{"id": 5232, "code": "5231", "name": "\u4eba\u5de5\u667a\u80fd\uff0d\uff0d\u79d1\u6280\u4e0e\u4ea7\u4e1a\u53d1\u5c55\u65b0\u52a8\u529b", "avg": 0.0, "count": 0}, {"id": 5275, "code": "5274", "name": "\u98de\u884c\u63a7\u5236\u7cfb\u7edf", "avg": 0.0, "count": 0}, {"id": 8013, "code": "8012", "name": "\u65b0\u95fb\u6444\u5f71", "avg": 0.0, "count": 0}, {"id": 11104, "code": "11105", "name": "\u8ba1\u7b97\u673a\u7f51\u7edc\u4e0e\u591a\u5a92\u4f53\u6280\u672f\u5b9e\u9a8c\u4e0e\u8bbe\u8ba1", "avg": 0.0, "count": 0}, {"id": 2369, "code": "2368", "name": "\u65b0\u751f\u5bfc\u5f15\u8bfe", "avg": 0.0, "count": 0}, {"id": 18481, "code": "18498", "name": "\u73b0\u4ee3\u8fd0\u52a8\u63a7\u5236\u7406\u8bba\u4e0e\u6280\u672f", "avg": 0.0, "count": 0}, {"id": 27030, "code": "27192", "name": "\u65b0\u751f\u4e13\u9898\u7814\u8ba8", "avg": 0.0, "count": 0}, {"id": 31554, "code": "31716", "name": "\u65b0\u751f\u4e13\u9898\u7814\u8ba8(1)", "avg": 0.0, "count": 0}, {"id": 14056, "code": "14064", "name": "\u6570\u5b57\u7535\u5b50\u6280\u672f\u57fa\u7840", "avg": 0.0, "count": 0}, {"id": 2383, "code": "2382", "name": "\u6570\u5b57\u7535\u5b50\u6280\u672f\u57fa\u7840C", "avg": 0.0, "count": 0}, {"id": 1645, "code": "1644", "name": "\u667a\u80fd\u673a\u5668\u4eba\u521d\u63a2", "avg": 0.0, "count": 0}, {"id": 38863, "code": "", "name": "\u5177\u8eab\u667a\u80fd\u4e0e\u673a\u5668\u4eba", "avg": 0.0, "count": 0}, {"id": 26837, "code": "26999", "name": "\u667a\u80fd\u673a\u5668\u4eba", "avg": 4.0, "count": 1}, {"id": 31413, "code": "31575", "name": "\u5199\u4f5c\u4e0e\u6c9f\u901a", "avg": 4.5, "count": 2}]}
+{
+    "tid": "1248",
+    "name": "张涛",
+    "related_courses": [
+        {
+            "id": 5232,
+            "code": "5231",
+            "name": "人工智能－－科技与产业发展新动力",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5275,
+            "code": "5274",
+            "name": "飞行控制系统",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8013,
+            "code": "8012",
+            "name": "新闻摄影",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 11104,
+            "code": "11105",
+            "name": "计算机网络与多媒体技术实验与设计",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2369,
+            "code": "2368",
+            "name": "新生导引课",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 18481,
+            "code": "18498",
+            "name": "现代运动控制理论与技术",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27030,
+            "code": "27192",
+            "name": "新生专题研讨",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31554,
+            "code": "31716",
+            "name": "新生专题研讨(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14056,
+            "code": "14064",
+            "name": "数字电子技术基础",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2383,
+            "code": "2382",
+            "name": "数字电子技术基础C",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1645,
+            "code": "1644",
+            "name": "智能机器人初探",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 38863,
+            "code": "",
+            "name": "具身智能与机器人",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26837,
+            "code": "26999",
+            "name": "智能机器人",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31413,
+            "code": "31575",
+            "name": "写作与沟通",
+            "avg": 4.5,
+            "count": 2
+        }
+    ]
+}

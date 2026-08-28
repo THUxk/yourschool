@@ -1,1 +1,13 @@
-{"tid": "2450", "name": "\u674e\u5fc5\u6770", "related_courses": [{"id": 4354, "code": "4353", "name": "\u6709\u673a\u5316\u5b66B", "avg": 4.4, "count": 5}]}
+{
+    "tid": "2450",
+    "name": "李必杰",
+    "related_courses": [
+        {
+            "id": 4354,
+            "code": "4353",
+            "name": "有机化学B",
+            "avg": 5,
+            "count": 2
+        }
+    ]
+}

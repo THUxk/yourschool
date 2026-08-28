@@ -1,1 +1,62 @@
-{"tid": "6331", "name": "\u5f20\u9f0e\u65b0", "related_courses": [{"id": 28589, "code": "28751", "name": "\u62d3\u6251\u5b66", "avg": 0.0, "count": 0}, {"id": 27857, "code": "28019", "name": "\u62bd\u8c61\u4ee3\u6570", "avg": 0.0, "count": 0}, {"id": 32022, "code": "32184", "name": "\u4ee3\u6570-0", "avg": 0.0, "count": 0}, {"id": 33619, "code": "33781", "name": "\u504f\u5c48\u5c42", "avg": 0.0, "count": 0}, {"id": 34472, "code": "34634", "name": "\u4ee3\u6570\u51e0\u4f55\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 29935, "code": "30097", "name": "\u9ad8\u7b49\u7ebf\u6027\u4ee3\u6570\u9009\u8bb2", "avg": 0.0, "count": 0}, {"id": 26907, "code": "27069", "name": "\u7ebf\u6027\u4ee3\u6570(2)", "avg": 0.0, "count": 0}, {"id": 29219, "code": "29381", "name": "\u7ebf\u6027\u4ee3\u6570", "avg": 4.0, "count": 4}]}
+{
+    "tid": "6331",
+    "name": "张鼎新",
+    "related_courses": [
+        {
+            "id": 28589,
+            "code": "28751",
+            "name": "拓扑学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27857,
+            "code": "28019",
+            "name": "抽象代数",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 32022,
+            "code": "32184",
+            "name": "代数-0",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33619,
+            "code": "33781",
+            "name": "偏屈层",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34472,
+            "code": "34634",
+            "name": "代数几何（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29935,
+            "code": "30097",
+            "name": "高等线性代数选讲",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26907,
+            "code": "27069",
+            "name": "线性代数(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29219,
+            "code": "29381",
+            "name": "线性代数",
+            "avg": 5,
+            "count": 1
+        }
+    ]
+}

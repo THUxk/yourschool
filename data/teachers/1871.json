@@ -1,1 +1,48 @@
-{"tid": "1871", "name": "\u5bc7\u4f1a\u5fe0", "related_courses": [{"id": 11838, "code": "11839", "name": "\u5927\u5b66\u5316\u5b66A", "avg": 0.0, "count": 0}, {"id": 12383, "code": "12384", "name": "\u914d\u4f4d\u5316\u5b66", "avg": 0.0, "count": 0}, {"id": 14089, "code": "14097", "name": "\u65e0\u673a\u5316\u5b66\u5b9e\u9a8cA(2)", "avg": 0.0, "count": 0}, {"id": 2909, "code": "2908", "name": "\u5927\u5b66\u5316\u5b66B", "avg": 3.5, "count": 4}, {"id": 6566, "code": "6565", "name": "\u65e0\u673a\u4e0e\u5206\u6790\u5316\u5b66", "avg": 5.0, "count": 4}, {"id": 34145, "code": "34307", "name": "\u5316\u5b66\u539f\u7406", "avg": 5.0, "count": 6}]}
+{
+    "tid": "1871",
+    "name": "寇会忠",
+    "related_courses": [
+        {
+            "id": 11838,
+            "code": "11839",
+            "name": "大学化学A",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 12383,
+            "code": "12384",
+            "name": "配位化学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 14089,
+            "code": "14097",
+            "name": "无机化学实验A(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2909,
+            "code": "2908",
+            "name": "大学化学B",
+            "avg": 3,
+            "count": 2
+        },
+        {
+            "id": 6566,
+            "code": "6565",
+            "name": "无机与分析化学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34145,
+            "code": "34307",
+            "name": "化学原理",
+            "avg": 5.0,
+            "count": 6
+        }
+    ]
+}

@@ -1,1 +1,27 @@
-{"tid": "6306", "name": "\u9a6c\u6653\u8def", "related_courses": [{"id": 26961, "code": "27123", "name": "\u610f\u5927\u5229\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 29272, "code": "29434", "name": "\u610f\u5927\u5229\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff083\uff09", "avg": 0.0, "count": 0}, {"id": 26793, "code": "26955", "name": "\u610f\u5927\u5229\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff081\uff09", "avg": 5, "count": 4}]}
+{
+    "tid": "6306",
+    "name": "马晓路",
+    "related_courses": [
+        {
+            "id": 26961,
+            "code": "27123",
+            "name": "意大利语（第二外国语）（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 29272,
+            "code": "29434",
+            "name": "意大利语（第二外国语）（3）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26793,
+            "code": "26955",
+            "name": "意大利语（第二外国语）（1）",
+            "avg": 5,
+            "count": 2
+        }
+    ]
+}

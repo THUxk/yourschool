@@ -1,1 +1,76 @@
-{"tid": "1101", "name": "TACHIBANA AKIRA", "related_courses": [{"id": 7197, "code": "7196", "name": "\u65e5\u8bed\u5199\u4f5c(2)", "avg": 0.0, "count": 0}, {"id": 7494, "code": "7493", "name": "\u65e5\u672c\u53e4\u4ee3\u6587\u5b66", "avg": 0.0, "count": 0}, {"id": 25130, "code": "25290", "name": "\u65e5\u8bed\u5b9e\u7528\u5199\u4f5c", "avg": 0.0, "count": 0}, {"id": 26386, "code": "26548", "name": "\u8de8\u6587\u5316\u4ea4\u9645\uff081\uff09", "avg": 0.0, "count": 0}, {"id": 4895, "code": "4894", "name": "\u65e5\u8bed\u7cbe\u8bfb(2)", "avg": 0.0, "count": 0}, {"id": 5136, "code": "5135", "name": "\u65e5\u8bed\u542c\u8bf4(2)", "avg": 0.0, "count": 0}, {"id": 1423, "code": "1422", "name": "\u4e00\u5916\u65e5\u8bed(2)", "avg": 0.0, "count": 0}, {"id": 36252, "code": "36251", "name": "\u65e5\u8bed(\u7b2c\u4e8c\u5916\u56fd\u8bed)(4)", "avg": 0.0, "count": 0}, {"id": 26225, "code": "26387", "name": "\u65e5\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff083\uff09", "avg": 4.0, "count": 1}, {"id": 26751, "code": "26913", "name": "\u65e5\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff082\uff09", "avg": 3.5, "count": 2}]}
+{
+    "tid": "1101",
+    "name": "TACHIBANA AKIRA",
+    "related_courses": [
+        {
+            "id": 7197,
+            "code": "7196",
+            "name": "日语写作(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 7494,
+            "code": "7493",
+            "name": "日本古代文学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 25130,
+            "code": "25290",
+            "name": "日语实用写作",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26386,
+            "code": "26548",
+            "name": "跨文化交际（1）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 4895,
+            "code": "4894",
+            "name": "日语精读(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 5136,
+            "code": "5135",
+            "name": "日语听说(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1423,
+            "code": "1422",
+            "name": "一外日语(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 36252,
+            "code": "36251",
+            "name": "日语(第二外国语)(4)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 26225,
+            "code": "26387",
+            "name": "日语（第二外国语）（3）",
+            "avg": 4.0,
+            "count": 1
+        },
+        {
+            "id": 26751,
+            "code": "26913",
+            "name": "日语（第二外国语）（2）",
+            "avg": 3,
+            "count": 1
+        }
+    ]
+}

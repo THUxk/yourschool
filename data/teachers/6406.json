@@ -1,1 +1,20 @@
-{"tid": "6406", "name": "\u5ed6\u6021\u7136", "related_courses": [{"id": 27802, "code": "27964", "name": "\u8461\u8404\u7259\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 27483, "code": "27645", "name": "\u8461\u8404\u7259\u8bed\uff08\u7b2c\u4e8c\u5916\u56fd\u8bed\uff09\uff081\uff09", "avg": 4.4, "count": 5}]}
+{
+    "tid": "6406",
+    "name": "廖怡然",
+    "related_courses": [
+        {
+            "id": 27802,
+            "code": "27964",
+            "name": "葡萄牙语（第二外国语）（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 27483,
+            "code": "27645",
+            "name": "葡萄牙语（第二外国语）（1）",
+            "avg": 4.25,
+            "count": 4
+        }
+    ]
+}

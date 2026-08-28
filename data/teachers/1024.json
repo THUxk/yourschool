@@ -1,1 +1,97 @@
-{"tid": "1024", "name": "\u738b\u975e", "related_courses": [{"id": 7085, "code": "7084", "name": "\u6587\u5316\u5fc3\u7406\u5b66", "avg": 0.0, "count": 0}, {"id": 8901, "code": "8900", "name": "\u4eba\u683c\u5fc3\u7406\u5b66\u4e13\u9898", "avg": 0.0, "count": 0}, {"id": 30762, "code": "30924", "name": "\u524d\u6cbf\u521b\u65b0\u7814\u7a76\uff1a\u793e\u4f1a\u60c5\u611f\u667a\u80fd(1)", "avg": 0.0, "count": 0}, {"id": 31694, "code": "31856", "name": "\u524d\u6cbf\u521b\u65b0\u7814\u7a76\uff1a\u793e\u4f1a\u60c5\u611f\u667a\u80fd(2)", "avg": 0.0, "count": 0}, {"id": 33236, "code": "33398", "name": "\u793e\u4f1a\u5fc3\u7406\u5b66", "avg": 0.0, "count": 0}, {"id": 33415, "code": "33577", "name": "\u79ef\u6781\u5fc3\u7406\u5b66", "avg": 0.0, "count": 0}, {"id": 1673, "code": "1672", "name": "\u5fc3\u7406\u5b66\u53f2", "avg": 0.0, "count": 0}, {"id": 34645, "code": "34807", "name": "\u5fc3\u667a\u4e0e\u793e\u4f1a", "avg": 0.0, "count": 0}, {"id": 1311, "code": "1310", "name": "\u4eba\u683c\u5fc3\u7406\u5b66", "avg": 0.0, "count": 0}, {"id": 39022, "code": "", "name": "\u5fc3\u7406\u5b66\u524d\u6cbf", "avg": 0.0, "count": 0}, {"id": 35690, "code": "35689", "name": "\u524d\u6cbf\u521b\u65b0\u7814\u7a76\uff1a\u793e\u4f1a\u5e94\u7528\u667a\u80fd(2)", "avg": 0.0, "count": 0}, {"id": 37730, "code": "37729", "name": "\u667a\u80fd\u65f6\u4ee3\u7684\u793e\u4f1a\u4e0e\u5065\u5eb7\u5fc3\u7406\u5b66\uff1a\u673a\u9047\u4e0e\u6311\u6218", "avg": 0.0, "count": 0}, {"id": 28485, "code": "28647", "name": "\u5fc3\u7406\u5b66\u7684\u89c6\u89d2", "avg": 4.8, "count": 4}]}
+{
+    "tid": "1024",
+    "name": "王非",
+    "related_courses": [
+        {
+            "id": 7085,
+            "code": "7084",
+            "name": "文化心理学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8901,
+            "code": "8900",
+            "name": "人格心理学专题",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30762,
+            "code": "30924",
+            "name": "前沿创新研究：社会情感智能(1)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 31694,
+            "code": "31856",
+            "name": "前沿创新研究：社会情感智能(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33236,
+            "code": "33398",
+            "name": "社会心理学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33415,
+            "code": "33577",
+            "name": "积极心理学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1673,
+            "code": "1672",
+            "name": "心理学史",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 34645,
+            "code": "34807",
+            "name": "心智与社会",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 1311,
+            "code": "1310",
+            "name": "人格心理学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 39022,
+            "code": "",
+            "name": "心理学前沿",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 35690,
+            "code": "35689",
+            "name": "前沿创新研究：社会应用智能(2)",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 37730,
+            "code": "37729",
+            "name": "智能时代的社会与健康心理学：机遇与挑战",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 28485,
+            "code": "28647",
+            "name": "心理学的视角",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}

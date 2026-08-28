@@ -1,1 +1,27 @@
-{"tid": "6770", "name": "\u51af\u9896\u6770", "related_courses": [{"id": 30395, "code": "30557", "name": "\u9ad8\u7ea7\u8ba1\u91cf\u7ecf\u6d4e\u5b66II", "avg": 0.0, "count": 0}, {"id": 33593, "code": "33755", "name": "\u5e94\u7528\u5fae\u89c2\u8ba1\u91cf\u7ecf\u6d4e\u5b66", "avg": 0.0, "count": 0}, {"id": 30041, "code": "30203", "name": "\u8ba1\u91cf\u7ecf\u6d4e\u5b66\uff081\uff09", "avg": 4.0, "count": 3}]}
+{
+    "tid": "6770",
+    "name": "冯颖杰",
+    "related_courses": [
+        {
+            "id": 30395,
+            "code": "30557",
+            "name": "高级计量经济学II",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 33593,
+            "code": "33755",
+            "name": "应用微观计量经济学",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 30041,
+            "code": "30203",
+            "name": "计量经济学（1）",
+            "avg": 4,
+            "count": 2
+        }
+    ]
+}

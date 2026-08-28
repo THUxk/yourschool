@@ -1,1 +1,41 @@
-{"tid": "1693", "name": "\u5b59\u7532\u677e", "related_courses": [{"id": 8805, "code": "8804", "name": "\u6570\u636e\u5e93", "avg": 0.0, "count": 0}, {"id": 16771, "code": "16788", "name": "C++\u7a0b\u5e8f\u8bbe\u8ba1\u4e0e\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 2545, "code": "2544", "name": "\u8ba1\u7b97\u673a\u7a0b\u5e8f\u8bbe\u8ba1\u57fa\u7840\uff082\uff09", "avg": 0.0, "count": 0}, {"id": 8806, "code": "8805", "name": "\u8ba1\u7b97\u673a\u7a0b\u5e8f\u8bbe\u8ba1\u57fa\u7840\uff081\uff09", "avg": 4.0, "count": 3}, {"id": 17209, "code": "17226", "name": "\u8ba1\u7b97\u673a\u8bed\u8a00\u4e0e\u7a0b\u5e8f\u8bbe\u8ba1", "avg": 4.0, "count": 1}]}
+{
+    "tid": "1693",
+    "name": "孙甲松",
+    "related_courses": [
+        {
+            "id": 8805,
+            "code": "8804",
+            "name": "数据库",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 16771,
+            "code": "16788",
+            "name": "C++程序设计与训练",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 2545,
+            "code": "2544",
+            "name": "计算机程序设计基础（2）",
+            "avg": 0.0,
+            "count": 0
+        },
+        {
+            "id": 8806,
+            "code": "8805",
+            "name": "计算机程序设计基础（1）",
+            "avg": 4.0,
+            "count": 3
+        },
+        {
+            "id": 17209,
+            "code": "17226",
+            "name": "计算机语言与程序设计",
+            "avg": 0.0,
+            "count": 0
+        }
+    ]
+}
