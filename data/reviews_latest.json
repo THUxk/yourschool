@@ -1,5 +1,17 @@
 [
   {
+    "id": 3867,
+    "course": {
+      "id": 27064
+    },
+    "rating": 5,
+    "comment": "完全是宝宝",
+    "created_at": "2026/09/03 21:05",
+    "score": null,
+    "_course_name": "浮雕胸像",
+    "_course_teacher": "王轶男"
+  },
+  {
     "id": 3866,
     "course": {
       "id": 9445
@@ -1186,17 +1198,5 @@
     "score": null,
     "_course_name": "微积分(2)",
     "_course_teacher": "杨利军"
-  },
-  {
-    "id": 3767,
-    "course": {
-      "id": 27758
-    },
-    "rating": 4,
-    "comment": "考核方式：\n              \n授课质量与给分：\n              \n点评人：\n              \n上课学期：25-26春\n很好的老师，上课幽默同时干货很多。但任务量相比于别的写沟课程很大，15周末才通知16周要pre ，压力很大",
-    "created_at": "2026/07/12 16:35",
-    "score": "4.0",
-    "_course_name": "写作与沟通",
-    "_course_teacher": "耿弘明"
   }
 ]
