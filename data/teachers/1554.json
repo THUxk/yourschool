@@ -1,1 +1,83 @@
-{"tid": "1554", "name": "\u5f20\u6d77\u71d5", "related_courses": [{"id": 11928, "code": "11929", "name": "\u7efc\u5408\u8bba\u6587\u8bad\u7ec3", "avg": 0.0, "count": 0}, {"id": 14703, "code": "14711", "name": "\u7a0e\u5236\u4e0e\u7a0e\u52a1", "avg": 0.0, "count": 0}, {"id": 16640, "code": "16657", "name": "\u7ba1\u7406\u4f1a\u8ba1", "avg": 0.0, "count": 0}, {"id": 26842, "code": "27004", "name": "\u4e2d\u7ea7\u8d22\u52a1\u4f1a\u8ba1", "avg": 0.0, "count": 0}, {"id": 6065, "code": "6064", "name": "\u7ba1\u7406\u4f1a\u8ba1(1)", "avg": 0.0, "count": 0}, {"id": 31131, "code": "31293", "name": "\u8d22\u52a1\u6570\u636e\u5206\u6790\u4e0e\u51b3\u7b56\u5b9e\u52a1\u63a2\u7a76(2)", "avg": 0.0, "count": 0}, {"id": 31556, "code": "31718", "name": "\u65b0\u751f\u4e13\u9898\u7814\u8ba8(2)", "avg": 0.0, "count": 0}, {"id": 33221, "code": "33383", "name": "\u65b0\u751f\u4e13\u9898\u7814\u8ba8(1)", "avg": 0.0, "count": 0}, {"id": 30963, "code": "31125", "name": "\u7ba1\u7406\u4f1a\u8ba1\u4e13\u9898\u62a5\u544a", "avg": 0.0, "count": 0}, {"id": 2232, "code": "2231", "name": "\u4f1a\u8ba1\u5b9e\u4e60", "avg": 0.0, "count": 0}, {"id": 8240, "code": "8239", "name": "\u4f1a\u8ba1\u5b66\u539f\u7406", "avg": 5.0, "count": 1}]}
+{
+  "tid": "1554",
+  "name": "张海燕",
+  "related_courses": [
+    {
+      "id": 11928,
+      "code": "11929",
+      "name": "综合论文训练",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 14703,
+      "code": "14711",
+      "name": "税制与税务",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 16640,
+      "code": "16657",
+      "name": "管理会计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 26842,
+      "code": "27004",
+      "name": "中级财务会计",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 6065,
+      "code": "6064",
+      "name": "管理会计(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 31131,
+      "code": "31293",
+      "name": "财务数据分析与决策实务探究(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 31556,
+      "code": "31718",
+      "name": "新生专题研讨(2)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 33221,
+      "code": "33383",
+      "name": "新生专题研讨(1)",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 30963,
+      "code": "31125",
+      "name": "管理会计专题报告",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 2232,
+      "code": "2231",
+      "name": "会计实习",
+      "avg": 0.0,
+      "count": 0
+    },
+    {
+      "id": 8240,
+      "code": "8239",
+      "name": "会计学原理",
+      "avg": 5,
+      "count": 2
+    }
+  ]
+}
