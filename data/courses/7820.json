@@ -1,5 +1,5 @@
 {
-  "count": 20,
+  "count": 21,
   "next": null,
   "previous": null,
   "results": [
@@ -141,6 +141,13 @@
       "rating": 5,
       "comment": "考核方式：\n              \n授课质量与给分：\n              \n点评人：\n              \n上课学期：",
       "created_at": "2026/09/07 12:46",
+      "score": null
+    },
+    {
+      "id": 3885,
+      "rating": 5,
+      "comment": "考核方式：\n              \n授课质量与给分：\n              \n点评人：不是串子\n              \n上课学期：",
+      "created_at": "2026/09/07 12:47",
       "score": null
     }
   ]
