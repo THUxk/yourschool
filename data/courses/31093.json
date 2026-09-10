@@ -1,5 +1,5 @@
 {
-  "count": 4,
+  "count": 5,
   "next": null,
   "previous": null,
   "results": [
@@ -30,6 +30,13 @@
       "comment": "考核方式：几次作业+whiteboard problem\n              \n授课质量与给分：5\n              \n点评人：赵什\n              \n上课学期：2026春\n\n关于绩点：vibe一下作业，注意完成whiteboard problem/coding lab，不胡闹都是4.0\n关于老师：顾老师人超好，对同学极其热情，上课会发小零食\n关于课程：顾老师上课特点就是讲不完，又是纯英语，实际能学到多少见仁见智",
       "created_at": "2026/09/05 17:06",
       "score": "A-"
+    },
+    {
+      "id": 3891,
+      "rating": 5,
+      "comment": "考核方式：5次课后作业+whiteboard problem+coding lab\n              \n授课质量与给分：\n给分这一块，只要把最基本的任务完成了，直接拿下4.0；上课必有小零食/水果，虽然说是回答问题的同学可以优先领取，但是下课后都被如狼似虎的大家瓜分了（\n（半）英文授课，不过经常讲不完课……\n总体而言给到夯爆了\n              \n点评人：Akira\n              \n上课学期：26年春",
+      "created_at": "2026/09/10 11:59",
+      "score": "4.0"
     }
   ]
 }
