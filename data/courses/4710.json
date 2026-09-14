@@ -1,5 +1,5 @@
 {
-  "count": 5,
+  "count": 6,
   "next": null,
   "previous": null,
   "results": [
@@ -37,6 +37,13 @@
       "comment": "作业多到爆，但是能让你从完全不会练得明明白白",
       "created_at": "2026/08/12 18:21",
       "score": null
+    },
+    {
+      "id": 3916,
+      "rating": 5,
+      "comment": "考核方式：前人之述备矣\n              \n授课质量与给分：杨老师的课件适合自学。给分期末统考，似乎有向上的微微调。\n              \n点评人：匿名\n              \n上课学期：25-26 Fall",
+      "created_at": "2026/09/14 17:32",
+      "score": "A-"
     }
   ]
 }
