@@ -1,5 +1,17 @@
 [
   {
+    "id": 3930,
+    "course": {
+      "id": 38425
+    },
+    "rating": 3,
+    "comment": "考核方式：60％论文＋pre，40％辩论＋课堂参与\n              \n授课质量与给分：前八周上课，第一周课发的材料开头明确写到：\n“Prerequisites: Students should know basic finance concepts such as NPV, portfolio diversification, and the CAPM. Students without prior knowledge on these concepts might find difficult to follow a small portion of the class .”\n且老师以前只教过研究生，今年第一次给本科生开课，因此只建议相关专业或对相关领域有较多了解的同学选课。不过老师讲课也挺有意思的，旁听一下了解一下相关知识也不错。\n第二周开始每节课一次辩论（5V5），提前给定辩题。\n主要为中文授课，英语占比不少，不过辩论还是中文。\n              \n点评人：zh\n              \n上课学期：2026-2027-autumn",
+    "created_at": "2026/09/15 14:33",
+    "score": "W",
+    "_course_name": "心理、行为与金融",
+    "_course_teacher": "安砾"
+  },
+  {
     "id": 3929,
     "course": {
       "id": 25898
@@ -1186,17 +1198,5 @@
     "score": "A-",
     "_course_name": "大学物理B(1)",
     "_course_teacher": "周树云"
-  },
-  {
-    "id": 3830,
-    "course": {
-      "id": 26070
-    },
-    "rating": 5,
-    "comment": "考核方式：期末闭卷考试\n              \n授课质量与给分：深入浅出，本人硬生生被掰成文科生，神无需多言。期末考试会根据专业背景调分。btw欢迎前往北京大学博雅堂书店朝圣。\n              \n点评人：满地可\n              \n上课学期：2025秋",
-    "created_at": "2026/08/07 12:59",
-    "score": "A-",
-    "_course_name": "现当代社会学思想",
-    "_course_teacher": "李康"
   }
 ]
