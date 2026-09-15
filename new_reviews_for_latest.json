@@ -1,14 +1,14 @@
 [
   {
-    "id": 3929,
+    "id": 3930,
     "course": {
-      "id": 25898
+      "id": 38425
     },
-    "rating": 1,
-    "comment": "考核方式：作业15%＋期中35%＋期末50%\n              \n授课质量与给分：授课质量一坨，配上早八，很适合睡觉\n              \n点评人：水木的神\n              \n上课学期：就这么说，第一次上课，120多人全到你可能觉得有点挤，不要慌，因为以后上课人数撑死不到40，早八最高记录18人（学长亲记）。\n上课的也没人听，就是自学\n上了一学期，考不过自学，一节没去的同学。习题课也是shi，助教能够半小时念完80多页的PPT（神来了可以跟上）\n对于物理基础不好，不自律的同学，准备好挂科，甚至C等级吧\n水木大军致敬传奇戴松涛，致敬传奇大学物理CE",
-    "created_at": "2026/09/15 14:19",
-    "score": null,
-    "_course_name": "大学物理CE",
-    "_course_teacher": "戴松涛"
+    "rating": 3,
+    "comment": "考核方式：60％论文＋pre，40％辩论＋课堂参与\n              \n授课质量与给分：前八周上课，第一周课发的材料开头明确写到：\n“Prerequisites: Students should know basic finance concepts such as NPV, portfolio diversification, and the CAPM. Students without prior knowledge on these concepts might find difficult to follow a small portion of the class .”\n且老师以前只教过研究生，今年第一次给本科生开课，因此只建议相关专业或对相关领域有较多了解的同学选课。不过老师讲课也挺有意思的，旁听一下了解一下相关知识也不错。\n第二周开始每节课一次辩论（5V5），提前给定辩题。\n主要为中文授课，英语占比不少，不过辩论还是中文。\n              \n点评人：zh\n              \n上课学期：2026-2027-autumn",
+    "created_at": "2026/09/15 14:33",
+    "score": "W",
+    "_course_name": "心理、行为与金融",
+    "_course_teacher": "安砾"
   }
 ]
