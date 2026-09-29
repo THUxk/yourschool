@@ -10,7 +10,7 @@
 
 // 配置常量
 const CONFIG = {
-  API_BASE: "https://api.yourschool.cc.cd",
+  API_BASE: "https://api.thubook.help",
   RAW_BASE: "/data/",
   PAGE_SIZES: [10, 20, 50],
 };

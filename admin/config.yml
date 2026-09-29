@@ -2,7 +2,7 @@ backend:
   name: github
   repo: THUxk/thubook
   branch: main
-  base_url: https://api.yourschool.cc.cd
+  base_url: https://api.thubook.help
   auth_endpoint: /auth
   commit_messages:
     create: "CMS: 创建 {{collection}} {{slug}}"
