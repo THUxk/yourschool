@@ -24,13 +24,8 @@ collections:
     label_singular: "页面"
     folder: "src"
     create: true
-    filter:
-      field: filename
-      pattern: /^(?!专题|其他|校内生活设施|老乡在清华|assets)/
     editor:
       preview: true
-    pagination:
-      limit: 5
     fields:
       - label: "内容"
         name: "body"
@@ -45,8 +40,6 @@ collections:
     create: true
     editor:
       preview: true
-    pagination:
-      limit: 5
     fields:
       - label: "内容"
         name: "body"
@@ -61,8 +54,6 @@ collections:
     create: true
     editor:
       preview: true
-    pagination:
-      limit: 5
     fields:
       - label: "内容"
         name: "body"
@@ -77,8 +68,6 @@ collections:
     create: true
     editor:
       preview: true
-    pagination:
-      limit: 5
     fields:
       - label: "内容"
         name: "body"
@@ -93,8 +82,6 @@ collections:
     create: true
     editor:
       preview: true
-    pagination:
-      limit: 5
     fields:
       - label: "内容"
         name: "body"
