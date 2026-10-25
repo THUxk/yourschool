@@ -1,5 +1,17 @@
 [
   {
+    "id": 3973,
+    "course": {
+      "id": 25907
+    },
+    "rating": 1,
+    "comment": "考核方式：\n              期末论文\n授课质量与给分：\n              讲的不怎么的，念PPT，唯一好一点的是可以疯狂摸鱼\n              期末论文90%，给分很不好\n点评人：\n              匿名\n上课学期：2025秋",
+    "created_at": "2026/10/25 11:38",
+    "score": null,
+    "_course_name": "简明世界环境史",
+    "_course_teacher": "包茂红"
+  },
+  {
     "id": 3972,
     "course": {
       "id": 34218
@@ -1186,17 +1198,5 @@
     "score": "A",
     "_course_name": "影视欣赏",
     "_course_teacher": "刘宁"
-  },
-  {
-    "id": 3873,
-    "course": {
-      "id": 2405
-    },
-    "rating": 5,
-    "comment": "考核方式：\n              \n授课质量与给分：\n              \n点评人：\n              \n上课学期：",
-    "created_at": "2026/09/04 18:09",
-    "score": null,
-    "_course_name": "计算机语言与程序设计",
-    "_course_teacher": "刘连臣"
   }
 ]
