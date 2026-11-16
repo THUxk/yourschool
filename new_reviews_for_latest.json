@@ -1,14 +1,14 @@
 [
   {
-    "id": 3984,
+    "id": 3985,
     "course": {
-      "id": 443
+      "id": 34137
     },
-    "rating": 5,
-    "comment": "考核方式：pre\n              \n授课质量与给分：5\n              \n点评人：🐧\n              \n上课学期：26秋\n\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb\nnbnbnb",
-    "created_at": "2026/11/15 13:20",
-    "score": "P",
-    "_course_name": "神奇的氧化物",
-    "_course_teacher": "沈洋"
+    "rating": 1,
+    "comment": "考核方式：考试 pre reprort\n              \n授课质量与给分：上课啥也不讲 要求所有人自学，最好别选\n              \n点评人：\n              \n上课学期：",
+    "created_at": "2026/11/16 21:29",
+    "score": null,
+    "_course_name": "大学物理(2)(英)",
+    "_course_teacher": "梁田"
   }
 ]
