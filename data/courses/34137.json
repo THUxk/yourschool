@@ -1,5 +1,5 @@
 {
-  "count": 2,
+  "count": 3,
   "next": null,
   "previous": null,
   "results": [
@@ -16,6 +16,13 @@
       "comment": "考核方式：\n\n授课质量与给分：非常好的老师绝对不调分批发2.0+\n\n点评人：\n\n上课学期：",
       "created_at": "2025/06/17 19:24",
       "score": "2.6"
+    },
+    {
+      "id": 3985,
+      "rating": 1,
+      "comment": "考核方式：考试 pre reprort\n              \n授课质量与给分：上课啥也不讲 要求所有人自学，最好别选\n              \n点评人：\n              \n上课学期：",
+      "created_at": "2026/11/16 21:29",
+      "score": null
     }
   ]
 }
